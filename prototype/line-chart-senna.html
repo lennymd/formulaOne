@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <style>
       body {
-        height: 100vh;
-        /* min-height: 6000px; */
+        height: 100%
       }
     </style>
   </head>
@@ -14,11 +13,13 @@
     <script>
     var margin = { top: 50, right: 40, bottom: 50, left: 40 },
         width = window.innerWidth - margin.left - margin.right,
-        height = window.innerHeight - margin.top - margin.bottom;
+        // height = window.innerHeight - margin.top - margin.bottom;
+        height = 10000 - margin.top - margin.bottom;
 
     var svg = d3.select("body")
                 .append("svg")
                   .attr("width", width + margin.left + margin.right)
+                  // .attr("height", height + margin.top + margin.bottom)
                   .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                   .attr("transform",
@@ -47,19 +48,22 @@
       //do all the visualization things here
       dataset = data;
 
-      xScale = d3.scaleTime()
+      yScale = d3.scaleTime()
                   .domain([
                     d3.min(dataset, function (d) { return d.prixDate; }),
                     d3.max(dataset, function (d) { return d.prixDate; })
                   ])
-                  .range([margin.left, width]);
+                  .range([margin.top, height]);
+                  
              
-      yScale = d3.scaleLinear()
-                  .domain([
-                    d3.min(dataset, function (d) { return d.positionOrder;}),
-                    d3.max(dataset, function (d) { return d.positionOrder;})
-                  ])
-                  .range([margin.top, height + padding]);
+      xScale = d3.scaleLinear()
+                  .domain([1, 21])
+                  // .domain([
+                  //   d3.min(dataset, function (d) { return d.positionOrder;}),
+                  //   d3.max(dataset, function (d) { return d.positionOrder;})
+                  // ])
+                  .range([width/2, margin.left]);
+                  
 
       svg.append("path")
         .datum(dataset)
@@ -67,16 +71,25 @@
         .attr("stroke", "steelblue")
         .attr("stroke-width", 1.5)
         .attr("d", d3.line()
-          .defined(function(d) {return d.positionOrder <= 20;})
-          .x(function (d) { return xScale(d.prixDate) })
-          .y(function (d) { return yScale(d.positionOrder) })
+          // .defined(function(d) {return d.positionOrder <= 20;})
+          .y(function (d) { return yScale(d.prixDate); })
+          .x(function (d) { 
+            if (d.positionOrder > 20) {
+              return xScale(21);
+            }
+            else {
+              return  xScale(d.positionOrder)
+            }
+            })
         )
+      svg
 
       svg.append("g")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(xScale));
+          // .attr("transform", "translate(0," + height + ")")
+          .call(d3.axisTop(xScale).ticks(21).tickSize(-height));
       svg.append("g")
-        .call(d3.axisLeft(yScale));
+          .attr("transform", "translate("+margin.left/2+",0)")
+          .call(d3.axisLeft(yScale).ticks(dataset.length));
         
         
     });
