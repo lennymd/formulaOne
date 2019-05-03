@@ -2,11 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Scatter Plot of positions using </title>
-    <script type="text/javascript" src="d3/d3.v4.js"></script>
-
+    
+    <style type="text/css">
+      /* 13. Basic Styling with CSS */
+    
+      /* Style the lines by removing the fill and applying a stroke */
+      .line {
+        fill: none;
+        stroke: #ffab00;
+        stroke-width: 3;
+      }
+    
+      .overlay {
+        fill: none;
+        pointer-events: all;
+      }
+    
+      /* Style the dots by assigning a fill and stroke */
+      .dot {
+        fill: #ffab00;
+        stroke: #fff;
+      }
+    
+      .focus circle {
+        fill: none;
+        stroke: steelblue;
+      }
+    </style>
   </head>
-  <body>
 
-  </body>
+
+  <body>
+    <script src="d3/d3.v5.js"></script>
+    <script>
+      var margin = { top: 50, right: 50, bottom: 50, left: 50 }
+          , width = window.innerWidth - margin.left - margin.right // Use the window's width 
+          , height = window.innerHeight - margin.top - margin.bottom; // Use the window's height
+
+      var xScale = d3.scaleLinear()
+          .domain([0, n - 1]) // input
+          .range([0, width]); // output
+          
+    </script>
+    </body>
 </html>

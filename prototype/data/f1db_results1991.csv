@@ -1,540 +1,540 @@
-,raceId2,driverName,grid,positionOrder,points,year,round,prixName
-5149,501,Ayrton Senna,1,1,10.0,1991,1,United States Grand Prix
-5145,501,Alain Prost,2,2,6.0,1991,1,United States Grand Prix
-5156,501,Nelson Piquet,5,3,4.0,1991,1,United States Grand Prix
-5151,501,Stefano Modena,11,4,3.0,1991,1,United States Grand Prix
-10710,501,Satoru Nakajima,16,5,2.0,1991,1,United States Grand Prix
-17604,501,Aguri Suzuki,21,6,1.0,1991,1,United States Grand Prix
-7215,501,Nicola Larini,17,7,0.0,1991,1,United States Grand Prix
-16241,501,Gabriele Tarquini,22,8,0.0,1991,1,United States Grand Prix
-14181,501,Pierluigi Martini,15,9,0.0,1991,1,United States Grand Prix
-14185,501,Bertrand Gachot,14,10,0.0,1991,1,United States Grand Prix
-12312,501,Martin Brundle,12,11,0.0,1991,1,United States Grand Prix
-12177,501,Jean Alesi,6,12,0.0,1991,1,United States Grand Prix
-14177,501,Mika Häkkinen,13,13,0.0,1991,1,United States Grand Prix
-12181,501,Riccardo Patrese,3,14,0.0,1991,1,United States Grand Prix
-20659,501,Roberto Moreno,8,15,0.0,1991,1,United States Grand Prix
-14186,501,Michele Alboreto,25,16,0.0,1991,1,United States Grand Prix
-12186,501,Ivan Capelli,18,17,0.0,1991,1,United States Grand Prix
-14178,501,Thierry Boutsen,20,18,0.0,1991,1,United States Grand Prix
-22117,501,Gerhard Berger,7,19,0.0,1991,1,United States Grand Prix
-12182,501,Nigel Mansell,4,20,0.0,1991,1,United States Grand Prix
-12187,501,Maurício Gugelmin,23,21,0.0,1991,1,United States Grand Prix
-19488,501,Mark Blundell,24,22,0.0,1991,1,United States Grand Prix
-12184,501,Emanuele Pirro,9,23,0.0,1991,1,United States Grand Prix
-12183,501,Gianni Morbidelli,26,24,0.0,1991,1,United States Grand Prix
-12185,501,Jyrki Järvilehto,10,25,0.0,1991,1,United States Grand Prix
-14183,501,Éric Bernard,19,26,0.0,1991,1,United States Grand Prix
-23349,501,Alex Caffi,0,27,0.0,1991,1,United States Grand Prix
-23343,501,Stefan Johansson,0,28,0.0,1991,1,United States Grand Prix
-23342,501,Érik Comas,0,29,0.0,1991,1,United States Grand Prix
-23339,501,Julian Bailey,0,30,0.0,1991,1,United States Grand Prix
-21877,501,Andrea de Cesaris,0,31,0.0,1991,1,United States Grand Prix
-21871,501,Pedro Chaves,0,32,0.0,1991,1,United States Grand Prix
-21879,501,Olivier Grouillard,0,33,0.0,1991,1,United States Grand Prix
-21878,501,Eric van de Poele,0,34,0.0,1991,1,United States Grand Prix
-2338,502,Ayrton Senna,1,1,10.0,1991,2,Brazilian Grand Prix
-2380,502,Riccardo Patrese,2,2,6.0,1991,2,Brazilian Grand Prix
-2339,502,Gerhard Berger,4,3,4.0,1991,2,Brazilian Grand Prix
-2269,502,Alain Prost,6,4,3.0,1991,2,Brazilian Grand Prix
-2412,502,Nelson Piquet,7,5,2.0,1991,2,Brazilian Grand Prix
-2270,502,Jean Alesi,5,6,1.0,1991,2,Brazilian Grand Prix
-9114,502,Roberto Moreno,14,7,0.0,1991,2,Brazilian Grand Prix
-16882,502,Gianni Morbidelli,21,8,0.0,1991,2,Brazilian Grand Prix
-6830,502,Mika Häkkinen,22,9,0.0,1991,2,Brazilian Grand Prix
-6837,502,Thierry Boutsen,18,10,0.0,1991,2,Brazilian Grand Prix
-6846,502,Emanuele Pirro,12,11,0.0,1991,2,Brazilian Grand Prix
-16031,502,Martin Brundle,26,12,0.0,1991,2,Brazilian Grand Prix
-18405,502,Bertrand Gachot,10,13,0.0,1991,2,Brazilian Grand Prix
-11811,502,Nigel Mansell,3,14,0.0,1991,2,Brazilian Grand Prix
-13189,502,Érik Comas,23,15,0.0,1991,2,Brazilian Grand Prix
-19107,502,Pierluigi Martini,20,16,0.0,1991,2,Brazilian Grand Prix
-13176,502,Mark Blundell,25,17,0.0,1991,2,Brazilian Grand Prix
-14425,502,Éric Bernard,11,18,0.0,1991,2,Brazilian Grand Prix
-17923,502,Jyrki Järvilehto,19,19,0.0,1991,2,Brazilian Grand Prix
-13199,502,Andrea de Cesaris,13,20,0.0,1991,2,Brazilian Grand Prix
-11809,502,Stefano Modena,9,21,0.0,1991,2,Brazilian Grand Prix
-7692,502,Ivan Capelli,15,22,0.0,1991,2,Brazilian Grand Prix
-19099,502,Satoru Nakajima,16,23,0.0,1991,2,Brazilian Grand Prix
-23798,502,Maurício Gugelmin,8,24,0.0,1991,2,Brazilian Grand Prix
-19783,502,Gabriele Tarquini,24,25,0.0,1991,2,Brazilian Grand Prix
-22086,502,Aguri Suzuki,17,26,0.0,1991,2,Brazilian Grand Prix
-22857,502,Alex Caffi,0,27,0.0,1991,2,Brazilian Grand Prix
-22850,502,Stefan Johansson,0,28,0.0,1991,2,Brazilian Grand Prix
-22856,502,Michele Alboreto,0,29,0.0,1991,2,Brazilian Grand Prix
-22841,502,Julian Bailey,0,30,0.0,1991,2,Brazilian Grand Prix
-21694,502,Olivier Grouillard,0,31,0.0,1991,2,Brazilian Grand Prix
-21693,502,Eric van de Poele,0,32,0.0,1991,2,Brazilian Grand Prix
-21692,502,Nicola Larini,0,33,0.0,1991,2,Brazilian Grand Prix
-21688,502,Pedro Chaves,0,34,0.0,1991,2,Brazilian Grand Prix
-3292,503,Ayrton Senna,1,1,10.0,1991,3,San Marino Grand Prix
-3293,503,Gerhard Berger,5,2,6.0,1991,3,San Marino Grand Prix
-9744,503,Jyrki Järvilehto,16,3,4.0,1991,3,San Marino Grand Prix
-17175,503,Pierluigi Martini,9,4,3.0,1991,3,San Marino Grand Prix
-6970,503,Mika Häkkinen,25,5,2.0,1991,3,San Marino Grand Prix
-6969,503,Julian Bailey,26,6,1.0,1991,3,San Marino Grand Prix
-6978,503,Thierry Boutsen,24,7,0.0,1991,3,San Marino Grand Prix
-6972,503,Mark Blundell,23,8,0.0,1991,3,San Marino Grand Prix
-14382,503,Eric van de Poele,21,9,0.0,1991,3,San Marino Grand Prix
-16110,503,Érik Comas,19,10,0.0,1991,3,San Marino Grand Prix
-16109,503,Martin Brundle,18,11,0.0,1991,3,San Marino Grand Prix
-13690,503,Maurício Gugelmin,15,12,0.0,1991,3,San Marino Grand Prix
-13683,503,Roberto Moreno,13,13,0.0,1991,3,San Marino Grand Prix
-7749,503,Stefano Modena,6,14,0.0,1991,3,San Marino Grand Prix
-11979,503,Andrea de Cesaris,11,15,0.0,1991,3,San Marino Grand Prix
-19873,503,Bertrand Gachot,13,16,0.0,1991,3,San Marino Grand Prix
-19257,503,Ivan Capelli,22,17,0.0,1991,3,San Marino Grand Prix
-13645,503,Éric Bernard,17,18,0.0,1991,3,San Marino Grand Prix
-17990,503,Riccardo Patrese,2,19,0.0,1991,3,San Marino Grand Prix
-7748,503,Satoru Nakajima,10,20,0.0,1991,3,San Marino Grand Prix
-11974,503,Gianni Morbidelli,8,21,0.0,1991,3,San Marino Grand Prix
-19218,503,Jean Alesi,7,22,0.0,1991,3,San Marino Grand Prix
-19223,503,Aguri Suzuki,20,23,0.0,1991,3,San Marino Grand Prix
-19247,503,Nelson Piquet,14,24,0.0,1991,3,San Marino Grand Prix
-20441,503,Nigel Mansell,4,25,0.0,1991,3,San Marino Grand Prix
-19217,503,Alain Prost,3,26,0.0,1991,3,San Marino Grand Prix
-23105,503,Gabriele Tarquini,0,27,0.0,1991,3,San Marino Grand Prix
-23106,503,Fabrizio Barbazza,0,28,0.0,1991,3,San Marino Grand Prix
-23111,503,Alex Caffi,0,29,0.0,1991,3,San Marino Grand Prix
-23110,503,Michele Alboreto,0,30,0.0,1991,3,San Marino Grand Prix
-21750,503,Emanuele Pirro,0,31,0.0,1991,3,San Marino Grand Prix
-21757,503,Olivier Grouillard,0,32,0.0,1991,3,San Marino Grand Prix
-21756,503,Nicola Larini,0,33,0.0,1991,3,San Marino Grand Prix
-21748,503,Pedro Chaves,0,34,0.0,1991,3,San Marino Grand Prix
-926,504,Ayrton Senna,1,1,10.0,1991,4,Monaco Grand Prix
-971,504,Nigel Mansell,5,2,6.0,1991,4,Monaco Grand Prix
-815,504,Jean Alesi,9,3,4.0,1991,4,Monaco Grand Prix
-8377,504,Roberto Moreno,8,4,3.0,1991,4,Monaco Grand Prix
-8294,504,Alain Prost,7,5,2.0,1991,4,Monaco Grand Prix
-8385,504,Emanuele Pirro,12,6,1.0,1991,4,Monaco Grand Prix
-16518,504,Thierry Boutsen,16,7,0.0,1991,4,Monaco Grand Prix
-16542,504,Bertrand Gachot,23,8,0.0,1991,4,Monaco Grand Prix
-16490,504,Éric Bernard,13,9,0.0,1991,4,Monaco Grand Prix
-16519,504,Érik Comas,26,10,0.0,1991,4,Monaco Grand Prix
-6693,504,Jyrki Järvilehto,21,11,0.0,1991,4,Monaco Grand Prix
-7335,504,Pierluigi Martini,14,12,0.0,1991,4,Monaco Grand Prix
-6251,504,Mika Häkkinen,25,13,0.0,1991,4,Monaco Grand Prix
-11624,504,Gianni Morbidelli,17,14,0.0,1991,4,Monaco Grand Prix
-7459,504,Maurício Gugelmin,15,15,0.0,1991,4,Monaco Grand Prix
-12735,504,Stefano Modena,2,16,0.0,1991,4,Monaco Grand Prix
-18915,504,Riccardo Patrese,3,17,0.0,1991,4,Monaco Grand Prix
-18903,504,Mark Blundell,19,18,0.0,1991,4,Monaco Grand Prix
-12759,504,Michele Alboreto,22,19,0.0,1991,4,Monaco Grand Prix
-18912,504,Satoru Nakajima,11,20,0.0,1991,4,Monaco Grand Prix
-12713,504,Aguri Suzuki,20,21,0.0,1991,4,Monaco Grand Prix
-7460,504,Andrea de Cesaris,10,22,0.0,1991,4,Monaco Grand Prix
-14619,504,Ivan Capelli,18,23,0.0,1991,4,Monaco Grand Prix
-11635,504,Gabriele Tarquini,24,24,0.0,1991,4,Monaco Grand Prix
-18908,504,Gerhard Berger,6,25,0.0,1991,4,Monaco Grand Prix
-19662,504,Nelson Piquet,4,26,0.0,1991,4,Monaco Grand Prix
-22534,504,Julian Bailey,0,27,0.0,1991,4,Monaco Grand Prix
-22653,504,Fabrizio Barbazza,0,28,0.0,1991,4,Monaco Grand Prix
-22658,504,Alex Caffi,0,29,0.0,1991,4,Monaco Grand Prix
-22566,504,Martin Brundle,0,30,0.0,1991,4,Monaco Grand Prix
-21636,504,Nicola Larini,0,31,0.0,1991,4,Monaco Grand Prix
-21637,504,Eric van de Poele,0,32,0.0,1991,4,Monaco Grand Prix
-21629,504,Pedro Chaves,0,33,0.0,1991,4,Monaco Grand Prix
-21638,504,Olivier Grouillard,0,34,0.0,1991,4,Monaco Grand Prix
-1965,505,Nelson Piquet,8,1,10.0,1991,5,Canadian Grand Prix
-1913,505,Stefano Modena,9,2,6.0,1991,5,Canadian Grand Prix
-1927,505,Riccardo Patrese,1,3,4.0,1991,5,Canadian Grand Prix
-1978,505,Andrea de Cesaris,11,4,3.0,1991,5,Canadian Grand Prix
-1979,505,Bertrand Gachot,14,5,2.0,1991,5,Canadian Grand Prix
-17888,505,Nigel Mansell,2,6,1.0,1991,5,Canadian Grand Prix
-8821,505,Pierluigi Martini,18,7,0.0,1991,5,Canadian Grand Prix
-8807,505,Érik Comas,26,8,0.0,1991,5,Canadian Grand Prix
-8830,505,Emanuele Pirro,10,9,0.0,1991,5,Canadian Grand Prix
-16718,505,Satoru Nakajima,12,10,0.0,1991,5,Canadian Grand Prix
-13034,505,Maurício Gugelmin,23,11,0.0,1991,5,Canadian Grand Prix
-13030,505,Jyrki Järvilehto,17,12,0.0,1991,5,Canadian Grand Prix
-7478,505,Stefan Johansson,25,13,0.0,1991,5,Canadian Grand Prix
-13033,505,Ivan Capelli,13,14,0.0,1991,5,Canadian Grand Prix
-12979,505,Jean Alesi,7,15,0.0,1991,5,Canadian Grand Prix
-11736,505,Éric Bernard,19,16,0.0,1991,5,Canadian Grand Prix
-11734,505,Alain Prost,4,17,0.0,1991,5,Canadian Grand Prix
-13012,505,Thierry Boutsen,16,18,0.0,1991,5,Canadian Grand Prix
-23494,505,Ayrton Senna,3,19,0.0,1991,5,Canadian Grand Prix
-19021,505,Mika Häkkinen,24,20,0.0,1991,5,Canadian Grand Prix
-12985,505,Martin Brundle,20,21,0.0,1991,5,Canadian Grand Prix
-19045,505,Gianni Morbidelli,15,22,0.0,1991,5,Canadian Grand Prix
-19728,505,Roberto Moreno,5,23,0.0,1991,5,Canadian Grand Prix
-23531,505,Gerhard Berger,6,24,0.0,1991,5,Canadian Grand Prix
-23858,505,Aguri Suzuki,22,25,0.0,1991,5,Canadian Grand Prix
-7479,505,Michele Alboreto,21,26,0.0,1991,5,Canadian Grand Prix
-22774,505,Fabrizio Barbazza,0,27,0.0,1991,5,Canadian Grand Prix
-22773,505,Gabriele Tarquini,0,28,0.0,1991,5,Canadian Grand Prix
-22742,505,Mark Blundell,0,29,0.0,1991,5,Canadian Grand Prix
-22739,505,Johnny Herbert,0,30,0.0,1991,5,Canadian Grand Prix
-21680,505,Olivier Grouillard,0,31,0.0,1991,5,Canadian Grand Prix
-21678,505,Nicola Larini,0,32,0.0,1991,5,Canadian Grand Prix
-21679,505,Eric van de Poele,0,33,0.0,1991,5,Canadian Grand Prix
-21671,505,Pedro Chaves,0,34,0.0,1991,5,Canadian Grand Prix
-4458,506,Riccardo Patrese,1,1,10.0,1991,6,Mexican Grand Prix
-4459,506,Nigel Mansell,2,2,6.0,1991,6,Mexican Grand Prix
-4447,506,Ayrton Senna,3,3,4.0,1991,6,Mexican Grand Prix
-10296,506,Andrea de Cesaris,11,4,3.0,1991,6,Mexican Grand Prix
-10292,506,Roberto Moreno,9,5,2.0,1991,6,Mexican Grand Prix
-10259,506,Éric Bernard,23,6,1.0,1991,6,Mexican Grand Prix
-10291,506,Gianni Morbidelli,14,7,0.0,1991,6,Mexican Grand Prix
-17402,506,Thierry Boutsen,10,8,0.0,1991,6,Mexican Grand Prix
-17390,506,Mika Häkkinen,24,9,0.0,1991,6,Mexican Grand Prix
-17389,506,Johnny Herbert,25,10,0.0,1991,6,Mexican Grand Prix
-17398,506,Stefano Modena,8,11,0.0,1991,6,Mexican Grand Prix
-7114,506,Satoru Nakajima,13,12,0.0,1991,6,Mexican Grand Prix
-13966,506,Mark Blundell,12,13,0.0,1991,6,Mexican Grand Prix
-19403,506,Bertrand Gachot,20,14,0.0,1991,6,Mexican Grand Prix
-12094,506,Aguri Suzuki,19,15,0.0,1991,6,Mexican Grand Prix
-23920,506,Nelson Piquet,6,16,0.0,1991,6,Mexican Grand Prix
-6545,506,Jean Alesi,4,17,0.0,1991,6,Mexican Grand Prix
-13986,506,Jyrki Järvilehto,16,18,0.0,1991,6,Mexican Grand Prix
-13991,506,Michele Alboreto,26,19,0.0,1991,6,Mexican Grand Prix
-20878,506,Martin Brundle,17,20,0.0,1991,6,Mexican Grand Prix
-13988,506,Ivan Capelli,22,21,0.0,1991,6,Mexican Grand Prix
-23505,506,Alain Prost,7,22,0.0,1991,6,Mexican Grand Prix
-13989,506,Maurício Gugelmin,18,23,0.0,1991,6,Mexican Grand Prix
-13992,506,Olivier Grouillard,21,24,0.0,1991,6,Mexican Grand Prix
-13971,506,Gerhard Berger,5,25,0.0,1991,6,Mexican Grand Prix
-19400,506,Pierluigi Martini,15,26,0.0,1991,6,Mexican Grand Prix
-23244,506,Érik Comas,0,27,0.0,1991,6,Mexican Grand Prix
-23249,506,Gabriele Tarquini,0,28,0.0,1991,6,Mexican Grand Prix
-23255,506,Stefan Johansson,0,29,0.0,1991,6,Mexican Grand Prix
-23250,506,Fabrizio Barbazza,0,30,0.0,1991,6,Mexican Grand Prix
-21815,506,Nicola Larini,0,31,0.0,1991,6,Mexican Grand Prix
-21816,506,Eric van de Poele,0,32,0.0,1991,6,Mexican Grand Prix
-21808,506,Pedro Chaves,0,33,0.0,1991,6,Mexican Grand Prix
-21810,506,Emanuele Pirro,0,34,0.0,1991,6,Mexican Grand Prix
-5203,507,Nigel Mansell,4,1,10.0,1991,7,French Grand Prix
-5157,507,Alain Prost,2,2,6.0,1991,7,French Grand Prix
-5182,507,Ayrton Senna,3,3,4.0,1991,7,French Grand Prix
-5158,507,Jean Alesi,6,4,3.0,1991,7,French Grand Prix
-10727,507,Riccardo Patrese,1,5,2.0,1991,7,French Grand Prix
-10747,507,Andrea de Cesaris,13,6,1.0,1991,7,French Grand Prix
-17626,507,Maurício Gugelmin,9,7,0.0,1991,7,French Grand Prix
-17621,507,Nelson Piquet,7,8,0.0,1991,7,French Grand Prix
-17617,507,Pierluigi Martini,12,9,0.0,1991,7,French Grand Prix
-17607,507,Johnny Herbert,20,10,0.0,1991,7,French Grand Prix
-17613,507,Érik Comas,14,11,0.0,1991,7,French Grand Prix
-7218,507,Thierry Boutsen,16,12,0.0,1991,7,French Grand Prix
-23818,507,Roberto Moreno,8,13,0.0,1991,7,French Grand Prix
-12192,507,Stefano Modena,11,14,0.0,1991,7,French Grand Prix
-6348,507,Olivier Grouillard,21,15,0.0,1991,7,French Grand Prix
-7853,507,Éric Bernard,23,16,0.0,1991,7,French Grand Prix
-23476,507,Jyrki Järvilehto,26,17,0.0,1991,7,French Grand Prix
-19491,507,Mark Blundell,17,18,0.0,1991,7,French Grand Prix
-7852,507,Aguri Suzuki,22,19,0.0,1991,7,French Grand Prix
-12201,507,Michele Alboreto,25,20,0.0,1991,7,French Grand Prix
-12189,507,Martin Brundle,24,21,0.0,1991,7,French Grand Prix
-19492,507,Satoru Nakajima,18,22,0.0,1991,7,French Grand Prix
-20666,507,Gianni Morbidelli,10,23,0.0,1991,7,French Grand Prix
-19508,507,Ivan Capelli,15,24,0.0,1991,7,French Grand Prix
-14194,507,Gerhard Berger,5,25,0.0,1991,7,French Grand Prix
-19509,507,Bertrand Gachot,19,26,0.0,1991,7,French Grand Prix
-23350,507,Mika Häkkinen,0,27,0.0,1991,7,French Grand Prix
-23359,507,Fabrizio Barbazza,0,28,0.0,1991,7,French Grand Prix
-23358,507,Gabriele Tarquini,0,29,0.0,1991,7,French Grand Prix
-23360,507,Stefan Johansson,0,30,0.0,1991,7,French Grand Prix
-21881,507,Emanuele Pirro,0,31,0.0,1991,7,French Grand Prix
-21882,507,Nicola Larini,0,32,0.0,1991,7,French Grand Prix
-21883,507,Eric van de Poele,0,33,0.0,1991,7,French Grand Prix
-21880,507,Pedro Chaves,0,34,0.0,1991,7,French Grand Prix
-162,508,Nigel Mansell,1,1,10.0,1991,8,British Grand Prix
-118,508,Gerhard Berger,4,2,6.0,1991,8,British Grand Prix
-22,508,Alain Prost,5,3,4.0,1991,8,British Grand Prix
-14311,508,Ayrton Senna,2,4,3.0,1991,8,British Grand Prix
-7972,508,Nelson Piquet,8,5,2.0,1991,8,British Grand Prix
-7981,508,Bertrand Gachot,17,6,1.0,1991,8,British Grand Prix
-7923,508,Stefano Modena,10,7,0.0,1991,8,British Grand Prix
-7922,508,Satoru Nakajima,15,8,0.0,1991,8,British Grand Prix
-7966,508,Pierluigi Martini,23,9,0.0,1991,8,British Grand Prix
-16348,508,Emanuele Pirro,18,10,0.0,1991,8,British Grand Prix
-16332,508,Gianni Morbidelli,20,11,0.0,1991,8,British Grand Prix
-16289,508,Mika Häkkinen,25,12,0.0,1991,8,British Grand Prix
-6601,508,Jyrki Järvilehto,11,13,0.0,1991,8,British Grand Prix
-18493,508,Johnny Herbert,24,14,0.0,1991,8,British Grand Prix
-12357,508,Mark Blundell,12,15,0.0,1991,8,British Grand Prix
-18818,508,Andrea de Cesaris,13,16,0.0,1991,8,British Grand Prix
-20007,508,Jean Alesi,6,17,0.0,1991,8,British Grand Prix
-20010,508,Aguri Suzuki,22,18,0.0,1991,8,British Grand Prix
-12384,508,Thierry Boutsen,19,19,0.0,1991,8,British Grand Prix
-7441,508,Martin Brundle,14,20,0.0,1991,8,British Grand Prix
-7569,508,Michele Alboreto,26,21,0.0,1991,8,British Grand Prix
-23641,508,Maurício Gugelmin,9,22,0.0,1991,8,British Grand Prix
-11495,508,Roberto Moreno,7,23,0.0,1991,8,British Grand Prix
-7561,508,Éric Bernard,21,24,0.0,1991,8,British Grand Prix
-18817,508,Ivan Capelli,16,25,0.0,1991,8,British Grand Prix
-20022,508,Riccardo Patrese,3,26,0.0,1991,8,British Grand Prix
-22367,508,Érik Comas,0,27,0.0,1991,8,British Grand Prix
-22387,508,Stefan Johansson,0,28,0.0,1991,8,British Grand Prix
-22382,508,Fabrizio Barbazza,0,29,0.0,1991,8,British Grand Prix
-22381,508,Gabriele Tarquini,0,30,0.0,1991,8,British Grand Prix
-21582,508,Olivier Grouillard,0,31,0.0,1991,8,British Grand Prix
-21580,508,Nicola Larini,0,32,0.0,1991,8,British Grand Prix
-21581,508,Eric van de Poele,0,33,0.0,1991,8,British Grand Prix
-21572,508,Pedro Chaves,0,34,0.0,1991,8,British Grand Prix
-2866,509,Nigel Mansell,1,1,10.0,1991,9,German Grand Prix
-2865,509,Riccardo Patrese,4,2,6.0,1991,9,German Grand Prix
-2765,509,Jean Alesi,6,3,4.0,1991,9,German Grand Prix
-2829,509,Gerhard Berger,3,4,3.0,1991,9,German Grand Prix
-2936,509,Andrea de Cesaris,7,5,2.0,1991,9,German Grand Prix
-2937,509,Bertrand Gachot,11,6,1.0,1991,9,German Grand Prix
-14356,509,Ayrton Senna,2,7,0.0,1991,9,German Grand Prix
-9483,509,Roberto Moreno,9,8,0.0,1991,9,German Grand Prix
-9451,509,Thierry Boutsen,17,9,0.0,1991,9,German Grand Prix
-9488,509,Emanuele Pirro,18,10,0.0,1991,9,German Grand Prix
-17021,509,Martin Brundle,15,11,0.0,1991,9,German Grand Prix
-17022,509,Mark Blundell,21,12,0.0,1991,9,German Grand Prix
-16072,509,Stefano Modena,14,13,0.0,1991,9,German Grand Prix
-19167,509,Alain Prost,5,14,0.0,1991,9,German Grand Prix
-13467,509,Ivan Capelli,12,15,0.0,1991,9,German Grand Prix
-13464,509,Jyrki Järvilehto,20,16,0.0,1991,9,German Grand Prix
-13459,509,Nelson Piquet,8,17,0.0,1991,9,German Grand Prix
-11901,509,Satoru Nakajima,13,18,0.0,1991,9,German Grand Prix
-13434,509,Érik Comas,26,19,0.0,1991,9,German Grand Prix
-11912,509,Maurício Gugelmin,16,20,0.0,1991,9,German Grand Prix
-13387,509,Mika Häkkinen,23,21,0.0,1991,9,German Grand Prix
-13390,509,Aguri Suzuki,22,22,0.0,1991,9,German Grand Prix
-21064,509,Gianni Morbidelli,19,23,0.0,1991,9,German Grand Prix
-21063,509,Pierluigi Martini,10,24,0.0,1991,9,German Grand Prix
-7721,509,Éric Bernard,25,25,0.0,1991,9,German Grand Prix
-19187,509,Nicola Larini,24,26,0.0,1991,9,German Grand Prix
-23008,509,Michele Alboreto,0,27,0.0,1991,9,German Grand Prix
-22961,509,Michael Bartels,0,28,0.0,1991,9,German Grand Prix
-23003,509,Gabriele Tarquini,0,29,0.0,1991,9,German Grand Prix
-23009,509,Eric van de Poele,0,30,0.0,1991,9,German Grand Prix
-21733,509,Olivier Grouillard,0,31,0.0,1991,9,German Grand Prix
-21732,509,Alex Caffi,0,32,0.0,1991,9,German Grand Prix
-21722,509,Fabrizio Barbazza,0,33,0.0,1991,9,German Grand Prix
-21727,509,Pedro Chaves,0,34,0.0,1991,9,German Grand Prix
-4740,510,Ayrton Senna,1,1,10.0,1991,10,Hungarian Grand Prix
-4779,510,Nigel Mansell,3,2,6.0,1991,10,Hungarian Grand Prix
-4778,510,Riccardo Patrese,2,3,4.0,1991,10,Hungarian Grand Prix
-4741,510,Gerhard Berger,5,4,3.0,1991,10,Hungarian Grand Prix
-4681,510,Jean Alesi,6,5,2.0,1991,10,Hungarian Grand Prix
-10494,510,Ivan Capelli,9,6,1.0,1991,10,Hungarian Grand Prix
-10495,510,Andrea de Cesaris,17,7,0.0,1991,10,Hungarian Grand Prix
-10487,510,Roberto Moreno,15,8,0.0,1991,10,Hungarian Grand Prix
-10496,510,Bertrand Gachot,16,9,0.0,1991,10,Hungarian Grand Prix
-17509,510,Érik Comas,25,10,0.0,1991,10,Hungarian Grand Prix
-17525,510,Maurício Gugelmin,13,11,0.0,1991,10,Hungarian Grand Prix
-17501,510,Stefano Modena,8,12,0.0,1991,10,Hungarian Grand Prix
-17516,510,Gianni Morbidelli,23,13,0.0,1991,10,Hungarian Grand Prix
-7166,510,Mika Häkkinen,26,14,0.0,1991,10,Hungarian Grand Prix
-7168,510,Satoru Nakajima,14,15,0.0,1991,10,Hungarian Grand Prix
-7187,510,Nicola Larini,24,16,0.0,1991,10,Hungarian Grand Prix
-14089,510,Thierry Boutsen,19,17,0.0,1991,10,Hungarian Grand Prix
-14094,510,Pierluigi Martini,18,18,0.0,1991,10,Hungarian Grand Prix
-23474,510,Mark Blundell,20,19,0.0,1991,10,Hungarian Grand Prix
-23814,510,Martin Brundle,10,20,0.0,1991,10,Hungarian Grand Prix
-14109,510,Jyrki Järvilehto,12,21,0.0,1991,10,Hungarian Grand Prix
-12149,510,Nelson Piquet,11,22,0.0,1991,10,Hungarian Grand Prix
-14080,510,Éric Bernard,21,23,0.0,1991,10,Hungarian Grand Prix
-14079,510,Aguri Suzuki,22,24,0.0,1991,10,Hungarian Grand Prix
-14108,510,Emanuele Pirro,7,25,0.0,1991,10,Hungarian Grand Prix
-14075,510,Alain Prost,4,26,0.0,1991,10,Hungarian Grand Prix
-23315,510,Olivier Grouillard,0,27,0.0,1991,10,Hungarian Grand Prix
-23313,510,Michele Alboreto,0,28,0.0,1991,10,Hungarian Grand Prix
-23314,510,Eric van de Poele,0,29,0.0,1991,10,Hungarian Grand Prix
-23297,510,Michael Bartels,0,30,0.0,1991,10,Hungarian Grand Prix
-21837,510,Gabriele Tarquini,0,31,0.0,1991,10,Hungarian Grand Prix
-21848,510,Alex Caffi,0,32,0.0,1991,10,Hungarian Grand Prix
-21838,510,Fabrizio Barbazza,0,33,0.0,1991,10,Hungarian Grand Prix
-21843,510,Pedro Chaves,0,34,0.0,1991,10,Hungarian Grand Prix
-1226,511,Ayrton Senna,1,1,10.0,1991,11,Belgian Grand Prix
-1227,511,Gerhard Berger,4,2,6.0,1991,11,Belgian Grand Prix
-1327,511,Nelson Piquet,6,3,4.0,1991,11,Belgian Grand Prix
-1328,511,Roberto Moreno,8,4,3.0,1991,11,Belgian Grand Prix
-1267,511,Riccardo Patrese,17,5,2.0,1991,11,Belgian Grand Prix
-1211,511,Mark Blundell,13,6,1.0,1991,11,Belgian Grand Prix
-1193,511,Johnny Herbert,21,7,0.0,1991,11,Belgian Grand Prix
-8542,511,Emanuele Pirro,25,8,0.0,1991,11,Belgian Grand Prix
-8480,511,Martin Brundle,16,9,0.0,1991,11,Belgian Grand Prix
-8552,511,Olivier Grouillard,23,10,0.0,1991,11,Belgian Grand Prix
-8512,511,Thierry Boutsen,18,11,0.0,1991,11,Belgian Grand Prix
-11684,511,Pierluigi Martini,9,12,0.0,1991,11,Belgian Grand Prix
-12863,511,Andrea de Cesaris,11,13,0.0,1991,11,Belgian Grand Prix
-6262,511,Stefano Modena,10,14,0.0,1991,11,Belgian Grand Prix
-18517,511,Jyrki Järvilehto,14,15,0.0,1991,11,Belgian Grand Prix
-12795,511,Jean Alesi,5,16,0.0,1991,11,Belgian Grand Prix
-11685,511,Gianni Morbidelli,19,17,0.0,1991,11,Belgian Grand Prix
-12816,511,Mika Häkkinen,24,18,0.0,1991,11,Belgian Grand Prix
-12848,511,Érik Comas,26,19,0.0,1991,11,Belgian Grand Prix
-17858,511,Nigel Mansell,3,20,0.0,1991,11,Belgian Grand Prix
-11668,511,Éric Bernard,20,21,0.0,1991,11,Belgian Grand Prix
-12861,511,Ivan Capelli,12,22,0.0,1991,11,Belgian Grand Prix
-18973,511,Satoru Nakajima,22,23,0.0,1991,11,Belgian Grand Prix
-23848,511,Alain Prost,2,24,0.0,1991,11,Belgian Grand Prix
-12862,511,Maurício Gugelmin,15,25,0.0,1991,11,Belgian Grand Prix
-6406,511,Michael Schumacher,7,26,0.0,1991,11,Belgian Grand Prix
-22662,511,Aguri Suzuki,0,27,0.0,1991,11,Belgian Grand Prix
-22678,511,Nicola Larini,0,28,0.0,1991,11,Belgian Grand Prix
-22677,511,Alex Caffi,0,29,0.0,1991,11,Belgian Grand Prix
-22679,511,Eric van de Poele,0,30,0.0,1991,11,Belgian Grand Prix
-21656,511,Michele Alboreto,0,31,0.0,1991,11,Belgian Grand Prix
-21646,511,Gabriele Tarquini,0,32,0.0,1991,11,Belgian Grand Prix
-21650,511,Pedro Chaves,0,33,0.0,1991,11,Belgian Grand Prix
-21647,511,Fabrizio Barbazza,0,34,0.0,1991,11,Belgian Grand Prix
-624,512,Nigel Mansell,2,1,10.0,1991,12,Italian Grand Prix
-551,512,Ayrton Senna,1,2,6.0,1991,12,Italian Grand Prix
-409,512,Alain Prost,5,3,4.0,1991,12,Italian Grand Prix
-552,512,Gerhard Berger,3,4,3.0,1991,12,Italian Grand Prix
-686,512,Michael Schumacher,7,5,2.0,1991,12,Italian Grand Prix
-685,512,Nelson Piquet,8,6,1.0,1991,12,Italian Grand Prix
-695,512,Andrea de Cesaris,14,7,0.0,1991,12,Italian Grand Prix
-694,512,Ivan Capelli,12,8,0.0,1991,12,Italian Grand Prix
-8179,512,Gianni Morbidelli,17,9,0.0,1991,12,Italian Grand Prix
-8194,512,Emanuele Pirro,16,10,0.0,1991,12,Italian Grand Prix
-8165,512,Érik Comas,22,11,0.0,1991,12,Italian Grand Prix
-8117,512,Mark Blundell,11,12,0.0,1991,12,Italian Grand Prix
-8116,512,Martin Brundle,19,13,0.0,1991,12,Italian Grand Prix
-15902,512,Mika Häkkinen,25,14,0.0,1991,12,Italian Grand Prix
-15915,512,Maurício Gugelmin,18,15,0.0,1991,12,Italian Grand Prix
-18157,512,Nicola Larini,23,16,0.0,1991,12,Italian Grand Prix
-12676,512,Olivier Grouillard,26,17,0.0,1991,12,Italian Grand Prix
-21941,512,Jyrki Järvilehto,20,18,0.0,1991,12,Italian Grand Prix
-12610,512,Stefano Modena,13,19,0.0,1991,12,Italian Grand Prix
-12509,512,Jean Alesi,6,20,0.0,1991,12,Italian Grand Prix
-11544,512,Riccardo Patrese,4,21,0.0,1991,12,Italian Grand Prix
-7453,512,Satoru Nakajima,15,22,0.0,1991,12,Italian Grand Prix
-12557,512,Éric Bernard,24,23,0.0,1991,12,Italian Grand Prix
-18872,512,Pierluigi Martini,10,24,0.0,1991,12,Italian Grand Prix
-18882,512,Roberto Moreno,9,25,0.0,1991,12,Italian Grand Prix
-18862,512,Thierry Boutsen,21,26,0.0,1991,12,Italian Grand Prix
-22492,512,Michele Alboreto,0,27,0.0,1991,12,Italian Grand Prix
-22408,512,Michael Bartels,0,28,0.0,1991,12,Italian Grand Prix
-22493,512,Eric van de Poele,0,29,0.0,1991,12,Italian Grand Prix
-22420,512,Aguri Suzuki,0,30,0.0,1991,12,Italian Grand Prix
-21595,512,Fabrizio Barbazza,0,31,0.0,1991,12,Italian Grand Prix
-21594,512,Gabriele Tarquini,0,32,0.0,1991,12,Italian Grand Prix
-21605,512,Alex Caffi,0,33,0.0,1991,12,Italian Grand Prix
-21598,512,Pedro Chaves,0,34,0.0,1991,12,Italian Grand Prix
-3517,513,Riccardo Patrese,1,1,10.0,1991,13,Portuguese Grand Prix
-3509,513,Ayrton Senna,3,2,6.0,1991,13,Portuguese Grand Prix
-3492,513,Jean Alesi,6,3,4.0,1991,13,Portuguese Grand Prix
-3529,513,Pierluigi Martini,8,4,3.0,1991,13,Portuguese Grand Prix
-3534,513,Nelson Piquet,11,5,2.0,1991,13,Portuguese Grand Prix
-3535,513,Michael Schumacher,10,6,1.0,1991,13,Portuguese Grand Prix
-9894,513,Maurício Gugelmin,7,7,0.0,1991,13,Portuguese Grand Prix
-9895,513,Andrea de Cesaris,14,8,0.0,1991,13,Portuguese Grand Prix
-9889,513,Gianni Morbidelli,13,9,0.0,1991,13,Portuguese Grand Prix
-9896,513,Roberto Moreno,21,10,0.0,1991,13,Portuguese Grand Prix
-9879,513,Érik Comas,23,11,0.0,1991,13,Portuguese Grand Prix
-17250,513,Martin Brundle,19,12,0.0,1991,13,Portuguese Grand Prix
-7033,513,Satoru Nakajima,17,13,0.0,1991,13,Portuguese Grand Prix
-7028,513,Mika Häkkinen,24,14,0.0,1991,13,Portuguese Grand Prix
-7047,513,Michele Alboreto,22,15,0.0,1991,13,Portuguese Grand Prix
-7036,513,Thierry Boutsen,20,16,0.0,1991,13,Portuguese Grand Prix
-19329,513,Ivan Capelli,9,17,0.0,1991,13,Portuguese Grand Prix
-13787,513,Stefano Modena,12,18,0.0,1991,13,Portuguese Grand Prix
-22314,513,Nigel Mansell,4,19,0.0,1991,13,Portuguese Grand Prix
-7766,513,Aguri Suzuki,25,20,0.0,1991,13,Portuguese Grand Prix
-13774,513,Alain Prost,5,21,0.0,1991,13,Portuguese Grand Prix
-13780,513,Gerhard Berger,2,22,0.0,1991,13,Portuguese Grand Prix
-13801,513,Emanuele Pirro,16,23,0.0,1991,13,Portuguese Grand Prix
-12032,513,Jyrki Järvilehto,18,24,0.0,1991,13,Portuguese Grand Prix
-19893,513,Mark Blundell,15,25,0.0,1991,13,Portuguese Grand Prix
-13776,513,Johnny Herbert,26,26,0.0,1991,13,Portuguese Grand Prix
-23189,513,Éric Bernard,0,27,0.0,1991,13,Portuguese Grand Prix
-23198,513,Gabriele Tarquini,0,28,0.0,1991,13,Portuguese Grand Prix
-23203,513,Nicola Larini,0,29,0.0,1991,13,Portuguese Grand Prix
-23204,513,Eric van de Poele,0,30,0.0,1991,13,Portuguese Grand Prix
-21776,513,Fabrizio Barbazza,0,31,0.0,1991,13,Portuguese Grand Prix
-21786,513,Olivier Grouillard,0,32,0.0,1991,13,Portuguese Grand Prix
-21785,513,Alex Caffi,0,33,0.0,1991,13,Portuguese Grand Prix
-21778,513,Pedro Chaves,0,34,0.0,1991,13,Portuguese Grand Prix
-5339,514,Nigel Mansell,2,1,10.0,1991,14,Spanish Grand Prix
-5265,514,Alain Prost,6,2,6.0,1991,14,Spanish Grand Prix
-5338,514,Riccardo Patrese,4,3,4.0,1991,14,Spanish Grand Prix
-5266,514,Jean Alesi,7,4,3.0,1991,14,Spanish Grand Prix
-5312,514,Ayrton Senna,3,5,2.0,1991,14,Spanish Grand Prix
-5374,514,Michael Schumacher,5,6,1.0,1991,14,Spanish Grand Prix
-10851,514,Maurício Gugelmin,13,7,0.0,1991,14,Spanish Grand Prix
-10850,514,Jyrki Järvilehto,15,8,0.0,1991,14,Spanish Grand Prix
-10852,514,Alessandro Zanardi,20,9,0.0,1991,14,Spanish Grand Prix
-17649,514,Martin Brundle,11,10,0.0,1991,14,Spanish Grand Prix
-17674,514,Nelson Piquet,10,11,0.0,1991,14,Spanish Grand Prix
-17683,514,Gabriele Tarquini,22,12,0.0,1991,14,Spanish Grand Prix
-17665,514,Pierluigi Martini,19,13,0.0,1991,14,Spanish Grand Prix
-20691,514,Gianni Morbidelli,16,14,0.0,1991,14,Spanish Grand Prix
-7241,514,Emanuele Pirro,9,15,0.0,1991,14,Spanish Grand Prix
-7233,514,Stefano Modena,14,16,0.0,1991,14,Spanish Grand Prix
-7232,514,Satoru Nakajima,18,17,0.0,1991,14,Spanish Grand Prix
-14228,514,Mark Blundell,12,18,0.0,1991,14,Spanish Grand Prix
-18098,514,Érik Comas,25,19,0.0,1991,14,Spanish Grand Prix
-18095,514,Gerhard Berger,1,20,0.0,1991,14,Spanish Grand Prix
-14252,514,Michele Alboreto,24,21,0.0,1991,14,Spanish Grand Prix
-18099,514,Andrea de Cesaris,17,22,0.0,1991,14,Spanish Grand Prix
-19521,514,Mika Häkkinen,21,23,0.0,1991,14,Spanish Grand Prix
-20695,514,Ivan Capelli,8,24,0.0,1991,14,Spanish Grand Prix
-20677,514,Éric Bernard,23,25,0.0,1991,14,Spanish Grand Prix
-20685,514,Thierry Boutsen,26,26,0.0,1991,14,Spanish Grand Prix
-23364,514,Aguri Suzuki,0,27,0.0,1991,14,Spanish Grand Prix
-23370,514,Nicola Larini,0,28,0.0,1991,14,Spanish Grand Prix
-23363,514,Michael Bartels,0,29,0.0,1991,14,Spanish Grand Prix
-23371,514,Eric van de Poele,0,30,0.0,1991,14,Spanish Grand Prix
-21886,514,Alex Caffi,0,31,0.0,1991,14,Spanish Grand Prix
-21885,514,Fabrizio Barbazza,0,32,0.0,1991,14,Spanish Grand Prix
-21884,514,Olivier Grouillard,0,33,0.0,1991,14,Spanish Grand Prix
-4954,515,Gerhard Berger,1,1,10.0,1991,15,Japanese Grand Prix
-4953,515,Ayrton Senna,2,2,6.0,1991,15,Japanese Grand Prix
-4992,515,Riccardo Patrese,5,3,4.0,1991,15,Japanese Grand Prix
-4896,515,Alain Prost,4,4,3.0,1991,15,Japanese Grand Prix
-10573,515,Martin Brundle,19,5,2.0,1991,15,Japanese Grand Prix
-10592,515,Stefano Modena,14,6,1.0,1991,15,Japanese Grand Prix
-10626,515,Nelson Piquet,10,7,0.0,1991,15,Japanese Grand Prix
-10637,515,Maurício Gugelmin,18,8,0.0,1991,15,Japanese Grand Prix
-10605,515,Thierry Boutsen,17,9,0.0,1991,15,Japanese Grand Prix
-17582,515,Alex Caffi,26,10,0.0,1991,15,Japanese Grand Prix
-7209,515,Gabriele Tarquini,24,11,0.0,1991,15,Japanese Grand Prix
-23508,515,Érik Comas,20,12,0.0,1991,15,Japanese Grand Prix
-18087,515,Pierluigi Martini,7,13,0.0,1991,15,Japanese Grand Prix
-14161,515,Michael Schumacher,9,14,0.0,1991,15,Japanese Grand Prix
-14132,515,Johnny Herbert,23,15,0.0,1991,15,Japanese Grand Prix
-19454,515,Satoru Nakajima,15,16,0.0,1991,15,Japanese Grand Prix
-14135,515,Aguri Suzuki,25,17,0.0,1991,15,Japanese Grand Prix
-20891,515,Gianni Morbidelli,8,18,0.0,1991,15,Japanese Grand Prix
-19458,515,Nigel Mansell,3,19,0.0,1991,15,Japanese Grand Prix
-12172,515,Alessandro Zanardi,13,20,0.0,1991,15,Japanese Grand Prix
-14133,515,Mika Häkkinen,21,21,0.0,1991,15,Japanese Grand Prix
-15789,515,Andrea de Cesaris,11,22,0.0,1991,15,Japanese Grand Prix
-15787,515,Jyrki Järvilehto,12,23,0.0,1991,15,Japanese Grand Prix
-15786,515,Emanuele Pirro,16,24,0.0,1991,15,Japanese Grand Prix
-15788,515,Karl Wendlinger,22,25,0.0,1991,15,Japanese Grand Prix
-14125,515,Jean Alesi,6,26,0.0,1991,15,Japanese Grand Prix
-23334,515,Michele Alboreto,0,27,0.0,1991,15,Japanese Grand Prix
-23335,515,Nicola Larini,0,28,0.0,1991,15,Japanese Grand Prix
-23336,515,Eric van de Poele,0,29,0.0,1991,15,Japanese Grand Prix
-23319,515,Éric Bernard,0,30,0.0,1991,15,Japanese Grand Prix
-21850,515,Mark Blundell,0,31,0.0,1991,15,Japanese Grand Prix
-21858,515,Naoki Hattori,0,32,0.0,1991,15,Japanese Grand Prix
-3556,516,Ayrton Senna,1,1,5.0,1991,16,Australian Grand Prix
-3569,516,Nigel Mansell,3,2,3.0,1991,16,Australian Grand Prix
-3557,516,Gerhard Berger,2,3,2.0,1991,16,Australian Grand Prix
-3578,516,Nelson Piquet,5,4,1.5,1991,16,Australian Grand Prix
-3568,516,Riccardo Patrese,4,5,1.0,1991,16,Australian Grand Prix
-3547,516,Gianni Morbidelli,8,6,0.5,1991,16,Australian Grand Prix
-3581,516,Emanuele Pirro,13,7,0.0,1991,16,Australian Grand Prix
-3583,516,Andrea de Cesaris,12,8,0.0,1991,16,Australian Grand Prix
-3584,516,Alessandro Zanardi,16,9,0.0,1991,16,Australian Grand Prix
-3561,516,Stefano Modena,9,10,0.0,1991,16,Australian Grand Prix
-3551,516,Johnny Herbert,21,11,0.0,1991,16,Australian Grand Prix
-3582,516,Jyrki Järvilehto,11,12,0.0,1991,16,Australian Grand Prix
-3586,516,Michele Alboreto,15,13,0.0,1991,16,Australian Grand Prix
-9931,516,Maurício Gugelmin,14,14,0.0,1991,16,Australian Grand Prix
-9933,516,Alex Caffi,23,15,0.0,1991,16,Australian Grand Prix
-9927,516,Roberto Moreno,18,16,0.0,1991,16,Australian Grand Prix
-9916,516,Mark Blundell,17,17,0.0,1991,16,Australian Grand Prix
-9922,516,Érik Comas,22,18,0.0,1991,16,Australian Grand Prix
-17282,516,Mika Häkkinen,25,19,0.0,1991,16,Australian Grand Prix
-17295,516,Karl Wendlinger,26,20,0.0,1991,16,Australian Grand Prix
-19347,516,Pierluigi Martini,10,21,0.0,1991,16,Australian Grand Prix
-19350,516,Michael Schumacher,6,22,0.0,1991,16,Australian Grand Prix
-15578,516,Jean Alesi,7,23,0.0,1991,16,Australian Grand Prix
-19357,516,Nicola Larini,19,24,0.0,1991,16,Australian Grand Prix
-15584,516,Thierry Boutsen,20,25,0.0,1991,16,Australian Grand Prix
-19339,516,Satoru Nakajima,24,26,0.0,1991,16,Australian Grand Prix
-23217,516,Aguri Suzuki,0,27,0.0,1991,16,Australian Grand Prix
-23207,516,Martin Brundle,0,28,0.0,1991,16,Australian Grand Prix
-23223,516,Eric van de Poele,0,29,0.0,1991,16,Australian Grand Prix
-23218,516,Bertrand Gachot,0,30,0.0,1991,16,Australian Grand Prix
-21798,516,Gabriele Tarquini,0,31,0.0,1991,16,Australian Grand Prix
-21795,516,Naoki Hattori,0,32,0.0,1991,16,Australian Grand Prix
+raceId2,driverName,grid,positionOrder,points,year,round,prixName
+501,Ayrton Senna,1,1,10,1991,1,United States Grand Prix
+501,Alain Prost,2,2,6,1991,1,United States Grand Prix
+501,Nelson Piquet,5,3,4,1991,1,United States Grand Prix
+501,Stefano Modena,11,4,3,1991,1,United States Grand Prix
+501,Satoru Nakajima,16,5,2,1991,1,United States Grand Prix
+501,Aguri Suzuki,21,6,1,1991,1,United States Grand Prix
+501,Nicola Larini,17,7,0,1991,1,United States Grand Prix
+501,Gabriele Tarquini,22,8,0,1991,1,United States Grand Prix
+501,Pierluigi Martini,15,9,0,1991,1,United States Grand Prix
+501,Bertrand Gachot,14,10,0,1991,1,United States Grand Prix
+501,Martin Brundle,12,11,0,1991,1,United States Grand Prix
+501,Jean Alesi,6,12,0,1991,1,United States Grand Prix
+501,Mika Häkkinen,13,13,0,1991,1,United States Grand Prix
+501,Riccardo Patrese,3,14,0,1991,1,United States Grand Prix
+501,Roberto Moreno,8,15,0,1991,1,United States Grand Prix
+501,Michele Alboreto,25,16,0,1991,1,United States Grand Prix
+501,Ivan Capelli,18,17,0,1991,1,United States Grand Prix
+501,Thierry Boutsen,20,18,0,1991,1,United States Grand Prix
+501,Gerhard Berger,7,19,0,1991,1,United States Grand Prix
+501,Nigel Mansell,4,20,0,1991,1,United States Grand Prix
+501,Maurício Gugelmin,23,21,0,1991,1,United States Grand Prix
+501,Mark Blundell,24,22,0,1991,1,United States Grand Prix
+501,Emanuele Pirro,9,23,0,1991,1,United States Grand Prix
+501,Gianni Morbidelli,26,24,0,1991,1,United States Grand Prix
+501,Jyrki Järvilehto,10,25,0,1991,1,United States Grand Prix
+501,Éric Bernard,19,26,0,1991,1,United States Grand Prix
+501,Alex Caffi,0,27,0,1991,1,United States Grand Prix
+501,Stefan Johansson,0,28,0,1991,1,United States Grand Prix
+501,Érik Comas,0,29,0,1991,1,United States Grand Prix
+501,Julian Bailey,0,30,0,1991,1,United States Grand Prix
+501,Andrea de Cesaris,0,31,0,1991,1,United States Grand Prix
+501,Pedro Chaves,0,32,0,1991,1,United States Grand Prix
+501,Olivier Grouillard,0,33,0,1991,1,United States Grand Prix
+501,Eric van de Poele,0,34,0,1991,1,United States Grand Prix
+502,Ayrton Senna,1,1,10,1991,2,Brazilian Grand Prix
+502,Riccardo Patrese,2,2,6,1991,2,Brazilian Grand Prix
+502,Gerhard Berger,4,3,4,1991,2,Brazilian Grand Prix
+502,Alain Prost,6,4,3,1991,2,Brazilian Grand Prix
+502,Nelson Piquet,7,5,2,1991,2,Brazilian Grand Prix
+502,Jean Alesi,5,6,1,1991,2,Brazilian Grand Prix
+502,Roberto Moreno,14,7,0,1991,2,Brazilian Grand Prix
+502,Gianni Morbidelli,21,8,0,1991,2,Brazilian Grand Prix
+502,Mika Häkkinen,22,9,0,1991,2,Brazilian Grand Prix
+502,Thierry Boutsen,18,10,0,1991,2,Brazilian Grand Prix
+502,Emanuele Pirro,12,11,0,1991,2,Brazilian Grand Prix
+502,Martin Brundle,26,12,0,1991,2,Brazilian Grand Prix
+502,Bertrand Gachot,10,13,0,1991,2,Brazilian Grand Prix
+502,Nigel Mansell,3,14,0,1991,2,Brazilian Grand Prix
+502,Érik Comas,23,15,0,1991,2,Brazilian Grand Prix
+502,Pierluigi Martini,20,16,0,1991,2,Brazilian Grand Prix
+502,Mark Blundell,25,17,0,1991,2,Brazilian Grand Prix
+502,Éric Bernard,11,18,0,1991,2,Brazilian Grand Prix
+502,Jyrki Järvilehto,19,19,0,1991,2,Brazilian Grand Prix
+502,Andrea de Cesaris,13,20,0,1991,2,Brazilian Grand Prix
+502,Stefano Modena,9,21,0,1991,2,Brazilian Grand Prix
+502,Ivan Capelli,15,22,0,1991,2,Brazilian Grand Prix
+502,Satoru Nakajima,16,23,0,1991,2,Brazilian Grand Prix
+502,Maurício Gugelmin,8,24,0,1991,2,Brazilian Grand Prix
+502,Gabriele Tarquini,24,25,0,1991,2,Brazilian Grand Prix
+502,Aguri Suzuki,17,26,0,1991,2,Brazilian Grand Prix
+502,Alex Caffi,0,27,0,1991,2,Brazilian Grand Prix
+502,Stefan Johansson,0,28,0,1991,2,Brazilian Grand Prix
+502,Michele Alboreto,0,29,0,1991,2,Brazilian Grand Prix
+502,Julian Bailey,0,30,0,1991,2,Brazilian Grand Prix
+502,Olivier Grouillard,0,31,0,1991,2,Brazilian Grand Prix
+502,Eric van de Poele,0,32,0,1991,2,Brazilian Grand Prix
+502,Nicola Larini,0,33,0,1991,2,Brazilian Grand Prix
+502,Pedro Chaves,0,34,0,1991,2,Brazilian Grand Prix
+503,Ayrton Senna,1,1,10,1991,3,San Marino Grand Prix
+503,Gerhard Berger,5,2,6,1991,3,San Marino Grand Prix
+503,Jyrki Järvilehto,16,3,4,1991,3,San Marino Grand Prix
+503,Pierluigi Martini,9,4,3,1991,3,San Marino Grand Prix
+503,Mika Häkkinen,25,5,2,1991,3,San Marino Grand Prix
+503,Julian Bailey,26,6,1,1991,3,San Marino Grand Prix
+503,Thierry Boutsen,24,7,0,1991,3,San Marino Grand Prix
+503,Mark Blundell,23,8,0,1991,3,San Marino Grand Prix
+503,Eric van de Poele,21,9,0,1991,3,San Marino Grand Prix
+503,Érik Comas,19,10,0,1991,3,San Marino Grand Prix
+503,Martin Brundle,18,11,0,1991,3,San Marino Grand Prix
+503,Maurício Gugelmin,15,12,0,1991,3,San Marino Grand Prix
+503,Roberto Moreno,13,13,0,1991,3,San Marino Grand Prix
+503,Stefano Modena,6,14,0,1991,3,San Marino Grand Prix
+503,Andrea de Cesaris,11,15,0,1991,3,San Marino Grand Prix
+503,Bertrand Gachot,13,16,0,1991,3,San Marino Grand Prix
+503,Ivan Capelli,22,17,0,1991,3,San Marino Grand Prix
+503,Éric Bernard,17,18,0,1991,3,San Marino Grand Prix
+503,Riccardo Patrese,2,19,0,1991,3,San Marino Grand Prix
+503,Satoru Nakajima,10,20,0,1991,3,San Marino Grand Prix
+503,Gianni Morbidelli,8,21,0,1991,3,San Marino Grand Prix
+503,Jean Alesi,7,22,0,1991,3,San Marino Grand Prix
+503,Aguri Suzuki,20,23,0,1991,3,San Marino Grand Prix
+503,Nelson Piquet,14,24,0,1991,3,San Marino Grand Prix
+503,Nigel Mansell,4,25,0,1991,3,San Marino Grand Prix
+503,Alain Prost,3,26,0,1991,3,San Marino Grand Prix
+503,Gabriele Tarquini,0,27,0,1991,3,San Marino Grand Prix
+503,Fabrizio Barbazza,0,28,0,1991,3,San Marino Grand Prix
+503,Alex Caffi,0,29,0,1991,3,San Marino Grand Prix
+503,Michele Alboreto,0,30,0,1991,3,San Marino Grand Prix
+503,Emanuele Pirro,0,31,0,1991,3,San Marino Grand Prix
+503,Olivier Grouillard,0,32,0,1991,3,San Marino Grand Prix
+503,Nicola Larini,0,33,0,1991,3,San Marino Grand Prix
+503,Pedro Chaves,0,34,0,1991,3,San Marino Grand Prix
+504,Ayrton Senna,1,1,10,1991,4,Monaco Grand Prix
+504,Nigel Mansell,5,2,6,1991,4,Monaco Grand Prix
+504,Jean Alesi,9,3,4,1991,4,Monaco Grand Prix
+504,Roberto Moreno,8,4,3,1991,4,Monaco Grand Prix
+504,Alain Prost,7,5,2,1991,4,Monaco Grand Prix
+504,Emanuele Pirro,12,6,1,1991,4,Monaco Grand Prix
+504,Thierry Boutsen,16,7,0,1991,4,Monaco Grand Prix
+504,Bertrand Gachot,23,8,0,1991,4,Monaco Grand Prix
+504,Éric Bernard,13,9,0,1991,4,Monaco Grand Prix
+504,Érik Comas,26,10,0,1991,4,Monaco Grand Prix
+504,Jyrki Järvilehto,21,11,0,1991,4,Monaco Grand Prix
+504,Pierluigi Martini,14,12,0,1991,4,Monaco Grand Prix
+504,Mika Häkkinen,25,13,0,1991,4,Monaco Grand Prix
+504,Gianni Morbidelli,17,14,0,1991,4,Monaco Grand Prix
+504,Maurício Gugelmin,15,15,0,1991,4,Monaco Grand Prix
+504,Stefano Modena,2,16,0,1991,4,Monaco Grand Prix
+504,Riccardo Patrese,3,17,0,1991,4,Monaco Grand Prix
+504,Mark Blundell,19,18,0,1991,4,Monaco Grand Prix
+504,Michele Alboreto,22,19,0,1991,4,Monaco Grand Prix
+504,Satoru Nakajima,11,20,0,1991,4,Monaco Grand Prix
+504,Aguri Suzuki,20,21,0,1991,4,Monaco Grand Prix
+504,Andrea de Cesaris,10,22,0,1991,4,Monaco Grand Prix
+504,Ivan Capelli,18,23,0,1991,4,Monaco Grand Prix
+504,Gabriele Tarquini,24,24,0,1991,4,Monaco Grand Prix
+504,Gerhard Berger,6,25,0,1991,4,Monaco Grand Prix
+504,Nelson Piquet,4,26,0,1991,4,Monaco Grand Prix
+504,Julian Bailey,0,27,0,1991,4,Monaco Grand Prix
+504,Fabrizio Barbazza,0,28,0,1991,4,Monaco Grand Prix
+504,Alex Caffi,0,29,0,1991,4,Monaco Grand Prix
+504,Martin Brundle,0,30,0,1991,4,Monaco Grand Prix
+504,Nicola Larini,0,31,0,1991,4,Monaco Grand Prix
+504,Eric van de Poele,0,32,0,1991,4,Monaco Grand Prix
+504,Pedro Chaves,0,33,0,1991,4,Monaco Grand Prix
+504,Olivier Grouillard,0,34,0,1991,4,Monaco Grand Prix
+505,Nelson Piquet,8,1,10,1991,5,Canadian Grand Prix
+505,Stefano Modena,9,2,6,1991,5,Canadian Grand Prix
+505,Riccardo Patrese,1,3,4,1991,5,Canadian Grand Prix
+505,Andrea de Cesaris,11,4,3,1991,5,Canadian Grand Prix
+505,Bertrand Gachot,14,5,2,1991,5,Canadian Grand Prix
+505,Nigel Mansell,2,6,1,1991,5,Canadian Grand Prix
+505,Pierluigi Martini,18,7,0,1991,5,Canadian Grand Prix
+505,Érik Comas,26,8,0,1991,5,Canadian Grand Prix
+505,Emanuele Pirro,10,9,0,1991,5,Canadian Grand Prix
+505,Satoru Nakajima,12,10,0,1991,5,Canadian Grand Prix
+505,Maurício Gugelmin,23,11,0,1991,5,Canadian Grand Prix
+505,Jyrki Järvilehto,17,12,0,1991,5,Canadian Grand Prix
+505,Stefan Johansson,25,13,0,1991,5,Canadian Grand Prix
+505,Ivan Capelli,13,14,0,1991,5,Canadian Grand Prix
+505,Jean Alesi,7,15,0,1991,5,Canadian Grand Prix
+505,Éric Bernard,19,16,0,1991,5,Canadian Grand Prix
+505,Alain Prost,4,17,0,1991,5,Canadian Grand Prix
+505,Thierry Boutsen,16,18,0,1991,5,Canadian Grand Prix
+505,Ayrton Senna,3,19,0,1991,5,Canadian Grand Prix
+505,Mika Häkkinen,24,20,0,1991,5,Canadian Grand Prix
+505,Martin Brundle,20,21,0,1991,5,Canadian Grand Prix
+505,Gianni Morbidelli,15,22,0,1991,5,Canadian Grand Prix
+505,Roberto Moreno,5,23,0,1991,5,Canadian Grand Prix
+505,Gerhard Berger,6,24,0,1991,5,Canadian Grand Prix
+505,Aguri Suzuki,22,25,0,1991,5,Canadian Grand Prix
+505,Michele Alboreto,21,26,0,1991,5,Canadian Grand Prix
+505,Fabrizio Barbazza,0,27,0,1991,5,Canadian Grand Prix
+505,Gabriele Tarquini,0,28,0,1991,5,Canadian Grand Prix
+505,Mark Blundell,0,29,0,1991,5,Canadian Grand Prix
+505,Johnny Herbert,0,30,0,1991,5,Canadian Grand Prix
+505,Olivier Grouillard,0,31,0,1991,5,Canadian Grand Prix
+505,Nicola Larini,0,32,0,1991,5,Canadian Grand Prix
+505,Eric van de Poele,0,33,0,1991,5,Canadian Grand Prix
+505,Pedro Chaves,0,34,0,1991,5,Canadian Grand Prix
+506,Riccardo Patrese,1,1,10,1991,6,Mexican Grand Prix
+506,Nigel Mansell,2,2,6,1991,6,Mexican Grand Prix
+506,Ayrton Senna,3,3,4,1991,6,Mexican Grand Prix
+506,Andrea de Cesaris,11,4,3,1991,6,Mexican Grand Prix
+506,Roberto Moreno,9,5,2,1991,6,Mexican Grand Prix
+506,Éric Bernard,23,6,1,1991,6,Mexican Grand Prix
+506,Gianni Morbidelli,14,7,0,1991,6,Mexican Grand Prix
+506,Thierry Boutsen,10,8,0,1991,6,Mexican Grand Prix
+506,Mika Häkkinen,24,9,0,1991,6,Mexican Grand Prix
+506,Johnny Herbert,25,10,0,1991,6,Mexican Grand Prix
+506,Stefano Modena,8,11,0,1991,6,Mexican Grand Prix
+506,Satoru Nakajima,13,12,0,1991,6,Mexican Grand Prix
+506,Mark Blundell,12,13,0,1991,6,Mexican Grand Prix
+506,Bertrand Gachot,20,14,0,1991,6,Mexican Grand Prix
+506,Aguri Suzuki,19,15,0,1991,6,Mexican Grand Prix
+506,Nelson Piquet,6,16,0,1991,6,Mexican Grand Prix
+506,Jean Alesi,4,17,0,1991,6,Mexican Grand Prix
+506,Jyrki Järvilehto,16,18,0,1991,6,Mexican Grand Prix
+506,Michele Alboreto,26,19,0,1991,6,Mexican Grand Prix
+506,Martin Brundle,17,20,0,1991,6,Mexican Grand Prix
+506,Ivan Capelli,22,21,0,1991,6,Mexican Grand Prix
+506,Alain Prost,7,22,0,1991,6,Mexican Grand Prix
+506,Maurício Gugelmin,18,23,0,1991,6,Mexican Grand Prix
+506,Olivier Grouillard,21,24,0,1991,6,Mexican Grand Prix
+506,Gerhard Berger,5,25,0,1991,6,Mexican Grand Prix
+506,Pierluigi Martini,15,26,0,1991,6,Mexican Grand Prix
+506,Érik Comas,0,27,0,1991,6,Mexican Grand Prix
+506,Gabriele Tarquini,0,28,0,1991,6,Mexican Grand Prix
+506,Stefan Johansson,0,29,0,1991,6,Mexican Grand Prix
+506,Fabrizio Barbazza,0,30,0,1991,6,Mexican Grand Prix
+506,Nicola Larini,0,31,0,1991,6,Mexican Grand Prix
+506,Eric van de Poele,0,32,0,1991,6,Mexican Grand Prix
+506,Pedro Chaves,0,33,0,1991,6,Mexican Grand Prix
+506,Emanuele Pirro,0,34,0,1991,6,Mexican Grand Prix
+507,Nigel Mansell,4,1,10,1991,7,French Grand Prix
+507,Alain Prost,2,2,6,1991,7,French Grand Prix
+507,Ayrton Senna,3,3,4,1991,7,French Grand Prix
+507,Jean Alesi,6,4,3,1991,7,French Grand Prix
+507,Riccardo Patrese,1,5,2,1991,7,French Grand Prix
+507,Andrea de Cesaris,13,6,1,1991,7,French Grand Prix
+507,Maurício Gugelmin,9,7,0,1991,7,French Grand Prix
+507,Nelson Piquet,7,8,0,1991,7,French Grand Prix
+507,Pierluigi Martini,12,9,0,1991,7,French Grand Prix
+507,Johnny Herbert,20,10,0,1991,7,French Grand Prix
+507,Érik Comas,14,11,0,1991,7,French Grand Prix
+507,Thierry Boutsen,16,12,0,1991,7,French Grand Prix
+507,Roberto Moreno,8,13,0,1991,7,French Grand Prix
+507,Stefano Modena,11,14,0,1991,7,French Grand Prix
+507,Olivier Grouillard,21,15,0,1991,7,French Grand Prix
+507,Éric Bernard,23,16,0,1991,7,French Grand Prix
+507,Jyrki Järvilehto,26,17,0,1991,7,French Grand Prix
+507,Mark Blundell,17,18,0,1991,7,French Grand Prix
+507,Aguri Suzuki,22,19,0,1991,7,French Grand Prix
+507,Michele Alboreto,25,20,0,1991,7,French Grand Prix
+507,Martin Brundle,24,21,0,1991,7,French Grand Prix
+507,Satoru Nakajima,18,22,0,1991,7,French Grand Prix
+507,Gianni Morbidelli,10,23,0,1991,7,French Grand Prix
+507,Ivan Capelli,15,24,0,1991,7,French Grand Prix
+507,Gerhard Berger,5,25,0,1991,7,French Grand Prix
+507,Bertrand Gachot,19,26,0,1991,7,French Grand Prix
+507,Mika Häkkinen,0,27,0,1991,7,French Grand Prix
+507,Fabrizio Barbazza,0,28,0,1991,7,French Grand Prix
+507,Gabriele Tarquini,0,29,0,1991,7,French Grand Prix
+507,Stefan Johansson,0,30,0,1991,7,French Grand Prix
+507,Emanuele Pirro,0,31,0,1991,7,French Grand Prix
+507,Nicola Larini,0,32,0,1991,7,French Grand Prix
+507,Eric van de Poele,0,33,0,1991,7,French Grand Prix
+507,Pedro Chaves,0,34,0,1991,7,French Grand Prix
+508,Nigel Mansell,1,1,10,1991,8,British Grand Prix
+508,Gerhard Berger,4,2,6,1991,8,British Grand Prix
+508,Alain Prost,5,3,4,1991,8,British Grand Prix
+508,Ayrton Senna,2,4,3,1991,8,British Grand Prix
+508,Nelson Piquet,8,5,2,1991,8,British Grand Prix
+508,Bertrand Gachot,17,6,1,1991,8,British Grand Prix
+508,Stefano Modena,10,7,0,1991,8,British Grand Prix
+508,Satoru Nakajima,15,8,0,1991,8,British Grand Prix
+508,Pierluigi Martini,23,9,0,1991,8,British Grand Prix
+508,Emanuele Pirro,18,10,0,1991,8,British Grand Prix
+508,Gianni Morbidelli,20,11,0,1991,8,British Grand Prix
+508,Mika Häkkinen,25,12,0,1991,8,British Grand Prix
+508,Jyrki Järvilehto,11,13,0,1991,8,British Grand Prix
+508,Johnny Herbert,24,14,0,1991,8,British Grand Prix
+508,Mark Blundell,12,15,0,1991,8,British Grand Prix
+508,Andrea de Cesaris,13,16,0,1991,8,British Grand Prix
+508,Jean Alesi,6,17,0,1991,8,British Grand Prix
+508,Aguri Suzuki,22,18,0,1991,8,British Grand Prix
+508,Thierry Boutsen,19,19,0,1991,8,British Grand Prix
+508,Martin Brundle,14,20,0,1991,8,British Grand Prix
+508,Michele Alboreto,26,21,0,1991,8,British Grand Prix
+508,Maurício Gugelmin,9,22,0,1991,8,British Grand Prix
+508,Roberto Moreno,7,23,0,1991,8,British Grand Prix
+508,Éric Bernard,21,24,0,1991,8,British Grand Prix
+508,Ivan Capelli,16,25,0,1991,8,British Grand Prix
+508,Riccardo Patrese,3,26,0,1991,8,British Grand Prix
+508,Érik Comas,0,27,0,1991,8,British Grand Prix
+508,Stefan Johansson,0,28,0,1991,8,British Grand Prix
+508,Fabrizio Barbazza,0,29,0,1991,8,British Grand Prix
+508,Gabriele Tarquini,0,30,0,1991,8,British Grand Prix
+508,Olivier Grouillard,0,31,0,1991,8,British Grand Prix
+508,Nicola Larini,0,32,0,1991,8,British Grand Prix
+508,Eric van de Poele,0,33,0,1991,8,British Grand Prix
+508,Pedro Chaves,0,34,0,1991,8,British Grand Prix
+509,Nigel Mansell,1,1,10,1991,9,German Grand Prix
+509,Riccardo Patrese,4,2,6,1991,9,German Grand Prix
+509,Jean Alesi,6,3,4,1991,9,German Grand Prix
+509,Gerhard Berger,3,4,3,1991,9,German Grand Prix
+509,Andrea de Cesaris,7,5,2,1991,9,German Grand Prix
+509,Bertrand Gachot,11,6,1,1991,9,German Grand Prix
+509,Ayrton Senna,2,7,0,1991,9,German Grand Prix
+509,Roberto Moreno,9,8,0,1991,9,German Grand Prix
+509,Thierry Boutsen,17,9,0,1991,9,German Grand Prix
+509,Emanuele Pirro,18,10,0,1991,9,German Grand Prix
+509,Martin Brundle,15,11,0,1991,9,German Grand Prix
+509,Mark Blundell,21,12,0,1991,9,German Grand Prix
+509,Stefano Modena,14,13,0,1991,9,German Grand Prix
+509,Alain Prost,5,14,0,1991,9,German Grand Prix
+509,Ivan Capelli,12,15,0,1991,9,German Grand Prix
+509,Jyrki Järvilehto,20,16,0,1991,9,German Grand Prix
+509,Nelson Piquet,8,17,0,1991,9,German Grand Prix
+509,Satoru Nakajima,13,18,0,1991,9,German Grand Prix
+509,Érik Comas,26,19,0,1991,9,German Grand Prix
+509,Maurício Gugelmin,16,20,0,1991,9,German Grand Prix
+509,Mika Häkkinen,23,21,0,1991,9,German Grand Prix
+509,Aguri Suzuki,22,22,0,1991,9,German Grand Prix
+509,Gianni Morbidelli,19,23,0,1991,9,German Grand Prix
+509,Pierluigi Martini,10,24,0,1991,9,German Grand Prix
+509,Éric Bernard,25,25,0,1991,9,German Grand Prix
+509,Nicola Larini,24,26,0,1991,9,German Grand Prix
+509,Michele Alboreto,0,27,0,1991,9,German Grand Prix
+509,Michael Bartels,0,28,0,1991,9,German Grand Prix
+509,Gabriele Tarquini,0,29,0,1991,9,German Grand Prix
+509,Eric van de Poele,0,30,0,1991,9,German Grand Prix
+509,Olivier Grouillard,0,31,0,1991,9,German Grand Prix
+509,Alex Caffi,0,32,0,1991,9,German Grand Prix
+509,Fabrizio Barbazza,0,33,0,1991,9,German Grand Prix
+509,Pedro Chaves,0,34,0,1991,9,German Grand Prix
+510,Ayrton Senna,1,1,10,1991,10,Hungarian Grand Prix
+510,Nigel Mansell,3,2,6,1991,10,Hungarian Grand Prix
+510,Riccardo Patrese,2,3,4,1991,10,Hungarian Grand Prix
+510,Gerhard Berger,5,4,3,1991,10,Hungarian Grand Prix
+510,Jean Alesi,6,5,2,1991,10,Hungarian Grand Prix
+510,Ivan Capelli,9,6,1,1991,10,Hungarian Grand Prix
+510,Andrea de Cesaris,17,7,0,1991,10,Hungarian Grand Prix
+510,Roberto Moreno,15,8,0,1991,10,Hungarian Grand Prix
+510,Bertrand Gachot,16,9,0,1991,10,Hungarian Grand Prix
+510,Érik Comas,25,10,0,1991,10,Hungarian Grand Prix
+510,Maurício Gugelmin,13,11,0,1991,10,Hungarian Grand Prix
+510,Stefano Modena,8,12,0,1991,10,Hungarian Grand Prix
+510,Gianni Morbidelli,23,13,0,1991,10,Hungarian Grand Prix
+510,Mika Häkkinen,26,14,0,1991,10,Hungarian Grand Prix
+510,Satoru Nakajima,14,15,0,1991,10,Hungarian Grand Prix
+510,Nicola Larini,24,16,0,1991,10,Hungarian Grand Prix
+510,Thierry Boutsen,19,17,0,1991,10,Hungarian Grand Prix
+510,Pierluigi Martini,18,18,0,1991,10,Hungarian Grand Prix
+510,Mark Blundell,20,19,0,1991,10,Hungarian Grand Prix
+510,Martin Brundle,10,20,0,1991,10,Hungarian Grand Prix
+510,Jyrki Järvilehto,12,21,0,1991,10,Hungarian Grand Prix
+510,Nelson Piquet,11,22,0,1991,10,Hungarian Grand Prix
+510,Éric Bernard,21,23,0,1991,10,Hungarian Grand Prix
+510,Aguri Suzuki,22,24,0,1991,10,Hungarian Grand Prix
+510,Emanuele Pirro,7,25,0,1991,10,Hungarian Grand Prix
+510,Alain Prost,4,26,0,1991,10,Hungarian Grand Prix
+510,Olivier Grouillard,0,27,0,1991,10,Hungarian Grand Prix
+510,Michele Alboreto,0,28,0,1991,10,Hungarian Grand Prix
+510,Eric van de Poele,0,29,0,1991,10,Hungarian Grand Prix
+510,Michael Bartels,0,30,0,1991,10,Hungarian Grand Prix
+510,Gabriele Tarquini,0,31,0,1991,10,Hungarian Grand Prix
+510,Alex Caffi,0,32,0,1991,10,Hungarian Grand Prix
+510,Fabrizio Barbazza,0,33,0,1991,10,Hungarian Grand Prix
+510,Pedro Chaves,0,34,0,1991,10,Hungarian Grand Prix
+511,Ayrton Senna,1,1,10,1991,11,Belgian Grand Prix
+511,Gerhard Berger,4,2,6,1991,11,Belgian Grand Prix
+511,Nelson Piquet,6,3,4,1991,11,Belgian Grand Prix
+511,Roberto Moreno,8,4,3,1991,11,Belgian Grand Prix
+511,Riccardo Patrese,17,5,2,1991,11,Belgian Grand Prix
+511,Mark Blundell,13,6,1,1991,11,Belgian Grand Prix
+511,Johnny Herbert,21,7,0,1991,11,Belgian Grand Prix
+511,Emanuele Pirro,25,8,0,1991,11,Belgian Grand Prix
+511,Martin Brundle,16,9,0,1991,11,Belgian Grand Prix
+511,Olivier Grouillard,23,10,0,1991,11,Belgian Grand Prix
+511,Thierry Boutsen,18,11,0,1991,11,Belgian Grand Prix
+511,Pierluigi Martini,9,12,0,1991,11,Belgian Grand Prix
+511,Andrea de Cesaris,11,13,0,1991,11,Belgian Grand Prix
+511,Stefano Modena,10,14,0,1991,11,Belgian Grand Prix
+511,Jyrki Järvilehto,14,15,0,1991,11,Belgian Grand Prix
+511,Jean Alesi,5,16,0,1991,11,Belgian Grand Prix
+511,Gianni Morbidelli,19,17,0,1991,11,Belgian Grand Prix
+511,Mika Häkkinen,24,18,0,1991,11,Belgian Grand Prix
+511,Érik Comas,26,19,0,1991,11,Belgian Grand Prix
+511,Nigel Mansell,3,20,0,1991,11,Belgian Grand Prix
+511,Éric Bernard,20,21,0,1991,11,Belgian Grand Prix
+511,Ivan Capelli,12,22,0,1991,11,Belgian Grand Prix
+511,Satoru Nakajima,22,23,0,1991,11,Belgian Grand Prix
+511,Alain Prost,2,24,0,1991,11,Belgian Grand Prix
+511,Maurício Gugelmin,15,25,0,1991,11,Belgian Grand Prix
+511,Michael Schumacher,7,26,0,1991,11,Belgian Grand Prix
+511,Aguri Suzuki,0,27,0,1991,11,Belgian Grand Prix
+511,Nicola Larini,0,28,0,1991,11,Belgian Grand Prix
+511,Alex Caffi,0,29,0,1991,11,Belgian Grand Prix
+511,Eric van de Poele,0,30,0,1991,11,Belgian Grand Prix
+511,Michele Alboreto,0,31,0,1991,11,Belgian Grand Prix
+511,Gabriele Tarquini,0,32,0,1991,11,Belgian Grand Prix
+511,Pedro Chaves,0,33,0,1991,11,Belgian Grand Prix
+511,Fabrizio Barbazza,0,34,0,1991,11,Belgian Grand Prix
+512,Nigel Mansell,2,1,10,1991,12,Italian Grand Prix
+512,Ayrton Senna,1,2,6,1991,12,Italian Grand Prix
+512,Alain Prost,5,3,4,1991,12,Italian Grand Prix
+512,Gerhard Berger,3,4,3,1991,12,Italian Grand Prix
+512,Michael Schumacher,7,5,2,1991,12,Italian Grand Prix
+512,Nelson Piquet,8,6,1,1991,12,Italian Grand Prix
+512,Andrea de Cesaris,14,7,0,1991,12,Italian Grand Prix
+512,Ivan Capelli,12,8,0,1991,12,Italian Grand Prix
+512,Gianni Morbidelli,17,9,0,1991,12,Italian Grand Prix
+512,Emanuele Pirro,16,10,0,1991,12,Italian Grand Prix
+512,Érik Comas,22,11,0,1991,12,Italian Grand Prix
+512,Mark Blundell,11,12,0,1991,12,Italian Grand Prix
+512,Martin Brundle,19,13,0,1991,12,Italian Grand Prix
+512,Mika Häkkinen,25,14,0,1991,12,Italian Grand Prix
+512,Maurício Gugelmin,18,15,0,1991,12,Italian Grand Prix
+512,Nicola Larini,23,16,0,1991,12,Italian Grand Prix
+512,Olivier Grouillard,26,17,0,1991,12,Italian Grand Prix
+512,Jyrki Järvilehto,20,18,0,1991,12,Italian Grand Prix
+512,Stefano Modena,13,19,0,1991,12,Italian Grand Prix
+512,Jean Alesi,6,20,0,1991,12,Italian Grand Prix
+512,Riccardo Patrese,4,21,0,1991,12,Italian Grand Prix
+512,Satoru Nakajima,15,22,0,1991,12,Italian Grand Prix
+512,Éric Bernard,24,23,0,1991,12,Italian Grand Prix
+512,Pierluigi Martini,10,24,0,1991,12,Italian Grand Prix
+512,Roberto Moreno,9,25,0,1991,12,Italian Grand Prix
+512,Thierry Boutsen,21,26,0,1991,12,Italian Grand Prix
+512,Michele Alboreto,0,27,0,1991,12,Italian Grand Prix
+512,Michael Bartels,0,28,0,1991,12,Italian Grand Prix
+512,Eric van de Poele,0,29,0,1991,12,Italian Grand Prix
+512,Aguri Suzuki,0,30,0,1991,12,Italian Grand Prix
+512,Fabrizio Barbazza,0,31,0,1991,12,Italian Grand Prix
+512,Gabriele Tarquini,0,32,0,1991,12,Italian Grand Prix
+512,Alex Caffi,0,33,0,1991,12,Italian Grand Prix
+512,Pedro Chaves,0,34,0,1991,12,Italian Grand Prix
+513,Riccardo Patrese,1,1,10,1991,13,Portuguese Grand Prix
+513,Ayrton Senna,3,2,6,1991,13,Portuguese Grand Prix
+513,Jean Alesi,6,3,4,1991,13,Portuguese Grand Prix
+513,Pierluigi Martini,8,4,3,1991,13,Portuguese Grand Prix
+513,Nelson Piquet,11,5,2,1991,13,Portuguese Grand Prix
+513,Michael Schumacher,10,6,1,1991,13,Portuguese Grand Prix
+513,Maurício Gugelmin,7,7,0,1991,13,Portuguese Grand Prix
+513,Andrea de Cesaris,14,8,0,1991,13,Portuguese Grand Prix
+513,Gianni Morbidelli,13,9,0,1991,13,Portuguese Grand Prix
+513,Roberto Moreno,21,10,0,1991,13,Portuguese Grand Prix
+513,Érik Comas,23,11,0,1991,13,Portuguese Grand Prix
+513,Martin Brundle,19,12,0,1991,13,Portuguese Grand Prix
+513,Satoru Nakajima,17,13,0,1991,13,Portuguese Grand Prix
+513,Mika Häkkinen,24,14,0,1991,13,Portuguese Grand Prix
+513,Michele Alboreto,22,15,0,1991,13,Portuguese Grand Prix
+513,Thierry Boutsen,20,16,0,1991,13,Portuguese Grand Prix
+513,Ivan Capelli,9,17,0,1991,13,Portuguese Grand Prix
+513,Stefano Modena,12,18,0,1991,13,Portuguese Grand Prix
+513,Nigel Mansell,4,19,0,1991,13,Portuguese Grand Prix
+513,Aguri Suzuki,25,20,0,1991,13,Portuguese Grand Prix
+513,Alain Prost,5,21,0,1991,13,Portuguese Grand Prix
+513,Gerhard Berger,2,22,0,1991,13,Portuguese Grand Prix
+513,Emanuele Pirro,16,23,0,1991,13,Portuguese Grand Prix
+513,Jyrki Järvilehto,18,24,0,1991,13,Portuguese Grand Prix
+513,Mark Blundell,15,25,0,1991,13,Portuguese Grand Prix
+513,Johnny Herbert,26,26,0,1991,13,Portuguese Grand Prix
+513,Éric Bernard,0,27,0,1991,13,Portuguese Grand Prix
+513,Gabriele Tarquini,0,28,0,1991,13,Portuguese Grand Prix
+513,Nicola Larini,0,29,0,1991,13,Portuguese Grand Prix
+513,Eric van de Poele,0,30,0,1991,13,Portuguese Grand Prix
+513,Fabrizio Barbazza,0,31,0,1991,13,Portuguese Grand Prix
+513,Olivier Grouillard,0,32,0,1991,13,Portuguese Grand Prix
+513,Alex Caffi,0,33,0,1991,13,Portuguese Grand Prix
+513,Pedro Chaves,0,34,0,1991,13,Portuguese Grand Prix
+514,Nigel Mansell,2,1,10,1991,14,Spanish Grand Prix
+514,Alain Prost,6,2,6,1991,14,Spanish Grand Prix
+514,Riccardo Patrese,4,3,4,1991,14,Spanish Grand Prix
+514,Jean Alesi,7,4,3,1991,14,Spanish Grand Prix
+514,Ayrton Senna,3,5,2,1991,14,Spanish Grand Prix
+514,Michael Schumacher,5,6,1,1991,14,Spanish Grand Prix
+514,Maurício Gugelmin,13,7,0,1991,14,Spanish Grand Prix
+514,Jyrki Järvilehto,15,8,0,1991,14,Spanish Grand Prix
+514,Alessandro Zanardi,20,9,0,1991,14,Spanish Grand Prix
+514,Martin Brundle,11,10,0,1991,14,Spanish Grand Prix
+514,Nelson Piquet,10,11,0,1991,14,Spanish Grand Prix
+514,Gabriele Tarquini,22,12,0,1991,14,Spanish Grand Prix
+514,Pierluigi Martini,19,13,0,1991,14,Spanish Grand Prix
+514,Gianni Morbidelli,16,14,0,1991,14,Spanish Grand Prix
+514,Emanuele Pirro,9,15,0,1991,14,Spanish Grand Prix
+514,Stefano Modena,14,16,0,1991,14,Spanish Grand Prix
+514,Satoru Nakajima,18,17,0,1991,14,Spanish Grand Prix
+514,Mark Blundell,12,18,0,1991,14,Spanish Grand Prix
+514,Érik Comas,25,19,0,1991,14,Spanish Grand Prix
+514,Gerhard Berger,1,20,0,1991,14,Spanish Grand Prix
+514,Michele Alboreto,24,21,0,1991,14,Spanish Grand Prix
+514,Andrea de Cesaris,17,22,0,1991,14,Spanish Grand Prix
+514,Mika Häkkinen,21,23,0,1991,14,Spanish Grand Prix
+514,Ivan Capelli,8,24,0,1991,14,Spanish Grand Prix
+514,Éric Bernard,23,25,0,1991,14,Spanish Grand Prix
+514,Thierry Boutsen,26,26,0,1991,14,Spanish Grand Prix
+514,Aguri Suzuki,0,27,0,1991,14,Spanish Grand Prix
+514,Nicola Larini,0,28,0,1991,14,Spanish Grand Prix
+514,Michael Bartels,0,29,0,1991,14,Spanish Grand Prix
+514,Eric van de Poele,0,30,0,1991,14,Spanish Grand Prix
+514,Alex Caffi,0,31,0,1991,14,Spanish Grand Prix
+514,Fabrizio Barbazza,0,32,0,1991,14,Spanish Grand Prix
+514,Olivier Grouillard,0,33,0,1991,14,Spanish Grand Prix
+515,Gerhard Berger,1,1,10,1991,15,Japanese Grand Prix
+515,Ayrton Senna,2,2,6,1991,15,Japanese Grand Prix
+515,Riccardo Patrese,5,3,4,1991,15,Japanese Grand Prix
+515,Alain Prost,4,4,3,1991,15,Japanese Grand Prix
+515,Martin Brundle,19,5,2,1991,15,Japanese Grand Prix
+515,Stefano Modena,14,6,1,1991,15,Japanese Grand Prix
+515,Nelson Piquet,10,7,0,1991,15,Japanese Grand Prix
+515,Maurício Gugelmin,18,8,0,1991,15,Japanese Grand Prix
+515,Thierry Boutsen,17,9,0,1991,15,Japanese Grand Prix
+515,Alex Caffi,26,10,0,1991,15,Japanese Grand Prix
+515,Gabriele Tarquini,24,11,0,1991,15,Japanese Grand Prix
+515,Érik Comas,20,12,0,1991,15,Japanese Grand Prix
+515,Pierluigi Martini,7,13,0,1991,15,Japanese Grand Prix
+515,Michael Schumacher,9,14,0,1991,15,Japanese Grand Prix
+515,Johnny Herbert,23,15,0,1991,15,Japanese Grand Prix
+515,Satoru Nakajima,15,16,0,1991,15,Japanese Grand Prix
+515,Aguri Suzuki,25,17,0,1991,15,Japanese Grand Prix
+515,Gianni Morbidelli,8,18,0,1991,15,Japanese Grand Prix
+515,Nigel Mansell,3,19,0,1991,15,Japanese Grand Prix
+515,Alessandro Zanardi,13,20,0,1991,15,Japanese Grand Prix
+515,Mika Häkkinen,21,21,0,1991,15,Japanese Grand Prix
+515,Andrea de Cesaris,11,22,0,1991,15,Japanese Grand Prix
+515,Jyrki Järvilehto,12,23,0,1991,15,Japanese Grand Prix
+515,Emanuele Pirro,16,24,0,1991,15,Japanese Grand Prix
+515,Karl Wendlinger,22,25,0,1991,15,Japanese Grand Prix
+515,Jean Alesi,6,26,0,1991,15,Japanese Grand Prix
+515,Michele Alboreto,0,27,0,1991,15,Japanese Grand Prix
+515,Nicola Larini,0,28,0,1991,15,Japanese Grand Prix
+515,Eric van de Poele,0,29,0,1991,15,Japanese Grand Prix
+515,Éric Bernard,0,30,0,1991,15,Japanese Grand Prix
+515,Mark Blundell,0,31,0,1991,15,Japanese Grand Prix
+515,Naoki Hattori,0,32,0,1991,15,Japanese Grand Prix
+516,Ayrton Senna,1,1,5,1991,16,Australian Grand Prix
+516,Nigel Mansell,3,2,3,1991,16,Australian Grand Prix
+516,Gerhard Berger,2,3,2,1991,16,Australian Grand Prix
+516,Nelson Piquet,5,4,1.5,1991,16,Australian Grand Prix
+516,Riccardo Patrese,4,5,1,1991,16,Australian Grand Prix
+516,Gianni Morbidelli,8,6,0.5,1991,16,Australian Grand Prix
+516,Emanuele Pirro,13,7,0,1991,16,Australian Grand Prix
+516,Andrea de Cesaris,12,8,0,1991,16,Australian Grand Prix
+516,Alessandro Zanardi,16,9,0,1991,16,Australian Grand Prix
+516,Stefano Modena,9,10,0,1991,16,Australian Grand Prix
+516,Johnny Herbert,21,11,0,1991,16,Australian Grand Prix
+516,Jyrki Järvilehto,11,12,0,1991,16,Australian Grand Prix
+516,Michele Alboreto,15,13,0,1991,16,Australian Grand Prix
+516,Maurício Gugelmin,14,14,0,1991,16,Australian Grand Prix
+516,Alex Caffi,23,15,0,1991,16,Australian Grand Prix
+516,Roberto Moreno,18,16,0,1991,16,Australian Grand Prix
+516,Mark Blundell,17,17,0,1991,16,Australian Grand Prix
+516,Érik Comas,22,18,0,1991,16,Australian Grand Prix
+516,Mika Häkkinen,25,19,0,1991,16,Australian Grand Prix
+516,Karl Wendlinger,26,20,0,1991,16,Australian Grand Prix
+516,Pierluigi Martini,10,21,0,1991,16,Australian Grand Prix
+516,Michael Schumacher,6,22,0,1991,16,Australian Grand Prix
+516,Jean Alesi,7,23,0,1991,16,Australian Grand Prix
+516,Nicola Larini,19,24,0,1991,16,Australian Grand Prix
+516,Thierry Boutsen,20,25,0,1991,16,Australian Grand Prix
+516,Satoru Nakajima,24,26,0,1991,16,Australian Grand Prix
+516,Aguri Suzuki,0,27,0,1991,16,Australian Grand Prix
+516,Martin Brundle,0,28,0,1991,16,Australian Grand Prix
+516,Eric van de Poele,0,29,0,1991,16,Australian Grand Prix
+516,Bertrand Gachot,0,30,0,1991,16,Australian Grand Prix
+516,Gabriele Tarquini,0,31,0,1991,16,Australian Grand Prix
+516,Naoki Hattori,0,32,0,1991,16,Australian Grand Prix
