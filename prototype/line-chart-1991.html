@@ -43,6 +43,7 @@
     };
 
     var dataset;
+    var nest; 
     var driverLine = d3.line()
         .y(function (d) { return yScale2(d.raceId2); })
         .x(function (d) {
@@ -55,16 +56,15 @@
         });
 
     //load csv, put in the right rowConverter so each column is correctly typed, start working
-    d3.csv("data/f1db_91_2drivers.csv", rowConverter, function (data) {
+    d3.csv("data/f1db_results1991.csv", rowConverter, function (data) {
       //do all the visualization things here
       dataset = data;
 
-      var nest = d3.nest()
+      nest = d3.nest()
         .key(function (d) {
           return d.driverName;
         })
         .entries(dataset);
-      console.log(nest);
 
 
       yScale = d3.scaleTime()
