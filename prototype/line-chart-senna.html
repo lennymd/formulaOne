@@ -86,7 +86,7 @@
 
       svg.append("g")
           // .attr("transform", "translate(0," + height + ")")
-          .call(d3.axisTop(xScale).ticks(21).tickSize(-height));
+          .call(d3.axisTop(xScale));
       svg.append("g")
           .attr("transform", "translate("+margin.left/2+",0)")
           .call(d3.axisLeft(yScale).ticks(dataset.length));
