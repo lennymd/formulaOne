@@ -16,7 +16,7 @@
     var margin = { top: 50, right: 40, bottom: 50, left: 40 },
       width = window.innerWidth - margin.left - margin.right,
       // height = window.innerHeight - margin.top - margin.bottom;
-      height = 10000 - margin.top - margin.bottom;
+      height = 2000 - margin.top - margin.bottom;
 
     var svg = d3.select("body")
       .append("svg")
@@ -29,8 +29,8 @@
 
     var rowConverter = function (d) {
       return {
-        // raceId: +d.raceId2,
-        driver: d.driverName,
+        raceId2: +d.raceId2,
+        driverName: d.driverName,
         // constructorRef: d.constructorRef,
         // grid: +d.grid,
         positionOrder: +d.positionOrder,
@@ -43,47 +43,73 @@
     };
 
     var dataset;
-    var padding = 20;
+    var driverLine = d3.line()
+        .y(function (d) { return yScale2(d.raceId2); })
+        .x(function (d) {
+          if (d.positionOrder > 20) {
+            return xScale(21);
+          }
+          else {
+            return xScale(d.positionOrder)
+          }
+        });
 
     //load csv, put in the right rowConverter so each column is correctly typed, start working
-    d3.csv("data/f1db_senna.csv", rowConverter, function (data) {
+    d3.csv("data/f1db_91_2drivers.csv", rowConverter, function (data) {
       //do all the visualization things here
       dataset = data;
 
+      var nest = d3.nest()
+        .key(function (d) {
+          return d.driverName;
+        })
+        .entries(dataset);
+      console.log(nest);
+
+
       yScale = d3.scaleTime()
-        .domain([
-          d3.min(dataset, function (d) { return d.prixDate; }),
-          d3.max(dataset, function (d) { return d.prixDate; })
-        ])
+        .domain(d3.extent(data, function (d) { return d.prixDate; }))
+        .range([margin.top, height]);
+      
+      yScale2 = d3.scaleLinear()
+        .domain(d3.extent(data, function (d) { return d.raceId2; }))
         .range([margin.top, height]);
 
 
       xScale = d3.scaleLinear()
         .domain([1, 21])
-        // .domain([
-        //   d3.min(dataset, function (d) { return d.positionOrder;}),
-        //   d3.max(dataset, function (d) { return d.positionOrder;})
-        // ])
         .range([width / 2, margin.left]);
 
+      svg.selectAll(".line")
+          .data(nest)
+          .enter()
+          .append("path")
+          .attr("fill", "none")
+          .attr("stroke", "#F9423A")
+          .attr("stroke-width", 1.5)
+          .attr("d", function(d) {
+            return driverLine(d.values);
+          }
+          );
 
-      svg.append("path")
-        .datum(dataset)
-        .attr("fill", "none")
-        .attr("stroke", "steelblue")
-        .attr("stroke-width", 1.5)
-        .attr("d", d3.line()
-          // .defined(function(d) {return d.positionOrder <= 20;})
-          .y(function (d) { return yScale(d.prixDate); })
-          .x(function (d) {
-            if (d.positionOrder > 20) {
-              return xScale(21);
-            }
-            else {
-              return xScale(d.positionOrder)
-            }
-          })
-        )
+      // This part works for one driver.
+      // svg.append("path")
+      //   .datum(dataset)
+      //   .attr("fill", "none")
+      //   .attr("stroke", "#F9423A")
+      //   .attr("stroke-width", 1.5)
+      //   .attr("d", d3.line()
+      //     // .defined(function(d) {return d.positionOrder <= 20;})
+      //     .y(function (d) { return yScale2(d.raceId2); })
+      //     .x(function (d) {
+      //       if (d.positionOrder > 20) {
+      //         return xScale(21);
+      //       }
+      //       else {
+      //         return xScale(d.positionOrder)
+      //       }
+      //     })
+      //   )
 
 
       svg.append("g")
@@ -91,7 +117,7 @@
         .call(d3.axisTop(xScale));
       svg.append("g")
         .attr("transform", "translate(" + margin.left / 2 + ",0)")
-        .call(d3.axisLeft(yScale).ticks(dataset.length));
+        .call(d3.axisLeft(yScale2));
 
 
     });

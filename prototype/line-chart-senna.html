@@ -28,7 +28,7 @@
     var rowConverter = function(d) {
       return { 
         // raceId: +d.raceId2,
-        driver: d.driverName,
+        driverName: d.driverName,
         // constructorRef: d.constructorRef,
         // grid: +d.grid,
         positionOrder: +d.positionOrder,
@@ -68,7 +68,7 @@
       svg.append("path")
         .datum(dataset)
         .attr("fill", "none")
-        .attr("stroke", "steelblue")
+        .attr("stroke", "#F9423A")
         .attr("stroke-width", 1.5)
         .attr("d", d3.line()
           // .defined(function(d) {return d.positionOrder <= 20;})
