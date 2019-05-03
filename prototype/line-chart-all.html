@@ -16,7 +16,7 @@
     var margin = { top: 50, right: 40, bottom: 50, left: 40 },
       width = window.innerWidth - margin.left - margin.right,
       // height = window.innerHeight - margin.top - margin.bottom;
-      height = 10000 - margin.top - margin.bottom;
+      height = 100000 - margin.top - margin.bottom;
 
     var svg = d3.select("body")
       .append("svg")
@@ -43,20 +43,20 @@
     };
 
     var dataset;
-    var nest; 
+    var nest;
     var driverLine = d3.line()
-        .y(function (d) { return yScale2(d.raceId2); })
-        .x(function (d) {
-          if (d.positionOrder > 20) {
-            return xScale(21);
-          }
-          else {
-            return xScale(d.positionOrder)
-          }
-        });
+      .y(function (d) { return yScale2(d.raceId2); })
+      .x(function (d) {
+        if (d.positionOrder > 20) {
+          return xScale(21);
+        }
+        else {
+          return xScale(d.positionOrder)
+        }
+      });
 
     //load csv, put in the right rowConverter so each column is correctly typed, start working
-    d3.csv("data/f1db_results1991.csv", rowConverter, function (data) {
+    d3.csv("data/f1db_results.csv", rowConverter, function (data) {
       //do all the visualization things here
       dataset = data;
 
@@ -70,7 +70,7 @@
       yScale = d3.scaleTime()
         .domain(d3.extent(data, function (d) { return d.prixDate; }))
         .range([margin.top, height]);
-      
+
       yScale2 = d3.scaleLinear()
         .domain(d3.extent(data, function (d) { return d.raceId2; }))
         .range([margin.top, height]);
@@ -81,16 +81,16 @@
         .range([width / 2, margin.left]);
 
       svg.selectAll(".line")
-          .data(nest)
-          .enter()
-          .append("path")
-          .attr("fill", "none")
-          .attr("stroke", "#F9423A")
-          .attr("stroke-width", 1.5)
-          .attr("d", function(d) {
-            return driverLine(d.values);
-          }
-          );
+        .data(nest)
+        .enter()
+        .append("path")
+        .attr("fill", "none")
+        .attr("stroke", "#F9423A")
+        .attr("stroke-width", 1.5)
+        .attr("d", function (d) {
+          return driverLine(d.values);
+        }
+        );
 
 
       svg.append("g")
@@ -98,7 +98,7 @@
         .call(d3.axisTop(xScale));
       svg.append("g")
         .attr("transform", "translate(" + margin.left / 2 + ",0)")
-        .call(d3.axisLeft(yScale2));
+        .call(d3.axisLeft(yScale2).ticks(1000));
 
 
     });
