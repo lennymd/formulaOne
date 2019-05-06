@@ -1,0 +1,72 @@
+In trying to address these worries, I thought it'd be interesting to create three different visualization projects as my final output:
+
+    one where I worked on a topic with someone else;
+    one where I worked on a topic of my own choosing;
+    and one where I took a project that was done already and either tried to build on it or re-do it in my own way.
+
+It seems odd that my solution to lack of engagement is to split my attention into three projects, but my reasoning was to approach visualization from three different directions. Of the three, the last one would have been great if I had more time, and would be the most difficult to get right.
+
+So, I'm proposing as the output for my master's project the first two directions:
+
+    Working with American Reportage to produce a datavis piece that aligns with their project theme, and
+    producing a datavis piece that is based on a topic of my own choosing. What are your thoughts on this as the output? (I've been accumulating different story ideas and was thinking of creating mini-proposals this week to get feedback on.)
+
+One drawback to this approach is that I don't know how feasible it will be to produce two pieces that are of equally-high quality in the time frame that I know it is be feasible to produce one high-quality piece. Another is that the time to pick the story I work on might be the same or greater than the time to wait for American Reportage to decide on their topic.
+
+What are your thoughts? Is there something I might not be seeing?
+---
+
+Doing two significant efforts might be enough. It seems like the third option of improving an existing one would be the easiest and a way to quickly get going on something, while researching one you’d initiate.
+We’ll have a general sense of American Reportage project at the end of next week. My guess is they’ll pick a general theme and each person will take on their version of it. That would allow you to produce pieces related to the general topic, without relying on any one person to make it happen.
+
+That plan would allow you to defend this summer if you get going and work on things every day.
+
+I’m teaching boot camp this summer, for what it’s worth.
+---
+
+
+I'll start with the option of improving an existing one. My friend and I had a recent series of discussions about this tool/app: http://carboncounter.com/ It's supposed to help people understand how cost-effective their current cars are in terms of lifetime costs (the car itself, gas, and maintenance) and carbon emissions. I found it pretty confusing, so I wanted to take a stab at making it more understandable. To do that I'd work to make something that can give a reader that is not fully familiar with the subject answer the broad question: What cars should I be driving to help minimize carbon emissions? Through this work, I may get some ideas to doing my self-initiated theme project on something related to climate change which feels like a relevant and important topic to make understandable today (If I also happen to find an interesting dataset, I'll go with that too). I'll also await more information about American Reportage and go from there.
+
+In terms of timing, I was thinking of trying to defend on the last week of boot camp, August 5–9. Would this week work for you? That would give me a little over four months to work on these 2 to 3 efforts. With this timeline, I was thinking it'd be good to have some baseline checkpoints on April 5th, May 5th, June 5th, and July 5th to see where I am with my efforts.
+
+For April 5th, I was thinking of having a progress update on my improvement effort, as well as a formalized proposal (for which this email exchange seems like a very rough draft), and the names of the other two people on my committee so we can all be on the same page by the time we know what the theme for American Reportage will be.
+
+In terms of committee members: I haven't heard back from Renée, and I haven't formally asked Alberto. He agreed to help and meet more with me when I got the topic from American Reportage, but I want to check if he'll be willing to be on the committee. Some other people I have been thinking about asking are: Claudia to get another design voice and writing feedback; in MNO/NOJ there is Jodi Upton and Greg Munno who would be really helpful on the data-journalism/analysis side. There is also the option of finding someone in the industry; maybe Alberto can recommend if he can't himself. I haven't looked too deeply into this idea, but I have met some friendly data visualizers online.
+
+I think having you, Alberto, and Jodi would be the best mix to get the kind of feedback that I feel my project needs: editorial, visualization, story, data, and technical.
+
+What are your thoughts on this more expanded plan? Is there an aspect I'm overlooking in terms of planning or timing that I should keep in mind as I start moving? Have there been any changes to the master's documents that I should keep in mind as I write my proposal and work?
+---
+
+
+Starting with a redo makes a lot of sense because you can start right away and use that as a baseline for your self initiated and Reportage efforts. If Reportage were not to work out, you could create a third effort on your own.
+
+Creating an environment for the projects will be critical, either each in its own or combined, depending on whether they’re related and their overall function. The setting would function as a the second form or iteration of the master’s project.
+
+Roberto, Jodi and I would be the ideal mix. Greg Munno has a good mind for this work as well and would augment the journalistic aspect.
+
+Yes, the last week of boot camp would work. Probably that Wednesday afternoon. And the check-ins are a good idea.
+
+A side point on the datives about cars is that they tend to minimize or disregard mileage as a factor in environmental impact. How far people drive to work can offset better mileage or ev cars. 
+
+
+
+
+----
+
+
+
+When I decided to apply to graduate programs in photography in early 2016, I still didn't know a lot about photography. I didn't have a great intuition of what made a good picture, or how multiple pictures could be put together to communicate. But I was enamored with the camera's ability to freeze the world for later reviewing and archiving. Through graduate school, I was hoping to explore this feeling in more depth and learn to make stories with pictures.
+
+During my first months of grad school, the summer boot camp and the start of the fall semester, I did learn about making pictures and was learning about telling picture stories. I could notice how my pictures had gotten better, but I still felt I wasn't working to the best of my capacities. I was sorely missing some of the things I had left behind in my engineering education, namely, prototyping, computational work, and some mathematics. Through trying to focus solely on photography I realized I couldn't escape my engineering education, but I wasn't sure how to bring it forward into my communications work. Trying to connect the two has been a persistent aspect of my graduate experience.
+
+Looking for a connection I learned about virtual and augmented reality, data journalism, picture editing, and graphic design. Through looking at each one and then looking at them in combinations, I encountered data visualization and was hooked. At last, I had found the kind of unionin of technical and communications work I had been looking for.
+
+My early projects into the area have 
+
+
+Excited, I dived into the field and tried to learn about the history and see the work people were doing. In time I stumbled upon this [video](https://www.youtube.com/watch?v=Qn9zCrIJzLs), where Muriel Cooper demonstrates some of the experimental work her Media Lab group had developed in the early 90s around computer interfaces and information.
+
+While trying to connect the two areas, I've tried many different hats and thought that they all fit. I've learned about virtual reality and augmented reality. I've learned how to make a picture story and how to edit someone else's work. I've learned about graphic design. I've learned about my own habits, and I've worked to improve how I collaborate with others. I've learned about data journalism and ultimately I've learned about data visualization.
+
+I first became aware of data visualization as a discipline sometime in my fall semester after learning that data journalism was a thing. (I had done some visualization work for *The Tech*, but it had always been on-demand last-minute additions to stories we had published; I never came to see it as its own discipline until grad school.) I was fascinated at how people and teams were working to organize and present a lot of information visually; it seemed like magic. People worked with spreadsheets and code to create order and I enjoyed coding, so I figured I should try to do data visualization work instead of photography. In the end the goal*/
