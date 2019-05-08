@@ -1,10 +1,20 @@
 # Thesis Proposal
 
-For my master's project I want to explore interactive data visualizations. As a graduate student I've worked to combine my technical background with my studies in communications. I have explored different disciplines and media: virtual reality, augmented reality, 360º videos, graphic design, photography, picture editing, data journalism, product design, and data visualization. Through all these different explorations, I've come to realize how much I enjoy synthesizing different media and creating things (physical and digital) that allow for learning through exploration and interaction. That said I'm not happy with most of the projects I've produced until now and want to use my thesis project as an opportunity to create something that is more reflective of my skills and my growth during my time at Syracuse.
-
-## Formula One (F1)
-
 On May 13, 1950, Giuseppe Farina, Luigi Fagioli, and Reg Parnell took first, second, and third (collectively the podium), in the first World Championship Formula One race at the Silverstone Circuit in England. Sixty-eight years, 11 months, and one day later, on April 14, 2019, five-time world champion Lewis Hamilton took first at the 1000th Formula One race, the 2019 Chinese Grand Prix. Over the course of the 998 races that separate these victories, Formula One has changed significantly. Of the 847 drivers that have raced in Formula One, only 33 have become World Champion. From the initial six races in Europe and the Indy500 in America, drivers have gone on to race on six continents. New materials and the computer have helped push the design of the cars forward, producing machines that go faster, and produce more downforce. The untimely deaths of drivers like Ayrton Senna and Jules Bianchi have brought forth improvements in driver safety. But the drive to be first, to be the fastest, hasn't changed.
+
+For my master's project I want to explore interactive data visualizations. Through my graduate coursework I've had the opportunity to explore different disciplines and media. Of the work I've done, I've most enjoyed synthesizing different media and creating things that allow for learning through exploration and interaction.
+
+For this project, I want to create a visual history of the sport from 1950 to the present day. I'm primarily interested in analyzing and presenting how the design of the cars has changed over time and how that has affected the sport. Design rules for the cars change every few years@@
+
+Design rules for the cars change every few years, making it so that engineers are constantly working to create the best cars possible
+
+Design rules for the car change every few years, but the engineering teams are always focused on creating a car that can be the fastest. This has led to advancements in motoring technology and to some unusual cars, like the [Brabham BT46](https://en.wikipedia.org/wiki/Brabham_BT46) that used a large fan to produce more downforce, 
+
+I'm primarily interested in how the design of the cars has changed, an
+
+I'm interested in documenting and presenting how the design of the cars have evolved, how the sports's popularity has changed over time, and what all the key moments in the 
+
+I had been considering two directions. The first one was to create an annotated timeline of the sport, using race data to indicate where we were in time and then adding links, media, and callouts to highlight the history of the sport. 
 
 Initially I had been interested in creating either a piece about the best Formula One driver, a visual history of the sport told through the cars, or an annotated timeline of every race. As I familiarized myself with the available race data, which I got from the [Ergast Developer API](https://ergast.com/mrd/), and learned more about the sport, I found these two pieces produced by FiveThirtyEight:
 
@@ -42,3 +52,7 @@ From these projects I have learned different techniques for analyzing data, and 
 ## Project Outcomes
 
 The main outcome of the project will be the three individual visualizations and their accompanying write-ups. I want to incorporate them both in a stand-alone website for the master's project and as part of a redesigned portfolio. In addition I want to take the visualizations and the write-ups and create a conference-style talk where I go over the project and what I learned as an outcome. This talk would be what I present on the day of the defense.
+
+## Student Learning
+
+For my master's project I want to explore interactive data visualizations. As a graduate student I've worked to combine my technical background with my studies in communications. I have explored different disciplines and media: virtual reality, augmented reality, 360º videos, graphic design, photography, picture editing, data journalism, product design, and data visualization. Through all these different explorations, I've come to realize how much I enjoy synthesizing different media and creating things (physical and digital) that allow for learning through exploration and interaction. That said I'm not happy with most of the projects I've produced until now and want to use my thesis project as an opportunity to create something that is more reflective of my skills and my growth during my time at Syracuse.
