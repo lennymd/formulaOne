@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/vis-thesis-journal/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/vis-thesis-journal/" rel="alternate" type="text/html" /><updated>2019-04-30T13:28:38-04:00</updated><id>http://localhost:4000/vis-thesis-journal/feed.xml</id><title type="html">Lenny’s VIS Thesis</title><subtitle>The journal+sketchbook for my Newhouse VIS thesis project.</subtitle><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><entry><title type="html">Thesis 21: 100 Days and a new, new direction</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/29/thesis-21.html" rel="alternate" type="text/html" title="Thesis 21: 100 Days and a new, new direction" /><published>2019-04-29T00:00:00-04:00</published><updated>2019-04-29T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/29/thesis-21</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/29/thesis-21.html">&lt;p&gt;Over the weekend I got feedback from Alberto on my &lt;a href=&quot;https://docs.google.com/document/d/16LbWha2qk56mawVR8bYwsTJMAWMQ6hOihMLpJwbu0o0/edit?usp=sharing&quot;&gt;proposal&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Why three projects? Just one is more than enough work for three months, I can assure you, if you want to design something that, say, is worth publishing by The Pudding. I’d prefer to have a very strong, deep, well-designed project rather than three merely OK ones.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I thought about it for the longer part of the day and whined a little and ended up writing to Mike about re-focusing my efforts into making something worth publishing by The Pudding. So I’m looking back to gather my thoughts and move forward to prototyping the angles I have so far.&lt;/p&gt;
+
+&lt;p&gt;I have 100 days until the defense, and I think I can get further and more focused if I were to treat this like a proper design project. I’ve had some time to look at the data and ideate directions (listed bellow). I’ll review them and pick 3 to explore and make prototypes for. Each prototype should help me answer a question that I’m most worried about with each idea.&lt;/p&gt;
+
+&lt;p&gt;All ideas I’ve had related to Formula 1:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating a visual history of the cars (an analogue to The Pudding’s piece piece on Air Jordan sneakers), looking at every championship driver’s car, as well as the cars that appeared in one-off races. The goal being to chart the evolution of F1 cars from 1950 to present, providing seasoned fans of the sports opportunities to find new information and to provide an introduction to the sport via the cars to a newbie fan. Maybe a visual history of the cars noting the really interesting ones and why they’re interesting in the same style as the Pudding piece, &lt;a href=&quot;https://pudding.cool/2018/09/jordans/&quot;&gt;A visual history of every Air Jordan&lt;/a&gt;. I can see myself cutting the car up into modules and transitioning each piece during the move forward.&lt;/li&gt;
+  &lt;li&gt;Look at the championship drivers and try to find who the best drivers from this subset have been. For this idea I wanted to focus on seeing how dominating they were in their season and how they compared to their teammate who drove the same car.&lt;/li&gt;
+  &lt;li&gt;Creating an annotated timeline of the sport where each race was on the x-axis and the y-axis was the standings at each race. I’d then add annotations to notable events during each race (final races, fatal crashes, special cars debuting, championship securing race).&lt;/li&gt;
+  &lt;li&gt;Creating a simulation where you pick two drivers and have them race on a variety of tracks to see who’s better.&lt;/li&gt;
+  &lt;li&gt;look at standings and figure out who’s the best driver in each category: most podiums; most championships; takes their constructor up the standings; races for a constructor who’s been previously successful in the championship; averages a high ending position over seasons; time series of positions over seasons; overtakes the most.&lt;/li&gt;
+  &lt;li&gt;Who have been the best drivers in the first 1000 races? I want to look at the history of the sport through the drivers and the races and the impactful events. I was thinking the main graphic element would be the slope diagram that charts the driver standings over the course of each season. Then I add annotations to special events that happen at each race. Some examples I’m thinking of are: clinches world title, fatality, announces retirement, first podium, retires from race due to mechanical damage, started in P-12 and ended in P4. I could then see who have been the really consistent drivers and who have been the best drivers: schumacher, senna, vettel, hamilton, etc. I could use this idea and snapshot it to talk about the best drivers, and then have a more interactive version of it at the bottom for people to play with. I don’t know yet how it would play out on mobile (maybe it’s vertical plots vs horizontal ones; or maybe it’s not even phone friendly).&lt;/li&gt;
+  &lt;li&gt;how driver championship standings change over the course of the season (and how that has changed over the many seasons)&lt;/li&gt;
+  &lt;li&gt;visualizing all the races taking notes of fatalities, how many races per season, race location, race accidents, and which cars didn’t finish&lt;/li&gt;
+  &lt;li&gt;knowing who all the drivers were, when they raced, and what kind of records they set.&lt;/li&gt;
+  &lt;li&gt;looking at how the set of constructors have changed and who has been the most successful constructor (both overall and if we were to normalize by how long they were in F1)&lt;/li&gt;
+  &lt;li&gt;Figuring out the best driver, with different best definitions (most championships, podiums, consistency, most moves up from the grid)&lt;/li&gt;
+  &lt;li&gt;Looking at how often drivers switch racing teams and if that correlates with their performance (win in a small team, get a big team to pay you more?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I want to keep in mind projects I admire:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/billionaires/&quot;&gt;Bloomberg Billionaires Index&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pudding.cool/2018/09/jordans/&quot;&gt;A visual history of every Air Jordan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rhythm-of-food.net/&quot;&gt;Rhythm of Food&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On 17 April, I wrote this:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;From the pudding piece I think a similar approach could be applied to every driver (800+) or racetrack(~70). And within each driver’s description, more of their career and achievements could be shown/explained. If we focus on racetracks we could point out the history of the track, any fatalities/crashes, and other tidbits.&lt;br /&gt;
+Using the Bloomberg Billionaires Index as a base, I’m inspired by the biggest movers in Formula 1, on both the sides of the constructors, and the side of the drivers. I want to see how the rankings for the drivers change over the course of each season. And I want to see how career lives of the constructors change: total points over their existence in F1.&lt;br /&gt;
+From the Rhythm of Food I’m drawn to the seasonality aspect and the depth you can through the data. F1 is an annual sport so I think some aspect of Moritz’s piece can transfer to F1 data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ll revisit this for inspiration: &lt;a href=&quot;https://visual.ly/tag/formula-1&quot;&gt;https://visual.ly/tag/formula-1&lt;/a&gt;. I can also keep these pages in mind:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Formula_One_fatalities&quot;&gt;F1 fatalities&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sportschord.com/formula-1&quot;&gt;a visual history of F1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;new-new-direction&quot;&gt;New New Direction&lt;/h3&gt;
+
+&lt;p&gt;I “pitched” three angles for Formula 1 stories visualizations to Alberto on Saturday:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A visual history of the cars&lt;/li&gt;
+  &lt;li&gt;An annotated timeline&lt;/li&gt;
+  &lt;li&gt;Looking at the championship drivers to show who the best one is.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I heard back from him this afternoon:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What about if you choose just one topic but you design those THREE big sections for it? That way it’d be equally challenging, but much more focused. And you’d have three portfolio pieces, but that could be published as a single very long story.&lt;br /&gt;
+And you could pitch this to The Pudding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is one way to reconcile things. I’ll have to update my proposal file, but we’ll have three chapters on Formula 1:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;An analysis of the championship drivers&lt;/li&gt;
+  &lt;li&gt;An annotated timeline of the first 1000 races&lt;/li&gt;
+  &lt;li&gt;A visual history of the cars.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I’ll be looking at this more closely this week, what each one would entail and keep working on the championship driver analysis. Ali made the good suggestion of setting the end of this week as a deadline for modifying my thesis further. I’ll be holding myself to this.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Over the weekend I got feedback from Alberto on my proposal:</summary></entry><entry><title type="html">Thesis 19: Unproductive day</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/25/thesis-19.html" rel="alternate" type="text/html" title="Thesis 19: Unproductive day" /><published>2019-04-25T00:00:00-04:00</published><updated>2019-04-25T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/25/thesis-19</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/25/thesis-19.html">&lt;p&gt;Went to bed late again last night reading comics. Took grandma to her appointment today and was really tired and unproductive for the day. I ran a few errands after lunch and I did read through some or most of nadieh’s projects with a focus on the sketching and some of the execution.&lt;/p&gt;
+
+&lt;p&gt;Did a few of the observable tutorials, but I can’t seem to connect them to github so I don’t particularly think they’ll be as useful for what I want. I was looking for a way to combine notebooks + github to track my js work… There is a js kernel for jupyter that I may give a go, but I think working with a browser and vscode will probably be the way to go.&lt;/p&gt;
+
+&lt;p&gt;Still thinking about circles for the F1 driver data, but want to maybe include a version of the graphs that allows for better comparison. Will sketch tomorrow (with colors pencils) and work to move forward.&lt;/p&gt;
+
+&lt;p&gt;Going to bed early to be more rested for tomorrow. Might read a bit more of lifelong kindergarten, but will not be reading manga or watching netflix until I finish my thesis.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IDVFTW chapter 11&lt;/li&gt;
+  &lt;li&gt;Sketch ideas for F1 data&lt;/li&gt;
+  &lt;li&gt;Look at the book of circles&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Went to bed late again last night reading comics. Took grandma to her appointment today and was really tired and unproductive for the day. I ran a few errands after lunch and I did read through some or most of nadieh’s projects with a focus on the sketching and some of the execution.</summary></entry><entry><title type="html">Thesis 18: Green light</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/24/thesis-18.html" rel="alternate" type="text/html" title="Thesis 18: Green light" /><published>2019-04-24T00:00:00-04:00</published><updated>2019-04-24T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/24/thesis-18</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/24/thesis-18.html">&lt;p&gt;Mike gave the green light on my proposal today, so I’m moving forward with that. I think I also landed a research assistant job for the summer looking at and for startups for a report. So that’s a part-time job.&lt;/p&gt;
+
+&lt;p&gt;I’ve decided to go with the F1 data project related to finding the best driver. I went through the spreadsheets and re-organized the Ids to be more chronological. Drivers are organized by dob (Excel does not play well with dates before 1900), and races by chronological order. Everything else follows from that.&lt;/p&gt;
+
+&lt;p&gt;For this data I’ll be looking mainly at the results data that has the end results (position/points) for each of the first 1000 races. I have the data all ready, so I’m moving to the sketching part of the project. I’m trying to balance cyclical nature of a season with comparisons.&lt;/p&gt;
+
+&lt;p&gt;I’m also debating going back to R to do analysis and test visualizations because I used so little of pandas: making a dataframe, joining two dataframes. ggplot2 seems like a way to test things on a small-scale.&lt;/p&gt;
+
+&lt;p&gt;I’ve started looking at observable tutorials as well which could prove a good way to prototype and build the final visualization, to a degree.&lt;/p&gt;
+
+&lt;p&gt;I spent the morning and part of the early afternoon with grandma who had cataract surgery today. She has another appointment early tomorrow in Miramar. So that’s going to be my morning tomorrow.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Look at the book of circles for ideas on F1 dataviz&lt;/li&gt;
+  &lt;li&gt;IDVFTW chapter 11&lt;/li&gt;
+  &lt;li&gt;Figure out how to use observable notebooks within a repo.&lt;/li&gt;
+  &lt;li&gt;Look through the data sketches projects to learn a little bit more about their sketching process.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Mike gave the green light on my proposal today, so I’m moving forward with that. I think I also landed a research assistant job for the summer looking at and for startups for a report. So that’s a part-time job.</summary></entry><entry><title type="html">Thesis 17: Nothing to note</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/23/thesis-17.html" rel="alternate" type="text/html" title="Thesis 17: Nothing to note" /><published>2019-04-23T00:00:00-04:00</published><updated>2019-04-23T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/23/thesis-17</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/23/thesis-17.html">&lt;p&gt;Yesterday was my sister’s birthday and today I was with my mom going between different doctors. Didn’t get a lot of work done with my thesis, but made it through some data journalism material as I prep for my fall course.&lt;/p&gt;
+
+&lt;p&gt;I also considered the topic of algorithms as one of my three topics. I think it’d be interesting to look at algorithms like the one on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_algorithms&quot;&gt;this list&lt;/a&gt; and see how they relate to each other, how popular they are, and when they were formulated. Something like the Accurat piece on solved and unsolved math problems.&lt;/p&gt;
+
+&lt;p&gt;I sent my proposal to mike on sunday and I’m still waiting on feedback but I’ve decided to go ahead and start with the f1 topic. I’m between looking at the cars over the years (champions + other neat cars). This would get into evolution, regulation, and efficiencies and might be based on something like the visual history of every air jordan + an Accurat piece.&lt;/p&gt;
+
+&lt;p&gt;Another idea is to look at standings over the seasons and try to find all the great drivers. Some bullet points on this idea:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most podiums&lt;/li&gt;
+  &lt;li&gt;Most championships&lt;/li&gt;
+  &lt;li&gt;Takes their constructor up the standings&lt;/li&gt;
+  &lt;li&gt;Races for a constructor who’s been previously successful in the championship&lt;/li&gt;
+  &lt;li&gt;Averages a high position over multiple entries (related to podiums and and championships)&lt;/li&gt;
+  &lt;li&gt;Time series of positions over seasons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m certain I have the data to do the second approach but will see if I have any of the data to do the first. Tomorrow my grandma is having a cataract surgery so I’ll be at a hospital during the day. I’ll bring my laptop so I can work while she’s there.&lt;/p&gt;
+
+&lt;p&gt;Yesterday and today I’ve been reading Mitch Resnick’s &lt;em&gt;Lifelong Kindergarten&lt;/em&gt; and it’s been a good intro into thinking about creative education. I’m wondering how and what I bring to my data journalism class this fall and if it’s something I’d be interested in pursuing later. Days ago, Lily had shared a &lt;a href=&quot;https://99percentinvisible.org/episode/froebels-gifts/&quot;&gt;99%invisible podcast episode on Froeble’s gifts&lt;/a&gt; and it begins with “In the late 1700s, a young man named Freidrich Froebel was on track to become an architect when a friend convinced him to pursue a path toward education instead. And in changing course, Froebel arguably ended up having more influence on the world of architecture and design than any single architect — all because Friedrich Froebel created kindergarten.” I jokingly asked Lily if she thought I should go to into education. Maybe later in the process I will write about why I want to teach. But the book is good.&lt;/p&gt;
+
+&lt;p&gt;Nothing else seems worth mentioning so I’ll get on with what I’m doing and head to bed soon.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Yesterday was my sister’s birthday and today I was with my mom going between different doctors. Didn’t get a lot of work done with my thesis, but made it through some data journalism material as I prep for my fall course.</summary></entry><entry><title type="html">Thesis 16: Shape of my project</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/19/thesis-16.html" rel="alternate" type="text/html" title="Thesis 16: Shape of my project" /><published>2019-04-19T00:00:00-04:00</published><updated>2019-04-19T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/19/thesis-16</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/19/thesis-16.html">&lt;p&gt;110 days until the defense.&lt;/p&gt;
+
+&lt;p&gt;Today I didn’t do much on the thesis front except think about project structure and &lt;a href=&quot;https://visual.ly/tag/formula-1&quot;&gt;look&lt;/a&gt; at past F1 infographics. I’ve been thinking of Mike’s comments yesterday on structuring the project:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Creating a significant single data visualization package around Formula 1 could work. Or you could do three notable but independent efforts. Both approaches would have value but in different ways. The multiple package would point you to a professional path as someone producing such projects, the giant effort might work better for academia - it’d be like a tenure-level project.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I was the one to suggest doing 3 different efforts, and now I’m the one suggesting to do less. I’m very much scared by having to create data visualizations that are interactive because I’ve yet to do one. I mean, I produced the News21 interactive piece in about a month, and I was doing other things: fact-checking, building my federal case database, checking Andrew’s excel work.&lt;/p&gt;
+
+&lt;p&gt;I think I can pull off three more of those if I get into it and do sacrifice sleep and work around a steady schedule. A benefit of doing three different ones is that I can reach the end of the cycle and move on to the next.&lt;/p&gt;
+
+&lt;p&gt;If I go the three project route:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Formula 1 – Who have been the best drivers in the first 1000 races? I want to look at the history of the sport through the drivers and the races and the impactful events. I was thinking the main graphic element would be the slope diagram that charts the driver standings over the course of each season. Then I add annotations to special events that happen at each race. Some examples I’m thinking of are: clinches world title, fatality, announces retirement, first podium, retires from race due to mechanical damage, started in P-12 and ended in P4. I could then see who have been the really consistent drivers and who have been the best drivers: schumacher, senna, vettel, hamilton, etc.&lt;br /&gt;
+I could use this idea and snapshot it to talk about the best drivers, and then have a more interactive version of it at the bottom for people to play with. I don’t know yet how it would play out on mobile (maybe it’s vertical plots vs horizontal ones; or maybe it’s not even phone friendly).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;American Reportage project: Wal-Mart or 2020 Census. I have an idea to maybe just work on both of these and make them projects 2 or three with the intention of just contributing the one American Reportage picks, but I’m not soo excited by the idea of working with census data unless it’s combined with something else. I still haven’t heard from them and it’s been almost a week. I think I could look at Wal-Mart locations and how the demographic around them has changed. It’s not entirely causal but if they close, that’s the people that get screwed. I could also look at food deserts and see which existing walmarts would increase food desert sizes if they close. This would be a lot of mapping. But I should talk to Deb about the census to see what she thinks.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I was going to redesign the carboncounter piece, but it seems like they haven’t gotten back to me. I don’t want to have to build my own database for this because I have their data, I just need to know how they distribute things over the different car types. I still think this project could be more interesting displayed in a grid format that changes as you interact with it. Here are some examples from Lisa Strausfeld: &lt;a href=&quot;https://informationart.com/projects/mad&quot;&gt;Museum of Arts and Design&lt;/a&gt;, &lt;a href=&quot;https://informationart.com/projects/pentagram&quot;&gt;Pentagram Website Design&lt;/a&gt;, &lt;a href=&quot;https://informationart.com/projects/cravath&quot;&gt;GE Home Appliance Energy Use&lt;/a&gt;, and &lt;a href=&quot;https://informationart.com/projects/aic&quot;&gt;Art Institute of Chicago Interpretive Media&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If I go with two projects:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Formula 1 – I do the above and then maybe do something about the cars and the constructors… Maybe a visual history of the cars noting the really interesting ones and why they’re interesting in the same style as the Pudding piece, &lt;a href=&quot;https://pudding.cool/2018/09/jordans/&quot;&gt;A visual history of every Air Jordan&lt;/a&gt;. I can see myself cutting the car up into modules and transitioning each piece during the move forward.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I do the American Reportage project I described above&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A third route is to just do 3 F1 visualizations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The one about the best driver&lt;/li&gt;
+  &lt;li&gt;The one about the cars&lt;/li&gt;
+  &lt;li&gt;One about a third aspect that I haven’t fully defined? Maybe one that looks at the history of the constructors and how those have changed over the year to get the 10 we have now.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I have’t looked for other topics. Can I do something about homelessness or can I do something about waste or plastics? I understand the responsibility to do such social work and I think I’m skipping out on it a bit to do more pop-culture related things, and I’m not 100% happy with that.&lt;/p&gt;
+
+&lt;p&gt;Maybe I can apply the ideas of the interactive item grid to items that produce waste. Or maybe look at infrastructure spending. I need to talk to Jacquee and Jodi about this.&lt;/p&gt;
+
+&lt;p&gt;I asked Erika to check with her dad on EPA data to see if we can make something out of it.&lt;/p&gt;
+
+&lt;p&gt;I think I’ll go read more of the truthful art and see if that helps me think about other topics to work with.&lt;/p&gt;
+
+&lt;p&gt;I was just flipping through the case studies in Scott Murray’s &lt;em&gt;Interactive Data Visualization For the Web&lt;/em&gt; and saw the Data Sketches interview with Nadieh Bremer and Shirley Wu. I checked out their site briefly to see what kind of topics they worked with and noticed their pattern of 4 week cycles. 1 week for data, 1 for sketching, and 2 for coding. I think this would be a good model to follow for the work. I’ll be looking through their work tomorrow: &lt;a href=&quot;http://www.datasketch.es/august/&quot;&gt;http://www.datasketch.es/august/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I like how they started with generally not overtly social and serious topics, but have ended up doing more work as a result. I’m interested in going more for this approach.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">110 days until the defense.</summary></entry><entry><title type="html">Thesis 15: 111 days</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/18/thesis-15.html" rel="alternate" type="text/html" title="Thesis 15: 111 days" /><published>2019-04-18T00:00:00-04:00</published><updated>2019-04-18T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/18/thesis-15</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/18/thesis-15.html">&lt;p&gt;Today I had a fairly productive day if we don’t count thesis things. I sent out a few applications to internships. I was on the phone with Ronojoy and we talked about our master’s projects. We’re both worried but trying to make progress. I also spent an hour chatting with a former student of mine who was thinking of being a 2.009 TA next fall. I encouraged her to try it because it was a great experience and there’s room for growth and learning.&lt;/p&gt;
+
+&lt;p&gt;I also set up the rooms in Airbnb, as both single rooms, and a double room package! And it looks like we got our first bookings from next Friday to July 21.&lt;/p&gt;
+
+&lt;p&gt;I spoke to Bjarni last night about the F1 data and he suggested looking at overtakes and who does the most overtakes. Though I understand the idea I don’t know how to extract that from the data.&lt;/p&gt;
+
+&lt;p&gt;There’s also a thing I want to try with the carbon counter data: emailing trancik@mit.edu and also trying to extract the coordinates from one car from the plot and then reverse calculating things from there. If I know the x, or y, values maybe I can work out how they apply certain GREET parameters which I didn’t fully understand before.&lt;/p&gt;
+
+&lt;p&gt;Mike got back to me today:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;You can still define the project as best you see fit, that being the point.&lt;br /&gt;
+Creating a significant single data visualization package around Formula 1 could work. Or you could do three notable but independent efforts. Both approaches would have value but in different ways. The multiple package would point you to a professional path as someone producing such projects, the giant effort might work better for academia - it’d be like a tenure-level project.&lt;br /&gt;
+Voice comes from fully realized expressions. The process of creation forces you to realize who you are. What’s been missing is the full realization. Work to full fruition on something and your voice will emerge. I’m betting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Whenever I first read his emails, I think he’s some sort of Jedi and that there’s a hidden wisdom in them. I need to think more about how my project is structured and scoping things down to get good things done and not get bogged in immense complexity.&lt;/p&gt;
+
+&lt;p&gt;I also got some good news today, Jodi is inclined to be on my committee. We’ll speak at the start of May so I’ve got to make progress with my proposal by then. It’s a lot of research and prep work and then it’ll be a lot of design &amp;amp; dev work. I’m excited.&lt;/p&gt;
+
+&lt;p&gt;I think I’m more sure now than I was before about wanting to do Interactive media work. If I frame my thesis as a series of web interactives, I think things will be better!&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Today I had a fairly productive day if we don’t count thesis things. I sent out a few applications to internships. I was on the phone with Ronojoy and we talked about our master’s projects. We’re both worried but trying to make progress. I also spent an hour chatting with a former student of mine who was thinking of being a 2.009 TA next fall. I encouraged her to try it because it was a great experience and there’s room for growth and learning.</summary></entry><entry><title type="html">Thesis 14: Hard fun</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-14.html" rel="alternate" type="text/html" title="Thesis 14: Hard fun" /><published>2019-04-17T00:00:00-04:00</published><updated>2019-04-17T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-14</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-14.html">&lt;p&gt;I wrote to Mike today:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hi Mike,&lt;br /&gt;
+I’m still waiting to hear back from the car visualization people about getting the updated data and answers to some analysis questions. I’m trying to come up with a backup for this third effort.&lt;br /&gt;
+I’ve also been looking through the Formula 1 race data from the first season in 1950 to the first three races of 2019 and have three or four ideas of interactive pieces I want to make with the data. The more I spend time with the racing data, the more room I think there is to make this piece more prominent in my work. I’ll be working to prototype the ideas statically (keynote + illustrator + paper), but I was wondering if doing two different efforts from this same base of data would work (and not doing a redesign)? Is this a question that’s more based on how I write my proposal?&lt;br /&gt;
+I’ve been thinking of about what you said of connecting my efforts with my voice. I’ve tried to figure out what “my voice” meant given that I never really stuck to any one thing, and the main thread I’ve picked on is &lt;strong&gt;a knack for starting with an object or an idea and through play and interaction learn more about the thing and how it connects to other things in it’s vicinity and far away&lt;/strong&gt;. “play and interaction” can be building prototypes, talking to others, or even just pushing buttons in a new video game to learn the controls without the game instruction manual. Another way of expressing the same thread is an inclination towards “hard fun”, the idea that something is engaging and exciting and fun because it is challenging. The idea itself is explained more beautifully &lt;a href=&quot;http://www.papert.org/articles/HardFun.html&quot;&gt;here&lt;/a&gt; by Seymour Papert.&lt;br /&gt;
+I’ll be writing part of my proposal this week, keeping in mind that the document will grow as I hear back from Amer. Reportage and figure out the third effort. I have a few ideas for a second iteration of the work that revolves around communicating the process. I realize that the defense is public to encourage this level of communication, but I wanted to try and make sure it’s a stronger part of my project than some of the ones I’ve seen.&lt;br /&gt;
+I reached out to Jodi today, so I’m waiting to hear back from her on her availability. Let me know if you hear anything from American Reportage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As I mention in the email, I think I found a way to connect my efforts: a knack for starting with an object or an idea and understanding the thing and how it connects to other things (object, ideas) in its vicinity and far away through play and interaction. Or just a desire to engage in “hard fun”. Something that really brought it together for me was a &lt;a href=&quot;https://www.youtube.com/watch?v=lztEnBFN5zU&amp;amp;list=PLJ8cMiYb3G5eD0M1Bfm6lvHy5BR6hoY8X&amp;amp;index=5&quot;&gt;video I watched last night about playground design&lt;/a&gt; by Vox Media. Also a recent 99% invisible &lt;a href=&quot;https://99percentinvisible.org/episode/froebels-gifts/&quot;&gt;episode on Froeble’s gifts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I was working to write my proposal two weeks ago, I kept running into a block where I could explain why I explored so many different parts of communications (photography, graphic design, VR, AR, picture editing), but I couldn’t connect that experience with why I was building data visualizations. I think the connection is to focus on making interactive things, things that people play with, use in their environment, interact with, and through that learn a little bit more about the world.&lt;/p&gt;
+
+&lt;p&gt;On the coding front, I figured out a few things today with pandas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how to work with &lt;code class=&quot;highlighter-rouge&quot;&gt;groupby()&lt;/code&gt; objects&lt;/li&gt;
+  &lt;li&gt;how to slice a &lt;code class=&quot;highlighter-rouge&quot;&gt;DataFrame&lt;/code&gt; object&lt;/li&gt;
+  &lt;li&gt;how to join information from two &lt;code class=&quot;highlighter-rouge&quot;&gt;DataFrames&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;How to loop through and do some stats on &lt;code class=&quot;highlighter-rouge&quot;&gt;groupby()&lt;/code&gt; objects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started sketching some of the ideas I have based on a few existing pieces:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/billionaires/&quot;&gt;Bloomberg Billionaires Index&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pudding.cool/2018/09/jordans/&quot;&gt;A visual history of every Air Jordan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rhythm-of-food.net/&quot;&gt;Rhythm of Food&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ll continue that tomorrow and try to make some static prototypes. I’ll also work on writing my proposal.&lt;/p&gt;
+
+&lt;p&gt;Outside of thesis things, I need to actively work to find a job and I need to photograph rooms in the house to put them up on AirBnb.&lt;/p&gt;
+
+&lt;p&gt;Lily sent me &lt;a href=&quot;https://www.rei.com/blog/climb/fun-scale&quot;&gt;this&lt;/a&gt; article about the Fun Scale and I’d say I feel somewhere in between Type II/III fun.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">I wrote to Mike today:</summary></entry><entry><title type="html">Thesis 13: Moving along with pandas, F1</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-13.html" rel="alternate" type="text/html" title="Thesis 13: Moving along with pandas, F1" /><published>2019-04-17T00:00:00-04:00</published><updated>2019-04-17T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-13</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/17/thesis-13.html">&lt;p&gt;112 days to d-day (d stands for defense).
+Yesterday, I came up with a list of things I want to look into:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;how driver championship standings change over the course of the season (and how that has changed over the many seasons)&lt;/li&gt;
+  &lt;li&gt;visualizing all the races taking notes of fatalities, how many races per season, race location, race accidents, and which cars didn’t finish&lt;/li&gt;
+  &lt;li&gt;knowing who all the drivers were, when they raced, and what kind of records they set.&lt;/li&gt;
+  &lt;li&gt;looking at how the set of constructors have changed and who has been the most successful constructor (both overall and if we were to normalize by how long they were in F1)&lt;/li&gt;
+  &lt;li&gt;Figuring out the best driver, with different best definitions (most championships, podiums, consistency, most moves up from the grid)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m looking to add more to this list. For example, which drivers have moved up the most from their grid position (added it to the list above). I’ve sent Bjarni an email with the list to see if there’s anything else he thinks would be good to look into.&lt;/p&gt;
+
+&lt;p&gt;Thinking about what I’ll be making, I’m thinking of something that’s a mix of: &lt;a href=&quot;https://pudding.cool/2018/09/jordans/&quot;&gt;A visual history of every Air Jordan&lt;/a&gt;, the &lt;a href=&quot;https://www.bloomberg.com/billionaires/&quot;&gt;Bloomberg Billionaires Index&lt;/a&gt;, and &lt;a href=&quot;http://rhythm-of-food.net/&quot;&gt;Rhythm of Food&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From the pudding piece I think a similar approach could be applied to every driver (800+) or racetrack(~70). And within each driver’s description, more of their career and achievements could be shown/explained. If we focus on racetracks we could point out the history of the track, any fatalities/crashes, and other tidbits.&lt;/p&gt;
+
+&lt;p&gt;Using the Bloomberg Billionaires Index as a base, I’m inspired by the biggest movers in Formula 1, on both the sides of the constructors, and the side of the drivers. I want to see how the rankings for the drivers change over the course of each season. And I want to see how career lives of the constructors change: total points over their existence in F1.&lt;/p&gt;
+
+&lt;p&gt;From the Rhythm of Food I’m drawn to the seasonality aspect and the depth you can through the data. F1 is an annual sport so I think some aspect of Moritz’s piece can transfer to F1 data.&lt;/p&gt;
+
+&lt;p&gt;Today I’ll be working on F1 and doing more pandas analysis. I think depending on how the day progresses I might take a stab at sketching some visualizations.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">112 days to d-day (d stands for defense). Yesterday, I came up with a list of things I want to look into:</summary></entry><entry><title type="html">Thesis 11: I’m very worried; i feel like i’m drowning</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-11.html" rel="alternate" type="text/html" title="Thesis 11: I'm very worried; i feel like i'm drowning" /><published>2019-04-16T00:00:00-04:00</published><updated>2019-04-16T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-11</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-11.html">&lt;p&gt;&lt;em&gt;Monday became rough as the day went on, so I went back and reshaped this entry.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-weekend&quot;&gt;The weekend&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I finished &lt;em&gt;Visual Journalism&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;I looked through &lt;em&gt;Look Inside&lt;/em&gt;, a book on cutaway illustrations and visual storytelling&lt;/li&gt;
+  &lt;li&gt;I got distracted on Friday night by an unofficial Maplestory server running an older version of th eMMORPG&lt;/li&gt;
+  &lt;li&gt;Saturday night I played around with code and &lt;a href=&quot;https://drive.google.com/open?id=1onTATthutM_DhWkgZ8ZvwGjis6mcbFcx&quot;&gt;brute-forced some geometric patterns on a 2x2 grid&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I watched Game of Thrones.&lt;/li&gt;
+  &lt;li&gt;I spent ~3 hours debating whether I should learn R and tidyverse or more python packages for data analysis + exploration. (more on this below)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;goals-for-this-week&quot;&gt;Goals for this week&lt;/h3&gt;
+
+&lt;p&gt;There are 113 days until my defense. My goals for this week are to work on my formula 1 project, prepare a rough outline of my proposal, and confirm my thesis committee (I need to reach out to one more person). I need to find a part-time job while I work on my thesis and later an internship or job that can complement my teaching job in the fall.&lt;/p&gt;
+
+&lt;h3 id=&quot;which-tool-to-learn&quot;&gt;Which tool to learn&lt;/h3&gt;
+
+&lt;p&gt;On Sunday I was poking around the Formula 1 (F1) data and realized I needed a tool to work with the data’s relational format. The last time I worked with relational data was the &lt;a href=&quot;https://www.justice.gov/usao/resources/foia-library/national-caseload-data&quot;&gt;National Caseload Data&lt;/a&gt; last summer. I spent time writing scripts to turn the txt files into csv files, but when I got to analysis I ended up with some bizarre counting errors when compared to my data editor. I was working with different csvkit commands on the command line.&lt;/p&gt;
+
+&lt;p&gt;This time around I thought I’d learn SQL, but in picking between MySQL and PostgreSQL, and then trying to set up the database, I got overwhelemed. Looking at alternatives I saw I could work with the tidyverse or learn a few more python packages (pandas, numpy, matplotlib, and seaborn to start with, but there could be &lt;a href=&quot;https://activewizards.com/blog/top-20-python-libraries-for-data-science-in-2018/&quot;&gt;others&lt;/a&gt;). I talked to Ali (he suggested python), I talked to Anna (she ended up sending me the link to Renee’s website by sharing &lt;a href=&quot;https://therstudio.com&quot;&gt;therstudio.com&lt;/a&gt; thinking it was related to Rstudio), and I couldn’t get a hold of Bjarni on Sunday (but he also suggested python yesterday). I tweeted and asked on the News Nerdery Slack, and two people suggested R. I spent so long trying to decide because it’ll influence what I other tools I teach during the data journalism class I have coming up in the fall.&lt;/p&gt;
+
+&lt;p&gt;On Sunday I thought R made the most sense, because I could try it out on this single project, and then if I liked it I could probably keep using it. But yesterday I could only get through half of chapter 3 of &lt;a href=&quot;https://r4ds.had.co.nz/&quot;&gt;#R4DS&lt;/a&gt;, and then day went to shit, so I’ve been reconsidering. I’m worried that I’m trying to pile on too many new things at the same time, and I don’t have the time to do it all. &lt;strong&gt;I’m very worried about not finishing.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;formula-1&quot;&gt;Formula 1&lt;/h3&gt;
+
+&lt;p&gt;I’ve started mapping the different tables to see what connects where. In the F1 dataset, we have 3 general categories of data: driver data, constructor data, and race data. And they’re all inter related. &lt;strong&gt;Drivers race cars built by constructors to see who is the best over the course of a series of races.&lt;/strong&gt; Thinking of what I want to present with this work, I can only envision a summary explorer, but I think analysis will lead me to a better angle. Right now I have data for the first 997 races (1950-2018 seasons), but I want to include the first races of 2019, at least the first 3, to hit the 1000 races mark.&lt;/p&gt;
+
+&lt;p&gt;In thinking about this project, I am inspired by Accurat’s work in &lt;em&gt;La Lettura&lt;/em&gt;. I think their approach to dense data clusters within an overarching architecture is really neat. Maybe the project will turn out in this direction.&lt;/p&gt;
+
+&lt;p&gt;Some aspects of the data I’m interested in are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;how driver championship standings change over the course of the season (and how that has changed over the many seasons)&lt;/li&gt;
+  &lt;li&gt;visualizing all the races taking notes of fatalities, how many races per season, race location, race accidents, and which cars didn’t finish&lt;/li&gt;
+  &lt;li&gt;knowing who all the drivers were, when they raced, and what kind of records they set.&lt;/li&gt;
+  &lt;li&gt;looking at how the set of constructors have changed and who has been the most successful constructor (both overall and if we were to normalise by how long they were in F1)&lt;/li&gt;
+  &lt;li&gt;Figuring out the best driver, with different best definitions (most championships, podiums, consistency)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My goal going in is to create an explorer of the race data that lets someone new to F1 learn about the sport. I should consult Bjarni on what other aspects he think could be helpful for this. I recently found this list of &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Formula_One_fatalities&quot;&gt;F1 fatalities&lt;/a&gt; and this example of a visual &lt;a href=&quot;https://www.sportschord.com/formula-1&quot;&gt;history of F1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are still so many unknowns in this.&lt;/p&gt;
+
+&lt;h3 id=&quot;todays-plan&quot;&gt;Today’s plan&lt;/h3&gt;
+
+&lt;p&gt;Keep on learning R using R4DS. While I’m still worried between R and python, I think having the structure of the book will help push me along. I can for example try python way when doing the Amer. Reportage project.&lt;/p&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">Monday became rough as the day went on, so I went back and reshaped this entry.</summary></entry><entry><title type="html">Thesis 12: Not the set out path, but progress!</title><link href="http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-12.html" rel="alternate" type="text/html" title="Thesis 12: Not the set out path, but progress!" /><published>2019-04-16T00:00:00-04:00</published><updated>2019-04-16T00:00:00-04:00</updated><id>http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-12</id><content type="html" xml:base="http://localhost:4000/vis-thesis-journal/2019/04/16/thesis-12.html">&lt;p&gt;I was going through the #R4DS book and then decided to switch over to pandas and python. I completed some tutorials, and read through documentation and started playing around with F1 data. I set out to see how many podiums (1st, 2nd, or 3rd places) Hamilton has gotten in his career so far. I got the answer (136 based on the data I had previously downloaded) and then learned that the data I had included the first two 2019 races, so I went ahead and updated the data and now it’s 137 podiums and I have a full 1000 races worth of data. I did some cleaning to get rid of how the null cells had been labeled and changed the date format so it would be easier to read.&lt;/p&gt;
+
+&lt;p&gt;Some things I have to still look into:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Going from getting Hamilton’s podiums, to getting the podiums of all the drivers. I started with making a function to get the P-n for all the n values.&lt;/li&gt;
+  &lt;li&gt;looking into doing DataFrame level operations instead of looping things. I’m more used to looping things and creating custom csv cuts to feed into graphics, but I think I need a different approach for these interactive graphics.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Lenny Martinez Dominguez</name><email>lennymartinezd@gmail.com</email></author><summary type="html">I was going through the #R4DS book and then decided to switch over to pandas and python. I completed some tutorials, and read through documentation and started playing around with F1 data. I set out to see how many podiums (1st, 2nd, or 3rd places) Hamilton has gotten in his career so far. I got the answer (136 based on the data I had previously downloaded) and then learned that the data I had included the first two 2019 races, so I went ahead and updated the data and now it’s 137 podiums and I have a full 1000 races worth of data. I did some cleaning to get rid of how the null cells had been labeled and changed the date format so it would be easier to read.</summary></entry></feed>

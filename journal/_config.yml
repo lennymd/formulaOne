@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         kramdown
+# Setup
+title:            Lenny's VIS Thesis
+tagline:          'journal+sketchbook'
+description:      'The journal+sketchbook for my Newhouse VIS thesis project.'
+url:              "https://lennymartinez.com/vis-thesis-journal/"
+baseurl:          "/vis-thesis-journal"
+
+author:
+  name:           'Lenny Martinez Dominguez'
+  url:            https://twitter.com/lennymartinezd
+  email:          lennymartinezd@gmail.com
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           "http://github.com/lennymartinez/vis-thesis-journal"
+
+plugins:
+- jekyll-paginate
