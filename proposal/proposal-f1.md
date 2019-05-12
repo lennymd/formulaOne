@@ -11,11 +11,8 @@ I’ll be looking into each car’s design features, how often they broke down d
 I want to design illustrations instead of working with photographs to have a more consistent visual quality. I found this [collection](https://racingotaku.files.wordpress.com/2009/06/f1cars_50-091.jpg) of every car from 1950 to 2009 to use as a starting point. In terms of presentation, I will create a grid display inspired by the [GE Home Appliance Energy Use](https://informationart.com/projects/cravath) project by Lisa Strausfeld and her team at Pentagram and an older iteration of the [Bloomberg Billionaire Index](https://informationart.com/projects/bloomberg-billionaires), designed by Lisa Strausfeld and her team at Bloomberg Visual Data. The cars would all be on the grid and originally sorted by year so you see the change in the cars that won from 1950 to 2018. The reader could re-sort the list on different dimensions—race team, number of race wins in the season—or filter to only the cars driven by a specific winner. The viewer could then click/tap on a car and get more information on the model:
 
 * The drivers who drove the car (and who won the season)
-
 * The names of the races won in the car
-
 * Information on the car, like key design features of the car, what kind of technical issues it had during the season, and other aspects
-
 * Clips or photographs of the car in action (with consideration of copyright issues)
 
 ## Data Sources
@@ -34,7 +31,7 @@ My second data-driven project was an attempt to tell the story of my last relati
 
 My [third data-driven project](https://www.instagram.com/p/BiNgylbgKCq/?utm_source=ig_web_copy_link) was an animation about all the different fire alarms that had gone off on Euclid Street in Syracuse, a popular street for students to live on, during my academic year at Syracuse.
 
-My fourth, and most recent, data-driven project was my work with News21 during our investigation, Hate in America. As part of the investigation I created the interactive piece, *[The State of Hate](https://hateinamerica.news21.com/roadtrip/)*,that summarized and presented our findings from a cross-country road trip I was a part of. I also researched and created an internal database of all the federally prosecuted hate crimes in the last 9 years, which helped others in the newsroom learn and find leads for their stories.
+My fourth, and most recent, data-driven project was my work with News21 during our investigation, Hate in America. As part of the investigation I created the interactive piece, _[The State of Hate](https://hateinamerica.news21.com/roadtrip/)_, that summarized and presented our findings from a cross-country road trip I was a part of. I also researched and created an internal database of all the federally prosecuted hate crimes in the last 9 years, which helped others in the newsroom learn and find leads for their stories.
 
 ## Project Outcomes
 
