@@ -1,540 +1,540 @@
-,raceId2,driverName,constructorRef,grid,positionOrder,points,year,round,prixDate,prixName
-5149,501,Ayrton Senna,mclaren,1,1,10.0,1991,1,1991-03-10,United States Grand Prix
-5145,501,Alain Prost,ferrari,2,2,6.0,1991,1,1991-03-10,United States Grand Prix
-5156,501,Nelson Piquet,benetton,5,3,4.0,1991,1,1991-03-10,United States Grand Prix
-5151,501,Stefano Modena,tyrrell,11,4,3.0,1991,1,1991-03-10,United States Grand Prix
-10710,501,Satoru Nakajima,tyrrell,16,5,2.0,1991,1,1991-03-10,United States Grand Prix
-17604,501,Aguri Suzuki,larrousse,21,6,1.0,1991,1,1991-03-10,United States Grand Prix
-7215,501,Nicola Larini,lambo,17,7,0.0,1991,1,1991-03-10,United States Grand Prix
-16241,501,Gabriele Tarquini,ags,22,8,0.0,1991,1,1991-03-10,United States Grand Prix
-14181,501,Pierluigi Martini,minardi,15,9,0.0,1991,1,1991-03-10,United States Grand Prix
-14185,501,Bertrand Gachot,jordan,14,10,0.0,1991,1,1991-03-10,United States Grand Prix
-12312,501,Martin Brundle,brabham,12,11,0.0,1991,1,1991-03-10,United States Grand Prix
-12177,501,Jean Alesi,ferrari,6,12,0.0,1991,1,1991-03-10,United States Grand Prix
-14177,501,Mika Häkkinen,team_lotus,13,13,0.0,1991,1,1991-03-10,United States Grand Prix
-12181,501,Riccardo Patrese,williams,3,14,0.0,1991,1,1991-03-10,United States Grand Prix
-20659,501,Roberto Moreno,benetton,8,15,0.0,1991,1,1991-03-10,United States Grand Prix
-14186,501,Michele Alboreto,footwork,25,16,0.0,1991,1,1991-03-10,United States Grand Prix
-12186,501,Ivan Capelli,leyton,18,17,0.0,1991,1,1991-03-10,United States Grand Prix
-14178,501,Thierry Boutsen,ligier,20,18,0.0,1991,1,1991-03-10,United States Grand Prix
-22117,501,Gerhard Berger,mclaren,7,19,0.0,1991,1,1991-03-10,United States Grand Prix
-12182,501,Nigel Mansell,williams,4,20,0.0,1991,1,1991-03-10,United States Grand Prix
-12187,501,Maurício Gugelmin,leyton,23,21,0.0,1991,1,1991-03-10,United States Grand Prix
-19488,501,Mark Blundell,brabham,24,22,0.0,1991,1,1991-03-10,United States Grand Prix
-12184,501,Emanuele Pirro,dallara,9,23,0.0,1991,1,1991-03-10,United States Grand Prix
-12183,501,Gianni Morbidelli,minardi,26,24,0.0,1991,1,1991-03-10,United States Grand Prix
-12185,501,Jyrki Järvilehto,dallara,10,25,0.0,1991,1,1991-03-10,United States Grand Prix
-14183,501,Éric Bernard,larrousse,19,26,0.0,1991,1,1991-03-10,United States Grand Prix
-23349,501,Alex Caffi,footwork,0,27,0.0,1991,1,1991-03-10,United States Grand Prix
-23343,501,Stefan Johansson,ags,0,28,0.0,1991,1,1991-03-10,United States Grand Prix
-23342,501,Érik Comas,ligier,0,29,0.0,1991,1,1991-03-10,United States Grand Prix
-23339,501,Julian Bailey,team_lotus,0,30,0.0,1991,1,1991-03-10,United States Grand Prix
-21877,501,Andrea de Cesaris,jordan,0,31,0.0,1991,1,1991-03-10,United States Grand Prix
-21871,501,Pedro Chaves,coloni,0,32,0.0,1991,1,1991-03-10,United States Grand Prix
-21879,501,Olivier Grouillard,fondmetal,0,33,0.0,1991,1,1991-03-10,United States Grand Prix
-21878,501,Eric van de Poele,lambo,0,34,0.0,1991,1,1991-03-10,United States Grand Prix
-2338,502,Ayrton Senna,mclaren,1,1,10.0,1991,2,1991-03-24,Brazilian Grand Prix
-2380,502,Riccardo Patrese,williams,2,2,6.0,1991,2,1991-03-24,Brazilian Grand Prix
-2339,502,Gerhard Berger,mclaren,4,3,4.0,1991,2,1991-03-24,Brazilian Grand Prix
-2269,502,Alain Prost,ferrari,6,4,3.0,1991,2,1991-03-24,Brazilian Grand Prix
-2412,502,Nelson Piquet,benetton,7,5,2.0,1991,2,1991-03-24,Brazilian Grand Prix
-2270,502,Jean Alesi,ferrari,5,6,1.0,1991,2,1991-03-24,Brazilian Grand Prix
-9114,502,Roberto Moreno,benetton,14,7,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-16882,502,Gianni Morbidelli,minardi,21,8,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-6830,502,Mika Häkkinen,team_lotus,22,9,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-6837,502,Thierry Boutsen,ligier,18,10,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-6846,502,Emanuele Pirro,dallara,12,11,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-16031,502,Martin Brundle,brabham,26,12,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-18405,502,Bertrand Gachot,jordan,10,13,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-11811,502,Nigel Mansell,williams,3,14,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-13189,502,Érik Comas,ligier,23,15,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-19107,502,Pierluigi Martini,minardi,20,16,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-13176,502,Mark Blundell,brabham,25,17,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-14425,502,Éric Bernard,larrousse,11,18,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-17923,502,Jyrki Järvilehto,dallara,19,19,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-13199,502,Andrea de Cesaris,jordan,13,20,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-11809,502,Stefano Modena,tyrrell,9,21,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-7692,502,Ivan Capelli,leyton,15,22,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-19099,502,Satoru Nakajima,tyrrell,16,23,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-23798,502,Maurício Gugelmin,leyton,8,24,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-19783,502,Gabriele Tarquini,ags,24,25,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-22086,502,Aguri Suzuki,larrousse,17,26,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-22857,502,Alex Caffi,footwork,0,27,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-22850,502,Stefan Johansson,ags,0,28,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-22856,502,Michele Alboreto,footwork,0,29,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-22841,502,Julian Bailey,team_lotus,0,30,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-21694,502,Olivier Grouillard,fondmetal,0,31,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-21693,502,Eric van de Poele,lambo,0,32,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-21692,502,Nicola Larini,lambo,0,33,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-21688,502,Pedro Chaves,coloni,0,34,0.0,1991,2,1991-03-24,Brazilian Grand Prix
-3292,503,Ayrton Senna,mclaren,1,1,10.0,1991,3,1991-04-28,San Marino Grand Prix
-3293,503,Gerhard Berger,mclaren,5,2,6.0,1991,3,1991-04-28,San Marino Grand Prix
-9744,503,Jyrki Järvilehto,dallara,16,3,4.0,1991,3,1991-04-28,San Marino Grand Prix
-17175,503,Pierluigi Martini,minardi,9,4,3.0,1991,3,1991-04-28,San Marino Grand Prix
-6970,503,Mika Häkkinen,team_lotus,25,5,2.0,1991,3,1991-04-28,San Marino Grand Prix
-6969,503,Julian Bailey,team_lotus,26,6,1.0,1991,3,1991-04-28,San Marino Grand Prix
-6978,503,Thierry Boutsen,ligier,24,7,0.0,1991,3,1991-04-28,San Marino Grand Prix
-6972,503,Mark Blundell,brabham,23,8,0.0,1991,3,1991-04-28,San Marino Grand Prix
-14382,503,Eric van de Poele,lambo,21,9,0.0,1991,3,1991-04-28,San Marino Grand Prix
-16110,503,Érik Comas,ligier,19,10,0.0,1991,3,1991-04-28,San Marino Grand Prix
-16109,503,Martin Brundle,brabham,18,11,0.0,1991,3,1991-04-28,San Marino Grand Prix
-13690,503,Maurício Gugelmin,leyton,15,12,0.0,1991,3,1991-04-28,San Marino Grand Prix
-13683,503,Roberto Moreno,benetton,13,13,0.0,1991,3,1991-04-28,San Marino Grand Prix
-7749,503,Stefano Modena,tyrrell,6,14,0.0,1991,3,1991-04-28,San Marino Grand Prix
-11979,503,Andrea de Cesaris,jordan,11,15,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19873,503,Bertrand Gachot,jordan,13,16,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19257,503,Ivan Capelli,leyton,22,17,0.0,1991,3,1991-04-28,San Marino Grand Prix
-13645,503,Éric Bernard,lola,17,18,0.0,1991,3,1991-04-28,San Marino Grand Prix
-17990,503,Riccardo Patrese,williams,2,19,0.0,1991,3,1991-04-28,San Marino Grand Prix
-7748,503,Satoru Nakajima,tyrrell,10,20,0.0,1991,3,1991-04-28,San Marino Grand Prix
-11974,503,Gianni Morbidelli,minardi,8,21,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19218,503,Jean Alesi,ferrari,7,22,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19223,503,Aguri Suzuki,lola,20,23,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19247,503,Nelson Piquet,benetton,14,24,0.0,1991,3,1991-04-28,San Marino Grand Prix
-20441,503,Nigel Mansell,williams,4,25,0.0,1991,3,1991-04-28,San Marino Grand Prix
-19217,503,Alain Prost,ferrari,3,26,0.0,1991,3,1991-04-28,San Marino Grand Prix
-23105,503,Gabriele Tarquini,ags,0,27,0.0,1991,3,1991-04-28,San Marino Grand Prix
-23106,503,Fabrizio Barbazza,ags,0,28,0.0,1991,3,1991-04-28,San Marino Grand Prix
-23111,503,Alex Caffi,footwork,0,29,0.0,1991,3,1991-04-28,San Marino Grand Prix
-23110,503,Michele Alboreto,footwork,0,30,0.0,1991,3,1991-04-28,San Marino Grand Prix
-21750,503,Emanuele Pirro,dallara,0,31,0.0,1991,3,1991-04-28,San Marino Grand Prix
-21757,503,Olivier Grouillard,fondmetal,0,32,0.0,1991,3,1991-04-28,San Marino Grand Prix
-21756,503,Nicola Larini,lambo,0,33,0.0,1991,3,1991-04-28,San Marino Grand Prix
-21748,503,Pedro Chaves,coloni,0,34,0.0,1991,3,1991-04-28,San Marino Grand Prix
-926,504,Ayrton Senna,mclaren,1,1,10.0,1991,4,1991-05-12,Monaco Grand Prix
-971,504,Nigel Mansell,williams,5,2,6.0,1991,4,1991-05-12,Monaco Grand Prix
-815,504,Jean Alesi,ferrari,9,3,4.0,1991,4,1991-05-12,Monaco Grand Prix
-8377,504,Roberto Moreno,benetton,8,4,3.0,1991,4,1991-05-12,Monaco Grand Prix
-8294,504,Alain Prost,ferrari,7,5,2.0,1991,4,1991-05-12,Monaco Grand Prix
-8385,504,Emanuele Pirro,dallara,12,6,1.0,1991,4,1991-05-12,Monaco Grand Prix
-16518,504,Thierry Boutsen,ligier,16,7,0.0,1991,4,1991-05-12,Monaco Grand Prix
-16542,504,Bertrand Gachot,jordan,23,8,0.0,1991,4,1991-05-12,Monaco Grand Prix
-16490,504,Éric Bernard,lola,13,9,0.0,1991,4,1991-05-12,Monaco Grand Prix
-16519,504,Érik Comas,ligier,26,10,0.0,1991,4,1991-05-12,Monaco Grand Prix
-6693,504,Jyrki Järvilehto,dallara,21,11,0.0,1991,4,1991-05-12,Monaco Grand Prix
-7335,504,Pierluigi Martini,minardi,14,12,0.0,1991,4,1991-05-12,Monaco Grand Prix
-6251,504,Mika Häkkinen,team_lotus,25,13,0.0,1991,4,1991-05-12,Monaco Grand Prix
-11624,504,Gianni Morbidelli,minardi,17,14,0.0,1991,4,1991-05-12,Monaco Grand Prix
-7459,504,Maurício Gugelmin,leyton,15,15,0.0,1991,4,1991-05-12,Monaco Grand Prix
-12735,504,Stefano Modena,tyrrell,2,16,0.0,1991,4,1991-05-12,Monaco Grand Prix
-18915,504,Riccardo Patrese,williams,3,17,0.0,1991,4,1991-05-12,Monaco Grand Prix
-18903,504,Mark Blundell,brabham,19,18,0.0,1991,4,1991-05-12,Monaco Grand Prix
-12759,504,Michele Alboreto,footwork,22,19,0.0,1991,4,1991-05-12,Monaco Grand Prix
-18912,504,Satoru Nakajima,tyrrell,11,20,0.0,1991,4,1991-05-12,Monaco Grand Prix
-12713,504,Aguri Suzuki,lola,20,21,0.0,1991,4,1991-05-12,Monaco Grand Prix
-7460,504,Andrea de Cesaris,jordan,10,22,0.0,1991,4,1991-05-12,Monaco Grand Prix
-14619,504,Ivan Capelli,leyton,18,23,0.0,1991,4,1991-05-12,Monaco Grand Prix
-11635,504,Gabriele Tarquini,ags,24,24,0.0,1991,4,1991-05-12,Monaco Grand Prix
-18908,504,Gerhard Berger,mclaren,6,25,0.0,1991,4,1991-05-12,Monaco Grand Prix
-19662,504,Nelson Piquet,benetton,4,26,0.0,1991,4,1991-05-12,Monaco Grand Prix
-22534,504,Julian Bailey,team_lotus,0,27,0.0,1991,4,1991-05-12,Monaco Grand Prix
-22653,504,Fabrizio Barbazza,ags,0,28,0.0,1991,4,1991-05-12,Monaco Grand Prix
-22658,504,Alex Caffi,footwork,0,29,0.0,1991,4,1991-05-12,Monaco Grand Prix
-22566,504,Martin Brundle,brabham,0,30,0.0,1991,4,1991-05-12,Monaco Grand Prix
-21636,504,Nicola Larini,lambo,0,31,0.0,1991,4,1991-05-12,Monaco Grand Prix
-21637,504,Eric van de Poele,lambo,0,32,0.0,1991,4,1991-05-12,Monaco Grand Prix
-21629,504,Pedro Chaves,coloni,0,33,0.0,1991,4,1991-05-12,Monaco Grand Prix
-21638,504,Olivier Grouillard,fondmetal,0,34,0.0,1991,4,1991-05-12,Monaco Grand Prix
-1965,505,Nelson Piquet,benetton,8,1,10.0,1991,5,1991-06-02,Canadian Grand Prix
-1913,505,Stefano Modena,tyrrell,9,2,6.0,1991,5,1991-06-02,Canadian Grand Prix
-1927,505,Riccardo Patrese,williams,1,3,4.0,1991,5,1991-06-02,Canadian Grand Prix
-1978,505,Andrea de Cesaris,jordan,11,4,3.0,1991,5,1991-06-02,Canadian Grand Prix
-1979,505,Bertrand Gachot,jordan,14,5,2.0,1991,5,1991-06-02,Canadian Grand Prix
-17888,505,Nigel Mansell,williams,2,6,1.0,1991,5,1991-06-02,Canadian Grand Prix
-8821,505,Pierluigi Martini,minardi,18,7,0.0,1991,5,1991-06-02,Canadian Grand Prix
-8807,505,Érik Comas,ligier,26,8,0.0,1991,5,1991-06-02,Canadian Grand Prix
-8830,505,Emanuele Pirro,dallara,10,9,0.0,1991,5,1991-06-02,Canadian Grand Prix
-16718,505,Satoru Nakajima,tyrrell,12,10,0.0,1991,5,1991-06-02,Canadian Grand Prix
-13034,505,Maurício Gugelmin,leyton,23,11,0.0,1991,5,1991-06-02,Canadian Grand Prix
-13030,505,Jyrki Järvilehto,dallara,17,12,0.0,1991,5,1991-06-02,Canadian Grand Prix
-7478,505,Stefan Johansson,footwork,25,13,0.0,1991,5,1991-06-02,Canadian Grand Prix
-13033,505,Ivan Capelli,leyton,13,14,0.0,1991,5,1991-06-02,Canadian Grand Prix
-12979,505,Jean Alesi,ferrari,7,15,0.0,1991,5,1991-06-02,Canadian Grand Prix
-11736,505,Éric Bernard,lola,19,16,0.0,1991,5,1991-06-02,Canadian Grand Prix
-11734,505,Alain Prost,ferrari,4,17,0.0,1991,5,1991-06-02,Canadian Grand Prix
-13012,505,Thierry Boutsen,ligier,16,18,0.0,1991,5,1991-06-02,Canadian Grand Prix
-23494,505,Ayrton Senna,mclaren,3,19,0.0,1991,5,1991-06-02,Canadian Grand Prix
-19021,505,Mika Häkkinen,team_lotus,24,20,0.0,1991,5,1991-06-02,Canadian Grand Prix
-12985,505,Martin Brundle,brabham,20,21,0.0,1991,5,1991-06-02,Canadian Grand Prix
-19045,505,Gianni Morbidelli,minardi,15,22,0.0,1991,5,1991-06-02,Canadian Grand Prix
-19728,505,Roberto Moreno,benetton,5,23,0.0,1991,5,1991-06-02,Canadian Grand Prix
-23531,505,Gerhard Berger,mclaren,6,24,0.0,1991,5,1991-06-02,Canadian Grand Prix
-23858,505,Aguri Suzuki,lola,22,25,0.0,1991,5,1991-06-02,Canadian Grand Prix
-7479,505,Michele Alboreto,footwork,21,26,0.0,1991,5,1991-06-02,Canadian Grand Prix
-22774,505,Fabrizio Barbazza,ags,0,27,0.0,1991,5,1991-06-02,Canadian Grand Prix
-22773,505,Gabriele Tarquini,ags,0,28,0.0,1991,5,1991-06-02,Canadian Grand Prix
-22742,505,Mark Blundell,brabham,0,29,0.0,1991,5,1991-06-02,Canadian Grand Prix
-22739,505,Johnny Herbert,team_lotus,0,30,0.0,1991,5,1991-06-02,Canadian Grand Prix
-21680,505,Olivier Grouillard,fondmetal,0,31,0.0,1991,5,1991-06-02,Canadian Grand Prix
-21678,505,Nicola Larini,lambo,0,32,0.0,1991,5,1991-06-02,Canadian Grand Prix
-21679,505,Eric van de Poele,lambo,0,33,0.0,1991,5,1991-06-02,Canadian Grand Prix
-21671,505,Pedro Chaves,coloni,0,34,0.0,1991,5,1991-06-02,Canadian Grand Prix
-4458,506,Riccardo Patrese,williams,1,1,10.0,1991,6,1991-06-16,Mexican Grand Prix
-4459,506,Nigel Mansell,williams,2,2,6.0,1991,6,1991-06-16,Mexican Grand Prix
-4447,506,Ayrton Senna,mclaren,3,3,4.0,1991,6,1991-06-16,Mexican Grand Prix
-10296,506,Andrea de Cesaris,jordan,11,4,3.0,1991,6,1991-06-16,Mexican Grand Prix
-10292,506,Roberto Moreno,benetton,9,5,2.0,1991,6,1991-06-16,Mexican Grand Prix
-10259,506,Éric Bernard,lola,23,6,1.0,1991,6,1991-06-16,Mexican Grand Prix
-10291,506,Gianni Morbidelli,minardi,14,7,0.0,1991,6,1991-06-16,Mexican Grand Prix
-17402,506,Thierry Boutsen,ligier,10,8,0.0,1991,6,1991-06-16,Mexican Grand Prix
-17390,506,Mika Häkkinen,team_lotus,24,9,0.0,1991,6,1991-06-16,Mexican Grand Prix
-17389,506,Johnny Herbert,team_lotus,25,10,0.0,1991,6,1991-06-16,Mexican Grand Prix
-17398,506,Stefano Modena,tyrrell,8,11,0.0,1991,6,1991-06-16,Mexican Grand Prix
-7114,506,Satoru Nakajima,tyrrell,13,12,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13966,506,Mark Blundell,brabham,12,13,0.0,1991,6,1991-06-16,Mexican Grand Prix
-19403,506,Bertrand Gachot,jordan,20,14,0.0,1991,6,1991-06-16,Mexican Grand Prix
-12094,506,Aguri Suzuki,lola,19,15,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23920,506,Nelson Piquet,benetton,6,16,0.0,1991,6,1991-06-16,Mexican Grand Prix
-6545,506,Jean Alesi,ferrari,4,17,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13986,506,Jyrki Järvilehto,dallara,16,18,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13991,506,Michele Alboreto,footwork,26,19,0.0,1991,6,1991-06-16,Mexican Grand Prix
-20878,506,Martin Brundle,brabham,17,20,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13988,506,Ivan Capelli,leyton,22,21,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23505,506,Alain Prost,ferrari,7,22,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13989,506,Maurício Gugelmin,leyton,18,23,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13992,506,Olivier Grouillard,fondmetal,21,24,0.0,1991,6,1991-06-16,Mexican Grand Prix
-13971,506,Gerhard Berger,mclaren,5,25,0.0,1991,6,1991-06-16,Mexican Grand Prix
-19400,506,Pierluigi Martini,minardi,15,26,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23244,506,Érik Comas,ligier,0,27,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23249,506,Gabriele Tarquini,ags,0,28,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23255,506,Stefan Johansson,footwork,0,29,0.0,1991,6,1991-06-16,Mexican Grand Prix
-23250,506,Fabrizio Barbazza,ags,0,30,0.0,1991,6,1991-06-16,Mexican Grand Prix
-21815,506,Nicola Larini,lambo,0,31,0.0,1991,6,1991-06-16,Mexican Grand Prix
-21816,506,Eric van de Poele,lambo,0,32,0.0,1991,6,1991-06-16,Mexican Grand Prix
-21808,506,Pedro Chaves,coloni,0,33,0.0,1991,6,1991-06-16,Mexican Grand Prix
-21810,506,Emanuele Pirro,dallara,0,34,0.0,1991,6,1991-06-16,Mexican Grand Prix
-5203,507,Nigel Mansell,williams,4,1,10.0,1991,7,1991-07-07,French Grand Prix
-5157,507,Alain Prost,ferrari,2,2,6.0,1991,7,1991-07-07,French Grand Prix
-5182,507,Ayrton Senna,mclaren,3,3,4.0,1991,7,1991-07-07,French Grand Prix
-5158,507,Jean Alesi,ferrari,6,4,3.0,1991,7,1991-07-07,French Grand Prix
-10727,507,Riccardo Patrese,williams,1,5,2.0,1991,7,1991-07-07,French Grand Prix
-10747,507,Andrea de Cesaris,jordan,13,6,1.0,1991,7,1991-07-07,French Grand Prix
-17626,507,Maurício Gugelmin,leyton,9,7,0.0,1991,7,1991-07-07,French Grand Prix
-17621,507,Nelson Piquet,benetton,7,8,0.0,1991,7,1991-07-07,French Grand Prix
-17617,507,Pierluigi Martini,minardi,12,9,0.0,1991,7,1991-07-07,French Grand Prix
-17607,507,Johnny Herbert,team_lotus,20,10,0.0,1991,7,1991-07-07,French Grand Prix
-17613,507,Érik Comas,ligier,14,11,0.0,1991,7,1991-07-07,French Grand Prix
-7218,507,Thierry Boutsen,ligier,16,12,0.0,1991,7,1991-07-07,French Grand Prix
-23818,507,Roberto Moreno,benetton,8,13,0.0,1991,7,1991-07-07,French Grand Prix
-12192,507,Stefano Modena,tyrrell,11,14,0.0,1991,7,1991-07-07,French Grand Prix
-6348,507,Olivier Grouillard,fondmetal,21,15,0.0,1991,7,1991-07-07,French Grand Prix
-7853,507,Éric Bernard,lola,23,16,0.0,1991,7,1991-07-07,French Grand Prix
-23476,507,Jyrki Järvilehto,dallara,26,17,0.0,1991,7,1991-07-07,French Grand Prix
-19491,507,Mark Blundell,brabham,17,18,0.0,1991,7,1991-07-07,French Grand Prix
-7852,507,Aguri Suzuki,lola,22,19,0.0,1991,7,1991-07-07,French Grand Prix
-12201,507,Michele Alboreto,footwork,25,20,0.0,1991,7,1991-07-07,French Grand Prix
-12189,507,Martin Brundle,brabham,24,21,0.0,1991,7,1991-07-07,French Grand Prix
-19492,507,Satoru Nakajima,tyrrell,18,22,0.0,1991,7,1991-07-07,French Grand Prix
-20666,507,Gianni Morbidelli,minardi,10,23,0.0,1991,7,1991-07-07,French Grand Prix
-19508,507,Ivan Capelli,leyton,15,24,0.0,1991,7,1991-07-07,French Grand Prix
-14194,507,Gerhard Berger,mclaren,5,25,0.0,1991,7,1991-07-07,French Grand Prix
-19509,507,Bertrand Gachot,jordan,19,26,0.0,1991,7,1991-07-07,French Grand Prix
-23350,507,Mika Häkkinen,team_lotus,0,27,0.0,1991,7,1991-07-07,French Grand Prix
-23359,507,Fabrizio Barbazza,ags,0,28,0.0,1991,7,1991-07-07,French Grand Prix
-23358,507,Gabriele Tarquini,ags,0,29,0.0,1991,7,1991-07-07,French Grand Prix
-23360,507,Stefan Johansson,footwork,0,30,0.0,1991,7,1991-07-07,French Grand Prix
-21881,507,Emanuele Pirro,dallara,0,31,0.0,1991,7,1991-07-07,French Grand Prix
-21882,507,Nicola Larini,lambo,0,32,0.0,1991,7,1991-07-07,French Grand Prix
-21883,507,Eric van de Poele,lambo,0,33,0.0,1991,7,1991-07-07,French Grand Prix
-21880,507,Pedro Chaves,coloni,0,34,0.0,1991,7,1991-07-07,French Grand Prix
-162,508,Nigel Mansell,williams,1,1,10.0,1991,8,1991-07-14,British Grand Prix
-118,508,Gerhard Berger,mclaren,4,2,6.0,1991,8,1991-07-14,British Grand Prix
-22,508,Alain Prost,ferrari,5,3,4.0,1991,8,1991-07-14,British Grand Prix
-14311,508,Ayrton Senna,mclaren,2,4,3.0,1991,8,1991-07-14,British Grand Prix
-7972,508,Nelson Piquet,benetton,8,5,2.0,1991,8,1991-07-14,British Grand Prix
-7981,508,Bertrand Gachot,jordan,17,6,1.0,1991,8,1991-07-14,British Grand Prix
-7923,508,Stefano Modena,tyrrell,10,7,0.0,1991,8,1991-07-14,British Grand Prix
-7922,508,Satoru Nakajima,tyrrell,15,8,0.0,1991,8,1991-07-14,British Grand Prix
-7966,508,Pierluigi Martini,minardi,23,9,0.0,1991,8,1991-07-14,British Grand Prix
-16348,508,Emanuele Pirro,dallara,18,10,0.0,1991,8,1991-07-14,British Grand Prix
-16332,508,Gianni Morbidelli,minardi,20,11,0.0,1991,8,1991-07-14,British Grand Prix
-16289,508,Mika Häkkinen,team_lotus,25,12,0.0,1991,8,1991-07-14,British Grand Prix
-6601,508,Jyrki Järvilehto,dallara,11,13,0.0,1991,8,1991-07-14,British Grand Prix
-18493,508,Johnny Herbert,team_lotus,24,14,0.0,1991,8,1991-07-14,British Grand Prix
-12357,508,Mark Blundell,brabham,12,15,0.0,1991,8,1991-07-14,British Grand Prix
-18818,508,Andrea de Cesaris,jordan,13,16,0.0,1991,8,1991-07-14,British Grand Prix
-20007,508,Jean Alesi,ferrari,6,17,0.0,1991,8,1991-07-14,British Grand Prix
-20010,508,Aguri Suzuki,lola,22,18,0.0,1991,8,1991-07-14,British Grand Prix
-12384,508,Thierry Boutsen,ligier,19,19,0.0,1991,8,1991-07-14,British Grand Prix
-7441,508,Martin Brundle,brabham,14,20,0.0,1991,8,1991-07-14,British Grand Prix
-7569,508,Michele Alboreto,footwork,26,21,0.0,1991,8,1991-07-14,British Grand Prix
-23641,508,Maurício Gugelmin,leyton,9,22,0.0,1991,8,1991-07-14,British Grand Prix
-11495,508,Roberto Moreno,benetton,7,23,0.0,1991,8,1991-07-14,British Grand Prix
-7561,508,Éric Bernard,lola,21,24,0.0,1991,8,1991-07-14,British Grand Prix
-18817,508,Ivan Capelli,leyton,16,25,0.0,1991,8,1991-07-14,British Grand Prix
-20022,508,Riccardo Patrese,williams,3,26,0.0,1991,8,1991-07-14,British Grand Prix
-22367,508,Érik Comas,ligier,0,27,0.0,1991,8,1991-07-14,British Grand Prix
-22387,508,Stefan Johansson,footwork,0,28,0.0,1991,8,1991-07-14,British Grand Prix
-22382,508,Fabrizio Barbazza,ags,0,29,0.0,1991,8,1991-07-14,British Grand Prix
-22381,508,Gabriele Tarquini,ags,0,30,0.0,1991,8,1991-07-14,British Grand Prix
-21582,508,Olivier Grouillard,fondmetal,0,31,0.0,1991,8,1991-07-14,British Grand Prix
-21580,508,Nicola Larini,lambo,0,32,0.0,1991,8,1991-07-14,British Grand Prix
-21581,508,Eric van de Poele,lambo,0,33,0.0,1991,8,1991-07-14,British Grand Prix
-21572,508,Pedro Chaves,coloni,0,34,0.0,1991,8,1991-07-14,British Grand Prix
-2866,509,Nigel Mansell,williams,1,1,10.0,1991,9,1991-07-28,German Grand Prix
-2865,509,Riccardo Patrese,williams,4,2,6.0,1991,9,1991-07-28,German Grand Prix
-2765,509,Jean Alesi,ferrari,6,3,4.0,1991,9,1991-07-28,German Grand Prix
-2829,509,Gerhard Berger,mclaren,3,4,3.0,1991,9,1991-07-28,German Grand Prix
-2936,509,Andrea de Cesaris,jordan,7,5,2.0,1991,9,1991-07-28,German Grand Prix
-2937,509,Bertrand Gachot,jordan,11,6,1.0,1991,9,1991-07-28,German Grand Prix
-14356,509,Ayrton Senna,mclaren,2,7,0.0,1991,9,1991-07-28,German Grand Prix
-9483,509,Roberto Moreno,benetton,9,8,0.0,1991,9,1991-07-28,German Grand Prix
-9451,509,Thierry Boutsen,ligier,17,9,0.0,1991,9,1991-07-28,German Grand Prix
-9488,509,Emanuele Pirro,dallara,18,10,0.0,1991,9,1991-07-28,German Grand Prix
-17021,509,Martin Brundle,brabham,15,11,0.0,1991,9,1991-07-28,German Grand Prix
-17022,509,Mark Blundell,brabham,21,12,0.0,1991,9,1991-07-28,German Grand Prix
-16072,509,Stefano Modena,tyrrell,14,13,0.0,1991,9,1991-07-28,German Grand Prix
-19167,509,Alain Prost,ferrari,5,14,0.0,1991,9,1991-07-28,German Grand Prix
-13467,509,Ivan Capelli,leyton,12,15,0.0,1991,9,1991-07-28,German Grand Prix
-13464,509,Jyrki Järvilehto,dallara,20,16,0.0,1991,9,1991-07-28,German Grand Prix
-13459,509,Nelson Piquet,benetton,8,17,0.0,1991,9,1991-07-28,German Grand Prix
-11901,509,Satoru Nakajima,tyrrell,13,18,0.0,1991,9,1991-07-28,German Grand Prix
-13434,509,Érik Comas,ligier,26,19,0.0,1991,9,1991-07-28,German Grand Prix
-11912,509,Maurício Gugelmin,leyton,16,20,0.0,1991,9,1991-07-28,German Grand Prix
-13387,509,Mika Häkkinen,team_lotus,23,21,0.0,1991,9,1991-07-28,German Grand Prix
-13390,509,Aguri Suzuki,lola,22,22,0.0,1991,9,1991-07-28,German Grand Prix
-21064,509,Gianni Morbidelli,minardi,19,23,0.0,1991,9,1991-07-28,German Grand Prix
-21063,509,Pierluigi Martini,minardi,10,24,0.0,1991,9,1991-07-28,German Grand Prix
-7721,509,Éric Bernard,lola,25,25,0.0,1991,9,1991-07-28,German Grand Prix
-19187,509,Nicola Larini,lambo,24,26,0.0,1991,9,1991-07-28,German Grand Prix
-23008,509,Michele Alboreto,footwork,0,27,0.0,1991,9,1991-07-28,German Grand Prix
-22961,509,Michael Bartels,team_lotus,0,28,0.0,1991,9,1991-07-28,German Grand Prix
-23003,509,Gabriele Tarquini,ags,0,29,0.0,1991,9,1991-07-28,German Grand Prix
-23009,509,Eric van de Poele,lambo,0,30,0.0,1991,9,1991-07-28,German Grand Prix
-21733,509,Olivier Grouillard,fondmetal,0,31,0.0,1991,9,1991-07-28,German Grand Prix
-21732,509,Alex Caffi,footwork,0,32,0.0,1991,9,1991-07-28,German Grand Prix
-21722,509,Fabrizio Barbazza,ags,0,33,0.0,1991,9,1991-07-28,German Grand Prix
-21727,509,Pedro Chaves,coloni,0,34,0.0,1991,9,1991-07-28,German Grand Prix
-4740,510,Ayrton Senna,mclaren,1,1,10.0,1991,10,1991-08-11,Hungarian Grand Prix
-4779,510,Nigel Mansell,williams,3,2,6.0,1991,10,1991-08-11,Hungarian Grand Prix
-4778,510,Riccardo Patrese,williams,2,3,4.0,1991,10,1991-08-11,Hungarian Grand Prix
-4741,510,Gerhard Berger,mclaren,5,4,3.0,1991,10,1991-08-11,Hungarian Grand Prix
-4681,510,Jean Alesi,ferrari,6,5,2.0,1991,10,1991-08-11,Hungarian Grand Prix
-10494,510,Ivan Capelli,leyton,9,6,1.0,1991,10,1991-08-11,Hungarian Grand Prix
-10495,510,Andrea de Cesaris,jordan,17,7,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-10487,510,Roberto Moreno,benetton,15,8,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-10496,510,Bertrand Gachot,jordan,16,9,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-17509,510,Érik Comas,ligier,25,10,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-17525,510,Maurício Gugelmin,leyton,13,11,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-17501,510,Stefano Modena,tyrrell,8,12,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-17516,510,Gianni Morbidelli,minardi,23,13,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-7166,510,Mika Häkkinen,team_lotus,26,14,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-7168,510,Satoru Nakajima,tyrrell,14,15,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-7187,510,Nicola Larini,lambo,24,16,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14089,510,Thierry Boutsen,ligier,19,17,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14094,510,Pierluigi Martini,minardi,18,18,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23474,510,Mark Blundell,brabham,20,19,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23814,510,Martin Brundle,brabham,10,20,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14109,510,Jyrki Järvilehto,dallara,12,21,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-12149,510,Nelson Piquet,benetton,11,22,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14080,510,Éric Bernard,lola,21,23,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14079,510,Aguri Suzuki,lola,22,24,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14108,510,Emanuele Pirro,dallara,7,25,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-14075,510,Alain Prost,ferrari,4,26,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23315,510,Olivier Grouillard,fondmetal,0,27,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23313,510,Michele Alboreto,footwork,0,28,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23314,510,Eric van de Poele,lambo,0,29,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-23297,510,Michael Bartels,team_lotus,0,30,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-21837,510,Gabriele Tarquini,ags,0,31,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-21848,510,Alex Caffi,footwork,0,32,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-21838,510,Fabrizio Barbazza,ags,0,33,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-21843,510,Pedro Chaves,coloni,0,34,0.0,1991,10,1991-08-11,Hungarian Grand Prix
-1226,511,Ayrton Senna,mclaren,1,1,10.0,1991,11,1991-08-25,Belgian Grand Prix
-1227,511,Gerhard Berger,mclaren,4,2,6.0,1991,11,1991-08-25,Belgian Grand Prix
-1327,511,Nelson Piquet,benetton,6,3,4.0,1991,11,1991-08-25,Belgian Grand Prix
-1328,511,Roberto Moreno,benetton,8,4,3.0,1991,11,1991-08-25,Belgian Grand Prix
-1267,511,Riccardo Patrese,williams,17,5,2.0,1991,11,1991-08-25,Belgian Grand Prix
-1211,511,Mark Blundell,brabham,13,6,1.0,1991,11,1991-08-25,Belgian Grand Prix
-1193,511,Johnny Herbert,team_lotus,21,7,0.0,1991,11,1991-08-25,Belgian Grand Prix
-8542,511,Emanuele Pirro,dallara,25,8,0.0,1991,11,1991-08-25,Belgian Grand Prix
-8480,511,Martin Brundle,brabham,16,9,0.0,1991,11,1991-08-25,Belgian Grand Prix
-8552,511,Olivier Grouillard,fondmetal,23,10,0.0,1991,11,1991-08-25,Belgian Grand Prix
-8512,511,Thierry Boutsen,ligier,18,11,0.0,1991,11,1991-08-25,Belgian Grand Prix
-11684,511,Pierluigi Martini,minardi,9,12,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12863,511,Andrea de Cesaris,jordan,11,13,0.0,1991,11,1991-08-25,Belgian Grand Prix
-6262,511,Stefano Modena,tyrrell,10,14,0.0,1991,11,1991-08-25,Belgian Grand Prix
-18517,511,Jyrki Järvilehto,dallara,14,15,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12795,511,Jean Alesi,ferrari,5,16,0.0,1991,11,1991-08-25,Belgian Grand Prix
-11685,511,Gianni Morbidelli,minardi,19,17,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12816,511,Mika Häkkinen,team_lotus,24,18,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12848,511,Érik Comas,ligier,26,19,0.0,1991,11,1991-08-25,Belgian Grand Prix
-17858,511,Nigel Mansell,williams,3,20,0.0,1991,11,1991-08-25,Belgian Grand Prix
-11668,511,Éric Bernard,lola,20,21,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12861,511,Ivan Capelli,leyton,12,22,0.0,1991,11,1991-08-25,Belgian Grand Prix
-18973,511,Satoru Nakajima,tyrrell,22,23,0.0,1991,11,1991-08-25,Belgian Grand Prix
-23848,511,Alain Prost,ferrari,2,24,0.0,1991,11,1991-08-25,Belgian Grand Prix
-12862,511,Maurício Gugelmin,leyton,15,25,0.0,1991,11,1991-08-25,Belgian Grand Prix
-6406,511,Michael Schumacher,jordan,7,26,0.0,1991,11,1991-08-25,Belgian Grand Prix
-22662,511,Aguri Suzuki,lola,0,27,0.0,1991,11,1991-08-25,Belgian Grand Prix
-22678,511,Nicola Larini,lambo,0,28,0.0,1991,11,1991-08-25,Belgian Grand Prix
-22677,511,Alex Caffi,footwork,0,29,0.0,1991,11,1991-08-25,Belgian Grand Prix
-22679,511,Eric van de Poele,lambo,0,30,0.0,1991,11,1991-08-25,Belgian Grand Prix
-21656,511,Michele Alboreto,footwork,0,31,0.0,1991,11,1991-08-25,Belgian Grand Prix
-21646,511,Gabriele Tarquini,ags,0,32,0.0,1991,11,1991-08-25,Belgian Grand Prix
-21650,511,Pedro Chaves,coloni,0,33,0.0,1991,11,1991-08-25,Belgian Grand Prix
-21647,511,Fabrizio Barbazza,ags,0,34,0.0,1991,11,1991-08-25,Belgian Grand Prix
-624,512,Nigel Mansell,williams,2,1,10.0,1991,12,1991-09-08,Italian Grand Prix
-551,512,Ayrton Senna,mclaren,1,2,6.0,1991,12,1991-09-08,Italian Grand Prix
-409,512,Alain Prost,ferrari,5,3,4.0,1991,12,1991-09-08,Italian Grand Prix
-552,512,Gerhard Berger,mclaren,3,4,3.0,1991,12,1991-09-08,Italian Grand Prix
-686,512,Michael Schumacher,benetton,7,5,2.0,1991,12,1991-09-08,Italian Grand Prix
-685,512,Nelson Piquet,benetton,8,6,1.0,1991,12,1991-09-08,Italian Grand Prix
-695,512,Andrea de Cesaris,jordan,14,7,0.0,1991,12,1991-09-08,Italian Grand Prix
-694,512,Ivan Capelli,leyton,12,8,0.0,1991,12,1991-09-08,Italian Grand Prix
-8179,512,Gianni Morbidelli,minardi,17,9,0.0,1991,12,1991-09-08,Italian Grand Prix
-8194,512,Emanuele Pirro,dallara,16,10,0.0,1991,12,1991-09-08,Italian Grand Prix
-8165,512,Érik Comas,ligier,22,11,0.0,1991,12,1991-09-08,Italian Grand Prix
-8117,512,Mark Blundell,brabham,11,12,0.0,1991,12,1991-09-08,Italian Grand Prix
-8116,512,Martin Brundle,brabham,19,13,0.0,1991,12,1991-09-08,Italian Grand Prix
-15902,512,Mika Häkkinen,team_lotus,25,14,0.0,1991,12,1991-09-08,Italian Grand Prix
-15915,512,Maurício Gugelmin,leyton,18,15,0.0,1991,12,1991-09-08,Italian Grand Prix
-18157,512,Nicola Larini,lambo,23,16,0.0,1991,12,1991-09-08,Italian Grand Prix
-12676,512,Olivier Grouillard,fondmetal,26,17,0.0,1991,12,1991-09-08,Italian Grand Prix
-21941,512,Jyrki Järvilehto,dallara,20,18,0.0,1991,12,1991-09-08,Italian Grand Prix
-12610,512,Stefano Modena,tyrrell,13,19,0.0,1991,12,1991-09-08,Italian Grand Prix
-12509,512,Jean Alesi,ferrari,6,20,0.0,1991,12,1991-09-08,Italian Grand Prix
-11544,512,Riccardo Patrese,williams,4,21,0.0,1991,12,1991-09-08,Italian Grand Prix
-7453,512,Satoru Nakajima,tyrrell,15,22,0.0,1991,12,1991-09-08,Italian Grand Prix
-12557,512,Éric Bernard,lola,24,23,0.0,1991,12,1991-09-08,Italian Grand Prix
-18872,512,Pierluigi Martini,minardi,10,24,0.0,1991,12,1991-09-08,Italian Grand Prix
-18882,512,Roberto Moreno,jordan,9,25,0.0,1991,12,1991-09-08,Italian Grand Prix
-18862,512,Thierry Boutsen,ligier,21,26,0.0,1991,12,1991-09-08,Italian Grand Prix
-22492,512,Michele Alboreto,footwork,0,27,0.0,1991,12,1991-09-08,Italian Grand Prix
-22408,512,Michael Bartels,team_lotus,0,28,0.0,1991,12,1991-09-08,Italian Grand Prix
-22493,512,Eric van de Poele,lambo,0,29,0.0,1991,12,1991-09-08,Italian Grand Prix
-22420,512,Aguri Suzuki,lola,0,30,0.0,1991,12,1991-09-08,Italian Grand Prix
-21595,512,Fabrizio Barbazza,ags,0,31,0.0,1991,12,1991-09-08,Italian Grand Prix
-21594,512,Gabriele Tarquini,ags,0,32,0.0,1991,12,1991-09-08,Italian Grand Prix
-21605,512,Alex Caffi,footwork,0,33,0.0,1991,12,1991-09-08,Italian Grand Prix
-21598,512,Pedro Chaves,coloni,0,34,0.0,1991,12,1991-09-08,Italian Grand Prix
-3517,513,Riccardo Patrese,williams,1,1,10.0,1991,13,1991-09-22,Portuguese Grand Prix
-3509,513,Ayrton Senna,mclaren,3,2,6.0,1991,13,1991-09-22,Portuguese Grand Prix
-3492,513,Jean Alesi,ferrari,6,3,4.0,1991,13,1991-09-22,Portuguese Grand Prix
-3529,513,Pierluigi Martini,minardi,8,4,3.0,1991,13,1991-09-22,Portuguese Grand Prix
-3534,513,Nelson Piquet,benetton,11,5,2.0,1991,13,1991-09-22,Portuguese Grand Prix
-3535,513,Michael Schumacher,benetton,10,6,1.0,1991,13,1991-09-22,Portuguese Grand Prix
-9894,513,Maurício Gugelmin,leyton,7,7,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-9895,513,Andrea de Cesaris,jordan,14,8,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-9889,513,Gianni Morbidelli,minardi,13,9,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-9896,513,Roberto Moreno,jordan,21,10,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-9879,513,Érik Comas,ligier,23,11,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-17250,513,Martin Brundle,brabham,19,12,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-7033,513,Satoru Nakajima,tyrrell,17,13,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-7028,513,Mika Häkkinen,team_lotus,24,14,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-7047,513,Michele Alboreto,footwork,22,15,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-7036,513,Thierry Boutsen,ligier,20,16,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-19329,513,Ivan Capelli,leyton,9,17,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-13787,513,Stefano Modena,tyrrell,12,18,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-22314,513,Nigel Mansell,williams,4,19,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-7766,513,Aguri Suzuki,lola,25,20,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-13774,513,Alain Prost,ferrari,5,21,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-13780,513,Gerhard Berger,mclaren,2,22,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-13801,513,Emanuele Pirro,dallara,16,23,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-12032,513,Jyrki Järvilehto,dallara,18,24,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-19893,513,Mark Blundell,brabham,15,25,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-13776,513,Johnny Herbert,team_lotus,26,26,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-23189,513,Éric Bernard,lola,0,27,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-23198,513,Gabriele Tarquini,ags,0,28,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-23203,513,Nicola Larini,lambo,0,29,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-23204,513,Eric van de Poele,lambo,0,30,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-21776,513,Fabrizio Barbazza,ags,0,31,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-21786,513,Olivier Grouillard,fondmetal,0,32,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-21785,513,Alex Caffi,footwork,0,33,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-21778,513,Pedro Chaves,coloni,0,34,0.0,1991,13,1991-09-22,Portuguese Grand Prix
-5339,514,Nigel Mansell,williams,2,1,10.0,1991,14,1991-09-29,Spanish Grand Prix
-5265,514,Alain Prost,ferrari,6,2,6.0,1991,14,1991-09-29,Spanish Grand Prix
-5338,514,Riccardo Patrese,williams,4,3,4.0,1991,14,1991-09-29,Spanish Grand Prix
-5266,514,Jean Alesi,ferrari,7,4,3.0,1991,14,1991-09-29,Spanish Grand Prix
-5312,514,Ayrton Senna,mclaren,3,5,2.0,1991,14,1991-09-29,Spanish Grand Prix
-5374,514,Michael Schumacher,benetton,5,6,1.0,1991,14,1991-09-29,Spanish Grand Prix
-10851,514,Maurício Gugelmin,leyton,13,7,0.0,1991,14,1991-09-29,Spanish Grand Prix
-10850,514,Jyrki Järvilehto,dallara,15,8,0.0,1991,14,1991-09-29,Spanish Grand Prix
-10852,514,Alessandro Zanardi,jordan,20,9,0.0,1991,14,1991-09-29,Spanish Grand Prix
-17649,514,Martin Brundle,brabham,11,10,0.0,1991,14,1991-09-29,Spanish Grand Prix
-17674,514,Nelson Piquet,benetton,10,11,0.0,1991,14,1991-09-29,Spanish Grand Prix
-17683,514,Gabriele Tarquini,fondmetal,22,12,0.0,1991,14,1991-09-29,Spanish Grand Prix
-17665,514,Pierluigi Martini,minardi,19,13,0.0,1991,14,1991-09-29,Spanish Grand Prix
-20691,514,Gianni Morbidelli,minardi,16,14,0.0,1991,14,1991-09-29,Spanish Grand Prix
-7241,514,Emanuele Pirro,dallara,9,15,0.0,1991,14,1991-09-29,Spanish Grand Prix
-7233,514,Stefano Modena,tyrrell,14,16,0.0,1991,14,1991-09-29,Spanish Grand Prix
-7232,514,Satoru Nakajima,tyrrell,18,17,0.0,1991,14,1991-09-29,Spanish Grand Prix
-14228,514,Mark Blundell,brabham,12,18,0.0,1991,14,1991-09-29,Spanish Grand Prix
-18098,514,Érik Comas,ligier,25,19,0.0,1991,14,1991-09-29,Spanish Grand Prix
-18095,514,Gerhard Berger,mclaren,1,20,0.0,1991,14,1991-09-29,Spanish Grand Prix
-14252,514,Michele Alboreto,footwork,24,21,0.0,1991,14,1991-09-29,Spanish Grand Prix
-18099,514,Andrea de Cesaris,jordan,17,22,0.0,1991,14,1991-09-29,Spanish Grand Prix
-19521,514,Mika Häkkinen,team_lotus,21,23,0.0,1991,14,1991-09-29,Spanish Grand Prix
-20695,514,Ivan Capelli,leyton,8,24,0.0,1991,14,1991-09-29,Spanish Grand Prix
-20677,514,Éric Bernard,lola,23,25,0.0,1991,14,1991-09-29,Spanish Grand Prix
-20685,514,Thierry Boutsen,ligier,26,26,0.0,1991,14,1991-09-29,Spanish Grand Prix
-23364,514,Aguri Suzuki,lola,0,27,0.0,1991,14,1991-09-29,Spanish Grand Prix
-23370,514,Nicola Larini,lambo,0,28,0.0,1991,14,1991-09-29,Spanish Grand Prix
-23363,514,Michael Bartels,team_lotus,0,29,0.0,1991,14,1991-09-29,Spanish Grand Prix
-23371,514,Eric van de Poele,lambo,0,30,0.0,1991,14,1991-09-29,Spanish Grand Prix
-21886,514,Alex Caffi,footwork,0,31,0.0,1991,14,1991-09-29,Spanish Grand Prix
-21885,514,Fabrizio Barbazza,ags,0,32,0.0,1991,14,1991-09-29,Spanish Grand Prix
-21884,514,Olivier Grouillard,ags,0,33,0.0,1991,14,1991-09-29,Spanish Grand Prix
-4954,515,Gerhard Berger,mclaren,1,1,10.0,1991,15,1991-10-20,Japanese Grand Prix
-4953,515,Ayrton Senna,mclaren,2,2,6.0,1991,15,1991-10-20,Japanese Grand Prix
-4992,515,Riccardo Patrese,williams,5,3,4.0,1991,15,1991-10-20,Japanese Grand Prix
-4896,515,Alain Prost,ferrari,4,4,3.0,1991,15,1991-10-20,Japanese Grand Prix
-10573,515,Martin Brundle,brabham,19,5,2.0,1991,15,1991-10-20,Japanese Grand Prix
-10592,515,Stefano Modena,tyrrell,14,6,1.0,1991,15,1991-10-20,Japanese Grand Prix
-10626,515,Nelson Piquet,benetton,10,7,0.0,1991,15,1991-10-20,Japanese Grand Prix
-10637,515,Maurício Gugelmin,leyton,18,8,0.0,1991,15,1991-10-20,Japanese Grand Prix
-10605,515,Thierry Boutsen,ligier,17,9,0.0,1991,15,1991-10-20,Japanese Grand Prix
-17582,515,Alex Caffi,footwork,26,10,0.0,1991,15,1991-10-20,Japanese Grand Prix
-7209,515,Gabriele Tarquini,fondmetal,24,11,0.0,1991,15,1991-10-20,Japanese Grand Prix
-23508,515,Érik Comas,ligier,20,12,0.0,1991,15,1991-10-20,Japanese Grand Prix
-18087,515,Pierluigi Martini,minardi,7,13,0.0,1991,15,1991-10-20,Japanese Grand Prix
-14161,515,Michael Schumacher,benetton,9,14,0.0,1991,15,1991-10-20,Japanese Grand Prix
-14132,515,Johnny Herbert,team_lotus,23,15,0.0,1991,15,1991-10-20,Japanese Grand Prix
-19454,515,Satoru Nakajima,tyrrell,15,16,0.0,1991,15,1991-10-20,Japanese Grand Prix
-14135,515,Aguri Suzuki,lola,25,17,0.0,1991,15,1991-10-20,Japanese Grand Prix
-20891,515,Gianni Morbidelli,minardi,8,18,0.0,1991,15,1991-10-20,Japanese Grand Prix
-19458,515,Nigel Mansell,williams,3,19,0.0,1991,15,1991-10-20,Japanese Grand Prix
-12172,515,Alessandro Zanardi,jordan,13,20,0.0,1991,15,1991-10-20,Japanese Grand Prix
-14133,515,Mika Häkkinen,team_lotus,21,21,0.0,1991,15,1991-10-20,Japanese Grand Prix
-15789,515,Andrea de Cesaris,jordan,11,22,0.0,1991,15,1991-10-20,Japanese Grand Prix
-15787,515,Jyrki Järvilehto,dallara,12,23,0.0,1991,15,1991-10-20,Japanese Grand Prix
-15786,515,Emanuele Pirro,dallara,16,24,0.0,1991,15,1991-10-20,Japanese Grand Prix
-15788,515,Karl Wendlinger,leyton,22,25,0.0,1991,15,1991-10-20,Japanese Grand Prix
-14125,515,Jean Alesi,ferrari,6,26,0.0,1991,15,1991-10-20,Japanese Grand Prix
-23334,515,Michele Alboreto,footwork,0,27,0.0,1991,15,1991-10-20,Japanese Grand Prix
-23335,515,Nicola Larini,lambo,0,28,0.0,1991,15,1991-10-20,Japanese Grand Prix
-23336,515,Eric van de Poele,lambo,0,29,0.0,1991,15,1991-10-20,Japanese Grand Prix
-23319,515,Éric Bernard,lola,0,30,0.0,1991,15,1991-10-20,Japanese Grand Prix
-21850,515,Mark Blundell,brabham,0,31,0.0,1991,15,1991-10-20,Japanese Grand Prix
-21858,515,Naoki Hattori,coloni,0,32,0.0,1991,15,1991-10-20,Japanese Grand Prix
-3556,516,Ayrton Senna,mclaren,1,1,5.0,1991,16,1991-11-03,Australian Grand Prix
-3569,516,Nigel Mansell,williams,3,2,3.0,1991,16,1991-11-03,Australian Grand Prix
-3557,516,Gerhard Berger,mclaren,2,3,2.0,1991,16,1991-11-03,Australian Grand Prix
-3578,516,Nelson Piquet,benetton,5,4,1.5,1991,16,1991-11-03,Australian Grand Prix
-3568,516,Riccardo Patrese,williams,4,5,1.0,1991,16,1991-11-03,Australian Grand Prix
-3547,516,Gianni Morbidelli,ferrari,8,6,0.5,1991,16,1991-11-03,Australian Grand Prix
-3581,516,Emanuele Pirro,dallara,13,7,0.0,1991,16,1991-11-03,Australian Grand Prix
-3583,516,Andrea de Cesaris,jordan,12,8,0.0,1991,16,1991-11-03,Australian Grand Prix
-3584,516,Alessandro Zanardi,jordan,16,9,0.0,1991,16,1991-11-03,Australian Grand Prix
-3561,516,Stefano Modena,tyrrell,9,10,0.0,1991,16,1991-11-03,Australian Grand Prix
-3551,516,Johnny Herbert,team_lotus,21,11,0.0,1991,16,1991-11-03,Australian Grand Prix
-3582,516,Jyrki Järvilehto,dallara,11,12,0.0,1991,16,1991-11-03,Australian Grand Prix
-3586,516,Michele Alboreto,footwork,15,13,0.0,1991,16,1991-11-03,Australian Grand Prix
-9931,516,Maurício Gugelmin,leyton,14,14,0.0,1991,16,1991-11-03,Australian Grand Prix
-9933,516,Alex Caffi,footwork,23,15,0.0,1991,16,1991-11-03,Australian Grand Prix
-9927,516,Roberto Moreno,minardi,18,16,0.0,1991,16,1991-11-03,Australian Grand Prix
-9916,516,Mark Blundell,brabham,17,17,0.0,1991,16,1991-11-03,Australian Grand Prix
-9922,516,Érik Comas,ligier,22,18,0.0,1991,16,1991-11-03,Australian Grand Prix
-17282,516,Mika Häkkinen,team_lotus,25,19,0.0,1991,16,1991-11-03,Australian Grand Prix
-17295,516,Karl Wendlinger,leyton,26,20,0.0,1991,16,1991-11-03,Australian Grand Prix
-19347,516,Pierluigi Martini,minardi,10,21,0.0,1991,16,1991-11-03,Australian Grand Prix
-19350,516,Michael Schumacher,benetton,6,22,0.0,1991,16,1991-11-03,Australian Grand Prix
-15578,516,Jean Alesi,ferrari,7,23,0.0,1991,16,1991-11-03,Australian Grand Prix
-19357,516,Nicola Larini,lambo,19,24,0.0,1991,16,1991-11-03,Australian Grand Prix
-15584,516,Thierry Boutsen,ligier,20,25,0.0,1991,16,1991-11-03,Australian Grand Prix
-19339,516,Satoru Nakajima,tyrrell,24,26,0.0,1991,16,1991-11-03,Australian Grand Prix
-23217,516,Aguri Suzuki,larrousse,0,27,0.0,1991,16,1991-11-03,Australian Grand Prix
-23207,516,Martin Brundle,brabham,0,28,0.0,1991,16,1991-11-03,Australian Grand Prix
-23223,516,Eric van de Poele,lambo,0,29,0.0,1991,16,1991-11-03,Australian Grand Prix
-23218,516,Bertrand Gachot,larrousse,0,30,0.0,1991,16,1991-11-03,Australian Grand Prix
-21798,516,Gabriele Tarquini,fondmetal,0,31,0.0,1991,16,1991-11-03,Australian Grand Prix
-21795,516,Naoki Hattori,coloni,0,32,0.0,1991,16,1991-11-03,Australian Grand Prix
+,raceId2,prixName,year,round,prixDate,constructorName,driverName,grid,positionText,positionOrder,points,status
+5149,501,United States Grand Prix,1991,1,1991-03-10,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+5145,501,United States Grand Prix,1991,1,1991-03-10,Ferrari,Alain Prost,2,2,2,6.0,Finished
+5156,501,United States Grand Prix,1991,1,1991-03-10,Benetton,Nelson Piquet,5,3,3,4.0,Finished
+5151,501,United States Grand Prix,1991,1,1991-03-10,Tyrrell,Stefano Modena,11,4,4,3.0,Finished
+10710,501,United States Grand Prix,1991,1,1991-03-10,Tyrrell,Satoru Nakajima,16,5,5,2.0,+1 Lap
+17604,501,United States Grand Prix,1991,1,1991-03-10,Larrousse,Aguri Suzuki,21,6,6,1.0,+2 Laps
+7215,501,United States Grand Prix,1991,1,1991-03-10,Lambo,Nicola Larini,17,7,7,0.0,+3 Laps
+16241,501,United States Grand Prix,1991,1,1991-03-10,AGS,Gabriele Tarquini,22,8,8,0.0,+4 Laps
+14181,501,United States Grand Prix,1991,1,1991-03-10,Minardi,Pierluigi Martini,15,9,9,0.0,Engine
+14185,501,United States Grand Prix,1991,1,1991-03-10,Jordan,Bertrand Gachot,14,10,10,0.0,Engine
+12312,501,United States Grand Prix,1991,1,1991-03-10,Brabham,Martin Brundle,12,11,11,0.0,+8 Laps
+12177,501,United States Grand Prix,1991,1,1991-03-10,Ferrari,Jean Alesi,6,12,12,0.0,Gearbox
+14177,501,United States Grand Prix,1991,1,1991-03-10,Team Lotus,Mika Häkkinen,13,13,13,0.0,Engine
+12181,501,United States Grand Prix,1991,1,1991-03-10,Williams,Riccardo Patrese,3,R,14,0.0,Gearbox
+20659,501,United States Grand Prix,1991,1,1991-03-10,Benetton,Roberto Moreno,8,R,15,0.0,Collision
+14186,501,United States Grand Prix,1991,1,1991-03-10,Footwork,Michele Alboreto,25,R,16,0.0,Engine
+12186,501,United States Grand Prix,1991,1,1991-03-10,Leyton House,Ivan Capelli,18,R,17,0.0,Gearbox
+14178,501,United States Grand Prix,1991,1,1991-03-10,Ligier,Thierry Boutsen,20,R,18,0.0,Engine
+22117,501,United States Grand Prix,1991,1,1991-03-10,McLaren,Gerhard Berger,7,R,19,0.0,Fuel pump
+12182,501,United States Grand Prix,1991,1,1991-03-10,Williams,Nigel Mansell,4,R,20,0.0,Gearbox
+12187,501,United States Grand Prix,1991,1,1991-03-10,Leyton House,Maurício Gugelmin,23,R,21,0.0,Gearbox
+19488,501,United States Grand Prix,1991,1,1991-03-10,Brabham,Mark Blundell,24,R,22,0.0,Spun off
+12184,501,United States Grand Prix,1991,1,1991-03-10,Dallara,Emanuele Pirro,9,R,23,0.0,Gearbox
+12183,501,United States Grand Prix,1991,1,1991-03-10,Minardi,Gianni Morbidelli,26,R,24,0.0,Gearbox
+12185,501,United States Grand Prix,1991,1,1991-03-10,Dallara,Jyrki Järvilehto,10,R,25,0.0,Gearbox
+14183,501,United States Grand Prix,1991,1,1991-03-10,Larrousse,Éric Bernard,19,R,26,0.0,Engine
+23349,501,United States Grand Prix,1991,1,1991-03-10,Footwork,Alex Caffi,0,F,27,0.0,Did not qualify
+23343,501,United States Grand Prix,1991,1,1991-03-10,AGS,Stefan Johansson,0,F,28,0.0,Did not qualify
+23342,501,United States Grand Prix,1991,1,1991-03-10,Ligier,Érik Comas,0,F,29,0.0,Did not qualify
+23339,501,United States Grand Prix,1991,1,1991-03-10,Team Lotus,Julian Bailey,0,F,30,0.0,Did not qualify
+21877,501,United States Grand Prix,1991,1,1991-03-10,Jordan,Andrea de Cesaris,0,F,31,0.0,Did not prequalify
+21871,501,United States Grand Prix,1991,1,1991-03-10,Coloni,Pedro Chaves,0,F,32,0.0,Did not prequalify
+21879,501,United States Grand Prix,1991,1,1991-03-10,Fondmetal,Olivier Grouillard,0,F,33,0.0,Did not prequalify
+21878,501,United States Grand Prix,1991,1,1991-03-10,Lambo,Eric van de Poele,0,F,34,0.0,Did not prequalify
+2338,502,Brazilian Grand Prix,1991,2,1991-03-24,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+2380,502,Brazilian Grand Prix,1991,2,1991-03-24,Williams,Riccardo Patrese,2,2,2,6.0,Finished
+2339,502,Brazilian Grand Prix,1991,2,1991-03-24,McLaren,Gerhard Berger,4,3,3,4.0,Finished
+2269,502,Brazilian Grand Prix,1991,2,1991-03-24,Ferrari,Alain Prost,6,4,4,3.0,Finished
+2412,502,Brazilian Grand Prix,1991,2,1991-03-24,Benetton,Nelson Piquet,7,5,5,2.0,Finished
+2270,502,Brazilian Grand Prix,1991,2,1991-03-24,Ferrari,Jean Alesi,5,6,6,1.0,Finished
+9114,502,Brazilian Grand Prix,1991,2,1991-03-24,Benetton,Roberto Moreno,14,7,7,0.0,+1 Lap
+16882,502,Brazilian Grand Prix,1991,2,1991-03-24,Minardi,Gianni Morbidelli,21,8,8,0.0,+2 Laps
+6830,502,Brazilian Grand Prix,1991,2,1991-03-24,Team Lotus,Mika Häkkinen,22,9,9,0.0,+3 Laps
+6837,502,Brazilian Grand Prix,1991,2,1991-03-24,Ligier,Thierry Boutsen,18,10,10,0.0,+3 Laps
+6846,502,Brazilian Grand Prix,1991,2,1991-03-24,Dallara,Emanuele Pirro,12,11,11,0.0,+3 Laps
+16031,502,Brazilian Grand Prix,1991,2,1991-03-24,Brabham,Martin Brundle,26,12,12,0.0,+4 Laps
+18405,502,Brazilian Grand Prix,1991,2,1991-03-24,Jordan,Bertrand Gachot,10,13,13,0.0,Fuel system
+11811,502,Brazilian Grand Prix,1991,2,1991-03-24,Williams,Nigel Mansell,3,R,14,0.0,Gearbox
+13189,502,Brazilian Grand Prix,1991,2,1991-03-24,Ligier,Érik Comas,23,R,15,0.0,Engine
+19107,502,Brazilian Grand Prix,1991,2,1991-03-24,Minardi,Pierluigi Martini,20,R,16,0.0,Spun off
+13176,502,Brazilian Grand Prix,1991,2,1991-03-24,Brabham,Mark Blundell,25,R,17,0.0,Engine
+14425,502,Brazilian Grand Prix,1991,2,1991-03-24,Larrousse,Éric Bernard,11,R,18,0.0,Radiator
+17923,502,Brazilian Grand Prix,1991,2,1991-03-24,Dallara,Jyrki Järvilehto,19,R,19,0.0,Electrical
+13199,502,Brazilian Grand Prix,1991,2,1991-03-24,Jordan,Andrea de Cesaris,13,R,20,0.0,Engine
+11809,502,Brazilian Grand Prix,1991,2,1991-03-24,Tyrrell,Stefano Modena,9,R,21,0.0,Gearbox
+7692,502,Brazilian Grand Prix,1991,2,1991-03-24,Leyton House,Ivan Capelli,15,R,22,0.0,Transmission
+19099,502,Brazilian Grand Prix,1991,2,1991-03-24,Tyrrell,Satoru Nakajima,16,R,23,0.0,Spun off
+23798,502,Brazilian Grand Prix,1991,2,1991-03-24,Leyton House,Maurício Gugelmin,8,R,24,0.0,Physical
+19783,502,Brazilian Grand Prix,1991,2,1991-03-24,AGS,Gabriele Tarquini,24,R,25,0.0,Suspension
+22086,502,Brazilian Grand Prix,1991,2,1991-03-24,Larrousse,Aguri Suzuki,17,R,26,0.0,Fuel pump
+22857,502,Brazilian Grand Prix,1991,2,1991-03-24,Footwork,Alex Caffi,0,F,27,0.0,Did not qualify
+22850,502,Brazilian Grand Prix,1991,2,1991-03-24,AGS,Stefan Johansson,0,F,28,0.0,Did not qualify
+22856,502,Brazilian Grand Prix,1991,2,1991-03-24,Footwork,Michele Alboreto,0,F,29,0.0,Did not qualify
+22841,502,Brazilian Grand Prix,1991,2,1991-03-24,Team Lotus,Julian Bailey,0,F,30,0.0,Did not qualify
+21694,502,Brazilian Grand Prix,1991,2,1991-03-24,Fondmetal,Olivier Grouillard,0,F,31,0.0,Did not prequalify
+21693,502,Brazilian Grand Prix,1991,2,1991-03-24,Lambo,Eric van de Poele,0,F,32,0.0,Did not prequalify
+21692,502,Brazilian Grand Prix,1991,2,1991-03-24,Lambo,Nicola Larini,0,F,33,0.0,Did not prequalify
+21688,502,Brazilian Grand Prix,1991,2,1991-03-24,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+3292,503,San Marino Grand Prix,1991,3,1991-04-28,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+3293,503,San Marino Grand Prix,1991,3,1991-04-28,McLaren,Gerhard Berger,5,2,2,6.0,Finished
+9744,503,San Marino Grand Prix,1991,3,1991-04-28,Dallara,Jyrki Järvilehto,16,3,3,4.0,+1 Lap
+17175,503,San Marino Grand Prix,1991,3,1991-04-28,Minardi,Pierluigi Martini,9,4,4,3.0,+2 Laps
+6970,503,San Marino Grand Prix,1991,3,1991-04-28,Team Lotus,Mika Häkkinen,25,5,5,2.0,+3 Laps
+6969,503,San Marino Grand Prix,1991,3,1991-04-28,Team Lotus,Julian Bailey,26,6,6,1.0,+3 Laps
+6978,503,San Marino Grand Prix,1991,3,1991-04-28,Ligier,Thierry Boutsen,24,7,7,0.0,+3 Laps
+6972,503,San Marino Grand Prix,1991,3,1991-04-28,Brabham,Mark Blundell,23,8,8,0.0,+3 Laps
+14382,503,San Marino Grand Prix,1991,3,1991-04-28,Lambo,Eric van de Poele,21,9,9,0.0,Out of fuel
+16110,503,San Marino Grand Prix,1991,3,1991-04-28,Ligier,Érik Comas,19,10,10,0.0,+4 Laps
+16109,503,San Marino Grand Prix,1991,3,1991-04-28,Brabham,Martin Brundle,18,11,11,0.0,+4 Laps
+13690,503,San Marino Grand Prix,1991,3,1991-04-28,Leyton House,Maurício Gugelmin,15,12,12,0.0,Engine
+13683,503,San Marino Grand Prix,1991,3,1991-04-28,Benetton,Roberto Moreno,13,13,13,0.0,Engine
+7749,503,San Marino Grand Prix,1991,3,1991-04-28,Tyrrell,Stefano Modena,6,R,14,0.0,Transmission
+11979,503,San Marino Grand Prix,1991,3,1991-04-28,Jordan,Andrea de Cesaris,11,R,15,0.0,Gearbox
+19873,503,San Marino Grand Prix,1991,3,1991-04-28,Jordan,Bertrand Gachot,13,R,16,0.0,Suspension
+19257,503,San Marino Grand Prix,1991,3,1991-04-28,Leyton House,Ivan Capelli,22,R,17,0.0,Spun off
+13645,503,San Marino Grand Prix,1991,3,1991-04-28,Lola,Éric Bernard,17,R,18,0.0,Engine
+17990,503,San Marino Grand Prix,1991,3,1991-04-28,Williams,Riccardo Patrese,2,R,19,0.0,Electrical
+7748,503,San Marino Grand Prix,1991,3,1991-04-28,Tyrrell,Satoru Nakajima,10,R,20,0.0,Transmission
+11974,503,San Marino Grand Prix,1991,3,1991-04-28,Minardi,Gianni Morbidelli,8,R,21,0.0,Gearbox
+19218,503,San Marino Grand Prix,1991,3,1991-04-28,Ferrari,Jean Alesi,7,R,22,0.0,Spun off
+19223,503,San Marino Grand Prix,1991,3,1991-04-28,Lola,Aguri Suzuki,20,R,23,0.0,Spun off
+19247,503,San Marino Grand Prix,1991,3,1991-04-28,Benetton,Nelson Piquet,14,R,24,0.0,Spun off
+20441,503,San Marino Grand Prix,1991,3,1991-04-28,Williams,Nigel Mansell,4,R,25,0.0,Collision
+19217,503,San Marino Grand Prix,1991,3,1991-04-28,Ferrari,Alain Prost,3,W,26,0.0,Spun off
+23105,503,San Marino Grand Prix,1991,3,1991-04-28,AGS,Gabriele Tarquini,0,F,27,0.0,Did not qualify
+23106,503,San Marino Grand Prix,1991,3,1991-04-28,AGS,Fabrizio Barbazza,0,F,28,0.0,Did not qualify
+23111,503,San Marino Grand Prix,1991,3,1991-04-28,Footwork,Alex Caffi,0,F,29,0.0,Did not qualify
+23110,503,San Marino Grand Prix,1991,3,1991-04-28,Footwork,Michele Alboreto,0,F,30,0.0,Did not qualify
+21750,503,San Marino Grand Prix,1991,3,1991-04-28,Dallara,Emanuele Pirro,0,F,31,0.0,Did not prequalify
+21757,503,San Marino Grand Prix,1991,3,1991-04-28,Fondmetal,Olivier Grouillard,0,F,32,0.0,Did not prequalify
+21756,503,San Marino Grand Prix,1991,3,1991-04-28,Lambo,Nicola Larini,0,F,33,0.0,Did not prequalify
+21748,503,San Marino Grand Prix,1991,3,1991-04-28,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+926,504,Monaco Grand Prix,1991,4,1991-05-12,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+971,504,Monaco Grand Prix,1991,4,1991-05-12,Williams,Nigel Mansell,5,2,2,6.0,Finished
+815,504,Monaco Grand Prix,1991,4,1991-05-12,Ferrari,Jean Alesi,9,3,3,4.0,Finished
+8377,504,Monaco Grand Prix,1991,4,1991-05-12,Benetton,Roberto Moreno,8,4,4,3.0,+1 Lap
+8294,504,Monaco Grand Prix,1991,4,1991-05-12,Ferrari,Alain Prost,7,5,5,2.0,+1 Lap
+8385,504,Monaco Grand Prix,1991,4,1991-05-12,Dallara,Emanuele Pirro,12,6,6,1.0,+1 Lap
+16518,504,Monaco Grand Prix,1991,4,1991-05-12,Ligier,Thierry Boutsen,16,7,7,0.0,+2 Laps
+16542,504,Monaco Grand Prix,1991,4,1991-05-12,Jordan,Bertrand Gachot,23,8,8,0.0,+2 Laps
+16490,504,Monaco Grand Prix,1991,4,1991-05-12,Lola,Éric Bernard,13,9,9,0.0,+2 Laps
+16519,504,Monaco Grand Prix,1991,4,1991-05-12,Ligier,Érik Comas,26,10,10,0.0,+2 Laps
+6693,504,Monaco Grand Prix,1991,4,1991-05-12,Dallara,Jyrki Järvilehto,21,11,11,0.0,+3 Laps
+7335,504,Monaco Grand Prix,1991,4,1991-05-12,Minardi,Pierluigi Martini,14,12,12,0.0,+6 Laps
+6251,504,Monaco Grand Prix,1991,4,1991-05-12,Team Lotus,Mika Häkkinen,25,R,13,0.0,Oil leak
+11624,504,Monaco Grand Prix,1991,4,1991-05-12,Minardi,Gianni Morbidelli,17,R,14,0.0,Gearbox
+7459,504,Monaco Grand Prix,1991,4,1991-05-12,Leyton House,Maurício Gugelmin,15,R,15,0.0,Throttle
+12735,504,Monaco Grand Prix,1991,4,1991-05-12,Tyrrell,Stefano Modena,2,R,16,0.0,Engine
+18915,504,Monaco Grand Prix,1991,4,1991-05-12,Williams,Riccardo Patrese,3,R,17,0.0,Spun off
+18903,504,Monaco Grand Prix,1991,4,1991-05-12,Brabham,Mark Blundell,19,R,18,0.0,Spun off
+12759,504,Monaco Grand Prix,1991,4,1991-05-12,Footwork,Michele Alboreto,22,R,19,0.0,Engine
+18912,504,Monaco Grand Prix,1991,4,1991-05-12,Tyrrell,Satoru Nakajima,11,R,20,0.0,Spun off
+12713,504,Monaco Grand Prix,1991,4,1991-05-12,Lola,Aguri Suzuki,20,R,21,0.0,Engine
+7460,504,Monaco Grand Prix,1991,4,1991-05-12,Jordan,Andrea de Cesaris,10,R,22,0.0,Throttle
+14619,504,Monaco Grand Prix,1991,4,1991-05-12,Leyton House,Ivan Capelli,18,R,23,0.0,Brakes
+11635,504,Monaco Grand Prix,1991,4,1991-05-12,AGS,Gabriele Tarquini,24,R,24,0.0,Gearbox
+18908,504,Monaco Grand Prix,1991,4,1991-05-12,McLaren,Gerhard Berger,6,R,25,0.0,Spun off
+19662,504,Monaco Grand Prix,1991,4,1991-05-12,Benetton,Nelson Piquet,4,R,26,0.0,Suspension
+22534,504,Monaco Grand Prix,1991,4,1991-05-12,Team Lotus,Julian Bailey,0,F,27,0.0,Did not qualify
+22653,504,Monaco Grand Prix,1991,4,1991-05-12,AGS,Fabrizio Barbazza,0,F,28,0.0,Did not qualify
+22658,504,Monaco Grand Prix,1991,4,1991-05-12,Footwork,Alex Caffi,0,F,29,0.0,Did not qualify
+22566,504,Monaco Grand Prix,1991,4,1991-05-12,Brabham,Martin Brundle,0,F,30,0.0,Did not qualify
+21636,504,Monaco Grand Prix,1991,4,1991-05-12,Lambo,Nicola Larini,0,F,31,0.0,Did not prequalify
+21637,504,Monaco Grand Prix,1991,4,1991-05-12,Lambo,Eric van de Poele,0,F,32,0.0,Did not prequalify
+21629,504,Monaco Grand Prix,1991,4,1991-05-12,Coloni,Pedro Chaves,0,F,33,0.0,Did not prequalify
+21638,504,Monaco Grand Prix,1991,4,1991-05-12,Fondmetal,Olivier Grouillard,0,F,34,0.0,Did not prequalify
+1965,505,Canadian Grand Prix,1991,5,1991-06-02,Benetton,Nelson Piquet,8,1,1,10.0,Finished
+1913,505,Canadian Grand Prix,1991,5,1991-06-02,Tyrrell,Stefano Modena,9,2,2,6.0,Finished
+1927,505,Canadian Grand Prix,1991,5,1991-06-02,Williams,Riccardo Patrese,1,3,3,4.0,Finished
+1978,505,Canadian Grand Prix,1991,5,1991-06-02,Jordan,Andrea de Cesaris,11,4,4,3.0,Finished
+1979,505,Canadian Grand Prix,1991,5,1991-06-02,Jordan,Bertrand Gachot,14,5,5,2.0,Finished
+17888,505,Canadian Grand Prix,1991,5,1991-06-02,Williams,Nigel Mansell,2,6,6,1.0,Electrical
+8821,505,Canadian Grand Prix,1991,5,1991-06-02,Minardi,Pierluigi Martini,18,7,7,0.0,+1 Lap
+8807,505,Canadian Grand Prix,1991,5,1991-06-02,Ligier,Érik Comas,26,8,8,0.0,+1 Lap
+8830,505,Canadian Grand Prix,1991,5,1991-06-02,Dallara,Emanuele Pirro,10,9,9,0.0,+1 Lap
+16718,505,Canadian Grand Prix,1991,5,1991-06-02,Tyrrell,Satoru Nakajima,12,10,10,0.0,+2 Laps
+13034,505,Canadian Grand Prix,1991,5,1991-06-02,Leyton House,Maurício Gugelmin,23,R,11,0.0,Engine
+13030,505,Canadian Grand Prix,1991,5,1991-06-02,Dallara,Jyrki Järvilehto,17,R,12,0.0,Engine
+7478,505,Canadian Grand Prix,1991,5,1991-06-02,Footwork,Stefan Johansson,25,R,13,0.0,Throttle
+13033,505,Canadian Grand Prix,1991,5,1991-06-02,Leyton House,Ivan Capelli,13,R,14,0.0,Engine
+12979,505,Canadian Grand Prix,1991,5,1991-06-02,Ferrari,Jean Alesi,7,R,15,0.0,Engine
+11736,505,Canadian Grand Prix,1991,5,1991-06-02,Lola,Éric Bernard,19,R,16,0.0,Gearbox
+11734,505,Canadian Grand Prix,1991,5,1991-06-02,Ferrari,Alain Prost,4,R,17,0.0,Gearbox
+13012,505,Canadian Grand Prix,1991,5,1991-06-02,Ligier,Thierry Boutsen,16,R,18,0.0,Engine
+23494,505,Canadian Grand Prix,1991,5,1991-06-02,McLaren,Ayrton Senna,3,R,19,0.0,Alternator
+19021,505,Canadian Grand Prix,1991,5,1991-06-02,Team Lotus,Mika Häkkinen,24,R,20,0.0,Spun off
+12985,505,Canadian Grand Prix,1991,5,1991-06-02,Brabham,Martin Brundle,20,R,21,0.0,Engine
+19045,505,Canadian Grand Prix,1991,5,1991-06-02,Minardi,Gianni Morbidelli,15,R,22,0.0,Spun off
+19728,505,Canadian Grand Prix,1991,5,1991-06-02,Benetton,Roberto Moreno,5,R,23,0.0,Suspension
+23531,505,Canadian Grand Prix,1991,5,1991-06-02,McLaren,Gerhard Berger,6,R,24,0.0,Injection
+23858,505,Canadian Grand Prix,1991,5,1991-06-02,Lola,Aguri Suzuki,22,R,25,0.0,Fuel leak
+7479,505,Canadian Grand Prix,1991,5,1991-06-02,Footwork,Michele Alboreto,21,R,26,0.0,Throttle
+22774,505,Canadian Grand Prix,1991,5,1991-06-02,AGS,Fabrizio Barbazza,0,F,27,0.0,Did not qualify
+22773,505,Canadian Grand Prix,1991,5,1991-06-02,AGS,Gabriele Tarquini,0,F,28,0.0,Did not qualify
+22742,505,Canadian Grand Prix,1991,5,1991-06-02,Brabham,Mark Blundell,0,F,29,0.0,Did not qualify
+22739,505,Canadian Grand Prix,1991,5,1991-06-02,Team Lotus,Johnny Herbert,0,F,30,0.0,Did not qualify
+21680,505,Canadian Grand Prix,1991,5,1991-06-02,Fondmetal,Olivier Grouillard,0,F,31,0.0,Did not prequalify
+21678,505,Canadian Grand Prix,1991,5,1991-06-02,Lambo,Nicola Larini,0,F,32,0.0,Did not prequalify
+21679,505,Canadian Grand Prix,1991,5,1991-06-02,Lambo,Eric van de Poele,0,F,33,0.0,Did not prequalify
+21671,505,Canadian Grand Prix,1991,5,1991-06-02,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+4458,506,Mexican Grand Prix,1991,6,1991-06-16,Williams,Riccardo Patrese,1,1,1,10.0,Finished
+4459,506,Mexican Grand Prix,1991,6,1991-06-16,Williams,Nigel Mansell,2,2,2,6.0,Finished
+4447,506,Mexican Grand Prix,1991,6,1991-06-16,McLaren,Ayrton Senna,3,3,3,4.0,Finished
+10296,506,Mexican Grand Prix,1991,6,1991-06-16,Jordan,Andrea de Cesaris,11,4,4,3.0,+1 Lap
+10292,506,Mexican Grand Prix,1991,6,1991-06-16,Benetton,Roberto Moreno,9,5,5,2.0,+1 Lap
+10259,506,Mexican Grand Prix,1991,6,1991-06-16,Lola,Éric Bernard,23,6,6,1.0,+1 Lap
+10291,506,Mexican Grand Prix,1991,6,1991-06-16,Minardi,Gianni Morbidelli,14,7,7,0.0,+1 Lap
+17402,506,Mexican Grand Prix,1991,6,1991-06-16,Ligier,Thierry Boutsen,10,8,8,0.0,+2 Laps
+17390,506,Mexican Grand Prix,1991,6,1991-06-16,Team Lotus,Mika Häkkinen,24,9,9,0.0,+2 Laps
+17389,506,Mexican Grand Prix,1991,6,1991-06-16,Team Lotus,Johnny Herbert,25,10,10,0.0,+2 Laps
+17398,506,Mexican Grand Prix,1991,6,1991-06-16,Tyrrell,Stefano Modena,8,11,11,0.0,+2 Laps
+7114,506,Mexican Grand Prix,1991,6,1991-06-16,Tyrrell,Satoru Nakajima,13,12,12,0.0,+3 Laps
+13966,506,Mexican Grand Prix,1991,6,1991-06-16,Brabham,Mark Blundell,12,R,13,0.0,Engine
+19403,506,Mexican Grand Prix,1991,6,1991-06-16,Jordan,Bertrand Gachot,20,R,14,0.0,Spun off
+12094,506,Mexican Grand Prix,1991,6,1991-06-16,Lola,Aguri Suzuki,19,R,15,0.0,Gearbox
+23920,506,Mexican Grand Prix,1991,6,1991-06-16,Benetton,Nelson Piquet,6,R,16,0.0,Wheel bearing
+6545,506,Mexican Grand Prix,1991,6,1991-06-16,Ferrari,Jean Alesi,4,R,17,0.0,Clutch
+13986,506,Mexican Grand Prix,1991,6,1991-06-16,Dallara,Jyrki Järvilehto,16,R,18,0.0,Engine
+13991,506,Mexican Grand Prix,1991,6,1991-06-16,Footwork,Michele Alboreto,26,R,19,0.0,Engine
+20878,506,Mexican Grand Prix,1991,6,1991-06-16,Brabham,Martin Brundle,17,R,20,0.0,Wheel
+13988,506,Mexican Grand Prix,1991,6,1991-06-16,Leyton House,Ivan Capelli,22,R,21,0.0,Engine
+23505,506,Mexican Grand Prix,1991,6,1991-06-16,Ferrari,Alain Prost,7,R,22,0.0,Alternator
+13989,506,Mexican Grand Prix,1991,6,1991-06-16,Leyton House,Maurício Gugelmin,18,R,23,0.0,Engine
+13992,506,Mexican Grand Prix,1991,6,1991-06-16,Fondmetal,Olivier Grouillard,21,R,24,0.0,Engine
+13971,506,Mexican Grand Prix,1991,6,1991-06-16,McLaren,Gerhard Berger,5,R,25,0.0,Engine
+19400,506,Mexican Grand Prix,1991,6,1991-06-16,Minardi,Pierluigi Martini,15,R,26,0.0,Spun off
+23244,506,Mexican Grand Prix,1991,6,1991-06-16,Ligier,Érik Comas,0,F,27,0.0,Did not qualify
+23249,506,Mexican Grand Prix,1991,6,1991-06-16,AGS,Gabriele Tarquini,0,F,28,0.0,Did not qualify
+23255,506,Mexican Grand Prix,1991,6,1991-06-16,Footwork,Stefan Johansson,0,F,29,0.0,Did not qualify
+23250,506,Mexican Grand Prix,1991,6,1991-06-16,AGS,Fabrizio Barbazza,0,F,30,0.0,Did not qualify
+21815,506,Mexican Grand Prix,1991,6,1991-06-16,Lambo,Nicola Larini,0,F,31,0.0,Did not prequalify
+21816,506,Mexican Grand Prix,1991,6,1991-06-16,Lambo,Eric van de Poele,0,F,32,0.0,Did not prequalify
+21808,506,Mexican Grand Prix,1991,6,1991-06-16,Coloni,Pedro Chaves,0,F,33,0.0,Did not prequalify
+21810,506,Mexican Grand Prix,1991,6,1991-06-16,Dallara,Emanuele Pirro,0,F,34,0.0,Did not prequalify
+5203,507,French Grand Prix,1991,7,1991-07-07,Williams,Nigel Mansell,4,1,1,10.0,Finished
+5157,507,French Grand Prix,1991,7,1991-07-07,Ferrari,Alain Prost,2,2,2,6.0,Finished
+5182,507,French Grand Prix,1991,7,1991-07-07,McLaren,Ayrton Senna,3,3,3,4.0,Finished
+5158,507,French Grand Prix,1991,7,1991-07-07,Ferrari,Jean Alesi,6,4,4,3.0,Finished
+10727,507,French Grand Prix,1991,7,1991-07-07,Williams,Riccardo Patrese,1,5,5,2.0,+1 Lap
+10747,507,French Grand Prix,1991,7,1991-07-07,Jordan,Andrea de Cesaris,13,6,6,1.0,+1 Lap
+17626,507,French Grand Prix,1991,7,1991-07-07,Leyton House,Maurício Gugelmin,9,7,7,0.0,+2 Laps
+17621,507,French Grand Prix,1991,7,1991-07-07,Benetton,Nelson Piquet,7,8,8,0.0,+2 Laps
+17617,507,French Grand Prix,1991,7,1991-07-07,Minardi,Pierluigi Martini,12,9,9,0.0,+2 Laps
+17607,507,French Grand Prix,1991,7,1991-07-07,Team Lotus,Johnny Herbert,20,10,10,0.0,+2 Laps
+17613,507,French Grand Prix,1991,7,1991-07-07,Ligier,Érik Comas,14,11,11,0.0,+2 Laps
+7218,507,French Grand Prix,1991,7,1991-07-07,Ligier,Thierry Boutsen,16,12,12,0.0,+3 Laps
+23818,507,French Grand Prix,1991,7,1991-07-07,Benetton,Roberto Moreno,8,R,13,0.0,Physical
+12192,507,French Grand Prix,1991,7,1991-07-07,Tyrrell,Stefano Modena,11,R,14,0.0,Gearbox
+6348,507,French Grand Prix,1991,7,1991-07-07,Fondmetal,Olivier Grouillard,21,R,15,0.0,Oil leak
+7853,507,French Grand Prix,1991,7,1991-07-07,Lola,Éric Bernard,23,R,16,0.0,Transmission
+23476,507,French Grand Prix,1991,7,1991-07-07,Dallara,Jyrki Järvilehto,26,R,17,0.0,Tyre
+19491,507,French Grand Prix,1991,7,1991-07-07,Brabham,Mark Blundell,17,R,18,0.0,Spun off
+7852,507,French Grand Prix,1991,7,1991-07-07,Lola,Aguri Suzuki,22,R,19,0.0,Transmission
+12201,507,French Grand Prix,1991,7,1991-07-07,Footwork,Michele Alboreto,25,R,20,0.0,Gearbox
+12189,507,French Grand Prix,1991,7,1991-07-07,Brabham,Martin Brundle,24,R,21,0.0,Gearbox
+19492,507,French Grand Prix,1991,7,1991-07-07,Tyrrell,Satoru Nakajima,18,R,22,0.0,Spun off
+20666,507,French Grand Prix,1991,7,1991-07-07,Minardi,Gianni Morbidelli,10,R,23,0.0,Collision
+19508,507,French Grand Prix,1991,7,1991-07-07,Leyton House,Ivan Capelli,15,R,24,0.0,Spun off
+14194,507,French Grand Prix,1991,7,1991-07-07,McLaren,Gerhard Berger,5,R,25,0.0,Engine
+19509,507,French Grand Prix,1991,7,1991-07-07,Jordan,Bertrand Gachot,19,R,26,0.0,Spun off
+23350,507,French Grand Prix,1991,7,1991-07-07,Team Lotus,Mika Häkkinen,0,F,27,0.0,Did not qualify
+23359,507,French Grand Prix,1991,7,1991-07-07,AGS,Fabrizio Barbazza,0,F,28,0.0,Did not qualify
+23358,507,French Grand Prix,1991,7,1991-07-07,AGS,Gabriele Tarquini,0,F,29,0.0,Did not qualify
+23360,507,French Grand Prix,1991,7,1991-07-07,Footwork,Stefan Johansson,0,F,30,0.0,Did not qualify
+21881,507,French Grand Prix,1991,7,1991-07-07,Dallara,Emanuele Pirro,0,F,31,0.0,Did not prequalify
+21882,507,French Grand Prix,1991,7,1991-07-07,Lambo,Nicola Larini,0,F,32,0.0,Did not prequalify
+21883,507,French Grand Prix,1991,7,1991-07-07,Lambo,Eric van de Poele,0,F,33,0.0,Did not prequalify
+21880,507,French Grand Prix,1991,7,1991-07-07,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+162,508,British Grand Prix,1991,8,1991-07-14,Williams,Nigel Mansell,1,1,1,10.0,Finished
+118,508,British Grand Prix,1991,8,1991-07-14,McLaren,Gerhard Berger,4,2,2,6.0,Finished
+22,508,British Grand Prix,1991,8,1991-07-14,Ferrari,Alain Prost,5,3,3,4.0,Finished
+14311,508,British Grand Prix,1991,8,1991-07-14,McLaren,Ayrton Senna,2,4,4,3.0,Out of fuel
+7972,508,British Grand Prix,1991,8,1991-07-14,Benetton,Nelson Piquet,8,5,5,2.0,+1 Lap
+7981,508,British Grand Prix,1991,8,1991-07-14,Jordan,Bertrand Gachot,17,6,6,1.0,+1 Lap
+7923,508,British Grand Prix,1991,8,1991-07-14,Tyrrell,Stefano Modena,10,7,7,0.0,+1 Lap
+7922,508,British Grand Prix,1991,8,1991-07-14,Tyrrell,Satoru Nakajima,15,8,8,0.0,+1 Lap
+7966,508,British Grand Prix,1991,8,1991-07-14,Minardi,Pierluigi Martini,23,9,9,0.0,+1 Lap
+16348,508,British Grand Prix,1991,8,1991-07-14,Dallara,Emanuele Pirro,18,10,10,0.0,+2 Laps
+16332,508,British Grand Prix,1991,8,1991-07-14,Minardi,Gianni Morbidelli,20,11,11,0.0,+2 Laps
+16289,508,British Grand Prix,1991,8,1991-07-14,Team Lotus,Mika Häkkinen,25,12,12,0.0,+2 Laps
+6601,508,British Grand Prix,1991,8,1991-07-14,Dallara,Jyrki Järvilehto,11,13,13,0.0,+3 Laps
+18493,508,British Grand Prix,1991,8,1991-07-14,Team Lotus,Johnny Herbert,24,14,14,0.0,Oil pressure
+12357,508,British Grand Prix,1991,8,1991-07-14,Brabham,Mark Blundell,12,R,15,0.0,Engine
+18818,508,British Grand Prix,1991,8,1991-07-14,Jordan,Andrea de Cesaris,13,R,16,0.0,Spun off
+20007,508,British Grand Prix,1991,8,1991-07-14,Ferrari,Jean Alesi,6,R,17,0.0,Collision
+20010,508,British Grand Prix,1991,8,1991-07-14,Lola,Aguri Suzuki,22,R,18,0.0,Collision
+12384,508,British Grand Prix,1991,8,1991-07-14,Ligier,Thierry Boutsen,19,R,19,0.0,Engine
+7441,508,British Grand Prix,1991,8,1991-07-14,Brabham,Martin Brundle,14,R,20,0.0,Throttle
+7569,508,British Grand Prix,1991,8,1991-07-14,Footwork,Michele Alboreto,26,R,21,0.0,Transmission
+23641,508,British Grand Prix,1991,8,1991-07-14,Leyton House,Maurício Gugelmin,9,R,22,0.0,Chassis
+11495,508,British Grand Prix,1991,8,1991-07-14,Benetton,Roberto Moreno,7,R,23,0.0,Gearbox
+7561,508,British Grand Prix,1991,8,1991-07-14,Lola,Éric Bernard,21,R,24,0.0,Transmission
+18817,508,British Grand Prix,1991,8,1991-07-14,Leyton House,Ivan Capelli,16,R,25,0.0,Spun off
+20022,508,British Grand Prix,1991,8,1991-07-14,Williams,Riccardo Patrese,3,R,26,0.0,Collision
+22367,508,British Grand Prix,1991,8,1991-07-14,Ligier,Érik Comas,0,F,27,0.0,Did not qualify
+22387,508,British Grand Prix,1991,8,1991-07-14,Footwork,Stefan Johansson,0,F,28,0.0,Did not qualify
+22382,508,British Grand Prix,1991,8,1991-07-14,AGS,Fabrizio Barbazza,0,F,29,0.0,Did not qualify
+22381,508,British Grand Prix,1991,8,1991-07-14,AGS,Gabriele Tarquini,0,F,30,0.0,Did not qualify
+21582,508,British Grand Prix,1991,8,1991-07-14,Fondmetal,Olivier Grouillard,0,F,31,0.0,Did not prequalify
+21580,508,British Grand Prix,1991,8,1991-07-14,Lambo,Nicola Larini,0,F,32,0.0,Did not prequalify
+21581,508,British Grand Prix,1991,8,1991-07-14,Lambo,Eric van de Poele,0,F,33,0.0,Did not prequalify
+21572,508,British Grand Prix,1991,8,1991-07-14,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+2866,509,German Grand Prix,1991,9,1991-07-28,Williams,Nigel Mansell,1,1,1,10.0,Finished
+2865,509,German Grand Prix,1991,9,1991-07-28,Williams,Riccardo Patrese,4,2,2,6.0,Finished
+2765,509,German Grand Prix,1991,9,1991-07-28,Ferrari,Jean Alesi,6,3,3,4.0,Finished
+2829,509,German Grand Prix,1991,9,1991-07-28,McLaren,Gerhard Berger,3,4,4,3.0,Finished
+2936,509,German Grand Prix,1991,9,1991-07-28,Jordan,Andrea de Cesaris,7,5,5,2.0,Finished
+2937,509,German Grand Prix,1991,9,1991-07-28,Jordan,Bertrand Gachot,11,6,6,1.0,Finished
+14356,509,German Grand Prix,1991,9,1991-07-28,McLaren,Ayrton Senna,2,7,7,0.0,Out of fuel
+9483,509,German Grand Prix,1991,9,1991-07-28,Benetton,Roberto Moreno,9,8,8,0.0,+1 Lap
+9451,509,German Grand Prix,1991,9,1991-07-28,Ligier,Thierry Boutsen,17,9,9,0.0,+1 Lap
+9488,509,German Grand Prix,1991,9,1991-07-28,Dallara,Emanuele Pirro,18,10,10,0.0,+1 Lap
+17021,509,German Grand Prix,1991,9,1991-07-28,Brabham,Martin Brundle,15,11,11,0.0,+2 Laps
+17022,509,German Grand Prix,1991,9,1991-07-28,Brabham,Mark Blundell,21,12,12,0.0,+2 Laps
+16072,509,German Grand Prix,1991,9,1991-07-28,Tyrrell,Stefano Modena,14,13,13,0.0,+4 Laps
+19167,509,German Grand Prix,1991,9,1991-07-28,Ferrari,Alain Prost,5,R,14,0.0,Spun off
+13467,509,German Grand Prix,1991,9,1991-07-28,Leyton House,Ivan Capelli,12,R,15,0.0,Engine
+13464,509,German Grand Prix,1991,9,1991-07-28,Dallara,Jyrki Järvilehto,20,R,16,0.0,Engine
+13459,509,German Grand Prix,1991,9,1991-07-28,Benetton,Nelson Piquet,8,R,17,0.0,Engine
+11901,509,German Grand Prix,1991,9,1991-07-28,Tyrrell,Satoru Nakajima,13,R,18,0.0,Gearbox
+13434,509,German Grand Prix,1991,9,1991-07-28,Ligier,Érik Comas,26,R,19,0.0,Engine
+11912,509,German Grand Prix,1991,9,1991-07-28,Leyton House,Maurício Gugelmin,16,R,20,0.0,Gearbox
+13387,509,German Grand Prix,1991,9,1991-07-28,Team Lotus,Mika Häkkinen,23,R,21,0.0,Engine
+13390,509,German Grand Prix,1991,9,1991-07-28,Lola,Aguri Suzuki,22,R,22,0.0,Engine
+21064,509,German Grand Prix,1991,9,1991-07-28,Minardi,Gianni Morbidelli,19,R,23,0.0,Differential
+21063,509,German Grand Prix,1991,9,1991-07-28,Minardi,Pierluigi Martini,10,R,24,0.0,Differential
+7721,509,German Grand Prix,1991,9,1991-07-28,Lola,Éric Bernard,25,R,25,0.0,Transmission
+19187,509,German Grand Prix,1991,9,1991-07-28,Lambo,Nicola Larini,24,R,26,0.0,Spun off
+23008,509,German Grand Prix,1991,9,1991-07-28,Footwork,Michele Alboreto,0,F,27,0.0,Did not qualify
+22961,509,German Grand Prix,1991,9,1991-07-28,Team Lotus,Michael Bartels,0,F,28,0.0,Did not qualify
+23003,509,German Grand Prix,1991,9,1991-07-28,AGS,Gabriele Tarquini,0,F,29,0.0,Did not qualify
+23009,509,German Grand Prix,1991,9,1991-07-28,Lambo,Eric van de Poele,0,F,30,0.0,Did not qualify
+21733,509,German Grand Prix,1991,9,1991-07-28,Fondmetal,Olivier Grouillard,0,F,31,0.0,Did not prequalify
+21732,509,German Grand Prix,1991,9,1991-07-28,Footwork,Alex Caffi,0,F,32,0.0,Did not prequalify
+21722,509,German Grand Prix,1991,9,1991-07-28,AGS,Fabrizio Barbazza,0,F,33,0.0,Did not prequalify
+21727,509,German Grand Prix,1991,9,1991-07-28,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+4740,510,Hungarian Grand Prix,1991,10,1991-08-11,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+4779,510,Hungarian Grand Prix,1991,10,1991-08-11,Williams,Nigel Mansell,3,2,2,6.0,Finished
+4778,510,Hungarian Grand Prix,1991,10,1991-08-11,Williams,Riccardo Patrese,2,3,3,4.0,Finished
+4741,510,Hungarian Grand Prix,1991,10,1991-08-11,McLaren,Gerhard Berger,5,4,4,3.0,Finished
+4681,510,Hungarian Grand Prix,1991,10,1991-08-11,Ferrari,Jean Alesi,6,5,5,2.0,Finished
+10494,510,Hungarian Grand Prix,1991,10,1991-08-11,Leyton House,Ivan Capelli,9,6,6,1.0,+1 Lap
+10495,510,Hungarian Grand Prix,1991,10,1991-08-11,Jordan,Andrea de Cesaris,17,7,7,0.0,+1 Lap
+10487,510,Hungarian Grand Prix,1991,10,1991-08-11,Benetton,Roberto Moreno,15,8,8,0.0,+1 Lap
+10496,510,Hungarian Grand Prix,1991,10,1991-08-11,Jordan,Bertrand Gachot,16,9,9,0.0,+1 Lap
+17509,510,Hungarian Grand Prix,1991,10,1991-08-11,Ligier,Érik Comas,25,10,10,0.0,+2 Laps
+17525,510,Hungarian Grand Prix,1991,10,1991-08-11,Leyton House,Maurício Gugelmin,13,11,11,0.0,+2 Laps
+17501,510,Hungarian Grand Prix,1991,10,1991-08-11,Tyrrell,Stefano Modena,8,12,12,0.0,+2 Laps
+17516,510,Hungarian Grand Prix,1991,10,1991-08-11,Minardi,Gianni Morbidelli,23,13,13,0.0,+2 Laps
+7166,510,Hungarian Grand Prix,1991,10,1991-08-11,Team Lotus,Mika Häkkinen,26,14,14,0.0,+3 Laps
+7168,510,Hungarian Grand Prix,1991,10,1991-08-11,Tyrrell,Satoru Nakajima,14,15,15,0.0,+3 Laps
+7187,510,Hungarian Grand Prix,1991,10,1991-08-11,Lambo,Nicola Larini,24,16,16,0.0,+3 Laps
+14089,510,Hungarian Grand Prix,1991,10,1991-08-11,Ligier,Thierry Boutsen,19,17,17,0.0,Engine
+14094,510,Hungarian Grand Prix,1991,10,1991-08-11,Minardi,Pierluigi Martini,18,R,18,0.0,Engine
+23474,510,Hungarian Grand Prix,1991,10,1991-08-11,Brabham,Mark Blundell,20,R,19,0.0,Tyre
+23814,510,Hungarian Grand Prix,1991,10,1991-08-11,Brabham,Martin Brundle,10,R,20,0.0,Physical
+14109,510,Hungarian Grand Prix,1991,10,1991-08-11,Dallara,Jyrki Järvilehto,12,R,21,0.0,Engine
+12149,510,Hungarian Grand Prix,1991,10,1991-08-11,Benetton,Nelson Piquet,11,R,22,0.0,Gearbox
+14080,510,Hungarian Grand Prix,1991,10,1991-08-11,Lola,Éric Bernard,21,R,23,0.0,Engine
+14079,510,Hungarian Grand Prix,1991,10,1991-08-11,Lola,Aguri Suzuki,22,R,24,0.0,Engine
+14108,510,Hungarian Grand Prix,1991,10,1991-08-11,Dallara,Emanuele Pirro,7,R,25,0.0,Engine
+14075,510,Hungarian Grand Prix,1991,10,1991-08-11,Ferrari,Alain Prost,4,R,26,0.0,Engine
+23315,510,Hungarian Grand Prix,1991,10,1991-08-11,Fondmetal,Olivier Grouillard,0,F,27,0.0,Did not qualify
+23313,510,Hungarian Grand Prix,1991,10,1991-08-11,Footwork,Michele Alboreto,0,F,28,0.0,Did not qualify
+23314,510,Hungarian Grand Prix,1991,10,1991-08-11,Lambo,Eric van de Poele,0,F,29,0.0,Did not qualify
+23297,510,Hungarian Grand Prix,1991,10,1991-08-11,Team Lotus,Michael Bartels,0,F,30,0.0,Did not qualify
+21837,510,Hungarian Grand Prix,1991,10,1991-08-11,AGS,Gabriele Tarquini,0,F,31,0.0,Did not prequalify
+21848,510,Hungarian Grand Prix,1991,10,1991-08-11,Footwork,Alex Caffi,0,F,32,0.0,Did not prequalify
+21838,510,Hungarian Grand Prix,1991,10,1991-08-11,AGS,Fabrizio Barbazza,0,F,33,0.0,Did not prequalify
+21843,510,Hungarian Grand Prix,1991,10,1991-08-11,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+1226,511,Belgian Grand Prix,1991,11,1991-08-25,McLaren,Ayrton Senna,1,1,1,10.0,Finished
+1227,511,Belgian Grand Prix,1991,11,1991-08-25,McLaren,Gerhard Berger,4,2,2,6.0,Finished
+1327,511,Belgian Grand Prix,1991,11,1991-08-25,Benetton,Nelson Piquet,6,3,3,4.0,Finished
+1328,511,Belgian Grand Prix,1991,11,1991-08-25,Benetton,Roberto Moreno,8,4,4,3.0,Finished
+1267,511,Belgian Grand Prix,1991,11,1991-08-25,Williams,Riccardo Patrese,17,5,5,2.0,Finished
+1211,511,Belgian Grand Prix,1991,11,1991-08-25,Brabham,Mark Blundell,13,6,6,1.0,Finished
+1193,511,Belgian Grand Prix,1991,11,1991-08-25,Team Lotus,Johnny Herbert,21,7,7,0.0,Finished
+8542,511,Belgian Grand Prix,1991,11,1991-08-25,Dallara,Emanuele Pirro,25,8,8,0.0,+1 Lap
+8480,511,Belgian Grand Prix,1991,11,1991-08-25,Brabham,Martin Brundle,16,9,9,0.0,+1 Lap
+8552,511,Belgian Grand Prix,1991,11,1991-08-25,Fondmetal,Olivier Grouillard,23,10,10,0.0,+1 Lap
+8512,511,Belgian Grand Prix,1991,11,1991-08-25,Ligier,Thierry Boutsen,18,11,11,0.0,+1 Lap
+11684,511,Belgian Grand Prix,1991,11,1991-08-25,Minardi,Pierluigi Martini,9,12,12,0.0,Gearbox
+12863,511,Belgian Grand Prix,1991,11,1991-08-25,Jordan,Andrea de Cesaris,11,13,13,0.0,Engine
+6262,511,Belgian Grand Prix,1991,11,1991-08-25,Tyrrell,Stefano Modena,10,R,14,0.0,Oil leak
+18517,511,Belgian Grand Prix,1991,11,1991-08-25,Dallara,Jyrki Järvilehto,14,R,15,0.0,Oil pressure
+12795,511,Belgian Grand Prix,1991,11,1991-08-25,Ferrari,Jean Alesi,5,R,16,0.0,Engine
+11685,511,Belgian Grand Prix,1991,11,1991-08-25,Minardi,Gianni Morbidelli,19,R,17,0.0,Gearbox
+12816,511,Belgian Grand Prix,1991,11,1991-08-25,Team Lotus,Mika Häkkinen,24,R,18,0.0,Engine
+12848,511,Belgian Grand Prix,1991,11,1991-08-25,Ligier,Érik Comas,26,R,19,0.0,Engine
+17858,511,Belgian Grand Prix,1991,11,1991-08-25,Williams,Nigel Mansell,3,R,20,0.0,Electrical
+11668,511,Belgian Grand Prix,1991,11,1991-08-25,Lola,Éric Bernard,20,R,21,0.0,Gearbox
+12861,511,Belgian Grand Prix,1991,11,1991-08-25,Leyton House,Ivan Capelli,12,R,22,0.0,Engine
+18973,511,Belgian Grand Prix,1991,11,1991-08-25,Tyrrell,Satoru Nakajima,22,R,23,0.0,Spun off
+23848,511,Belgian Grand Prix,1991,11,1991-08-25,Ferrari,Alain Prost,2,R,24,0.0,Fuel leak
+12862,511,Belgian Grand Prix,1991,11,1991-08-25,Leyton House,Maurício Gugelmin,15,R,25,0.0,Engine
+6406,511,Belgian Grand Prix,1991,11,1991-08-25,Jordan,Michael Schumacher,7,R,26,0.0,Clutch
+22662,511,Belgian Grand Prix,1991,11,1991-08-25,Lola,Aguri Suzuki,0,F,27,0.0,Did not qualify
+22678,511,Belgian Grand Prix,1991,11,1991-08-25,Lambo,Nicola Larini,0,F,28,0.0,Did not qualify
+22677,511,Belgian Grand Prix,1991,11,1991-08-25,Footwork,Alex Caffi,0,F,29,0.0,Did not qualify
+22679,511,Belgian Grand Prix,1991,11,1991-08-25,Lambo,Eric van de Poele,0,F,30,0.0,Did not qualify
+21656,511,Belgian Grand Prix,1991,11,1991-08-25,Footwork,Michele Alboreto,0,F,31,0.0,Did not prequalify
+21646,511,Belgian Grand Prix,1991,11,1991-08-25,AGS,Gabriele Tarquini,0,F,32,0.0,Did not prequalify
+21650,511,Belgian Grand Prix,1991,11,1991-08-25,Coloni,Pedro Chaves,0,F,33,0.0,Did not prequalify
+21647,511,Belgian Grand Prix,1991,11,1991-08-25,AGS,Fabrizio Barbazza,0,F,34,0.0,Did not prequalify
+624,512,Italian Grand Prix,1991,12,1991-09-08,Williams,Nigel Mansell,2,1,1,10.0,Finished
+551,512,Italian Grand Prix,1991,12,1991-09-08,McLaren,Ayrton Senna,1,2,2,6.0,Finished
+409,512,Italian Grand Prix,1991,12,1991-09-08,Ferrari,Alain Prost,5,3,3,4.0,Finished
+552,512,Italian Grand Prix,1991,12,1991-09-08,McLaren,Gerhard Berger,3,4,4,3.0,Finished
+686,512,Italian Grand Prix,1991,12,1991-09-08,Benetton,Michael Schumacher,7,5,5,2.0,Finished
+685,512,Italian Grand Prix,1991,12,1991-09-08,Benetton,Nelson Piquet,8,6,6,1.0,Finished
+695,512,Italian Grand Prix,1991,12,1991-09-08,Jordan,Andrea de Cesaris,14,7,7,0.0,Finished
+694,512,Italian Grand Prix,1991,12,1991-09-08,Leyton House,Ivan Capelli,12,8,8,0.0,Finished
+8179,512,Italian Grand Prix,1991,12,1991-09-08,Minardi,Gianni Morbidelli,17,9,9,0.0,+1 Lap
+8194,512,Italian Grand Prix,1991,12,1991-09-08,Dallara,Emanuele Pirro,16,10,10,0.0,+1 Lap
+8165,512,Italian Grand Prix,1991,12,1991-09-08,Ligier,Érik Comas,22,11,11,0.0,+1 Lap
+8117,512,Italian Grand Prix,1991,12,1991-09-08,Brabham,Mark Blundell,11,12,12,0.0,+1 Lap
+8116,512,Italian Grand Prix,1991,12,1991-09-08,Brabham,Martin Brundle,19,13,13,0.0,+1 Lap
+15902,512,Italian Grand Prix,1991,12,1991-09-08,Team Lotus,Mika Häkkinen,25,14,14,0.0,+4 Laps
+15915,512,Italian Grand Prix,1991,12,1991-09-08,Leyton House,Maurício Gugelmin,18,15,15,0.0,+4 Laps
+18157,512,Italian Grand Prix,1991,12,1991-09-08,Lambo,Nicola Larini,23,16,16,0.0,+5 Laps
+12676,512,Italian Grand Prix,1991,12,1991-09-08,Fondmetal,Olivier Grouillard,26,R,17,0.0,Engine
+21941,512,Italian Grand Prix,1991,12,1991-09-08,Dallara,Jyrki Järvilehto,20,R,18,0.0,Overheating
+12610,512,Italian Grand Prix,1991,12,1991-09-08,Tyrrell,Stefano Modena,13,R,19,0.0,Engine
+12509,512,Italian Grand Prix,1991,12,1991-09-08,Ferrari,Jean Alesi,6,R,20,0.0,Engine
+11544,512,Italian Grand Prix,1991,12,1991-09-08,Williams,Riccardo Patrese,4,R,21,0.0,Gearbox
+7453,512,Italian Grand Prix,1991,12,1991-09-08,Tyrrell,Satoru Nakajima,15,R,22,0.0,Throttle
+12557,512,Italian Grand Prix,1991,12,1991-09-08,Lola,Éric Bernard,24,R,23,0.0,Engine
+18872,512,Italian Grand Prix,1991,12,1991-09-08,Minardi,Pierluigi Martini,10,R,24,0.0,Spun off
+18882,512,Italian Grand Prix,1991,12,1991-09-08,Jordan,Roberto Moreno,9,R,25,0.0,Spun off
+18862,512,Italian Grand Prix,1991,12,1991-09-08,Ligier,Thierry Boutsen,21,R,26,0.0,Spun off
+22492,512,Italian Grand Prix,1991,12,1991-09-08,Footwork,Michele Alboreto,0,F,27,0.0,Did not qualify
+22408,512,Italian Grand Prix,1991,12,1991-09-08,Team Lotus,Michael Bartels,0,F,28,0.0,Did not qualify
+22493,512,Italian Grand Prix,1991,12,1991-09-08,Lambo,Eric van de Poele,0,F,29,0.0,Did not qualify
+22420,512,Italian Grand Prix,1991,12,1991-09-08,Lola,Aguri Suzuki,0,F,30,0.0,Did not qualify
+21595,512,Italian Grand Prix,1991,12,1991-09-08,AGS,Fabrizio Barbazza,0,F,31,0.0,Did not prequalify
+21594,512,Italian Grand Prix,1991,12,1991-09-08,AGS,Gabriele Tarquini,0,F,32,0.0,Did not prequalify
+21605,512,Italian Grand Prix,1991,12,1991-09-08,Footwork,Alex Caffi,0,F,33,0.0,Did not prequalify
+21598,512,Italian Grand Prix,1991,12,1991-09-08,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+3517,513,Portuguese Grand Prix,1991,13,1991-09-22,Williams,Riccardo Patrese,1,1,1,10.0,Finished
+3509,513,Portuguese Grand Prix,1991,13,1991-09-22,McLaren,Ayrton Senna,3,2,2,6.0,Finished
+3492,513,Portuguese Grand Prix,1991,13,1991-09-22,Ferrari,Jean Alesi,6,3,3,4.0,Finished
+3529,513,Portuguese Grand Prix,1991,13,1991-09-22,Minardi,Pierluigi Martini,8,4,4,3.0,Finished
+3534,513,Portuguese Grand Prix,1991,13,1991-09-22,Benetton,Nelson Piquet,11,5,5,2.0,Finished
+3535,513,Portuguese Grand Prix,1991,13,1991-09-22,Benetton,Michael Schumacher,10,6,6,1.0,Finished
+9894,513,Portuguese Grand Prix,1991,13,1991-09-22,Leyton House,Maurício Gugelmin,7,7,7,0.0,+1 Lap
+9895,513,Portuguese Grand Prix,1991,13,1991-09-22,Jordan,Andrea de Cesaris,14,8,8,0.0,+1 Lap
+9889,513,Portuguese Grand Prix,1991,13,1991-09-22,Minardi,Gianni Morbidelli,13,9,9,0.0,+1 Lap
+9896,513,Portuguese Grand Prix,1991,13,1991-09-22,Jordan,Roberto Moreno,21,10,10,0.0,+1 Lap
+9879,513,Portuguese Grand Prix,1991,13,1991-09-22,Ligier,Érik Comas,23,11,11,0.0,+1 Lap
+17250,513,Portuguese Grand Prix,1991,13,1991-09-22,Brabham,Martin Brundle,19,12,12,0.0,+2 Laps
+7033,513,Portuguese Grand Prix,1991,13,1991-09-22,Tyrrell,Satoru Nakajima,17,13,13,0.0,+3 Laps
+7028,513,Portuguese Grand Prix,1991,13,1991-09-22,Team Lotus,Mika Häkkinen,24,14,14,0.0,+3 Laps
+7047,513,Portuguese Grand Prix,1991,13,1991-09-22,Footwork,Michele Alboreto,22,15,15,0.0,+3 Laps
+7036,513,Portuguese Grand Prix,1991,13,1991-09-22,Ligier,Thierry Boutsen,20,16,16,0.0,+3 Laps
+19329,513,Portuguese Grand Prix,1991,13,1991-09-22,Leyton House,Ivan Capelli,9,17,17,0.0,Spun off
+13787,513,Portuguese Grand Prix,1991,13,1991-09-22,Tyrrell,Stefano Modena,12,R,18,0.0,Engine
+22314,513,Portuguese Grand Prix,1991,13,1991-09-22,Williams,Nigel Mansell,4,D,19,0.0,Disqualified
+7766,513,Portuguese Grand Prix,1991,13,1991-09-22,Lola,Aguri Suzuki,25,R,20,0.0,Transmission
+13774,513,Portuguese Grand Prix,1991,13,1991-09-22,Ferrari,Alain Prost,5,R,21,0.0,Engine
+13780,513,Portuguese Grand Prix,1991,13,1991-09-22,McLaren,Gerhard Berger,2,R,22,0.0,Engine
+13801,513,Portuguese Grand Prix,1991,13,1991-09-22,Dallara,Emanuele Pirro,16,R,23,0.0,Engine
+12032,513,Portuguese Grand Prix,1991,13,1991-09-22,Dallara,Jyrki Järvilehto,18,R,24,0.0,Gearbox
+19893,513,Portuguese Grand Prix,1991,13,1991-09-22,Brabham,Mark Blundell,15,R,25,0.0,Suspension
+13776,513,Portuguese Grand Prix,1991,13,1991-09-22,Team Lotus,Johnny Herbert,26,R,26,0.0,Engine
+23189,513,Portuguese Grand Prix,1991,13,1991-09-22,Lola,Éric Bernard,0,F,27,0.0,Did not qualify
+23198,513,Portuguese Grand Prix,1991,13,1991-09-22,AGS,Gabriele Tarquini,0,F,28,0.0,Did not qualify
+23203,513,Portuguese Grand Prix,1991,13,1991-09-22,Lambo,Nicola Larini,0,F,29,0.0,Did not qualify
+23204,513,Portuguese Grand Prix,1991,13,1991-09-22,Lambo,Eric van de Poele,0,F,30,0.0,Did not qualify
+21776,513,Portuguese Grand Prix,1991,13,1991-09-22,AGS,Fabrizio Barbazza,0,F,31,0.0,Did not prequalify
+21786,513,Portuguese Grand Prix,1991,13,1991-09-22,Fondmetal,Olivier Grouillard,0,F,32,0.0,Did not prequalify
+21785,513,Portuguese Grand Prix,1991,13,1991-09-22,Footwork,Alex Caffi,0,F,33,0.0,Did not prequalify
+21778,513,Portuguese Grand Prix,1991,13,1991-09-22,Coloni,Pedro Chaves,0,F,34,0.0,Did not prequalify
+5339,514,Spanish Grand Prix,1991,14,1991-09-29,Williams,Nigel Mansell,2,1,1,10.0,Finished
+5265,514,Spanish Grand Prix,1991,14,1991-09-29,Ferrari,Alain Prost,6,2,2,6.0,Finished
+5338,514,Spanish Grand Prix,1991,14,1991-09-29,Williams,Riccardo Patrese,4,3,3,4.0,Finished
+5266,514,Spanish Grand Prix,1991,14,1991-09-29,Ferrari,Jean Alesi,7,4,4,3.0,Finished
+5312,514,Spanish Grand Prix,1991,14,1991-09-29,McLaren,Ayrton Senna,3,5,5,2.0,Finished
+5374,514,Spanish Grand Prix,1991,14,1991-09-29,Benetton,Michael Schumacher,5,6,6,1.0,Finished
+10851,514,Spanish Grand Prix,1991,14,1991-09-29,Leyton House,Maurício Gugelmin,13,7,7,0.0,+1 Lap
+10850,514,Spanish Grand Prix,1991,14,1991-09-29,Dallara,Jyrki Järvilehto,15,8,8,0.0,+1 Lap
+10852,514,Spanish Grand Prix,1991,14,1991-09-29,Jordan,Alessandro Zanardi,20,9,9,0.0,+1 Lap
+17649,514,Spanish Grand Prix,1991,14,1991-09-29,Brabham,Martin Brundle,11,10,10,0.0,+2 Laps
+17674,514,Spanish Grand Prix,1991,14,1991-09-29,Benetton,Nelson Piquet,10,11,11,0.0,+2 Laps
+17683,514,Spanish Grand Prix,1991,14,1991-09-29,Fondmetal,Gabriele Tarquini,22,12,12,0.0,+2 Laps
+17665,514,Spanish Grand Prix,1991,14,1991-09-29,Minardi,Pierluigi Martini,19,13,13,0.0,+2 Laps
+20691,514,Spanish Grand Prix,1991,14,1991-09-29,Minardi,Gianni Morbidelli,16,14,14,0.0,Collision
+7241,514,Spanish Grand Prix,1991,14,1991-09-29,Dallara,Emanuele Pirro,9,15,15,0.0,+3 Laps
+7233,514,Spanish Grand Prix,1991,14,1991-09-29,Tyrrell,Stefano Modena,14,16,16,0.0,+3 Laps
+7232,514,Spanish Grand Prix,1991,14,1991-09-29,Tyrrell,Satoru Nakajima,18,17,17,0.0,+3 Laps
+14228,514,Spanish Grand Prix,1991,14,1991-09-29,Brabham,Mark Blundell,12,R,18,0.0,Engine
+18098,514,Spanish Grand Prix,1991,14,1991-09-29,Ligier,Érik Comas,25,R,19,0.0,Electrical
+18095,514,Spanish Grand Prix,1991,14,1991-09-29,McLaren,Gerhard Berger,1,R,20,0.0,Electrical
+14252,514,Spanish Grand Prix,1991,14,1991-09-29,Footwork,Michele Alboreto,24,R,21,0.0,Engine
+18099,514,Spanish Grand Prix,1991,14,1991-09-29,Jordan,Andrea de Cesaris,17,R,22,0.0,Electrical
+19521,514,Spanish Grand Prix,1991,14,1991-09-29,Team Lotus,Mika Häkkinen,21,R,23,0.0,Spun off
+20695,514,Spanish Grand Prix,1991,14,1991-09-29,Leyton House,Ivan Capelli,8,R,24,0.0,Collision
+20677,514,Spanish Grand Prix,1991,14,1991-09-29,Lola,Éric Bernard,23,R,25,0.0,Collision
+20685,514,Spanish Grand Prix,1991,14,1991-09-29,Ligier,Thierry Boutsen,26,R,26,0.0,Collision
+23364,514,Spanish Grand Prix,1991,14,1991-09-29,Lola,Aguri Suzuki,0,F,27,0.0,Did not qualify
+23370,514,Spanish Grand Prix,1991,14,1991-09-29,Lambo,Nicola Larini,0,F,28,0.0,Did not qualify
+23363,514,Spanish Grand Prix,1991,14,1991-09-29,Team Lotus,Michael Bartels,0,F,29,0.0,Did not qualify
+23371,514,Spanish Grand Prix,1991,14,1991-09-29,Lambo,Eric van de Poele,0,F,30,0.0,Did not qualify
+21886,514,Spanish Grand Prix,1991,14,1991-09-29,Footwork,Alex Caffi,0,F,31,0.0,Did not prequalify
+21885,514,Spanish Grand Prix,1991,14,1991-09-29,AGS,Fabrizio Barbazza,0,F,32,0.0,Did not prequalify
+21884,514,Spanish Grand Prix,1991,14,1991-09-29,AGS,Olivier Grouillard,0,F,33,0.0,Did not prequalify
+4954,515,Japanese Grand Prix,1991,15,1991-10-20,McLaren,Gerhard Berger,1,1,1,10.0,Finished
+4953,515,Japanese Grand Prix,1991,15,1991-10-20,McLaren,Ayrton Senna,2,2,2,6.0,Finished
+4992,515,Japanese Grand Prix,1991,15,1991-10-20,Williams,Riccardo Patrese,5,3,3,4.0,Finished
+4896,515,Japanese Grand Prix,1991,15,1991-10-20,Ferrari,Alain Prost,4,4,4,3.0,Finished
+10573,515,Japanese Grand Prix,1991,15,1991-10-20,Brabham,Martin Brundle,19,5,5,2.0,+1 Lap
+10592,515,Japanese Grand Prix,1991,15,1991-10-20,Tyrrell,Stefano Modena,14,6,6,1.0,+1 Lap
+10626,515,Japanese Grand Prix,1991,15,1991-10-20,Benetton,Nelson Piquet,10,7,7,0.0,+1 Lap
+10637,515,Japanese Grand Prix,1991,15,1991-10-20,Leyton House,Maurício Gugelmin,18,8,8,0.0,+1 Lap
+10605,515,Japanese Grand Prix,1991,15,1991-10-20,Ligier,Thierry Boutsen,17,9,9,0.0,+1 Lap
+17582,515,Japanese Grand Prix,1991,15,1991-10-20,Footwork,Alex Caffi,26,10,10,0.0,+2 Laps
+7209,515,Japanese Grand Prix,1991,15,1991-10-20,Fondmetal,Gabriele Tarquini,24,11,11,0.0,+3 Laps
+23508,515,Japanese Grand Prix,1991,15,1991-10-20,Ligier,Érik Comas,20,R,12,0.0,Alternator
+18087,515,Japanese Grand Prix,1991,15,1991-10-20,Minardi,Pierluigi Martini,7,R,13,0.0,Electrical
+14161,515,Japanese Grand Prix,1991,15,1991-10-20,Benetton,Michael Schumacher,9,R,14,0.0,Engine
+14132,515,Japanese Grand Prix,1991,15,1991-10-20,Team Lotus,Johnny Herbert,23,R,15,0.0,Engine
+19454,515,Japanese Grand Prix,1991,15,1991-10-20,Tyrrell,Satoru Nakajima,15,R,16,0.0,Spun off
+14135,515,Japanese Grand Prix,1991,15,1991-10-20,Lola,Aguri Suzuki,25,R,17,0.0,Engine
+20891,515,Japanese Grand Prix,1991,15,1991-10-20,Minardi,Gianni Morbidelli,8,R,18,0.0,Wheel
+19458,515,Japanese Grand Prix,1991,15,1991-10-20,Williams,Nigel Mansell,3,R,19,0.0,Spun off
+12172,515,Japanese Grand Prix,1991,15,1991-10-20,Jordan,Alessandro Zanardi,13,R,20,0.0,Gearbox
+14133,515,Japanese Grand Prix,1991,15,1991-10-20,Team Lotus,Mika Häkkinen,21,R,21,0.0,Engine
+15789,515,Japanese Grand Prix,1991,15,1991-10-20,Jordan,Andrea de Cesaris,11,R,22,0.0,Accident
+15787,515,Japanese Grand Prix,1991,15,1991-10-20,Dallara,Jyrki Järvilehto,12,R,23,0.0,Accident
+15786,515,Japanese Grand Prix,1991,15,1991-10-20,Dallara,Emanuele Pirro,16,R,24,0.0,Accident
+15788,515,Japanese Grand Prix,1991,15,1991-10-20,Leyton House,Karl Wendlinger,22,R,25,0.0,Accident
+14125,515,Japanese Grand Prix,1991,15,1991-10-20,Ferrari,Jean Alesi,6,R,26,0.0,Engine
+23334,515,Japanese Grand Prix,1991,15,1991-10-20,Footwork,Michele Alboreto,0,F,27,0.0,Did not qualify
+23335,515,Japanese Grand Prix,1991,15,1991-10-20,Lambo,Nicola Larini,0,F,28,0.0,Did not qualify
+23336,515,Japanese Grand Prix,1991,15,1991-10-20,Lambo,Eric van de Poele,0,F,29,0.0,Did not qualify
+23319,515,Japanese Grand Prix,1991,15,1991-10-20,Lola,Éric Bernard,0,F,30,0.0,Did not qualify
+21850,515,Japanese Grand Prix,1991,15,1991-10-20,Brabham,Mark Blundell,0,F,31,0.0,Did not prequalify
+21858,515,Japanese Grand Prix,1991,15,1991-10-20,Coloni,Naoki Hattori,0,F,32,0.0,Did not prequalify
+3556,516,Australian Grand Prix,1991,16,1991-11-03,McLaren,Ayrton Senna,1,1,1,5.0,Finished
+3569,516,Australian Grand Prix,1991,16,1991-11-03,Williams,Nigel Mansell,3,2,2,3.0,Finished
+3557,516,Australian Grand Prix,1991,16,1991-11-03,McLaren,Gerhard Berger,2,3,3,2.0,Finished
+3578,516,Australian Grand Prix,1991,16,1991-11-03,Benetton,Nelson Piquet,5,4,4,1.5,Finished
+3568,516,Australian Grand Prix,1991,16,1991-11-03,Williams,Riccardo Patrese,4,5,5,1.0,Finished
+3547,516,Australian Grand Prix,1991,16,1991-11-03,Ferrari,Gianni Morbidelli,8,6,6,0.5,Finished
+3581,516,Australian Grand Prix,1991,16,1991-11-03,Dallara,Emanuele Pirro,13,7,7,0.0,Finished
+3583,516,Australian Grand Prix,1991,16,1991-11-03,Jordan,Andrea de Cesaris,12,8,8,0.0,Finished
+3584,516,Australian Grand Prix,1991,16,1991-11-03,Jordan,Alessandro Zanardi,16,9,9,0.0,Finished
+3561,516,Australian Grand Prix,1991,16,1991-11-03,Tyrrell,Stefano Modena,9,10,10,0.0,Finished
+3551,516,Australian Grand Prix,1991,16,1991-11-03,Team Lotus,Johnny Herbert,21,11,11,0.0,Finished
+3582,516,Australian Grand Prix,1991,16,1991-11-03,Dallara,Jyrki Järvilehto,11,12,12,0.0,Finished
+3586,516,Australian Grand Prix,1991,16,1991-11-03,Footwork,Michele Alboreto,15,13,13,0.0,Finished
+9931,516,Australian Grand Prix,1991,16,1991-11-03,Leyton House,Maurício Gugelmin,14,14,14,0.0,+1 Lap
+9933,516,Australian Grand Prix,1991,16,1991-11-03,Footwork,Alex Caffi,23,15,15,0.0,+1 Lap
+9927,516,Australian Grand Prix,1991,16,1991-11-03,Minardi,Roberto Moreno,18,16,16,0.0,+1 Lap
+9916,516,Australian Grand Prix,1991,16,1991-11-03,Brabham,Mark Blundell,17,17,17,0.0,+1 Lap
+9922,516,Australian Grand Prix,1991,16,1991-11-03,Ligier,Érik Comas,22,18,18,0.0,+1 Lap
+17282,516,Australian Grand Prix,1991,16,1991-11-03,Team Lotus,Mika Häkkinen,25,19,19,0.0,+2 Laps
+17295,516,Australian Grand Prix,1991,16,1991-11-03,Leyton House,Karl Wendlinger,26,20,20,0.0,+2 Laps
+19347,516,Australian Grand Prix,1991,16,1991-11-03,Minardi,Pierluigi Martini,10,R,21,0.0,Spun off
+19350,516,Australian Grand Prix,1991,16,1991-11-03,Benetton,Michael Schumacher,6,R,22,0.0,Spun off
+15578,516,Australian Grand Prix,1991,16,1991-11-03,Ferrari,Jean Alesi,7,R,23,0.0,Accident
+19357,516,Australian Grand Prix,1991,16,1991-11-03,Lambo,Nicola Larini,19,R,24,0.0,Spun off
+15584,516,Australian Grand Prix,1991,16,1991-11-03,Ligier,Thierry Boutsen,20,R,25,0.0,Accident
+19339,516,Australian Grand Prix,1991,16,1991-11-03,Tyrrell,Satoru Nakajima,24,R,26,0.0,Spun off
+23217,516,Australian Grand Prix,1991,16,1991-11-03,Larrousse,Aguri Suzuki,0,F,27,0.0,Did not qualify
+23207,516,Australian Grand Prix,1991,16,1991-11-03,Brabham,Martin Brundle,0,F,28,0.0,Did not qualify
+23223,516,Australian Grand Prix,1991,16,1991-11-03,Lambo,Eric van de Poele,0,F,29,0.0,Did not qualify
+23218,516,Australian Grand Prix,1991,16,1991-11-03,Larrousse,Bertrand Gachot,0,F,30,0.0,Did not qualify
+21798,516,Australian Grand Prix,1991,16,1991-11-03,Fondmetal,Gabriele Tarquini,0,F,31,0.0,Did not prequalify
+21795,516,Australian Grand Prix,1991,16,1991-11-03,Coloni,Naoki Hattori,0,F,32,0.0,Did not prequalify
