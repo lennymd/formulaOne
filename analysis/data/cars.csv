@@ -1,0 +1,72 @@
+year,driver,constructor,car,sideview,wikipedia,statsf1
+1950,Giuseppe Farina,Alfa Romeo,Alfa Romeo 158,yes,https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta,https://www.statsf1.com/en/alfa-romeo-158.aspx
+1951,Juan Manuel Fangio,Alfa Romeo,Alfa Romeo 159,yes,https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta,https://www.statsf1.com/en/alfa-romeo-159.aspx
+1952,Alberto Ascari,Ferrari,Ferrari 500,yes,https://en.wikipedia.org/wiki/Ferrari_Tipo_500,https://www.statsf1.com/en/ferrari-500.aspx
+1953,Alberto Ascari,Ferrari,Ferrari 500,yes,https://en.wikipedia.org/wiki/Ferrari_Tipo_500,https://www.statsf1.com/en/ferrari-500.aspx
+1954,Juan Manuel Fangio,Maserati,Maserati 250F,yes,https://en.wikipedia.org/wiki/Maserati_250F,https://www.statsf1.com/en/maserati-250f.aspx
+1954,Juan Manuel Fangio,Mercedes-Benz,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
+1955,Juan Manuel Fangio,Mercedes-Benz,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
+1956,Juan Manuel Fangio,Ferrari,Lancia-Ferrari D50,yes,https://en.wikipedia.org/wiki/Lancia_D50,https://www.statsf1.com/en/ferrari-d50.aspx
+1957,Juan Manuel Fangio,Maserati,Maserati 250F,yes,https://en.wikipedia.org/wiki/Maserati_250F,https://www.statsf1.com/en/maserati-250f.aspx
+1958,Mike Hawthorn,Ferrari,Ferrari Dino 246,yes,https://en.wikipedia.org/wiki/Ferrari_246_F1,https://www.statsf1.com/en/ferrari-d246.aspx
+1959,Jack Brabham,Cooper,Cooper T51,yes,https://en.wikipedia.org/wiki/Cooper_T51,https://www.statsf1.com/en/cooper-t51.aspx
+1960,Jack Brabham,Cooper,Cooper T53,yes,@@,https://www.statsf1.com/en/cooper-t53.aspx
+1961,Phil Hill,Ferrari,Ferrari 156,yes,https://en.wikipedia.org/wiki/Ferrari_156_F1,https://www.statsf1.com/en/ferrari-156.aspx
+1962,Graham Hill,BRM,BRM P57,yes,https://en.wikipedia.org/wiki/BRM_P57,https://www.statsf1.com/en/brm-p57.aspx
+1963,Jim Clark,Lotus,Lotus 25,yes,https://en.wikipedia.org/wiki/Lotus_25,https://www.statsf1.com/en/lotus-25.aspx
+1964,John Surtees,Ferrari,Ferrari 158,yes,https://en.wikipedia.org/wiki/Ferrari_158,https://www.statsf1.com/en/ferrari-158.aspx
+1965,Jim Clark,Lotus,Lotus 33,yes,https://en.wikipedia.org/wiki/Lotus_33,https://www.statsf1.com/en/lotus-33.aspx
+1966,Jack Brabham,Brabham,Brabham BT19,yes,https://en.wikipedia.org/wiki/Brabham_BT19,https://www.statsf1.com/en/brabham-bt19.aspx
+1967,Denny Hulme,Brabham,Brabham BT24,yes,https://en.wikipedia.org/wiki/Brabham_BT24,https://www.statsf1.com/en/brabham-bt24.aspx
+1967,Denny Hulme,Brabham,Brabham BT20,yes,https://en.wikipedia.org/wiki/Brabham_BT20,https://www.statsf1.com/en/brabham-bt20.aspx
+1968,Graham Hill,Lotus,Lotus 49,yes,https://en.wikipedia.org/wiki/Lotus_49,https://www.statsf1.com/en/lotus-49.aspx
+1969,Jackie Stewart,Matra,Matra MS80,yes,https://en.wikipedia.org/wiki/Matra_MS80,https://www.statsf1.com/en/matra-ms80.aspx
+1970,Jochen Rindt,Lotus,Lotus 72,yes,https://en.wikipedia.org/wiki/Lotus_72,https://www.statsf1.com/en/lotus-72c.aspx
+1971,Jackie Stewart,Tyrrell,Tyrrell 003,yes,https://en.wikipedia.org/wiki/Tyrrell_003,https://www.statsf1.com/en/tyrrell-003.aspx
+1972,Emerson Fittipaldi,Lotus,Lotus 72D,yes,https://en.wikipedia.org/wiki/Lotus_72,https://www.statsf1.com/en/lotus-72d.aspx
+1973,Jackie Stewart,Tyrrell,Tyrrell 006,yes,https://en.wikipedia.org/wiki/Tyrrell_006,https://www.statsf1.com/en/tyrrell-006.aspx
+1974,Emerson Fittipaldi,McLaren,McLaren M23,yes,https://en.wikipedia.org/wiki/McLaren_M23,https://www.statsf1.com/en/mclaren-m23.aspx
+1975,Niki Lauda,Ferrari,Ferrari 312T,yes,https://en.wikipedia.org/wiki/Ferrari_312T,https://www.statsf1.com/en/ferrari-312t.aspx
+1976,James Hunt,McLaren,McLaren M23,yes,https://en.wikipedia.org/wiki/McLaren_M23,https://www.statsf1.com/en/mclaren-m23.aspx
+1977,Niki Lauda,Ferrari,Ferrari 312T2,yes,https://en.wikipedia.org/wiki/Ferrari_312T#312T2_(1976)/312T2B_(1977-1978),https://www.statsf1.com/en/ferrari-312t2.aspx
+1978,Mario Andretti,Lotus,Lotus 79,yes,https://en.wikipedia.org/wiki/Lotus_79,https://www.statsf1.com/en/lotus-79.aspx
+1979,Jody Scheckter,Ferrari,Ferrari 312T4,yes,https://en.wikipedia.org/wiki/Ferrari_312T#312T4,https://www.statsf1.com/en/ferrari-312t4.aspx
+1980,Alan Jones,Williams,Williams FW07B,yes,https://en.wikipedia.org/wiki/Williams_FW07,https://www.statsf1.com/en/williams-fw07b.aspx
+1981,Nelson Piquet,Brabham,Brabham BT49C,yes,https://en.wikipedia.org/wiki/Brabham_BT49,https://www.statsf1.com/en/brabham-bt49c.aspx
+1982,Keke Rosberg,Williams,Williams FW08,yes,https://en.wikipedia.org/wiki/Williams_FW08,https://www.statsf1.com/en/williams-fw08.aspx
+1983,Nelson Piquet,Brabham,Brabham BT52,yes,https://en.wikipedia.org/wiki/Brabham_BT52,https://www.statsf1.com/en/brabham-bt52.aspx
+1984,Niki Lauda,McLaren,McLaren MP4/2,yes,https://en.wikipedia.org/wiki/McLaren_MP4/2,https://www.statsf1.com/en/mclaren-mp4-2.aspx
+1985,Alain Prost,McLaren,McLaren MP4/2,yes,https://en.wikipedia.org/wiki/McLaren_MP4/2,https://www.statsf1.com/en/mclaren-mp4-2b.aspx
+1986,Alain Prost,McLaren,McLaren MP4/2C,yes,https://en.wikipedia.org/wiki/McLaren_MP4/2,https://www.statsf1.com/en/mclaren-mp4-2c.aspx
+1987,Nelson Piquet,Williams,Williams FW11B,yes,https://en.wikipedia.org/wiki/Williams_FW11,https://www.statsf1.com/en/williams-fw11b.aspx
+1988,Ayrton Senna,McLaren,McLaren MP4/4,yes,https://en.wikipedia.org/wiki/McLaren_MP4/4,https://www.statsf1.com/en/mclaren-mp4-4.aspx
+1989,Alain Prost,McLaren,McLaren MP4/5,yes,https://en.wikipedia.org/wiki/McLaren_MP4/5,https://www.statsf1.com/en/mclaren-mp4-5.aspx
+1990,Ayrton Senna,McLaren,McLaren MP4/5B,yes,https://en.wikipedia.org/wiki/McLaren_MP4/5,https://www.statsf1.com/en/mclaren-mp4-5b.aspx
+1991,Ayrton Senna,McLaren,McLaren MP4/6,yes,https://en.wikipedia.org/wiki/McLaren_MP4/6,https://www.statsf1.com/en/mclaren-mp4-6.aspx
+1992,Nigel Mansell,Williams,Williams FW14B,yes,https://en.wikipedia.org/wiki/Williams_FW14,https://www.statsf1.com/en/williams-fw14b.aspx
+1993,Alain Prost,Williams,Williams FW15C,yes,https://en.wikipedia.org/wiki/Williams_FW15C,https://www.statsf1.com/en/williams-fw15c.aspx
+1994,Michael Schumacher,Benetton,Benetton B194,yes,https://en.wikipedia.org/wiki/Benetton_B194,https://www.statsf1.com/en/benetton-b194.aspx
+1995,Michael Schumacher,Benetton,Benetton B195,yes,https://en.wikipedia.org/wiki/Benetton_B195,https://www.statsf1.com/en/benetton-b195.aspx
+1996,Damon Hill,Williams,Williams FW18,yes,https://en.wikipedia.org/wiki/Williams_FW18,https://www.statsf1.com/en/williams-fw18.aspx
+1997,Jacques Villeneuve,Williams,Williams FW19,yes,https://en.wikipedia.org/wiki/Williams_FW19,https://www.statsf1.com/en/williams-fw19.aspx
+1998,Mika Hakkinen,McLaren,Mclaren MP4/13,yes,https://en.wikipedia.org/wiki/McLaren_MP4/13,https://www.statsf1.com/en/mclaren-mp4-13.aspx
+1999,Mika Hakkinen,McLaren,McLaren MP4/14,yes,https://en.wikipedia.org/wiki/McLaren_MP4/14,https://www.statsf1.com/en/mclaren-mp4-14.aspx
+2000,Michael Schumacher,Ferrari,Ferrari F1-2000,yes,https://en.wikipedia.org/wiki/Ferrari_F1-2000,https://www.statsf1.com/en/ferrari-f1-2000.aspx
+2001,Michael Schumacher,Ferrari,Ferrari F2001,yes,https://en.wikipedia.org/wiki/Ferrari_F2001,https://www.statsf1.com/en/ferrari-f2001.aspx
+2002,Michael Schumacher,Ferrari,Ferrari F2002,yes,https://en.wikipedia.org/wiki/Ferrari_F2002,https://www.statsf1.com/en/ferrari-f2002.aspx
+2003,Michael Schumacher,Ferrari,Ferrari F2003-GA,yes,https://en.wikipedia.org/wiki/Ferrari_F2003-GA,https://www.statsf1.com/en/ferrari-f2003-ga.aspx
+2004,Michael Schumacher,Ferrari,Ferrari F2004,yes,https://en.wikipedia.org/wiki/Ferrari_F2004,https://www.statsf1.com/en/ferrari-f2004.aspx
+2005,Fernando Alonso,Renault,Renault R25,yes,https://en.wikipedia.org/wiki/Renault_R25,https://www.statsf1.com/en/renault-r25.aspx
+2006,Fernando Alonso,Renault,Renault R26,yes,https://en.wikipedia.org/wiki/Renault_R26,https://www.statsf1.com/en/renault-r26.aspx
+2007,Kimi Raikkonen,Ferrari,Ferrari F2007,yes,https://en.wikipedia.org/wiki/Ferrari_F2007,https://www.statsf1.com/en/ferrari-f2007.aspx
+2008,Lewis Hamilton,McLaren,McLaren MP4-23,yes,https://en.wikipedia.org/wiki/McLaren_MP4-23,https://www.statsf1.com/en/mclaren-mp4-23.aspx
+2009,Jenson Button,Brawn GP,Brawn BGP 001,yes,https://en.wikipedia.org/wiki/Brawn_BGP_001,https://www.statsf1.com/en/brawn-gp-bgp-001.aspx
+2010,Sebastian Vettel,Red Bull,Red Bull RB6,yes,https://en.wikipedia.org/wiki/Red_Bull_RB6,https://www.statsf1.com/en/red-bull-rb6.aspx
+2011,Sebastian Vettel,Red Bull,Red Bull RB7,yes,https://en.wikipedia.org/wiki/Red_Bull_RB7,https://www.statsf1.com/en/red-bull-rb7.aspx
+2012,Sebastian Vettel,Red Bull,Red Bull RB8,yes,https://en.wikipedia.org/wiki/Red_Bull_RB8,https://www.statsf1.com/en/red-bull-rb8.aspx
+2013,Sebastian Vettel,Red Bull,Red Bull RB9,yes,https://en.wikipedia.org/wiki/Red_Bull_RB9,https://www.statsf1.com/en/red-bull-rb9.aspx
+2014,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W05 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W05_Hybrid,https://www.statsf1.com/en/mercedes-f1-w05.aspx
+2015,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W06 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W06_Hybrid,https://www.statsf1.com/en/mercedes-f1-w06.aspx
+2016,Nico Rosberg,Mercedes-Benz,Mercedes F1 W07 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W07_Hybrid,https://www.statsf1.com/en/mercedes-f1-w07.aspx
+2017,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W08,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W08_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w08.aspx
+2018,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W09,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W09_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w09.aspx
