@@ -3,9 +3,8 @@ year,driver,constructor,car,sideview,wikipedia,statsf1
 1951,Juan Manuel Fangio,Alfa Romeo,Alfa Romeo 159,yes,https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta,https://www.statsf1.com/en/alfa-romeo-159.aspx
 1952,Alberto Ascari,Ferrari,Ferrari 500,yes,https://en.wikipedia.org/wiki/Ferrari_Tipo_500,https://www.statsf1.com/en/ferrari-500.aspx
 1953,Alberto Ascari,Ferrari,Ferrari 500,yes,https://en.wikipedia.org/wiki/Ferrari_Tipo_500,https://www.statsf1.com/en/ferrari-500.aspx
-1954,Juan Manuel Fangio,Maserati,Maserati 250F,yes,https://en.wikipedia.org/wiki/Maserati_250F,https://www.statsf1.com/en/maserati-250f.aspx
-1954,Juan Manuel Fangio,Mercedes-Benz,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
-1955,Juan Manuel Fangio,Mercedes-Benz,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
+1954,Juan Manuel Fangio,Mercedes,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
+1955,Juan Manuel Fangio,Mercedes,Mercedes-Benz W196,yes,https://en.wikipedia.org/wiki/Mercedes-Benz_W196,https://www.statsf1.com/en/mercedes-w196.aspx
 1956,Juan Manuel Fangio,Ferrari,Lancia-Ferrari D50,yes,https://en.wikipedia.org/wiki/Lancia_D50,https://www.statsf1.com/en/ferrari-d50.aspx
 1957,Juan Manuel Fangio,Maserati,Maserati 250F,yes,https://en.wikipedia.org/wiki/Maserati_250F,https://www.statsf1.com/en/maserati-250f.aspx
 1958,Mike Hawthorn,Ferrari,Ferrari Dino 246,yes,https://en.wikipedia.org/wiki/Ferrari_246_F1,https://www.statsf1.com/en/ferrari-d246.aspx
@@ -18,7 +17,6 @@ year,driver,constructor,car,sideview,wikipedia,statsf1
 1965,Jim Clark,Lotus,Lotus 33,yes,https://en.wikipedia.org/wiki/Lotus_33,https://www.statsf1.com/en/lotus-33.aspx
 1966,Jack Brabham,Brabham,Brabham BT19,yes,https://en.wikipedia.org/wiki/Brabham_BT19,https://www.statsf1.com/en/brabham-bt19.aspx
 1967,Denny Hulme,Brabham,Brabham BT24,yes,https://en.wikipedia.org/wiki/Brabham_BT24,https://www.statsf1.com/en/brabham-bt24.aspx
-1967,Denny Hulme,Brabham,Brabham BT20,yes,https://en.wikipedia.org/wiki/Brabham_BT20,https://www.statsf1.com/en/brabham-bt20.aspx
 1968,Graham Hill,Lotus,Lotus 49,yes,https://en.wikipedia.org/wiki/Lotus_49,https://www.statsf1.com/en/lotus-49.aspx
 1969,Jackie Stewart,Matra,Matra MS80,yes,https://en.wikipedia.org/wiki/Matra_MS80,https://www.statsf1.com/en/matra-ms80.aspx
 1970,Jochen Rindt,Lotus,Lotus 72,yes,https://en.wikipedia.org/wiki/Lotus_72,https://www.statsf1.com/en/lotus-72c.aspx
@@ -60,13 +58,13 @@ year,driver,constructor,car,sideview,wikipedia,statsf1
 2006,Fernando Alonso,Renault,Renault R26,yes,https://en.wikipedia.org/wiki/Renault_R26,https://www.statsf1.com/en/renault-r26.aspx
 2007,Kimi Raikkonen,Ferrari,Ferrari F2007,yes,https://en.wikipedia.org/wiki/Ferrari_F2007,https://www.statsf1.com/en/ferrari-f2007.aspx
 2008,Lewis Hamilton,McLaren,McLaren MP4-23,yes,https://en.wikipedia.org/wiki/McLaren_MP4-23,https://www.statsf1.com/en/mclaren-mp4-23.aspx
-2009,Jenson Button,Brawn GP,Brawn BGP 001,yes,https://en.wikipedia.org/wiki/Brawn_BGP_001,https://www.statsf1.com/en/brawn-gp-bgp-001.aspx
+2009,Jenson Button,Brawn,Brawn BGP 001,yes,https://en.wikipedia.org/wiki/Brawn_BGP_001,https://www.statsf1.com/en/brawn-gp-bgp-001.aspx
 2010,Sebastian Vettel,Red Bull,Red Bull RB6,yes,https://en.wikipedia.org/wiki/Red_Bull_RB6,https://www.statsf1.com/en/red-bull-rb6.aspx
 2011,Sebastian Vettel,Red Bull,Red Bull RB7,yes,https://en.wikipedia.org/wiki/Red_Bull_RB7,https://www.statsf1.com/en/red-bull-rb7.aspx
 2012,Sebastian Vettel,Red Bull,Red Bull RB8,yes,https://en.wikipedia.org/wiki/Red_Bull_RB8,https://www.statsf1.com/en/red-bull-rb8.aspx
 2013,Sebastian Vettel,Red Bull,Red Bull RB9,yes,https://en.wikipedia.org/wiki/Red_Bull_RB9,https://www.statsf1.com/en/red-bull-rb9.aspx
-2014,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W05 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W05_Hybrid,https://www.statsf1.com/en/mercedes-f1-w05.aspx
-2015,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W06 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W06_Hybrid,https://www.statsf1.com/en/mercedes-f1-w06.aspx
-2016,Nico Rosberg,Mercedes-Benz,Mercedes F1 W07 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W07_Hybrid,https://www.statsf1.com/en/mercedes-f1-w07.aspx
-2017,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W08,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W08_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w08.aspx
-2018,Lewis Hamilton,Mercedes-Benz,Mercedes F1 W09,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W09_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w09.aspx
+2014,Lewis Hamilton,Mercedes,Mercedes F1 W05 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W05_Hybrid,https://www.statsf1.com/en/mercedes-f1-w05.aspx
+2015,Lewis Hamilton,Mercedes,Mercedes F1 W06 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W06_Hybrid,https://www.statsf1.com/en/mercedes-f1-w06.aspx
+2016,Nico Rosberg,Mercedes,Mercedes F1 W07 Hybrid,yes,https://en.wikipedia.org/wiki/Mercedes_F1_W07_Hybrid,https://www.statsf1.com/en/mercedes-f1-w07.aspx
+2017,Lewis Hamilton,Mercedes,Mercedes F1 W08,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W08_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w08.aspx
+2018,Lewis Hamilton,Mercedes,Mercedes F1 W09,yes,https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W09_EQ_Power%2B,https://www.statsf1.com/en/mercedes-f1-w09.aspx
