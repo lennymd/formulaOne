@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        height: 100%;
+        margin: 1.4rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-gap: 1.4rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      }
+      
+      .card {
+        background-color: #556B2F;
+        padding: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The championship winning Formula 1 cars</h1>
+    <script src="d3/d3.v4.js"></script>
+    <script>
+
+      grid = d3.select("body")
+        .append("div")
+        .attr("id", "grid")
+        .attr("class","grid");
+
+    var rowConverter = function(d) {
+      return { 
+        year: +d.year,
+        team: d.team,
+        dominance: +d.dominance,
+        rounds: +d.rounds,
+        wins: +d.wins
+        };
+    };
+
+    var dataset;
+
+    //load csv, put in the right rowConverter so each column is correctly typed, start working
+    d3.csv("data/cards_test.csv", rowConverter, function(data) {
+      //do all the visualization things here
+      dataset = data;
+
+      cards = grid.selectAll("cars")
+                  .data(data)
+                  .enter()
+                  .append("article")
+                  .attr("class", "card");
+      
+      car_name = cards.append("h1")
+                      .text(function(d){
+                        return d.team;
+                      })
+                      .attr("class","car-name");
+
+      championship = cards.append("h2")
+                          .text(function(d){
+                            return d.year;
+                            })
+                          .attr("class", "championship");
+
+      constructor = cards.append("p")
+                          .text(function(d){
+                            return d.team;
+                          })
+                          .attr("class","constructor");
+      
+      dominance = cards.append("p")
+                          .text(function(d) {
+                            return "Dominance: " + (d.dominance * 100) + "%";
+                          })
+                          .attr("class","dominance");
+
+    });
+    </script>
+  </body>
+</html>
