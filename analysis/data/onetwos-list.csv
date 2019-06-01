@@ -1,0 +1,291 @@
+index,raceId2,year,prixName,prixDate,round,constructorName,driverName,grid,positionOrder,positionText,points,status
+0,1,1950,British Grand Prix,1950-05-13,1,Alfa Romeo,Nino Farina,1,1,1,9,Finished
+79,4,1950,Swiss Grand Prix,1950-06-04,4,Alfa Romeo,Nino Farina,2,1,1,9,Finished
+97,5,1950,Belgian Grand Prix,1950-06-18,5,Alfa Romeo,Juan Fangio,2,1,1,8,Finished
+111,6,1950,French Grand Prix,1950-07-02,6,Alfa Romeo,Juan Fangio,1,1,1,9,Finished
+131,7,1950,Italian Grand Prix,1950-09-03,7,Alfa Romeo,Nino Farina,3,1,1,8,Finished
+181,9,1951,Indianapolis 500,1951-05-30,2,Kurtis Kraft,Lee Wallard,2,1,1,9,Finished
+228,11,1951,French Grand Prix,1951-07-01,4,Alfa Romeo,Luigi Fagioli,7,1,1,4,Finished
+296,14,1951,Italian Grand Prix,1951-09-16,7,Ferrari,Alberto Ascari,3,1,1,8,Finished
+339,16,1952,Swiss Grand Prix,1952-05-18,1,Ferrari,Piero Taruffi,2,1,1,9,Finished
+394,18,1952,Belgian Grand Prix,1952-06-22,3,Ferrari,Alberto Ascari,1,1,1,9,Finished
+416,19,1952,French Grand Prix,1952-07-06,4,Ferrari,Alberto Ascari,1,1,1,9,Finished
+438,20,1952,British Grand Prix,1952-07-19,5,Ferrari,Alberto Ascari,2,1,1,9,Finished
+470,21,1952,German Grand Prix,1952-08-03,6,Ferrari,Alberto Ascari,1,1,1,9,Finished
+500,22,1952,Dutch Grand Prix,1952-08-17,7,Ferrari,Alberto Ascari,1,1,1,9,Finished
+554,24,1953,Argentine Grand Prix,1953-01-18,1,Ferrari,Alberto Ascari,1,1,1,9,Finished
+571,25,1953,Indianapolis 500,1953-05-30,2,Kurtis Kraft,Bill Vukovich,1,1,1,9,Finished
+618,26,1953,Dutch Grand Prix,1953-06-07,3,Ferrari,Alberto Ascari,1,1,1,8,Finished
+638,27,1953,Belgian Grand Prix,1953-06-21,4,Ferrari,Alberto Ascari,2,1,1,8,Finished
+747,31,1953,Swiss Grand Prix,1953-08-23,8,Ferrari,Alberto Ascari,2,1,1,9,Finished
+888,36,1954,French Grand Prix,1954-07-04,4,Mercedes,Juan Fangio,1,1,1,8,Finished
+910,37,1954,British Grand Prix,1954-07-17,5,Ferrari,José Froilán González,2,1,1,8,Finished
+1091,44,1955,Indianapolis 500,1955-05-30,3,Kurtis Kraft,Bob Sweikert,14,1,1,8,Finished
+1126,45,1955,Belgian Grand Prix,1955-06-05,4,Mercedes,Juan Fangio,2,1,1,9,Finished
+1143,46,1955,Dutch Grand Prix,1955-06-19,5,Mercedes,Juan Fangio,1,1,1,8,Finished
+1159,47,1955,British Grand Prix,1955-07-16,6,Mercedes,Stirling Moss,1,1,1,9,Finished
+1187,48,1955,Italian Grand Prix,1955-09-11,7,Mercedes,Juan Fangio,1,1,1,8,Finished
+1210,49,1956,Argentine Grand Prix,1956-01-22,1,Ferrari,Juan Fangio,3,1,1,5,Finished
+1281,52,1956,Belgian Grand Prix,1956-06-03,4,Ferrari,Peter Collins,3,1,1,8,Finished
+1297,53,1956,French Grand Prix,1956-07-01,5,Ferrari,Peter Collins,3,1,1,8,Finished
+1319,54,1956,British Grand Prix,1956-07-14,6,Ferrari,Juan Fangio,2,1,1,8,Finished
+1400,57,1957,Argentine Grand Prix,1957-01-13,1,Maserati,Juan Fangio,2,1,1,8,Finished
+1440,59,1957,Indianapolis 500,1957-05-30,3,Epperly,Sam Hanks,13,1,1,8,Finished
+1489,61,1957,British Grand Prix,1957-07-20,5,Vanwall,Stirling Moss,3,1,1,5,Finished
+1630,68,1958,Indianapolis 500,1958-05-30,4,Epperly,Jimmy Bryan,7,1,1,8,Finished
+1704,71,1958,British Grand Prix,1958-07-19,7,Ferrari,Peter Collins,6,1,1,8,Finished
+1836,77,1959,Indianapolis 500,1959-05-30,2,Watson,Rodger Ward,6,1,1,8,Finished
+1884,79,1959,French Grand Prix,1959-07-05,4,Ferrari,Tony Brooks,1,1,1,8,Finished
+1936,81,1959,German Grand Prix,1959-08-02,6,Ferrari,Tony Brooks,1,1,1,9,Finished
+1951,82,1959,Portuguese Grand Prix,1959-08-23,7,Cooper-Climax,Stirling Moss,1,1,1,9,Finished
+1988,84,1959,United States Grand Prix,1959-12-12,9,Cooper-Climax,Bruce McLaren,10,1,1,8,Finished
+2054,87,1960,Indianapolis 500,1960-05-30,3,Watson,Jim Rathmann,2,1,1,8,Finished
+2108,89,1960,Belgian Grand Prix,1960-06-19,5,Cooper-Climax,Jack Brabham,1,1,1,8,Finished
+2127,90,1960,French Grand Prix,1960-07-03,6,Cooper-Climax,Jack Brabham,1,1,1,8,Finished
+2175,92,1960,Portuguese Grand Prix,1960-08-14,8,Cooper-Climax,Jack Brabham,3,1,1,8,Finished
+2190,93,1960,Italian Grand Prix,1960-09-04,9,Ferrari,Phil Hill,1,1,1,8,Finished
+2207,94,1960,United States Grand Prix,1960-11-20,10,Team Lotus,Stirling Moss,1,1,1,8,Finished
+2251,96,1961,Dutch Grand Prix,1961-05-22,2,Ferrari,Wolfgang von Trips,2,1,1,9,Finished
+2268,97,1961,Belgian Grand Prix,1961-06-18,3,Ferrari,Phil Hill,1,1,1,9,Finished
+2325,99,1961,British Grand Prix,1961-07-15,5,Ferrari,Wolfgang von Trips,4,1,1,9,Finished
+2600,109,1962,Italian Grand Prix,1962-09-16,7,BRM,Graham Hill,2,1,1,9,Finished
+2672,112,1963,Monaco Grand Prix,1963-05-26,1,BRM,Graham Hill,2,1,1,9,Finished
+2854,119,1963,United States Grand Prix,1963-10-06,8,BRM,Graham Hill,1,1,1,9,Finished
+2926,122,1964,Monaco Grand Prix,1964-05-10,1,BRM,Graham Hill,3,1,1,9,Finished
+3277,139,1965,Italian Grand Prix,1965-09-12,8,BRM,Jackie Stewart,3,1,1,9,Finished
+3388,145,1966,British Grand Prix,1966-07-16,4,Brabham-Repco,Jack Brabham,1,1,1,9,Finished
+3444,148,1966,Italian Grand Prix,1966-09-04,7,Ferrari,Ludovico Scarfiotti,2,1,1,9,Finished
+3575,155,1967,French Grand Prix,1967-07-02,5,Brabham-Repco,Jack Brabham,2,1,1,9,Finished
+3611,157,1967,German Grand Prix,1967-08-06,7,Brabham-Repco,Denny Hulme,2,1,1,9,Finished
+3635,158,1967,Canadian Grand Prix,1967-08-27,8,Brabham-Repco,Jack Brabham,7,1,1,9,Finished
+3671,160,1967,United States Grand Prix,1967-10-01,10,Lotus-Ford,Jim Clark,2,1,1,9,Finished
+3708,162,1968,South African Grand Prix,1968-01-01,1,Lotus-Ford,Jim Clark,1,1,1,9,Finished
+3879,171,1968,Canadian Grand Prix,1968-09-22,10,McLaren-Ford,Denny Hulme,6,1,1,9,Finished
+4004,178,1969,French Grand Prix,1969-07-06,5,Matra-Ford,Jackie Stewart,1,1,1,9,Finished
+4063,182,1969,Canadian Grand Prix,1969-09-20,9,Brabham-Ford,Jacky Ickx,1,1,1,9,Finished
+4296,193,1970,Austrian Grand Prix,1970-08-16,9,Ferrari,Jacky Ickx,3,1,1,9,Finished
+4347,195,1970,Canadian Grand Prix,1970-09-20,11,Ferrari,Jacky Ickx,2,1,1,9,Finished
+4394,197,1970,Mexican Grand Prix,1970-10-25,13,Ferrari,Jacky Ickx,3,1,1,9,Finished
+4503,202,1971,French Grand Prix,1971-07-04,5,Tyrrell,Jackie Stewart,1,1,1,9,Finished
+4550,204,1971,German Grand Prix,1971-08-01,7,Tyrrell,Jackie Stewart,1,1,1,9,Finished
+4849,216,1972,German Grand Prix,1972-07-30,8,Ferrari,Jacky Ickx,1,1,1,9,Finished
+4952,220,1972,United States Grand Prix,1972-10-08,12,Tyrrell,Jackie Stewart,1,1,1,9,Finished
+5069,225,1973,Belgian Grand Prix,1973-05-20,5,Tyrrell,Jackie Stewart,6,1,1,9,Finished
+5192,230,1973,Dutch Grand Prix,1973-07-29,10,Tyrrell,Jackie Stewart,2,1,1,9,Finished
+5216,231,1973,German Grand Prix,1973-08-05,11,Tyrrell,Jackie Stewart,1,1,1,9,Finished
+5261,233,1973,Italian Grand Prix,1973-09-09,13,Team Lotus,Ronnie Peterson,1,1,1,9,Finished
+5417,239,1974,Spanish Grand Prix,1974-04-28,4,Ferrari,Niki Lauda,1,1,1,9,Finished
+5504,242,1974,Swedish Grand Prix,1974-06-09,7,Tyrrell,Jody Scheckter,2,1,1,9,Finished
+5531,243,1974,Dutch Grand Prix,1974-06-23,8,Ferrari,Niki Lauda,1,1,1,9,Finished
+5746,250,1974,United States Grand Prix,1974-10-06,15,Brabham,Carlos Reutemann,1,1,1,9,Finished
+6186,267,1976,United States Grand Prix West,1976-03-28,3,Ferrari,Clay Regazzoni,1,1,1,9,Finished
+6243,269,1976,Belgian Grand Prix,1976-05-16,5,Ferrari,Niki Lauda,1,1,1,9,Finished
+6297,271,1976,Swedish Grand Prix,1976-06-13,7,Tyrrell,Jody Scheckter,1,1,1,9,Finished
+7195,303,1978,Belgian Grand Prix,1978-05-21,6,Team Lotus,Mario Andretti,1,1,1,9,Finished
+7225,304,1978,Spanish Grand Prix,1978-06-04,7,Team Lotus,Mario Andretti,1,1,1,9,Finished
+7281,306,1978,French Grand Prix,1978-07-02,9,Team Lotus,Mario Andretti,2,1,1,9,Finished
+7401,310,1978,Dutch Grand Prix,1978-08-27,13,Team Lotus,Mario Andretti,1,1,1,9,Finished
+7434,311,1978,Italian Grand Prix,1978-09-10,14,Brabham,Niki Lauda,4,1,1,9,Finished
+7547,315,1979,Brazilian Grand Prix,1979-02-04,2,Ligier,Jacques Laffite,1,1,1,9,Finished
+7573,316,1979,South African Grand Prix,1979-03-03,3,Ferrari,Gilles Villeneuve,3,1,1,9,Finished
+7599,317,1979,United States Grand Prix West,1979-04-08,4,Ferrari,Gilles Villeneuve,1,1,1,9,Finished
+7758,323,1979,German Grand Prix,1979-07-29,10,Williams,Alan Jones,2,1,1,9,Finished
+7836,326,1979,Italian Grand Prix,1979-09-09,13,Ferrari,Jody Scheckter,3,1,1,9,Finished
+8252,341,1980,Canadian Grand Prix,1980-09-28,13,Williams,Alan Jones,2,1,1,9,Finished
+8280,342,1980,United States Grand Prix,1980-10-05,14,Williams,Alan Jones,5,1,1,9,Finished
+8307,343,1981,United States Grand Prix West,1981-03-15,1,Williams,Alan Jones,2,1,1,9,Finished
+8336,344,1981,Brazilian Grand Prix,1981-03-29,2,Williams,Carlos Reutemann,2,1,1,9,Finished
+8849,361,1982,San Marino Grand Prix,1982-04-25,4,Ferrari,Didier Pironi,4,1,1,9,Finished
+8955,365,1982,Canadian Grand Prix,1982-06-13,8,Brabham,Nelson Piquet,4,1,1,9,Finished
+9045,368,1982,French Grand Prix,1982-07-25,11,Renault,René Arnoux,1,1,1,9,Finished
+9249,375,1983,United States Grand Prix West,1983-03-27,2,McLaren,John Watson,22,1,1,9,Finished
+9532,385,1983,Dutch Grand Prix,1983-08-28,12,Ferrari,René Arnoux,10,1,1,9,Finished
+9672,390,1984,South African Grand Prix,1984-04-07,2,McLaren,Niki Lauda,8,1,1,9,Finished
+9914,399,1984,German Grand Prix,1984-08-05,11,McLaren,Alain Prost,1,1,1,9,Finished
+9968,401,1984,Dutch Grand Prix,1984-08-26,13,McLaren,Alain Prost,1,1,1,9,Finished
+10048,404,1984,Portuguese Grand Prix,1984-10-21,16,McLaren,Alain Prost,2,1,1,9,Finished
+10177,409,1985,Canadian Grand Prix,1985-06-16,5,Ferrari,Michele Alboreto,3,1,1,9,Finished
+10333,415,1985,Dutch Grand Prix,1985-08-25,11,McLaren,Niki Lauda,10,1,1,9,Finished
+10435,419,1985,South African Grand Prix,1985-10-19,15,Williams,Nigel Mansell,1,1,1,9,Finished
+10557,424,1986,Monaco Grand Prix,1986-05-11,4,McLaren,Alain Prost,1,1,1,9,Finished
+10684,429,1986,British Grand Prix,1986-07-13,9,Williams,Nigel Mansell,2,1,1,9,Finished
+10788,433,1986,Italian Grand Prix,1986-09-07,13,Williams,Nelson Piquet,6,1,1,9,Finished
+10943,439,1987,Belgian Grand Prix,1987-05-17,3,McLaren,Alain Prost,6,1,1,9,Finished
+11021,442,1987,French Grand Prix,1987-07-05,6,Williams,Nigel Mansell,1,1,1,9,Finished
+11047,443,1987,British Grand Prix,1987-07-12,7,Williams,Nigel Mansell,2,1,1,9,Finished
+11125,446,1987,Austrian Grand Prix,1987-08-16,10,Williams,Nigel Mansell,2,1,1,9,Finished
+11232,450,1987,Mexican Grand Prix,1987-10-18,14,Williams,Nigel Mansell,1,1,1,9,Finished
+11285,452,1987,Australian Grand Prix,1987-11-15,16,Ferrari,Gerhard Berger,1,1,1,9,Finished
+11343,454,1988,San Marino Grand Prix,1988-05-01,2,McLaren,Ayrton Senna,1,1,1,9,Finished
+11404,456,1988,Mexican Grand Prix,1988-05-29,4,McLaren,Alain Prost,2,1,1,9,Finished
+11435,457,1988,Canadian Grand Prix,1988-06-12,5,McLaren,Ayrton Senna,1,1,1,9,Finished
+11466,458,1988,Detroit Grand Prix,1988-06-19,6,McLaren,Ayrton Senna,1,1,1,9,Finished
+11497,459,1988,French Grand Prix,1988-07-03,7,McLaren,Alain Prost,1,1,1,9,Finished
+11559,461,1988,German Grand Prix,1988-07-24,9,McLaren,Ayrton Senna,1,1,1,9,Finished
+11590,462,1988,Hungarian Grand Prix,1988-08-07,10,McLaren,Ayrton Senna,1,1,1,9,Finished
+11621,463,1988,Belgian Grand Prix,1988-08-28,11,McLaren,Ayrton Senna,1,1,1,9,Finished
+11652,464,1988,Italian Grand Prix,1988-09-11,12,Ferrari,Gerhard Berger,3,1,1,9,Finished
+11745,467,1988,Japanese Grand Prix,1988-10-30,15,McLaren,Ayrton Senna,1,1,1,9,Finished
+11776,468,1988,Australian Grand Prix,1988-11-13,16,McLaren,Alain Prost,2,1,1,9,Finished
+11845,470,1989,San Marino Grand Prix,1989-04-23,2,McLaren,Ayrton Senna,1,1,1,9,Finished
+11884,471,1989,Monaco Grand Prix,1989-05-07,3,McLaren,Ayrton Senna,1,1,1,9,Finished
+12000,474,1989,Canadian Grand Prix,1989-06-18,6,Williams,Thierry Boutsen,6,1,1,9,Finished
+12117,477,1989,German Grand Prix,1989-07-30,9,McLaren,Ayrton Senna,1,1,1,9,Finished
+12194,479,1989,Belgian Grand Prix,1989-08-27,11,McLaren,Ayrton Senna,1,1,1,9,Finished
+12602,490,1990,Mexican Grand Prix,1990-06-24,6,Ferrari,Alain Prost,13,1,1,9,Finished
+12876,498,1990,Spanish Grand Prix,1990-09-30,14,Ferrari,Alain Prost,2,1,1,9,Finished
+12909,499,1990,Japanese Grand Prix,1990-10-21,15,Benetton,Nelson Piquet,6,1,1,9,Finished
+13037,503,1991,San Marino Grand Prix,1991-04-28,3,McLaren,Ayrton Senna,1,1,1,10,Finished
+13139,506,1991,Mexican Grand Prix,1991-06-16,6,Williams,Riccardo Patrese,1,1,1,10,Finished
+13241,509,1991,German Grand Prix,1991-07-28,9,Williams,Nigel Mansell,1,1,1,10,Finished
+13309,511,1991,Belgian Grand Prix,1991-08-25,11,McLaren,Ayrton Senna,1,1,1,10,Finished
+13444,515,1991,Japanese Grand Prix,1991-10-20,15,McLaren,Gerhard Berger,1,1,1,10,Finished
+13508,517,1992,South African Grand Prix,1992-03-01,1,Williams,Nigel Mansell,1,1,1,10,Finished
+13538,518,1992,Mexican Grand Prix,1992-03-22,2,Williams,Nigel Mansell,1,1,1,10,Finished
+13568,519,1992,Brazilian Grand Prix,1992-04-05,3,Williams,Nigel Mansell,1,1,1,10,Finished
+13630,521,1992,San Marino Grand Prix,1992-05-17,5,Williams,Nigel Mansell,1,1,1,10,Finished
+13725,524,1992,French Grand Prix,1992-07-05,8,Williams,Nigel Mansell,1,1,1,10,Finished
+13755,525,1992,British Grand Prix,1992-07-12,9,Williams,Nigel Mansell,1,1,1,10,Finished
+14168,540,1993,French Grand Prix,1993-07-04,8,Williams,Alain Prost,2,1,1,10,Finished
+14730,561,1994,Portuguese Grand Prix,1994-09-25,13,Williams,Damon Hill,2,1,1,10,Finished
+14920,568,1995,Spanish Grand Prix,1995-05-14,4,Benetton,Michael Schumacher,1,1,1,10,Finished
+15068,574,1995,Hungarian Grand Prix,1995-08-13,10,Williams,Damon Hill,1,1,1,10,Finished
+15260,582,1996,Australian Grand Prix,1996-03-10,1,Williams,Damon Hill,2,1,1,10,Finished
+15304,584,1996,Argentine Grand Prix,1996-04-07,3,Williams,Damon Hill,1,1,1,10,Finished
+15414,589,1996,Canadian Grand Prix,1996-06-16,8,Williams,Damon Hill,1,1,1,10,Finished
+15436,590,1996,French Grand Prix,1996-06-30,9,Williams,Damon Hill,2,1,1,10,Finished
+15500,593,1996,Hungarian Grand Prix,1996-08-11,12,Williams,Jacques Villeneuve,3,1,1,10,Finished
+15560,596,1996,Portuguese Grand Prix,1996-09-22,15,Williams,Jacques Villeneuve,2,1,1,10,Finished
+15954,614,1997,European Grand Prix,1997-10-26,17,McLaren,Mika Häkkinen,5,1,1,10,Finished
+15976,615,1998,Australian Grand Prix,1998-03-08,1,McLaren,Mika Häkkinen,1,1,1,10,Finished
+15998,616,1998,Brazilian Grand Prix,1998-03-29,2,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16064,619,1998,Spanish Grand Prix,1998-05-10,5,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16129,622,1998,French Grand Prix,1998-06-28,8,Ferrari,Michael Schumacher,2,1,1,10,Finished
+16173,624,1998,Austrian Grand Prix,1998-07-26,10,McLaren,Mika Häkkinen,3,1,1,10,Finished
+16195,625,1998,German Grand Prix,1998-08-02,11,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16237,627,1998,Belgian Grand Prix,1998-08-30,13,Jordan,Damon Hill,3,1,1,10,Finished
+16259,628,1998,Italian Grand Prix,1998-09-13,14,Ferrari,Michael Schumacher,1,1,1,10,Finished
+16391,634,1999,Monaco Grand Prix,1999-05-16,4,Ferrari,Michael Schumacher,2,1,1,10,Finished
+16413,635,1999,Spanish Grand Prix,1999-05-30,5,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16523,640,1999,German Grand Prix,1999-08-01,10,Ferrari,Eddie Irvine,5,1,1,10,Finished
+16545,641,1999,Hungarian Grand Prix,1999-08-15,11,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16567,642,1999,Belgian Grand Prix,1999-08-29,12,McLaren,David Coulthard,2,1,1,10,Finished
+16633,645,1999,Malaysian Grand Prix,1999-10-17,15,Ferrari,Eddie Irvine,2,1,1,10,Finished
+16677,647,2000,Australian Grand Prix,2000-03-12,1,Ferrari,Michael Schumacher,3,1,1,10,Finished
+16743,650,2000,British Grand Prix,2000-04-23,4,McLaren,David Coulthard,4,1,1,10,Finished
+16765,651,2000,Spanish Grand Prix,2000-05-07,5,McLaren,Mika Häkkinen,2,1,1,10,Finished
+16830,654,2000,Canadian Grand Prix,2000-06-18,8,Ferrari,Michael Schumacher,1,1,1,10,Finished
+16852,655,2000,French Grand Prix,2000-07-02,9,McLaren,David Coulthard,2,1,1,10,Finished
+16874,656,2000,Austrian Grand Prix,2000-07-16,10,McLaren,Mika Häkkinen,1,1,1,10,Finished
+16984,661,2000,United States Grand Prix,2000-09-24,15,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17072,665,2001,Malaysian Grand Prix,2001-03-18,2,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17182,670,2001,Monaco Grand Prix,2001-05-27,7,Ferrari,Michael Schumacher,2,1,1,10,Finished
+17314,676,2001,Hungarian Grand Prix,2001-08-19,13,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17446,682,2002,Malaysian Grand Prix,2002-03-17,2,Williams,Ralf Schumacher,4,1,1,10,Finished
+17490,684,2002,San Marino Grand Prix,2002-04-14,4,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17534,686,2002,Austrian Grand Prix,2002-05-12,6,Ferrari,Michael Schumacher,3,1,1,10,Finished
+17600,689,2002,European Grand Prix,2002-06-23,9,Ferrari,Rubens Barrichello,4,1,1,10,Finished
+17622,690,2002,British Grand Prix,2002-07-07,10,Ferrari,Michael Schumacher,3,1,1,10,Finished
+17686,693,2002,Hungarian Grand Prix,2002-08-18,13,Ferrari,Rubens Barrichello,1,1,1,10,Finished
+17706,694,2002,Belgian Grand Prix,2002-09-01,14,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17726,695,2002,Italian Grand Prix,2002-09-15,15,Ferrari,Rubens Barrichello,4,1,1,10,Finished
+17746,696,2002,United States Grand Prix,2002-09-29,16,Ferrari,Rubens Barrichello,2,1,1,10,Finished
+17766,697,2002,Japanese Grand Prix,2002-10-13,17,Ferrari,Michael Schumacher,1,1,1,10,Finished
+17946,706,2003,European Grand Prix,2003-06-29,9,Williams,Ralf Schumacher,3,1,1,10,Finished
+17966,707,2003,French Grand Prix,2003-07-06,10,Williams,Ralf Schumacher,1,1,1,10,Finished
+18106,714,2004,Australian Grand Prix,2004-03-07,1,Ferrari,Michael Schumacher,1,1,1,10,Finished
+18146,716,2004,Bahrain Grand Prix,2004-04-04,3,Ferrari,Michael Schumacher,1,1,1,10,Finished
+18186,718,2004,Spanish Grand Prix,2004-05-09,5,Ferrari,Michael Schumacher,1,1,1,10,Finished
+18226,720,2004,European Grand Prix,2004-05-30,7,Ferrari,Michael Schumacher,1,1,1,10,Finished
+18246,721,2004,Canadian Grand Prix,2004-06-13,8,Ferrari,Michael Schumacher,6,1,1,10,Finished
+18266,722,2004,United States Grand Prix,2004-06-20,9,Ferrari,Michael Schumacher,2,1,1,10,Finished
+18346,726,2004,Hungarian Grand Prix,2004-08-15,13,Ferrari,Michael Schumacher,1,1,1,10,Finished
+18386,728,2004,Italian Grand Prix,2004-09-12,15,Ferrari,Rubens Barrichello,1,1,1,10,Finished
+18622,740,2005,United States Grand Prix,2005-06-19,9,Ferrari,Michael Schumacher,5,1,1,10,Finished
+18782,748,2005,Brazilian Grand Prix,2005-09-25,17,McLaren,Juan Pablo Montoya,2,1,1,10,Finished
+18864,752,2006,Malaysian Grand Prix,2006-03-19,2,Renault,Giancarlo Fisichella,1,1,1,10,Finished
+19040,760,2006,United States Grand Prix,2006-07-02,10,Ferrari,Michael Schumacher,1,1,1,10,Finished
+19084,762,2006,German Grand Prix,2006-07-30,12,Ferrari,Michael Schumacher,2,1,1,10,Finished
+19260,770,2007,Malaysian Grand Prix,2007-04-08,2,McLaren,Fernando Alonso,2,1,1,10,Finished
+19326,773,2007,Monaco Grand Prix,2007-05-27,5,McLaren,Fernando Alonso,1,1,1,10,Finished
+19370,775,2007,United States Grand Prix,2007-06-17,7,McLaren,Lewis Hamilton,1,1,1,10,Finished
+19392,776,2007,French Grand Prix,2007-07-01,8,Ferrari,Kimi Räikkönen,3,1,1,10,Finished
+19480,780,2007,Turkish Grand Prix,2007-08-26,12,Ferrari,Felipe Massa,1,1,1,10,Finished
+19502,781,2007,Italian Grand Prix,2007-09-09,13,McLaren,Fernando Alonso,1,1,1,10,Finished
+19524,782,2007,Belgian Grand Prix,2007-09-16,14,Ferrari,Kimi Räikkönen,1,1,1,10,Finished
+19590,785,2007,Brazilian Grand Prix,2007-10-21,17,Ferrari,Kimi Räikkönen,3,1,1,10,Finished
+19656,788,2008,Bahrain Grand Prix,2008-04-06,3,Ferrari,Felipe Massa,2,1,1,10,Finished
+19678,789,2008,Spanish Grand Prix,2008-04-27,4,Ferrari,Kimi Räikkönen,1,1,1,10,Finished
+19740,792,2008,Canadian Grand Prix,2008-06-08,7,BMW Sauber,Robert Kubica,2,1,1,10,Finished
+19760,793,2008,French Grand Prix,2008-06-22,8,Ferrari,Felipe Massa,2,1,1,10,Finished
+19980,804,2009,Australian Grand Prix,2009-03-29,1,Brawn,Jenson Button,1,1,1,10,Finished
+20020,806,2009,Chinese Grand Prix,2009-04-19,3,Red Bull,Sebastian Vettel,1,1,1,10,Finished
+20060,808,2009,Spanish Grand Prix,2009-05-10,5,Brawn,Jenson Button,1,1,1,10,Finished
+20080,809,2009,Monaco Grand Prix,2009-05-24,6,Brawn,Jenson Button,1,1,1,10,Finished
+20120,811,2009,British Grand Prix,2009-06-21,8,Red Bull,Sebastian Vettel,1,1,1,10,Finished
+20140,812,2009,German Grand Prix,2009-07-12,9,Red Bull,Mark Webber,1,1,1,10,Finished
+20220,816,2009,Italian Grand Prix,2009-09-13,13,Brawn,Rubens Barrichello,5,1,1,10,Finished
+20300,820,2009,Abu Dhabi Grand Prix,2009-11-01,17,Red Bull,Sebastian Vettel,2,1,1,10,Finished
+20320,821,2010,Bahrain Grand Prix,2010-03-14,1,Ferrari,Fernando Alonso,3,1,1,25,Finished
+20368,823,2010,Malaysian Grand Prix,2010-04-04,3,Red Bull,Sebastian Vettel,3,1,1,25,Finished
+20392,824,2010,Chinese Grand Prix,2010-04-18,4,McLaren,Jenson Button,5,1,1,25,Finished
+20440,826,2010,Monaco Grand Prix,2010-05-16,6,Red Bull,Mark Webber,1,1,1,25,Finished
+20464,827,2010,Turkish Grand Prix,2010-05-30,7,McLaren,Lewis Hamilton,2,1,1,25,Finished
+20488,828,2010,Canadian Grand Prix,2010-06-13,8,McLaren,Lewis Hamilton,1,1,1,25,Finished
+20560,831,2010,German Grand Prix,2010-07-25,11,Ferrari,Fernando Alonso,2,1,1,25,Finished
+20680,836,2010,Japanese Grand Prix,2010-10-10,16,Red Bull,Sebastian Vettel,1,1,1,25,Finished
+20728,838,2010,Brazilian Grand Prix,2010-11-07,18,Red Bull,Sebastian Vettel,2,1,1,25,Finished
+20848,843,2011,Turkish Grand Prix,2011-05-08,4,Red Bull,Sebastian Vettel,1,1,1,25,Finished
+21040,851,2011,Belgian Grand Prix,2011-08-28,12,Red Bull,Sebastian Vettel,1,1,1,25,Finished
+21208,858,2011,Brazilian Grand Prix,2011-11-27,19,Red Bull,Mark Webber,2,1,1,25,Finished
+21592,874,2012,Korean Grand Prix,2012-10-14,16,Red Bull,Sebastian Vettel,2,1,1,25,Finished
+21734,880,2013,Malaysian Grand Prix,2013-03-24,2,Red Bull,Sebastian Vettel,1,1,1,25,Finished
+22020,893,2013,Japanese Grand Prix,2013-10-13,15,Red Bull,Sebastian Vettel,2,1,1,25,Finished
+22064,895,2013,Abu Dhabi Grand Prix,2013-11-03,17,Red Bull,Sebastian Vettel,2,1,1,25,Finished
+22108,897,2013,Brazilian Grand Prix,2013-11-24,19,Red Bull,Sebastian Vettel,1,1,1,25,Finished
+22152,899,2014,Malaysian Grand Prix,2014-03-30,2,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22174,900,2014,Bahrain Grand Prix,2014-04-06,3,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+22196,901,2014,Chinese Grand Prix,2014-04-20,4,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22218,902,2014,Spanish Grand Prix,2014-05-11,5,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22240,903,2014,Monaco Grand Prix,2014-05-25,6,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22284,905,2014,Austrian Grand Prix,2014-06-22,8,Mercedes,Nico Rosberg,3,1,1,25,Finished
+22394,910,2014,Italian Grand Prix,2014-09-07,13,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22438,912,2014,Japanese Grand Prix,2014-10-05,15,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+22460,913,2014,Russian Grand Prix,2014-10-12,16,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22481,914,2014,United States Grand Prix,2014-11-02,17,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+22499,915,2014,Brazilian Grand Prix,2014-11-09,18,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22537,917,2015,Australian Grand Prix,2015-03-15,1,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22575,919,2015,Chinese Grand Prix,2015-04-12,3,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22615,921,2015,Spanish Grand Prix,2015-05-10,5,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22655,923,2015,Canadian Grand Prix,2015-06-07,7,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22675,924,2015,Austrian Grand Prix,2015-06-21,8,Mercedes,Nico Rosberg,2,1,1,25,Finished
+22695,925,2015,British Grand Prix,2015-07-05,9,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22735,927,2015,Belgian Grand Prix,2015-08-23,11,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+22795,930,2015,Japanese Grand Prix,2015-09-27,14,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+22835,932,2015,United States Grand Prix,2015-10-25,16,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+22855,933,2015,Mexican Grand Prix,2015-11-01,17,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22875,934,2015,Brazilian Grand Prix,2015-11-15,18,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22895,935,2015,Abu Dhabi Grand Prix,2015-11-29,19,Mercedes,Nico Rosberg,1,1,1,25,Finished
+22915,936,2016,Australian Grand Prix,2016-03-20,1,Mercedes,Nico Rosberg,2,1,1,25,Finished
+22981,939,2016,Russian Grand Prix,2016-05-01,4,Mercedes,Nico Rosberg,1,1,1,25,Finished
+23135,946,2016,Hungarian Grand Prix,2016-07-24,11,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+23201,949,2016,Italian Grand Prix,2016-09-04,14,Mercedes,Nico Rosberg,2,1,1,25,Finished
+23245,951,2016,Malaysian Grand Prix,2016-10-02,16,Red Bull,Daniel Ricciardo,4,1,1,25,Finished
+23289,953,2016,United States Grand Prix,2016-10-23,18,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23311,954,2016,Mexican Grand Prix,2016-10-30,19,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23333,955,2016,Brazilian Grand Prix,2016-11-13,20,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23355,956,2016,Abu Dhabi Grand Prix,2016-11-27,21,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23477,962,2017,Monaco Grand Prix,2017-05-28,6,Ferrari,Sebastian Vettel,2,1,1,25,Finished
+23497,963,2017,Canadian Grand Prix,2017-06-11,7,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23557,966,2017,British Grand Prix,2017-07-16,10,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23577,967,2017,Hungarian Grand Prix,2017-07-30,11,Ferrari,Sebastian Vettel,1,1,1,25,Finished
+23617,969,2017,Italian Grand Prix,2017-09-03,13,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23757,976,2017,Abu Dhabi Grand Prix,2017-11-26,20,Mercedes,Valtteri Bottas,1,1,1,25,Finished
+23857,981,2018,Spanish Grand Prix,2018-05-13,5,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+23977,987,2018,German Grand Prix,2018-07-22,11,Mercedes,Lewis Hamilton,14,1,1,25,Finished
+24077,992,2018,Russian Grand Prix,2018-09-30,16,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+24097,993,2018,Japanese Grand Prix,2018-10-07,17,Mercedes,Lewis Hamilton,1,1,1,25,Finished
+24197,998,2019,Australian Grand Prix,2019-03-17,1,Mercedes,Valtteri Bottas,2,1,1,26,Finished
+24217,999,2019,Bahrain Grand Prix,2019-03-31,2,Mercedes,Lewis Hamilton,3,1,1,25,Finished
+24237,1000,2019,Chinese Grand Prix,2019-04-14,3,Mercedes,Lewis Hamilton,2,1,1,25,Finished
+24257,1001,2019,Azerbaijan Grand Prix,2019-04-28,4,Mercedes,Valtteri Bottas,1,1,1,25,Finished
