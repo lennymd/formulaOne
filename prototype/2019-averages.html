@@ -60,7 +60,7 @@
                   .data(constructors)
                   .enter()
                   .append("path")
-                  .attr("stroke", function (d) { return color(d.key) })
+                  .attr("stroke", function (d) { return color(d.key); })
                   .attr("stroke-width", 1)
                   .attr("fill-opacity", 0)
                   .attr("d", function (d) {
@@ -69,6 +69,19 @@
                       .y(function (d) { return yScale(d.averagePosition); })
                       (d.values)
                   });
+
+        var teamNames = svg.selectAll("names")
+                            .data(data)
+                            .enter()
+                            .append("text")
+                            .filter( function(d) {return d.round == 2;})
+                            .text(function (d) { return d.constructorName; })
+                            .attr("x", function (d) { return xScale_rounds(d.round); })
+                            .attr("y", function (d) { return yScale(d.averagePosition); })
+                            .attr("font-family", "monospace")
+                            .attr("font-size", "10px")
+                            .attr("fill", "black");
+
         
         svg.append("g")
           .attr("transform", "translate(0," + height + ")")
