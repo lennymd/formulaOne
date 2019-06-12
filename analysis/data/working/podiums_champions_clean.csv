@@ -1,0 +1,1105 @@
+raceId,year,round,prixName,constructor,constructorRef,position,positionText,positionOrder
+833,1950,1,British Grand Prix,Alfa Romeo,alfa,1.0,1,1
+833,1950,1,British Grand Prix,Alfa Romeo,alfa,2.0,2,2
+833,1950,1,British Grand Prix,Alfa Romeo,alfa,3.0,3,3
+834,1950,2,Monaco Grand Prix,Alfa Romeo,alfa,1.0,1,1
+836,1950,4,Swiss Grand Prix,Alfa Romeo,alfa,1.0,1,1
+836,1950,4,Swiss Grand Prix,Alfa Romeo,alfa,2.0,2,2
+837,1950,5,Belgian Grand Prix,Alfa Romeo,alfa,1.0,1,1
+837,1950,5,Belgian Grand Prix,Alfa Romeo,alfa,2.0,2,2
+838,1950,6,French Grand Prix,Alfa Romeo,alfa,1.0,1,1
+838,1950,6,French Grand Prix,Alfa Romeo,alfa,2.0,2,2
+839,1950,7,Italian Grand Prix,Alfa Romeo,alfa,1.0,1,1
+839,1950,7,Italian Grand Prix,Alfa Romeo,alfa,2.0,2,2
+839,1950,7,Italian Grand Prix,Alfa Romeo,alfa,3.0,3,3
+825,1951,1,Swiss Grand Prix,Alfa Romeo,alfa,1.0,1,1
+825,1951,1,Swiss Grand Prix,Alfa Romeo,alfa,3.0,3,3
+827,1951,3,Belgian Grand Prix,Alfa Romeo,alfa,1.0,1,1
+828,1951,4,French Grand Prix,Alfa Romeo,alfa,1.0,1,1
+828,1951,4,French Grand Prix,Alfa Romeo,alfa,1.0,1,1
+829,1951,5,British Grand Prix,Alfa Romeo,alfa,2.0,2,2
+830,1951,6,German Grand Prix,Alfa Romeo,alfa,2.0,2,2
+831,1951,7,Italian Grand Prix,Alfa Romeo,alfa,3.0,3,3
+831,1951,7,Italian Grand Prix,Alfa Romeo,alfa,3.0,3,3
+832,1951,8,Spanish Grand Prix,Alfa Romeo,alfa,1.0,1,1
+832,1951,8,Spanish Grand Prix,Alfa Romeo,alfa,3.0,3,3
+817,1952,1,Swiss Grand Prix,Ferrari,ferrari,1.0,1,1
+817,1952,1,Swiss Grand Prix,Ferrari,ferrari,2.0,2,2
+819,1952,3,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+819,1952,3,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+820,1952,4,French Grand Prix,Ferrari,ferrari,1.0,1,1
+820,1952,4,French Grand Prix,Ferrari,ferrari,2.0,2,2
+820,1952,4,French Grand Prix,Ferrari,ferrari,3.0,3,3
+821,1952,5,British Grand Prix,Ferrari,ferrari,1.0,1,1
+821,1952,5,British Grand Prix,Ferrari,ferrari,2.0,2,2
+822,1952,6,German Grand Prix,Ferrari,ferrari,1.0,1,1
+822,1952,6,German Grand Prix,Ferrari,ferrari,2.0,2,2
+822,1952,6,German Grand Prix,Ferrari,ferrari,3.0,3,3
+823,1952,7,Dutch Grand Prix,Ferrari,ferrari,1.0,1,1
+823,1952,7,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+823,1952,7,Dutch Grand Prix,Ferrari,ferrari,3.0,3,3
+824,1952,8,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+824,1952,8,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+808,1953,1,Argentine Grand Prix,Ferrari,ferrari,1.0,1,1
+808,1953,1,Argentine Grand Prix,Ferrari,ferrari,2.0,2,2
+810,1953,3,Dutch Grand Prix,Ferrari,ferrari,1.0,1,1
+810,1953,3,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+811,1953,4,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+811,1953,4,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+812,1953,5,French Grand Prix,Ferrari,ferrari,1.0,1,1
+813,1953,6,British Grand Prix,Ferrari,ferrari,1.0,1,1
+813,1953,6,British Grand Prix,Ferrari,ferrari,3.0,3,3
+814,1953,7,German Grand Prix,Ferrari,ferrari,1.0,1,1
+814,1953,7,German Grand Prix,Ferrari,ferrari,3.0,3,3
+815,1953,8,Swiss Grand Prix,Ferrari,ferrari,1.0,1,1
+815,1953,8,Swiss Grand Prix,Ferrari,ferrari,2.0,2,2
+815,1953,8,Swiss Grand Prix,Ferrari,ferrari,3.0,3,3
+816,1953,9,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+816,1953,9,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+802,1954,4,French Grand Prix,Mercedes,mercedes,1.0,1,1
+802,1954,4,French Grand Prix,Mercedes,mercedes,2.0,2,2
+804,1954,6,German Grand Prix,Mercedes,mercedes,1.0,1,1
+805,1954,7,Swiss Grand Prix,Mercedes,mercedes,1.0,1,1
+805,1954,7,Swiss Grand Prix,Mercedes,mercedes,3.0,3,3
+806,1954,8,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+807,1954,9,Spanish Grand Prix,Mercedes,mercedes,3.0,3,3
+792,1955,1,Argentine Grand Prix,Mercedes,mercedes,1.0,1,1
+795,1955,4,Belgian Grand Prix,Mercedes,mercedes,1.0,1,1
+795,1955,4,Belgian Grand Prix,Mercedes,mercedes,2.0,2,2
+796,1955,5,Dutch Grand Prix,Mercedes,mercedes,1.0,1,1
+796,1955,5,Dutch Grand Prix,Mercedes,mercedes,2.0,2,2
+797,1955,6,British Grand Prix,Mercedes,mercedes,1.0,1,1
+797,1955,6,British Grand Prix,Mercedes,mercedes,2.0,2,2
+797,1955,6,British Grand Prix,Mercedes,mercedes,3.0,3,3
+798,1955,7,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+798,1955,7,Italian Grand Prix,Mercedes,mercedes,2.0,2,2
+784,1956,1,Argentine Grand Prix,Ferrari,ferrari,1.0,1,1
+784,1956,1,Argentine Grand Prix,Ferrari,ferrari,1.0,1,1
+785,1956,2,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+785,1956,2,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+787,1956,4,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+787,1956,4,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+788,1956,5,French Grand Prix,Ferrari,ferrari,1.0,1,1
+788,1956,5,French Grand Prix,Ferrari,ferrari,2.0,2,2
+789,1956,6,British Grand Prix,Ferrari,ferrari,1.0,1,1
+789,1956,6,British Grand Prix,Ferrari,ferrari,2.0,2,2
+789,1956,6,British Grand Prix,Ferrari,ferrari,2.0,2,2
+790,1956,7,German Grand Prix,Ferrari,ferrari,1.0,1,1
+791,1956,8,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+791,1956,8,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+776,1957,1,Argentine Grand Prix,Maserati,maserati,1.0,1,1
+776,1957,1,Argentine Grand Prix,Maserati,maserati,2.0,2,2
+776,1957,1,Argentine Grand Prix,Maserati,maserati,3.0,3,3
+777,1957,2,Monaco Grand Prix,Maserati,maserati,1.0,1,1
+777,1957,2,Monaco Grand Prix,Maserati,maserati,3.0,3,3
+779,1957,4,French Grand Prix,Maserati,maserati,1.0,1,1
+781,1957,6,German Grand Prix,Maserati,maserati,1.0,1,1
+782,1957,7,Pescara Grand Prix,Maserati,maserati,2.0,2,2
+782,1957,7,Pescara Grand Prix,Maserati,maserati,3.0,3,3
+783,1957,8,Italian Grand Prix,Maserati,maserati,2.0,2,2
+765,1958,1,Argentine Grand Prix,Ferrari,ferrari,2.0,2,2
+765,1958,1,Argentine Grand Prix,Ferrari,ferrari,3.0,3,3
+766,1958,2,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+766,1958,2,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+769,1958,5,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+770,1958,6,French Grand Prix,Ferrari,ferrari,1.0,1,1
+770,1958,6,French Grand Prix,Ferrari,ferrari,3.0,3,3
+771,1958,7,British Grand Prix,Ferrari,ferrari,1.0,1,1
+771,1958,7,British Grand Prix,Ferrari,ferrari,2.0,2,2
+773,1958,9,Portuguese Grand Prix,Ferrari,ferrari,2.0,2,2
+774,1958,10,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+774,1958,10,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+775,1958,11,Moroccan Grand Prix,Ferrari,ferrari,2.0,2,2
+775,1958,11,Moroccan Grand Prix,Ferrari,ferrari,3.0,3,3
+756,1959,1,Monaco Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+756,1959,1,Monaco Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+758,1959,3,Dutch Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+758,1959,3,Dutch Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+759,1959,4,French Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+760,1959,5,British Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+760,1959,5,British Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+762,1959,7,Portuguese Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+762,1959,7,Portuguese Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+763,1959,8,Italian Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+763,1959,8,Italian Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+764,1959,9,United States Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+764,1959,9,United States Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+746,1960,1,Argentine Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+746,1960,1,Argentine Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+746,1960,1,Argentine Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+747,1960,2,Monaco Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+749,1960,4,Dutch Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+750,1960,5,Belgian Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+750,1960,5,Belgian Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+750,1960,5,Belgian Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+751,1960,6,French Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+751,1960,6,French Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+751,1960,6,French Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+752,1960,7,British Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+753,1960,8,Portuguese Grand Prix,Cooper-Climax,cooper-climax,1.0,1,1
+753,1960,8,Portuguese Grand Prix,Cooper-Climax,cooper-climax,2.0,2,2
+755,1960,10,United States Grand Prix,Cooper-Climax,cooper-climax,3.0,3,3
+738,1961,1,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+738,1961,1,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+739,1961,2,Dutch Grand Prix,Ferrari,ferrari,1.0,1,1
+739,1961,2,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+740,1961,3,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+740,1961,3,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+740,1961,3,Belgian Grand Prix,Ferrari,ferrari,3.0,3,3
+741,1961,4,French Grand Prix,Ferrari,ferrari,1.0,1,1
+742,1961,5,British Grand Prix,Ferrari,ferrari,1.0,1,1
+742,1961,5,British Grand Prix,Ferrari,ferrari,2.0,2,2
+742,1961,5,British Grand Prix,Ferrari,ferrari,3.0,3,3
+743,1961,6,German Grand Prix,Ferrari,ferrari,2.0,2,2
+743,1961,6,German Grand Prix,Ferrari,ferrari,3.0,3,3
+744,1961,7,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+729,1962,1,Dutch Grand Prix,BRM,brm,1.0,1,1
+731,1962,3,Belgian Grand Prix,BRM,brm,2.0,2,2
+732,1962,4,French Grand Prix,BRM,brm,3.0,3,3
+734,1962,6,German Grand Prix,BRM,brm,1.0,1,1
+735,1962,7,Italian Grand Prix,BRM,brm,1.0,1,1
+735,1962,7,Italian Grand Prix,BRM,brm,2.0,2,2
+736,1962,8,United States Grand Prix,BRM,brm,2.0,2,2
+737,1962,9,South African Grand Prix,BRM,brm,1.0,1,1
+720,1963,2,Belgian Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+721,1963,3,Dutch Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+722,1963,4,French Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+723,1963,5,British Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+724,1963,6,German Grand Prix,Lotus-Climax,lotus-climax,2.0,2,2
+725,1963,7,Italian Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+726,1963,8,United States Grand Prix,Lotus-Climax,lotus-climax,3.0,3,3
+727,1963,9,Mexican Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+728,1963,10,South African Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+710,1964,2,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+713,1964,5,British Grand Prix,Ferrari,ferrari,3.0,3,3
+714,1964,6,German Grand Prix,Ferrari,ferrari,1.0,1,1
+714,1964,6,German Grand Prix,Ferrari,ferrari,3.0,3,3
+715,1964,7,Austrian Grand Prix,Ferrari,ferrari,1.0,1,1
+716,1964,8,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+716,1964,8,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+717,1964,9,United States Grand Prix,Ferrari,ferrari,2.0,2,2
+718,1964,10,Mexican Grand Prix,Ferrari,ferrari,2.0,2,2
+718,1964,10,Mexican Grand Prix,Ferrari,ferrari,3.0,3,3
+699,1965,1,South African Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+701,1965,3,Belgian Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+702,1965,4,French Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+703,1965,5,British Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+704,1965,6,Dutch Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+705,1965,7,German Grand Prix,Lotus-Climax,lotus-climax,1.0,1,1
+708,1965,10,Mexican Grand Prix,Lotus-Climax,lotus-climax,3.0,3,3
+692,1966,3,French Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+692,1966,3,French Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+693,1966,4,British Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+693,1966,4,British Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+694,1966,5,Dutch Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+695,1966,6,German Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+696,1966,7,Italian Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+698,1966,9,Mexican Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+698,1966,9,Mexican Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+680,1967,2,Monaco Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+681,1967,3,Dutch Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+681,1967,3,Dutch Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+683,1967,5,French Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+683,1967,5,French Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+684,1967,6,British Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+685,1967,7,German Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+685,1967,7,German Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+686,1967,8,Canadian Grand Prix,Brabham-Repco,brabham-repco,1.0,1,1
+686,1967,8,Canadian Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+687,1967,9,Italian Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+688,1967,10,United States Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+689,1967,11,Mexican Grand Prix,Brabham-Repco,brabham-repco,2.0,2,2
+689,1967,11,Mexican Grand Prix,Brabham-Repco,brabham-repco,3.0,3,3
+667,1968,1,South African Grand Prix,Lotus-Ford,lotus-ford,1.0,1,1
+667,1968,1,South African Grand Prix,Lotus-Ford,lotus-ford,2.0,2,2
+668,1968,2,Spanish Grand Prix,Lotus-Ford,lotus-ford,1.0,1,1
+669,1968,3,Monaco Grand Prix,Lotus-Ford,lotus-ford,1.0,1,1
+673,1968,7,British Grand Prix,Lotus-Ford,lotus-ford,1.0,1,1
+674,1968,8,German Grand Prix,Lotus-Ford,lotus-ford,2.0,2,2
+677,1968,11,United States Grand Prix,Lotus-Ford,lotus-ford,2.0,2,2
+678,1968,12,Mexican Grand Prix,Lotus-Ford,lotus-ford,1.0,1,1
+678,1968,12,Mexican Grand Prix,Lotus-Ford,lotus-ford,3.0,3,3
+656,1969,1,South African Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+657,1969,2,Spanish Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+657,1969,2,Spanish Grand Prix,Matra-Ford,matra-ford,3.0,3,3
+659,1969,4,Dutch Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+660,1969,5,French Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+660,1969,5,French Grand Prix,Matra-Ford,matra-ford,2.0,2,2
+661,1969,6,British Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+662,1969,7,German Grand Prix,Matra-Ford,matra-ford,2.0,2,2
+663,1969,8,Italian Grand Prix,Matra-Ford,matra-ford,1.0,1,1
+663,1969,8,Italian Grand Prix,Matra-Ford,matra-ford,3.0,3,3
+645,1970,3,Monaco Grand Prix,Team Lotus,team_lotus,1.0,1,1
+647,1970,5,Dutch Grand Prix,Team Lotus,team_lotus,1.0,1,1
+648,1970,6,French Grand Prix,Team Lotus,team_lotus,1.0,1,1
+649,1970,7,British Grand Prix,Team Lotus,team_lotus,1.0,1,1
+650,1970,8,German Grand Prix,Team Lotus,team_lotus,1.0,1,1
+654,1970,12,United States Grand Prix,Team Lotus,team_lotus,1.0,1,1
+654,1970,12,United States Grand Prix,Team Lotus,team_lotus,3.0,3,3
+632,1971,1,South African Grand Prix,Tyrrell,tyrrell,2.0,2,2
+633,1971,2,Spanish Grand Prix,Tyrrell,tyrrell,1.0,1,1
+634,1971,3,Monaco Grand Prix,Tyrrell,tyrrell,1.0,1,1
+636,1971,5,French Grand Prix,Tyrrell,tyrrell,1.0,1,1
+636,1971,5,French Grand Prix,Tyrrell,tyrrell,2.0,2,2
+637,1971,6,British Grand Prix,Tyrrell,tyrrell,1.0,1,1
+638,1971,7,German Grand Prix,Tyrrell,tyrrell,1.0,1,1
+638,1971,7,German Grand Prix,Tyrrell,tyrrell,2.0,2,2
+640,1971,9,Italian Grand Prix,Tyrrell,tyrrell,3.0,3,3
+641,1971,10,Canadian Grand Prix,Tyrrell,tyrrell,1.0,1,1
+642,1971,11,United States Grand Prix,Tyrrell,tyrrell,1.0,1,1
+621,1972,2,South African Grand Prix,Team Lotus,team_lotus,2.0,2,2
+622,1972,3,Spanish Grand Prix,Team Lotus,team_lotus,1.0,1,1
+623,1972,4,Monaco Grand Prix,Team Lotus,team_lotus,3.0,3,3
+624,1972,5,Belgian Grand Prix,Team Lotus,team_lotus,1.0,1,1
+625,1972,6,French Grand Prix,Team Lotus,team_lotus,2.0,2,2
+626,1972,7,British Grand Prix,Team Lotus,team_lotus,1.0,1,1
+628,1972,9,Austrian Grand Prix,Team Lotus,team_lotus,1.0,1,1
+629,1972,10,Italian Grand Prix,Team Lotus,team_lotus,1.0,1,1
+605,1973,1,Argentine Grand Prix,Tyrrell,tyrrell,2.0,2,2
+605,1973,1,Argentine Grand Prix,Tyrrell,tyrrell,3.0,3,3
+606,1973,2,Brazilian Grand Prix,Tyrrell,tyrrell,2.0,2,2
+607,1973,3,South African Grand Prix,Tyrrell,tyrrell,1.0,1,1
+608,1973,4,Spanish Grand Prix,Tyrrell,tyrrell,2.0,2,2
+609,1973,5,Belgian Grand Prix,Tyrrell,tyrrell,1.0,1,1
+609,1973,5,Belgian Grand Prix,Tyrrell,tyrrell,2.0,2,2
+610,1973,6,Monaco Grand Prix,Tyrrell,tyrrell,1.0,1,1
+611,1973,7,Swedish Grand Prix,Tyrrell,tyrrell,3.0,3,3
+612,1973,8,French Grand Prix,Tyrrell,tyrrell,2.0,2,2
+614,1973,10,Dutch Grand Prix,Tyrrell,tyrrell,1.0,1,1
+614,1973,10,Dutch Grand Prix,Tyrrell,tyrrell,2.0,2,2
+615,1973,11,German Grand Prix,Tyrrell,tyrrell,1.0,1,1
+615,1973,11,German Grand Prix,Tyrrell,tyrrell,2.0,2,2
+616,1973,12,Austrian Grand Prix,Tyrrell,tyrrell,2.0,2,2
+590,1974,1,Argentine Grand Prix,McLaren,mclaren,1.0,1,1
+591,1974,2,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+592,1974,3,South African Grand Prix,McLaren,mclaren,3.0,3,3
+593,1974,4,Spanish Grand Prix,McLaren,mclaren,3.0,3,3
+594,1974,5,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+597,1974,8,Dutch Grand Prix,McLaren,mclaren,3.0,3,3
+599,1974,10,British Grand Prix,McLaren,mclaren,2.0,2,2
+601,1974,12,Austrian Grand Prix,McLaren,mclaren,2.0,2,2
+602,1974,13,Italian Grand Prix,McLaren,mclaren,2.0,2,2
+603,1974,14,Canadian Grand Prix,McLaren,mclaren,1.0,1,1
+580,1975,5,Monaco Grand Prix,Ferrari,ferrari,1.0,1,1
+581,1975,6,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+582,1975,7,Swedish Grand Prix,Ferrari,ferrari,1.0,1,1
+582,1975,7,Swedish Grand Prix,Ferrari,ferrari,3.0,3,3
+583,1975,8,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+583,1975,8,Dutch Grand Prix,Ferrari,ferrari,3.0,3,3
+584,1975,9,French Grand Prix,Ferrari,ferrari,1.0,1,1
+586,1975,11,German Grand Prix,Ferrari,ferrari,3.0,3,3
+588,1975,13,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+588,1975,13,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+589,1975,14,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+561,1976,2,South African Grand Prix,McLaren,mclaren,2.0,2,2
+561,1976,2,South African Grand Prix,McLaren,mclaren,3.0,3,3
+563,1976,4,Spanish Grand Prix,McLaren,mclaren,1.0,1,1
+567,1976,8,French Grand Prix,McLaren,mclaren,1.0,1,1
+569,1976,10,German Grand Prix,McLaren,mclaren,1.0,1,1
+569,1976,10,German Grand Prix,McLaren,mclaren,3.0,3,3
+571,1976,12,Dutch Grand Prix,McLaren,mclaren,1.0,1,1
+573,1976,14,Canadian Grand Prix,McLaren,mclaren,1.0,1,1
+574,1976,15,United States Grand Prix,McLaren,mclaren,1.0,1,1
+575,1976,16,Japanese Grand Prix,McLaren,mclaren,3.0,3,3
+543,1977,1,Argentine Grand Prix,Ferrari,ferrari,3.0,3,3
+544,1977,2,Brazilian Grand Prix,Ferrari,ferrari,1.0,1,1
+544,1977,2,Brazilian Grand Prix,Ferrari,ferrari,3.0,3,3
+545,1977,3,South African Grand Prix,Ferrari,ferrari,1.0,1,1
+546,1977,4,United States Grand Prix West,Ferrari,ferrari,2.0,2,2
+547,1977,5,Spanish Grand Prix,Ferrari,ferrari,2.0,2,2
+548,1977,6,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+548,1977,6,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+549,1977,7,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+550,1977,8,Swedish Grand Prix,Ferrari,ferrari,3.0,3,3
+552,1977,10,British Grand Prix,Ferrari,ferrari,2.0,2,2
+553,1977,11,German Grand Prix,Ferrari,ferrari,1.0,1,1
+554,1977,12,Austrian Grand Prix,Ferrari,ferrari,2.0,2,2
+555,1977,13,Dutch Grand Prix,Ferrari,ferrari,1.0,1,1
+556,1977,14,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+559,1977,17,Japanese Grand Prix,Ferrari,ferrari,2.0,2,2
+527,1978,1,Argentine Grand Prix,Team Lotus,team_lotus,1.0,1,1
+529,1978,3,South African Grand Prix,Team Lotus,team_lotus,1.0,1,1
+530,1978,4,United States Grand Prix West,Team Lotus,team_lotus,2.0,2,2
+532,1978,6,Belgian Grand Prix,Team Lotus,team_lotus,1.0,1,1
+532,1978,6,Belgian Grand Prix,Team Lotus,team_lotus,2.0,2,2
+533,1978,7,Spanish Grand Prix,Team Lotus,team_lotus,1.0,1,1
+533,1978,7,Spanish Grand Prix,Team Lotus,team_lotus,2.0,2,2
+534,1978,8,Swedish Grand Prix,Team Lotus,team_lotus,3.0,3,3
+535,1978,9,French Grand Prix,Team Lotus,team_lotus,1.0,1,1
+535,1978,9,French Grand Prix,Team Lotus,team_lotus,2.0,2,2
+537,1978,11,German Grand Prix,Team Lotus,team_lotus,1.0,1,1
+538,1978,12,Austrian Grand Prix,Team Lotus,team_lotus,1.0,1,1
+539,1978,13,Dutch Grand Prix,Team Lotus,team_lotus,1.0,1,1
+539,1978,13,Dutch Grand Prix,Team Lotus,team_lotus,2.0,2,2
+514,1979,3,South African Grand Prix,Ferrari,ferrari,1.0,1,1
+514,1979,3,South African Grand Prix,Ferrari,ferrari,2.0,2,2
+515,1979,4,United States Grand Prix West,Ferrari,ferrari,1.0,1,1
+515,1979,4,United States Grand Prix West,Ferrari,ferrari,2.0,2,2
+517,1979,6,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+518,1979,7,Monaco Grand Prix,Ferrari,ferrari,1.0,1,1
+519,1979,8,French Grand Prix,Ferrari,ferrari,2.0,2,2
+522,1979,11,Austrian Grand Prix,Ferrari,ferrari,2.0,2,2
+523,1979,12,Dutch Grand Prix,Ferrari,ferrari,2.0,2,2
+524,1979,13,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+524,1979,13,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+525,1979,14,Canadian Grand Prix,Ferrari,ferrari,2.0,2,2
+526,1979,15,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+498,1980,1,Argentine Grand Prix,Williams,williams,1.0,1,1
+499,1980,2,Brazilian Grand Prix,Williams,williams,3.0,3,3
+502,1980,5,Belgian Grand Prix,Williams,williams,2.0,2,2
+502,1980,5,Belgian Grand Prix,Williams,williams,3.0,3,3
+503,1980,6,Monaco Grand Prix,Williams,williams,1.0,1,1
+504,1980,7,French Grand Prix,Williams,williams,1.0,1,1
+505,1980,8,British Grand Prix,Williams,williams,1.0,1,1
+505,1980,8,British Grand Prix,Williams,williams,3.0,3,3
+506,1980,9,German Grand Prix,Williams,williams,2.0,2,2
+506,1980,9,German Grand Prix,Williams,williams,3.0,3,3
+507,1980,10,Austrian Grand Prix,Williams,williams,2.0,2,2
+507,1980,10,Austrian Grand Prix,Williams,williams,3.0,3,3
+509,1980,12,Italian Grand Prix,Williams,williams,2.0,2,2
+509,1980,12,Italian Grand Prix,Williams,williams,3.0,3,3
+510,1980,13,Canadian Grand Prix,Williams,williams,1.0,1,1
+510,1980,13,Canadian Grand Prix,Williams,williams,2.0,2,2
+511,1980,14,United States Grand Prix,Williams,williams,1.0,1,1
+511,1980,14,United States Grand Prix,Williams,williams,2.0,2,2
+483,1981,1,United States Grand Prix West,Brabham,brabham,3.0,3,3
+485,1981,3,Argentine Grand Prix,Brabham,brabham,1.0,1,1
+486,1981,4,San Marino Grand Prix,Brabham,brabham,1.0,1,1
+490,1981,8,French Grand Prix,Brabham,brabham,3.0,3,3
+492,1981,10,German Grand Prix,Brabham,brabham,1.0,1,1
+493,1981,11,Austrian Grand Prix,Brabham,brabham,3.0,3,3
+494,1981,12,Dutch Grand Prix,Brabham,brabham,2.0,2,2
+467,1982,1,South African Grand Prix,Williams,williams,2.0,2,2
+469,1982,3,United States Grand Prix West,Williams,williams,2.0,2,2
+471,1982,5,Belgian Grand Prix,Williams,williams,2.0,2,2
+475,1982,9,Dutch Grand Prix,Williams,williams,3.0,3,3
+478,1982,12,German Grand Prix,Williams,williams,3.0,3,3
+479,1982,13,Austrian Grand Prix,Williams,williams,2.0,2,2
+480,1982,14,Swiss Grand Prix,Williams,williams,1.0,1,1
+452,1983,1,Brazilian Grand Prix,Brabham,brabham,1.0,1,1
+454,1983,3,French Grand Prix,Brabham,brabham,2.0,2,2
+456,1983,5,Monaco Grand Prix,Brabham,brabham,2.0,2,2
+460,1983,9,British Grand Prix,Brabham,brabham,2.0,2,2
+461,1983,10,German Grand Prix,Brabham,brabham,3.0,3,3
+462,1983,11,Austrian Grand Prix,Brabham,brabham,3.0,3,3
+464,1983,13,Italian Grand Prix,Brabham,brabham,1.0,1,1
+465,1983,14,European Grand Prix,Brabham,brabham,1.0,1,1
+466,1983,15,South African Grand Prix,Brabham,brabham,1.0,1,1
+466,1983,15,South African Grand Prix,Brabham,brabham,3.0,3,3
+436,1984,1,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+437,1984,2,South African Grand Prix,McLaren,mclaren,1.0,1,1
+437,1984,2,South African Grand Prix,McLaren,mclaren,2.0,2,2
+439,1984,4,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+440,1984,5,French Grand Prix,McLaren,mclaren,1.0,1,1
+441,1984,6,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+442,1984,7,Canadian Grand Prix,McLaren,mclaren,2.0,2,2
+442,1984,7,Canadian Grand Prix,McLaren,mclaren,3.0,3,3
+445,1984,10,British Grand Prix,McLaren,mclaren,1.0,1,1
+446,1984,11,German Grand Prix,McLaren,mclaren,1.0,1,1
+446,1984,11,German Grand Prix,McLaren,mclaren,2.0,2,2
+447,1984,12,Austrian Grand Prix,McLaren,mclaren,1.0,1,1
+448,1984,13,Dutch Grand Prix,McLaren,mclaren,1.0,1,1
+448,1984,13,Dutch Grand Prix,McLaren,mclaren,2.0,2,2
+449,1984,14,Italian Grand Prix,McLaren,mclaren,1.0,1,1
+450,1984,15,European Grand Prix,McLaren,mclaren,1.0,1,1
+451,1984,16,Portuguese Grand Prix,McLaren,mclaren,1.0,1,1
+451,1984,16,Portuguese Grand Prix,McLaren,mclaren,2.0,2,2
+420,1985,1,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+423,1985,4,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+424,1985,5,Canadian Grand Prix,McLaren,mclaren,3.0,3,3
+426,1985,7,French Grand Prix,McLaren,mclaren,3.0,3,3
+427,1985,8,British Grand Prix,McLaren,mclaren,1.0,1,1
+428,1985,9,German Grand Prix,McLaren,mclaren,2.0,2,2
+429,1985,10,Austrian Grand Prix,McLaren,mclaren,1.0,1,1
+430,1985,11,Dutch Grand Prix,McLaren,mclaren,1.0,1,1
+430,1985,11,Dutch Grand Prix,McLaren,mclaren,2.0,2,2
+431,1985,12,Italian Grand Prix,McLaren,mclaren,1.0,1,1
+432,1985,13,Belgian Grand Prix,McLaren,mclaren,3.0,3,3
+434,1985,15,South African Grand Prix,McLaren,mclaren,3.0,3,3
+405,1986,2,Spanish Grand Prix,McLaren,mclaren,3.0,3,3
+406,1986,3,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+407,1986,4,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+407,1986,4,Monaco Grand Prix,McLaren,mclaren,2.0,2,2
+409,1986,6,Canadian Grand Prix,McLaren,mclaren,2.0,2,2
+410,1986,7,Detroit Grand Prix,McLaren,mclaren,3.0,3,3
+411,1986,8,French Grand Prix,McLaren,mclaren,2.0,2,2
+412,1986,9,British Grand Prix,McLaren,mclaren,3.0,3,3
+415,1986,12,Austrian Grand Prix,McLaren,mclaren,1.0,1,1
+417,1986,14,Portuguese Grand Prix,McLaren,mclaren,2.0,2,2
+418,1986,15,Mexican Grand Prix,McLaren,mclaren,2.0,2,2
+419,1986,16,Australian Grand Prix,McLaren,mclaren,1.0,1,1
+388,1987,1,Brazilian Grand Prix,Williams,williams,2.0,2,2
+389,1987,2,San Marino Grand Prix,Williams,williams,1.0,1,1
+391,1987,4,Monaco Grand Prix,Williams,williams,2.0,2,2
+392,1987,5,Detroit Grand Prix,Williams,williams,2.0,2,2
+393,1987,6,French Grand Prix,Williams,williams,1.0,1,1
+393,1987,6,French Grand Prix,Williams,williams,2.0,2,2
+394,1987,7,British Grand Prix,Williams,williams,1.0,1,1
+394,1987,7,British Grand Prix,Williams,williams,2.0,2,2
+395,1987,8,German Grand Prix,Williams,williams,1.0,1,1
+396,1987,9,Hungarian Grand Prix,Williams,williams,1.0,1,1
+397,1987,10,Austrian Grand Prix,Williams,williams,1.0,1,1
+397,1987,10,Austrian Grand Prix,Williams,williams,2.0,2,2
+398,1987,11,Italian Grand Prix,Williams,williams,1.0,1,1
+398,1987,11,Italian Grand Prix,Williams,williams,3.0,3,3
+399,1987,12,Portuguese Grand Prix,Williams,williams,3.0,3,3
+400,1987,13,Spanish Grand Prix,Williams,williams,1.0,1,1
+401,1987,14,Mexican Grand Prix,Williams,williams,1.0,1,1
+401,1987,14,Mexican Grand Prix,Williams,williams,2.0,2,2
+372,1988,1,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+373,1988,2,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+373,1988,2,San Marino Grand Prix,McLaren,mclaren,2.0,2,2
+374,1988,3,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+375,1988,4,Mexican Grand Prix,McLaren,mclaren,1.0,1,1
+375,1988,4,Mexican Grand Prix,McLaren,mclaren,2.0,2,2
+376,1988,5,Canadian Grand Prix,McLaren,mclaren,1.0,1,1
+376,1988,5,Canadian Grand Prix,McLaren,mclaren,2.0,2,2
+377,1988,6,Detroit Grand Prix,McLaren,mclaren,1.0,1,1
+377,1988,6,Detroit Grand Prix,McLaren,mclaren,2.0,2,2
+378,1988,7,French Grand Prix,McLaren,mclaren,1.0,1,1
+378,1988,7,French Grand Prix,McLaren,mclaren,2.0,2,2
+379,1988,8,British Grand Prix,McLaren,mclaren,1.0,1,1
+380,1988,9,German Grand Prix,McLaren,mclaren,1.0,1,1
+380,1988,9,German Grand Prix,McLaren,mclaren,2.0,2,2
+381,1988,10,Hungarian Grand Prix,McLaren,mclaren,1.0,1,1
+381,1988,10,Hungarian Grand Prix,McLaren,mclaren,2.0,2,2
+382,1988,11,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+382,1988,11,Belgian Grand Prix,McLaren,mclaren,2.0,2,2
+384,1988,13,Portuguese Grand Prix,McLaren,mclaren,1.0,1,1
+385,1988,14,Spanish Grand Prix,McLaren,mclaren,1.0,1,1
+386,1988,15,Japanese Grand Prix,McLaren,mclaren,1.0,1,1
+386,1988,15,Japanese Grand Prix,McLaren,mclaren,2.0,2,2
+387,1988,16,Australian Grand Prix,McLaren,mclaren,1.0,1,1
+387,1988,16,Australian Grand Prix,McLaren,mclaren,2.0,2,2
+356,1989,1,Brazilian Grand Prix,McLaren,mclaren,2.0,2,2
+357,1989,2,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+357,1989,2,San Marino Grand Prix,McLaren,mclaren,2.0,2,2
+358,1989,3,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+358,1989,3,Monaco Grand Prix,McLaren,mclaren,2.0,2,2
+359,1989,4,Mexican Grand Prix,McLaren,mclaren,1.0,1,1
+360,1989,5,United States Grand Prix,McLaren,mclaren,1.0,1,1
+362,1989,7,French Grand Prix,McLaren,mclaren,1.0,1,1
+363,1989,8,British Grand Prix,McLaren,mclaren,1.0,1,1
+364,1989,9,German Grand Prix,McLaren,mclaren,1.0,1,1
+364,1989,9,German Grand Prix,McLaren,mclaren,2.0,2,2
+365,1989,10,Hungarian Grand Prix,McLaren,mclaren,2.0,2,2
+366,1989,11,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+366,1989,11,Belgian Grand Prix,McLaren,mclaren,2.0,2,2
+367,1989,12,Italian Grand Prix,McLaren,mclaren,1.0,1,1
+368,1989,13,Portuguese Grand Prix,McLaren,mclaren,2.0,2,2
+369,1989,14,Spanish Grand Prix,McLaren,mclaren,1.0,1,1
+369,1989,14,Spanish Grand Prix,McLaren,mclaren,3.0,3,3
+321,1990,1,United States Grand Prix,McLaren,mclaren,1.0,1,1
+322,1990,2,Brazilian Grand Prix,McLaren,mclaren,2.0,2,2
+322,1990,2,Brazilian Grand Prix,McLaren,mclaren,3.0,3,3
+323,1990,3,San Marino Grand Prix,McLaren,mclaren,2.0,2,2
+324,1990,4,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+324,1990,4,Monaco Grand Prix,McLaren,mclaren,3.0,3,3
+325,1990,5,Canadian Grand Prix,McLaren,mclaren,1.0,1,1
+326,1990,6,Mexican Grand Prix,McLaren,mclaren,3.0,3,3
+327,1990,7,French Grand Prix,McLaren,mclaren,3.0,3,3
+328,1990,8,British Grand Prix,McLaren,mclaren,3.0,3,3
+329,1990,9,German Grand Prix,McLaren,mclaren,1.0,1,1
+329,1990,9,German Grand Prix,McLaren,mclaren,3.0,3,3
+330,1990,10,Hungarian Grand Prix,McLaren,mclaren,2.0,2,2
+331,1990,11,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+331,1990,11,Belgian Grand Prix,McLaren,mclaren,3.0,3,3
+332,1990,12,Italian Grand Prix,McLaren,mclaren,1.0,1,1
+332,1990,12,Italian Grand Prix,McLaren,mclaren,3.0,3,3
+333,1990,13,Portuguese Grand Prix,McLaren,mclaren,2.0,2,2
+305,1991,1,United States Grand Prix,McLaren,mclaren,1.0,1,1
+306,1991,2,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+306,1991,2,Brazilian Grand Prix,McLaren,mclaren,3.0,3,3
+307,1991,3,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+307,1991,3,San Marino Grand Prix,McLaren,mclaren,2.0,2,2
+308,1991,4,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+310,1991,6,Mexican Grand Prix,McLaren,mclaren,3.0,3,3
+311,1991,7,French Grand Prix,McLaren,mclaren,3.0,3,3
+312,1991,8,British Grand Prix,McLaren,mclaren,2.0,2,2
+314,1991,10,Hungarian Grand Prix,McLaren,mclaren,1.0,1,1
+315,1991,11,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+315,1991,11,Belgian Grand Prix,McLaren,mclaren,2.0,2,2
+316,1991,12,Italian Grand Prix,McLaren,mclaren,2.0,2,2
+317,1991,13,Portuguese Grand Prix,McLaren,mclaren,2.0,2,2
+319,1991,15,Japanese Grand Prix,McLaren,mclaren,1.0,1,1
+319,1991,15,Japanese Grand Prix,McLaren,mclaren,2.0,2,2
+320,1991,16,Australian Grand Prix,McLaren,mclaren,1.0,1,1
+320,1991,16,Australian Grand Prix,McLaren,mclaren,3.0,3,3
+289,1992,1,South African Grand Prix,Williams,williams,1.0,1,1
+289,1992,1,South African Grand Prix,Williams,williams,2.0,2,2
+290,1992,2,Mexican Grand Prix,Williams,williams,1.0,1,1
+290,1992,2,Mexican Grand Prix,Williams,williams,2.0,2,2
+291,1992,3,Brazilian Grand Prix,Williams,williams,1.0,1,1
+291,1992,3,Brazilian Grand Prix,Williams,williams,2.0,2,2
+292,1992,4,Spanish Grand Prix,Williams,williams,1.0,1,1
+293,1992,5,San Marino Grand Prix,Williams,williams,1.0,1,1
+293,1992,5,San Marino Grand Prix,Williams,williams,2.0,2,2
+294,1992,6,Monaco Grand Prix,Williams,williams,2.0,2,2
+294,1992,6,Monaco Grand Prix,Williams,williams,3.0,3,3
+296,1992,8,French Grand Prix,Williams,williams,1.0,1,1
+296,1992,8,French Grand Prix,Williams,williams,2.0,2,2
+297,1992,9,British Grand Prix,Williams,williams,1.0,1,1
+297,1992,9,British Grand Prix,Williams,williams,2.0,2,2
+298,1992,10,German Grand Prix,Williams,williams,1.0,1,1
+299,1992,11,Hungarian Grand Prix,Williams,williams,2.0,2,2
+300,1992,12,Belgian Grand Prix,Williams,williams,2.0,2,2
+300,1992,12,Belgian Grand Prix,Williams,williams,3.0,3,3
+302,1992,14,Portuguese Grand Prix,Williams,williams,1.0,1,1
+303,1992,15,Japanese Grand Prix,Williams,williams,1.0,1,1
+273,1993,1,South African Grand Prix,Williams,williams,1.0,1,1
+274,1993,2,Brazilian Grand Prix,Williams,williams,2.0,2,2
+275,1993,3,European Grand Prix,Williams,williams,2.0,2,2
+275,1993,3,European Grand Prix,Williams,williams,3.0,3,3
+276,1993,4,San Marino Grand Prix,Williams,williams,1.0,1,1
+277,1993,5,Spanish Grand Prix,Williams,williams,1.0,1,1
+278,1993,6,Monaco Grand Prix,Williams,williams,2.0,2,2
+279,1993,7,Canadian Grand Prix,Williams,williams,1.0,1,1
+279,1993,7,Canadian Grand Prix,Williams,williams,3.0,3,3
+280,1993,8,French Grand Prix,Williams,williams,1.0,1,1
+280,1993,8,French Grand Prix,Williams,williams,2.0,2,2
+281,1993,9,British Grand Prix,Williams,williams,1.0,1,1
+282,1993,10,German Grand Prix,Williams,williams,1.0,1,1
+283,1993,11,Hungarian Grand Prix,Williams,williams,1.0,1,1
+284,1993,12,Belgian Grand Prix,Williams,williams,1.0,1,1
+284,1993,12,Belgian Grand Prix,Williams,williams,3.0,3,3
+285,1993,13,Italian Grand Prix,Williams,williams,1.0,1,1
+286,1993,14,Portuguese Grand Prix,Williams,williams,2.0,2,2
+286,1993,14,Portuguese Grand Prix,Williams,williams,3.0,3,3
+287,1993,15,Japanese Grand Prix,Williams,williams,2.0,2,2
+288,1993,16,Australian Grand Prix,Williams,williams,2.0,2,2
+288,1993,16,Australian Grand Prix,Williams,williams,3.0,3,3
+257,1994,1,Brazilian Grand Prix,Benetton,benetton,1.0,1,1
+258,1994,2,Pacific Grand Prix,Benetton,benetton,1.0,1,1
+259,1994,3,San Marino Grand Prix,Benetton,benetton,1.0,1,1
+260,1994,4,Monaco Grand Prix,Benetton,benetton,1.0,1,1
+261,1994,5,Spanish Grand Prix,Benetton,benetton,2.0,2,2
+262,1994,6,Canadian Grand Prix,Benetton,benetton,1.0,1,1
+263,1994,7,French Grand Prix,Benetton,benetton,1.0,1,1
+266,1994,10,Hungarian Grand Prix,Benetton,benetton,1.0,1,1
+266,1994,10,Hungarian Grand Prix,Benetton,benetton,3.0,3,3
+267,1994,11,Belgian Grand Prix,Benetton,benetton,3.0,3,3
+270,1994,14,European Grand Prix,Benetton,benetton,1.0,1,1
+271,1994,15,Japanese Grand Prix,Benetton,benetton,2.0,2,2
+240,1995,1,Brazilian Grand Prix,Benetton,benetton,1.0,1,1
+241,1995,2,Argentine Grand Prix,Benetton,benetton,3.0,3,3
+243,1995,4,Spanish Grand Prix,Benetton,benetton,1.0,1,1
+243,1995,4,Spanish Grand Prix,Benetton,benetton,2.0,2,2
+244,1995,5,Monaco Grand Prix,Benetton,benetton,1.0,1,1
+246,1995,7,French Grand Prix,Benetton,benetton,1.0,1,1
+247,1995,8,British Grand Prix,Benetton,benetton,1.0,1,1
+248,1995,9,German Grand Prix,Benetton,benetton,1.0,1,1
+250,1995,11,Belgian Grand Prix,Benetton,benetton,1.0,1,1
+251,1995,12,Italian Grand Prix,Benetton,benetton,1.0,1,1
+252,1995,13,Portuguese Grand Prix,Benetton,benetton,2.0,2,2
+253,1995,14,European Grand Prix,Benetton,benetton,1.0,1,1
+254,1995,15,Pacific Grand Prix,Benetton,benetton,1.0,1,1
+255,1995,16,Japanese Grand Prix,Benetton,benetton,1.0,1,1
+255,1995,16,Japanese Grand Prix,Benetton,benetton,3.0,3,3
+224,1996,1,Australian Grand Prix,Williams,williams,1.0,1,1
+224,1996,1,Australian Grand Prix,Williams,williams,2.0,2,2
+225,1996,2,Brazilian Grand Prix,Williams,williams,1.0,1,1
+226,1996,3,Argentine Grand Prix,Williams,williams,1.0,1,1
+226,1996,3,Argentine Grand Prix,Williams,williams,2.0,2,2
+227,1996,4,European Grand Prix,Williams,williams,1.0,1,1
+228,1996,5,San Marino Grand Prix,Williams,williams,1.0,1,1
+230,1996,7,Spanish Grand Prix,Williams,williams,3.0,3,3
+231,1996,8,Canadian Grand Prix,Williams,williams,1.0,1,1
+231,1996,8,Canadian Grand Prix,Williams,williams,2.0,2,2
+232,1996,9,French Grand Prix,Williams,williams,1.0,1,1
+232,1996,9,French Grand Prix,Williams,williams,2.0,2,2
+233,1996,10,British Grand Prix,Williams,williams,1.0,1,1
+234,1996,11,German Grand Prix,Williams,williams,1.0,1,1
+234,1996,11,German Grand Prix,Williams,williams,3.0,3,3
+235,1996,12,Hungarian Grand Prix,Williams,williams,1.0,1,1
+235,1996,12,Hungarian Grand Prix,Williams,williams,2.0,2,2
+236,1996,13,Belgian Grand Prix,Williams,williams,2.0,2,2
+238,1996,15,Portuguese Grand Prix,Williams,williams,1.0,1,1
+238,1996,15,Portuguese Grand Prix,Williams,williams,2.0,2,2
+239,1996,16,Japanese Grand Prix,Williams,williams,1.0,1,1
+208,1997,2,Brazilian Grand Prix,Williams,williams,1.0,1,1
+209,1997,3,Argentine Grand Prix,Williams,williams,1.0,1,1
+210,1997,4,San Marino Grand Prix,Williams,williams,1.0,1,1
+212,1997,6,Spanish Grand Prix,Williams,williams,1.0,1,1
+214,1997,8,French Grand Prix,Williams,williams,2.0,2,2
+215,1997,9,British Grand Prix,Williams,williams,1.0,1,1
+217,1997,11,Hungarian Grand Prix,Williams,williams,1.0,1,1
+218,1997,12,Belgian Grand Prix,Williams,williams,3.0,3,3
+219,1997,13,Italian Grand Prix,Williams,williams,3.0,3,3
+220,1997,14,Austrian Grand Prix,Williams,williams,1.0,1,1
+220,1997,14,Austrian Grand Prix,Williams,williams,3.0,3,3
+221,1997,15,Luxembourg Grand Prix,Williams,williams,1.0,1,1
+221,1997,15,Luxembourg Grand Prix,Williams,williams,3.0,3,3
+222,1997,16,Japanese Grand Prix,Williams,williams,2.0,2,2
+223,1997,17,European Grand Prix,Williams,williams,3.0,3,3
+191,1998,1,Australian Grand Prix,McLaren,mclaren,1.0,1,1
+191,1998,1,Australian Grand Prix,McLaren,mclaren,2.0,2,2
+192,1998,2,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+192,1998,2,Brazilian Grand Prix,McLaren,mclaren,2.0,2,2
+193,1998,3,Argentine Grand Prix,McLaren,mclaren,2.0,2,2
+194,1998,4,San Marino Grand Prix,McLaren,mclaren,1.0,1,1
+195,1998,5,Spanish Grand Prix,McLaren,mclaren,1.0,1,1
+195,1998,5,Spanish Grand Prix,McLaren,mclaren,2.0,2,2
+196,1998,6,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+198,1998,8,French Grand Prix,McLaren,mclaren,3.0,3,3
+199,1998,9,British Grand Prix,McLaren,mclaren,2.0,2,2
+200,1998,10,Austrian Grand Prix,McLaren,mclaren,1.0,1,1
+200,1998,10,Austrian Grand Prix,McLaren,mclaren,2.0,2,2
+201,1998,11,German Grand Prix,McLaren,mclaren,1.0,1,1
+201,1998,11,German Grand Prix,McLaren,mclaren,2.0,2,2
+202,1998,12,Hungarian Grand Prix,McLaren,mclaren,2.0,2,2
+205,1998,15,Luxembourg Grand Prix,McLaren,mclaren,1.0,1,1
+205,1998,15,Luxembourg Grand Prix,McLaren,mclaren,3.0,3,3
+206,1998,16,Japanese Grand Prix,McLaren,mclaren,1.0,1,1
+206,1998,16,Japanese Grand Prix,McLaren,mclaren,3.0,3,3
+176,1999,2,Brazilian Grand Prix,McLaren,mclaren,1.0,1,1
+177,1999,3,San Marino Grand Prix,McLaren,mclaren,2.0,2,2
+178,1999,4,Monaco Grand Prix,McLaren,mclaren,3.0,3,3
+179,1999,5,Spanish Grand Prix,McLaren,mclaren,1.0,1,1
+179,1999,5,Spanish Grand Prix,McLaren,mclaren,2.0,2,2
+180,1999,6,Canadian Grand Prix,McLaren,mclaren,1.0,1,1
+181,1999,7,French Grand Prix,McLaren,mclaren,2.0,2,2
+182,1999,8,British Grand Prix,McLaren,mclaren,1.0,1,1
+183,1999,9,Austrian Grand Prix,McLaren,mclaren,2.0,2,2
+183,1999,9,Austrian Grand Prix,McLaren,mclaren,3.0,3,3
+185,1999,11,Hungarian Grand Prix,McLaren,mclaren,1.0,1,1
+185,1999,11,Hungarian Grand Prix,McLaren,mclaren,2.0,2,2
+186,1999,12,Belgian Grand Prix,McLaren,mclaren,1.0,1,1
+186,1999,12,Belgian Grand Prix,McLaren,mclaren,2.0,2,2
+189,1999,15,Malaysian Grand Prix,McLaren,mclaren,3.0,3,3
+190,1999,16,Japanese Grand Prix,McLaren,mclaren,1.0,1,1
+158,2000,1,Australian Grand Prix,Ferrari,ferrari,1.0,1,1
+158,2000,1,Australian Grand Prix,Ferrari,ferrari,2.0,2,2
+159,2000,2,Brazilian Grand Prix,Ferrari,ferrari,1.0,1,1
+160,2000,3,San Marino Grand Prix,Ferrari,ferrari,1.0,1,1
+161,2000,4,British Grand Prix,Ferrari,ferrari,3.0,3,3
+162,2000,5,Spanish Grand Prix,Ferrari,ferrari,3.0,3,3
+163,2000,6,European Grand Prix,Ferrari,ferrari,1.0,1,1
+164,2000,7,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+165,2000,8,Canadian Grand Prix,Ferrari,ferrari,1.0,1,1
+165,2000,8,Canadian Grand Prix,Ferrari,ferrari,2.0,2,2
+166,2000,9,French Grand Prix,Ferrari,ferrari,3.0,3,3
+167,2000,10,Austrian Grand Prix,Ferrari,ferrari,3.0,3,3
+168,2000,11,German Grand Prix,Ferrari,ferrari,1.0,1,1
+169,2000,12,Hungarian Grand Prix,Ferrari,ferrari,2.0,2,2
+170,2000,13,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+171,2000,14,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+172,2000,15,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+172,2000,15,United States Grand Prix,Ferrari,ferrari,2.0,2,2
+173,2000,16,Japanese Grand Prix,Ferrari,ferrari,1.0,1,1
+174,2000,17,Malaysian Grand Prix,Ferrari,ferrari,1.0,1,1
+174,2000,17,Malaysian Grand Prix,Ferrari,ferrari,3.0,3,3
+141,2001,1,Australian Grand Prix,Ferrari,ferrari,1.0,1,1
+141,2001,1,Australian Grand Prix,Ferrari,ferrari,3.0,3,3
+142,2001,2,Malaysian Grand Prix,Ferrari,ferrari,1.0,1,1
+142,2001,2,Malaysian Grand Prix,Ferrari,ferrari,2.0,2,2
+143,2001,3,Brazilian Grand Prix,Ferrari,ferrari,2.0,2,2
+144,2001,4,San Marino Grand Prix,Ferrari,ferrari,3.0,3,3
+145,2001,5,Spanish Grand Prix,Ferrari,ferrari,1.0,1,1
+146,2001,6,Austrian Grand Prix,Ferrari,ferrari,2.0,2,2
+146,2001,6,Austrian Grand Prix,Ferrari,ferrari,3.0,3,3
+147,2001,7,Monaco Grand Prix,Ferrari,ferrari,1.0,1,1
+147,2001,7,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+148,2001,8,Canadian Grand Prix,Ferrari,ferrari,2.0,2,2
+149,2001,9,European Grand Prix,Ferrari,ferrari,1.0,1,1
+150,2001,10,French Grand Prix,Ferrari,ferrari,1.0,1,1
+150,2001,10,French Grand Prix,Ferrari,ferrari,3.0,3,3
+151,2001,11,British Grand Prix,Ferrari,ferrari,2.0,2,2
+151,2001,11,British Grand Prix,Ferrari,ferrari,3.0,3,3
+152,2001,12,German Grand Prix,Ferrari,ferrari,2.0,2,2
+153,2001,13,Hungarian Grand Prix,Ferrari,ferrari,1.0,1,1
+153,2001,13,Hungarian Grand Prix,Ferrari,ferrari,2.0,2,2
+154,2001,14,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+155,2001,15,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+156,2001,16,United States Grand Prix,Ferrari,ferrari,2.0,2,2
+157,2001,17,Japanese Grand Prix,Ferrari,ferrari,1.0,1,1
+124,2002,1,Australian Grand Prix,Ferrari,ferrari,1.0,1,1
+125,2002,2,Malaysian Grand Prix,Ferrari,ferrari,3.0,3,3
+126,2002,3,Brazilian Grand Prix,Ferrari,ferrari,1.0,1,1
+127,2002,4,San Marino Grand Prix,Ferrari,ferrari,1.0,1,1
+127,2002,4,San Marino Grand Prix,Ferrari,ferrari,2.0,2,2
+128,2002,5,Spanish Grand Prix,Ferrari,ferrari,1.0,1,1
+129,2002,6,Austrian Grand Prix,Ferrari,ferrari,1.0,1,1
+129,2002,6,Austrian Grand Prix,Ferrari,ferrari,2.0,2,2
+130,2002,7,Monaco Grand Prix,Ferrari,ferrari,2.0,2,2
+131,2002,8,Canadian Grand Prix,Ferrari,ferrari,1.0,1,1
+131,2002,8,Canadian Grand Prix,Ferrari,ferrari,3.0,3,3
+132,2002,9,European Grand Prix,Ferrari,ferrari,1.0,1,1
+132,2002,9,European Grand Prix,Ferrari,ferrari,2.0,2,2
+133,2002,10,British Grand Prix,Ferrari,ferrari,1.0,1,1
+133,2002,10,British Grand Prix,Ferrari,ferrari,2.0,2,2
+134,2002,11,French Grand Prix,Ferrari,ferrari,1.0,1,1
+135,2002,12,German Grand Prix,Ferrari,ferrari,1.0,1,1
+136,2002,13,Hungarian Grand Prix,Ferrari,ferrari,1.0,1,1
+136,2002,13,Hungarian Grand Prix,Ferrari,ferrari,2.0,2,2
+137,2002,14,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+137,2002,14,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+138,2002,15,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+138,2002,15,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+139,2002,16,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+139,2002,16,United States Grand Prix,Ferrari,ferrari,2.0,2,2
+140,2002,17,Japanese Grand Prix,Ferrari,ferrari,1.0,1,1
+140,2002,17,Japanese Grand Prix,Ferrari,ferrari,2.0,2,2
+109,2003,2,Malaysian Grand Prix,Ferrari,ferrari,2.0,2,2
+111,2003,4,San Marino Grand Prix,Ferrari,ferrari,1.0,1,1
+111,2003,4,San Marino Grand Prix,Ferrari,ferrari,3.0,3,3
+112,2003,5,Spanish Grand Prix,Ferrari,ferrari,1.0,1,1
+112,2003,5,Spanish Grand Prix,Ferrari,ferrari,3.0,3,3
+113,2003,6,Austrian Grand Prix,Ferrari,ferrari,1.0,1,1
+113,2003,6,Austrian Grand Prix,Ferrari,ferrari,3.0,3,3
+114,2003,7,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+115,2003,8,Canadian Grand Prix,Ferrari,ferrari,1.0,1,1
+116,2003,9,European Grand Prix,Ferrari,ferrari,3.0,3,3
+117,2003,10,French Grand Prix,Ferrari,ferrari,3.0,3,3
+118,2003,11,British Grand Prix,Ferrari,ferrari,1.0,1,1
+121,2003,14,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+121,2003,14,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+122,2003,15,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+123,2003,16,Japanese Grand Prix,Ferrari,ferrari,1.0,1,1
+90,2004,1,Australian Grand Prix,Ferrari,ferrari,1.0,1,1
+90,2004,1,Australian Grand Prix,Ferrari,ferrari,2.0,2,2
+91,2004,2,Malaysian Grand Prix,Ferrari,ferrari,1.0,1,1
+92,2004,3,Bahrain Grand Prix,Ferrari,ferrari,1.0,1,1
+92,2004,3,Bahrain Grand Prix,Ferrari,ferrari,2.0,2,2
+93,2004,4,San Marino Grand Prix,Ferrari,ferrari,1.0,1,1
+94,2004,5,Spanish Grand Prix,Ferrari,ferrari,1.0,1,1
+94,2004,5,Spanish Grand Prix,Ferrari,ferrari,2.0,2,2
+95,2004,6,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+96,2004,7,European Grand Prix,Ferrari,ferrari,1.0,1,1
+96,2004,7,European Grand Prix,Ferrari,ferrari,2.0,2,2
+97,2004,8,Canadian Grand Prix,Ferrari,ferrari,1.0,1,1
+97,2004,8,Canadian Grand Prix,Ferrari,ferrari,2.0,2,2
+98,2004,9,United States Grand Prix,Ferrari,ferrari,1.0,1,1
+98,2004,9,United States Grand Prix,Ferrari,ferrari,2.0,2,2
+99,2004,10,French Grand Prix,Ferrari,ferrari,1.0,1,1
+99,2004,10,French Grand Prix,Ferrari,ferrari,3.0,3,3
+100,2004,11,British Grand Prix,Ferrari,ferrari,1.0,1,1
+100,2004,11,British Grand Prix,Ferrari,ferrari,3.0,3,3
+101,2004,12,German Grand Prix,Ferrari,ferrari,1.0,1,1
+102,2004,13,Hungarian Grand Prix,Ferrari,ferrari,1.0,1,1
+102,2004,13,Hungarian Grand Prix,Ferrari,ferrari,2.0,2,2
+103,2004,14,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+103,2004,14,Belgian Grand Prix,Ferrari,ferrari,3.0,3,3
+104,2004,15,Italian Grand Prix,Ferrari,ferrari,1.0,1,1
+104,2004,15,Italian Grand Prix,Ferrari,ferrari,2.0,2,2
+105,2004,16,Chinese Grand Prix,Ferrari,ferrari,1.0,1,1
+106,2004,17,Japanese Grand Prix,Ferrari,ferrari,1.0,1,1
+107,2004,18,Brazilian Grand Prix,Ferrari,ferrari,3.0,3,3
+71,2005,1,Australian Grand Prix,Renault,renault,1.0,1,1
+71,2005,1,Australian Grand Prix,Renault,renault,3.0,3,3
+72,2005,2,Malaysian Grand Prix,Renault,renault,1.0,1,1
+73,2005,3,Bahrain Grand Prix,Renault,renault,1.0,1,1
+74,2005,4,San Marino Grand Prix,Renault,renault,1.0,1,1
+75,2005,5,Spanish Grand Prix,Renault,renault,2.0,2,2
+77,2005,7,European Grand Prix,Renault,renault,1.0,1,1
+80,2005,10,French Grand Prix,Renault,renault,1.0,1,1
+81,2005,11,British Grand Prix,Renault,renault,2.0,2,2
+82,2005,12,German Grand Prix,Renault,renault,1.0,1,1
+84,2005,14,Turkish Grand Prix,Renault,renault,2.0,2,2
+85,2005,15,Italian Grand Prix,Renault,renault,2.0,2,2
+85,2005,15,Italian Grand Prix,Renault,renault,3.0,3,3
+86,2005,16,Belgian Grand Prix,Renault,renault,2.0,2,2
+87,2005,17,Brazilian Grand Prix,Renault,renault,3.0,3,3
+88,2005,18,Japanese Grand Prix,Renault,renault,2.0,2,2
+88,2005,18,Japanese Grand Prix,Renault,renault,3.0,3,3
+89,2005,19,Chinese Grand Prix,Renault,renault,1.0,1,1
+53,2006,1,Bahrain Grand Prix,Renault,renault,1.0,1,1
+54,2006,2,Malaysian Grand Prix,Renault,renault,1.0,1,1
+54,2006,2,Malaysian Grand Prix,Renault,renault,2.0,2,2
+55,2006,3,Australian Grand Prix,Renault,renault,1.0,1,1
+56,2006,4,San Marino Grand Prix,Renault,renault,2.0,2,2
+57,2006,5,European Grand Prix,Renault,renault,2.0,2,2
+58,2006,6,Spanish Grand Prix,Renault,renault,1.0,1,1
+58,2006,6,Spanish Grand Prix,Renault,renault,3.0,3,3
+59,2006,7,Monaco Grand Prix,Renault,renault,1.0,1,1
+60,2006,8,British Grand Prix,Renault,renault,1.0,1,1
+61,2006,9,Canadian Grand Prix,Renault,renault,1.0,1,1
+62,2006,10,United States Grand Prix,Renault,renault,3.0,3,3
+63,2006,11,French Grand Prix,Renault,renault,2.0,2,2
+66,2006,14,Turkish Grand Prix,Renault,renault,2.0,2,2
+68,2006,16,Chinese Grand Prix,Renault,renault,2.0,2,2
+68,2006,16,Chinese Grand Prix,Renault,renault,3.0,3,3
+69,2006,17,Japanese Grand Prix,Renault,renault,1.0,1,1
+69,2006,17,Japanese Grand Prix,Renault,renault,3.0,3,3
+70,2006,18,Brazilian Grand Prix,Renault,renault,2.0,2,2
+36,2007,1,Australian Grand Prix,Ferrari,ferrari,1.0,1,1
+37,2007,2,Malaysian Grand Prix,Ferrari,ferrari,3.0,3,3
+38,2007,3,Bahrain Grand Prix,Ferrari,ferrari,1.0,1,1
+38,2007,3,Bahrain Grand Prix,Ferrari,ferrari,3.0,3,3
+39,2007,4,Spanish Grand Prix,Ferrari,ferrari,1.0,1,1
+40,2007,5,Monaco Grand Prix,Ferrari,ferrari,3.0,3,3
+42,2007,7,United States Grand Prix,Ferrari,ferrari,3.0,3,3
+43,2007,8,French Grand Prix,Ferrari,ferrari,1.0,1,1
+43,2007,8,French Grand Prix,Ferrari,ferrari,2.0,2,2
+44,2007,9,British Grand Prix,Ferrari,ferrari,1.0,1,1
+45,2007,10,European Grand Prix,Ferrari,ferrari,2.0,2,2
+46,2007,11,Hungarian Grand Prix,Ferrari,ferrari,2.0,2,2
+47,2007,12,Turkish Grand Prix,Ferrari,ferrari,1.0,1,1
+47,2007,12,Turkish Grand Prix,Ferrari,ferrari,2.0,2,2
+48,2007,13,Italian Grand Prix,Ferrari,ferrari,3.0,3,3
+49,2007,14,Belgian Grand Prix,Ferrari,ferrari,1.0,1,1
+49,2007,14,Belgian Grand Prix,Ferrari,ferrari,2.0,2,2
+50,2007,15,Japanese Grand Prix,Ferrari,ferrari,3.0,3,3
+51,2007,16,Chinese Grand Prix,Ferrari,ferrari,1.0,1,1
+51,2007,16,Chinese Grand Prix,Ferrari,ferrari,3.0,3,3
+52,2007,17,Brazilian Grand Prix,Ferrari,ferrari,1.0,1,1
+52,2007,17,Brazilian Grand Prix,Ferrari,ferrari,2.0,2,2
+18,2008,1,Australian Grand Prix,McLaren,mclaren,1.0,1,1
+19,2008,2,Malaysian Grand Prix,McLaren,mclaren,3.0,3,3
+21,2008,4,Spanish Grand Prix,McLaren,mclaren,3.0,3,3
+22,2008,5,Turkish Grand Prix,McLaren,mclaren,2.0,2,2
+23,2008,6,Monaco Grand Prix,McLaren,mclaren,1.0,1,1
+26,2008,9,British Grand Prix,McLaren,mclaren,1.0,1,1
+27,2008,10,German Grand Prix,McLaren,mclaren,1.0,1,1
+28,2008,11,Hungarian Grand Prix,McLaren,mclaren,1.0,1,1
+29,2008,12,European Grand Prix,McLaren,mclaren,2.0,2,2
+30,2008,13,Belgian Grand Prix,McLaren,mclaren,3.0,3,3
+31,2008,14,Italian Grand Prix,McLaren,mclaren,2.0,2,2
+32,2008,15,Singapore Grand Prix,McLaren,mclaren,3.0,3,3
+34,2008,17,Chinese Grand Prix,McLaren,mclaren,1.0,1,1
+1,2009,1,Australian Grand Prix,Brawn,brawn,1.0,1,1
+1,2009,1,Australian Grand Prix,Brawn,brawn,2.0,2,2
+2,2009,2,Malaysian Grand Prix,Brawn,brawn,1.0,1,1
+3,2009,3,Chinese Grand Prix,Brawn,brawn,3.0,3,3
+4,2009,4,Bahrain Grand Prix,Brawn,brawn,1.0,1,1
+5,2009,5,Spanish Grand Prix,Brawn,brawn,1.0,1,1
+5,2009,5,Spanish Grand Prix,Brawn,brawn,2.0,2,2
+6,2009,6,Monaco Grand Prix,Brawn,brawn,1.0,1,1
+6,2009,6,Monaco Grand Prix,Brawn,brawn,2.0,2,2
+7,2009,7,Turkish Grand Prix,Brawn,brawn,1.0,1,1
+8,2009,8,British Grand Prix,Brawn,brawn,3.0,3,3
+11,2009,11,European Grand Prix,Brawn,brawn,1.0,1,1
+13,2009,13,Italian Grand Prix,Brawn,brawn,1.0,1,1
+13,2009,13,Italian Grand Prix,Brawn,brawn,2.0,2,2
+17,2009,17,Abu Dhabi Grand Prix,Brawn,brawn,3.0,3,3
+339,2010,3,Malaysian Grand Prix,Red Bull,red_bull,1.0,1,1
+339,2010,3,Malaysian Grand Prix,Red Bull,red_bull,2.0,2,2
+341,2010,5,Spanish Grand Prix,Red Bull,red_bull,1.0,1,1
+341,2010,5,Spanish Grand Prix,Red Bull,red_bull,3.0,3,3
+342,2010,6,Monaco Grand Prix,Red Bull,red_bull,1.0,1,1
+342,2010,6,Monaco Grand Prix,Red Bull,red_bull,2.0,2,2
+343,2010,7,Turkish Grand Prix,Red Bull,red_bull,3.0,3,3
+345,2010,9,European Grand Prix,Red Bull,red_bull,1.0,1,1
+346,2010,10,British Grand Prix,Red Bull,red_bull,1.0,1,1
+347,2010,11,German Grand Prix,Red Bull,red_bull,3.0,3,3
+348,2010,12,Hungarian Grand Prix,Red Bull,red_bull,1.0,1,1
+348,2010,12,Hungarian Grand Prix,Red Bull,red_bull,3.0,3,3
+349,2010,13,Belgian Grand Prix,Red Bull,red_bull,2.0,2,2
+351,2010,15,Singapore Grand Prix,Red Bull,red_bull,2.0,2,2
+351,2010,15,Singapore Grand Prix,Red Bull,red_bull,3.0,3,3
+352,2010,16,Japanese Grand Prix,Red Bull,red_bull,1.0,1,1
+352,2010,16,Japanese Grand Prix,Red Bull,red_bull,2.0,2,2
+354,2010,18,Brazilian Grand Prix,Red Bull,red_bull,1.0,1,1
+354,2010,18,Brazilian Grand Prix,Red Bull,red_bull,2.0,2,2
+355,2010,19,Abu Dhabi Grand Prix,Red Bull,red_bull,1.0,1,1
+841,2011,1,Australian Grand Prix,Red Bull,red_bull,1.0,1,1
+842,2011,2,Malaysian Grand Prix,Red Bull,red_bull,1.0,1,1
+843,2011,3,Chinese Grand Prix,Red Bull,red_bull,2.0,2,2
+843,2011,3,Chinese Grand Prix,Red Bull,red_bull,3.0,3,3
+844,2011,4,Turkish Grand Prix,Red Bull,red_bull,1.0,1,1
+844,2011,4,Turkish Grand Prix,Red Bull,red_bull,2.0,2,2
+845,2011,5,Spanish Grand Prix,Red Bull,red_bull,1.0,1,1
+846,2011,6,Monaco Grand Prix,Red Bull,red_bull,1.0,1,1
+847,2011,7,Canadian Grand Prix,Red Bull,red_bull,2.0,2,2
+847,2011,7,Canadian Grand Prix,Red Bull,red_bull,3.0,3,3
+848,2011,8,European Grand Prix,Red Bull,red_bull,1.0,1,1
+848,2011,8,European Grand Prix,Red Bull,red_bull,3.0,3,3
+849,2011,9,British Grand Prix,Red Bull,red_bull,2.0,2,2
+849,2011,9,British Grand Prix,Red Bull,red_bull,3.0,3,3
+850,2011,10,German Grand Prix,Red Bull,red_bull,3.0,3,3
+851,2011,11,Hungarian Grand Prix,Red Bull,red_bull,2.0,2,2
+852,2011,12,Belgian Grand Prix,Red Bull,red_bull,1.0,1,1
+852,2011,12,Belgian Grand Prix,Red Bull,red_bull,2.0,2,2
+853,2011,13,Italian Grand Prix,Red Bull,red_bull,1.0,1,1
+854,2011,14,Singapore Grand Prix,Red Bull,red_bull,1.0,1,1
+854,2011,14,Singapore Grand Prix,Red Bull,red_bull,3.0,3,3
+855,2011,15,Japanese Grand Prix,Red Bull,red_bull,3.0,3,3
+856,2011,16,Korean Grand Prix,Red Bull,red_bull,1.0,1,1
+856,2011,16,Korean Grand Prix,Red Bull,red_bull,3.0,3,3
+857,2011,17,Indian Grand Prix,Red Bull,red_bull,1.0,1,1
+859,2011,19,Brazilian Grand Prix,Red Bull,red_bull,1.0,1,1
+859,2011,19,Brazilian Grand Prix,Red Bull,red_bull,2.0,2,2
+860,2012,1,Australian Grand Prix,Red Bull,red_bull,2.0,2,2
+863,2012,4,Bahrain Grand Prix,Red Bull,red_bull,1.0,1,1
+865,2012,6,Monaco Grand Prix,Red Bull,red_bull,1.0,1,1
+868,2012,9,British Grand Prix,Red Bull,red_bull,1.0,1,1
+868,2012,9,British Grand Prix,Red Bull,red_bull,3.0,3,3
+871,2012,12,Belgian Grand Prix,Red Bull,red_bull,2.0,2,2
+873,2012,14,Singapore Grand Prix,Red Bull,red_bull,1.0,1,1
+874,2012,15,Japanese Grand Prix,Red Bull,red_bull,1.0,1,1
+875,2012,16,Korean Grand Prix,Red Bull,red_bull,1.0,1,1
+875,2012,16,Korean Grand Prix,Red Bull,red_bull,2.0,2,2
+876,2012,17,Indian Grand Prix,Red Bull,red_bull,1.0,1,1
+876,2012,17,Indian Grand Prix,Red Bull,red_bull,3.0,3,3
+877,2012,18,Abu Dhabi Grand Prix,Red Bull,red_bull,3.0,3,3
+878,2012,19,United States Grand Prix,Red Bull,red_bull,2.0,2,2
+880,2013,1,Australian Grand Prix,Red Bull,red_bull,3.0,3,3
+881,2013,2,Malaysian Grand Prix,Red Bull,red_bull,1.0,1,1
+881,2013,2,Malaysian Grand Prix,Red Bull,red_bull,2.0,2,2
+883,2013,4,Bahrain Grand Prix,Red Bull,red_bull,1.0,1,1
+885,2013,6,Monaco Grand Prix,Red Bull,red_bull,2.0,2,2
+885,2013,6,Monaco Grand Prix,Red Bull,red_bull,3.0,3,3
+886,2013,7,Canadian Grand Prix,Red Bull,red_bull,1.0,1,1
+887,2013,8,British Grand Prix,Red Bull,red_bull,2.0,2,2
+888,2013,9,German Grand Prix,Red Bull,red_bull,1.0,1,1
+890,2013,10,Hungarian Grand Prix,Red Bull,red_bull,3.0,3,3
+891,2013,11,Belgian Grand Prix,Red Bull,red_bull,1.0,1,1
+892,2013,12,Italian Grand Prix,Red Bull,red_bull,1.0,1,1
+892,2013,12,Italian Grand Prix,Red Bull,red_bull,3.0,3,3
+893,2013,13,Singapore Grand Prix,Red Bull,red_bull,1.0,1,1
+894,2013,14,Korean Grand Prix,Red Bull,red_bull,1.0,1,1
+895,2013,15,Japanese Grand Prix,Red Bull,red_bull,1.0,1,1
+895,2013,15,Japanese Grand Prix,Red Bull,red_bull,2.0,2,2
+896,2013,16,Indian Grand Prix,Red Bull,red_bull,1.0,1,1
+897,2013,17,Abu Dhabi Grand Prix,Red Bull,red_bull,1.0,1,1
+897,2013,17,Abu Dhabi Grand Prix,Red Bull,red_bull,2.0,2,2
+898,2013,18,United States Grand Prix,Red Bull,red_bull,1.0,1,1
+898,2013,18,United States Grand Prix,Red Bull,red_bull,3.0,3,3
+899,2013,19,Brazilian Grand Prix,Red Bull,red_bull,1.0,1,1
+899,2013,19,Brazilian Grand Prix,Red Bull,red_bull,2.0,2,2
+900,2014,1,Australian Grand Prix,Mercedes,mercedes,1.0,1,1
+901,2014,2,Malaysian Grand Prix,Mercedes,mercedes,1.0,1,1
+901,2014,2,Malaysian Grand Prix,Mercedes,mercedes,2.0,2,2
+902,2014,3,Bahrain Grand Prix,Mercedes,mercedes,1.0,1,1
+902,2014,3,Bahrain Grand Prix,Mercedes,mercedes,2.0,2,2
+903,2014,4,Chinese Grand Prix,Mercedes,mercedes,1.0,1,1
+903,2014,4,Chinese Grand Prix,Mercedes,mercedes,2.0,2,2
+904,2014,5,Spanish Grand Prix,Mercedes,mercedes,1.0,1,1
+904,2014,5,Spanish Grand Prix,Mercedes,mercedes,2.0,2,2
+905,2014,6,Monaco Grand Prix,Mercedes,mercedes,1.0,1,1
+905,2014,6,Monaco Grand Prix,Mercedes,mercedes,2.0,2,2
+906,2014,7,Canadian Grand Prix,Mercedes,mercedes,2.0,2,2
+907,2014,8,Austrian Grand Prix,Mercedes,mercedes,1.0,1,1
+907,2014,8,Austrian Grand Prix,Mercedes,mercedes,2.0,2,2
+908,2014,9,British Grand Prix,Mercedes,mercedes,1.0,1,1
+909,2014,10,German Grand Prix,Mercedes,mercedes,1.0,1,1
+909,2014,10,German Grand Prix,Mercedes,mercedes,3.0,3,3
+910,2014,11,Hungarian Grand Prix,Mercedes,mercedes,3.0,3,3
+911,2014,12,Belgian Grand Prix,Mercedes,mercedes,2.0,2,2
+912,2014,13,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+912,2014,13,Italian Grand Prix,Mercedes,mercedes,2.0,2,2
+913,2014,14,Singapore Grand Prix,Mercedes,mercedes,1.0,1,1
+914,2014,15,Japanese Grand Prix,Mercedes,mercedes,1.0,1,1
+914,2014,15,Japanese Grand Prix,Mercedes,mercedes,2.0,2,2
+915,2014,16,Russian Grand Prix,Mercedes,mercedes,1.0,1,1
+915,2014,16,Russian Grand Prix,Mercedes,mercedes,2.0,2,2
+916,2014,17,United States Grand Prix,Mercedes,mercedes,1.0,1,1
+916,2014,17,United States Grand Prix,Mercedes,mercedes,2.0,2,2
+917,2014,18,Brazilian Grand Prix,Mercedes,mercedes,1.0,1,1
+917,2014,18,Brazilian Grand Prix,Mercedes,mercedes,2.0,2,2
+918,2014,19,Abu Dhabi Grand Prix,Mercedes,mercedes,1.0,1,1
+926,2015,1,Australian Grand Prix,Mercedes,mercedes,1.0,1,1
+926,2015,1,Australian Grand Prix,Mercedes,mercedes,2.0,2,2
+927,2015,2,Malaysian Grand Prix,Mercedes,mercedes,2.0,2,2
+927,2015,2,Malaysian Grand Prix,Mercedes,mercedes,3.0,3,3
+928,2015,3,Chinese Grand Prix,Mercedes,mercedes,1.0,1,1
+928,2015,3,Chinese Grand Prix,Mercedes,mercedes,2.0,2,2
+929,2015,4,Bahrain Grand Prix,Mercedes,mercedes,1.0,1,1
+929,2015,4,Bahrain Grand Prix,Mercedes,mercedes,3.0,3,3
+930,2015,5,Spanish Grand Prix,Mercedes,mercedes,1.0,1,1
+930,2015,5,Spanish Grand Prix,Mercedes,mercedes,2.0,2,2
+931,2015,6,Monaco Grand Prix,Mercedes,mercedes,1.0,1,1
+931,2015,6,Monaco Grand Prix,Mercedes,mercedes,3.0,3,3
+932,2015,7,Canadian Grand Prix,Mercedes,mercedes,1.0,1,1
+932,2015,7,Canadian Grand Prix,Mercedes,mercedes,2.0,2,2
+933,2015,8,Austrian Grand Prix,Mercedes,mercedes,1.0,1,1
+933,2015,8,Austrian Grand Prix,Mercedes,mercedes,2.0,2,2
+934,2015,9,British Grand Prix,Mercedes,mercedes,1.0,1,1
+934,2015,9,British Grand Prix,Mercedes,mercedes,2.0,2,2
+937,2015,11,Belgian Grand Prix,Mercedes,mercedes,1.0,1,1
+937,2015,11,Belgian Grand Prix,Mercedes,mercedes,2.0,2,2
+938,2015,12,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+940,2015,14,Japanese Grand Prix,Mercedes,mercedes,1.0,1,1
+940,2015,14,Japanese Grand Prix,Mercedes,mercedes,2.0,2,2
+941,2015,15,Russian Grand Prix,Mercedes,mercedes,1.0,1,1
+942,2015,16,United States Grand Prix,Mercedes,mercedes,1.0,1,1
+942,2015,16,United States Grand Prix,Mercedes,mercedes,2.0,2,2
+943,2015,17,Mexican Grand Prix,Mercedes,mercedes,1.0,1,1
+943,2015,17,Mexican Grand Prix,Mercedes,mercedes,2.0,2,2
+944,2015,18,Brazilian Grand Prix,Mercedes,mercedes,1.0,1,1
+944,2015,18,Brazilian Grand Prix,Mercedes,mercedes,2.0,2,2
+945,2015,19,Abu Dhabi Grand Prix,Mercedes,mercedes,1.0,1,1
+945,2015,19,Abu Dhabi Grand Prix,Mercedes,mercedes,2.0,2,2
+948,2016,1,Australian Grand Prix,Mercedes,mercedes,1.0,1,1
+948,2016,1,Australian Grand Prix,Mercedes,mercedes,2.0,2,2
+949,2016,2,Bahrain Grand Prix,Mercedes,mercedes,1.0,1,1
+949,2016,2,Bahrain Grand Prix,Mercedes,mercedes,3.0,3,3
+950,2016,3,Chinese Grand Prix,Mercedes,mercedes,1.0,1,1
+951,2016,4,Russian Grand Prix,Mercedes,mercedes,1.0,1,1
+951,2016,4,Russian Grand Prix,Mercedes,mercedes,2.0,2,2
+953,2016,6,Monaco Grand Prix,Mercedes,mercedes,1.0,1,1
+954,2016,7,Canadian Grand Prix,Mercedes,mercedes,1.0,1,1
+955,2016,8,European Grand Prix,Mercedes,mercedes,1.0,1,1
+956,2016,9,Austrian Grand Prix,Mercedes,mercedes,1.0,1,1
+957,2016,10,British Grand Prix,Mercedes,mercedes,1.0,1,1
+957,2016,10,British Grand Prix,Mercedes,mercedes,3.0,3,3
+958,2016,11,Hungarian Grand Prix,Mercedes,mercedes,1.0,1,1
+958,2016,11,Hungarian Grand Prix,Mercedes,mercedes,2.0,2,2
+959,2016,12,German Grand Prix,Mercedes,mercedes,1.0,1,1
+960,2016,13,Belgian Grand Prix,Mercedes,mercedes,1.0,1,1
+960,2016,13,Belgian Grand Prix,Mercedes,mercedes,3.0,3,3
+961,2016,14,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+961,2016,14,Italian Grand Prix,Mercedes,mercedes,2.0,2,2
+962,2016,15,Singapore Grand Prix,Mercedes,mercedes,1.0,1,1
+962,2016,15,Singapore Grand Prix,Mercedes,mercedes,3.0,3,3
+963,2016,16,Malaysian Grand Prix,Mercedes,mercedes,3.0,3,3
+964,2016,17,Japanese Grand Prix,Mercedes,mercedes,1.0,1,1
+964,2016,17,Japanese Grand Prix,Mercedes,mercedes,3.0,3,3
+965,2016,18,United States Grand Prix,Mercedes,mercedes,1.0,1,1
+965,2016,18,United States Grand Prix,Mercedes,mercedes,2.0,2,2
+966,2016,19,Mexican Grand Prix,Mercedes,mercedes,1.0,1,1
+966,2016,19,Mexican Grand Prix,Mercedes,mercedes,2.0,2,2
+967,2016,20,Brazilian Grand Prix,Mercedes,mercedes,1.0,1,1
+967,2016,20,Brazilian Grand Prix,Mercedes,mercedes,2.0,2,2
+968,2016,21,Abu Dhabi Grand Prix,Mercedes,mercedes,1.0,1,1
+968,2016,21,Abu Dhabi Grand Prix,Mercedes,mercedes,2.0,2,2
+969,2017,1,Australian Grand Prix,Mercedes,mercedes,2.0,2,2
+969,2017,1,Australian Grand Prix,Mercedes,mercedes,3.0,3,3
+970,2017,2,Chinese Grand Prix,Mercedes,mercedes,1.0,1,1
+971,2017,3,Bahrain Grand Prix,Mercedes,mercedes,2.0,2,2
+971,2017,3,Bahrain Grand Prix,Mercedes,mercedes,3.0,3,3
+972,2017,4,Russian Grand Prix,Mercedes,mercedes,1.0,1,1
+973,2017,5,Spanish Grand Prix,Mercedes,mercedes,1.0,1,1
+975,2017,7,Canadian Grand Prix,Mercedes,mercedes,1.0,1,1
+975,2017,7,Canadian Grand Prix,Mercedes,mercedes,2.0,2,2
+976,2017,8,Azerbaijan Grand Prix,Mercedes,mercedes,2.0,2,2
+977,2017,9,Austrian Grand Prix,Mercedes,mercedes,1.0,1,1
+978,2017,10,British Grand Prix,Mercedes,mercedes,1.0,1,1
+978,2017,10,British Grand Prix,Mercedes,mercedes,2.0,2,2
+979,2017,11,Hungarian Grand Prix,Mercedes,mercedes,3.0,3,3
+980,2017,12,Belgian Grand Prix,Mercedes,mercedes,1.0,1,1
+981,2017,13,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+981,2017,13,Italian Grand Prix,Mercedes,mercedes,2.0,2,2
+982,2017,14,Singapore Grand Prix,Mercedes,mercedes,1.0,1,1
+982,2017,14,Singapore Grand Prix,Mercedes,mercedes,3.0,3,3
+983,2017,15,Malaysian Grand Prix,Mercedes,mercedes,2.0,2,2
+984,2017,16,Japanese Grand Prix,Mercedes,mercedes,1.0,1,1
+985,2017,17,United States Grand Prix,Mercedes,mercedes,1.0,1,1
+986,2017,18,Mexican Grand Prix,Mercedes,mercedes,2.0,2,2
+987,2017,19,Brazilian Grand Prix,Mercedes,mercedes,2.0,2,2
+988,2017,20,Abu Dhabi Grand Prix,Mercedes,mercedes,1.0,1,1
+988,2017,20,Abu Dhabi Grand Prix,Mercedes,mercedes,2.0,2,2
+989,2018,1,Australian Grand Prix,Mercedes,mercedes,2.0,2,2
+990,2018,2,Bahrain Grand Prix,Mercedes,mercedes,2.0,2,2
+990,2018,2,Bahrain Grand Prix,Mercedes,mercedes,3.0,3,3
+991,2018,3,Chinese Grand Prix,Mercedes,mercedes,2.0,2,2
+992,2018,4,Azerbaijan Grand Prix,Mercedes,mercedes,1.0,1,1
+993,2018,5,Spanish Grand Prix,Mercedes,mercedes,1.0,1,1
+993,2018,5,Spanish Grand Prix,Mercedes,mercedes,2.0,2,2
+994,2018,6,Monaco Grand Prix,Mercedes,mercedes,3.0,3,3
+995,2018,7,Canadian Grand Prix,Mercedes,mercedes,2.0,2,2
+996,2018,8,French Grand Prix,Mercedes,mercedes,1.0,1,1
+998,2018,10,British Grand Prix,Mercedes,mercedes,2.0,2,2
+999,2018,11,German Grand Prix,Mercedes,mercedes,1.0,1,1
+999,2018,11,German Grand Prix,Mercedes,mercedes,2.0,2,2
+1000,2018,12,Hungarian Grand Prix,Mercedes,mercedes,1.0,1,1
+1001,2018,13,Belgian Grand Prix,Mercedes,mercedes,2.0,2,2
+1002,2018,14,Italian Grand Prix,Mercedes,mercedes,1.0,1,1
+1002,2018,14,Italian Grand Prix,Mercedes,mercedes,3.0,3,3
+1003,2018,15,Singapore Grand Prix,Mercedes,mercedes,1.0,1,1
+1004,2018,16,Russian Grand Prix,Mercedes,mercedes,1.0,1,1
+1004,2018,16,Russian Grand Prix,Mercedes,mercedes,2.0,2,2
+1005,2018,17,Japanese Grand Prix,Mercedes,mercedes,1.0,1,1
+1005,2018,17,Japanese Grand Prix,Mercedes,mercedes,2.0,2,2
+1006,2018,18,United States Grand Prix,Mercedes,mercedes,3.0,3,3
+1008,2018,20,Brazilian Grand Prix,Mercedes,mercedes,1.0,1,1
+1009,2018,21,Abu Dhabi Grand Prix,Mercedes,mercedes,1.0,1,1
