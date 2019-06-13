@@ -1,0 +1,3439 @@
+year,constructor,driver,counts
+1950,Adams,Bayliss Levrett,1
+1950,Adams,Bill Cantrell,1
+1950,Alfa Romeo,Alberto Ascari,1
+1950,Alfa Romeo,Consalvo Sanesi,1
+1950,Alfa Romeo,Juan Fangio,7
+1950,Alfa Romeo,Luigi Fagioli,6
+1950,Alfa Romeo,Nino Farina,6
+1950,Alfa Romeo,Piero Taruffi,1
+1950,Alfa Romeo,Reg Parnell,1
+1950,Alta,Geoff Crossley,2
+1950,Alta,Joe Kelly,1
+1950,Cooper,Harry Schell,1
+1950,Deidt,Bill Holland,1
+1950,Deidt,Mauri Rose,1
+1950,Deidt,Tony Bettenhausen,1
+1950,ERA,Bob Gerard,2
+1950,ERA,Cuth Harrison,3
+1950,ERA,Leslie Johnson,1
+1950,ERA,Peter Walker,1
+1950,ERA,Tony Rolt,1
+1950,Ewing,Jimmy Davies,1
+1950,Ferrari,Alberto Ascari,4
+1950,Ferrari,Clemente Biondetti,1
+1950,Ferrari,Dorino Serafini,1
+1950,Ferrari,Luigi Villoresi,3
+1950,Ferrari,Peter Whitehead,3
+1950,Ferrari,Raymond Sommer,2
+1950,Kurtis Kraft,Cecil Green,1
+1950,Kurtis Kraft,Duke Dinsmore,1
+1950,Kurtis Kraft,Fred Agabashian,1
+1950,Kurtis Kraft,Jack McGrath,1
+1950,Kurtis Kraft,Jerry Hoyt,1
+1950,Kurtis Kraft,Jimmy Jackson,1
+1950,Kurtis Kraft,Johnnie Parsons,1
+1950,Kurtis Kraft,Johnny McDowell,1
+1950,Kurtis Kraft,Joie Chitwood,1
+1950,Kurtis Kraft,Mack Hellings,1
+1950,Kurtis Kraft,Pat Flaherty,1
+1950,Kurtis Kraft,Sam Hanks,1
+1950,Kurtis Kraft,Tony Bettenhausen,1
+1950,Kurtis Kraft,Walt Brown,1
+1950,Kurtis Kraft,Walt Faulkner,1
+1950,Langley,Gene Hartley,1
+1950,Lesovsky,George Connor,1
+1950,Lesovsky,Troy Ruttman,1
+1950,Marchese,Myron Fohr,1
+1950,Maserati,Alfredo Pián,1
+1950,Maserati,Brian Shawe Taylor,1
+1950,Maserati,David Hampshire,2
+1950,Maserati,David Murray,2
+1950,Maserati,Felice Bonetto,2
+1950,Maserati,Franco Comotti,1
+1950,Maserati,Franco Rol,3
+1950,Maserati,Henry Banks,1
+1950,Maserati,Joe Fry,1
+1950,Maserati,José Froilán González,2
+1950,Maserati,Louis Chiron,5
+1950,Maserati,Nello Pagani,1
+1950,Maserati,Paul Pietsch,1
+1950,Maserati,Prince Bira,4
+1950,Maserati,Reg Parnell,1
+1950,Maserati,Toni Branca,2
+1950,Maserati,Toulo de Graffenried,4
+1950,Maserati,Travis Webb,1
+1950,Milano,Felice Bonetto,1
+1950,Moore,Lee Wallard,1
+1950,Nichels,Paul Russo,1
+1950,Olson,Jackie Holmes,1
+1950,Rae,Walt Ader,1
+1950,Simca,Maurice Trintignant,2
+1950,Simca,Robert Manzon,3
+1950,Snowberger,Bill Schindler,1
+1950,Stevens,Duane Carter,1
+1950,Talbot-Lago,Charles Pozzi,1
+1950,Talbot-Lago,Eugène Chaboud,2
+1950,Talbot-Lago,Eugène Martin,2
+1950,Talbot-Lago,Guy Mairesse,1
+1950,Talbot-Lago,Harry Schell,1
+1950,Talbot-Lago,Henri Louveau,1
+1950,Talbot-Lago,Johnny Claes,6
+1950,Talbot-Lago,Louis Rosier,7
+1950,Talbot-Lago,Philippe Étancelin,6
+1950,Talbot-Lago,Pierre Levegh,3
+1950,Talbot-Lago,Raymond Sommer,3
+1950,Talbot-Lago,Yves Cabantous,4
+1950,Watson,Dick Rathmann,1
+1950,Wetteroth,Jim Rathmann,1
+1951,Alfa Romeo,Consalvo Sanesi,4
+1951,Alfa Romeo,Felice Bonetto,4
+1951,Alfa Romeo,Juan Fangio,8
+1951,Alfa Romeo,Luigi Fagioli,2
+1951,Alfa Romeo,Nino Farina,8
+1951,Alfa Romeo,Paul Pietsch,1
+1951,Alfa Romeo,Toulo de Graffenried,3
+1951,Alta,Joe Kelly,1
+1951,BRM,Ken Richardson,1
+1951,BRM,Peter Walker,1
+1951,BRM,Reg Parnell,2
+1951,Bromme,Rodger Ward,1
+1951,Deidt,Duane Carter,1
+1951,Deidt,Mack Hellings,1
+1951,Deidt,Mauri Rose,1
+1951,Deidt,Tony Bettenhausen,1
+1951,ERA,Bob Gerard,1
+1951,ERA,Brian Shawe Taylor,1
+1951,Ferrari,Alberto Ascari,8
+1951,Ferrari,Chico Landi,1
+1951,Ferrari,José Froilán González,5
+1951,Ferrari,Luigi Villoresi,7
+1951,Ferrari,Peter Whitehead,4
+1951,Ferrari,Piero Taruffi,5
+1951,Ferrari,Reg Parnell,1
+1951,Ferrari,Rudi Fischer,2
+1951,HWM,George Abecassis,1
+1951,HWM,Stirling Moss,1
+1951,Hall,Bill Mackey,1
+1951,Kurtis Kraft,Bill Schindler,1
+1951,Kurtis Kraft,Carl Forberg,1
+1951,Kurtis Kraft,Carl Scarborough,1
+1951,Kurtis Kraft,Cecil Green,1
+1951,Kurtis Kraft,Chet Miller,1
+1951,Kurtis Kraft,Cliff Griffith,1
+1951,Kurtis Kraft,Duke Nalon,1
+1951,Kurtis Kraft,Fred Agabashian,1
+1951,Kurtis Kraft,Gene Force,1
+1951,Kurtis Kraft,Jack McGrath,1
+1951,Kurtis Kraft,Johnnie Parsons,1
+1951,Kurtis Kraft,Lee Wallard,1
+1951,Kurtis Kraft,Manny Ayulo,1
+1951,Kurtis Kraft,Mike Nazaruk,1
+1951,Kurtis Kraft,Sam Hanks,1
+1951,Kurtis Kraft,Troy Ruttman,1
+1951,Kurtis Kraft,Walt Brown,1
+1951,Kuzma,Walt Faulkner,1
+1951,Lesovsky,George Connor,1
+1951,Marchese,Chuck Stevenson,1
+1951,Maserati,David Murray,1
+1951,Maserati,Harry Schell,2
+1951,Maserati,John James,1
+1951,Maserati,Johnny McDowell,1
+1951,Maserati,Juan Jover,1
+1951,Maserati,Louis Chiron,1
+1951,Maserati,Onofre Marimón,1
+1951,Maserati,Paco Godia,1
+1951,Maserati,Philip Fotheringham-Parker,1
+1951,Maserati,Prince Bira,1
+1951,Maserati,Toni Branca,1
+1951,Maserati,Toulo de Graffenried,2
+1951,Moore,Henry Banks,1
+1951,OSCA,Franco Rol,1
+1951,Pawl,Jimmy Davies,1
+1951,Schroeder,Bobby Ball,1
+1951,Schroeder,Duke Dinsmore,1
+1951,Sherman,Andy Linden,1
+1951,Simca,Aldo Gordini,1
+1951,Simca,André Simon,4
+1951,Simca,Maurice Trintignant,4
+1951,Simca,Robert Manzon,4
+1951,Talbot-Lago,André Pilette,1
+1951,Talbot-Lago,Duncan Hamilton,2
+1951,Talbot-Lago,Eugène Chaboud,1
+1951,Talbot-Lago,Georges Grignard,1
+1951,Talbot-Lago,Guy Mairesse,2
+1951,Talbot-Lago,Henri Louveau,1
+1951,Talbot-Lago,Jacques Swaters,2
+1951,Talbot-Lago,Johnny Claes,7
+1951,Talbot-Lago,José Froilán González,1
+1951,Talbot-Lago,Louis Chiron,6
+1951,Talbot-Lago,Louis Rosier,7
+1951,Talbot-Lago,Philippe Étancelin,5
+1951,Talbot-Lago,Pierre Levegh,3
+1951,Talbot-Lago,Yves Cabantous,6
+1951,Trevis,Bill Vukovich,1
+1951,Veritas,Peter Hirt,1
+1951,Watson,Joe James,1
+1952,AFM,Hans von Stuck,1
+1952,AFM,Helmut Niedermayr,1
+1952,AFM,Willi Heeks,1
+1952,Alta,Graham Whitehead,1
+1952,Alta,Peter Whitehead,1
+1952,Aston Butterworth,Bill Aston,3
+1952,Aston Butterworth,Robin Montgomerie-Charrington,1
+1952,BMW,Ernst Klodwig,1
+1952,BMW,Günther Bechem,1
+1952,BMW,Marcel Balsa,1
+1952,BMW,Rudolf Krause,1
+1952,Bromme,Travis Webb,1
+1952,Cisitalia,Piero Dusio,1
+1952,Connaught,Dennis Poore,2
+1952,Connaught,Eric Thompson,1
+1952,Connaught,Ken Downing,2
+1952,Connaught,Kenneth McAlpine,2
+1952,Connaught,Stirling Moss,1
+1952,Cooper,Alan Brown,4
+1952,Cooper,David Murray,1
+1952,Cooper,Eric Brandon,4
+1952,Cooper,Ken Wharton,1
+1952,Cooper,Mike Hawthorn,5
+1952,Cooper,Reg Parnell,1
+1952,Deidt,Tony Bettenhausen,1
+1952,ERA,Stirling Moss,3
+1952,Ferrari,Alberto Ascari,7
+1952,Ferrari,André Simon,2
+1952,Ferrari,Charles de Tornaco,3
+1952,Ferrari,Franco Comotti,1
+1952,Ferrari,Hans von Stuck,1
+1952,Ferrari,Louis Rosier,4
+1952,Ferrari,Luigi Villoresi,2
+1952,Ferrari,Nino Farina,8
+1952,Ferrari,Peter Hirt,3
+1952,Ferrari,Peter Whitehead,2
+1952,Ferrari,Piero Carini,2
+1952,Ferrari,Piero Taruffi,6
+1952,Ferrari,Roger Laurent,1
+1952,Ferrari,Roy Salvadori,1
+1952,Ferrari,Rudi Fischer,5
+1952,Ferrari,Rudolf Schoeller,1
+1952,Frazer Nash,Ken Wharton,3
+1952,Frazer Nash,Tony Crook,1
+1952,Gordini,Jean Behra,6
+1952,Gordini,Johnny Claes,1
+1952,Gordini,Maurice Trintignant,4
+1952,Gordini,Prince Bira,2
+1952,Gordini,Robert Manzon,7
+1952,HWM,Dries van der Lof,1
+1952,HWM,Duncan Hamilton,2
+1952,HWM,George Abecassis,1
+1952,HWM,Johnny Claes,1
+1952,HWM,Lance Macklin,6
+1952,HWM,Paul Frère,2
+1952,HWM,Peter Collins,5
+1952,HWM,Roger Laurent,1
+1952,HWM,Stirling Moss,1
+1952,HWM,Tony Gaze,4
+1952,HWM,Yves Cabantous,1
+1952,Kurtis Kraft,Andy Linden,1
+1952,Kurtis Kraft,Art Cross,1
+1952,Kurtis Kraft,Bill Vukovich,1
+1952,Kurtis Kraft,Bob Scott,1
+1952,Kurtis Kraft,Bob Sweikert,1
+1952,Kurtis Kraft,Chet Miller,1
+1952,Kurtis Kraft,Chuck Stevenson,1
+1952,Kurtis Kraft,Cliff Griffith,1
+1952,Kurtis Kraft,Duke Nalon,1
+1952,Kurtis Kraft,Fred Agabashian,1
+1952,Kurtis Kraft,Gene Hartley,1
+1952,Kurtis Kraft,George Connor,1
+1952,Kurtis Kraft,Jack McGrath,1
+1952,Kurtis Kraft,Jim Rathmann,1
+1952,Kurtis Kraft,Jimmy Bryan,1
+1952,Kurtis Kraft,Jimmy Reece,1
+1952,Kurtis Kraft,Joe James,1
+1952,Kurtis Kraft,Johnnie Parsons,1
+1952,Kurtis Kraft,Johnny McDowell,1
+1952,Kurtis Kraft,Rodger Ward,1
+1952,Kurtis Kraft,Sam Hanks,1
+1952,Kuzma,Troy Ruttman,1
+1952,Lesovsky,Duane Carter,1
+1952,Lesovsky,Henry Banks,1
+1952,Lesovsky,Manny Ayulo,1
+1952,Maserati,Alberto Crespo,1
+1952,Maserati,Chico Landi,2
+1952,Maserati,Eitel Cantoni,3
+1952,Maserati,Felice Bonetto,2
+1952,Maserati,Franco Rol,1
+1952,Maserati,Gino Bianco,4
+1952,Maserati,Harry Schell,4
+1952,Maserati,Jan Flinterman,2
+1952,Maserati,José Froilán González,1
+1952,Maserati,Philippe Étancelin,1
+1952,Maserati,Toulo de Graffenried,4
+1952,OSCA,Élie Bayol,1
+1952,Sherman,George Fonder,1
+1952,Simca,Johnny Claes,3
+1952,Simca,Maurice Trintignant,1
+1952,Simca,Max de Terra,1
+1952,Simca,Paul Frère,1
+1952,Simca,Prince Bira,2
+1952,Simca,Robert O'Brien,1
+1952,Stevens,Bill Schindler,1
+1952,Stevens,Bobby Ball,1
+1952,Trevis,Eddie Johnson,1
+1952,Veritas,Adolf Brudes,1
+1952,Veritas,Arthur Legat,1
+1952,Veritas,Fritz Riess,1
+1952,Veritas,Hans Klenk,1
+1952,Veritas,Josef Peters,1
+1952,Veritas,Paul Pietsch,1
+1952,Veritas,Theo Helfrich,1
+1952,Veritas,Toni Ulmen,2
+1952,Watson,Jim Rigsby,1
+1953,AFM,Günther Bechem,1
+1953,AFM,Hans von Stuck,2
+1953,AFM,Theo Fitzau,1
+1953,BMW,Ernst Klodwig,1
+1953,BMW,Rudolf Krause,1
+1953,Bromme,Bob Scott,1
+1953,Connaught,André Pilette,1
+1953,Connaught,Ian Stewart,1
+1953,Connaught,Jack Fairman,1
+1953,Connaught,Johnny Claes,4
+1953,Connaught,Kenneth McAlpine,4
+1953,Connaught,Prince Bira,3
+1953,Connaught,Roy Salvadori,5
+1953,Connaught,Stirling Moss,1
+1953,Connaught,Tony Rolt,1
+1953,Cooper,Adolfo Cruz,1
+1953,Cooper,Alan Brown,4
+1953,Cooper,Bob Gerard,1
+1953,Cooper,Jimmy Stewart,1
+1953,Cooper,John Barber,1
+1953,Cooper,Ken Wharton,5
+1953,Cooper,Peter Whitehead,1
+1953,Cooper,Rodney Nuckey,1
+1953,Cooper,Stirling Moss,3
+1953,Cooper,Tony Crook,1
+1953,Del Roy,Johnny Thomson,1
+1953,EMW,Edgar Barth,1
+1953,Ferrari,Alberto Ascari,9
+1953,Ferrari,Jacques Swaters,2
+1953,Ferrari,Kurt Adolff,1
+1953,Ferrari,Louis Rosier,7
+1953,Ferrari,Luigi Villoresi,9
+1953,Ferrari,Max de Terra,1
+1953,Ferrari,Mike Hawthorn,8
+1953,Ferrari,Nino Farina,8
+1953,Ferrari,Peter Hirt,1
+1953,Ferrari,Piero Carini,1
+1953,Ferrari,Umberto Maglioli,1
+1953,Gordini,Carlos Menditeguy,1
+1953,Gordini,Fred Wacker,1
+1953,Gordini,Harry Schell,7
+1953,Gordini,Jean Behra,6
+1953,Gordini,Maurice Trintignant,8
+1953,Gordini,Robert Manzon,1
+1953,Gordini,Roberto Mieres,3
+1953,HWM,Albert Scherrer,1
+1953,HWM,Duncan Hamilton,1
+1953,HWM,Jack Fairman,1
+1953,HWM,John Fitch,1
+1953,HWM,Lance Macklin,6
+1953,HWM,Paul Frère,2
+1953,HWM,Peter Collins,4
+1953,HWM,Yves Cabantous,2
+1953,Kurtis Kraft,Andy Linden,2
+1953,Kurtis Kraft,Art Cross,1
+1953,Kurtis Kraft,Bill Holland,1
+1953,Kurtis Kraft,Bill Vukovich,1
+1953,Kurtis Kraft,Bob Scott,1
+1953,Kurtis Kraft,Cal Niday,1
+1953,Kurtis Kraft,Carl Scarborough,1
+1953,Kurtis Kraft,Chuck Stevenson,1
+1953,Kurtis Kraft,Duane Carter,1
+1953,Kurtis Kraft,Duke Dinsmore,1
+1953,Kurtis Kraft,Duke Nalon,1
+1953,Kurtis Kraft,Eddie Johnson,1
+1953,Kurtis Kraft,Fred Agabashian,1
+1953,Kurtis Kraft,Gene Hartley,1
+1953,Kurtis Kraft,Jack McGrath,1
+1953,Kurtis Kraft,Jackie Holmes,1
+1953,Kurtis Kraft,Jerry Hoyt,1
+1953,Kurtis Kraft,Jim Rathmann,2
+1953,Kurtis Kraft,Jimmy Davies,1
+1953,Kurtis Kraft,Jimmy Daywalt,1
+1953,Kurtis Kraft,Johnnie Parsons,1
+1953,Kurtis Kraft,Johnny Mantz,1
+1953,Kurtis Kraft,Johnny Thomson,1
+1953,Kurtis Kraft,Marshall Teague,1
+1953,Kurtis Kraft,Paul Russo,2
+1953,Kurtis Kraft,Rodger Ward,1
+1953,Kurtis Kraft,Sam Hanks,1
+1953,Kurtis Kraft,Travis Webb,1
+1953,Kurtis Kraft,Walt Faulkner,1
+1953,Kuzma,Bob Sweikert,1
+1953,Kuzma,Chuck Stevenson,2
+1953,Kuzma,Gene Hartley,1
+1953,Kuzma,Manny Ayulo,1
+1953,Kuzma,Pat Flaherty,1
+1953,Kuzma,Tony Bettenhausen,1
+1953,Lesovsky,Duane Carter,1
+1953,Maserati,Chico Landi,2
+1953,Maserati,Felice Bonetto,8
+1953,Maserati,Hermann Lang,1
+1953,Maserati,Johnny Claes,1
+1953,Maserati,José Froilán González,6
+1953,Maserati,Juan Fangio,10
+1953,Maserati,Luigi Musso,1
+1953,Maserati,Onofre Marimón,6
+1953,Maserati,Oscar Gálvez,1
+1953,Maserati,Prince Bira,1
+1953,Maserati,Sergio Mantovani,1
+1953,Maserati,Toulo de Graffenried,7
+1953,OSCA,Louis Chiron,2
+1953,OSCA,Élie Bayol,2
+1953,Schroeder,Jimmy Bryan,1
+1953,Simca,Georges Berger,1
+1953,Simca,Pablo Birger,1
+1953,Stevens,Andy Linden,1
+1953,Stevens,Ernie McCoy,1
+1953,Turner,Mike Nazaruk,1
+1953,Veritas,Arthur Legat,1
+1953,Veritas,Ernst Loof,1
+1953,Veritas,Erwin Bauer,1
+1953,Veritas,Hans Herrmann,1
+1953,Veritas,Oswald Karch,1
+1953,Veritas,Theo Helfrich,1
+1953,Veritas,Willi Heeks,1
+1953,Veritas,Wolfgang Seidel,1
+1953,Watson,Don Freeland,1
+1954,Bromme,Danny Kladis,1
+1954,Bromme,Travis Webb,1
+1954,Connaught,Bill Whitehouse,1
+1954,Connaught,Don Beauman,1
+1954,Connaught,John Riseley-Prichard,1
+1954,Connaught,Leslie Marr,1
+1954,Connaught,Leslie Thorne,1
+1954,Cooper,Alan Brown,1
+1954,Cooper,Bob Gerard,1
+1954,Cooper,Eric Brandon,1
+1954,Cooper,Horace Gould,1
+1954,Cooper,Peter Whitehead,1
+1954,Cooper,Rodney Nuckey,1
+1954,Ferrari,Alberto Ascari,1
+1954,Ferrari,Jacques Swaters,3
+1954,Ferrari,José Froilán González,9
+1954,Ferrari,Louis Rosier,4
+1954,Ferrari,Maurice Trintignant,8
+1954,Ferrari,Mike Hawthorn,9
+1954,Ferrari,Nino Farina,2
+1954,Ferrari,Piero Taruffi,1
+1954,Ferrari,Reg Parnell,1
+1954,Ferrari,Robert Manzon,6
+1954,Ferrari,Umberto Maglioli,3
+1954,Gordini,André Pilette,3
+1954,Gordini,Clemar Bucci,4
+1954,Gordini,Fred Wacker,2
+1954,Gordini,Georges Berger,1
+1954,Gordini,Jacques Pollet,2
+1954,Gordini,Jean Behra,8
+1954,Gordini,Paul Frère,3
+1954,Gordini,Roger Loyer,1
+1954,Gordini,Élie Bayol,1
+1954,HWM,Lance Macklin,1
+1954,Klenk,Theo Helfrich,1
+1954,Kurtis Kraft,Andy Linden,1
+1954,Kurtis Kraft,Art Cross,1
+1954,Kurtis Kraft,Bill Homeier,1
+1954,Kurtis Kraft,Bill Vukovich,1
+1954,Kurtis Kraft,Bob Sweikert,1
+1954,Kurtis Kraft,Duane Carter,2
+1954,Kurtis Kraft,Ernie McCoy,1
+1954,Kurtis Kraft,Frank Armi,1
+1954,Kurtis Kraft,Fred Agabashian,1
+1954,Kurtis Kraft,Gene Hartley,1
+1954,Kurtis Kraft,George Fonder,1
+1954,Kurtis Kraft,Jack McGrath,1
+1954,Kurtis Kraft,Jerry Hoyt,2
+1954,Kurtis Kraft,Jim Rathmann,2
+1954,Kurtis Kraft,Jimmy Davies,2
+1954,Kurtis Kraft,Jimmy Daywalt,1
+1954,Kurtis Kraft,Jimmy Jackson,1
+1954,Kurtis Kraft,Johnnie Parsons,2
+1954,Kurtis Kraft,Larry Crockett,1
+1954,Kurtis Kraft,Marshall Teague,2
+1954,Kurtis Kraft,Mike Nazaruk,1
+1954,Kurtis Kraft,Pat Flaherty,1
+1954,Kurtis Kraft,Pat O'Connor,1
+1954,Kurtis Kraft,Paul Russo,1
+1954,Kurtis Kraft,Sam Hanks,2
+1954,Kurtis Kraft,Tony Bettenhausen,2
+1954,Kurtis Kraft,Troy Ruttman,1
+1954,Kuzma,Chuck Stevenson,1
+1954,Kuzma,Jimmy Bryan,1
+1954,Kuzma,Manny Ayulo,1
+1954,Kuzma,Walt Faulkner,1
+1954,Lancia,Alberto Ascari,1
+1954,Lancia,Luigi Villoresi,1
+1954,Maserati,Alberto Ascari,3
+1954,Maserati,Carlos Menditeguy,1
+1954,Maserati,Giovanni de Riu,1
+1954,Maserati,Harry Schell,6
+1954,Maserati,Jorge Daponte,2
+1954,Maserati,Juan Fangio,2
+1954,Maserati,Ken Wharton,5
+1954,Maserati,Louis Rosier,2
+1954,Maserati,Luigi Musso,3
+1954,Maserati,Luigi Villoresi,4
+1954,Maserati,Onofre Marimón,5
+1954,Maserati,Ottorino Volonterio,1
+1954,Maserati,Paco Godia,1
+1954,Maserati,Prince Bira,6
+1954,Maserati,Roberto Mieres,8
+1954,Maserati,Ron Flockhart,1
+1954,Maserati,Roy Salvadori,2
+1954,Maserati,Sergio Mantovani,6
+1954,Maserati,Stirling Moss,6
+1954,Maserati,Toulo de Graffenried,2
+1954,Mercedes,Hans Herrmann,5
+1954,Mercedes,Hermann Lang,1
+1954,Mercedes,Juan Fangio,6
+1954,Mercedes,Karl Kling,6
+1954,Nichels,Andy Linden,1
+1954,Nichels,Jimmy Daywalt,1
+1954,Nichels,Johnny Thomson,1
+1954,Pankratz,Jimmy Reece,1
+1954,Pawl,Eddie Johnson,1
+1954,Pawl,Rodger Ward,1
+1954,Phillips,Don Freeland,1
+1954,Schroeder,Andy Linden,1
+1954,Schroeder,Bob Scott,1
+1954,Schroeder,George Fonder,1
+1954,Schroeder,Len Duncan,1
+1954,Stevens,Bob Scott,1
+1954,Stevens,Cal Niday,1
+1954,Stevens,Ed Elisian,1
+1954,Vanwall,Peter Collins,3
+1955,Arzani-Volpini,Luigi Piotti,1
+1955,Connaught,Jack Fairman,1
+1955,Connaught,Kenneth McAlpine,1
+1955,Connaught,Leslie Marr,1
+1955,Connaught,Peter Walker,1
+1955,Connaught,Tony Rolt,1
+1955,Cooper,Jack Brabham,1
+1955,Epperly,Jim Rathmann,1
+1955,Ferrari,Eugenio Castellotti,4
+1955,Ferrari,Harry Schell,2
+1955,Ferrari,Johnny Claes,1
+1955,Ferrari,José Froilán González,1
+1955,Ferrari,Luigi Villoresi,1
+1955,Ferrari,Maurice Trintignant,8
+1955,Ferrari,Mike Hawthorn,3
+1955,Ferrari,Nino Farina,5
+1955,Ferrari,Paul Frère,2
+1955,Ferrari,Piero Taruffi,2
+1955,Ferrari,Umberto Maglioli,2
+1955,Gordini,Hernando da Silva Ramos,3
+1955,Gordini,Jacques Pollet,3
+1955,Gordini,Jean Lucas,1
+1955,Gordini,Jesús Iglesias,1
+1955,Gordini,Mike Sparken,1
+1955,Gordini,Pablo Birger,1
+1955,Gordini,Robert Manzon,3
+1955,Gordini,Élie Bayol,2
+1955,HWM,Ted Whiteaway,1
+1955,Kurtis Kraft,Al Herman,1
+1955,Kurtis Kraft,Al Keller,1
+1955,Kurtis Kraft,Andy Linden,1
+1955,Kurtis Kraft,Art Cross,1
+1955,Kurtis Kraft,Bill Homeier,1
+1955,Kurtis Kraft,Bill Vukovich,1
+1955,Kurtis Kraft,Bob Sweikert,1
+1955,Kurtis Kraft,Cal Niday,1
+1955,Kurtis Kraft,Chuck Weyant,1
+1955,Kurtis Kraft,Ed Elisian,1
+1955,Kurtis Kraft,Fred Agabashian,1
+1955,Kurtis Kraft,Jack McGrath,1
+1955,Kurtis Kraft,Jimmy Davies,1
+1955,Kurtis Kraft,Jimmy Daywalt,1
+1955,Kurtis Kraft,Johnnie Parsons,1
+1955,Kurtis Kraft,Johnny Boyd,1
+1955,Kurtis Kraft,Pat Flaherty,1
+1955,Kurtis Kraft,Pat O'Connor,1
+1955,Kurtis Kraft,Paul Russo,1
+1955,Kurtis Kraft,Ray Crawford,1
+1955,Kurtis Kraft,Sam Hanks,1
+1955,Kurtis Kraft,Tony Bettenhausen,1
+1955,Kurtis Kraft,Walt Faulkner,1
+1955,Kuzma,Duane Carter,1
+1955,Kuzma,Jimmy Bryan,1
+1955,Kuzma,Johnny Thomson,1
+1955,Kuzma,Rodger Ward,1
+1955,Lancia,Alberto Ascari,2
+1955,Lancia,Eugenio Castellotti,3
+1955,Lancia,Louis Chiron,1
+1955,Lancia,Luigi Villoresi,3
+1955,Maserati,Alberto Uria,1
+1955,Maserati,André Simon,1
+1955,Maserati,Carlos Menditeguy,3
+1955,Maserati,Cesare Perdisa,3
+1955,Maserati,Clemar Bucci,1
+1955,Maserati,Harry Schell,3
+1955,Maserati,Horace Gould,3
+1955,Maserati,Jean Behra,10
+1955,Maserati,John Fitch,1
+1955,Maserati,Johnny Claes,1
+1955,Maserati,Lance Macklin,2
+1955,Maserati,Louis Rosier,3
+1955,Maserati,Luigi Musso,7
+1955,Maserati,Peter Collins,2
+1955,Maserati,Peter Walker,1
+1955,Maserati,Roberto Mieres,6
+1955,Maserati,Roy Salvadori,1
+1955,Maserati,Sergio Mantovani,2
+1955,Mercedes,André Simon,1
+1955,Mercedes,Hans Herrmann,2
+1955,Mercedes,Juan Fangio,6
+1955,Mercedes,Karl Kling,6
+1955,Mercedes,Piero Taruffi,2
+1955,Mercedes,Stirling Moss,7
+1955,Pankratz,Jimmy Reece,1
+1955,Pawl,Eddie Russo,1
+1955,Phillips,Don Freeland,1
+1955,Schroeder,Keith Andrews,1
+1955,Stevens,Jerry Hoyt,1
+1955,Trevis,Eddie Johnson,1
+1955,Trevis,Shorty Templeman,1
+1955,Vanwall,Harry Schell,3
+1955,Vanwall,Ken Wharton,2
+1955,Vanwall,Mike Hawthorn,2
+1956,BRM,Mike Hawthorn,2
+1956,BRM,Ron Flockhart,1
+1956,BRM,Tony Brooks,2
+1956,Bugatti,Maurice Trintignant,1
+1956,Connaught,Archie Scott Brown,1
+1956,Connaught,Desmond Titterington,1
+1956,Connaught,Jack Fairman,2
+1956,Connaught,Les Leston,1
+1956,Connaught,Piero Scotti,1
+1956,Connaught,Ron Flockhart,1
+1956,Cooper,Bob Gerard,1
+1956,Emeryson,Paul Emery,1
+1956,Ferrari,Alfonso de Portago,5
+1956,Ferrari,André Pilette,1
+1956,Ferrari,Eugenio Castellotti,9
+1956,Ferrari,Giorgio Scarlatti,2
+1956,Ferrari,Juan Fangio,10
+1956,Ferrari,Luigi Musso,4
+1956,Ferrari,Olivier Gendebien,2
+1956,Ferrari,Paul Frère,1
+1956,Ferrari,Peter Collins,8
+1956,Ferrari,Wolfgang von Trips,1
+1956,Gordini,André Milhoux,1
+1956,Gordini,André Pilette,3
+1956,Gordini,André Simon,1
+1956,Gordini,Hernando da Silva Ramos,4
+1956,Gordini,Robert Manzon,5
+1956,Gordini,Élie Bayol,1
+1956,Kurtis Kraft,Al Herman,1
+1956,Kurtis Kraft,Al Keller,1
+1956,Kurtis Kraft,Andy Linden,1
+1956,Kurtis Kraft,Bob Christie,1
+1956,Kurtis Kraft,Bob Veith,1
+1956,Kurtis Kraft,Dick Rathmann,1
+1956,Kurtis Kraft,Duke Dinsmore,1
+1956,Kurtis Kraft,Ed Elisian,1
+1956,Kurtis Kraft,Eddie Russo,1
+1956,Kurtis Kraft,Fred Agabashian,1
+1956,Kurtis Kraft,Jack Turner,1
+1956,Kurtis Kraft,Jim Rathmann,1
+1956,Kurtis Kraft,Jimmy Daywalt,1
+1956,Kurtis Kraft,Johnnie Parsons,1
+1956,Kurtis Kraft,Johnnie Tolan,1
+1956,Kurtis Kraft,Johnny Boyd,1
+1956,Kurtis Kraft,Keith Andrews,1
+1956,Kurtis Kraft,Pat O'Connor,1
+1956,Kurtis Kraft,Paul Russo,1
+1956,Kurtis Kraft,Ray Crawford,1
+1956,Kurtis Kraft,Rodger Ward,1
+1956,Kurtis Kraft,Sam Hanks,1
+1956,Kurtis Kraft,Tony Bettenhausen,1
+1956,Kurtis Kraft,Troy Ruttman,1
+1956,Kuzma,Billy Garrett,1
+1956,Kuzma,Bob Sweikert,1
+1956,Kuzma,Eddie Johnson,1
+1956,Kuzma,Gene Hartley,1
+1956,Kuzma,Jimmy Bryan,1
+1956,Kuzma,Johnny Thomson,1
+1956,Lesovsky,Jimmy Reece,1
+1956,Maserati,Alberto Uria,1
+1956,Maserati,André Simon,1
+1956,Maserati,Bruce Halford,3
+1956,Maserati,Carlos Menditeguy,1
+1956,Maserati,Cesare Perdisa,5
+1956,Maserati,Chico Landi,1
+1956,Maserati,Gerino Gerini,2
+1956,Maserati,Harry Schell,1
+1956,Maserati,Hernando da Silva Ramos,1
+1956,Maserati,Horace Gould,4
+1956,Maserati,Jack Brabham,1
+1956,Maserati,Jean Behra,8
+1956,Maserati,Jo Bonnier,1
+1956,Maserati,José Froilán González,1
+1956,Maserati,Louis Chiron,1
+1956,Maserati,Louis Rosier,5
+1956,Maserati,Luigi Piotti,3
+1956,Maserati,Luigi Villoresi,5
+1956,Maserati,Mike Hawthorn,1
+1956,Maserati,Ottorino Volonterio,1
+1956,Maserati,Paco Godia,5
+1956,Maserati,Roy Salvadori,3
+1956,Maserati,Stirling Moss,9
+1956,Maserati,Toulo de Graffenried,1
+1956,Maserati,Umberto Maglioli,3
+1956,Maserati,Óscar González,1
+1956,Phillips,Don Freeland,1
+1956,Stevens,Cliff Griffith,1
+1956,Vanwall,Colin Chapman,1
+1956,Vanwall,Harry Schell,6
+1956,Vanwall,José Froilán González,1
+1956,Vanwall,Maurice Trintignant,4
+1956,Vanwall,Mike Hawthorn,1
+1956,Vanwall,Piero Taruffi,1
+1956,Watson,Pat Flaherty,1
+1957,BRM,Herbert MacKay-Fraser,1
+1957,BRM,Jack Fairman,1
+1957,BRM,Les Leston,1
+1957,BRM,Ron Flockhart,2
+1957,BRM,Roy Salvadori,1
+1957,Connaught,Ivor Bueb,1
+1957,Connaught,Stuart Lewis-Evans,1
+1957,Cooper,Bob Gerard,1
+1957,Cooper,Brian Naylor,1
+1957,Cooper,Dick Gibson,1
+1957,Cooper,Jack Brabham,6
+1957,Cooper,Les Leston,1
+1957,Cooper,Mike MacDowel,1
+1957,Cooper,Paul England,1
+1957,Cooper,Roy Salvadori,3
+1957,Cooper,Tony Marsh,1
+1957,Dunn,Al Herman,1
+1957,Epperly,Jim Rathmann,1
+1957,Epperly,Sam Hanks,1
+1957,Ferrari,Alessandro de Tomaso,1
+1957,Ferrari,Alfonso de Portago,1
+1957,Ferrari,Cesare Perdisa,1
+1957,Ferrari,Eugenio Castellotti,1
+1957,Ferrari,José Froilán González,1
+1957,Ferrari,Luigi Musso,6
+1957,Ferrari,Maurice Trintignant,3
+1957,Ferrari,Mike Hawthorn,7
+1957,Ferrari,Peter Collins,8
+1957,Ferrari,Wolfgang von Trips,3
+1957,Kurtis Kraft,Al Keller,1
+1957,Kurtis Kraft,Andy Linden,1
+1957,Kurtis Kraft,Bill Cheesbourg,1
+1957,Kurtis Kraft,Bob Christie,1
+1957,Kurtis Kraft,Don Edmunds,1
+1957,Kurtis Kraft,Don Freeland,1
+1957,Kurtis Kraft,Ed Elisian,1
+1957,Kurtis Kraft,Eddie Johnson,1
+1957,Kurtis Kraft,Eddie Russo,1
+1957,Kurtis Kraft,Elmer George,1
+1957,Kurtis Kraft,Fred Agabashian,1
+1957,Kurtis Kraft,Jack Turner,1
+1957,Kurtis Kraft,Jimmy Daywalt,1
+1957,Kurtis Kraft,Jimmy Reece,1
+1957,Kurtis Kraft,Johnnie Parsons,1
+1957,Kurtis Kraft,Johnnie Tolan,1
+1957,Kurtis Kraft,Johnny Boyd,1
+1957,Kurtis Kraft,Marshall Teague,1
+1957,Kurtis Kraft,Mike Magill,1
+1957,Kurtis Kraft,Pat O'Connor,1
+1957,Kurtis Kraft,Paul Russo,1
+1957,Kurtis Kraft,Tony Bettenhausen,1
+1957,Kuzma,Chuck Weyant,1
+1957,Kuzma,Eddie Sachs,1
+1957,Kuzma,Jimmy Bryan,1
+1957,Kuzma,Johnny Thomson,1
+1957,Lesovsky,Gene Hartley,1
+1957,Lesovsky,Rodger Ward,1
+1957,Maserati,André Simon,2
+1957,Maserati,Bruce Halford,3
+1957,Maserati,Carlos Menditeguy,4
+1957,Maserati,Giorgio Scarlatti,4
+1957,Maserati,Hans Herrmann,2
+1957,Maserati,Harry Schell,9
+1957,Maserati,Horace Gould,6
+1957,Maserati,Ivor Bueb,1
+1957,Maserati,Jean Behra,6
+1957,Maserati,Jo Bonnier,4
+1957,Maserati,Juan Fangio,7
+1957,Maserati,Luigi Piotti,4
+1957,Maserati,Masten Gregory,4
+1957,Maserati,Ottorino Volonterio,1
+1957,Maserati,Paco Godia,3
+1957,Maserati,Stirling Moss,1
+1957,Phillips,Bob Veith,1
+1957,Porsche,Carel Godin de Beaufort,1
+1957,Porsche,Edgar Barth,1
+1957,Porsche,Umberto Maglioli,1
+1957,Vanwall,Roy Salvadori,1
+1957,Vanwall,Stirling Moss,6
+1957,Vanwall,Stuart Lewis-Evans,5
+1957,Vanwall,Tony Brooks,6
+1957,Watson,Troy Ruttman,1
+1958,BRM,Harry Schell,9
+1958,BRM,Jean Behra,9
+1958,BRM,Jo Bonnier,2
+1958,BRM,Maurice Trintignant,1
+1958,BRM,Ron Flockhart,2
+1958,Connaught,Bernie Ecclestone,1
+1958,Connaught,Bruce Kessler,1
+1958,Connaught,Ivor Bueb,1
+1958,Connaught,Jack Fairman,1
+1958,Connaught,Paul Emery,1
+1958,Cooper,André Guelfi,1
+1958,Cooper,Brian Naylor,1
+1958,Cooper,Bruce McLaren,2
+1958,Cooper,Christian Goethals,1
+1958,Cooper,Dick Gibson,1
+1958,Cooper,François Picard,1
+1958,Cooper,Ian Burgess,2
+1958,Cooper,Jack Brabham,9
+1958,Cooper,Jack Fairman,1
+1958,Cooper,Maurice Trintignant,7
+1958,Cooper,Robert La Caze,1
+1958,Cooper,Ron Flockhart,1
+1958,Cooper,Roy Salvadori,9
+1958,Cooper,Stirling Moss,1
+1958,Cooper,Tom Bridger,1
+1958,Cooper,Tony Marsh,1
+1958,Cooper,Wolfgang Seidel,2
+1958,Dunn,Chuck Weyant,1
+1958,Epperly,George Amick,1
+1958,Epperly,Jim Rathmann,1
+1958,Epperly,Jimmy Bryan,1
+1958,Epperly,Tony Bettenhausen,1
+1958,Ferrari,Luigi Musso,5
+1958,Ferrari,Mike Hawthorn,10
+1958,Ferrari,Olivier Gendebien,3
+1958,Ferrari,Peter Collins,7
+1958,Ferrari,Phil Hill,3
+1958,Ferrari,Wolfgang von Trips,6
+1958,Kurtis Kraft,Al Keller,1
+1958,Kurtis Kraft,Bill Cheesbourg,1
+1958,Kurtis Kraft,Billy Garrett,1
+1958,Kurtis Kraft,Bob Christie,1
+1958,Kurtis Kraft,Bob Veith,1
+1958,Kurtis Kraft,Eddie Johnson,1
+1958,Kurtis Kraft,Jerry Unser,1
+1958,Kurtis Kraft,Johnnie Parsons,1
+1958,Kurtis Kraft,Johnny Boyd,1
+1958,Kurtis Kraft,Johnny Thomson,1
+1958,Kurtis Kraft,Len Sutton,1
+1958,Kurtis Kraft,Mike Magill,1
+1958,Kurtis Kraft,Pat O'Connor,1
+1958,Kurtis Kraft,Paul Goldsmith,1
+1958,Kurtis Kraft,Paul Russo,1
+1958,Kurtis Kraft,Shorty Templeman,1
+1958,Kuzma,Anthony Foyt,1
+1958,Kuzma,Art Bisch,1
+1958,Kuzma,Dempsey Wilson,1
+1958,Kuzma,Eddie Sachs,1
+1958,Kuzma,Johnnie Tolan,1
+1958,Lesovsky,Jack Turner,1
+1958,Lesovsky,Rodger Ward,1
+1958,Maserati,André Testut,1
+1958,Maserati,Carlos Menditeguy,1
+1958,Maserati,Carroll Shelby,5
+1958,Maserati,Cliff Allison,1
+1958,Maserati,Gerino Gerini,5
+1958,Maserati,Giorgio Scarlatti,2
+1958,Maserati,Giulio Cabianca,1
+1958,Maserati,Hans Herrmann,3
+1958,Maserati,Harry Schell,1
+1958,Maserati,Horace Gould,3
+1958,Maserati,Jean Behra,1
+1958,Maserati,Jo Bonnier,7
+1958,Maserati,Juan Fangio,2
+1958,Maserati,Ken Kavanagh,1
+1958,Maserati,Louis Chiron,1
+1958,Maserati,Luigi Taramazzo,1
+1958,Maserati,Maria de Filippis,4
+1958,Maserati,Masten Gregory,4
+1958,Maserati,Maurice Trintignant,1
+1958,Maserati,Paco Godia,4
+1958,Maserati,Phil Hill,1
+1958,Maserati,Troy Ruttman,2
+1958,Maserati,Wolfgang Seidel,1
+1958,OSCA,Giulio Cabianca,1
+1958,OSCA,Luigi Piotti,1
+1958,Phillips,Don Freeland,1
+1958,Porsche,Carel Godin de Beaufort,2
+1958,Porsche,Edgar Barth,1
+1958,Team Lotus,Alan Stacey,1
+1958,Team Lotus,Cliff Allison,8
+1958,Team Lotus,Graham Hill,9
+1958,Team Lotus,Ivor Bueb,1
+1958,Vanwall,Stirling Moss,9
+1958,Vanwall,Stuart Lewis-Evans,8
+1958,Vanwall,Tony Brooks,10
+1958,Watson,Dick Rathmann,1
+1958,Watson,Ed Elisian,1
+1958,Watson,Jimmy Reece,1
+1958,Watson,Jud Larson,1
+1959,Aston Martin,Carroll Shelby,4
+1959,Aston Martin,Roy Salvadori,4
+1959,BRM,Hans Herrmann,1
+1959,BRM,Harry Schell,7
+1959,BRM,Jo Bonnier,7
+1959,BRM,Ron Flockhart,5
+1959,BRM,Stirling Moss,2
+1959,Christensen,Jack Turner,1
+1959,Connaught,Bob Said,1
+1959,Cooper-Borgward,Chris Bristow,1
+1959,Cooper-Borgward,George Constantine,1
+1959,Cooper-Borgward,Ivor Bueb,1
+1959,Cooper-Climax,Alain de Changy,1
+1959,Cooper-Climax,Bill Moss,1
+1959,Cooper-Climax,Bruce McLaren,7
+1959,Cooper-Climax,Giorgio Scarlatti,1
+1959,Cooper-Climax,Harry Schell,1
+1959,Cooper-Climax,Henry Taylor,1
+1959,Cooper-Climax,Ivor Bueb,1
+1959,Cooper-Climax,Jack Brabham,8
+1959,Cooper-Climax,Jack Fairman,1
+1959,Cooper-Climax,Jean Lucienbonnet,1
+1959,Cooper-Climax,Keith Greene,1
+1959,Cooper-Climax,Lucien Bianchi,1
+1959,Cooper-Climax,Masten Gregory,6
+1959,Cooper-Climax,Maurice Trintignant,8
+1959,Cooper-Climax,Mike Taylor,1
+1959,Cooper-Climax,Peter Ashdown,1
+1959,Cooper-Climax,Stirling Moss,6
+1959,Cooper-Climax,Tim Parnell,1
+1959,Cooper-Climax,Trevor Taylor,1
+1959,Cooper-Maserati,Colin Davis,2
+1959,Cooper-Maserati,Hans Herrmann,1
+1959,Cooper-Maserati,Ian Burgess,4
+1959,Cooper-Maserati,Jack Fairman,1
+1959,Cooper-Maserati,Mário de Araújo Cabral,1
+1959,Cooper-Maserati,Roy Salvadori,3
+1959,Cooper-OSCA,Alessandro de Tomaso,1
+1959,Dunn,Al Herman,1
+1959,Elder,Ray Crawford,1
+1959,Epperly,Jimmy Bryan,1
+1959,Epperly,Johnny Boyd,1
+1959,Epperly,Paul Goldsmith,1
+1959,Epperly,Tony Bettenhausen,1
+1959,Ferrari,Cliff Allison,5
+1959,Ferrari,Dan Gurney,4
+1959,Ferrari,Jean Behra,3
+1959,Ferrari,Olivier Gendebien,2
+1959,Ferrari,Phil Hill,7
+1959,Ferrari,Tony Brooks,7
+1959,Ferrari,Wolfgang von Trips,1
+1959,Fry,Mike Parkes,1
+1959,JBW,Brian Naylor,1
+1959,Kurtis Kraft,Bob Christie,1
+1959,Kurtis Kraft,Bobby Grim,1
+1959,Kurtis Kraft,Chuck Arnold,1
+1959,Kurtis Kraft,Chuck Weyant,1
+1959,Kurtis Kraft,Don Freeland,1
+1959,Kurtis Kraft,Duane Carter,1
+1959,Kurtis Kraft,Eddie Johnson,1
+1959,Kurtis Kraft,Jim McWithey,1
+1959,Kurtis Kraft,Jimmy Daywalt,1
+1959,Kurtis Kraft,Jud Larson,1
+1959,Kurtis Kraft,Paul Russo,1
+1959,Kurtis Kraft,Red Amick,1
+1959,Kurtis Kraft,Rodger Ward,1
+1959,Kuzma,Al Keller,1
+1959,Kuzma,Anthony Foyt,1
+1959,Kuzma,Bill Cheesbourg,1
+1959,Kuzma,Eddie Sachs,1
+1959,Kuzma,Gene Hartley,1
+1959,Lesovsky,Johnny Thomson,1
+1959,Lesovsky,Len Sutton,1
+1959,Maserati,André Testut,1
+1959,Maserati,Azdrubal Fontes,1
+1959,Maserati,Carel Godin de Beaufort,1
+1959,Maserati,Fritz d'Orey,2
+1959,Maserati,Giorgio Scarlatti,2
+1959,Maserati,Giulio Cabianca,1
+1959,Maserati,Phil Cade,1
+1959,Moore,Bob Veith,1
+1959,Phillips,Don Branson,1
+1959,Porsche,Carel Godin de Beaufort,1
+1959,Porsche,Harry Blanchard,1
+1959,Porsche,Maria de Filippis,1
+1959,Porsche,Wolfgang von Trips,1
+1959,Sutton,Mike Magill,1
+1959,Team Lotus,Alan Stacey,2
+1959,Team Lotus,Bruce Halford,1
+1959,Team Lotus,David Piper,1
+1959,Team Lotus,Dennis Taylor,1
+1959,Team Lotus,Graham Hill,7
+1959,Team Lotus,Innes Ireland,6
+1959,Team Lotus,Pete Lovely,1
+1959,Tec-Mec,Fritz d'Orey,1
+1959,Vanwall,Tony Brooks,1
+1959,Watson,Dick Rathmann,1
+1959,Watson,Jim Rathmann,1
+1959,Watson,Pat Flaherty,1
+1959,Watson,Rodger Ward,1
+1960,Aston Martin,Maurice Trintignant,1
+1960,Aston Martin,Roy Salvadori,2
+1960,BRM,Dan Gurney,7
+1960,BRM,Graham Hill,8
+1960,BRM,Jo Bonnier,8
+1960,Behra-Porsche,Fred Gamble,1
+1960,Behra-Porsche,Masten Gregory,1
+1960,Christensen,Jim Hurtubise,1
+1960,Cooper-Castellotti,Gino Munaron,3
+1960,Cooper-Castellotti,Giorgio Scarlatti,1
+1960,Cooper-Castellotti,Giulio Cabianca,1
+1960,Cooper-Castellotti,Pete Lovely,1
+1960,Cooper-Climax,Arthur Owen,1
+1960,Cooper-Climax,Bruce Halford,2
+1960,Cooper-Climax,Bruce McLaren,8
+1960,Cooper-Climax,Carel Godin de Beaufort,1
+1960,Cooper-Climax,Chris Bristow,3
+1960,Cooper-Climax,Chuck Daigh,1
+1960,Cooper-Climax,Harry Schell,1
+1960,Cooper-Climax,Henry Taylor,4
+1960,Cooper-Climax,Jack Brabham,8
+1960,Cooper-Climax,Jack Fairman,1
+1960,Cooper-Climax,Lance Reventlow,1
+1960,Cooper-Climax,Lucien Bianchi,3
+1960,Cooper-Climax,Maurice Trintignant,1
+1960,Cooper-Climax,Olivier Gendebien,5
+1960,Cooper-Climax,Phil Hill,1
+1960,Cooper-Climax,Piero Drogo,1
+1960,Cooper-Climax,Ron Flockhart,1
+1960,Cooper-Climax,Roy Salvadori,2
+1960,Cooper-Climax,Stirling Moss,2
+1960,Cooper-Climax,Tony Brooks,6
+1960,Cooper-Climax,Vic Wilson,1
+1960,Cooper-Climax,Wolfgang Seidel,1
+1960,Cooper-Maserati,Alfonso Thiele,1
+1960,Cooper-Maserati,Brian Naylor,1
+1960,Cooper-Maserati,Carlos Menditeguy,1
+1960,Cooper-Maserati,Giorgio Scarlatti,1
+1960,Cooper-Maserati,Ian Burgess,4
+1960,Cooper-Maserati,Keith Greene,1
+1960,Cooper-Maserati,Masten Gregory,5
+1960,Cooper-Maserati,Maurice Trintignant,4
+1960,Cooper-Maserati,Mário de Araújo Cabral,1
+1960,Cooper-Maserati,Roberto Bonomi,1
+1960,Cooper-Maserati,Wolfgang von Trips,1
+1960,Epperly,Jim McWithey,1
+1960,Epperly,Jimmy Bryan,1
+1960,Epperly,Johnny Boyd,1
+1960,Epperly,Paul Goldsmith,1
+1960,Epperly,Red Amick,1
+1960,Epperly,Wayne Weiler,1
+1960,Ewing,Al Herman,1
+1960,Ewing,Eddie Sachs,1
+1960,Ferrari,Cliff Allison,2
+1960,Ferrari,José Froilán González,1
+1960,Ferrari,Phil Hill,8
+1960,Ferrari,Richie Ginther,3
+1960,Ferrari,Willy Mairesse,3
+1960,Ferrari,Wolfgang von Trips,8
+1960,JBW,Brian Naylor,3
+1960,Kurtis Kraft,Anthony Foyt,1
+1960,Kurtis Kraft,Bob Christie,1
+1960,Kurtis Kraft,Dempsey Wilson,1
+1960,Kurtis Kraft,Don Freeland,1
+1960,Kurtis Kraft,Eddie Russo,1
+1960,Kurtis Kraft,Gene Force,1
+1960,Kurtis Kraft,Gene Hartley,1
+1960,Kurtis Kraft,Shorty Templeman,1
+1960,Kuzma,Bill Homeier,1
+1960,Kuzma,Duane Carter,1
+1960,Lesovsky,Johnny Thomson,1
+1960,Maserati,Antonio Creus,1
+1960,Maserati,Bob Drake,1
+1960,Maserati,Ettore Chimeri,1
+1960,Maserati,Gino Munaron,1
+1960,Maserati,Giorgio Scarlatti,1
+1960,Maserati,Horace Gould,1
+1960,Maserati,Nasif Estéfano,1
+1960,Meskowski,Bob Veith,1
+1960,Meskowski,Bobby Grim,1
+1960,Phillips,Don Branson,1
+1960,Porsche,Edgar Barth,1
+1960,Porsche,Hans Herrmann,1
+1960,Scarab,Chuck Daigh,5
+1960,Scarab,Lance Reventlow,3
+1960,Scarab,Richie Ginther,1
+1960,Team Lotus,Alan Stacey,4
+1960,Team Lotus,Alberto Rodriguez Larreta,1
+1960,Team Lotus,David Piper,2
+1960,Team Lotus,Innes Ireland,8
+1960,Team Lotus,Jim Clark,6
+1960,Team Lotus,Jim Hall,1
+1960,Team Lotus,John Surtees,4
+1960,Team Lotus,Mike Taylor,1
+1960,Team Lotus,Ron Flockhart,1
+1960,Team Lotus,Stirling Moss,5
+1960,Trevis,Bud Tingelstad,1
+1960,Trevis,Eddie Johnson,1
+1960,Vanwall,Tony Brooks,1
+1960,Watson,Chuck Stevenson,1
+1960,Watson,Dick Rathmann,1
+1960,Watson,Jim Rathmann,1
+1960,Watson,Len Sutton,1
+1960,Watson,Lloyd Ruby,1
+1960,Watson,Rodger Ward,1
+1960,Watson,Tony Bettenhausen,1
+1960,Watson,Troy Ruttman,1
+1961,BRM,Graham Hill,8
+1961,BRM,Tony Brooks,8
+1961,Cooper-Climax,Alfonso Thiele,1
+1961,Cooper-Climax,Bernard Collomb,2
+1961,Cooper-Climax,Bruce McLaren,8
+1961,Cooper-Climax,Geoff Duke,1
+1961,Cooper-Climax,Hap Sharp,1
+1961,Cooper-Climax,Ian Burgess,1
+1961,Cooper-Climax,Jack Brabham,8
+1961,Cooper-Climax,Jack Fairman,1
+1961,Cooper-Climax,Jackie Lewis,5
+1961,Cooper-Climax,John Campbell-Jones,1
+1961,Cooper-Climax,John Surtees,8
+1961,Cooper-Climax,Masten Gregory,6
+1961,Cooper-Climax,Menato Boffa,1
+1961,Cooper-Climax,Renato Pirocchi,1
+1961,Cooper-Climax,Roger Penske,1
+1961,Cooper-Climax,Roy Salvadori,5
+1961,Cooper-Climax,Walt Hansgen,1
+1961,Cooper-Maserati,Lorenzo Bandini,4
+1961,Cooper-Maserati,Massimo Natili,2
+1961,Cooper-Maserati,Maurice Trintignant,5
+1961,Cooper-Maserati,Renato Pirocchi,1
+1961,De Tomaso-Alfa Romeo,Nino Vaccarella,1
+1961,De Tomaso-Alfa Romeo,Roberto Bussinello,1
+1961,De Tomaso-Osca,Giorgio Scarlatti,1
+1961,De Tomaso-Osca,Roberto Lippi,1
+1961,Emeryson,André Pilette,1
+1961,Emeryson,Lucien Bianchi,1
+1961,Emeryson,Olivier Gendebien,3
+1961,Ferguson,Jack Fairman,1
+1961,Ferguson,Stirling Moss,1
+1961,Ferrari,Giancarlo Baghetti,3
+1961,Ferrari,Olivier Gendebien,1
+1961,Ferrari,Phil Hill,7
+1961,Ferrari,Ricardo Rodríguez,1
+1961,Ferrari,Richie Ginther,7
+1961,Ferrari,Willy Mairesse,1
+1961,Ferrari,Wolfgang von Trips,7
+1961,Gilby,Keith Greene,1
+1961,JBW,Brian Naylor,2
+1961,Lotus-Climax,Cliff Allison,2
+1961,Lotus-Climax,Ernesto Prinoth,1
+1961,Lotus-Climax,Gerry Ashmore,3
+1961,Lotus-Climax,Henry Taylor,5
+1961,Lotus-Climax,Ian Burgess,4
+1961,Lotus-Climax,Innes Ireland,7
+1961,Lotus-Climax,Jim Clark,8
+1961,Lotus-Climax,Jim Hall,1
+1961,Lotus-Climax,Juan Manuel Bordeu,1
+1961,Lotus-Climax,Ken Miles,1
+1961,Lotus-Climax,Lloyd Ruby,1
+1961,Lotus-Climax,Lucien Bianchi,3
+1961,Lotus-Climax,Masten Gregory,3
+1961,Lotus-Climax,Michael May,4
+1961,Lotus-Climax,Olivier Gendebien,1
+1961,Lotus-Climax,Peter Ryan,1
+1961,Lotus-Climax,Stirling Moss,8
+1961,Lotus-Climax,Tim Parnell,2
+1961,Lotus-Climax,Tony Maggs,2
+1961,Lotus-Climax,Tony Marsh,3
+1961,Lotus-Climax,Trevor Taylor,1
+1961,Lotus-Climax,Willy Mairesse,2
+1961,Lotus-Climax,Wolfgang Seidel,5
+1961,Lotus-Maserati,Gaetano Starrabba,1
+1961,MBM,Peter Monteverdi,1
+1961,Porsche,Carel Godin de Beaufort,6
+1961,Porsche,Dan Gurney,8
+1961,Porsche,Edgar Barth,2
+1961,Porsche,Hans Herrmann,4
+1961,Porsche,Jo Bonnier,8
+1962,BRM,Bruce Johnstone,1
+1962,BRM,Gerry Ashmore,1
+1962,BRM,Graham Hill,9
+1962,BRM,Jackie Lewis,2
+1962,BRM,Richie Ginther,9
+1962,BRM,Tony Marsh,4
+1962,Brabham,Jack Brabham,3
+1962,Cooper,Jackie Lewis,1
+1962,Cooper-Alfa Romeo,Mike Harris,1
+1962,Cooper-Climax,Bernard Collomb,1
+1962,Cooper-Climax,Bruce McLaren,9
+1962,Cooper-Climax,Hap Sharp,1
+1962,Cooper-Climax,Ian Burgess,4
+1962,Cooper-Climax,Jackie Lewis,3
+1962,Cooper-Climax,John Love,1
+1962,Cooper-Climax,Timmy Mayer,1
+1962,Cooper-Climax,Tony Maggs,9
+1962,De Tomaso,Nasif Estéfano,1
+1962,De Tomaso-Alfa Romeo,Roberto Bussinello,1
+1962,De Tomaso-Osca,Roberto Lippi,1
+1962,ENB,Lucien Bianchi,1
+1962,Emeryson,John Campbell-Jones,1
+1962,Emeryson,Tony Settember,3
+1962,Emeryson,Wolfgang Seidel,1
+1962,Ferrari,Giancarlo Baghetti,4
+1962,Ferrari,Lorenzo Bandini,3
+1962,Ferrari,Phil Hill,6
+1962,Ferrari,Ricardo Rodríguez,5
+1962,Ferrari,Willy Mairesse,3
+1962,Gilby,Keith Greene,3
+1962,LDS,Doug Serrurier,1
+1962,Lola,John Surtees,9
+1962,Lola,Roy Salvadori,9
+1962,Lotus-BRM,Dan Gurney,1
+1962,Lotus-BRM,Günther Seiffert,1
+1962,Lotus-BRM,Heinz Schiller,1
+1962,Lotus-BRM,Jo Siffert,3
+1962,Lotus-BRM,Masten Gregory,5
+1962,Lotus-BRM,Tony Shelly,1
+1962,Lotus-BRM,Wolfgang Seidel,2
+1962,Lotus-Borgward,Kurt Kuhnke,1
+1962,Lotus-Climax,Carlo Abate,1
+1962,Lotus-Climax,Ernesto Prinoth,1
+1962,Lotus-Climax,Ernie Pieterse,1
+1962,Lotus-Climax,Gary Hocking,1
+1962,Lotus-Climax,Gerry Ashmore,1
+1962,Lotus-Climax,Innes Ireland,8
+1962,Lotus-Climax,Jack Brabham,5
+1962,Lotus-Climax,Jay Chamberlain,3
+1962,Lotus-Climax,Jim Clark,9
+1962,Lotus-Climax,Jim Hall,1
+1962,Lotus-Climax,Jo Siffert,3
+1962,Lotus-Climax,John Campbell-Jones,1
+1962,Lotus-Climax,Keith Greene,1
+1962,Lotus-Climax,Lucien Bianchi,1
+1962,Lotus-Climax,Masten Gregory,2
+1962,Lotus-Climax,Maurice Trintignant,8
+1962,Lotus-Climax,Neville Lederle,1
+1962,Lotus-Climax,Nino Vaccarella,2
+1962,Lotus-Climax,Rob Schroeder,1
+1962,Lotus-Climax,Roger Penske,1
+1962,Lotus-Climax,Sam Tingle,1
+1962,Lotus-Climax,Syd van der Vyver,1
+1962,Lotus-Climax,Tony Shelly,2
+1962,Lotus-Climax,Trevor Taylor,9
+1962,Porsche,Ben Pon,1
+1962,Porsche,Carel Godin de Beaufort,9
+1962,Porsche,Colin Davis,1
+1962,Porsche,Dan Gurney,7
+1962,Porsche,Heini Walter,1
+1962,Porsche,Heinz Schiller,1
+1962,Porsche,Jo Bonnier,8
+1962,Porsche,Nino Vaccarella,1
+1962,Porsche,Rob Slotemaker,1
+1962,Team Lotus,Peter Arundell,1
+1963,ATS,Giancarlo Baghetti,9
+1963,ATS,Phil Hill,8
+1963,Alfa Romeo,Peter de Klerk,1
+1963,BRM,Graham Hill,10
+1963,BRM,Lorenzo Bandini,5
+1963,BRM,Maurice Trintignant,1
+1963,BRM,Moisés Solana,1
+1963,BRM,Richie Ginther,10
+1963,BRP,Innes Ireland,5
+1963,Brabham,Dan Gurney,10
+1963,Brabham,David Prophet,1
+1963,Brabham,Jack Brabham,9
+1963,Cooper-Climax,Bruce McLaren,10
+1963,Cooper-Climax,Frank Dochnal,1
+1963,Cooper-Climax,Jo Bonnier,10
+1963,Cooper-Climax,John Love,1
+1963,Cooper-Climax,Mário de Araújo Cabral,2
+1963,Cooper-Climax,Tony Maggs,10
+1963,Cooper-Maserati,Ernesto Brambilla,1
+1963,Cooper-Maserati,Trevor Blokdyk,1
+1963,De Tomaso,Nasif Estéfano,3
+1963,De Tomaso-Ferrari,Roberto Lippi,1
+1963,Ferrari,John Surtees,10
+1963,Ferrari,Lorenzo Bandini,4
+1963,Ferrari,Ludovico Scarfiotti,3
+1963,Ferrari,Willy Mairesse,3
+1963,Gilby,Ian Raby,3
+1963,LDS,Doug Serrurier,1
+1963,LDS,Sam Tingle,1
+1963,Lola,Bob Anderson,2
+1963,Lola,Chris Amon,7
+1963,Lola,John Campbell-Jones,1
+1963,Lola,Lucien Bianchi,1
+1963,Lola,Masten Gregory,2
+1963,Lola,Maurice Trintignant,1
+1963,Lola,Mike Hailwood,2
+1963,Lotus-BRM,Chris Amon,1
+1963,Lotus-BRM,Günther Seiffert,1
+1963,Lotus-BRM,Hap Sharp,2
+1963,Lotus-BRM,Innes Ireland,4
+1963,Lotus-BRM,Jim Hall,9
+1963,Lotus-BRM,Jo Siffert,9
+1963,Lotus-BRM,John Campbell-Jones,1
+1963,Lotus-BRM,Masten Gregory,4
+1963,Lotus-BRM,Paddy Driver,1
+1963,Lotus-BRM,Phil Hill,1
+1963,Lotus-BRM,Rodger Ward,1
+1963,Lotus-Borgward,Kurt Kuhnke,1
+1963,Lotus-Climax,André Pilette,2
+1963,Lotus-Climax,Bernard Collomb,2
+1963,Lotus-Climax,Ernie Pieterse,1
+1963,Lotus-Climax,Jack Brabham,1
+1963,Lotus-Climax,Jim Clark,10
+1963,Lotus-Climax,Maurice Trintignant,1
+1963,Lotus-Climax,Mike Hailwood,1
+1963,Lotus-Climax,Mike Spence,1
+1963,Lotus-Climax,Neville Lederle,1
+1963,Lotus-Climax,Pedro Rodríguez,2
+1963,Lotus-Climax,Peter Arundell,2
+1963,Lotus-Climax,Thomas Monarch,1
+1963,Lotus-Climax,Tim Parnell,1
+1963,Lotus-Climax,Trevor Taylor,9
+1963,Lotus-Climax,Walt Hansgen,1
+1963,Lotus-Ford,Brausch Niemann,1
+1963,Lotus-Maserati,Gaetano Starrabba,1
+1963,Porsche,Carel Godin de Beaufort,9
+1963,Porsche,Carlo Abate,1
+1963,Porsche,Gerhard Mitter,3
+1963,Scirocco,Ian Burgess,7
+1963,Scirocco,Tony Settember,7
+1963,Stebro,Ernie de Vos,1
+1963,Stebro,Peter Broeker,1
+1963,Team Lotus,Walt Hansgen,1
+1964,BRM,Giancarlo Baghetti,7
+1964,BRM,Graham Hill,10
+1964,BRM,Maurice Trintignant,5
+1964,BRM,Richard Attwood,1
+1964,BRM,Richie Ginther,10
+1964,BRM,Tony Maggs,5
+1964,BRP,Innes Ireland,7
+1964,BRP,Trevor Taylor,7
+1964,Brabham-BRM,Giacomo Russo,1
+1964,Brabham-BRM,Hap Sharp,2
+1964,Brabham-BRM,Ian Raby,2
+1964,Brabham-BRM,Jo Bonnier,3
+1964,Brabham-BRM,Jo Siffert,8
+1964,Brabham-BRM,Jochen Rindt,1
+1964,Brabham-Climax,Bob Anderson,7
+1964,Brabham-Climax,Dan Gurney,10
+1964,Brabham-Climax,Jack Brabham,10
+1964,Brabham-Climax,Jo Bonnier,5
+1964,Brabham-Climax,Jo Siffert,1
+1964,Brabham-Ford,Frank Gardner,1
+1964,Cooper-Climax,Bruce McLaren,10
+1964,Cooper-Climax,Edgar Barth,1
+1964,Cooper-Climax,Jo Bonnier,1
+1964,Cooper-Climax,John Love,1
+1964,Cooper-Climax,John Taylor,1
+1964,Cooper-Climax,Phil Hill,9
+1964,Derrington,Mário de Araújo Cabral,1
+1964,Ferrari,John Surtees,10
+1964,Ferrari,Lorenzo Bandini,10
+1964,Ferrari,Ludovico Scarfiotti,1
+1964,Ferrari,Pedro Rodríguez,1
+1964,Honda,Ronnie Bucknum,3
+1964,Lotus-BRM,Bernard Collomb,1
+1964,Lotus-BRM,Chris Amon,8
+1964,Lotus-BRM,Innes Ireland,1
+1964,Lotus-BRM,Jo Siffert,1
+1964,Lotus-BRM,Mike Hailwood,9
+1964,Lotus-BRM,Peter Revson,4
+1964,Lotus-BRM,Trevor Taylor,1
+1964,Lotus-Climax,Chris Amon,1
+1964,Lotus-Climax,Gerhard Mitter,1
+1964,Lotus-Climax,Jim Clark,11
+1964,Lotus-Climax,Mike Spence,6
+1964,Lotus-Climax,Moisés Solana,1
+1964,Lotus-Climax,Peter Arundell,4
+1964,Lotus-Climax,Peter Revson,1
+1964,Lotus-Climax,Walt Hansgen,1
+1964,Porsche,Carel Godin de Beaufort,1
+1964,Scirocco,André Pilette,3
+1965,Alfa Romeo,Peter de Klerk,1
+1965,BRM,Giorgio Bassi,1
+1965,BRM,Graham Hill,10
+1965,BRM,Jackie Stewart,10
+1965,BRM,Lucien Bianchi,1
+1965,BRM,Masten Gregory,4
+1965,BRM,Roberto Bussinello,2
+1965,Brabham-BRM,Frank Gardner,7
+1965,Brabham-BRM,Ian Raby,1
+1965,Brabham-BRM,Jo Siffert,10
+1965,Brabham-Climax,Bob Anderson,5
+1965,Brabham-Climax,Dan Gurney,9
+1965,Brabham-Climax,Denny Hulme,6
+1965,Brabham-Climax,Giancarlo Baghetti,1
+1965,Brabham-Climax,Ian Raby,1
+1965,Brabham-Climax,Jack Brabham,7
+1965,Brabham-Climax,Jo Bonnier,10
+1965,Brabham-Ford,David Prophet,1
+1965,Brabham-Ford,Paul Hawkins,1
+1965,Cooper-Climax,Alex Blignaut,1
+1965,Cooper-Climax,Bruce McLaren,10
+1965,Cooper-Climax,Jochen Rindt,10
+1965,Cooper-Climax,John Love,1
+1965,Cooper-Climax,John Rhodes,1
+1965,Cooper-Ford,Alan Rollinson,1
+1965,Cooper-Ford,Trevor Blokdyk,1
+1965,Cooper-Maserati,David Clapham,1
+1965,Ferrari,Bob Bondurant,1
+1965,Ferrari,John Surtees,8
+1965,Ferrari,Lorenzo Bandini,10
+1965,Ferrari,Ludovico Scarfiotti,1
+1965,Ferrari,Nino Vaccarella,1
+1965,Ferrari,Pedro Rodríguez,2
+1965,Honda,Richie Ginther,8
+1965,Honda,Ronnie Bucknum,6
+1965,LDS-Alfa Romeo,Jackie Pretorius,1
+1965,LDS-Alfa Romeo,Sam Tingle,1
+1965,LDS-Climax,Doug Serrurier,1
+1965,Lotus-BRM,Bob Bondurant,1
+1965,Lotus-BRM,Chris Amon,2
+1965,Lotus-BRM,Innes Ireland,7
+1965,Lotus-BRM,Mike Hailwood,1
+1965,Lotus-BRM,Richard Attwood,8
+1965,Lotus-BRM,Tony Maggs,1
+1965,Lotus-Climax,Brian Gubby,1
+1965,Lotus-Climax,Clive Puzey,1
+1965,Lotus-Climax,Ernie Pieterse,1
+1965,Lotus-Climax,Gerhard Mitter,1
+1965,Lotus-Climax,Giacomo Russo,1
+1965,Lotus-Climax,Jim Clark,9
+1965,Lotus-Climax,Mike Spence,9
+1965,Lotus-Climax,Moisés Solana,2
+1965,Lotus-Climax,Neville Lederle,1
+1965,Lotus-Climax,Paul Hawkins,2
+1965,Lotus-Ford,Brausch Niemann,1
+1965,Lotus-Ford,Dave Charlton,1
+1965,RE,Ray Reed,1
+1966,BRM,Bob Bondurant,5
+1966,BRM,Graham Hill,9
+1966,BRM,Innes Ireland,2
+1966,BRM,Jackie Stewart,8
+1966,BRM,Vic Wilson,1
+1966,Brabham-BRM,Chris Amon,1
+1966,Brabham-BRM,Jo Siffert,1
+1966,Brabham-BRM,John Taylor,4
+1966,Brabham-Climax,Bob Anderson,6
+1966,Brabham-Climax,Chris Irwin,1
+1966,Brabham-Climax,Denny Hulme,2
+1966,Brabham-Climax,Jo Bonnier,2
+1966,Brabham-Repco,Denny Hulme,7
+1966,Brabham-Repco,Jack Brabham,9
+1966,Cooper-Ferrari,Chris Lawrence,2
+1966,Cooper-Maserati,Chris Amon,1
+1966,Cooper-Maserati,Guy Ligier,6
+1966,Cooper-Maserati,Jo Bonnier,7
+1966,Cooper-Maserati,Jo Siffert,7
+1966,Cooper-Maserati,Jochen Rindt,9
+1966,Cooper-Maserati,John Surtees,7
+1966,Cooper-Maserati,Moisés Solana,1
+1966,Cooper-Maserati,Richie Ginther,2
+1966,Eagle-Climax,Bob Bondurant,1
+1966,Eagle-Climax,Dan Gurney,6
+1966,Eagle-Climax,Phil Hill,1
+1966,Eagle-Weslake,Bob Bondurant,1
+1966,Eagle-Weslake,Dan Gurney,2
+1966,Ferrari,Giancarlo Baghetti,1
+1966,Ferrari,John Surtees,2
+1966,Ferrari,Lorenzo Bandini,7
+1966,Ferrari,Ludovico Scarfiotti,2
+1966,Ferrari,Mike Parkes,4
+1966,Honda,Richie Ginther,3
+1966,Honda,Ronnie Bucknum,2
+1966,Lotus-BRM,Jim Clark,3
+1966,Lotus-BRM,Mike Spence,8
+1966,Lotus-BRM,Pedro Rodríguez,2
+1966,Lotus-BRM,Peter Arundell,7
+1966,Lotus-Climax,Giacomo Russo,1
+1966,Lotus-Climax,Jim Clark,5
+1966,Lotus-Climax,Pedro Rodríguez,1
+1966,Lotus-Climax,Peter Arundell,1
+1966,McLaren-Ford,Bruce McLaren,3
+1966,McLaren-Serenissima,Bruce McLaren,2
+1966,Shannon,Trevor Taylor,1
+1967,BRM,Chris Irwin,8
+1967,BRM,David Hobbs,2
+1967,BRM,Jackie Stewart,11
+1967,BRM,Mike Spence,11
+1967,BRM,Piers Courage,2
+1967,Brabham-Climax,Bob Anderson,6
+1967,Brabham-Climax,Dave Charlton,1
+1967,Brabham-Climax,Luki Botha,1
+1967,Brabham-Ford,Alan Rees,1
+1967,Brabham-Repco,Denny Hulme,11
+1967,Brabham-Repco,Guy Ligier,5
+1967,Brabham-Repco,Jack Brabham,11
+1967,Cooper-ATS,Silvio Moser,1
+1967,Cooper-Climax,John Love,1
+1967,Cooper-Climax,Tom Jones,1
+1967,Cooper-Maserati,Alan Rees,1
+1967,Cooper-Maserati,Guy Ligier,2
+1967,Cooper-Maserati,Jacky Ickx,2
+1967,Cooper-Maserati,Jo Bonnier,8
+1967,Cooper-Maserati,Jo Siffert,10
+1967,Cooper-Maserati,Jochen Rindt,10
+1967,Cooper-Maserati,Pedro Rodríguez,8
+1967,Cooper-Maserati,Richard Attwood,1
+1967,Eagle-Climax,Al Pease,1
+1967,Eagle-Climax,Dan Gurney,2
+1967,Eagle-Climax,Richie Ginther,1
+1967,Eagle-Weslake,Bruce McLaren,3
+1967,Eagle-Weslake,Dan Gurney,9
+1967,Eagle-Weslake,Ludovico Scarfiotti,1
+1967,Ferrari,Chris Amon,10
+1967,Ferrari,Jonathan Williams,1
+1967,Ferrari,Lorenzo Bandini,1
+1967,Ferrari,Ludovico Scarfiotti,2
+1967,Ferrari,Mike Parkes,2
+1967,Honda,John Surtees,9
+1967,LDS-Climax,Sam Tingle,1
+1967,Lola,David Hobbs,1
+1967,Lola,Hubert Hahne,1
+1967,Lotus-BRM,Chris Irwin,1
+1967,Lotus-BRM,Graham Hill,2
+1967,Lotus-BRM,Jim Clark,1
+1967,Lotus-BRM,Mike Fisher,2
+1967,Lotus-BRM,Moisés Solana,1
+1967,Lotus-BRM,Piers Courage,1
+1967,Lotus-Climax,Jim Clark,1
+1967,Lotus-Ford,Eppie Wietzes,1
+1967,Lotus-Ford,Giancarlo Baghetti,1
+1967,Lotus-Ford,Graham Hill,9
+1967,Lotus-Ford,Jackie Oliver,1
+1967,Lotus-Ford,Jim Clark,9
+1967,Lotus-Ford,Moisés Solana,1
+1967,Matra,Jacky Ickx,1
+1967,Matra,Jean-Pierre Beltoise,1
+1967,Matra,Jo Schlesser,1
+1967,Matra,Johnny Servoz-Gavin,1
+1967,McLaren-BRM,Bruce McLaren,6
+1967,McLaren-Ford,Jean-Pierre Beltoise,2
+1967,Protos,Brian Hart,1
+1967,Protos,Kurt Ahrens,1
+1968,BRM,Bobby Unser,1
+1968,BRM,Frank Gardner,1
+1968,BRM,Mike Spence,1
+1968,BRM,Pedro Rodríguez,12
+1968,BRM,Piers Courage,11
+1968,BRM,Richard Attwood,6
+1968,Brabham-Climax,Jackie Pretorius,1
+1968,Brabham-Repco,Dan Gurney,1
+1968,Brabham-Repco,Dave Charlton,1
+1968,Brabham-Repco,Jack Brabham,12
+1968,Brabham-Repco,Jochen Rindt,12
+1968,Brabham-Repco,John Love,1
+1968,Brabham-Repco,Kurt Ahrens,1
+1968,Brabham-Repco,Silvio Moser,4
+1968,Cooper-BRM,Brian Redman,2
+1968,Cooper-BRM,Johnny Servoz-Gavin,1
+1968,Cooper-BRM,Lucien Bianchi,7
+1968,Cooper-BRM,Ludovico Scarfiotti,3
+1968,Cooper-BRM,Robin Widdows,1
+1968,Cooper-BRM,Vic Elford,7
+1968,Cooper-Climax,Basil van Rooyen,1
+1968,Cooper-Maserati,Brian Redman,1
+1968,Cooper-Maserati,Jo Bonnier,1
+1968,Cooper-Maserati,Jo Siffert,1
+1968,Eagle-Weslake,Dan Gurney,5
+1968,Ferrari,Andrea de Adamich,1
+1968,Ferrari,Chris Amon,11
+1968,Ferrari,Derek Bell,2
+1968,Ferrari,Jacky Ickx,10
+1968,Honda,David Hobbs,1
+1968,Honda,Jo Bonnier,1
+1968,Honda,Jo Schlesser,1
+1968,Honda,John Surtees,12
+1968,LDS,Sam Tingle,1
+1968,Lola,Hubert Hahne,1
+1968,Lotus-Ford,Bill Brack,1
+1968,Lotus-Ford,Graham Hill,12
+1968,Lotus-Ford,Jackie Oliver,9
+1968,Lotus-Ford,Jim Clark,1
+1968,Lotus-Ford,Jo Siffert,11
+1968,Lotus-Ford,Mario Andretti,1
+1968,Lotus-Ford,Moisés Solana,1
+1968,Matra,Henri Pescarolo,2
+1968,Matra,Jean-Pierre Beltoise,10
+1968,Matra-Ford,Jackie Stewart,10
+1968,Matra-Ford,Jean-Pierre Beltoise,2
+1968,Matra-Ford,Johnny Servoz-Gavin,4
+1968,McLaren,Bruce McLaren,1
+1968,McLaren,Denny Hulme,1
+1968,McLaren-BRM,Denny Hulme,1
+1968,McLaren-BRM,Jo Bonnier,7
+1968,McLaren-Ford,Bruce McLaren,10
+1968,McLaren-Ford,Dan Gurney,3
+1968,McLaren-Ford,Denny Hulme,10
+1969,BRM,Bill Brack,1
+1969,BRM,George Eaton,2
+1969,BRM,Jackie Oliver,9
+1969,BRM,John Surtees,10
+1969,BRM,Pedro Rodríguez,3
+1969,BRM-Ford,Jackie Oliver,1
+1969,Brabham-Climax,John Cordts,1
+1969,Brabham-Ford,Jack Brabham,8
+1969,Brabham-Ford,Jacky Ickx,11
+1969,Brabham-Ford,Piers Courage,10
+1969,Brabham-Ford,Silvio Moser,7
+1969,Brabham-Repco,Peter de Klerk,1
+1969,Brabham-Repco,Sam Tingle,1
+1969,Cooper-Maserati,Vic Elford,1
+1969,Eagle-Climax,Al Pease,1
+1969,Ferrari,Chris Amon,6
+1969,Ferrari,Pedro Rodríguez,5
+1969,Lotus-Ford,Graham Hill,10
+1969,Lotus-Ford,Jo Bonnier,2
+1969,Lotus-Ford,Jo Siffert,11
+1969,Lotus-Ford,Jochen Rindt,10
+1969,Lotus-Ford,John Love,1
+1969,Lotus-Ford,John Miles,5
+1969,Lotus-Ford,Mario Andretti,3
+1969,Lotus-Ford,Pete Lovely,3
+1969,Lotus-Ford,Richard Attwood,1
+1969,Matra-Ford,Jackie Stewart,11
+1969,Matra-Ford,Jean-Pierre Beltoise,10
+1969,Matra-Ford,Johnny Servoz-Gavin,3
+1969,McLaren-Ford,Basil van Rooyen,1
+1969,McLaren-Ford,Bruce McLaren,11
+1969,McLaren-Ford,Denny Hulme,11
+1969,McLaren-Ford,Derek Bell,1
+1969,McLaren-Ford,Jean-Pierre Beltoise,1
+1969,McLaren-Ford,Vic Elford,4
+1970,BRM,George Eaton,10
+1970,BRM,Jackie Oliver,13
+1970,BRM,Pedro Rodríguez,13
+1970,BRM,Peter Westbury,1
+1970,Bellasi,Silvio Moser,5
+1970,Brabham,Derek Bell,1
+1970,Brabham,Gus Hutchison,1
+1970,Brabham,Jack Brabham,13
+1970,Brabham,Peter de Klerk,1
+1970,Brabham,Rolf Stommelen,12
+1970,De Tomaso,Brian Redman,1
+1970,De Tomaso,Piers Courage,5
+1970,De Tomaso,Tim Schenken,4
+1970,Ferrari,Clay Regazzoni,8
+1970,Ferrari,Ignazio Giunti,4
+1970,Ferrari,Jacky Ickx,13
+1970,March,Chris Amon,13
+1970,March,François Cevert,9
+1970,March,Hubert Hahne,1
+1970,March,Jackie Stewart,10
+1970,March,Jo Siffert,13
+1970,March,Johnny Servoz-Gavin,3
+1970,March,Mario Andretti,5
+1970,March,Ronnie Peterson,9
+1970,Matra,Henri Pescarolo,13
+1970,Matra,Jean-Pierre Beltoise,13
+1970,McLaren-Alfa Romeo,Andrea de Adamich,10
+1970,McLaren-Alfa Romeo,Nanni Galli,1
+1970,McLaren-Ford,Bruce McLaren,3
+1970,McLaren-Ford,Dan Gurney,3
+1970,McLaren-Ford,Denny Hulme,11
+1970,McLaren-Ford,Jo Bonnier,2
+1970,McLaren-Ford,John Surtees,4
+1970,McLaren-Ford,Peter Gethin,7
+1970,Surtees,Derek Bell,1
+1970,Surtees,John Surtees,7
+1970,Team Lotus,Alex Soler-Roig,2
+1970,Team Lotus,Dave Charlton,1
+1970,Team Lotus,Emerson Fittipaldi,6
+1970,Team Lotus,Graham Hill,12
+1970,Team Lotus,Jochen Rindt,10
+1970,Team Lotus,John Love,1
+1970,Team Lotus,John Miles,10
+1970,Team Lotus,Pete Lovely,4
+1970,Team Lotus,Reine Wisell,2
+1970,Tyrrell,Jackie Stewart,3
+1971,BRM,George Eaton,1
+1971,BRM,Helmut Marko,4
+1971,BRM,Howden Ganley,11
+1971,BRM,Jo Siffert,11
+1971,BRM,John Cannon,1
+1971,BRM,Pedro Rodríguez,5
+1971,BRM,Peter Gethin,4
+1971,BRM,Vic Elford,1
+1971,Bellasi,Silvio Moser,1
+1971,Brabham,Chris Craft,2
+1971,Brabham,Dave Charlton,1
+1971,Brabham,Graham Hill,11
+1971,Brabham,Jackie Pretorius,1
+1971,Brabham,Tim Schenken,10
+1971,Ferrari,Clay Regazzoni,11
+1971,Ferrari,Jacky Ickx,11
+1971,Ferrari,Mario Andretti,6
+1971,Lotus-Ford,Dave Charlton,1
+1971,Lotus-Ford,Emerson Fittipaldi,9
+1971,Lotus-Ford,Pete Lovely,2
+1971,Lotus-Ford,Reine Wisell,9
+1971,Lotus-Pratt &amp; Whitney,David Walker,1
+1971,Lotus-Pratt &amp; Whitney,Emerson Fittipaldi,1
+1971,Lotus-Pratt &amp; Whitney,Reine Wisell,1
+1971,March-Alfa Romeo,Andrea de Adamich,7
+1971,March-Alfa Romeo,Nanni Galli,2
+1971,March-Alfa Romeo,Ronnie Peterson,1
+1971,March-Ford,Alex Soler-Roig,5
+1971,March-Ford,François Mazet,1
+1971,March-Ford,Henri Pescarolo,10
+1971,March-Ford,Jean-Pierre Jarier,1
+1971,March-Ford,John Love,1
+1971,March-Ford,Max Jean,1
+1971,March-Ford,Mike Beuttler,5
+1971,March-Ford,Nanni Galli,4
+1971,March-Ford,Niki Lauda,1
+1971,March-Ford,Ronnie Peterson,10
+1971,March-Ford,Skip Barber,4
+1971,Matra,Chris Amon,10
+1971,Matra,Jean-Pierre Beltoise,7
+1971,McLaren,David Hobbs,1
+1971,McLaren,Denny Hulme,10
+1971,McLaren,Jackie Oliver,3
+1971,McLaren,Jo Bonnier,5
+1971,McLaren,Mark Donohue,1
+1971,McLaren,Peter Gethin,7
+1971,Surtees,Brian Redman,1
+1971,Surtees,Derek Bell,1
+1971,Surtees,Gijs van Lennep,1
+1971,Surtees,John Surtees,11
+1971,Surtees,Mike Hailwood,2
+1971,Surtees,Rolf Stommelen,10
+1971,Surtees,Sam Posey,1
+1971,Tyrrell,François Cevert,11
+1971,Tyrrell,Jackie Stewart,11
+1971,Tyrrell,Peter Revson,1
+1972,BRM,Alex Soler-Roig,2
+1972,BRM,Bill Brack,1
+1972,BRM,Brian Redman,1
+1972,BRM,Helmut Marko,5
+1972,BRM,Howden Ganley,10
+1972,BRM,Jackie Oliver,1
+1972,BRM,Jean-Pierre Beltoise,11
+1972,BRM,Peter Gethin,10
+1972,BRM,Reine Wisell,6
+1972,Brabham,Carlos Reutemann,10
+1972,Brabham,Graham Hill,12
+1972,Brabham,Wilson Fittipaldi,10
+1972,Connew,François Migault,1
+1972,Ferrari,Arturo Merzario,2
+1972,Ferrari,Clay Regazzoni,10
+1972,Ferrari,Jacky Ickx,12
+1972,Ferrari,Mario Andretti,5
+1972,Ferrari,Nanni Galli,1
+1972,March,Carlos Pace,11
+1972,March,Henri Pescarolo,9
+1972,March,Mike Beuttler,10
+1972,March,Niki Lauda,12
+1972,March,Rolf Stommelen,8
+1972,March,Ronnie Peterson,12
+1972,March,Skip Barber,2
+1972,Matra,Chris Amon,12
+1972,McLaren,Brian Redman,3
+1972,McLaren,Denny Hulme,12
+1972,McLaren,Jody Scheckter,1
+1972,McLaren,Peter Revson,9
+1972,Politoys,Henri Pescarolo,1
+1972,Surtees,Andrea de Adamich,12
+1972,Surtees,John Love,1
+1972,Surtees,John Surtees,1
+1972,Surtees,Mike Hailwood,10
+1972,Surtees,Sam Posey,1
+1972,Surtees,Tim Schenken,12
+1972,Team Lotus,Dave Charlton,4
+1972,Team Lotus,David Walker,10
+1972,Team Lotus,Emerson Fittipaldi,12
+1972,Team Lotus,Reine Wisell,2
+1972,Tecno,Derek Bell,3
+1972,Tecno,Nanni Galli,4
+1972,Tyrrell,François Cevert,12
+1972,Tyrrell,Jackie Stewart,11
+1972,Tyrrell,Patrick Depailler,2
+1973,BRM,Clay Regazzoni,14
+1973,BRM,Jean-Pierre Beltoise,15
+1973,BRM,Niki Lauda,14
+1973,BRM,Peter Gethin,1
+1973,Brabham,Andrea de Adamich,5
+1973,Brabham,Carlos Reutemann,15
+1973,Brabham,John Watson,2
+1973,Brabham,Rolf Stommelen,4
+1973,Brabham,Wilson Fittipaldi,15
+1973,Ensign,Rikky von Opel,7
+1973,Ferrari,Arturo Merzario,9
+1973,Ferrari,Jacky Ickx,10
+1973,Iso Marlboro,Gijs van Lennep,3
+1973,Iso Marlboro,Graham McRae,1
+1973,Iso Marlboro,Henri Pescarolo,2
+1973,Iso Marlboro,Howden Ganley,14
+1973,Iso Marlboro,Jackie Pretorius,1
+1973,Iso Marlboro,Jacky Ickx,1
+1973,Iso Marlboro,Nanni Galli,5
+1973,Iso Marlboro,Tim Schenken,1
+1973,March,David Purley,5
+1973,March,Henri Pescarolo,1
+1973,March,James Hunt,8
+1973,March,Jean-Pierre Jarier,10
+1973,March,Mike Beuttler,14
+1973,March,Reine Wisell,2
+1973,March,Roger Williamson,2
+1973,McLaren,Denny Hulme,15
+1973,McLaren,Jacky Ickx,1
+1973,McLaren,Jody Scheckter,5
+1973,McLaren,Peter Revson,14
+1973,Shadow,Brian Redman,1
+1973,Shadow,George Follmer,12
+1973,Shadow,Graham Hill,12
+1973,Shadow,Jackie Oliver,13
+1973,Surtees,Andrea de Adamich,1
+1973,Surtees,Carlos Pace,15
+1973,Surtees,Jochen Mass,3
+1973,Surtees,Luiz Bueno,1
+1973,Surtees,Mike Hailwood,15
+1973,Team Lotus,Dave Charlton,1
+1973,Team Lotus,Emerson Fittipaldi,15
+1973,Team Lotus,Ronnie Peterson,15
+1973,Tecno,Chris Amon,4
+1973,Tyrrell,Chris Amon,2
+1973,Tyrrell,Eddie Keizan,1
+1973,Tyrrell,François Cevert,15
+1973,Tyrrell,Jackie Stewart,15
+1974,Amon,Chris Amon,4
+1974,Amon,Larry Perkins,1
+1974,BRM,Chris Amon,2
+1974,BRM,François Migault,11
+1974,BRM,Henri Pescarolo,12
+1974,BRM,Jean-Pierre Beltoise,15
+1974,Brabham,Carlo Facetti,1
+1974,Brabham,Carlos Pace,7
+1974,Brabham,Carlos Reutemann,15
+1974,Brabham,Eppie Wietzes,1
+1974,Brabham,Gérard Larrousse,2
+1974,Brabham,Helmuth Koinigg,1
+1974,Brabham,Ian Ashley,2
+1974,Brabham,John Watson,15
+1974,Brabham,Lella Lombardi,1
+1974,Brabham,Richard Robarts,3
+1974,Brabham,Rikky von Opel,6
+1974,Brabham,Teddy Pilette,1
+1974,Ensign,Mike Wilds,4
+1974,Ensign,Vern Schuppan,7
+1974,Ferrari,Clay Regazzoni,15
+1974,Ferrari,Niki Lauda,15
+1974,Hesketh,Ian Scheckter,1
+1974,Hesketh,James Hunt,13
+1974,Iso Marlboro,Arturo Merzario,14
+1974,Iso Marlboro,Gijs van Lennep,2
+1974,Iso Marlboro,Jacques Laffite,5
+1974,Iso Marlboro,Jean-Pierre Jabouille,1
+1974,Iso Marlboro,Richard Robarts,1
+1974,Iso Marlboro,Tom Belsø,4
+1974,Lola,Graham Hill,15
+1974,Lola,Guy Edwards,9
+1974,Lola,Peter Gethin,1
+1974,Lola,Rolf Stommelen,4
+1974,Lyncar,John Nicholson,1
+1974,Maki,Howden Ganley,2
+1974,March,Hans-Joachim Stuck,14
+1974,March,Howden Ganley,2
+1974,March,James Hunt,2
+1974,March,Mike Wilds,1
+1974,March,Reine Wisell,1
+1974,March,Vittorio Brambilla,12
+1974,McLaren,Dave Charlton,1
+1974,McLaren,David Hobbs,2
+1974,McLaren,Denny Hulme,15
+1974,McLaren,Emerson Fittipaldi,15
+1974,McLaren,Jochen Mass,2
+1974,McLaren,Mike Hailwood,11
+1974,Parnelli,Mario Andretti,2
+1974,Penske,Mark Donohue,2
+1974,Shadow,Bertil Roos,1
+1974,Shadow,Brian Redman,3
+1974,Shadow,Jean-Pierre Jarier,14
+1974,Shadow,Peter Revson,2
+1974,Shadow,Tom Pryce,8
+1974,Surtees,Carlos Pace,7
+1974,Surtees,Derek Bell,5
+1974,Surtees,Dieter Quester,1
+1974,Surtees,Helmuth Koinigg,2
+1974,Surtees,Jean-Pierre Jabouille,1
+1974,Surtees,Jochen Mass,11
+1974,Surtees,José Dolhem,3
+1974,Surtees,Leo Kinnunen,6
+1974,Team Lotus,Ian Scheckter,1
+1974,Team Lotus,Jacky Ickx,15
+1974,Team Lotus,Paddy Driver,1
+1974,Team Lotus,Ronnie Peterson,15
+1974,Team Lotus,Tim Schenken,1
+1974,Token,David Purley,1
+1974,Token,Ian Ashley,2
+1974,Token,Tom Pryce,1
+1974,Trojan,Tim Schenken,8
+1974,Tyrrell,Eddie Keizan,1
+1974,Tyrrell,Jody Scheckter,15
+1974,Tyrrell,Patrick Depailler,15
+1975,BRM,Bob Evans,9
+1975,BRM,Mike Wilds,2
+1975,Brabham,Carlos Pace,14
+1975,Brabham,Carlos Reutemann,14
+1975,Embassy Hill,Alan Jones,4
+1975,Embassy Hill,François Migault,1
+1975,Embassy Hill,Graham Hill,1
+1975,Embassy Hill,Rolf Stommelen,3
+1975,Embassy Hill,Tony Brise,9
+1975,Embassy Hill,Vern Schuppan,1
+1975,Ensign,Chris Amon,2
+1975,Ensign,Gijs van Lennep,3
+1975,Ensign,Roelof Wunderink,6
+1975,Ferrari,Clay Regazzoni,14
+1975,Ferrari,Niki Lauda,14
+1975,Fittipaldi,Arturo Merzario,1
+1975,Fittipaldi,Wilson Fittipaldi,13
+1975,Hesketh,Alan Jones,4
+1975,Hesketh,Brett Lunger,3
+1975,Hesketh,Harald Ertl,3
+1975,Hesketh,James Hunt,14
+1975,Hesketh,Torsten Palm,2
+1975,Lola,François Migault,1
+1975,Lola,Graham Hill,3
+1975,Lola,Rolf Stommelen,3
+1975,Lyncar,John Nicholson,1
+1975,Maki,Hiroshi Fushida,2
+1975,Maki,Tony Trimmer,3
+1975,March,Hans-Joachim Stuck,5
+1975,March,Lella Lombardi,11
+1975,March,Mark Donohue,3
+1975,March,Vittorio Brambilla,14
+1975,McLaren,Dave Charlton,1
+1975,McLaren,Emerson Fittipaldi,14
+1975,McLaren,Jochen Mass,14
+1975,Parnelli,Mario Andretti,12
+1975,Penske,John Watson,1
+1975,Penske,Mark Donohue,9
+1975,Shadow-Ford,Jean-Pierre Jarier,12
+1975,Shadow-Ford,Tom Pryce,14
+1975,Shadow-Matra,Jean-Pierre Jarier,2
+1975,Surtees,Dave Morgan,1
+1975,Surtees,John Watson,11
+1975,Team Lotus,Brian Henton,3
+1975,Team Lotus,Eddie Keizan,1
+1975,Team Lotus,Guy Tunmer,1
+1975,Team Lotus,Jacky Ickx,9
+1975,Team Lotus,Jim Crawford,2
+1975,Team Lotus,John Watson,1
+1975,Team Lotus,Ronnie Peterson,14
+1975,Tyrrell,Ian Scheckter,1
+1975,Tyrrell,Jean-Pierre Jabouille,1
+1975,Tyrrell,Jody Scheckter,14
+1975,Tyrrell,Michel Leclère,1
+1975,Tyrrell,Patrick Depailler,14
+1975,Williams,Arturo Merzario,6
+1975,Williams,Damien Magee,1
+1975,Williams,François Migault,1
+1975,Williams,Ian Ashley,1
+1975,Williams,Ian Scheckter,2
+1975,Williams,Jacques Laffite,12
+1975,Williams,Jo Vonlanthen,1
+1975,Williams,Lella Lombardi,1
+1975,Williams,Renzo Zorzi,1
+1975,Williams,Tony Brise,1
+1976,BRM,Ian Ashley,1
+1976,Boro,Larry Perkins,6
+1976,Brabham-Alfa Romeo,Carlos Pace,16
+1976,Brabham-Alfa Romeo,Carlos Reutemann,12
+1976,Brabham-Alfa Romeo,Larry Perkins,3
+1976,Brabham-Alfa Romeo,Rolf Stommelen,2
+1976,Brabham-Ford,Bob Evans,1
+1976,Brabham-Ford,Damien Magee,1
+1976,Brabham-Ford,Emilio de Villota,1
+1976,Brabham-Ford,Jac Nelleman,1
+1976,Brabham-Ford,Lella Lombardi,3
+1976,Brabham-Ford,Loris Kessel,5
+1976,Brabham-Ford,Patrick Nève,1
+1976,Ensign,Chris Amon,8
+1976,Ensign,Hans Binder,1
+1976,Ensign,Jacky Ickx,4
+1976,Ensign,Patrick Nève,1
+1976,Ferrari,Carlos Reutemann,1
+1976,Ferrari,Clay Regazzoni,15
+1976,Ferrari,Niki Lauda,14
+1976,Fittipaldi,Emerson Fittipaldi,16
+1976,Fittipaldi,Ingo Hoffmann,4
+1976,Hesketh,Alex Ribeiro,1
+1976,Hesketh,Guy Edwards,6
+1976,Hesketh,Harald Ertl,15
+1976,Hesketh,Rolf Stommelen,1
+1976,Kojima,Masahiro Hasemi,1
+1976,Ligier,Jacques Laffite,16
+1976,Maki,Tony Trimmer,1
+1976,March,Arturo Merzario,7
+1976,March,Hans-Joachim Stuck,16
+1976,March,Lella Lombardi,1
+1976,March,Ronnie Peterson,15
+1976,March,Vittorio Brambilla,16
+1976,McLaren,James Hunt,16
+1976,McLaren,Jochen Mass,16
+1976,Parnelli,Mario Andretti,2
+1976,Penske,Boy Lunger,1
+1976,Penske,John Watson,16
+1976,Shadow,Jean-Pierre Jarier,16
+1976,Shadow,Mike Wilds,1
+1976,Shadow,Tom Pryce,16
+1976,Surtees,Alan Jones,14
+1976,Surtees,Brett Lunger,12
+1976,Surtees,Conny Andersson,1
+1976,Surtees,Divina Galica,1
+1976,Surtees,Henri Pescarolo,9
+1976,Surtees,Noritake Takahara,1
+1976,Team Lotus,Bob Evans,2
+1976,Team Lotus,Gunnar Nilsson,15
+1976,Team Lotus,Mario Andretti,13
+1976,Team Lotus,Ronnie Peterson,1
+1976,Tyrrell,Alessandro Pesenti-Rossi,4
+1976,Tyrrell,Ian Scheckter,1
+1976,Tyrrell,Jody Scheckter,16
+1976,Tyrrell,Kazuyoshi Hoshino,1
+1976,Tyrrell,Otto Stuppacher,3
+1976,Tyrrell,Patrick Depailler,16
+1976,Williams,Emilio Zapico,1
+1976,Williams,Renzo Zorzi,1
+1976,Wolf,Arturo Merzario,7
+1976,Wolf,Chris Amon,1
+1976,Wolf,Hans Binder,1
+1976,Wolf,Jacky Ickx,8
+1976,Wolf,Michel Leclère,7
+1976,Wolf,Warwick Brown,1
+1977,Apollon,Loris Kessel,1
+1977,BRM,Conny Andersson,4
+1977,BRM,Guy Edwards,1
+1977,BRM,Larry Perkins,2
+1977,BRM,Teddy Pilette,3
+1977,Boro,Brian Henton,2
+1977,Brabham,Carlos Pace,3
+1977,Brabham,Giorgio Francia,1
+1977,Brabham,Hans-Joachim Stuck,14
+1977,Brabham,John Watson,17
+1977,Ensign,Clay Regazzoni,16
+1977,Ensign,Jacky Ickx,1
+1977,Ensign,Patrick Tambay,8
+1977,Ferrari,Carlos Reutemann,17
+1977,Ferrari,Gilles Villeneuve,2
+1977,Ferrari,Niki Lauda,15
+1977,Fittipaldi,Emerson Fittipaldi,16
+1977,Fittipaldi,Ingo Hoffmann,2
+1977,Hesketh,Harald Ertl,5
+1977,Hesketh,Hector Rebaque,6
+1977,Hesketh,Ian Ashley,5
+1977,Hesketh,Rupert Keegan,12
+1977,Kojima,Kazuyoshi Hoshino,1
+1977,Kojima,Noritake Takahara,1
+1977,LEC,David Purley,5
+1977,Ligier,Jacques Laffite,17
+1977,Ligier,Jean-Pierre Jarier,1
+1977,March,Alex Ribeiro,17
+1977,March,Andy Sutcliffe,1
+1977,March,Arturo Merzario,7
+1977,March,Bernard de Dryver,1
+1977,March,Boy Lunger,6
+1977,March,Brett Lunger,3
+1977,March,Brian Henton,4
+1977,March,Hans-Joachim Stuck,1
+1977,March,Ian Scheckter,14
+1977,March,Michael Bleekemolen,1
+1977,March,Mikko Kozarowitzky,2
+1977,March,Patrick Nève,11
+1977,McGuire,Brian McGuire,1
+1977,McLaren,Brett Lunger,9
+1977,McLaren,Bruno Giacomelli,1
+1977,McLaren,Emilio de Villota,7
+1977,McLaren,Gilles Villeneuve,1
+1977,McLaren,James Hunt,17
+1977,McLaren,Jochen Mass,17
+1977,Penske,Danny Ongais,2
+1977,Penske,Hans Binder,3
+1977,Penske,Hans Heyer,1
+1977,Penske,Jean-Pierre Jarier,11
+1977,Renault,Jean-Pierre Jabouille,5
+1977,Shadow,Alan Jones,14
+1977,Shadow,Arturo Merzario,1
+1977,Shadow,Jackie Oliver,1
+1977,Shadow,Jean-Pierre Jarier,1
+1977,Shadow,Renzo Zorzi,5
+1977,Shadow,Riccardo Patrese,9
+1977,Shadow,Tom Pryce,3
+1977,Surtees,Hans Binder,9
+1977,Surtees,Lamberto Leoni,1
+1977,Surtees,Larry Perkins,3
+1977,Surtees,Patrick Tambay,1
+1977,Surtees,Tony Trimmer,1
+1977,Surtees,Vern Schuppan,4
+1977,Surtees,Vittorio Brambilla,17
+1977,Team Lotus,Gunnar Nilsson,17
+1977,Team Lotus,Mario Andretti,17
+1977,Tyrrell,Kunimitsu Takahashi,1
+1977,Tyrrell,Patrick Depailler,17
+1977,Tyrrell,Ronnie Peterson,17
+1977,Wolf,Jody Scheckter,17
+1978,ATS,Alberto Colombo,2
+1978,ATS,Hans Binder,1
+1978,ATS,Harald Ertl,1
+1978,ATS,Jean-Pierre Jarier,6
+1978,ATS,Jochen Mass,13
+1978,ATS,Keke Rosberg,5
+1978,ATS,Michael Bleekemolen,4
+1978,Arrows,Riccardo Patrese,14
+1978,Arrows,Rolf Stommelen,14
+1978,Brabham,John Watson,16
+1978,Brabham,Nelson Piquet,1
+1978,Brabham,Niki Lauda,16
+1978,Ensign,Brett Lunger,1
+1978,Ensign,Danny Ongais,2
+1978,Ensign,Derek Daly,7
+1978,Ensign,Geoff Lees,1
+1978,Ensign,Harald Ertl,4
+1978,Ensign,Jacky Ickx,4
+1978,Ensign,Lamberto Leoni,4
+1978,Ensign,Nelson Piquet,1
+1978,Ferrari,Carlos Reutemann,16
+1978,Ferrari,Gilles Villeneuve,16
+1978,Fittipaldi,Emerson Fittipaldi,16
+1978,Hesketh,Derek Daly,3
+1978,Hesketh,Divina Galica,2
+1978,Hesketh,Eddie Cheever,1
+1978,Ligier,Jacques Laffite,16
+1978,Martini,René Arnoux,8
+1978,McLaren,Brett Lunger,14
+1978,McLaren,Bruno Giacomelli,5
+1978,McLaren,Emilio de Villota,1
+1978,McLaren,James Hunt,16
+1978,McLaren,Nelson Piquet,3
+1978,McLaren,Patrick Tambay,15
+1978,McLaren,Tony Trimmer,1
+1978,Merzario,Alberto Colombo,1
+1978,Merzario,Arturo Merzario,16
+1978,Renault,Jean-Pierre Jabouille,14
+1978,Shadow,Clay Regazzoni,16
+1978,Shadow,Danny Ongais,2
+1978,Shadow,Hans-Joachim Stuck,16
+1978,Surtees,Beppe Gabbiani,2
+1978,Surtees,Carlo Franchi,1
+1978,Surtees,René Arnoux,1
+1978,Surtees,Rupert Keegan,13
+1978,Surtees,Vittorio Brambilla,14
+1978,Team Lotus,Hector Rebaque,16
+1978,Team Lotus,Jean-Pierre Jarier,2
+1978,Team Lotus,Mario Andretti,16
+1978,Team Lotus,Ronnie Peterson,14
+1978,Theodore,Eddie Cheever,2
+1978,Theodore,Keke Rosberg,5
+1978,Tyrrell,Didier Pironi,16
+1978,Tyrrell,Patrick Depailler,16
+1978,Williams,Alan Jones,16
+1978,Wolf,Bobby Rahal,2
+1978,Wolf,Jody Scheckter,16
+1978,Wolf,Keke Rosberg,4
+1979,ATS,Hans-Joachim Stuck,15
+1979,Alfa Romeo,Bruno Giacomelli,4
+1979,Alfa Romeo,Vittorio Brambilla,3
+1979,Arrows,Jochen Mass,15
+1979,Arrows,Riccardo Patrese,15
+1979,Brabham-Alfa Romeo,Nelson Piquet,13
+1979,Brabham-Alfa Romeo,Niki Lauda,13
+1979,Brabham-Ford,Nelson Piquet,2
+1979,Brabham-Ford,Niki Lauda,1
+1979,Brabham-Ford,Ricardo Zunino,2
+1979,Ensign,Derek Daly,7
+1979,Ensign,Marc Surer,3
+1979,Ensign,Patrick Gaillard,5
+1979,Ferrari,Gilles Villeneuve,15
+1979,Ferrari,Jody Scheckter,15
+1979,Fittipaldi,Alex Ribeiro,2
+1979,Fittipaldi,Emerson Fittipaldi,15
+1979,Kauhsen,Gianfranco Brancatelli,2
+1979,Ligier,Jacky Ickx,8
+1979,Ligier,Jacques Laffite,15
+1979,Ligier,Patrick Depailler,7
+1979,McLaren,John Watson,15
+1979,McLaren,Patrick Tambay,15
+1979,Merzario,Arturo Merzario,14
+1979,Merzario,Gianfranco Brancatelli,1
+1979,Rebaque,Hector Rebaque,3
+1979,Renault,Jean-Pierre Jabouille,15
+1979,Renault,René Arnoux,15
+1979,Shadow,Elio de Angelis,15
+1979,Shadow,Jan Lammers,15
+1979,Team Lotus,Carlos Reutemann,15
+1979,Team Lotus,Hector Rebaque,11
+1979,Team Lotus,Mario Andretti,15
+1979,Tyrrell,Derek Daly,3
+1979,Tyrrell,Didier Pironi,15
+1979,Tyrrell,Geoff Lees,1
+1979,Tyrrell,Jean-Pierre Jarier,13
+1979,Williams,Alan Jones,15
+1979,Williams,Clay Regazzoni,15
+1979,Wolf,James Hunt,7
+1979,Wolf,Keke Rosberg,8
+1980,ATS,Harald Ertl,1
+1980,ATS,Jan Lammers,6
+1980,ATS,Marc Surer,11
+1980,Alfa Romeo,Andrea de Cesaris,2
+1980,Alfa Romeo,Bruno Giacomelli,14
+1980,Alfa Romeo,Patrick Depailler,8
+1980,Alfa Romeo,Vittorio Brambilla,2
+1980,Arrows,Jochen Mass,13
+1980,Arrows,Manfred Winkelhock,1
+1980,Arrows,Mike Thackwell,1
+1980,Arrows,Riccardo Patrese,14
+1980,Brabham,Hector Rebaque,7
+1980,Brabham,Nelson Piquet,14
+1980,Brabham,Ricardo Zunino,7
+1980,Ensign,Clay Regazzoni,4
+1980,Ensign,Geoff Lees,2
+1980,Ensign,Jan Lammers,8
+1980,Ensign,Tiff Needell,2
+1980,Ferrari,Gilles Villeneuve,14
+1980,Ferrari,Jody Scheckter,14
+1980,Fittipaldi,Emerson Fittipaldi,14
+1980,Fittipaldi,Keke Rosberg,14
+1980,Ligier,Didier Pironi,14
+1980,Ligier,Jacques Laffite,14
+1980,McLaren,Alain Prost,13
+1980,McLaren,John Watson,14
+1980,McLaren,Stephen South,1
+1980,Osella,Eddie Cheever,14
+1980,Renault,Jean-Pierre Jabouille,13
+1980,Renault,René Arnoux,14
+1980,Shadow,Dave Kennedy,7
+1980,Shadow,Geoff Lees,5
+1980,Shadow,Stefan Johansson,2
+1980,Team Lotus,Elio de Angelis,14
+1980,Team Lotus,Mario Andretti,14
+1980,Team Lotus,Nigel Mansell,3
+1980,Tyrrell,Derek Daly,14
+1980,Tyrrell,Jean-Pierre Jarier,14
+1980,Tyrrell,Mike Thackwell,2
+1980,Williams,Alan Jones,14
+1980,Williams,Carlos Reutemann,14
+1980,Williams,Desiré Wilson,1
+1980,Williams,Geoff Lees,1
+1980,Williams,Kevin Cogan,1
+1980,Williams,Rupert Keegan,7
+1981,ATS,Jan Lammers,4
+1981,ATS,Slim Borgudd,12
+1981,Alfa Romeo,Bruno Giacomelli,15
+1981,Alfa Romeo,Mario Andretti,15
+1981,Arrows,Jacques Villeneuve Sr.,2
+1981,Arrows,Riccardo Patrese,15
+1981,Arrows,Siegfried Stohr,13
+1981,Brabham,Hector Rebaque,15
+1981,Brabham,Nelson Piquet,15
+1981,Ensign,Eliseo Salazar,9
+1981,Ensign,Marc Surer,6
+1981,Ensign,Ricardo Londoño,1
+1981,Ferrari,Didier Pironi,15
+1981,Ferrari,Gilles Villeneuve,15
+1981,Fittipaldi,Chico Serra,14
+1981,Fittipaldi,Keke Rosberg,14
+1981,Ligier,Jacques Laffite,15
+1981,Ligier,Jean-Pierre Jabouille,5
+1981,Ligier,Jean-Pierre Jarier,2
+1981,Ligier,Patrick Tambay,8
+1981,March,Derek Daly,15
+1981,March,Eliseo Salazar,5
+1981,McLaren,Andrea de Cesaris,15
+1981,McLaren,John Watson,15
+1981,Osella,Beppe Gabbiani,15
+1981,Osella,Eliseo Salazar,1
+1981,Osella,Giorgio Francia,1
+1981,Osella,Jean-Pierre Jarier,7
+1981,Osella,Miguel Ángel Guerra,4
+1981,Osella,Piercarlo Ghinzani,2
+1981,Renault,Alain Prost,15
+1981,Renault,René Arnoux,15
+1981,Team Lotus,Elio de Angelis,15
+1981,Team Lotus,Nigel Mansell,15
+1981,Theodore,Marc Surer,8
+1981,Theodore,Patrick Tambay,7
+1981,Toleman,Brian Henton,12
+1981,Toleman,Derek Warwick,12
+1981,Tyrrell,Eddie Cheever,15
+1981,Tyrrell,Kevin Cogan,1
+1981,Tyrrell,Michele Alboreto,12
+1981,Tyrrell,Ricardo Zunino,2
+1981,Williams,Alan Jones,15
+1981,Williams,Carlos Reutemann,15
+1982,ATS,Eliseo Salazar,16
+1982,ATS,Manfred Winkelhock,16
+1982,Alfa Romeo,Andrea de Cesaris,16
+1982,Alfa Romeo,Bruno Giacomelli,16
+1982,Arrows,Brian Henton,3
+1982,Arrows,Marc Surer,12
+1982,Arrows,Mauro Baldi,15
+1982,Brabham,Nelson Piquet,15
+1982,Brabham,Riccardo Patrese,15
+1982,Ensign,Roberto Guerrero,15
+1982,Ferrari,Didier Pironi,12
+1982,Ferrari,Gilles Villeneuve,5
+1982,Ferrari,Mario Andretti,2
+1982,Ferrari,Patrick Tambay,8
+1982,Fittipaldi,Chico Serra,14
+1982,Ligier,Eddie Cheever,15
+1982,Ligier,Jacques Laffite,15
+1982,March,Emilio de Villota,5
+1982,March,Jochen Mass,10
+1982,March,Raul Boesel,15
+1982,March,Rupert Keegan,5
+1982,McLaren,John Watson,15
+1982,McLaren,Niki Lauda,14
+1982,Osella,Jean-Pierre Jarier,16
+1982,Osella,Riccardo Paletti,8
+1982,Renault,Alain Prost,16
+1982,Renault,René Arnoux,16
+1982,Team Lotus,Elio de Angelis,15
+1982,Team Lotus,Geoff Lees,1
+1982,Team Lotus,Nigel Mansell,13
+1982,Team Lotus,Roberto Moreno,1
+1982,Theodore,Derek Daly,3
+1982,Theodore,Geoff Lees,1
+1982,Theodore,Jan Lammers,6
+1982,Theodore,Tommy Byrne,5
+1982,Toleman,Derek Warwick,14
+1982,Toleman,Teo Fabi,14
+1982,Tyrrell,Brian Henton,13
+1982,Tyrrell,Michele Alboreto,16
+1982,Tyrrell,Slim Borgudd,3
+1982,Williams,Carlos Reutemann,2
+1982,Williams,Derek Daly,12
+1982,Williams,Keke Rosberg,15
+1982,Williams,Mario Andretti,1
+1983,ATS,Manfred Winkelhock,15
+1983,Alfa Romeo,Andrea de Cesaris,15
+1983,Alfa Romeo,Mauro Baldi,15
+1983,Arrows,Alan Jones,1
+1983,Arrows,Chico Serra,4
+1983,Arrows,Marc Surer,15
+1983,Arrows,Thierry Boutsen,10
+1983,Brabham,Nelson Piquet,15
+1983,Brabham,Riccardo Patrese,15
+1983,Ferrari,Patrick Tambay,15
+1983,Ferrari,René Arnoux,15
+1983,Ligier,Jean-Pierre Jarier,15
+1983,Ligier,Raul Boesel,15
+1983,McLaren,John Watson,15
+1983,McLaren,Niki Lauda,15
+1983,Osella,Corrado Fabi,15
+1983,Osella,Piercarlo Ghinzani,15
+1983,RAM,Eliseo Salazar,6
+1983,RAM,Jacques Villeneuve Sr.,1
+1983,RAM,Jean-Louis Schlesser,1
+1983,RAM,Kenny Acheson,7
+1983,Renault,Alain Prost,15
+1983,Renault,Eddie Cheever,15
+1983,Spirit,Stefan Johansson,6
+1983,Team Lotus,Elio de Angelis,15
+1983,Team Lotus,Nigel Mansell,15
+1983,Theodore,Johnny Cecotto,13
+1983,Theodore,Roberto Guerrero,14
+1983,Toleman,Bruno Giacomelli,15
+1983,Toleman,Derek Warwick,15
+1983,Tyrrell,Danny Sullivan,15
+1983,Tyrrell,Michele Alboreto,15
+1983,Williams,Jacques Laffite,15
+1983,Williams,Jonathan Palmer,1
+1983,Williams,Keke Rosberg,15
+1984,ATS,Gerhard Berger,4
+1984,ATS,Manfred Winkelhock,13
+1984,Alfa Romeo,Eddie Cheever,16
+1984,Alfa Romeo,Riccardo Patrese,16
+1984,Arrows,Marc Surer,16
+1984,Arrows,Thierry Boutsen,16
+1984,Brabham,Corrado Fabi,3
+1984,Brabham,Manfred Winkelhock,1
+1984,Brabham,Nelson Piquet,16
+1984,Brabham,Teo Fabi,12
+1984,Ferrari,Michele Alboreto,16
+1984,Ferrari,René Arnoux,16
+1984,Ligier,Andrea de Cesaris,16
+1984,Ligier,François Hesnault,15
+1984,McLaren,Alain Prost,16
+1984,McLaren,Niki Lauda,16
+1984,Osella,Jo Gartner,8
+1984,Osella,Piercarlo Ghinzani,16
+1984,RAM,Jonathan Palmer,15
+1984,RAM,Mike Thackwell,1
+1984,RAM,Philippe Alliot,15
+1984,Renault,Derek Warwick,16
+1984,Renault,Patrick Tambay,15
+1984,Renault,Philippe Streiff,1
+1984,Spirit,Huub Rothengatter,8
+1984,Spirit,Mauro Baldi,8
+1984,Team Lotus,Elio de Angelis,16
+1984,Team Lotus,Nigel Mansell,16
+1984,Toleman,Ayrton Senna,15
+1984,Toleman,Johnny Cecotto,10
+1984,Toleman,Pierluigi Martini,1
+1984,Toleman,Stefan Johansson,3
+1984,Tyrrell,Martin Brundle,9
+1984,Tyrrell,Mike Thackwell,1
+1984,Tyrrell,Stefan Bellof,12
+1984,Tyrrell,Stefan Johansson,4
+1984,Williams,Jacques Laffite,16
+1984,Williams,Keke Rosberg,16
+1985,Alfa Romeo,Eddie Cheever,16
+1985,Alfa Romeo,Riccardo Patrese,16
+1985,Arrows,Gerhard Berger,16
+1985,Arrows,Thierry Boutsen,16
+1985,Brabham,François Hesnault,4
+1985,Brabham,Marc Surer,12
+1985,Brabham,Nelson Piquet,16
+1985,Ferrari,Michele Alboreto,16
+1985,Ferrari,René Arnoux,1
+1985,Ferrari,Stefan Johansson,15
+1985,Ligier,Andrea de Cesaris,11
+1985,Ligier,Jacques Laffite,15
+1985,Ligier,Philippe Streiff,4
+1985,Lola,Alan Jones,4
+1985,McLaren,Alain Prost,16
+1985,McLaren,John Watson,1
+1985,McLaren,Niki Lauda,14
+1985,Minardi,Pierluigi Martini,15
+1985,Osella,Huub Rothengatter,7
+1985,Osella,Piercarlo Ghinzani,8
+1985,RAM,Kenny Acheson,2
+1985,RAM,Manfred Winkelhock,9
+1985,RAM,Philippe Alliot,14
+1985,Renault,Derek Warwick,15
+1985,Renault,François Hesnault,1
+1985,Renault,Patrick Tambay,15
+1985,Spirit,Mauro Baldi,3
+1985,Team Lotus,Ayrton Senna,16
+1985,Team Lotus,Elio de Angelis,16
+1985,Toleman,Piercarlo Ghinzani,7
+1985,Toleman,Teo Fabi,13
+1985,Tyrrell,Ivan Capelli,2
+1985,Tyrrell,Martin Brundle,16
+1985,Tyrrell,Philippe Streiff,1
+1985,Tyrrell,Stefan Bellof,10
+1985,Tyrrell,Stefan Johansson,1
+1985,Williams,Keke Rosberg,16
+1985,Williams,Nigel Mansell,16
+1985,Zakspeed,Christian Danner,2
+1985,Zakspeed,Jonathan Palmer,8
+1986,AGS,Ivan Capelli,2
+1986,Arrows,Christian Danner,10
+1986,Arrows,Marc Surer,5
+1986,Arrows,Thierry Boutsen,16
+1986,Benetton,Gerhard Berger,16
+1986,Benetton,Teo Fabi,16
+1986,Brabham,Derek Warwick,11
+1986,Brabham,Elio de Angelis,4
+1986,Brabham,Riccardo Patrese,16
+1986,Ferrari,Michele Alboreto,16
+1986,Ferrari,Stefan Johansson,16
+1986,Ligier,Jacques Laffite,9
+1986,Ligier,Philippe Alliot,7
+1986,Ligier,René Arnoux,16
+1986,Lola,Alan Jones,16
+1986,Lola,Eddie Cheever,1
+1986,Lola,Patrick Tambay,15
+1986,McLaren,Alain Prost,16
+1986,McLaren,Keke Rosberg,16
+1986,Minardi,Alessandro Nannini,15
+1986,Minardi,Andrea de Cesaris,16
+1986,Osella,Alex Caffi,1
+1986,Osella,Allen Berg,9
+1986,Osella,Christian Danner,6
+1986,Osella,Piercarlo Ghinzani,16
+1986,Team Lotus,Ayrton Senna,16
+1986,Team Lotus,Johnny Dumfries,16
+1986,Tyrrell,Martin Brundle,16
+1986,Tyrrell,Philippe Streiff,16
+1986,Williams,Nelson Piquet,16
+1986,Williams,Nigel Mansell,16
+1986,Zakspeed,Huub Rothengatter,13
+1986,Zakspeed,Jonathan Palmer,16
+1987,AGS,Pascal Fabre,12
+1987,AGS,Roberto Moreno,2
+1987,Arrows,Derek Warwick,16
+1987,Arrows,Eddie Cheever,16
+1987,Benetton,Teo Fabi,16
+1987,Benetton,Thierry Boutsen,16
+1987,Brabham,Andrea de Cesaris,16
+1987,Brabham,Riccardo Patrese,15
+1987,Brabham,Stefano Modena,1
+1987,Coloni,Nicola Larini,2
+1987,Ferrari,Gerhard Berger,16
+1987,Ferrari,Michele Alboreto,16
+1987,Larrousse,Philippe Alliot,15
+1987,Larrousse,Yannick Dalmas,3
+1987,Ligier,Piercarlo Ghinzani,15
+1987,Ligier,René Arnoux,15
+1987,March,Ivan Capelli,16
+1987,McLaren,Alain Prost,16
+1987,McLaren,Stefan Johansson,16
+1987,Minardi,Adrián Campos,16
+1987,Minardi,Alessandro Nannini,16
+1987,Osella,Alex Caffi,16
+1987,Osella,Franco Forini,2
+1987,Osella,Gabriele Tarquini,1
+1987,Team Lotus,Ayrton Senna,16
+1987,Team Lotus,Satoru Nakajima,16
+1987,Tyrrell,Jonathan Palmer,16
+1987,Tyrrell,Philippe Streiff,16
+1987,Williams,Nelson Piquet,16
+1987,Williams,Nigel Mansell,15
+1987,Williams,Riccardo Patrese,1
+1987,Zakspeed,Christian Danner,16
+1987,Zakspeed,Martin Brundle,16
+1988,AGS,Philippe Streiff,16
+1988,Arrows,Derek Warwick,16
+1988,Arrows,Eddie Cheever,16
+1988,Benetton,Alessandro Nannini,16
+1988,Benetton,Thierry Boutsen,16
+1988,Coloni,Gabriele Tarquini,16
+1988,Dallara,Alex Caffi,16
+1988,Euro Brun,Oscar Larrauri,16
+1988,Euro Brun,Stefano Modena,16
+1988,Ferrari,Gerhard Berger,16
+1988,Ferrari,Michele Alboreto,16
+1988,Larrousse,Aguri Suzuki,1
+1988,Larrousse,Philippe Alliot,16
+1988,Larrousse,Pierre-Henri Raphanel,1
+1988,Larrousse,Yannick Dalmas,14
+1988,Ligier,René Arnoux,16
+1988,Ligier,Stefan Johansson,16
+1988,March,Ivan Capelli,16
+1988,March,Maurício Gugelmin,16
+1988,McLaren,Alain Prost,16
+1988,McLaren,Ayrton Senna,16
+1988,Minardi,Adrián Campos,5
+1988,Minardi,Luis Pérez-Sala,16
+1988,Minardi,Pierluigi Martini,11
+1988,Osella,Nicola Larini,16
+1988,Rial,Andrea de Cesaris,16
+1988,Team Lotus,Nelson Piquet,16
+1988,Team Lotus,Satoru Nakajima,16
+1988,Tyrrell,Jonathan Palmer,16
+1988,Tyrrell,Julian Bailey,16
+1988,Williams,Jean-Louis Schlesser,1
+1988,Williams,Martin Brundle,1
+1988,Williams,Nigel Mansell,14
+1988,Williams,Riccardo Patrese,16
+1988,Zakspeed,Bernd Schneider,15
+1988,Zakspeed,Piercarlo Ghinzani,16
+1989,AGS,Gabriele Tarquini,15
+1989,AGS,Joachim Winkelhock,7
+1989,AGS,Yannick Dalmas,9
+1989,Arrows,Derek Warwick,15
+1989,Arrows,Eddie Cheever,16
+1989,Arrows,Martin Donnelly,1
+1989,Benetton,Alessandro Nannini,16
+1989,Benetton,Emanuele Pirro,10
+1989,Benetton,Johnny Herbert,6
+1989,Brabham,Martin Brundle,16
+1989,Brabham,Stefano Modena,16
+1989,Coloni,Enrico Bertaggia,6
+1989,Coloni,Pierre-Henri Raphanel,10
+1989,Coloni,Roberto Moreno,16
+1989,Dallara,Alex Caffi,16
+1989,Dallara,Andrea de Cesaris,16
+1989,Euro Brun,Gregor Foitek,11
+1989,Euro Brun,Oscar Larrauri,5
+1989,Ferrari,Gerhard Berger,15
+1989,Ferrari,Nigel Mansell,15
+1989,Larrousse,Michele Alboreto,8
+1989,Larrousse,Philippe Alliot,16
+1989,Larrousse,Yannick Dalmas,6
+1989,Larrousse,Éric Bernard,2
+1989,Ligier,Olivier Grouillard,16
+1989,Ligier,René Arnoux,16
+1989,March,Ivan Capelli,16
+1989,March,Maurício Gugelmin,16
+1989,McLaren,Alain Prost,16
+1989,McLaren,Ayrton Senna,16
+1989,Minardi,Luis Pérez-Sala,16
+1989,Minardi,Paolo Barilla,1
+1989,Minardi,Pierluigi Martini,15
+1989,Onyx,Bertrand Gachot,12
+1989,Onyx,Jyrki Järvilehto,4
+1989,Onyx,Stefan Johansson,16
+1989,Osella,Nicola Larini,16
+1989,Osella,Piercarlo Ghinzani,16
+1989,Rial,Bertrand Gachot,2
+1989,Rial,Christian Danner,13
+1989,Rial,Gregor Foitek,1
+1989,Rial,Pierre-Henri Raphanel,6
+1989,Rial,Volker Weidler,10
+1989,Team Lotus,Nelson Piquet,16
+1989,Team Lotus,Satoru Nakajima,16
+1989,Tyrrell,Jean Alesi,8
+1989,Tyrrell,Johnny Herbert,2
+1989,Tyrrell,Jonathan Palmer,16
+1989,Tyrrell,Michele Alboreto,6
+1989,Williams,Riccardo Patrese,16
+1989,Williams,Thierry Boutsen,16
+1989,Zakspeed,Aguri Suzuki,16
+1989,Zakspeed,Bernd Schneider,15
+1990,AGS,Gabriele Tarquini,16
+1990,AGS,Yannick Dalmas,16
+1990,Arrows,Alex Caffi,14
+1990,Arrows,Bernd Schneider,2
+1990,Arrows,Michele Alboreto,16
+1990,Benetton,Alessandro Nannini,14
+1990,Benetton,Nelson Piquet,16
+1990,Benetton,Roberto Moreno,2
+1990,Brabham,David Brabham,14
+1990,Brabham,Gregor Foitek,2
+1990,Brabham,Stefano Modena,16
+1990,Coloni,Bertrand Gachot,16
+1990,Dallara,Andrea de Cesaris,16
+1990,Dallara,Emanuele Pirro,14
+1990,Dallara,Gianni Morbidelli,2
+1990,Euro Brun,Claudio Langes,14
+1990,Euro Brun,Roberto Moreno,14
+1990,Ferrari,Alain Prost,16
+1990,Ferrari,Nigel Mansell,16
+1990,Larrousse,Aguri Suzuki,16
+1990,Larrousse,Éric Bernard,16
+1990,Leyton House,Ivan Capelli,16
+1990,Leyton House,Maurício Gugelmin,16
+1990,Life,Bruno Giacomelli,12
+1990,Life,Gary Brabham,2
+1990,Ligier,Nicola Larini,16
+1990,Ligier,Philippe Alliot,16
+1990,McLaren,Ayrton Senna,16
+1990,McLaren,Gerhard Berger,16
+1990,Minardi,Gianni Morbidelli,2
+1990,Minardi,Paolo Barilla,14
+1990,Minardi,Pierluigi Martini,16
+1990,Onyx,Gregor Foitek,8
+1990,Onyx,Jyrki Järvilehto,10
+1990,Onyx,Stefan Johansson,2
+1990,Osella,Olivier Grouillard,16
+1990,Team Lotus,Derek Warwick,16
+1990,Team Lotus,Johnny Herbert,2
+1990,Team Lotus,Martin Donnelly,14
+1990,Tyrrell,Jean Alesi,16
+1990,Tyrrell,Satoru Nakajima,16
+1990,Williams,Riccardo Patrese,16
+1990,Williams,Thierry Boutsen,16
+1991,AGS,Fabrizio Barbazza,12
+1991,AGS,Gabriele Tarquini,13
+1991,AGS,Olivier Grouillard,1
+1991,AGS,Stefan Johansson,2
+1991,Benetton,Michael Schumacher,5
+1991,Benetton,Nelson Piquet,16
+1991,Benetton,Roberto Moreno,11
+1991,Brabham,Mark Blundell,16
+1991,Brabham,Martin Brundle,16
+1991,Coloni,Naoki Hattori,2
+1991,Coloni,Pedro Chaves,13
+1991,Dallara,Emanuele Pirro,16
+1991,Dallara,Jyrki Järvilehto,16
+1991,Ferrari,Alain Prost,15
+1991,Ferrari,Gianni Morbidelli,1
+1991,Ferrari,Jean Alesi,16
+1991,Fondmetal,Gabriele Tarquini,3
+1991,Fondmetal,Olivier Grouillard,13
+1991,Footwork,Alex Caffi,12
+1991,Footwork,Michele Alboreto,16
+1991,Footwork,Stefan Johansson,4
+1991,Jordan,Alessandro Zanardi,3
+1991,Jordan,Andrea de Cesaris,16
+1991,Jordan,Bertrand Gachot,10
+1991,Jordan,Michael Schumacher,1
+1991,Jordan,Roberto Moreno,2
+1991,Lambo,Eric van de Poele,16
+1991,Lambo,Nicola Larini,16
+1991,Larrousse,Aguri Suzuki,3
+1991,Larrousse,Bertrand Gachot,1
+1991,Larrousse,Éric Bernard,2
+1991,Leyton House,Ivan Capelli,14
+1991,Leyton House,Karl Wendlinger,2
+1991,Leyton House,Maurício Gugelmin,16
+1991,Ligier,Thierry Boutsen,16
+1991,Ligier,Érik Comas,16
+1991,Lola,Aguri Suzuki,13
+1991,Lola,Éric Bernard,13
+1991,McLaren,Ayrton Senna,16
+1991,McLaren,Gerhard Berger,16
+1991,Minardi,Gianni Morbidelli,15
+1991,Minardi,Pierluigi Martini,16
+1991,Minardi,Roberto Moreno,1
+1991,Team Lotus,Johnny Herbert,8
+1991,Team Lotus,Julian Bailey,4
+1991,Team Lotus,Michael Bartels,4
+1991,Team Lotus,Mika Häkkinen,16
+1991,Tyrrell,Satoru Nakajima,16
+1991,Tyrrell,Stefano Modena,16
+1991,Williams,Nigel Mansell,16
+1991,Williams,Riccardo Patrese,16
+1992,Andrea Moda,Perry McCarthy,7
+1992,Andrea Moda,Roberto Moreno,8
+1992,Benetton,Martin Brundle,16
+1992,Benetton,Michael Schumacher,16
+1992,Brabham,Damon Hill,8
+1992,Brabham,Eric van de Poele,10
+1992,Brabham,Giovanna Amati,3
+1992,Dallara,Jyrki Järvilehto,16
+1992,Dallara,Pierluigi Martini,16
+1992,Ferrari,Ivan Capelli,14
+1992,Ferrari,Jean Alesi,16
+1992,Ferrari,Nicola Larini,2
+1992,Fondmetal,Andrea Chiesa,10
+1992,Fondmetal,Eric van de Poele,3
+1992,Fondmetal,Gabriele Tarquini,13
+1992,Footwork,Aguri Suzuki,16
+1992,Footwork,Michele Alboreto,16
+1992,Jordan,Maurício Gugelmin,16
+1992,Jordan,Stefano Modena,16
+1992,Larrousse,Bertrand Gachot,16
+1992,Larrousse,Ukyo Katayama,16
+1992,Ligier,Thierry Boutsen,16
+1992,Ligier,Érik Comas,16
+1992,March,Emanuele Naspetti,5
+1992,March,Jan Lammers,2
+1992,March,Karl Wendlinger,14
+1992,March,Paul Belmondo,11
+1992,McLaren,Ayrton Senna,16
+1992,McLaren,Gerhard Berger,16
+1992,Minardi,Alessandro Zanardi,3
+1992,Minardi,Christian Fittipaldi,13
+1992,Minardi,Gianni Morbidelli,16
+1992,Team Lotus,Johnny Herbert,16
+1992,Team Lotus,Mika Häkkinen,16
+1992,Tyrrell,Andrea de Cesaris,16
+1992,Tyrrell,Olivier Grouillard,16
+1992,Williams,Nigel Mansell,16
+1992,Williams,Riccardo Patrese,16
+1993,Benetton,Michael Schumacher,16
+1993,Benetton,Riccardo Patrese,16
+1993,Ferrari,Gerhard Berger,16
+1993,Ferrari,Jean Alesi,16
+1993,Footwork,Aguri Suzuki,16
+1993,Footwork,Derek Warwick,16
+1993,Jordan,Eddie Irvine,2
+1993,Jordan,Emanuele Naspetti,1
+1993,Jordan,Ivan Capelli,2
+1993,Jordan,Marco Apicella,1
+1993,Jordan,Rubens Barrichello,16
+1993,Jordan,Thierry Boutsen,10
+1993,Larrousse,Philippe Alliot,14
+1993,Larrousse,Toshio Suzuki,2
+1993,Larrousse,Érik Comas,16
+1993,Ligier,Mark Blundell,16
+1993,Ligier,Martin Brundle,16
+1993,Lola,Luca Badoer,14
+1993,Lola,Michele Alboreto,14
+1993,McLaren,Ayrton Senna,16
+1993,McLaren,Michael Andretti,13
+1993,McLaren,Mika Häkkinen,3
+1993,Minardi,Christian Fittipaldi,14
+1993,Minardi,Fabrizio Barbazza,8
+1993,Minardi,Jean-Marc Gounon,2
+1993,Minardi,Pierluigi Martini,8
+1993,Sauber,Jyrki Järvilehto,16
+1993,Sauber,Karl Wendlinger,16
+1993,Team Lotus,Alessandro Zanardi,12
+1993,Team Lotus,Johnny Herbert,16
+1993,Team Lotus,Pedro Lamy,4
+1993,Tyrrell,Andrea de Cesaris,16
+1993,Tyrrell,Ukyo Katayama,16
+1993,Williams,Alain Prost,16
+1993,Williams,Damon Hill,16
+1994,Benetton,Johnny Herbert,2
+1994,Benetton,Jos Verstappen,10
+1994,Benetton,Jyrki Järvilehto,6
+1994,Benetton,Michael Schumacher,14
+1994,Ferrari,Gerhard Berger,16
+1994,Ferrari,Jean Alesi,14
+1994,Ferrari,Nicola Larini,2
+1994,Footwork,Christian Fittipaldi,16
+1994,Footwork,Gianni Morbidelli,16
+1994,Jordan,Aguri Suzuki,1
+1994,Jordan,Andrea de Cesaris,2
+1994,Jordan,Eddie Irvine,13
+1994,Jordan,Rubens Barrichello,16
+1994,Larrousse,Hideki Noda,3
+1994,Larrousse,Jean-Denis Délétraz,1
+1994,Larrousse,Olivier Beretta,10
+1994,Larrousse,Philippe Alliot,1
+1994,Larrousse,Yannick Dalmas,2
+1994,Larrousse,Érik Comas,15
+1994,Ligier,Franck Lagorce,2
+1994,Ligier,Johnny Herbert,1
+1994,Ligier,Olivier Panis,16
+1994,Ligier,Éric Bernard,13
+1994,McLaren,Martin Brundle,16
+1994,McLaren,Mika Häkkinen,15
+1994,McLaren,Philippe Alliot,1
+1994,Minardi,Michele Alboreto,16
+1994,Minardi,Pierluigi Martini,16
+1994,Pacific,Bertrand Gachot,16
+1994,Pacific,Paul Belmondo,16
+1994,Sauber,Andrea de Cesaris,9
+1994,Sauber,Heinz-Harald Frentzen,16
+1994,Sauber,Jyrki Järvilehto,2
+1994,Sauber,Karl Wendlinger,4
+1994,Simtek,Andrea Montermini,1
+1994,Simtek,David Brabham,16
+1994,Simtek,Domenico Schiattarella,2
+1994,Simtek,Jean-Marc Gounon,7
+1994,Simtek,Roland Ratzenberger,3
+1994,Simtek,Taki Inoue,1
+1994,Team Lotus,Alessandro Zanardi,10
+1994,Team Lotus,Johnny Herbert,13
+1994,Team Lotus,Mika Salo,2
+1994,Team Lotus,Pedro Lamy,4
+1994,Team Lotus,Philippe Adams,2
+1994,Team Lotus,Éric Bernard,1
+1994,Tyrrell,Mark Blundell,16
+1994,Tyrrell,Ukyo Katayama,16
+1994,Williams,Ayrton Senna,3
+1994,Williams,Damon Hill,16
+1994,Williams,David Coulthard,8
+1994,Williams,Nigel Mansell,4
+1995,Benetton,Johnny Herbert,17
+1995,Benetton,Michael Schumacher,17
+1995,Ferrari,Gerhard Berger,17
+1995,Ferrari,Jean Alesi,17
+1995,Footwork,Gianni Morbidelli,10
+1995,Footwork,Massimiliano Papis,7
+1995,Footwork,Taki Inoue,17
+1995,Forti,Pedro Diniz,17
+1995,Forti,Roberto Moreno,17
+1995,Jordan,Eddie Irvine,17
+1995,Jordan,Rubens Barrichello,17
+1995,Ligier,Aguri Suzuki,6
+1995,Ligier,Martin Brundle,11
+1995,Ligier,Olivier Panis,17
+1995,McLaren,Jan Magnussen,1
+1995,McLaren,Mark Blundell,15
+1995,McLaren,Mika Häkkinen,16
+1995,McLaren,Nigel Mansell,2
+1995,Minardi,Luca Badoer,17
+1995,Minardi,Pedro Lamy,8
+1995,Minardi,Pierluigi Martini,9
+1995,Pacific,Andrea Montermini,17
+1995,Pacific,Bertrand Gachot,11
+1995,Pacific,Giovanni Lavaggi,4
+1995,Pacific,Jean-Denis Délétraz,2
+1995,Sauber,Heinz-Harald Frentzen,17
+1995,Sauber,Jean-Christophe Boullion,11
+1995,Sauber,Karl Wendlinger,6
+1995,Simtek,Domenico Schiattarella,5
+1995,Simtek,Jos Verstappen,5
+1995,Tyrrell,Gabriele Tarquini,1
+1995,Tyrrell,Mika Salo,17
+1995,Tyrrell,Ukyo Katayama,16
+1995,Williams,Damon Hill,17
+1995,Williams,David Coulthard,17
+1996,Benetton,Gerhard Berger,16
+1996,Benetton,Jean Alesi,16
+1996,Ferrari,Eddie Irvine,16
+1996,Ferrari,Michael Schumacher,16
+1996,Footwork,Jos Verstappen,16
+1996,Footwork,Ricardo Rosset,16
+1996,Forti,Andrea Montermini,10
+1996,Forti,Luca Badoer,10
+1996,Jordan,Martin Brundle,16
+1996,Jordan,Rubens Barrichello,16
+1996,Ligier,Olivier Panis,16
+1996,Ligier,Pedro Diniz,16
+1996,McLaren,David Coulthard,16
+1996,McLaren,Mika Häkkinen,16
+1996,Minardi,Giancarlo Fisichella,8
+1996,Minardi,Giovanni Lavaggi,6
+1996,Minardi,Pedro Lamy,16
+1996,Minardi,Tarso Marques,2
+1996,Sauber,Heinz-Harald Frentzen,16
+1996,Sauber,Johnny Herbert,16
+1996,Tyrrell,Mika Salo,16
+1996,Tyrrell,Ukyo Katayama,16
+1996,Williams,Damon Hill,16
+1996,Williams,Jacques Villeneuve,16
+1997,Arrows,Damon Hill,17
+1997,Arrows,Pedro Diniz,17
+1997,Benetton,Alexander Wurz,3
+1997,Benetton,Gerhard Berger,14
+1997,Benetton,Jean Alesi,17
+1997,Ferrari,Eddie Irvine,17
+1997,Ferrari,Michael Schumacher,17
+1997,Jordan,Giancarlo Fisichella,17
+1997,Jordan,Ralf Schumacher,17
+1997,Lola,Ricardo Rosset,1
+1997,Lola,Vincenzo Sospiri,1
+1997,McLaren,David Coulthard,17
+1997,McLaren,Mika Häkkinen,17
+1997,Minardi,Jarno Trulli,7
+1997,Minardi,Tarso Marques,10
+1997,Minardi,Ukyo Katayama,17
+1997,Prost,Jarno Trulli,7
+1997,Prost,Olivier Panis,10
+1997,Prost,Shinji Nakano,17
+1997,Sauber,Gianni Morbidelli,8
+1997,Sauber,Johnny Herbert,17
+1997,Sauber,Nicola Larini,5
+1997,Sauber,Norberto Fontana,4
+1997,Stewart,Jan Magnussen,17
+1997,Stewart,Rubens Barrichello,17
+1997,Tyrrell,Jos Verstappen,17
+1997,Tyrrell,Mika Salo,17
+1997,Williams,Heinz-Harald Frentzen,17
+1997,Williams,Jacques Villeneuve,17
+1998,Arrows,Mika Salo,16
+1998,Arrows,Pedro Diniz,16
+1998,Benetton,Alexander Wurz,16
+1998,Benetton,Giancarlo Fisichella,16
+1998,Ferrari,Eddie Irvine,16
+1998,Ferrari,Michael Schumacher,16
+1998,Jordan,Damon Hill,16
+1998,Jordan,Ralf Schumacher,16
+1998,McLaren,David Coulthard,16
+1998,McLaren,Mika Häkkinen,16
+1998,Minardi,Esteban Tuero,16
+1998,Minardi,Shinji Nakano,16
+1998,Prost,Jarno Trulli,16
+1998,Prost,Olivier Panis,16
+1998,Sauber,Jean Alesi,16
+1998,Sauber,Johnny Herbert,16
+1998,Stewart,Jan Magnussen,7
+1998,Stewart,Jos Verstappen,9
+1998,Stewart,Rubens Barrichello,16
+1998,Tyrrell,Ricardo Rosset,13
+1998,Tyrrell,Toranosuke Takagi,16
+1998,Williams,Heinz-Harald Frentzen,16
+1998,Williams,Jacques Villeneuve,16
+1999,Arrows,Pedro de la Rosa,16
+1999,Arrows,Toranosuke Takagi,16
+1999,BAR,Jacques Villeneuve,16
+1999,BAR,Mika Salo,3
+1999,BAR,Ricardo Zonta,13
+1999,Benetton,Alexander Wurz,16
+1999,Benetton,Giancarlo Fisichella,16
+1999,Ferrari,Eddie Irvine,16
+1999,Ferrari,Michael Schumacher,10
+1999,Ferrari,Mika Salo,6
+1999,Jordan,Damon Hill,16
+1999,Jordan,Heinz-Harald Frentzen,16
+1999,McLaren,David Coulthard,16
+1999,McLaren,Mika Häkkinen,16
+1999,Minardi,Luca Badoer,15
+1999,Minardi,Marc Gené,16
+1999,Minardi,Stéphane Sarrazin,1
+1999,Prost,Jarno Trulli,16
+1999,Prost,Olivier Panis,16
+1999,Sauber,Jean Alesi,16
+1999,Sauber,Pedro Diniz,16
+1999,Stewart,Johnny Herbert,16
+1999,Stewart,Rubens Barrichello,16
+1999,Williams,Alessandro Zanardi,16
+1999,Williams,Ralf Schumacher,16
+2000,Arrows,Jos Verstappen,17
+2000,Arrows,Pedro de la Rosa,17
+2000,BAR,Jacques Villeneuve,17
+2000,BAR,Ricardo Zonta,17
+2000,Benetton,Alexander Wurz,17
+2000,Benetton,Giancarlo Fisichella,17
+2000,Ferrari,Michael Schumacher,17
+2000,Ferrari,Rubens Barrichello,17
+2000,Jaguar,Eddie Irvine,16
+2000,Jaguar,Johnny Herbert,17
+2000,Jaguar,Luciano Burti,1
+2000,Jordan,Heinz-Harald Frentzen,17
+2000,Jordan,Jarno Trulli,17
+2000,McLaren,David Coulthard,17
+2000,McLaren,Mika Häkkinen,17
+2000,Minardi,Gastón Mazzacane,17
+2000,Minardi,Marc Gené,17
+2000,Prost,Jean Alesi,17
+2000,Prost,Nick Heidfeld,16
+2000,Sauber,Mika Salo,17
+2000,Sauber,Pedro Diniz,17
+2000,Williams,Jenson Button,17
+2000,Williams,Ralf Schumacher,17
+2001,Arrows,Enrique Bernoldi,17
+2001,Arrows,Jos Verstappen,17
+2001,BAR,Jacques Villeneuve,17
+2001,BAR,Olivier Panis,17
+2001,Benetton,Giancarlo Fisichella,17
+2001,Benetton,Jenson Button,17
+2001,Ferrari,Michael Schumacher,17
+2001,Ferrari,Rubens Barrichello,17
+2001,Jaguar,Eddie Irvine,17
+2001,Jaguar,Luciano Burti,4
+2001,Jaguar,Pedro de la Rosa,13
+2001,Jordan,Heinz-Harald Frentzen,10
+2001,Jordan,Jarno Trulli,17
+2001,Jordan,Jean Alesi,5
+2001,Jordan,Ricardo Zonta,2
+2001,McLaren,David Coulthard,17
+2001,McLaren,Mika Häkkinen,17
+2001,Minardi,Alex Yoong,3
+2001,Minardi,Fernando Alonso,17
+2001,Minardi,Tarso Marques,14
+2001,Prost,Gastón Mazzacane,4
+2001,Prost,Heinz-Harald Frentzen,5
+2001,Prost,Jean Alesi,12
+2001,Prost,Luciano Burti,10
+2001,Prost,Tomáš Enge,3
+2001,Sauber,Kimi Räikkönen,17
+2001,Sauber,Nick Heidfeld,17
+2001,Williams,Juan Pablo Montoya,17
+2001,Williams,Ralf Schumacher,17
+2002,Arrows,Enrique Bernoldi,12
+2002,Arrows,Heinz-Harald Frentzen,12
+2002,BAR,Jacques Villeneuve,17
+2002,BAR,Olivier Panis,17
+2002,Ferrari,Michael Schumacher,17
+2002,Ferrari,Rubens Barrichello,17
+2002,Jaguar,Eddie Irvine,17
+2002,Jaguar,Pedro de la Rosa,17
+2002,Jordan,Giancarlo Fisichella,17
+2002,Jordan,Takuma Sato,17
+2002,McLaren,David Coulthard,17
+2002,McLaren,Kimi Räikkönen,17
+2002,Minardi,Alex Yoong,13
+2002,Minardi,Anthony Davidson,2
+2002,Minardi,Mark Webber,17
+2002,Renault,Jarno Trulli,17
+2002,Renault,Jenson Button,17
+2002,Sauber,Felipe Massa,16
+2002,Sauber,Heinz-Harald Frentzen,1
+2002,Sauber,Nick Heidfeld,17
+2002,Toyota,Allan McNish,17
+2002,Toyota,Mika Salo,17
+2002,Williams,Juan Pablo Montoya,17
+2002,Williams,Ralf Schumacher,17
+2003,BAR,Jacques Villeneuve,15
+2003,BAR,Jenson Button,16
+2003,BAR,Takuma Sato,1
+2003,Ferrari,Michael Schumacher,16
+2003,Ferrari,Rubens Barrichello,16
+2003,Jaguar,Antônio Pizzonia,11
+2003,Jaguar,Justin Wilson,5
+2003,Jaguar,Mark Webber,16
+2003,Jordan,Giancarlo Fisichella,16
+2003,Jordan,Ralph Firman,14
+2003,Jordan,Zsolt Baumgartner,2
+2003,McLaren,David Coulthard,16
+2003,McLaren,Kimi Räikkönen,16
+2003,Minardi,Jos Verstappen,16
+2003,Minardi,Justin Wilson,11
+2003,Minardi,Nicolas Kiesa,5
+2003,Renault,Fernando Alonso,16
+2003,Renault,Jarno Trulli,16
+2003,Sauber,Heinz-Harald Frentzen,16
+2003,Sauber,Nick Heidfeld,16
+2003,Toyota,Cristiano da Matta,16
+2003,Toyota,Olivier Panis,16
+2003,Williams,Juan Pablo Montoya,16
+2003,Williams,Marc Gené,1
+2003,Williams,Ralf Schumacher,15
+2004,BAR,Jenson Button,18
+2004,BAR,Takuma Sato,18
+2004,Ferrari,Michael Schumacher,18
+2004,Ferrari,Rubens Barrichello,18
+2004,Jaguar,Christian Klien,18
+2004,Jaguar,Mark Webber,18
+2004,Jordan,Giorgio Pantano,14
+2004,Jordan,Nick Heidfeld,18
+2004,Jordan,Timo Glock,4
+2004,McLaren,David Coulthard,18
+2004,McLaren,Kimi Räikkönen,18
+2004,Minardi,Gianmaria Bruni,18
+2004,Minardi,Zsolt Baumgartner,18
+2004,Renault,Fernando Alonso,18
+2004,Renault,Jacques Villeneuve,3
+2004,Renault,Jarno Trulli,15
+2004,Sauber,Felipe Massa,18
+2004,Sauber,Giancarlo Fisichella,18
+2004,Toyota,Cristiano da Matta,12
+2004,Toyota,Jarno Trulli,2
+2004,Toyota,Olivier Panis,17
+2004,Toyota,Ricardo Zonta,5
+2004,Williams,Antônio Pizzonia,4
+2004,Williams,Juan Pablo Montoya,18
+2004,Williams,Marc Gené,2
+2004,Williams,Ralf Schumacher,12
+2005,BAR,Anthony Davidson,1
+2005,BAR,Jenson Button,17
+2005,BAR,Takuma Sato,16
+2005,Ferrari,Michael Schumacher,19
+2005,Ferrari,Rubens Barrichello,19
+2005,Jordan,Narain Karthikeyan,19
+2005,Jordan,Tiago Monteiro,19
+2005,McLaren,Alexander Wurz,1
+2005,McLaren,Juan Pablo Montoya,17
+2005,McLaren,Kimi Räikkönen,19
+2005,McLaren,Pedro de la Rosa,1
+2005,Minardi,Christijan Albers,19
+2005,Minardi,Patrick Friesacher,11
+2005,Minardi,Robert Doornbos,8
+2005,Red Bull,Christian Klien,15
+2005,Red Bull,David Coulthard,19
+2005,Red Bull,Vitantonio Liuzzi,4
+2005,Renault,Fernando Alonso,19
+2005,Renault,Giancarlo Fisichella,19
+2005,Sauber,Felipe Massa,19
+2005,Sauber,Jacques Villeneuve,19
+2005,Toyota,Jarno Trulli,19
+2005,Toyota,Ralf Schumacher,18
+2005,Toyota,Ricardo Zonta,1
+2005,Williams,Antônio Pizzonia,5
+2005,Williams,Mark Webber,19
+2005,Williams,Nick Heidfeld,14
+2006,BMW Sauber,Jacques Villeneuve,12
+2006,BMW Sauber,Nick Heidfeld,18
+2006,BMW Sauber,Robert Kubica,6
+2006,Ferrari,Felipe Massa,18
+2006,Ferrari,Michael Schumacher,18
+2006,Honda,Jenson Button,18
+2006,Honda,Rubens Barrichello,18
+2006,MF1,Christijan Albers,14
+2006,MF1,Tiago Monteiro,14
+2006,McLaren,Juan Pablo Montoya,10
+2006,McLaren,Kimi Räikkönen,18
+2006,McLaren,Pedro de la Rosa,8
+2006,Red Bull,Christian Klien,15
+2006,Red Bull,David Coulthard,18
+2006,Red Bull,Robert Doornbos,3
+2006,Renault,Fernando Alonso,18
+2006,Renault,Giancarlo Fisichella,18
+2006,Spyker MF1,Christijan Albers,4
+2006,Spyker MF1,Tiago Monteiro,4
+2006,Super Aguri,Franck Montagny,7
+2006,Super Aguri,Sakon Yamamoto,7
+2006,Super Aguri,Takuma Sato,18
+2006,Super Aguri,Yuji Ide,4
+2006,Toro Rosso,Scott Speed,18
+2006,Toro Rosso,Vitantonio Liuzzi,18
+2006,Toyota,Jarno Trulli,18
+2006,Toyota,Ralf Schumacher,18
+2006,Williams,Mark Webber,18
+2006,Williams,Nico Rosberg,18
+2007,BMW Sauber,Nick Heidfeld,17
+2007,BMW Sauber,Robert Kubica,16
+2007,BMW Sauber,Sebastian Vettel,1
+2007,Ferrari,Felipe Massa,17
+2007,Ferrari,Kimi Räikkönen,17
+2007,Honda,Jenson Button,17
+2007,Honda,Rubens Barrichello,17
+2007,McLaren,Fernando Alonso,17
+2007,McLaren,Lewis Hamilton,17
+2007,Red Bull,David Coulthard,17
+2007,Red Bull,Mark Webber,17
+2007,Renault,Giancarlo Fisichella,17
+2007,Renault,Heikki Kovalainen,17
+2007,Spyker,Adrian Sutil,17
+2007,Spyker,Christijan Albers,9
+2007,Spyker,Markus Winkelhock,1
+2007,Spyker,Sakon Yamamoto,7
+2007,Super Aguri,Anthony Davidson,17
+2007,Super Aguri,Takuma Sato,17
+2007,Toro Rosso,Scott Speed,10
+2007,Toro Rosso,Sebastian Vettel,7
+2007,Toro Rosso,Vitantonio Liuzzi,17
+2007,Toyota,Jarno Trulli,17
+2007,Toyota,Ralf Schumacher,17
+2007,Williams,Alexander Wurz,16
+2007,Williams,Kazuki Nakajima,1
+2007,Williams,Nico Rosberg,17
+2008,BMW Sauber,Nick Heidfeld,18
+2008,BMW Sauber,Robert Kubica,18
+2008,Ferrari,Felipe Massa,18
+2008,Ferrari,Kimi Räikkönen,18
+2008,Force India,Adrian Sutil,18
+2008,Force India,Giancarlo Fisichella,18
+2008,Honda,Jenson Button,18
+2008,Honda,Rubens Barrichello,18
+2008,McLaren,Heikki Kovalainen,18
+2008,McLaren,Lewis Hamilton,18
+2008,Red Bull,David Coulthard,18
+2008,Red Bull,Mark Webber,18
+2008,Renault,Fernando Alonso,18
+2008,Renault,Nelson Piquet Jr.,18
+2008,Super Aguri,Anthony Davidson,4
+2008,Super Aguri,Takuma Sato,4
+2008,Toro Rosso,Sebastian Vettel,18
+2008,Toro Rosso,Sébastien Bourdais,18
+2008,Toyota,Jarno Trulli,18
+2008,Toyota,Timo Glock,18
+2008,Williams,Kazuki Nakajima,18
+2008,Williams,Nico Rosberg,18
+2009,BMW Sauber,Nick Heidfeld,17
+2009,BMW Sauber,Robert Kubica,17
+2009,Brawn,Jenson Button,17
+2009,Brawn,Rubens Barrichello,17
+2009,Ferrari,Felipe Massa,10
+2009,Ferrari,Giancarlo Fisichella,5
+2009,Ferrari,Kimi Räikkönen,17
+2009,Ferrari,Luca Badoer,2
+2009,Force India,Adrian Sutil,17
+2009,Force India,Giancarlo Fisichella,12
+2009,Force India,Vitantonio Liuzzi,5
+2009,McLaren,Heikki Kovalainen,17
+2009,McLaren,Lewis Hamilton,17
+2009,Red Bull,Mark Webber,17
+2009,Red Bull,Sebastian Vettel,17
+2009,Renault,Fernando Alonso,17
+2009,Renault,Nelson Piquet Jr.,10
+2009,Renault,Romain Grosjean,7
+2009,Toro Rosso,Jaime Alguersuari,8
+2009,Toro Rosso,Sébastien Bourdais,9
+2009,Toro Rosso,Sébastien Buemi,17
+2009,Toyota,Jarno Trulli,17
+2009,Toyota,Kamui Kobayashi,2
+2009,Toyota,Timo Glock,15
+2009,Williams,Kazuki Nakajima,17
+2009,Williams,Nico Rosberg,17
+2010,Ferrari,Felipe Massa,19
+2010,Ferrari,Fernando Alonso,19
+2010,Force India,Adrian Sutil,19
+2010,Force India,Vitantonio Liuzzi,19
+2010,HRT,Bruno Senna,18
+2010,HRT,Christian Klien,3
+2010,HRT,Karun Chandhok,10
+2010,HRT,Sakon Yamamoto,7
+2010,Lotus,Heikki Kovalainen,19
+2010,Lotus,Jarno Trulli,19
+2010,McLaren,Jenson Button,19
+2010,McLaren,Lewis Hamilton,19
+2010,Mercedes,Michael Schumacher,19
+2010,Mercedes,Nico Rosberg,19
+2010,Red Bull,Mark Webber,19
+2010,Red Bull,Sebastian Vettel,19
+2010,Renault,Robert Kubica,19
+2010,Renault,Vitaly Petrov,19
+2010,Sauber,Kamui Kobayashi,19
+2010,Sauber,Nick Heidfeld,5
+2010,Sauber,Pedro de la Rosa,14
+2010,Toro Rosso,Jaime Alguersuari,19
+2010,Toro Rosso,Sébastien Buemi,19
+2010,Virgin,Lucas di Grassi,19
+2010,Virgin,Timo Glock,19
+2010,Williams,Nico Hülkenberg,19
+2010,Williams,Rubens Barrichello,19
+2011,Ferrari,Felipe Massa,19
+2011,Ferrari,Fernando Alonso,19
+2011,Force India,Adrian Sutil,19
+2011,Force India,Paul di Resta,19
+2011,HRT,Daniel Ricciardo,11
+2011,HRT,Narain Karthikeyan,9
+2011,HRT,Vitantonio Liuzzi,18
+2011,Lotus,Heikki Kovalainen,19
+2011,Lotus,Jarno Trulli,18
+2011,Lotus,Karun Chandhok,1
+2011,McLaren,Jenson Button,19
+2011,McLaren,Lewis Hamilton,19
+2011,Mercedes,Michael Schumacher,19
+2011,Mercedes,Nico Rosberg,19
+2011,Red Bull,Mark Webber,19
+2011,Red Bull,Sebastian Vettel,19
+2011,Renault,Bruno Senna,8
+2011,Renault,Nick Heidfeld,11
+2011,Renault,Vitaly Petrov,19
+2011,Sauber,Kamui Kobayashi,19
+2011,Sauber,Pedro de la Rosa,1
+2011,Sauber,Sergio Pérez,18
+2011,Toro Rosso,Jaime Alguersuari,19
+2011,Toro Rosso,Sébastien Buemi,19
+2011,Virgin,Jérôme d'Ambrosio,19
+2011,Virgin,Timo Glock,19
+2011,Williams,Pastor Maldonado,19
+2011,Williams,Rubens Barrichello,19
+2012,Caterham,Heikki Kovalainen,20
+2012,Caterham,Vitaly Petrov,20
+2012,Ferrari,Felipe Massa,20
+2012,Ferrari,Fernando Alonso,20
+2012,Force India,Nico Hülkenberg,20
+2012,Force India,Paul di Resta,20
+2012,HRT,Narain Karthikeyan,20
+2012,HRT,Pedro de la Rosa,20
+2012,Lotus F1,Jérôme d'Ambrosio,1
+2012,Lotus F1,Kimi Räikkönen,20
+2012,Lotus F1,Romain Grosjean,19
+2012,Marussia,Charles Pic,20
+2012,Marussia,Timo Glock,20
+2012,McLaren,Jenson Button,20
+2012,McLaren,Lewis Hamilton,20
+2012,Mercedes,Michael Schumacher,20
+2012,Mercedes,Nico Rosberg,20
+2012,Red Bull,Mark Webber,20
+2012,Red Bull,Sebastian Vettel,20
+2012,Sauber,Kamui Kobayashi,20
+2012,Sauber,Sergio Pérez,20
+2012,Toro Rosso,Daniel Ricciardo,20
+2012,Toro Rosso,Jean-Éric Vergne,20
+2012,Williams,Bruno Senna,20
+2012,Williams,Pastor Maldonado,20
+2013,Caterham,Charles Pic,19
+2013,Caterham,Giedo van der Garde,19
+2013,Ferrari,Felipe Massa,19
+2013,Ferrari,Fernando Alonso,19
+2013,Force India,Adrian Sutil,19
+2013,Force India,Paul di Resta,19
+2013,Lotus F1,Heikki Kovalainen,2
+2013,Lotus F1,Kimi Räikkönen,17
+2013,Lotus F1,Romain Grosjean,19
+2013,Marussia,Jules Bianchi,19
+2013,Marussia,Max Chilton,19
+2013,McLaren,Jenson Button,19
+2013,McLaren,Sergio Pérez,19
+2013,Mercedes,Lewis Hamilton,19
+2013,Mercedes,Nico Rosberg,19
+2013,Red Bull,Mark Webber,19
+2013,Red Bull,Sebastian Vettel,19
+2013,Sauber,Esteban Gutiérrez,19
+2013,Sauber,Nico Hülkenberg,19
+2013,Toro Rosso,Daniel Ricciardo,19
+2013,Toro Rosso,Jean-Éric Vergne,19
+2013,Williams,Pastor Maldonado,19
+2013,Williams,Valtteri Bottas,19
+2014,Caterham,André Lotterer,1
+2014,Caterham,Kamui Kobayashi,16
+2014,Caterham,Marcus Ericsson,16
+2014,Caterham,Will Stevens,1
+2014,Ferrari,Fernando Alonso,19
+2014,Ferrari,Kimi Räikkönen,19
+2014,Force India,Nico Hülkenberg,19
+2014,Force India,Sergio Pérez,19
+2014,Lotus F1,Pastor Maldonado,19
+2014,Lotus F1,Romain Grosjean,19
+2014,Marussia,Jules Bianchi,15
+2014,Marussia,Max Chilton,16
+2014,McLaren,Jenson Button,19
+2014,McLaren,Kevin Magnussen,19
+2014,Mercedes,Lewis Hamilton,19
+2014,Mercedes,Nico Rosberg,19
+2014,Red Bull,Daniel Ricciardo,19
+2014,Red Bull,Sebastian Vettel,19
+2014,Sauber,Adrian Sutil,19
+2014,Sauber,Esteban Gutiérrez,19
+2014,Toro Rosso,Daniil Kvyat,19
+2014,Toro Rosso,Jean-Éric Vergne,19
+2014,Williams,Felipe Massa,19
+2014,Williams,Valtteri Bottas,19
+2015,Ferrari,Kimi Räikkönen,19
+2015,Ferrari,Sebastian Vettel,19
+2015,Force India,Nico Hülkenberg,19
+2015,Force India,Sergio Pérez,19
+2015,Lotus F1,Pastor Maldonado,19
+2015,Lotus F1,Romain Grosjean,19
+2015,Manor Marussia,Alexander Rossi,5
+2015,Manor Marussia,Roberto Merhi,13
+2015,Manor Marussia,Will Stevens,18
+2015,McLaren,Fernando Alonso,18
+2015,McLaren,Jenson Button,19
+2015,McLaren,Kevin Magnussen,1
+2015,Mercedes,Lewis Hamilton,19
+2015,Mercedes,Nico Rosberg,19
+2015,Red Bull,Daniel Ricciardo,19
+2015,Red Bull,Daniil Kvyat,19
+2015,Sauber,Felipe Nasr,19
+2015,Sauber,Marcus Ericsson,19
+2015,Toro Rosso,Carlos Sainz,19
+2015,Toro Rosso,Max Verstappen,19
+2015,Williams,Felipe Massa,19
+2015,Williams,Valtteri Bottas,19
+2016,Ferrari,Kimi Räikkönen,21
+2016,Ferrari,Sebastian Vettel,21
+2016,Force India,Nico Hülkenberg,21
+2016,Force India,Sergio Pérez,21
+2016,Haas F1 Team,Esteban Gutiérrez,21
+2016,Haas F1 Team,Romain Grosjean,21
+2016,Manor Marussia,Esteban Ocon,9
+2016,Manor Marussia,Pascal Wehrlein,21
+2016,Manor Marussia,Rio Haryanto,12
+2016,McLaren,Fernando Alonso,20
+2016,McLaren,Jenson Button,21
+2016,McLaren,Stoffel Vandoorne,1
+2016,Mercedes,Lewis Hamilton,21
+2016,Mercedes,Nico Rosberg,21
+2016,Red Bull,Daniel Ricciardo,21
+2016,Red Bull,Daniil Kvyat,4
+2016,Red Bull,Max Verstappen,17
+2016,Renault,Jolyon Palmer,21
+2016,Renault,Kevin Magnussen,21
+2016,Sauber,Felipe Nasr,21
+2016,Sauber,Marcus Ericsson,21
+2016,Toro Rosso,Carlos Sainz,21
+2016,Toro Rosso,Daniil Kvyat,17
+2016,Toro Rosso,Max Verstappen,4
+2016,Williams,Felipe Massa,21
+2016,Williams,Valtteri Bottas,21
+2017,Ferrari,Kimi Räikkönen,20
+2017,Ferrari,Sebastian Vettel,20
+2017,Force India,Esteban Ocon,20
+2017,Force India,Sergio Pérez,20
+2017,Haas F1 Team,Kevin Magnussen,20
+2017,Haas F1 Team,Romain Grosjean,20
+2017,McLaren,Fernando Alonso,19
+2017,McLaren,Jenson Button,1
+2017,McLaren,Stoffel Vandoorne,20
+2017,Mercedes,Lewis Hamilton,20
+2017,Mercedes,Valtteri Bottas,20
+2017,Red Bull,Daniel Ricciardo,20
+2017,Red Bull,Max Verstappen,20
+2017,Renault,Carlos Sainz,4
+2017,Renault,Jolyon Palmer,16
+2017,Renault,Nico Hülkenberg,20
+2017,Sauber,Antonio Giovinazzi,2
+2017,Sauber,Marcus Ericsson,20
+2017,Sauber,Pascal Wehrlein,18
+2017,Toro Rosso,Brendon Hartley,4
+2017,Toro Rosso,Carlos Sainz,16
+2017,Toro Rosso,Daniil Kvyat,15
+2017,Toro Rosso,Pierre Gasly,5
+2017,Williams,Felipe Massa,19
+2017,Williams,Lance Stroll,20
+2017,Williams,Paul di Resta,1
+2018,Ferrari,Kimi Räikkönen,21
+2018,Ferrari,Sebastian Vettel,21
+2018,Force India,Esteban Ocon,21
+2018,Force India,Sergio Pérez,21
+2018,Haas F1 Team,Kevin Magnussen,21
+2018,Haas F1 Team,Romain Grosjean,21
+2018,McLaren,Fernando Alonso,21
+2018,McLaren,Stoffel Vandoorne,21
+2018,Mercedes,Lewis Hamilton,21
+2018,Mercedes,Valtteri Bottas,21
+2018,Red Bull,Daniel Ricciardo,21
+2018,Red Bull,Max Verstappen,21
+2018,Renault,Carlos Sainz,21
+2018,Renault,Nico Hülkenberg,21
+2018,Sauber,Charles Leclerc,21
+2018,Sauber,Marcus Ericsson,21
+2018,Toro Rosso,Brendon Hartley,21
+2018,Toro Rosso,Pierre Gasly,21
+2018,Williams,Lance Stroll,21
+2018,Williams,Sergey Sirotkin,21
+2019,Alfa Romeo,Antonio Giovinazzi,7
+2019,Alfa Romeo,Kimi Räikkönen,7
+2019,Ferrari,Charles Leclerc,7
+2019,Ferrari,Sebastian Vettel,7
+2019,Haas F1 Team,Kevin Magnussen,7
+2019,Haas F1 Team,Romain Grosjean,7
+2019,McLaren,Carlos Sainz,7
+2019,McLaren,Lando Norris,7
+2019,Mercedes,Lewis Hamilton,7
+2019,Mercedes,Valtteri Bottas,7
+2019,Racing Point,Lance Stroll,7
+2019,Racing Point,Sergio Pérez,7
+2019,Red Bull,Max Verstappen,7
+2019,Red Bull,Pierre Gasly,7
+2019,Renault,Daniel Ricciardo,7
+2019,Renault,Nico Hülkenberg,7
+2019,Toro Rosso,Alexander Albon,7
+2019,Toro Rosso,Daniil Kvyat,7
+2019,Williams,George Russell,7
+2019,Williams,Robert Kubica,7
