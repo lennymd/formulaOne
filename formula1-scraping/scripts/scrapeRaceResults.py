@@ -15,7 +15,7 @@ baseurl = "https://www.formula1.com"
 
 #import the race_list I scraped before:
 race_list = []
-with open('../output/race_list.csv', "r") as csvDataFile:
+with open('../output/race_list_updated.csv', "r") as csvDataFile:
   csvReader = csv.reader(csvDataFile)
   for row in csvReader:
       race_list.append(row)
@@ -110,6 +110,6 @@ for race in race_list[1:]:
   else:
     pass
 
-with open("../output/results_all.csv", "w") as my_csv:
+with open("../output/results_all_updated.csv", "w") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(race_results)

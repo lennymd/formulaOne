@@ -32,7 +32,6 @@ for year in range(1950, 2020):
       raceRound = i+1
       race = races[i]
       cols = race.find_all("td")
-
       # the name of the prix
       raceName = cols[1].find("a").text.strip()
       # the url for the specific prix
@@ -51,15 +50,16 @@ for year in range(1950, 2020):
       driverCode = driverInfo[2].text.strip()
       # the team the winning driver drove for
       raceWinnerCar = cols[4].text.strip()
-
-      # laps the driver
+      # laps the driver completed
       laps = cols[5].text.strip()
-
       # time to complete race
       time = cols[6].text.strip()
-
-      raceInfo = [year, raceRound, raceDate, raceName, driverFirstName, driverLastName, driverCode, raceWinnerCar, laps, time, raceUrl]
-      race_list.append(raceInfo)
+      
+      if laps == "null":
+        print("@@@ This race is already added", year, raceRound, raceName)
+      else: 
+        raceInfo = [year, raceRound, raceDate, raceName, driverFirstName, driverLastName, driverCode, raceWinnerCar, laps, time, raceUrl]
+        race_list.append(raceInfo)
 
   except Exception as e:
     print(e)
@@ -72,7 +72,7 @@ for year in range(1950, 2020):
   else:
     pass
 
-with open("../output/race_list.csv", "w") as my_csv:
+with open("../output/race_list_updated.csv", "w") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(race_list)
 
