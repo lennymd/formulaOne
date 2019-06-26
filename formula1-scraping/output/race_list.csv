@@ -10,7 +10,6 @@ year,round,date,prix,winnerFirstName,winnerLastName,winnerDriverCode,winnerConst
 1951,2,30 May 1951,Indianapolis 500,Lee,Wallard,WAL,Kurtis Kraft Offenhauser,200,3:57:38.050,/en/results.html/1951/races/102/indianapolis-500/race-result.html
 1951,3,17 Jun 1951,Belgium,Nino,Farina,FAR,Alfa Romeo,36,2:45:46.200,/en/results.html/1951/races/103/belgium/race-result.html
 1951,4,01 Jul 1951,France,Juan Manuel,Fangio,FAN,Alfa Romeo,77,3:22:11.000,/en/results.html/1951/races/104/france/race-result.html
-1951,5,01 Jul 1951,France,Luigi,Fagioli,FAG,Alfa Romeo,null,,/en/results.html/1951/races/104/france/race-result.html
 1951,6,14 Jul 1951,Great Britain,Jose Froilan,Gonzalez,GON,Ferrari,90,2:42:18.200,/en/results.html/1951/races/105/great-britain/race-result.html
 1951,7,29 Jul 1951,Germany,Alberto,Ascari,ASC,Ferrari,20,3:23:03.300,/en/results.html/1951/races/106/germany/race-result.html
 1951,8,16 Sep 1951,Italy,Alberto,Ascari,ASC,Ferrari,80,2:42:39.300,/en/results.html/1951/races/107/italy/race-result.html
@@ -48,7 +47,6 @@ year,round,date,prix,winnerFirstName,winnerLastName,winnerDriverCode,winnerConst
 1955,5,19 Jun 1955,Netherlands,Juan Manuel,Fangio,FAN,Mercedes-Benz,100,2:54:23.800,/en/results.html/1955/races/139/netherlands/race-result.html
 1955,6,16 Jul 1955,Great Britain,Stirling,Moss,MOS,Mercedes-Benz,90,3:07:21.200,/en/results.html/1955/races/140/great-britain/race-result.html
 1955,7,11 Sep 1955,Italy,Juan Manuel,Fangio,FAN,Mercedes-Benz,50,2:25:04.400,/en/results.html/1955/races/141/italy/race-result.html
-1956,1,22 Jan 1956,Argentina,Luigi,Musso,MUS,Ferrari,null,,/en/results.html/1956/races/142/argentina/race-result.html
 1956,2,22 Jan 1956,Argentina,Juan Manuel,Fangio,FAN,Ferrari,98,3:00:03.700,/en/results.html/1956/races/142/argentina/race-result.html
 1956,3,13 May 1956,Monaco,Stirling,Moss,MOS,Maserati,100,3:00:32.900,/en/results.html/1956/races/143/monaco/race-result.html
 1956,4,30 May 1956,Indianapolis 500,Pat,Flaherty,FLA,Watson Offenhauser,200,3:53:28.840,/en/results.html/1956/races/144/indianapolis-500/race-result.html
@@ -62,7 +60,6 @@ year,round,date,prix,winnerFirstName,winnerLastName,winnerDriverCode,winnerConst
 1957,3,30 May 1957,Indianapolis 500,Sam,Hanks,HAN,Epperly Offenhauser,200,3:41:14.250,/en/results.html/1957/races/152/indianapolis-500/race-result.html
 1957,4,07 Jul 1957,France,Juan Manuel,Fangio,FAN,Maserati,77,3:07:46.400,/en/results.html/1957/races/153/france/race-result.html
 1957,5,20 Jul 1957,Great Britain,Stirling,Moss,MOS,Vanwall,90,3:06:37.800,/en/results.html/1957/races/154/great-britain/race-result.html
-1957,6,20 Jul 1957,Great Britain,Tony,Brooks,BRO,Vanwall,null,,/en/results.html/1957/races/154/great-britain/race-result.html
 1957,7,04 Aug 1957,Germany,Juan Manuel,Fangio,FAN,Maserati,22,3:30:38.300,/en/results.html/1957/races/155/germany/race-result.html
 1957,8,18 Aug 1957,Pescara,Stirling,Moss,MOS,Vanwall,18,2:59:22.700,/en/results.html/1957/races/156/pescara/race-result.html
 1957,9,08 Sep 1957,Italy,Stirling,Moss,MOS,Vanwall,87,2:35:03.900,/en/results.html/1957/races/157/italy/race-result.html

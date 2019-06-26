@@ -72,7 +72,7 @@ for year in range(1950, 2020):
   else:
     pass
 
-with open("../output/race_list_updated.csv", "w") as my_csv:
+with open("../output/race_list.csv", "w") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(race_list)
 
