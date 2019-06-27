@@ -31,6 +31,6 @@ for year in range(1950, 2020):
   else:
     pass
 
-with open("../data/scraped/winning_teams.csv", "w") as my_csv:
+with open("../data/from_scripts/winning_teams.csv", "w") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(winner_list)

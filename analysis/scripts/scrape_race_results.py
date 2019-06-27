@@ -69,6 +69,6 @@ for race in race_list[1:]:
   else:
     pass
 
-with open("../data/scraped/race_results.csv", "w") as my_csv:
+with open("../data/from_scripts/race_results.csv", "w") as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=',')
     csvWriter.writerows(race_results)
