@@ -7,7 +7,7 @@ import csv
 
 # load the list of races
 race_list = []
-with open('../data/scraped/race_list.csv', "r") as f:
+with open('../data/from_scripts/race_list.csv', "r") as f:
   csv_file = csv.reader(f)
   for row in csv_file:
       race_list.append(row)
