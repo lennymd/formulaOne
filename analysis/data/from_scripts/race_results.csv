@@ -1,3 +1,4 @@
+race_id,year,round_id,race_date,race_name,first_name,last_name,code,constructor,position,position_order,laps,time,points
 1,1950,1,Great Britain,13 May 1950,Nino,Farina,FAR,Alfa Romeo,1,1,70,2:13:23.600,9
 1,1950,1,Great Britain,13 May 1950,Luigi,Fagioli,FAG,Alfa Romeo,2,2,70,+2.600s,6
 1,1950,1,Great Britain,13 May 1950,Reg,Parnell,PAR,Alfa Romeo,3,3,70,+52.000s,4
