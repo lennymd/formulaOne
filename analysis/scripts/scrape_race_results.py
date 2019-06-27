@@ -8,12 +8,13 @@ import csv
 # load the list of races
 race_list = []
 with open('../data/from_scripts/race_list.csv', "r") as f:
-  csv_file = csv.reader(f)
-  for row in csv_file:
+  for row in csv.reader(f):
       race_list.append(row)
 
 # setup
-race_results = []
+race_results = [["race_id", "year", "round_id", "race_date", "race_name",
+                "first_name", "last_name", "code", "constructor",
+                "position", "position_order", "laps", "time", "points"]]
 base_url = "https://www.formula1.com"
 race_id = 0
 
