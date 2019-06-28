@@ -13,8 +13,8 @@ with open('../data/from_scripts/race_list.csv', "r") as f:
 
 # setup
 race_results = [["race_id", "year", "round_id", "race_date", "race_name",
-                "first_name", "last_name", "code", "constructor",
-                "position", "position_order", "laps", "time", "points"]]
+                "driver", "code", "constructor", "position", 
+                "position_order", "laps", "time", "points"]]
 base_url = "https://www.formula1.com"
 race_id = 0
 
@@ -45,10 +45,13 @@ for race in race_list[1:]:
 
       position = cols[1].text.strip()
       
-      driver = cols[3].find_all("span")
-      first_name = driver[0].text.strip()
-      last_name = driver[1].text.strip()
-      code = driver[2].text.strip()
+      driver_info = cols[3].find_all("span")
+
+      first_name = driver_info[0].text.strip()
+      last_name = driver_info[1].text.strip()
+      driver = first_name + " " + last_name
+
+      code = driver_info[2].text.strip()
 
       constructor = cols[4].text.strip()
       laps =cols[5].text.strip()
@@ -56,8 +59,8 @@ for race in race_list[1:]:
       points = cols[7].text.strip()
       
       race_results.append([race_id, year, round_id, race_date, race_name,
-                            first_name, last_name, code, constructor, 
-                            position, position_order, laps, time, points])
+                            driver, code, constructor, position, 
+                            position_order, laps, time, points])
 
   except Exception as e:
     print(e)
@@ -66,7 +69,7 @@ for race in race_list[1:]:
 
   if ((race_id % 10) == 0):
     print("[ Pause, ", race_id, "]")
-    sleep(1)
+    sleep(2)
   else:
     pass
 

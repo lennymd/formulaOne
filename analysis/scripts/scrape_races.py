@@ -44,7 +44,7 @@ for year in range(1950, 2019):
         # There are 3 instances of first place being shared by 2 drivers, the second driver's laps are listed as "null". To avoid adding the race more than once, we skip it.
         pass
       else: 
-        race_list.append([year, round_id, race_name, race_date, race_url])
+        race_list.append([year, round_id, race_date, race_name, race_url])
 
   except Exception as e:
     print(e)
