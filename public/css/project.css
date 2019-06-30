@@ -1,0 +1,14 @@
+.placeholder {
+  height: 300px;
+  background: #f9423A;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.placeholder2 {
+  height: 100px;
+  background: #556b2f;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+}
