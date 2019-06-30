@@ -8,7 +8,7 @@
     <script>
 
       // set the dimensions and margins of the graph
-      var margin = { top: 10, right: 30, bottom: 90, left: 40 },
+      var margin = { top: 20, right: 40, bottom: 90, left: 40 },
         width = window.innerWidth - margin.left - margin.right,
         height = window.innerHeight - margin.top - margin.bottom;
 
@@ -25,53 +25,54 @@
         return {
           year: +d.year,
           constructor_clean: d.constructor_clean,
-          wins: +d.wins, 
-          races: +d.races, 
+          wins: +d.wins,
+          run: d.run,
+          races: +d.races,
           win_percentage: +d.win_percentage
         }
       };
 
 
-      d3.csv("../public/data/win_count_normalized.csv", rowConversion, function (data) {
+      d3.csv("../public/data/win_count_normalized.csv", rowConversion, function(data) {
 
-        var x_wins = d3.scaleBand()
+        var x= d3.scaleBand()
                         .range([0, width])
-                        .domain([1950, 2018])
+                        .domain(data.map( function(d) { return d.year; }))
                         .padding(1);
 
         svg.append("g")
           .attr("transform", "translate(0," + height + ")")
-          .call(d3.axisBottom(x_wins))
+          .call(d3.axisBottom(x))
           .selectAll("text")
           .attr("transform", "translate(-10,0)rotate(-45)")
           .style("text-anchor", "end");
 
-        var y_wins = d3.scaleLinear()
+        var y = d3.scaleLinear()
                         .domain([0, 20])
                         .range([height, 0]);
 
         svg.append("g")
-          .call(d3.axisLeft(y_wins));
+          .call(d3.axisLeft(y));
         
-          // svg.selectAll("mylines")
-          //     .data(data)
-          //     .enter()
-          //     .append("line")
-          //     .attr("x1", function (d) { return x_wins(+d.year); })
-          //     .attr("x2", function (d) { return x_wins(+d.year); })
-          //     .attr("y1", function (d) { return y_wins(+d.wins); })
-          //     .attr("y2", y_wins(0))
-          //     .attr("stroke", "grey")
+        var lines = svg.selectAll("mylines")
+                      .data(data)
+                      .enter()
+                      .append("line")
+                      .attr("x1", function (d) { return x(+d.year); })
+                      .attr("x2", function (d) { return x(+d.year); })
+                      .attr("y1", function (d) { return y(d.wins); })
+                      .attr("y2", y(0))
+                      .attr("stroke", "grey")
 
-          svg.selectAll("mycircles")
-            .data(data)
-            .enter()
-            .append("circle")
-            .attr("cx", function (d) { return x_wins(d.year); })
-            .attr("cy", function (d) { return y_wins(d.wins); })
-            .attr("r", "4")
-            .style("fill", "#f9423a")
-            .attr("stroke", "black")
+        var circles = svg.selectAll("mycircles")
+                      .data(data)
+                      .enter()
+                      .append("circle")
+                      .attr("cx", function (d) { return x(d.year); })
+                      .attr("cy", function (d) { return y(d.wins); })
+                      .attr("r", "4")
+                      .style("fill", "#f9423a")
+                      .attr("stroke", "black")
 
       })
     </script>
