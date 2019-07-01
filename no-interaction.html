@@ -3,6 +3,31 @@
   <head>
     <title>@@</title>
     <link rel="stylesheet" href="public/css/project.css">
+    <style>
+      * {
+        margin: 0;
+      }
+      html {
+        font-size: 100%;
+        line-height: 1.5;
+      }
+      body {
+        width: 90vw;
+        margin:auto;
+        font-size: 21px;
+      }
+      .placeholder {
+        background-color: #E8E3CD;
+        height: 800px;
+        margin: 0;
+      }
+
+      p {
+        width: 50vw;
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+      }
+    </style>
   </head>
   <body>
     <h1>Which team had the best championship season?</h1>
@@ -12,15 +37,10 @@
       @@Some sort of introductory text@@
     </p>
     <p>
-      In the 69-year history of Formula One, over 800 men have raced to be champion, but only 33 have held the cup
+      In the 69-year history of Formula One, over 800 men and 5 women have raced to be champion, but only 33 have held the cup.
     </p>
-    <div id="graph00" class="placeholder">
-      @@ show initital state of 800 dots, and the 33 winners get highlighted @@
-    </div>
     <div id="graph01" class="placeholder">
-      circles for each of the 33 champions; radius is a fn. of number of championships, from 1 to 7.<br>
-      color is singular for each driver<br>
-      forced together
+      <iframe src="graphs/graph1.html" style="border:none;" height="90%" width="100%"></iframe>
     </div>
     <p>
       These 33 drivers have raced for 16 different teams
@@ -39,8 +59,7 @@
       One way to see which team had the best season is to look at the number of races they won each season
     </p>
     <div id="graph03" class="placeholder">
-      lollipop plot of wins by the winning team, each of the 16 teams has a unique color that will follow us through the piece.<br>
-      wins sorted from highest to lowest.
+      <iframe src="graphs/graph3.html" style="border:none;" height="100%" width="100%"" ></iframe>
     </div>
     <p>Looking at the wins, Mercedes's 2016 run is the best season for a Formula One championship team.</p>
     <div class="placeholder2">
@@ -72,17 +91,17 @@
       If we do this for the rest of the teams we get,
     </p>
     <div id="graph04" class="placeholder">
-      same lollipop as previous one, but with win percentages
+      <iframe src="graphs/graph4.html" style="border:none;" height="100%" width="100%"" ></iframe>
     </div>
     <p>
       And if we scale everything by 100 to get percentages,
     </p>
     <div id="graph05" class="placeholder">
-      scale graph04 by 100
+      <iframe src="graphs/graph5.html" style="border:none;" height="100%" width="100%"" ></iframe>
     </div>
     <p>And we can resort them from highest to lowest win percentage:</p>
     <div id="graph06" class="placeholder">
-      resort graph05 from high to low win percentage
+      <iframe src="graphs/graph6.html" style="border:none;" height="100%" width="100%"" ></iframe>
     </div>
     <p>
       Looking at this now, Mercedes's 2016 comes in second compared to McLaren's 1988 run.
