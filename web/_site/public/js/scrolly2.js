@@ -41,6 +41,6 @@ scroller.setup({
 
 
 window.addEventListener('resize', function(d) {
-  scroller.resize;
+  scroller.resize();
   this.console.log("resizing");
 });
