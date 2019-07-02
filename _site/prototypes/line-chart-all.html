@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      height: 100%
+    }
+  </style>
+</head>
+
+<body>
+  <script src="d3/d3.v4.js"></script>
+  <script>
+    var margin = { top: 50, right: 40, bottom: 50, left: 40 },
+      width = window.innerWidth - margin.left - margin.right,
+      // height = window.innerHeight - margin.top - margin.bottom;
+      height = 100000 - margin.top - margin.bottom;
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      // .attr("height", height + margin.top + margin.bottom)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform",
+        "translate(" + margin.left + "," + margin.top + ")");
+
+    var rowConverter = function (d) {
+      return {
+        raceId2: +d.raceId2,
+        driverName: d.driverName,
+        // constructorRef: d.constructorRef,
+        // grid: +d.grid,
+        positionOrder: +d.positionOrder,
+        // points: +d.points,
+        // year: +d.year,
+        // round: +d.round,
+        prixDate: d3.timeParse("%Y-%m-%d")(d.prixDate),
+        // prixName: d.prixName
+      }
+    };
+
+    var dataset;
+    var nest;
+    var driverLine = d3.line()
+      .y(function (d) { return yScale2(d.raceId2); })
+      .x(function (d) {
+        if (d.positionOrder > 20) {
+          return xScale(21);
+        }
+        else {
+          return xScale(d.positionOrder)
+        }
+      });
+
+    //load csv, put in the right rowConverter so each column is correctly typed, start working
+    d3.csv("data/f1db_results.csv", rowConverter, function (data) {
+      //do all the visualization things here
+      dataset = data;
+
+      nest = d3.nest()
+        .key(function (d) {
+          return d.driverName;
+        })
+        .entries(dataset);
+
+
+      yScale = d3.scaleTime()
+        .domain(d3.extent(data, function (d) { return d.prixDate; }))
+        .range([margin.top, height]);
+
+      yScale2 = d3.scaleLinear()
+        .domain(d3.extent(data, function (d) { return d.raceId2; }))
+        .range([margin.top, height]);
+
+
+      xScale = d3.scaleLinear()
+        .domain([1, 21])
+        .range([width / 2, margin.left]);
+
+      svg.selectAll(".line")
+        .data(nest)
+        .enter()
+        .append("path")
+        .attr("fill", "none")
+        .attr("stroke", "#F9423A")
+        .attr("stroke-width", 1.5)
+        .attr("d", function (d) {
+          return driverLine(d.values);
+        }
+        );
+
+
+      svg.append("g")
+        // .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisTop(xScale));
+      svg.append("g")
+        .attr("transform", "translate(" + margin.left / 2 + ",0)")
+        .call(d3.axisLeft(yScale2).ticks(1000));
+
+
+    });
+  </script>
+</body>
+
+</html>
