@@ -3,8 +3,8 @@
   text-align: center; }
 
 #scrolly-overlay .scrolly {
-  max-width: 60rem;
-  margin: 3rem auto;
+  max-width: 100rem;
+  margin: 1.4rem auto;
   background-color: #f4f4f4;
   padding: 1rem; }
   #scrolly-overlay .scrolly article {

@@ -40,4 +40,7 @@ scroller.setup({
   .onStepExit(handleStepExit);
 
 
-window.addEventListener('resize', scroller.resize);
+window.addEventListener('resize', function(d) {
+  scroller.resize;
+  this.console.log("resizing");
+});
