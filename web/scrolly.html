@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/css/scrolly.css">
+  </head>
+  <body>
+    <body>
+      <h1>Which team had the best championship season?</h1>
+    
+      <!-- Introduction -->
+      <p>
+        @@Some sort of introductory text@@
+      </p>
+      <p>
+        In the 69-year history of Formula One, over 800 men and 5 women have raced to be champion, but only 33 have held the
+        cup.
+      </p>
+      <div id="graph01" class="placeholder">
+        <iframe src="graphs/graph1.html" style="border:none;" height="90%" width="100%"></iframe>
+      </div>
+      <p>
+        These 33 drivers have raced for 16 different teams
+      </p>
+      <div id="graph02" class="placeholder">
+        stacked dot plot of the wins each team has; colors correspon to previous graph.
+      </div>
+      <p>
+        But which team has had the <strong>best</strong> championship season?
+      </p>
+    
+    
+      <!-- Method 01 : Wins -->
+      <h2>Method 01</h2>
+      <p>
+        One way to see which team had the best season is to look at the number of races they won each season
+      </p>
+      <div id="graph03" class="placeholder">
+        <iframe src="graphs/graph3.html" style="border:none;" height="100%" width="100%"" ></iframe>
+        </div>
+        <p>Looking at the wins, Mercedes's 2016 run is the best season for a Formula One championship team.</p>
+        <div class=" placeholder2">
+          {Show a higlight video of 2016 season with mercedes}
+      </div>
+      <p>
+        Rosberg won the driver's cup that year and his Mercedes teammate, Lewish Hamilton was still fresh from his 2015 win.
+      </p>
+      <div class="placeholder2">
+        pictures of rosberg and hamilton.
+      </div>
+      <p>
+        But if we look at second place, Mercedes's 2014 run, the 2014 season had 2 less races than the 2016 season.
+      </p>
+      <p>
+        That's two more opportunities to win a race in 2016 than in 2014.
+      </p>
+      <p>
+        In fact if we look all the way back to the first season, 1950, there were only seven races.
+      </p>
+      <p>
+        Let's look at the same number of wins, but let's <em>normalize</em> each team's run by the number of races in that
+        year's season.
+      </p>
+      <p>
+        Mercedes's 2016 run would be:<br>
+        <strong>{{latex formula of 19 wins/21 races = 0.904761905}}</strong>
+      </p>
+      <p>
+        If we do this for the rest of the teams we get,
+      </p>
+      <div id="graph04" class="placeholder">
+        <iframe src="graphs/graph4.html" style="border:none;" height="100%" width="100%"" ></iframe>
+        </div>
+        <p>
+          And if we scale everything by 100 to get percentages,
+        </p>
+        <div id=" graph05" class="placeholder">
+          <iframe src="graphs/graph5.html" style="border:none;" height="100%" width="100%"" ></iframe>
+        </div>
+        <p>And we can resort them from highest to lowest win percentage:</p>
+        <div id=" graph06" class="placeholder">
+            <iframe src="graphs/graph6.html" style="border:none;" height="100%" width="100%"" ></iframe>
+        </div>
+        <p>
+          Looking at this now, Mercedes's 2016 comes in second compared to McLaren's 1988 run.
+        </p>
+        <p>
+          In 1988 McLaren's drivers, Alain Prost and Ayrton Senna, got the closest to winning every race in a season.
+        </p>
+        <div class=" placeholder2">
+              pictures of Prost and Senna.
+      </div>
+      <p> Between the two of them, they won 15 of the 16 races. In the Italian Grand Prix that year, the only race they
+        lost, Senna was forced to retire due to a collision on lap 49. He was leading the race from the start, and only
+        needed 2 more laps.</p>
+      <div class="placeholder2">
+        {1988 italian gp highlights video}
+      </div>
+      <p>Behind McLaren's 1988 and Mercedes's 2016 run, is Ferrari's 2002 run. In this run, Michael Schumacher and Rubens
+        Barrichello, split 15 wins, and 14 of them were in the very robust F2002</p>
+      <div class="placeholder2">
+        {picture of the F2002}
+      </div>
+      <p>
+        @@Some summary paragraph@@
+      </p>
+      <div class="placeholder">
+        An interactive version of graph07 where reader can switch between wins and win percentages, they can also highlight
+        teams using an autofill box.
+      </div>
+    
+      <!-- Method 02 : Podiums -->
+      <h2>Method 02</h2>
+      <p>
+        @@Talk about drawbacks of looking just at wins@@
+      </p>
+      <p>
+        What if we look at the podiums for each race? The podium refers to the first 3 places in a race.<br>
+        A strong season would be one where a team got all their drivers on the podium for as many races as possible.
+      </p>
+    
+    
+      <!-- Method 03 : 1-2 Finishes and race averages -->
+      <h2>Method 03</h2>
+    
+    
+      <!-- Conclusion -->
+      <h2>Conclusion</h2>
+    <script src="/public/js/waypoints/noframework.waypoints.min.js"></script>
+    <script src="/public/js/scrolly.js"></script>
+  </body>
+</html>
