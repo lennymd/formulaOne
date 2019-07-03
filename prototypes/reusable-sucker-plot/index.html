@@ -24,8 +24,7 @@
 		<script src="../../public/js/d3.v4.js"></script>
 		<script src="script.js"></script>
 		<script>
-		var dataset;
-		var fix_data_types = (d) => {
+		var correct_data_types = (d) => {
 			return {
 				year: +d.year,
 				constructor_clean: d.constructor_clean,
@@ -36,16 +35,16 @@
 			}
 		}
 
-		d3.csv("../../public/data/win_count_normalized.csv", fix_data_types, (data) => {
-			dataset = data;
-
+		d3.csv("../../public/data/win_count_normalized.csv", correct_data_types, (dataset) => {
 			var plot = new sucker_chart({
 				plot_data: dataset,
 				element: "#plot0",
 				normalize: 0,
 				x: "wins",
-				y: "win_percentage"
+				y: "run"
 			})
+
+			plot.norm("wins");
 		});
 
 

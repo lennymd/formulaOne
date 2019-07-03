@@ -8,15 +8,15 @@ class sucker_chart {
 		this.col_x = opts.x;
 		this.col_y = opts.y;
 
-		this.draw();
+		this.resort("wins");
 	}
 
 	draw() {
 		this.margin = {
-			top: 40,
-			right: 40,
-			bottom: 0,
-			left: 40};
+			top: 50,
+			right: 60,
+			bottom: 50,
+			left: 100};
 
 		this.width = window.innerWidth - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
@@ -54,13 +54,13 @@ class sucker_chart {
 						.domain([0, 21])
 						.range([0, this.width]);
 		
-		this.y_scale = d3.scaleBand()
+		this.y_scale2 = d3.scaleBand()
 						.domain(this.data.map((d) => { return d[this.col_y];}))
 						.range([0, this.height])
 						.padding(5);
 		
-		this.y_scale2 = d3.scaleLinear()
-					.domain([0,1])
+		this.y_scale = d3.scaleLinear()
+					.domain([1949, 2020])
 					.range([0, this.height]);
 
 		if (n === 1) {
@@ -128,6 +128,7 @@ class sucker_chart {
 						})
 						.attr("stroke-width", "1.5")
 						.attr("stroke", "black")
+						.attr("class", function (d) { return "line "+ d.constructor_clean.toLowerCase(); });
 		
 		var circles = svg.selectAll("circles")
 							.data(data)
@@ -146,12 +147,12 @@ class sucker_chart {
 							.attr("stroke-width", "2")
 							.attr("stroke", (d) => {
 								return this.color(d.constructor_clean);
-							});
+							})
+							.attr("class", function (d) { return "circle " + d.constructor_clean.toLowerCase(); });
 	}
 
 	set_data(new_data) {
 		this.data = new_data;
-
 		this.draw();
 	}
 
@@ -163,8 +164,13 @@ class sucker_chart {
 		this.set_data(sorted);
 	}
 
-	// normalize(value, axis) {
-	// 	this.normalize = Number(value);
-	// 	this.draw();
-	// }
+	norm(column) {
+		this.normalize = 1;
+		if (column === "wins") {
+			this.col_x = "win_percentage";
+		} else if (column === "podiums") {
+			this.col_x = "podium_percentage";
+		}
+		this.resort(this.col_x)
+	}
 }
