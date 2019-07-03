@@ -50,19 +50,21 @@ class sucker_chart {
 		//make the scales
 		const n = normalize;
 		
-		this.xScale = d3.scaleLinear()
+		this.x_scale = d3.scaleLinear()
 						.domain([0, 21])
 						.range([0, this.width]);
 		
-		this.yScale = d3.scaleBand()
-						.domain(this.data.map((d) => {
-							return d[this.col_y];
-						}))
+		this.y_scale = d3.scaleBand()
+						.domain(this.data.map((d) => { return d[this.col_y];}))
 						.range([0, this.height])
 						.padding(5);
+		
+		this.y_scale2 = d3.scaleLinear()
+					.domain([0,1])
+					.range([0, this.height]);
 
 		if (n === 1) {
-			this.xScale.domain([0,1])
+			this.x_scale.domain([0,1])
 		}
 	}
 	
@@ -70,14 +72,14 @@ class sucker_chart {
 		// add axes
 		this.x_axis = this.svg.append("g")
 						.attr("class", "x axis")
-						.call(d3.axisTop(this.xScale))
+						.call(d3.axisTop(this.x_scale))
 						.selectAll("text")
 						.attr("transform", "translate(0,0)rotate(0)")
-						.style("text-anchor", "center")
+						.style("text-anchor", "center");
 		
 		this.y_axis = this.svg.append("g")
 						.attr("class", "y axis")
-						.call(d3.axisLeft(this.yScale))
+						.call(d3.axisLeft(this.y_scale2))
 						.selectAll("text")
 						.style("text-anchor", "center");
 	}
@@ -115,14 +117,14 @@ class sucker_chart {
 						.enter()
 						.append("line")
 						.attr("x1", (d) => { 
-							return this.xScale(d[x]); 
+							return this.x_scale(d[x]); 
 						})
-						.attr("x2", this.xScale(0))
+						.attr("x2", this.x_scale(0))
 						.attr("y1", (d) => { 
-							return this.yScale(d[y]);
+							return this.y_scale2(d[y]);
 						})
 						.attr("y2", (d) => {
-							return this.yScale(d[y]);
+							return this.y_scale2(d[y]);
 						})
 						.attr("stroke-width", "1.5")
 						.attr("stroke", "black")
@@ -132,10 +134,10 @@ class sucker_chart {
 							.enter()
 							.append("circle")
 							.attr("cx", (d) => {
-								return this.xScale(d[x]);
+								return this.x_scale(d[x]);
 							})
 							.attr("cy", (d) => {
-								return this.yScale(d[y]);
+								return this.y_scale2(d[y]);
 							})
 							.style("fill", (d) => {
 								return this.color(d.constructor_clean);
