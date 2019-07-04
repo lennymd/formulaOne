@@ -8,7 +8,7 @@ class sucker_chart {
 		this.col_x = opts.x;
 		this.col_y = opts.y;
 
-		this.resort("wins");
+		this.resort(this.col_x);
 	}
 
 	draw() {
@@ -20,14 +20,6 @@ class sucker_chart {
 
 		this.width = window.innerWidth - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
-
-		// console.log(this.width, this.height, this.margin)
-
-		// if (this.width > 800) {
-		// 	this.orientation = 1; //horizontal is possible
-		// } else {
-		// 	this.orientation = 0; //vertical is the way to go
-		// }
 		
 		// Set up the place we're drawing the plot and also create the SVG.
 		var anchor = d3.select(this.element);
@@ -50,15 +42,14 @@ class sucker_chart {
 		//make the scales
 		const n = normalize;
 
-		this.x_scale = d3.scaleLinear();
-		this.x_scale.range([0, this.width]);
+		this.x_scale = d3.scaleLinear().range([0, this.width]);
 		
 		if (n === 0) {
-			this.x_scale.domain([0, 21])
+			this.x_scale.domain([0, 21]);
 		} else if (n === 1) {
-			this.x_scale.domain([0, 1])
+			this.x_scale.domain([0, 1]);
 		} else {
-			console.log(2);
+			this.x_scale.domain([0, 42]);
 		}
 		
 		this.y_scale2 = d3.scaleBand()
@@ -149,7 +140,7 @@ class sucker_chart {
 								return this.color(d.constructor_clean);
 							})
 							.attr("r", "4")
-							.attr("stroke-width", "2")
+							.attr("stroke-width", "1")
 							.attr("stroke", (d) => {
 								return this.color(d.constructor_clean);
 							})
@@ -164,7 +155,7 @@ class sucker_chart {
 	resort(column) {
 		let sorted = this.data.sort((b, a) => {
 			return a[column] - b[column];
-		})
+		});
 		this.set_data(sorted);
 	}
 
@@ -178,7 +169,6 @@ class sucker_chart {
 		this.normalize = 0;
 		this.col_x = column;
 		this.resort(this.col_x)
-
 	}
 
 }
