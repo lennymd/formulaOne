@@ -26,9 +26,9 @@ var correct_data_types_podiums = (d) => {
 d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiums, (dataset) => {
 
 	// create the plot for the section
-	var plot = new sucker_chart({
+	var podium = new sucker_chart({
 		plot_data: dataset,
-		element: "#m1",
+		element: "#m2",
 		normalize: 2,
 		x: "podiums",
 		y: "run"
@@ -42,7 +42,7 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 			if (i === 1) {
 				// do nothing
 			} else if (i === 2) {
-				plot.norm("podium_percentage");
+				podium.norm("podium_percentage");
 			} else if (i === 3) {
 				// do nothing
 
@@ -79,19 +79,3 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 	window.addEventListener('resize', scroller.resize());
 
 });
-
-var scroller = scrollama();
-const container = d3.select('#scrolly-overlay');
-const stepSel = container.selectAll('.step');
-
-function handleStepEnter(response) {
-
-}
-
-function handleStepExit(response) {
-
-}
-
-
-
-
