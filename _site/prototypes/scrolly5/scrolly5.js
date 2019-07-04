@@ -52,7 +52,7 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 			if (i === 0) {
 				// do nothing
 			} else if (i === 1) {
-				// plot.reset("podiums");
+				podium.reset("podiums");
 				// console.log(i, "resetting")
 			} else if (i === 2) {
 				// plot.norm("win_percentage");

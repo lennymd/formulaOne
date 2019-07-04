@@ -1,34 +1,26 @@
 Stickyfill.add(d3.select('.sticky').node())
 var scroller = scrollama();
 
-var correct_data_types_wins = (d) => {
+var row_converter = (d) => {
 	return {
 		year: +d.year,
 		constructor_clean: d.constructor_clean,
-		wins: +d.wins,
 		run: d.run,
 		races: +d.races,
-		win_percentage: +d.win_percentage
-	}
-}
-
-var correct_data_types_podiums = (d) => {
-	return {
-		year: +d.year,
-		constructor_clean: d.constructor_clean,
+		wins: +d.wins,
 		podiums: +d.podiums,
-		races: +d.races,
 		available_podium_spots: +d.available_podium_spots,
+		win_percentage: +d.win_percentage,
 		podium_percentage: +d.podium_percentage
 	}
 }
 
-d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiums, (dataset) => {
+d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
 
 	// create the plot for the section
-	var podium = new sucker_chart({
+	var plot = new sucker_chart({
 		plot_data: dataset,
-		element: "#m2",
+		element: "#m0",
 		normalize: 2,
 		x: "podiums",
 		y: "run"
@@ -42,20 +34,19 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 			if (i === 1) {
 				// do nothing
 			} else if (i === 2) {
-				podium.norm("podium_percentage");
+				plot.norm("podium_percentage");
 			} else if (i === 3) {
 				// do nothing
-
 			}
 		} else {
-			//response.direction === up
+			// response.direction === up
 			if (i === 0) {
 				// do nothing
 			} else if (i === 1) {
-				podium.reset("podiums");
-				// console.log(i, "resetting")
+				// do nothing
+				plot.reset("podiums");
 			} else if (i === 2) {
-				// plot.norm("win_percentage");
+				// do nothing
 			} else if (i === 3) {
 				// do nothing
 			}
@@ -65,6 +56,20 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 	function step_exit(response) {
 		const el = d3.select(response.element);
 		const i = Number(el.attr("data-index"));
+		if (response.direction === "down") {
+			// do nothing
+		} else {
+			// response.direction === up
+			if (i === 0) {
+				// do nothing
+			} else if (i === 1) {
+				// do nothing
+			} else if (i === 2) {
+				plot.reset("podiums");
+			} else if (i === 3) {
+				// do nothing
+			}
+		}
 	}
 
 	scroller.setup({
@@ -79,3 +84,19 @@ d3.csv("../../public/data/podium_count_normalized.csv", correct_data_types_podiu
 	window.addEventListener('resize', scroller.resize());
 
 });
+
+var scroller = scrollama();
+const container = d3.select('#scrolly-overlay');
+const stepSel = container.selectAll('.step');
+
+function handleStepEnter(response) {
+
+}
+
+function handleStepExit(response) {
+
+}
+
+
+
+
