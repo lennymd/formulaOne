@@ -13,9 +13,12 @@ html {
     max-width: 30rem;
     margin: 0 auto;
     position: relative; }
+    #scrolly-overlay .scrolly article .filler {
+      min-height: 67vh;
+      margin-bottom: 3rem; }
     #scrolly-overlay .scrolly article .step {
       min-height: 75vh;
-      margin-bottom: 1rem; }
+      margin-bottom: 3rem; }
       #scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
       #scrolly-overlay .scrolly article .step.is-active p {
@@ -25,9 +28,9 @@ html {
       padding: 1rem;
       text-align: center;
       font-weight: 400;
-      background-color: #f9423a;
+      background-color: #f4f4f4;
       transition: background-color 250ms ease-in-out;
-      color: #f4f4f4; }
+      color: #111; }
 
 figure.sticky {
   position: sticky;
