@@ -60,6 +60,7 @@ padding: 0;
 	color: white;
 	padding: 5px;
 	font-size: 0.6rem;
+	line-height: 1.2;
 }
 
 .filler_interactive {
@@ -80,33 +81,24 @@ padding: 0;
 		position: relative;
 
 		.filler {
-		min-height: 67vh;
-		margin-bottom: 3rem;
-		// &:last-of-type {
-		//   margin-bottom: 0;
-		// }
+			min-height: 90vh;
+			margin-bottom: 3rem;
 		}
 
 		.step {
-		min-height: 90vh;
-		margin-bottom: 6rem !important;
-		margin-top: 4rem !important;
-		&:last-of-type {
-			margin-bottom: 0;
-		}
-		&.is-active {
-			p {
-			background-color: $green;
+			min-height: 100vh;
+			margin-bottom: 25rem;
+			&:last-of-type {
+				margin-bottom: 0;
 			}
 		}
-		}
 		p {
-		margin: 0;
-		padding: 1rem;
-		text-align: center;
-		font-weight: 400;
-		background-color: $off-white;
-		color: $dark;
+			margin: 0;
+			padding: 0.8rem;
+			text-align: center;
+			font-weight: 400;
+			background-color: $off-white;
+			color: $dark;
 		}
 	}
 }

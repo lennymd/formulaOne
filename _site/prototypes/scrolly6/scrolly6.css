@@ -42,7 +42,8 @@ ul {
   background: #f9423a;
   color: white;
   padding: 5px;
-  font-size: 0.6rem; }
+  font-size: 0.6rem;
+  line-height: 1.2; }
 
 .filler_interactive {
   height: 40rem;
@@ -56,19 +57,16 @@ ul {
     margin: 1rem auto 0 auto;
     position: relative; }
     .scrolly-overlay .scrolly article .filler {
-      min-height: 67vh;
+      min-height: 90vh;
       margin-bottom: 3rem; }
     .scrolly-overlay .scrolly article .step {
-      min-height: 90vh;
-      margin-bottom: 6rem !important;
-      margin-top: 4rem !important; }
+      min-height: 100vh;
+      margin-bottom: 25rem; }
       .scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
-      .scrolly-overlay .scrolly article .step.is-active p {
-        background-color: #3af942; }
     .scrolly-overlay .scrolly article p {
       margin: 0;
-      padding: 1rem;
+      padding: 0.8rem;
       text-align: center;
       font-weight: 400;
       background-color: #f4f4f4;
