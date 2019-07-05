@@ -38,6 +38,16 @@ ul {
 .method_intro {
   margin-top: 2rem; }
 
+.note_this {
+  background: #f9423a;
+  color: white;
+  padding: 5px;
+  font-size: 0.6rem; }
+
+.filler_interactive {
+  height: 40rem;
+  background-color: #423af9; }
+
 .scrolly-overlay .scrolly {
   max-width: 100rem; }
   .scrolly-overlay .scrolly article {
@@ -50,7 +60,7 @@ ul {
       margin-bottom: 3rem; }
     .scrolly-overlay .scrolly article .step {
       min-height: 75vh;
-      margin-bottom: 3rem; }
+      margin-bottom: 4rem; }
       .scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
       .scrolly-overlay .scrolly article .step.is-active p {
@@ -61,7 +71,6 @@ ul {
       text-align: center;
       font-weight: 400;
       background-color: #f4f4f4;
-      transition: background-color 250ms ease-in-out;
       color: #111; }
 
 figure.sticky {
@@ -70,3 +79,20 @@ figure.sticky {
   height: 100%;
   margin: 0;
   top: 0; }
+
+.picture_section {
+  margin: 0;
+  padding: 1.5rem 0 2rem 0;
+  background-color: #f4f4f4;
+  color: #111;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .picture_section figure {
+    width: 300px; }
+  .picture_section img {
+    max-width: 250px;
+    margin-top: 0.2rem; }
+  .picture_section figcaption {
+    font-size: 0.7rem; }
