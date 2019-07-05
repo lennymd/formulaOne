@@ -6,12 +6,37 @@ html {
 
 body {
   background-color: #E8E3CD; }
-  body .filler-segment {
-    height: 20rem; }
-  body p {
-    padding: 0;
-    max-width: 30rem;
-    margin: 0 auto; }
+
+.filler-segment {
+  height: 20rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  text-align: center;
+  margin: 1.3rem auto; }
+
+p {
+  padding: 0;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: left; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.counters {
+  font-size: 0.75rem;
+  width: 20rem;
+  margin: 0.8rem auto; }
+
+#question {
+  font-size: 1.15rem;
+  margin: 2rem auto; }
+
+.method_intro {
+  margin-top: 2rem; }
 
 .scrolly-overlay .scrolly {
   max-width: 100rem; }
