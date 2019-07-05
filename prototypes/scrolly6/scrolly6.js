@@ -28,13 +28,13 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
 		y: "run"
 	})
 
-	// var plot_podiums = new sucker_chart({
-	// 	plot_data: dataset,
-	// 	element: "#m2",
-	// 	normalize: 2,
-	// 	x: "podiums",
-	// 	y: "run"
-	// })
+	var plot_podiums = new sucker_chart({
+		plot_data: dataset,
+		element: "#m2",
+		normalize: 2,
+		x: "podiums",
+		y: "run"
+	})
 
 	// start scrollytelling component
 	function step_enter(response) {
