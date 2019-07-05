@@ -73,10 +73,10 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
     }
 
     scroller.setup({
-            step: ".step",
-            debug: false,
-            offset: 0.55
-        })
+        step: ".step",
+        debug: false,
+        offset: 0.55
+    })
         .onStepEnter(step_enter)
         .onStepExit(step_exit);
 
