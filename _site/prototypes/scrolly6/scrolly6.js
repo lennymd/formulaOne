@@ -42,23 +42,9 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
 		const i = Number(el.attr("data-index"));
 		if (response.direction === "down") {
 			if (i === 1) {
-				// do nothing
-			} else if (i === 2) {
 				plot_wins.norm("win_percentage");
-			} else if (i === 3) {
-				// do nothing
-			}
-		} else {
-			// response.direction === up
-			if (i === 0) {
-				// do nothing
-			} else if (i === 1) {
-				// do nothing
-				plot_wins.reset("wins");
 			} else if (i === 2) {
-				// do nothing
-			} else if (i === 3) {
-				// do nothing
+				plot_podiums.norm("podium_percentage");
 			}
 		}
 	}
@@ -66,35 +52,23 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
 	function step_exit(response) {
 		const el = d3.select(response.element);
 		const i = Number(el.attr("data-index"));
-		if (response.direction === "down") {
+
+		if (response.direction === "up") {
 			if (i === 1) {
-				// do nothing
-			} else if (i === 2) {
-				// do nothing
-			} else if (i === 3) {
-				// do nothing
-			}
-		} else {
-			// response.direction === up
-			if (i === 0) {
-				// do nothing
-			} else if (i === 1) {
-				// do nothing
-			} else if (i === 2) {
 				plot_wins.reset("wins");
-			} else if (i === 3) {
-				// do nothing
+			} else if (i === 2) {
+				plot_podiums.reset("podiums");
 			}
 		}
 	}
 
 	scroller.setup({
 		step: ".step",
-		debug: false,
-		offset: 0.45
+		debug: true,
+		offset: 0.5
 	})
-		.onStepEnter(step_enter)
-		.onStepExit(step_exit);
+	.onStepEnter(step_enter)
+	.onStepExit(step_exit);
 
 
 
