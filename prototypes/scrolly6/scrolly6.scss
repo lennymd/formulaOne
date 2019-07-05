@@ -55,7 +55,7 @@ padding: 0;
 	margin-top: 2rem;
 }
 
-.note_this {
+.nb {
 	background: $red;
 	color: white;
 	padding: 5px;
@@ -76,7 +76,7 @@ padding: 0;
 	article {
 		padding: 0;
 		max-width: 30rem;
-		margin: 0 auto;
+		margin: 1rem auto 0 auto;
 		position: relative;
 
 		.filler {
@@ -88,8 +88,9 @@ padding: 0;
 		}
 
 		.step {
-		min-height: 75vh;
-		margin-bottom: 4rem;
+		min-height: 90vh;
+		margin-bottom: 6rem !important;
+		margin-top: 4rem !important;
 		&:last-of-type {
 			margin-bottom: 0;
 		}
@@ -129,15 +130,8 @@ figure.sticky {
 	flex-wrap: wrap;
 	justify-content: space-around;
 
-	figure {
-		width: 300px;
-	}
 	img {
 		max-width: 250px;
 		margin-top: 0.2rem;
-	}
-
-	figcaption {
-		font-size: 0.7rem;
 	}
 }

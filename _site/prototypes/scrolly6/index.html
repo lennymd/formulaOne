@@ -13,7 +13,10 @@
 <body>
 	<section class="intro">
 		<h1>The best Formula 1 team</h1>
-		<p>In the 69-year history of the sport, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.<br><span class="note_this">Need to explain more about constructor/team difference and how drivers and constructors go together.</span></p>
+		<p>
+			In the 69-year history of the sport, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.<br>
+			<span class="nb">Need to explain more about constructor/team difference and how drivers and constructors go together.</span>
+		</p>
 		<p class="counters" >Michael Schumacher (7), Juan Manuel Fangio (5), Lewis Hamilton (5), Alain Prost (4),Sebastian Vettel (4), Jack Brabham (3), Jackie Stewart (3), Niki Lauda (3), Nelson Piquet (3), Ayrton Senna (3), Alberto Ascari (2), Graham Hill (2), Jim Clark (2), Emerson Fittipaldi (2), Mika Häkkinen (2), Fernando Alonso (2), Giuseppe Farina (1), Mike Hawthorn (1), Phil Hill (1), John Surtees (1), Denny Hulme (1), Jochen Rindt (1), James Hunt (1), Mario Andretti (1), Jody Scheckter (1), Alan Jones (1), Keke Rosberg (1), Nigel Mansell (1), Damon Hill (1), Jacques Villeneuve (1), Kimi Räikkönen (1), Jenson Button (1), Nico Rosberg (1)</p>
 		<p>These 33 drivers have all raced for 16 different constructors:</p>
 		<p class="counters">Ferrari, McLaren, Williams, Mercedes, Lotus, Red Bull, Brabham, Renault, Cooper, Benetton, Tyrrell, Alfa Romeo, BRM, Matra, Brawn GP</p>
@@ -35,6 +38,7 @@
 
 			<!--  step text   -->
 			<article>
+				<div class="step" data-index="-1">&nbsp;</div>
 				<div class="step" data-index="-1">
 					<p>Looking at just this, we can see that Mercedes's 2014–2016 performance was quite strong, securing the first 3 spots.</p>
 				</div>
@@ -44,6 +48,20 @@
 						<img src="https://via.placeholder.com/250x375/000000" alt="Nico Rosberg, 2016">
 						<img src="https://via.placeholder.com/250x375/000000" alt="Lewis Hamilton, 2016">
 					</figure>
+					<span class="nb">add driver pictures + figure captions</span>
+				</div>
+				<div class="step" data-index="-1">
+					<p>While looking at the number of wins in a season is a good place to start, we still can't make a great comparison. In 2016, when Mercedes won 19 of the season's races, there were 21 races. In 2014 and 2015 there were 19 races in each season. If we look at the runs right behind these, McLaren's 1988 run and Ferrari's 2002 and 2004 runs, there were 16, 17, and 18 races in each season respectively.</p>
+				</div>
+				<div class="step" data-index="-1">
+					<p>If we look all the way to the inagural season, 1950, there were only 7 races.</p>
+				</div>
+
+				<div class="step" data-index="-1">
+					<p>If we want to properly compare the number of wins a constructor had in a season, we have to account for the different number of races in each season.</p>
+					<p>We can do this by dividing the number of wins in each run by the number of races in that season. For Mercedes's 2016 run it would be:<br>
+						$$ \frac{wins}{races} = \frac{19}{21} = 0.904761905 $$
+					</p>
 				</div>
 				<div class="step" data-index="1">
 					<p>1111111111111111111111</p>
@@ -105,6 +123,7 @@
 	</section>
 
 	<script src="../../public/js/d3.v4.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 	<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
 	<script src="https://unpkg.com/scrollama"></script>

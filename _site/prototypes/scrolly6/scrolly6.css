@@ -38,7 +38,7 @@ ul {
 .method_intro {
   margin-top: 2rem; }
 
-.note_this {
+.nb {
   background: #f9423a;
   color: white;
   padding: 5px;
@@ -53,14 +53,15 @@ ul {
   .scrolly-overlay .scrolly article {
     padding: 0;
     max-width: 30rem;
-    margin: 0 auto;
+    margin: 1rem auto 0 auto;
     position: relative; }
     .scrolly-overlay .scrolly article .filler {
       min-height: 67vh;
       margin-bottom: 3rem; }
     .scrolly-overlay .scrolly article .step {
-      min-height: 75vh;
-      margin-bottom: 4rem; }
+      min-height: 90vh;
+      margin-bottom: 6rem !important;
+      margin-top: 4rem !important; }
       .scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
       .scrolly-overlay .scrolly article .step.is-active p {
@@ -89,10 +90,6 @@ figure.sticky {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .picture_section figure {
-    width: 300px; }
   .picture_section img {
     max-width: 250px;
     margin-top: 0.2rem; }
-  .picture_section figcaption {
-    font-size: 0.7rem; }
