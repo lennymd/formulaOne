@@ -61,7 +61,7 @@ ul {
       margin-bottom: 3rem; }
     .scrolly-overlay .scrolly article .step {
       min-height: 100vh;
-      margin-bottom: 25rem; }
+      margin-bottom: 15rem; }
       .scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
     .scrolly-overlay .scrolly article p {
@@ -89,5 +89,5 @@ figure.sticky {
   flex-wrap: wrap;
   justify-content: space-around; }
   .picture_section img {
-    max-width: 250px;
+    min-width: 250px;
     margin-top: 0.2rem; }

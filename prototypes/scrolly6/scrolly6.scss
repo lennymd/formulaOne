@@ -87,7 +87,7 @@ padding: 0;
 
 		.step {
 			min-height: 100vh;
-			margin-bottom: 25rem;
+			margin-bottom: 15rem;
 			&:last-of-type {
 				margin-bottom: 0;
 			}
@@ -123,7 +123,7 @@ figure.sticky {
 	justify-content: space-around;
 
 	img {
-		max-width: 250px;
+		min-width: 250px;
 		margin-top: 0.2rem;
 	}
 }
