@@ -23,7 +23,6 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
     var plot_wins = new sucker_chart({
         plot_data: dataset,
         element: "#m1",
-        normalize: 0,
         x: "wins",
         y: "run"
     })
@@ -31,7 +30,6 @@ d3.csv("../../public/data/wins_and_podiums.csv", row_converter, (dataset) => {
     var plot_podiums = new sucker_chart({
         plot_data: dataset,
         element: "#m2",
-        normalize: 2,
         x: "podiums",
         y: "run"
     })

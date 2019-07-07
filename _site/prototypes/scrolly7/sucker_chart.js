@@ -4,10 +4,11 @@ class sucker_chart {
 		// these are the inputs: the data we're working with, and the element we're loading the chart into.
 		this.data = opts.plot_data;
 		this.element = opts.element;
-		this.normalize = +opts.normalize;
 		this.col_x = opts.x;
 		this.col_y = opts.y;
 
+		this.normalize = 0;
+		
 		this.sort(this.col_x);
 	}
 
@@ -41,15 +42,11 @@ class sucker_chart {
 	create_scales(normalize) {
 		//make the scales
 		const n = normalize;
-
 		this.x_scale = d3.scaleLinear().range([0, this.width]);
-		
 		if (n === 0) {
-			this.x_scale.domain([0, 21]);
+			this.x_scale.domain([0, d3.max(this.data, (d) => { return d[this.col_x]; }) + 5]);
 		} else if (n === 1) {
-			this.x_scale.domain([0, 1]);
-		} else {
-			this.x_scale.domain([0, 42]);
+			this.x_scale.domain([0, 100]);
 		}
 		
 		this.y_scale2 = d3.scaleBand()
@@ -166,11 +163,7 @@ class sucker_chart {
 	}
 
 	reset(column) {
-		if (column === "podiums") {
-			this.normalize = 2;
-		} else {
-			this.normalize = 0;
-		}
+		this.normalize = 0;
 		this.col_x = column;
 		this.sort(this.col_x);
 	}
