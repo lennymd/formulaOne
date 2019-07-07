@@ -10,7 +10,12 @@ body {
 .filler-segment {
   height: 20rem; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
   text-align: center;
   margin: 1.3rem auto; }
@@ -60,7 +65,7 @@ ul {
       min-height: 90vh;
       margin-bottom: 3rem; }
     .scrolly-overlay .scrolly article .step {
-      min-height: 100vh;
+      min-height: 67vh;
       margin-bottom: 15rem; }
       .scrolly-overlay .scrolly article .step:last-of-type {
         margin-bottom: 0; }
