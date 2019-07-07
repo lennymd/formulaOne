@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 
-results_list = []
+results_list = [["race_id", "year", "round", "race_name", "position", "order", "driver", "constructor", "team", "extra"]]
 base = "https://www.statsf1.com"
 abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq":"not qualified", "npq":"not pre-qualified", "dsq":"disqualified", "exc":"excluded", "f":"widthdrawal", "tf": "parade lap"}
 
@@ -13,49 +13,76 @@ with open('../data/from_scripts/statsf1/race_list.csv', "r") as f:
 	for row in csv.reader(f):
 		race_list.append(row)
 
-# forloop this later
-race = race_list[1]
+for race in race_list[1:]:
+	race_id = race_list.index(race)
 
-year = race[0]
-round_id = race[1]
-race_name = race[2]
+	# get identifying info from race_list
+	year = race[0]
+	round_id = race[1]
+	race_name = race[2]
 
-relative_url = race[3]
-race_url = base + relative_url
-results_url = race_url.replace(".aspx", "/classement.aspx")
+	# prep url for request
+	relative_url = race[3]
+	race_url = base + relative_url
+	results_url = race_url.replace(".aspx", "/classement.aspx")
 
-response = requests.get(results_url)
+	# create the BeautifulSoup item from the url
+	response = requests.get(results_url)
+	soup = BeautifulSoup(response.text, "lxml")
 
-soup = BeautifulSoup(response.text, "lxml")
+	# find the results table in the html
+	table = soup.find("table", class_="datatable").find("tbody").find_all("tr")
 
-table = soup.find("table", class_="datatable").find("tbody").find_all("tr")
-p_index = 1
-for row in table:
-	cols = row.find_all("td")
+	# set a starting index for order
+	p_index = 1
+	o = 0
+	# process each row
+	for row in table:
+		o += 1
+		cols = row.find_all("td")
 
-	position = cols[0].text.strip()
-	driver = cols[2].text.strip()
-	constructor = cols[3].text.strip()
-	engine = cols[4].text.strip()
-	team_long = constructor + " " + engine
-	extra = cols[6].text
+		position = cols[0].text.strip()
+		driver = cols[2].text.strip()
+		constructor = cols[3].text.strip()
+		engine = cols[4].text.strip()
+		team_long = constructor + " " + engine
+		extra = cols[6].text
 
-	if (position == ""):
-		continue
-	else:
-		# add the record we computed
-
-		if (position == "&"):
-			p = p_index - 1
+		if (driver == ""):
+			# row has no driver, so skip to next row
+			continue
 		else:
-			p = max(p_index, p_index-1)
-			p_index += 1
+			# add the record we computed
 
-		record_list = [year, round_id, race_name, position,
-                 p, driver, constructor, team_long, extra]
+			# process shared drives
+			if (position == "&"):
+				p = p_index - 1
+
+				# add in team info from previous row
+				prev = results_list[o-1]
+				constructor = prev[7]
+				team_long = prev[8]
+			else:
+				p = max(p_index, p_index-1)
+				p_index += 1
+
+			record_list = [race_id, year, round_id, race_name, position,
+					p, driver, constructor, team_long, extra]
+		
+		results_list.append(record_list)
 	
-	results_list.append(record_list)
+	if ((race_id % 10) == 0):
+		sleep(1.5)
+	else: 
+		pass
 	
+	print("Done with race:", year, round_id)
+
+
+# Check that constructor + team info are in each row:
+
+for row in results_list:
+	race_id = row[0]
 
 with open("../data/from_scripts/statsf1/race_results.csv", "w") as my_csv:
 	csv.writer(my_csv, delimiter=',').writerows(results_list)
