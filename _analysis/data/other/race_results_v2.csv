@@ -1696,11 +1696,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 55,1956,7,Germany,nc,7,Ottorino VOLONTERIO,Maserati,Maserati Maserati, 
 55,1956,7,Germany,ab,8,André MILHOUX,Gordini,Gordini Gordini, Engine
 55,1956,7,Germany,ab,9,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, 
-55,1956,7,Germany,&,9,Peter COLLINS,, , Accident
+55,1956,7,Germany,&,9,Peter COLLINS,Ferrari,Ferrari Ferrari, Accident
 55,1956,7,Germany,ab,10,Luigi VILLORESI,Maserati,Maserati Maserati, Engine
 55,1956,7,Germany,ab,11,Harry SCHELL,Maserati,Maserati Maserati, Overheating
 55,1956,7,Germany,ab,12,Luigi MUSSO,Ferrari,Ferrari Ferrari, 
-55,1956,7,Germany,&,12,Eugenio CASTELLOTTI,, , Accident
+55,1956,7,Germany,&,12,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Accident
 55,1956,7,Germany,ab,13,Peter COLLINS,Ferrari,Ferrari Ferrari, Fuel leak
 55,1956,7,Germany,ab,14,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Magneto
 55,1956,7,Germany,ab,15,Umberto MAGLIOLI,Maserati,Maserati Maserati, Steering
@@ -1715,7 +1715,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 55,1956,7,Germany,f,24,Luigi VILLORESI,Maserati,Maserati Maserati, Changed car
 56,1956,8,Italy,1,1,Stirling MOSS,Maserati,Maserati Maserati, 2h 23m 41.3s  ( 208.785 km/h )
 56,1956,8,Italy,2,2,Peter COLLINS,Ferrari,Ferrari Ferrari, 
-56,1956,8,Italy,&,2,Juan Manuel FANGIO,, , 2h 23m 47.0s  ( +05.7s )
+56,1956,8,Italy,&,2,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 2h 23m 47.0s  ( +05.7s )
 56,1956,8,Italy,3,3,Ron FLOCKHART,Connaught,Connaught Alta, 
 56,1956,8,Italy,4,4,Francisco GODIA-SALES,Maserati,Maserati Maserati, 
 56,1956,8,Italy,ab,5,Luigi MUSSO,Ferrari,Ferrari Ferrari, Steering
@@ -1723,10 +1723,10 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 56,1956,8,Italy,6,7,Luigi PIOTTI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,7,8,Emmanuel de GRAFFENRIED,Maserati,Maserati Maserati, 
 56,1956,8,Italy,8,9,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 
-56,1956,8,Italy,&,9,Eugenio CASTELLOTTI,, , 
+56,1956,8,Italy,&,9,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, 
 56,1956,8,Italy,9,10,André SIMON,Gordini,Gordini Gordini, 
 56,1956,8,Italy,ab,11,Umberto MAGLIOLI,Maserati,Maserati Maserati, 
-56,1956,8,Italy,&,11,Jean BEHRA,, , Steering
+56,1956,8,Italy,&,11,Jean BEHRA,Maserati,Maserati Maserati, Steering
 56,1956,8,Italy,10,12,Gerino GERINI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,11,13,Roy SALVADORI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,ab,14,Harry SCHELL,Vanwall,Vanwall Vanwall, Transmission
@@ -1737,7 +1737,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 56,1956,8,Italy,ab,19,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Puncture
 56,1956,8,Italy,ab,20,Robert MANZON,Gordini,Gordini Gordini, Gearbox
 56,1956,8,Italy,ab,21,Luigi VILLORESI,Maserati,Maserati Maserati, 
-56,1956,8,Italy,&,21,Jo BONNIER,, , Engine
+56,1956,8,Italy,&,21,Jo BONNIER,Maserati,Maserati Maserati, Engine
 56,1956,8,Italy,ab,22,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, Puncture
 56,1956,8,Italy,ab,23,Les LESTON,Connaught,Connaught Alta, Suspension
 56,1956,8,Italy,ab,24,Hermano da SILVA RAMOS,Gordini,Gordini Gordini, Engine
@@ -1750,10 +1750,10 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 57,1957,1,Argentina,3,3,Carlos MENDITEGUY,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,4,4,Harry SCHELL,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,5,5,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
-57,1957,1,Argentina,&,5,Alfonso de PORTAGO,, , 
+57,1957,1,Argentina,&,5,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, 
 57,1957,1,Argentina,6,6,Cesare PERDISA,Ferrari,Ferrari Ferrari, 
-57,1957,1,Argentina,&,6,Peter COLLINS,, , 
-57,1957,1,Argentina,&,6,Wolfgang von TRIPS,, , 
+57,1957,1,Argentina,&,6,Peter COLLINS,Ferrari,Ferrari Ferrari, 
+57,1957,1,Argentina,&,6,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
 57,1957,1,Argentina,7,7,Jo BONNIER,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,8,8,Stirling MOSS,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,9,9,Alessandro De TOMASO,Ferrari,Ferrari Ferrari, 
@@ -1769,9 +1769,9 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 58,1957,2,Monaco,5,5,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 58,1957,2,Monaco,6,6,Jack BRABHAM,Cooper,Cooper Climax, 
 58,1957,2,Monaco,7,7,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
-58,1957,2,Monaco,&,7,Mike HAWTHORN,, , Accident
+58,1957,2,Monaco,&,7,Mike HAWTHORN,Ferrari,Ferrari Ferrari, Accident
 58,1957,2,Monaco,ab,8,Giorgio SCARLATTI,Maserati,Maserati Maserati, 
-58,1957,2,Monaco,&,8,Harry SCHELL,, , Oil leak
+58,1957,2,Monaco,&,8,Harry SCHELL,Maserati,Maserati Maserati, Oil leak
 58,1957,2,Monaco,ab,9,Ron FLOCKHART,BRM,BRM BRM, Gearbox
 58,1957,2,Monaco,ab,10,Carlos MENDITEGUY,Maserati,Maserati Maserati, Accident
 58,1957,2,Monaco,ab,11,Ivor BUEB,Connaught,Connaught Alta, Tank
@@ -1849,7 +1849,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 60,1957,4,France,5,5,Harry SCHELL,Maserati,Maserati Maserati, 
 60,1957,4,France,6,6,Jean BEHRA,Maserati,Maserati Maserati, 
 60,1957,4,France,7,7,Mike MacDOWELL,Cooper,Cooper Climax, 
-60,1957,4,France,&,7,Jack BRABHAM,, , 
+60,1957,4,France,&,7,Jack BRABHAM,Cooper,Cooper Climax, 
 60,1957,4,France,ab,8,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, Steering
 60,1957,4,France,ab,9,Carlos MENDITEGUY,Maserati,Maserati Maserati, Engine
 60,1957,4,France,ab,10,Roy SALVADORI,Vanwall,Vanwall Vanwall, Valve
@@ -1859,11 +1859,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 60,1957,4,France,ab,14,Jack BRABHAM,Cooper,Cooper Climax, Accident
 60,1957,4,France,ab,15,Ron FLOCKHART,BRM,BRM BRM, Accident
 61,1957,5,Britain,1,1,Tony BROOKS,Vanwall,Vanwall Vanwall, 
-61,1957,5,Britain,&,1,Stirling MOSS,, , 3h 06m 37.8s  ( 139.695 km/h )
+61,1957,5,Britain,&,1,Stirling MOSS,Vanwall,Vanwall Vanwall, 3h 06m 37.8s  ( 139.695 km/h )
 61,1957,5,Britain,2,2,Luigi MUSSO,Ferrari,Ferrari Ferrari, 3h 07m 03.4s  ( +25.6s )
 61,1957,5,Britain,3,3,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 3h 07m 20.6s  ( +42.8s )
 61,1957,5,Britain,4,4,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
-61,1957,5,Britain,&,4,Peter COLLINS,, , 
+61,1957,5,Britain,&,4,Peter COLLINS,Ferrari,Ferrari Ferrari, 
 61,1957,5,Britain,5,5,Roy SALVADORI,Cooper,Cooper Climax, 
 61,1957,5,Britain,6,6,Bob GERARD,Cooper,Cooper Bristol, 
 61,1957,5,Britain,7,7,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, 
@@ -1872,7 +1872,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 61,1957,5,Britain,ab,10,Jean BEHRA,Maserati,Maserati Maserati, Clutch
 61,1957,5,Britain,ab,11,Peter COLLINS,Ferrari,Ferrari Ferrari, Water pipe
 61,1957,5,Britain,ab,12,Stirling MOSS,Vanwall,Vanwall Vanwall, 
-61,1957,5,Britain,&,12,Tony BROOKS,, , Engine
+61,1957,5,Britain,&,12,Tony BROOKS,Vanwall,Vanwall Vanwall, Engine
 61,1957,5,Britain,ab,13,Juan Manuel FANGIO,Maserati,Maserati Maserati, Engine
 61,1957,5,Britain,ab,14,Jack FAIRMAN,BRM,BRM BRM, Engine
 61,1957,5,Britain,ab,15,Les LESTON,BRM,BRM BRM, Engine
@@ -1928,14 +1928,14 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 64,1957,8,Italy,3,3,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,4,4,Masten GREGORY,Maserati,Maserati Maserati, 
 64,1957,8,Italy,5,5,Giorgio SCARLATTI,Maserati,Maserati Maserati, 
-64,1957,8,Italy,&,5,Harry SCHELL,, , 
+64,1957,8,Italy,&,5,Harry SCHELL,Maserati,Maserati Maserati, 
 64,1957,8,Italy,6,6,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,7,7,Tony BROOKS,Vanwall,Vanwall Vanwall, 
 64,1957,8,Italy,8,8,Luigi MUSSO,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,9,9,Francisco GODIA-SALES,Maserati,Maserati Maserati, 
 64,1957,8,Italy,10,10,Horace GOULD,Maserati,Maserati Maserati, 
 64,1957,8,Italy,11,11,André SIMON,Maserati,Maserati Maserati, 
-64,1957,8,Italy,&,11,Ottorino VOLONTERIO,, , 
+64,1957,8,Italy,&,11,Ottorino VOLONTERIO,Maserati,Maserati Maserati, 
 64,1957,8,Italy,ab,12,Peter COLLINS,Ferrari,Ferrari Ferrari, Valve
 64,1957,8,Italy,ab,13,Jean BEHRA,Maserati,Maserati Maserati, Overheating
 64,1957,8,Italy,ab,14,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, Tank
@@ -2105,7 +2105,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 70,1958,6,France,ab,12,Harry SCHELL,BRM,BRM BRM, Overheating
 70,1958,6,France,11,13,Roy SALVADORI,Cooper,Cooper Climax, 
 70,1958,6,France,ab,14,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, 
-70,1958,6,France,&,14,Tony BROOKS,, , Engine
+70,1958,6,France,&,14,Tony BROOKS,Vanwall,Vanwall Vanwall, Engine
 70,1958,6,France,ab,15,Graham HILL,Lotus,Lotus Climax, Engine
 70,1958,6,France,ab,16,Francisco GODIA-SALES,Maserati,Maserati Maserati, Accident
 70,1958,6,France,ab,17,Maurice TRINTIGNANT,BRM,BRM BRM, Oil line
@@ -2185,7 +2185,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 74,1958,10,Italy,2,2,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 2h 04m 12.0s  ( +24.2s )
 74,1958,10,Italy,3,3,Phil HILL,Ferrari,Ferrari Ferrari, 2h 04m 16.1s  ( +28.3s )
 74,1958,10,Italy,4,4,Masten GREGORY,Maserati,Maserati Maserati, 
-74,1958,10,Italy,&,4,Carroll SHELBY,, , 
+74,1958,10,Italy,&,4,Carroll SHELBY,Maserati,Maserati Maserati, 
 74,1958,10,Italy,5,5,Roy SALVADORI,Cooper,Cooper Climax, 
 74,1958,10,Italy,6,6,Graham HILL,Lotus,Lotus Climax, 
 74,1958,10,Italy,7,7,Cliff ALLISON,Lotus,Lotus Climax, 
@@ -2473,7 +2473,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 85,1960,1,Argentina,1,1,Bruce McLAREN,Cooper,Cooper Climax, 2h 17m 49.5s  ( 136.242 km/h )
 85,1960,1,Argentina,2,2,Cliff ALLISON,Ferrari,Ferrari Ferrari, 2h 18m 15.8s  ( +26.3s )
 85,1960,1,Argentina,3,3,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-85,1960,1,Argentina,&,3,Stirling MOSS,, , 2h 18m 26.4s  ( +36.9s )
+85,1960,1,Argentina,&,3,Stirling MOSS,Cooper,Cooper Climax, 2h 18m 26.4s  ( +36.9s )
 85,1960,1,Argentina,4,4,Carlos MENDITEGUY,Cooper,Cooper Maserati, 2h 18m 42.8s  ( +53.3s )
 85,1960,1,Argentina,5,5,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
 85,1960,1,Argentina,6,6,Innes IRELAND,Lotus,Lotus Climax, 
@@ -2825,7 +2825,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 99,1961,5,Britain,ab,17,Jim CLARK,Lotus,Lotus Climax, Oil line
 99,1961,5,Britain,17,18,Wolfgang SEIDEL,Lotus,Lotus Climax, 
 99,1961,5,Britain,dsq,19,Jack FAIRMAN,Ferguson,Ferguson Climax, 
-99,1961,5,Britain,&,19,Stirling MOSS,, , Push start
+99,1961,5,Britain,&,19,Stirling MOSS,Ferguson,Ferguson Climax, Push start
 99,1961,5,Britain,ab,20,Lucien BIANCHI,Lotus,Lotus Climax, Gearbox
 99,1961,5,Britain,ab,21,Stirling MOSS,Lotus,Lotus Climax, Water pipe
 99,1961,5,Britain,ab,22,Graham HILL,BRM,BRM Climax, Engine
@@ -2922,7 +2922,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 102,1961,8,USA,9,10,Peter RYAN,Lotus,Lotus Climax, 
 102,1961,8,USA,10,11,Hap SHARP,Cooper,Cooper Climax, 
 102,1961,8,USA,11,12,Olivier GENDEBIEN,Lotus,Lotus Climax, 
-102,1961,8,USA,&,12,Masten GREGORY,, , 
+102,1961,8,USA,&,12,Masten GREGORY,Lotus,Lotus Climax, 
 102,1961,8,USA,ab,13,Lloyd RUBY,Lotus,Lotus Climax, Magneto
 102,1961,8,USA,ab,14,Jim HALL,Lotus,Lotus Climax, Fuel leak
 102,1961,8,USA,ab,15,Stirling MOSS,Lotus,Lotus Climax, Engine
@@ -3609,13 +3609,13 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 130,1964,9,USA,5,5,Walt HANSGEN,Lotus,Lotus Climax, 
 130,1964,9,USA,6,6,Trevor TAYLOR,BRP,BRP BRM, 
 130,1964,9,USA,7,7,Mike SPENCE,Lotus,Lotus Climax, 
-130,1964,9,USA,&,7,Jim CLARK,, , Fuel pump
+130,1964,9,USA,&,7,Jim CLARK,Lotus,Lotus Climax, Fuel pump
 130,1964,9,USA,8,8,Mike HAILWOOD,Lotus,Lotus BRM, Oil line
 130,1964,9,USA,ab,9,Dan GURNEY,Brabham,Brabham Climax, Oil pressure
 130,1964,9,USA,nc,10,Hap SHARP,Brabham,Brabham BRM, 
 130,1964,9,USA,ab,11,Lorenzo BANDINI,Ferrari,Ferrari Ferrari, Engine
 130,1964,9,USA,ab,12,Jim CLARK,Lotus,Lotus Climax, 
-130,1964,9,USA,&,12,Mike SPENCE,, , Fuel injection
+130,1964,9,USA,&,12,Mike SPENCE,Lotus,Lotus Climax, Fuel injection
 130,1964,9,USA,ab,13,Ronnie BUCKNUM,Honda,Honda Honda, Cylinder head gasket
 130,1964,9,USA,ab,14,Chris AMON,Lotus,Lotus BRM, Starter ring
 130,1964,9,USA,ab,15,Jo BONNIER,Brabham,Brabham Climax, Rear axle
