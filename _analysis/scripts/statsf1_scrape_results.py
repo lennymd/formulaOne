@@ -35,8 +35,7 @@ for race in race_list[1:]:
 
 	# set a starting index for order
 	p_index = 1
-	o = 0
-	# process each row
+		# process each row
 	for row in table:
 		o += 1
 		cols = row.find_all("td")
@@ -57,11 +56,6 @@ for race in race_list[1:]:
 			# process shared drives
 			if (position == "&"):
 				p = p_index - 1
-
-				# add in team info from previous row
-				prev = results_list[o-1]
-				constructor = prev[7]
-				team_long = prev[8]
 			else:
 				p = max(p_index, p_index-1)
 				p_index += 1
