@@ -4,11 +4,11 @@ from time import sleep
 import csv
 
 race_list = [["year", "round", "name", "url"]]
-base = "https://www.statsf1.com/"
+base = "https://www.statsf1.com"
 
 for year in range(1950, 2019):
 	print("Starting", year)
-	extras = "en/" + str(year) +".aspx"
+	extras = "/en/" + str(year) +".aspx"
 	response = requests.get(base + extras)
 
 	soup = BeautifulSoup(response.text, "lxml")
