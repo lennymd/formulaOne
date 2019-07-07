@@ -8,7 +8,7 @@ class sucker_chart {
 		this.col_y = opts.y;
 
 		this.normalize = 0;
-		
+
 		this.sort(this.col_x);
 	}
 
@@ -158,7 +158,9 @@ class sucker_chart {
 
 	norm(column) {
 		this.normalize = 1;
+		
 		this.col_x = column;
+
 		this.sort(this.col_x);
 	}
 
