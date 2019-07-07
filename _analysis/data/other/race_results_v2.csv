@@ -55,7 +55,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 3,1950,3,Indianapolis,3,3,Mauri ROSE,Deidt,Deidt Offenhauser, 
 3,1950,3,Indianapolis,4,4,Cecil GREEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 3,1950,3,Indianapolis,5,5,Joie CHITWOOD,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-3,1950,3,Indianapolis,&,5,Tony BETTENHAUSEN,Talbot Lago,Talbot Lago Talbot, 
+3,1950,3,Indianapolis,&,5,Tony BETTENHAUSEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 3,1950,3,Indianapolis,6,6,Lee WALLARD,Moore,Moore Offenhauser, 
 3,1950,3,Indianapolis,7,7,Walt FAULKNER,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 3,1950,3,Indianapolis,8,8,George CONNOR,Lesovsky,Lesovsky Offenhauser, 
@@ -76,10 +76,10 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 3,1950,3,Indianapolis,23,23,Jackie HOLMES,Olson,Olson Offenhauser, Spin
 3,1950,3,Indianapolis,24,24,Jim RATHMANN,Wetteroth,Wetteroth Offenhauser, 
 3,1950,3,Indianapolis,25,25,Henry BANKS,Maserati,Maserati Offenhauser, 
-3,1950,3,Indianapolis,&,25,Fred AGABASHIAN,Alfa Romeo,Alfa Romeo Alfa Romeo, Oil line
+3,1950,3,Indianapolis,&,25,Fred AGABASHIAN,Maserati,Maserati Offenhauser, Oil line
 3,1950,3,Indianapolis,26,26,Bill SCHINDLER,Snowberger,Snowberger Offenhauser, Joint
 3,1950,3,Indianapolis,27,27,Bayliss LEVRETT,Adams,Adams Offenhauser, 
-3,1950,3,Indianapolis,&,27,Bill CANTRELL,Ferrari,Ferrari Ferrari, Oil pressure
+3,1950,3,Indianapolis,&,27,Bill CANTRELL,Adams,Adams Offenhauser, Oil pressure
 3,1950,3,Indianapolis,28,28,Fred AGABASHIAN,Kurtis Kraft,Kurtis Kraft Offenhauser, Oil line
 3,1950,3,Indianapolis,29,29,Jimmy JACKSON,Kurtis Kraft,Kurtis Kraft Cummins, Supercharger
 3,1950,3,Indianapolis,30,30,Sam HANKS,Kurtis Kraft,Kurtis Kraft Offenhauser, Oil pressure
@@ -170,7 +170,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 6,1950,6,France,5,5,Philippe ETANCELIN,Talbot Lago,Talbot Lago Talbot, 
 6,1950,6,France,&,5,Eugène CHABOUD,Talbot Lago,Talbot Lago Talbot, 
 6,1950,6,France,6,6,Charles POZZI,Talbot Lago,Talbot Lago Talbot, 
-6,1950,6,France,&,6,Louis ROSIER,ERA,ERA ERA, 
+6,1950,6,France,&,6,Louis ROSIER,Talbot Lago,Talbot Lago Talbot, 
 6,1950,6,France,7,7,Giuseppe FARINA,Alfa Romeo,Alfa Romeo Alfa Romeo, Fuel pump
 6,1950,6,France,8,8,Yves GIRAUD-CABANTOUS,Talbot Lago,Talbot Lago Talbot, 
 6,1950,6,France,ab,9,Pierre LEVEGH,Talbot Lago,Talbot Lago Talbot, Engine
@@ -201,7 +201,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 7,1950,7,Italy,ab,11,Guy MAIRESSE,Talbot Lago,Talbot Lago Talbot, Oil line
 7,1950,7,Italy,ab,12,Franco ROL,Maserati,Maserati Maserati, Engine
 7,1950,7,Italy,ab,13,Piero TARUFFI,Alfa Romeo,Alfa Romeo Alfa Romeo, 
-7,1950,7,Italy,&,13,Juan Manuel FANGIO,Alta,Alta Alta, Valve
+7,1950,7,Italy,&,13,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, Valve
 7,1950,7,Italy,ab,14,Pierre LEVEGH,Talbot Lago,Talbot Lago Talbot, Gearbox
 7,1950,7,Italy,ab,15,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, Gearbox
 7,1950,7,Italy,ab,16,Johnny CLAES,Talbot Lago,Talbot Lago Talbot, Overheating
@@ -250,7 +250,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 9,1951,2,Indianapolis,1,1,Lee WALLARD,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 57m 38.050s  ( 203.153 km/h )
 9,1951,2,Indianapolis,2,2,Mike NAZARUK,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 59m 25.293s  ( +1m 47.243s )
 9,1951,2,Indianapolis,3,3,Jack McGRATH,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-9,1951,2,Indianapolis,&,3,Manuel AYULO,Alfa Romeo,Alfa Romeo Alfa Romeo, 4h 00m 29.440s  ( +2m 51.391s )
+9,1951,2,Indianapolis,&,3,Manuel AYULO,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 00m 29.440s  ( +2m 51.391s )
 9,1951,2,Indianapolis,4,4,Andy LINDEN,Sherman,Sherman Offenhauser, 4h 02m 18.170s  ( +4m 40.120s )
 9,1951,2,Indianapolis,5,5,Bobby BALL,Schroeder,Schroeder Offenhauser, 4h 02m 30.280s  ( +4m 52.230s )
 9,1951,2,Indianapolis,6,6,Henry BANKS,Moore,Moore Offenhauser, 4h 03m 18.070s  ( +5m 40.021s )
@@ -327,7 +327,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 11,1951,4,France,1,1,Luigi FAGIOLI,Alfa Romeo,Alfa Romeo Alfa Romeo, 
 11,1951,4,France,&,1,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 22m 11.0s  ( 178.600 km/h )
 11,1951,4,France,2,2,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
-11,1951,4,France,&,2,Alberto ASCARI,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 23m 09.2s  ( +58.2s )
+11,1951,4,France,&,2,Alberto ASCARI,Ferrari,Ferrari Ferrari, 3h 23m 09.2s  ( +58.2s )
 11,1951,4,France,3,3,Luigi VILLORESI,Ferrari,Ferrari Ferrari, 
 11,1951,4,France,4,4,Reg PARNELL,Ferrari,Ferrari Ferrari, 
 11,1951,4,France,5,5,Giuseppe FARINA,Alfa Romeo,Alfa Romeo Alfa Romeo, 
@@ -467,7 +467,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 16,1952,1,Switzerland,8,8,Eric BRANDON,Cooper,Cooper Bristol, 
 16,1952,1,Switzerland,ab,9,Prince BIRA,Simca Gordini,Simca Gordini Gordini, Engine
 16,1952,1,Switzerland,ab,10,André SIMON,Ferrari,Ferrari Ferrari, 
-16,1952,1,Switzerland,&,10,Giuseppe FARINA,Maserati,Maserati Maserati, Magneto
+16,1952,1,Switzerland,&,10,Giuseppe FARINA,Ferrari,Ferrari Ferrari, Magneto
 16,1952,1,Switzerland,ab,11,Harry SCHELL,Maserati,Maserati Maserati, Engine
 16,1952,1,Switzerland,ab,12,Stirling MOSS,HWM,HWM Alta, Withdrew
 16,1952,1,Switzerland,ab,13,Lance MACKLIN,HWM,HWM Alta, Withdrew
@@ -585,7 +585,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 19,1952,4,France,9,9,Lance MACKLIN,HWM,HWM Alta, 
 19,1952,4,France,10,10,Yves GIRAUD-CABANTOUS,HWM,HWM Alta, 
 19,1952,4,France,11,11,Rudi FISCHER,Ferrari,Ferrari Ferrari, 
-19,1952,4,France,&,11,Peter HIRT,Maserati,Maserati Maserati, 
+19,1952,4,France,&,11,Peter HIRT,Ferrari,Ferrari Ferrari, 
 19,1952,4,France,12,12,Franco COMOTTI,Ferrari,Ferrari Ferrari, 
 19,1952,4,France,ab,13,Prince BIRA,Gordini,Gordini Gordini, Transmission
 19,1952,4,France,ab,14,Mike HAWTHORN,Cooper,Cooper Bristol, Ignition
@@ -732,7 +732,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 24,1953,1,Argentina,5,5,Oscar GALVEZ,Maserati,Maserati Maserati, 
 24,1953,1,Argentina,6,6,Jean BEHRA,Gordini,Gordini Gordini, 
 24,1953,1,Argentina,7,7,Maurice TRINTIGNANT,Gordini,Gordini Gordini, 
-24,1953,1,Argentina,&,7,Harry SCHELL,ERA,ERA ERA, 
+24,1953,1,Argentina,&,7,Harry SCHELL,Gordini,Gordini Gordini, 
 24,1953,1,Argentina,8,8,John BARBER,Cooper,Cooper Bristol, 
 24,1953,1,Argentina,9,9,Alan BROWN,Cooper,Cooper Bristol, 
 24,1953,1,Argentina,ab,10,Robert MANZON,Gordini,Gordini Gordini, Wheel lost
@@ -745,40 +745,40 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 25,1953,2,Indianapolis,1,1,Bill VUKOVICH,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 53m 01.690s  ( 207.168 km/h )
 25,1953,2,Indianapolis,2,2,Art CROSS,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 56m 32.562s  ( +3m 30.871s )
 25,1953,2,Indianapolis,3,3,Sam HANKS,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,3,Duane CARTER,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 57m 13.190s  ( +4m 11.500s )
+25,1953,2,Indianapolis,&,3,Duane CARTER,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 57m 13.190s  ( +4m 11.500s )
 25,1953,2,Indianapolis,4,4,Fred AGABASHIAN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,4,Paul RUSSO,Talbot Lago,Talbot Lago Talbot, 3h 57m 40.930s  ( +4m 39.239s )
+25,1953,2,Indianapolis,&,4,Paul RUSSO,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 57m 40.930s  ( +4m 39.239s )
 25,1953,2,Indianapolis,5,5,Jack McGRATH,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 00m 51.390s  ( +7m 49.699s )
 25,1953,2,Indianapolis,6,6,Jimmy DAYWALT,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 01m 11.900s  ( +8m 10.210s )
 25,1953,2,Indianapolis,7,7,Jim RATHMANN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,7,Eddie JOHNSON,Maserati,Maserati Maserati, 4h 01m 47.710s  ( +8m 46.020s )
+25,1953,2,Indianapolis,&,7,Eddie JOHNSON,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 01m 47.710s  ( +8m 46.020s )
 25,1953,2,Indianapolis,8,8,Ernie McCOY,Stevens,Stevens Offenhauser, 4h 03m 06.240s  ( +10m 04.550s )
 25,1953,2,Indianapolis,9,9,Tony BETTENHAUSEN,Kuzma,Kuzma Offenhauser, 
-25,1953,2,Indianapolis,&,9,Chuck STEVENSON,Talbot Lago,Talbot Lago Talbot, 
-25,1953,2,Indianapolis,&,9,Gene HARTLEY,Alfa Romeo,Alfa Romeo Alfa Romeo, Accident
+25,1953,2,Indianapolis,&,9,Chuck STEVENSON,Kuzma,Kuzma Offenhauser, 
+25,1953,2,Indianapolis,&,9,Gene HARTLEY,Kuzma,Kuzma Offenhauser, Accident
 25,1953,2,Indianapolis,10,10,Jimmy DAVIES,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 25,1953,2,Indianapolis,11,11,Duke NALON,Kurtis Kraft,Kurtis Kraft Novi, Spin
 25,1953,2,Indianapolis,12,12,Carl SCARBOROUGH,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,12,Bob SCOTT,Alta,Alta Alta, 
+25,1953,2,Indianapolis,&,12,Bob SCOTT,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 25,1953,2,Indianapolis,13,13,Manuel AYULO,Kuzma,Kuzma Offenhauser, Connecting rod
 25,1953,2,Indianapolis,14,14,Jimmy BRYAN,Schroeder,Schroeder Offenhauser, 
 25,1953,2,Indianapolis,15,15,Bill HOLLAND,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,15,Jim RATHMANN,ERA,ERA ERA, Gearbox
+25,1953,2,Indianapolis,&,15,Jim RATHMANN,Kurtis Kraft,Kurtis Kraft Offenhauser, Gearbox
 25,1953,2,Indianapolis,16,16,Rodger WARD,Kurtis Kraft,Kurtis Kraft Offenhauser, Transmission
-25,1953,2,Indianapolis,&,16,Andy LINDEN,ERA,ERA ERA, 
-25,1953,2,Indianapolis,&,16,Duke DINSMORE,Maserati Milano,Maserati Milano Maserati, 
+25,1953,2,Indianapolis,&,16,Andy LINDEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+25,1953,2,Indianapolis,&,16,Duke DINSMORE,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 25,1953,2,Indianapolis,17,17,Walt FAULKNER,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,17,Johnny MANTZ,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+25,1953,2,Indianapolis,&,17,Johnny MANTZ,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 25,1953,2,Indianapolis,18,18,Marshall TEAGUE,Kurtis Kraft,Kurtis Kraft Offenhauser, Oil leak
 25,1953,2,Indianapolis,19,19,Spider WEBB,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,19,Johnny THOMSON,Ferrari,Ferrari Ferrari, 
-25,1953,2,Indianapolis,&,19,Jackie HOLMES,Maserati,Maserati Maserati, Oil leak
+25,1953,2,Indianapolis,&,19,Johnny THOMSON,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+25,1953,2,Indianapolis,&,19,Jackie HOLMES,Kurtis Kraft,Kurtis Kraft Offenhauser, Oil leak
 25,1953,2,Indianapolis,20,20,Bob SWEIKERT,Kuzma,Kuzma Offenhauser, Suspension
 25,1953,2,Indianapolis,21,21,Mike NAZARUK,Turner,Turner Offenhauser, Engine
 25,1953,2,Indianapolis,22,22,Pat FLAHERTY,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 25,1953,2,Indianapolis,23,23,Jerry HOYT,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-25,1953,2,Indianapolis,&,23,Chuck STEVENSON,Maserati,Maserati Maserati, 
-25,1953,2,Indianapolis,&,23,Andy LINDEN,Alfa Romeo,Alfa Romeo Alfa Romeo, Overheating
+25,1953,2,Indianapolis,&,23,Chuck STEVENSON,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+25,1953,2,Indianapolis,&,23,Andy LINDEN,Kurtis Kraft,Kurtis Kraft Offenhauser, Overheating
 25,1953,2,Indianapolis,24,24,Duane CARTER,Lesovsky,Lesovsky Offenhauser, Ignition
 25,1953,2,Indianapolis,25,25,Paul RUSSO,Kurtis Kraft,Kurtis Kraft Offenhauser, Magneto
 25,1953,2,Indianapolis,26,26,Johnnie PARSONS,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
@@ -836,7 +836,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 26,1953,3,Netherlands,1,1,Alberto ASCARI,Ferrari,Ferrari Ferrari, 2h 53m 35.8s  ( 130.430 km/h )
 26,1953,3,Netherlands,2,2,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 2h 53m 46.2s  ( +10.4s )
 26,1953,3,Netherlands,3,3,Felice BONETTO,Maserati,Maserati Maserati, 
-26,1953,3,Netherlands,&,3,Jose-Froilan GONZALEZ,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+26,1953,3,Netherlands,&,3,Jose-Froilan GONZALEZ,Maserati,Maserati Maserati, 
 26,1953,3,Netherlands,4,4,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
 26,1953,3,Netherlands,5,5,Emmanuel de GRAFFENRIED,Maserati,Maserati Maserati, 
 26,1953,3,Netherlands,6,6,Maurice TRINTIGNANT,Gordini,Gordini Gordini, 
@@ -858,7 +858,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 27,1953,4,Belgium,1,1,Alberto ASCARI,Ferrari,Ferrari Ferrari, 2h 48m 30.3s  ( 180.999 km/h )
 27,1953,4,Belgium,2,2,Luigi VILLORESI,Ferrari,Ferrari Ferrari, 2h 51m 18.5s  ( +2m 48.2s )
 27,1953,4,Belgium,ab,3,Johnny CLAES,Maserati,Maserati Maserati, 
-27,1953,4,Belgium,&,3,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+27,1953,4,Belgium,&,3,Juan Manuel FANGIO,Maserati,Maserati Maserati, 
 27,1953,4,Belgium,3,4,Onofre MARIMON,Maserati,Maserati Maserati, 
 27,1953,4,Belgium,4,5,Emmanuel de GRAFFENRIED,Maserati,Maserati Maserati, 
 27,1953,4,Belgium,5,6,Maurice TRINTIGNANT,Gordini,Gordini Gordini, 
@@ -941,7 +941,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 30,1953,7,Germany,6,6,Stirling MOSS,Cooper,Cooper Alta, 
 30,1953,7,Germany,7,7,Jacques SWATERS,Ferrari,Ferrari Ferrari, 
 30,1953,7,Germany,8,8,Alberto ASCARI,Ferrari,Ferrari Ferrari, 
-30,1953,7,Germany,&,8,Luigi VILLORESI,Talbot Lago,Talbot Lago Talbot, Engine
+30,1953,7,Germany,&,8,Luigi VILLORESI,Ferrari,Ferrari Ferrari, Engine
 30,1953,7,Germany,9,9,Hans HERRMANN,Veritas,Veritas Veritas, 
 30,1953,7,Germany,10,10,Louis ROSIER,Ferrari,Ferrari Ferrari, 
 30,1953,7,Germany,11,11,Rodney NUCKEY,Cooper,Cooper Bristol, 
@@ -949,7 +949,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 30,1953,7,Germany,13,13,Ken McALPINE,Connaught,Connaught Lea Francis, 
 30,1953,7,Germany,14,14,Rudolf KRAUSE,BMW,BMW BMW, 
 30,1953,7,Germany,ab,15,Luigi VILLORESI,Ferrari,Ferrari Ferrari, 
-30,1953,7,Germany,&,15,Alberto ASCARI,Maserati,Maserati Maserati, Engine
+30,1953,7,Germany,&,15,Alberto ASCARI,Ferrari,Ferrari Ferrari, Engine
 30,1953,7,Germany,ab,16,Alan BROWN,Cooper,Cooper Bristol, Accident
 30,1953,7,Germany,15,17,Ernst KLODWIG,BMW,BMW BMW, 
 30,1953,7,Germany,16,18,Wolfgang SEIDEL,Veritas,Veritas Veritas, 
@@ -980,7 +980,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 31,1953,8,Switzerland,2,2,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 3h 02m 47.33s  ( +1m 12.93s )
 31,1953,8,Switzerland,3,3,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 3h 03m 10.36s  ( +1m 35.96s )
 31,1953,8,Switzerland,4,4,Juan Manuel FANGIO,Maserati,Maserati Maserati, 
-31,1953,8,Switzerland,&,4,Felice BONETTO,Talbot Lago,Talbot Lago Talbot, 
+31,1953,8,Switzerland,&,4,Felice BONETTO,Maserati,Maserati Maserati, 
 31,1953,8,Switzerland,5,5,Hermann LANG,Maserati,Maserati Maserati, 
 31,1953,8,Switzerland,6,6,Luigi VILLORESI,Ferrari,Ferrari Ferrari, 
 31,1953,8,Switzerland,7,7,Ken WHARTON,Cooper,Cooper Bristol, 
@@ -1054,55 +1054,55 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 34,1954,2,Indianapolis,2,2,Jimmy BRYAN,Kuzma,Kuzma Offenhauser, 3h 50m 27.221s  ( +1m 09.951s )
 34,1954,2,Indianapolis,3,3,Jack McGRATH,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 50m 37.000s  ( +1m 19.730s )
 34,1954,2,Indianapolis,4,4,Troy RUTTMAN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,4,Duane CARTER,Talbot Lago,Talbot Lago Talbot, 3h 52m 09.950s  ( +2m 52.681s )
+34,1954,2,Indianapolis,&,4,Duane CARTER,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 52m 09.950s  ( +2m 52.681s )
 34,1954,2,Indianapolis,5,5,Mike NAZARUK,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 52m 41.820s  ( +3m 24.551s )
 34,1954,2,Indianapolis,6,6,Fred AGABASHIAN,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 53m 04.820s  ( +3m 47.551s )
 34,1954,2,Indianapolis,7,7,Don FREELAND,Phillips,Phillips Offenhauser, 3h 53m 30.620s  ( +4m 13.351s )
 34,1954,2,Indianapolis,8,8,Paul RUSSO,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,8,Jerry HOYT,Maserati,Maserati Maserati, 3h 54m 18.440s  ( +5m 01.171s )
+34,1954,2,Indianapolis,&,8,Jerry HOYT,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 54m 18.440s  ( +5m 01.171s )
 34,1954,2,Indianapolis,9,9,Larry CROCKETT,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 56m 24.510s  ( +7m 07.240s )
 34,1954,2,Indianapolis,10,10,Cal NIDAY,Stevens,Stevens Offenhauser, 3h 56m 24.960s  ( +7m 07.690s )
 34,1954,2,Indianapolis,11,11,Art CROSS,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,11,Johnnie PARSONS,Alfa Romeo,Alfa Romeo Alfa Romeo, 
-34,1954,2,Indianapolis,&,11,Sam HANKS,Alta,Alta Alta, 
-34,1954,2,Indianapolis,&,11,Andy LINDEN,Maserati,Maserati Maserati, 
-34,1954,2,Indianapolis,&,11,Jimmy DAVIES,Maserati,Maserati Maserati, 3h 57m 39.460s  ( +8m 22.190s )
+34,1954,2,Indianapolis,&,11,Johnnie PARSONS,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,11,Sam HANKS,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,11,Andy LINDEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,11,Jimmy DAVIES,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 57m 39.460s  ( +8m 22.190s )
 34,1954,2,Indianapolis,12,12,Chuck STEVENSON,Kuzma,Kuzma Offenhauser, 
-34,1954,2,Indianapolis,&,12,Walt FAULKNER,Maserati,Maserati Maserati, 
+34,1954,2,Indianapolis,&,12,Walt FAULKNER,Kuzma,Kuzma Offenhauser, 
 34,1954,2,Indianapolis,13,13,Manuel AYULO,Kuzma,Kuzma Offenhauser, 
 34,1954,2,Indianapolis,14,14,Bob SWEIKERT,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 34,1954,2,Indianapolis,15,15,Duane CARTER,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,15,Jimmy JACKSON,ERA,ERA ERA, 
-34,1954,2,Indianapolis,&,15,Tony BETTENHAUSEN,ERA,ERA ERA, 
-34,1954,2,Indianapolis,&,15,Marshall TEAGUE,Maserati Milano,Maserati Milano Maserati, 
+34,1954,2,Indianapolis,&,15,Jimmy JACKSON,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,15,Tony BETTENHAUSEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,15,Marshall TEAGUE,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 34,1954,2,Indianapolis,16,16,Ernie McCOY,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 34,1954,2,Indianapolis,17,17,Jimmy REECE,Pankratz,Pankratz Offenhauser, 
 34,1954,2,Indianapolis,18,18,Ed ELISIAN,Stevens,Stevens Offenhauser, 
-34,1954,2,Indianapolis,&,18,Bob SCOTT,Maserati,Maserati Maserati, 
+34,1954,2,Indianapolis,&,18,Bob SCOTT,Stevens,Stevens Offenhauser, 
 34,1954,2,Indianapolis,19,19,Frank ARMI,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,19,George FONDER,Maserati,Maserati Maserati, 
+34,1954,2,Indianapolis,&,19,George FONDER,Kurtis Kraft,Kurtis Kraft Offenhauser, 
 34,1954,2,Indianapolis,20,20,Sam HANKS,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,20,Jimmy DAVIES,Talbot Lago,Talbot Lago Talbot, 
-34,1954,2,Indianapolis,&,20,Jim RATHMANN,Ferrari,Ferrari Ferrari, Spin
+34,1954,2,Indianapolis,&,20,Jimmy DAVIES,Kurtis Kraft,Kurtis Kraft Offenhauser, 
+34,1954,2,Indianapolis,&,20,Jim RATHMANN,Kurtis Kraft,Kurtis Kraft Offenhauser, Spin
 34,1954,2,Indianapolis,21,21,Pat O'CONNOR,Kurtis Kraft,Kurtis Kraft Offenhauser, Spin
 34,1954,2,Indianapolis,22,22,Rodger WARD,Pawl,Pawl Offenhauser, Engine
-34,1954,2,Indianapolis,&,22,Eddie JOHNSON,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+34,1954,2,Indianapolis,&,22,Eddie JOHNSON,Pawl,Pawl Offenhauser, 
 34,1954,2,Indianapolis,23,23,Gene HARTLEY,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,23,Marshall TEAGUE,Talbot Lago,Talbot Lago Talbot, Clutch
+34,1954,2,Indianapolis,&,23,Marshall TEAGUE,Kurtis Kraft,Kurtis Kraft Offenhauser, Clutch
 34,1954,2,Indianapolis,24,24,Johnny THOMSON,Nichels,Nichels Offenhauser, 
-34,1954,2,Indianapolis,&,24,Andy LINDEN,Cooper,Cooper JAP, 
-34,1954,2,Indianapolis,&,24,Bill HOMEIER,Maserati,Maserati Maserati, Engine
+34,1954,2,Indianapolis,&,24,Andy LINDEN,Nichels,Nichels Offenhauser, 
+34,1954,2,Indianapolis,&,24,Bill HOMEIER,Nichels,Nichels Offenhauser, Engine
 34,1954,2,Indianapolis,25,25,Andy LINDEN,Schroeder,Schroeder Offenhauser, 
-34,1954,2,Indianapolis,&,25,Bob SCOTT,ERA,ERA ERA, Suspension
+34,1954,2,Indianapolis,&,25,Bob SCOTT,Schroeder,Schroeder Offenhauser, Suspension
 34,1954,2,Indianapolis,26,26,Jerry HOYT,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
 34,1954,2,Indianapolis,27,27,Jimmy DAYWALT,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 34,1954,2,Indianapolis,28,28,Jim RATHMANN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-34,1954,2,Indianapolis,&,28,Pat FLAHERTY,Talbot Lago,Talbot Lago Talbot, Accident
+34,1954,2,Indianapolis,&,28,Pat FLAHERTY,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 34,1954,2,Indianapolis,29,29,Tony BETTENHAUSEN,Kurtis Kraft,Kurtis Kraft Offenhauser, Connecting rod
 34,1954,2,Indianapolis,30,30,Spider WEBB,Bromme,Bromme Offenhauser, 
-34,1954,2,Indianapolis,&,30,Danny KLADIS,Maserati Milano,Maserati Milano Maserati, Oil leak
+34,1954,2,Indianapolis,&,30,Danny KLADIS,Bromme,Bromme Offenhauser, Oil leak
 34,1954,2,Indianapolis,31,31,Len DUNCAN,Schroeder,Schroeder Offenhauser, 
-34,1954,2,Indianapolis,&,31,George FONDER,Kurtis Kraft,Kurtis Kraft Offenhauser, Brakes
+34,1954,2,Indianapolis,&,31,George FONDER,Schroeder,Schroeder Offenhauser, Brakes
 34,1954,2,Indianapolis,32,32,Johnnie PARSONS,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
 34,1954,2,Indianapolis,33,33,Bill HOMEIER,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 34,1954,2,Indianapolis,nq,34,Marshall TEAGUE,Kurtis Kraft,Kurtis Kraft Offenhauser, 
@@ -1142,7 +1142,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 35,1954,3,Belgium,2,2,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 2h 45m 06.6s  ( +24.1s )
 35,1954,3,Belgium,3,3,Stirling MOSS,Maserati,Maserati Maserati, 
 35,1954,3,Belgium,4,4,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
-35,1954,3,Belgium,&,4,Jose-Froilan GONZALEZ,Talbot Lago,Talbot Lago Talbot, 
+35,1954,3,Belgium,&,4,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
 35,1954,3,Belgium,5,5,André PILETTE,Gordini,Gordini Gordini, 
 35,1954,3,Belgium,6,6,Prince BIRA,Maserati,Maserati Maserati, 
 35,1954,3,Belgium,7,7,Sergio MANTOVANI,Maserati,Maserati Maserati, 
@@ -1201,7 +1201,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 37,1954,5,Britain,&,19,Ron FLOCKHART,Maserati,Maserati Maserati, Accident
 37,1954,5,Britain,15,20,Horace GOULD,Cooper,Cooper Bristol, 
 37,1954,5,Britain,ab,21,Luigi VILLORESI,Maserati,Maserati Maserati, 
-37,1954,5,Britain,&,21,Alberto ASCARI,ERA,ERA ERA, Oil pressure
+37,1954,5,Britain,&,21,Alberto ASCARI,Maserati,Maserati Maserati, Oil pressure
 37,1954,5,Britain,ab,22,John RISELEY-PRICHARD,Connaught,Connaught Lea Francis, Accident
 37,1954,5,Britain,ab,23,Reg PARNELL,Ferrari,Ferrari Ferrari, Transmission
 37,1954,5,Britain,ab,24,Alberto ASCARI,Maserati,Maserati Maserati, Valve
@@ -1216,7 +1216,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 37,1954,5,Britain,f,33,Jacques SWATERS,Ferrari,Ferrari Ferrari, Engine
 38,1954,6,Germany,1,1,Juan Manuel FANGIO,Mercedes,Mercedes Mercedes, 3h 45m 45.8s  ( 133.366 km/h )
 38,1954,6,Germany,2,2,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
-38,1954,6,Germany,&,2,Mike HAWTHORN,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 47m 22.3s  ( +1m 36.5s )
+38,1954,6,Germany,&,2,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 3h 47m 22.3s  ( +1m 36.5s )
 38,1954,6,Germany,3,3,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 3h 50m 54.4s  ( +5m 08.6s )
 38,1954,6,Germany,4,4,Karl KLING,Mercedes,Mercedes Mercedes, 3h 51m 52.3s  ( +6m 06.5s )
 38,1954,6,Germany,5,5,Sergio MANTOVANI,Maserati,Maserati Maserati, 3h 54m 36.3s  ( +8m 50.5s )
@@ -1260,7 +1260,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 40,1954,8,Italy,1,1,Juan Manuel FANGIO,Mercedes,Mercedes Mercedes, 2h 47m 47.9s  ( 180.216 km/h )
 40,1954,8,Italy,2,2,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
 40,1954,8,Italy,3,3,Umberto MAGLIOLI,Ferrari,Ferrari Ferrari, 
-40,1954,8,Italy,&,3,Jose-Froilan GONZALEZ,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+40,1954,8,Italy,&,3,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
 40,1954,8,Italy,4,4,Hans HERRMANN,Mercedes,Mercedes Mercedes, 
 40,1954,8,Italy,5,5,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 40,1954,8,Italy,6,6,Fred WACKER,Gordini,Gordini Gordini, 
@@ -1308,30 +1308,30 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 41,1954,9,Spain,f,25,Fred WACKER,Gordini,Gordini Gordini, Not present
 42,1955,1,Argentina,1,1,Juan Manuel FANGIO,Mercedes,Mercedes Mercedes, 3h 00m 38.6s  ( 124.738 km/h )
 42,1955,1,Argentina,2,2,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
-42,1955,1,Argentina,&,2,Giuseppe FARINA,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 02m 08.2s  ( +1m 29.6s )
-42,1955,1,Argentina,&,2,Maurice TRINTIGNANT,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+42,1955,1,Argentina,&,2,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 3h 02m 08.2s  ( +1m 29.6s )
+42,1955,1,Argentina,&,2,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 42,1955,1,Argentina,3,3,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 
-42,1955,1,Argentina,&,3,Umberto MAGLIOLI,Talbot Lago,Talbot Lago Talbot, 
-42,1955,1,Argentina,&,3,Maurice TRINTIGNANT,ERA,ERA ERA, 
+42,1955,1,Argentina,&,3,Umberto MAGLIOLI,Ferrari,Ferrari Ferrari, 
+42,1955,1,Argentina,&,3,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 42,1955,1,Argentina,4,4,Hans HERRMANN,Mercedes,Mercedes Mercedes, 
-42,1955,1,Argentina,&,4,Karl KLING,Talbot Lago,Talbot Lago Talbot, 
-42,1955,1,Argentina,&,4,Stirling MOSS,Maserati,Maserati Maserati, 
+42,1955,1,Argentina,&,4,Karl KLING,Mercedes,Mercedes Mercedes, 
+42,1955,1,Argentina,&,4,Stirling MOSS,Mercedes,Mercedes Mercedes, 
 42,1955,1,Argentina,5,5,Roberto MIERES,Maserati,Maserati Maserati, 
 42,1955,1,Argentina,6,6,Harry SCHELL,Maserati,Maserati Maserati, 
-42,1955,1,Argentina,&,6,Jean BEHRA,Talbot Lago,Talbot Lago Talbot, 
+42,1955,1,Argentina,&,6,Jean BEHRA,Maserati,Maserati Maserati, 
 42,1955,1,Argentina,7,7,Luigi MUSSO,Maserati,Maserati Maserati, 
-42,1955,1,Argentina,&,7,Sergio MANTOVANI,Alta,Alta Alta, 
+42,1955,1,Argentina,&,7,Sergio MANTOVANI,Maserati,Maserati Maserati, 
 42,1955,1,Argentina,&,7,Harry SCHELL,Maserati,Maserati Maserati, 
 42,1955,1,Argentina,ab,8,Clemar BUCCI,Maserati,Maserati Maserati, 
-42,1955,1,Argentina,&,8,Harry SCHELL,Alta,Alta Alta, 
+42,1955,1,Argentina,&,8,Harry SCHELL,Maserati,Maserati Maserati, 
 42,1955,1,Argentina,&,8,Carlos MENDITEGUY,Maserati,Maserati Maserati, Fuel pressure
 42,1955,1,Argentina,ab,9,Sergio MANTOVANI,Maserati,Maserati Maserati, 
-42,1955,1,Argentina,&,9,Luigi MUSSO,Talbot Lago,Talbot Lago Talbot, 
-42,1955,1,Argentina,&,9,Jean BEHRA,ERA,ERA ERA, Engine
+42,1955,1,Argentina,&,9,Luigi MUSSO,Maserati,Maserati Maserati, 
+42,1955,1,Argentina,&,9,Jean BEHRA,Maserati,Maserati Maserati, Engine
 42,1955,1,Argentina,ab,10,Jesus IGLESIAS,Gordini,Gordini Gordini, Transmission
 42,1955,1,Argentina,ab,11,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, Valve
 42,1955,1,Argentina,ab,12,Eugenio CASTELLOTTI,Lancia,Lancia Lancia, 
-42,1955,1,Argentina,&,12,Luigi VILLORESI,ERA,ERA ERA, Accident
+42,1955,1,Argentina,&,12,Luigi VILLORESI,Lancia,Lancia Lancia, Accident
 42,1955,1,Argentina,ab,13,Stirling MOSS,Mercedes,Mercedes Mercedes, Fuel pressure
 42,1955,1,Argentina,ab,14,Alberto URIA,Maserati,Maserati Maserati, Fuel pressure
 42,1955,1,Argentina,ab,15,Alberto ASCARI,Lancia,Lancia Lancia, Accident
@@ -1344,13 +1344,13 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 43,1955,2,Monaco,1,1,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 2h 58m 09.7s  ( 105.915 km/h )
 43,1955,2,Monaco,2,2,Eugenio CASTELLOTTI,Lancia,Lancia Lancia, 2h 58m 30.0s  ( +20.3s )
 43,1955,2,Monaco,3,3,Jean BEHRA,Maserati,Maserati Maserati, 
-43,1955,2,Monaco,&,3,Cesare PERDISA,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+43,1955,2,Monaco,&,3,Cesare PERDISA,Maserati,Maserati Maserati, 
 43,1955,2,Monaco,4,4,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 
 43,1955,2,Monaco,5,5,Luigi VILLORESI,Lancia,Lancia Lancia, 
 43,1955,2,Monaco,6,6,Louis CHIRON,Lancia,Lancia Lancia, 
 43,1955,2,Monaco,7,7,Jacques POLLET,Gordini,Gordini Gordini, 
 43,1955,2,Monaco,8,8,Piero TARUFFI,Ferrari,Ferrari Ferrari, 
-43,1955,2,Monaco,&,8,Paul FRERE,Maserati,Maserati Maserati, 
+43,1955,2,Monaco,&,8,Paul FRERE,Ferrari,Ferrari Ferrari, 
 43,1955,2,Monaco,ab,9,Cesare PERDISA,Maserati,Maserati Maserati, 
 43,1955,2,Monaco,&,9,Jean BEHRA,Maserati,Maserati Maserati, Accident
 43,1955,2,Monaco,9,10,Stirling MOSS,Mercedes,Mercedes Mercedes, Engine
@@ -1370,11 +1370,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 43,1955,2,Monaco,f,24,Ken WHARTON,Vanwall,Vanwall Vanwall, Injury
 44,1955,3,Indianapolis,1,1,Bob SWEIKERT,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 53m 59.530s  ( 206.315 km/h )
 44,1955,3,Indianapolis,2,2,Tony BETTENHAUSEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-44,1955,3,Indianapolis,&,2,Paul RUSSO,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 56m 43.088s  ( +2m 43.558s )
+44,1955,3,Indianapolis,&,2,Paul RUSSO,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 56m 43.088s  ( +2m 43.558s )
 44,1955,3,Indianapolis,3,3,Jimmy DAVIES,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 57m 31.890s  ( +3m 32.359s )
 44,1955,3,Indianapolis,4,4,Johnny THOMSON,Kuzma,Kuzma Offenhauser, 3h 57m 38.440s  ( +3m 38.910s )
 44,1955,3,Indianapolis,5,5,Walt FAULKNER,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-44,1955,3,Indianapolis,&,5,Bill HOMEIER,ERA,ERA ERA, 3h 59m 16.700s  ( +5m 17.170s )
+44,1955,3,Indianapolis,&,5,Bill HOMEIER,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 59m 16.700s  ( +5m 17.170s )
 44,1955,3,Indianapolis,6,6,Andy LINDEN,Kurtis Kraft,Kurtis Kraft Offenhauser, 3h 59m 57.470s  ( +5m 57.939s )
 44,1955,3,Indianapolis,7,7,Al HERMAN,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 00m 23.770s  ( +6m 24.239s )
 44,1955,3,Indianapolis,8,8,Pat O'CONNOR,Kurtis Kraft,Kurtis Kraft Offenhauser, 4h 00m 41.130s  ( +6m 41.600s )
@@ -1428,7 +1428,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 45,1955,4,Belgium,3,3,Giuseppe FARINA,Ferrari,Ferrari Ferrari, 2h 41m 09.5s  ( +1m 40.5s )
 45,1955,4,Belgium,4,4,Paul FRERE,Ferrari,Ferrari Ferrari, 2h 42m 54.5s  ( +3m 25.5s )
 45,1955,4,Belgium,5,5,Roberto MIERES,Maserati,Maserati Maserati, 
-45,1955,4,Belgium,&,5,Jean BEHRA,Talbot Lago,Talbot Lago Talbot, 
+45,1955,4,Belgium,&,5,Jean BEHRA,Maserati,Maserati Maserati, 
 45,1955,4,Belgium,6,6,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 45,1955,4,Belgium,7,7,Luigi MUSSO,Maserati,Maserati Maserati, 
 45,1955,4,Belgium,8,8,Cesare PERDISA,Maserati,Maserati Maserati, 
@@ -1469,11 +1469,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 47,1955,6,Britain,4,4,Piero TARUFFI,Mercedes,Mercedes Mercedes, 
 47,1955,6,Britain,5,5,Luigi MUSSO,Maserati,Maserati Maserati, 
 47,1955,6,Britain,6,6,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
-47,1955,6,Britain,&,6,Eugenio CASTELLOTTI,ERA,ERA ERA, 
+47,1955,6,Britain,&,6,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, 
 47,1955,6,Britain,7,7,Mike SPARKEN,Gordini,Gordini Gordini, 
 47,1955,6,Britain,8,8,Lance MACKLIN,Maserati,Maserati Maserati, 
 47,1955,6,Britain,9,9,Ken WHARTON,Vanwall,Vanwall Vanwall, 
-47,1955,6,Britain,&,9,Harry SCHELL,Maserati,Maserati Maserati, 
+47,1955,6,Britain,&,9,Harry SCHELL,Vanwall,Vanwall Vanwall, 
 47,1955,6,Britain,ab,10,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, Overheating
 47,1955,6,Britain,ab,11,Roberto MIERES,Maserati,Maserati Maserati, Engine
 47,1955,6,Britain,ab,12,Jack BRABHAM,Cooper,Cooper Bristol, Valve
@@ -1484,7 +1484,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 47,1955,6,Britain,ab,17,Horace GOULD,Maserati,Maserati Maserati, Brakes
 47,1955,6,Britain,ab,18,Harry SCHELL,Vanwall,Vanwall Vanwall, Throttle
 47,1955,6,Britain,ab,19,Tony ROLT,Connaught,Connaught Alta, 
-47,1955,6,Britain,&,19,Peter WALKER,ERA,ERA ERA, Throttle
+47,1955,6,Britain,&,19,Peter WALKER,Connaught,Connaught Alta, Throttle
 47,1955,6,Britain,ab,20,Leslie MARR,Connaught,Connaught Alta, Brakes
 47,1955,6,Britain,ab,21,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Transmission
 47,1955,6,Britain,ab,22,André SIMON,Maserati,Maserati Maserati, Gearbox
@@ -1515,14 +1515,14 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 48,1955,7,Italy,np,22,Luigi VILLORESI,Lancia,Lancia Lancia, Tyre
 48,1955,7,Italy,np,23,Luigi PIOTTI,Arzani Volpini,Arzani Volpini Maserati, Engine
 49,1956,1,Argentina,1,1,Luigi MUSSO,Ferrari,Ferrari Ferrari, 
-49,1956,1,Argentina,&,1,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 00m 03.7s  ( 127.748 km/h )
+49,1956,1,Argentina,&,1,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 3h 00m 03.7s  ( 127.748 km/h )
 49,1956,1,Argentina,2,2,Jean BEHRA,Maserati,Maserati Maserati, 3h 00m 28.1s  ( +24.3s )
 49,1956,1,Argentina,3,3,Mike HAWTHORN,Maserati,Maserati Maserati, 
 49,1956,1,Argentina,4,4,Chico LANDI,Maserati,Maserati Maserati, 
-49,1956,1,Argentina,&,4,Gerino GERINI,Talbot Lago,Talbot Lago Talbot, 
+49,1956,1,Argentina,&,4,Gerino GERINI,Maserati,Maserati Maserati, 
 49,1956,1,Argentina,5,5,Olivier GENDEBIEN,Ferrari,Ferrari Ferrari, 
 49,1956,1,Argentina,6,6,Alberto URIA,Maserati,Maserati Maserati, 
-49,1956,1,Argentina,&,6,Oscar GONZALEZ,Talbot Lago,Talbot Lago Talbot, 
+49,1956,1,Argentina,&,6,Oscar GONZALEZ,Maserati,Maserati Maserati, 
 49,1956,1,Argentina,ab,7,Stirling MOSS,Maserati,Maserati Maserati, Engine
 49,1956,1,Argentina,ab,8,Peter COLLINS,Ferrari,Ferrari Ferrari, Accident
 49,1956,1,Argentina,ab,9,Luigi PIOTTI,Maserati,Maserati Maserati, Accident
@@ -1534,14 +1534,14 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 49,1956,1,Argentina,f,15,Elie BAYOL,Gordini,Gordini Gordini, Team withdrawn
 50,1956,2,Monaco,1,1,Stirling MOSS,Maserati,Maserati Maserati, 3h 00m 32.9s  ( 104.515 km/h )
 50,1956,2,Monaco,2,2,Peter COLLINS,Ferrari,Ferrari Ferrari, 
-50,1956,2,Monaco,&,2,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 00m 39.0s  ( +06.1s )
+50,1956,2,Monaco,&,2,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 3h 00m 39.0s  ( +06.1s )
 50,1956,2,Monaco,3,3,Jean BEHRA,Maserati,Maserati Maserati, 
 50,1956,2,Monaco,4,4,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 
-50,1956,2,Monaco,&,4,Eugenio CASTELLOTTI,Talbot Lago,Talbot Lago Talbot, 
+50,1956,2,Monaco,&,4,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, 
 50,1956,2,Monaco,5,5,Hermano da SILVA RAMOS,Gordini,Gordini Gordini, 
 50,1956,2,Monaco,ab,6,Robert MANZON,Gordini,Gordini Gordini, Brakes
 50,1956,2,Monaco,6,7,Elie BAYOL,Gordini,Gordini Gordini, 
-50,1956,2,Monaco,&,7,André PILETTE,Maserati,Maserati Maserati, 
+50,1956,2,Monaco,&,7,André PILETTE,Gordini,Gordini Gordini, 
 50,1956,2,Monaco,7,8,Cesare PERDISA,Maserati,Maserati Maserati, 
 50,1956,2,Monaco,8,9,Horace GOULD,Maserati,Maserati Maserati, 
 50,1956,2,Monaco,ab,10,Louis ROSIER,Maserati,Maserati Maserati, Engine
@@ -1576,7 +1576,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 51,1956,3,Indianapolis,21,21,Johnnie TOLAN,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
 51,1956,3,Indianapolis,22,22,Tony BETTENHAUSEN,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 51,1956,3,Indianapolis,23,23,Ed ELISIAN,Kurtis Kraft,Kurtis Kraft Offenhauser, 
-51,1956,3,Indianapolis,&,23,Eddie RUSSO,ERA,ERA ERA, Engine
+51,1956,3,Indianapolis,&,23,Eddie RUSSO,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
 51,1956,3,Indianapolis,24,24,Jimmy DAYWALT,Kurtis Kraft,Kurtis Kraft Offenhauser, Accident
 51,1956,3,Indianapolis,25,25,Jack TURNER,Kurtis Kraft,Kurtis Kraft Offenhauser, Engine
 51,1956,3,Indianapolis,26,26,Keith ANDREWS,Kurtis Kraft,Kurtis Kraft Offenhauser, Spin
@@ -1614,7 +1614,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 52,1956,4,Belgium,1,1,Peter COLLINS,Ferrari,Ferrari Ferrari, 2h 40m 00.3s  ( 190.614 km/h )
 52,1956,4,Belgium,2,2,Paul FRERE,Ferrari,Ferrari Ferrari, 2h 41m 51.6s  ( +1m 51.3s )
 52,1956,4,Belgium,3,3,Cesare PERDISA,Maserati,Maserati Maserati, 
-52,1956,4,Belgium,&,3,Stirling MOSS,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 43m 16.9s  ( +3m 16.6s )
+52,1956,4,Belgium,&,3,Stirling MOSS,Maserati,Maserati Maserati, 2h 43m 16.9s  ( +3m 16.6s )
 52,1956,4,Belgium,4,4,Harry SCHELL,Vanwall,Vanwall Vanwall, 
 52,1956,4,Belgium,5,5,Luigi VILLORESI,Maserati,Maserati Maserati, 
 52,1956,4,Belgium,6,6,André PILETTE,Ferrari,Ferrari Ferrari, 
@@ -1634,13 +1634,13 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 53,1956,5,France,3,3,Jean BEHRA,Maserati,Maserati Maserati, 2h 35m 53.3s  ( +1m 29.8s )
 53,1956,5,France,4,4,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 2h 35m 58.5s  ( +1m 35.1s )
 53,1956,5,France,5,5,Cesare PERDISA,Maserati,Maserati Maserati, 
-53,1956,5,France,&,5,Stirling MOSS,Talbot Lago,Talbot Lago Talbot, 
+53,1956,5,France,&,5,Stirling MOSS,Maserati,Maserati Maserati, 
 53,1956,5,France,6,6,Louis ROSIER,Maserati,Maserati Maserati, 
 53,1956,5,France,7,7,Francisco GODIA-SALES,Maserati,Maserati Maserati, 
 53,1956,5,France,8,8,Hermano da SILVA RAMOS,Gordini,Gordini Gordini, 
 53,1956,5,France,9,9,Robert MANZON,Gordini,Gordini Gordini, 
 53,1956,5,France,10,10,Mike HAWTHORN,Vanwall,Vanwall Vanwall, 
-53,1956,5,France,&,10,Harry SCHELL,Maserati,Maserati Maserati, 
+53,1956,5,France,&,10,Harry SCHELL,Vanwall,Vanwall Vanwall, 
 53,1956,5,France,11,11,André PILETTE,Gordini,Gordini Gordini, 
 53,1956,5,France,ab,12,André SIMON,Maserati,Maserati Maserati, Engine
 53,1956,5,France,ab,13,Piero TARUFFI,Maserati,Maserati Maserati, Engine
@@ -1656,7 +1656,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 53,1956,5,France,f,23,Piero SCOTTI,Connaught,Connaught Alta, Not present
 54,1956,6,Britain,1,1,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 2h 59m 47s  ( 158.795 km/h )
 54,1956,6,Britain,2,2,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, 
-54,1956,6,Britain,&,2,Peter COLLINS,Alfa Romeo,Alfa Romeo Alfa Romeo, 
+54,1956,6,Britain,&,2,Peter COLLINS,Ferrari,Ferrari Ferrari, 
 54,1956,6,Britain,3,3,Jean BEHRA,Maserati,Maserati Maserati, 
 54,1956,6,Britain,4,4,Jack FAIRMAN,Connaught,Connaught Alta, 
 54,1956,6,Britain,5,5,Horace GOULD,Maserati,Maserati Maserati, 
@@ -1666,7 +1666,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 54,1956,6,Britain,9,9,Robert MANZON,Gordini,Gordini Gordini, 
 54,1956,6,Britain,ab,10,Stirling MOSS,Maserati,Maserati Maserati, Rear axle
 54,1956,6,Britain,10,11,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, 
-54,1956,6,Britain,&,11,Alfonso de PORTAGO,Talbot Lago,Talbot Lago Talbot, 
+54,1956,6,Britain,&,11,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, 
 54,1956,6,Britain,11,12,Bob GERARD,Cooper,Cooper Bristol, 
 54,1956,6,Britain,ab,13,Harry SCHELL,Vanwall,Vanwall Vanwall, Fuel line
 54,1956,6,Britain,ab,14,Desmond TITTERINGTON,Connaught,Connaught Alta, Connecting rod
@@ -1696,11 +1696,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 55,1956,7,Germany,nc,7,Ottorino VOLONTERIO,Maserati,Maserati Maserati, 
 55,1956,7,Germany,ab,8,André MILHOUX,Gordini,Gordini Gordini, Engine
 55,1956,7,Germany,ab,9,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, 
-55,1956,7,Germany,&,9,Peter COLLINS,Maserati,Maserati Maserati, Accident
+55,1956,7,Germany,&,9,Peter COLLINS,, , Accident
 55,1956,7,Germany,ab,10,Luigi VILLORESI,Maserati,Maserati Maserati, Engine
 55,1956,7,Germany,ab,11,Harry SCHELL,Maserati,Maserati Maserati, Overheating
 55,1956,7,Germany,ab,12,Luigi MUSSO,Ferrari,Ferrari Ferrari, 
-55,1956,7,Germany,&,12,Eugenio CASTELLOTTI,Alfa Romeo,Alfa Romeo Alfa Romeo, Accident
+55,1956,7,Germany,&,12,Eugenio CASTELLOTTI,, , Accident
 55,1956,7,Germany,ab,13,Peter COLLINS,Ferrari,Ferrari Ferrari, Fuel leak
 55,1956,7,Germany,ab,14,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Magneto
 55,1956,7,Germany,ab,15,Umberto MAGLIOLI,Maserati,Maserati Maserati, Steering
@@ -1715,7 +1715,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 55,1956,7,Germany,f,24,Luigi VILLORESI,Maserati,Maserati Maserati, Changed car
 56,1956,8,Italy,1,1,Stirling MOSS,Maserati,Maserati Maserati, 2h 23m 41.3s  ( 208.785 km/h )
 56,1956,8,Italy,2,2,Peter COLLINS,Ferrari,Ferrari Ferrari, 
-56,1956,8,Italy,&,2,Juan Manuel FANGIO,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 23m 47.0s  ( +05.7s )
+56,1956,8,Italy,&,2,Juan Manuel FANGIO,, , 2h 23m 47.0s  ( +05.7s )
 56,1956,8,Italy,3,3,Ron FLOCKHART,Connaught,Connaught Alta, 
 56,1956,8,Italy,4,4,Francisco GODIA-SALES,Maserati,Maserati Maserati, 
 56,1956,8,Italy,ab,5,Luigi MUSSO,Ferrari,Ferrari Ferrari, Steering
@@ -1723,10 +1723,10 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 56,1956,8,Italy,6,7,Luigi PIOTTI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,7,8,Emmanuel de GRAFFENRIED,Maserati,Maserati Maserati, 
 56,1956,8,Italy,8,9,Juan Manuel FANGIO,Ferrari,Ferrari Ferrari, 
-56,1956,8,Italy,&,9,Eugenio CASTELLOTTI,Maserati,Maserati Maserati, 
+56,1956,8,Italy,&,9,Eugenio CASTELLOTTI,, , 
 56,1956,8,Italy,9,10,André SIMON,Gordini,Gordini Gordini, 
 56,1956,8,Italy,ab,11,Umberto MAGLIOLI,Maserati,Maserati Maserati, 
-56,1956,8,Italy,&,11,Jean BEHRA,Alfa Romeo,Alfa Romeo Alfa Romeo, Steering
+56,1956,8,Italy,&,11,Jean BEHRA,, , Steering
 56,1956,8,Italy,10,12,Gerino GERINI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,11,13,Roy SALVADORI,Maserati,Maserati Maserati, 
 56,1956,8,Italy,ab,14,Harry SCHELL,Vanwall,Vanwall Vanwall, Transmission
@@ -1737,7 +1737,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 56,1956,8,Italy,ab,19,Eugenio CASTELLOTTI,Ferrari,Ferrari Ferrari, Puncture
 56,1956,8,Italy,ab,20,Robert MANZON,Gordini,Gordini Gordini, Gearbox
 56,1956,8,Italy,ab,21,Luigi VILLORESI,Maserati,Maserati Maserati, 
-56,1956,8,Italy,&,21,Jo BONNIER,Maserati Milano,Maserati Milano Maserati, Engine
+56,1956,8,Italy,&,21,Jo BONNIER,, , Engine
 56,1956,8,Italy,ab,22,Alfonso de PORTAGO,Ferrari,Ferrari Ferrari, Puncture
 56,1956,8,Italy,ab,23,Les LESTON,Connaught,Connaught Alta, Suspension
 56,1956,8,Italy,ab,24,Hermano da SILVA RAMOS,Gordini,Gordini Gordini, Engine
@@ -1750,10 +1750,10 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 57,1957,1,Argentina,3,3,Carlos MENDITEGUY,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,4,4,Harry SCHELL,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,5,5,Jose-Froilan GONZALEZ,Ferrari,Ferrari Ferrari, 
-57,1957,1,Argentina,&,5,Alfonso de PORTAGO,Talbot Lago,Talbot Lago Talbot, 
+57,1957,1,Argentina,&,5,Alfonso de PORTAGO,, , 
 57,1957,1,Argentina,6,6,Cesare PERDISA,Ferrari,Ferrari Ferrari, 
-57,1957,1,Argentina,&,6,Peter COLLINS,ERA,ERA ERA, 
-57,1957,1,Argentina,&,6,Wolfgang von TRIPS,Talbot Lago,Talbot Lago Talbot, 
+57,1957,1,Argentina,&,6,Peter COLLINS,, , 
+57,1957,1,Argentina,&,6,Wolfgang von TRIPS,, , 
 57,1957,1,Argentina,7,7,Jo BONNIER,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,8,8,Stirling MOSS,Maserati,Maserati Maserati, 
 57,1957,1,Argentina,9,9,Alessandro De TOMASO,Ferrari,Ferrari Ferrari, 
@@ -1769,9 +1769,9 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 58,1957,2,Monaco,5,5,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
 58,1957,2,Monaco,6,6,Jack BRABHAM,Cooper,Cooper Climax, 
 58,1957,2,Monaco,7,7,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
-58,1957,2,Monaco,&,7,Mike HAWTHORN,ERA,ERA ERA, Accident
+58,1957,2,Monaco,&,7,Mike HAWTHORN,, , Accident
 58,1957,2,Monaco,ab,8,Giorgio SCARLATTI,Maserati,Maserati Maserati, 
-58,1957,2,Monaco,&,8,Harry SCHELL,Maserati,Maserati Maserati, Oil leak
+58,1957,2,Monaco,&,8,Harry SCHELL,, , Oil leak
 58,1957,2,Monaco,ab,9,Ron FLOCKHART,BRM,BRM BRM, Gearbox
 58,1957,2,Monaco,ab,10,Carlos MENDITEGUY,Maserati,Maserati Maserati, Accident
 58,1957,2,Monaco,ab,11,Ivor BUEB,Connaught,Connaught Alta, Tank
@@ -1849,7 +1849,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 60,1957,4,France,5,5,Harry SCHELL,Maserati,Maserati Maserati, 
 60,1957,4,France,6,6,Jean BEHRA,Maserati,Maserati Maserati, 
 60,1957,4,France,7,7,Mike MacDOWELL,Cooper,Cooper Climax, 
-60,1957,4,France,&,7,Jack BRABHAM,ERA,ERA ERA, 
+60,1957,4,France,&,7,Jack BRABHAM,, , 
 60,1957,4,France,ab,8,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, Steering
 60,1957,4,France,ab,9,Carlos MENDITEGUY,Maserati,Maserati Maserati, Engine
 60,1957,4,France,ab,10,Roy SALVADORI,Vanwall,Vanwall Vanwall, Valve
@@ -1859,11 +1859,11 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 60,1957,4,France,ab,14,Jack BRABHAM,Cooper,Cooper Climax, Accident
 60,1957,4,France,ab,15,Ron FLOCKHART,BRM,BRM BRM, Accident
 61,1957,5,Britain,1,1,Tony BROOKS,Vanwall,Vanwall Vanwall, 
-61,1957,5,Britain,&,1,Stirling MOSS,Alfa Romeo,Alfa Romeo Alfa Romeo, 3h 06m 37.8s  ( 139.695 km/h )
+61,1957,5,Britain,&,1,Stirling MOSS,, , 3h 06m 37.8s  ( 139.695 km/h )
 61,1957,5,Britain,2,2,Luigi MUSSO,Ferrari,Ferrari Ferrari, 3h 07m 03.4s  ( +25.6s )
 61,1957,5,Britain,3,3,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 3h 07m 20.6s  ( +42.8s )
 61,1957,5,Britain,4,4,Maurice TRINTIGNANT,Ferrari,Ferrari Ferrari, 
-61,1957,5,Britain,&,4,Peter COLLINS,Talbot Lago,Talbot Lago Talbot, 
+61,1957,5,Britain,&,4,Peter COLLINS,, , 
 61,1957,5,Britain,5,5,Roy SALVADORI,Cooper,Cooper Climax, 
 61,1957,5,Britain,6,6,Bob GERARD,Cooper,Cooper Bristol, 
 61,1957,5,Britain,7,7,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, 
@@ -1872,7 +1872,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 61,1957,5,Britain,ab,10,Jean BEHRA,Maserati,Maserati Maserati, Clutch
 61,1957,5,Britain,ab,11,Peter COLLINS,Ferrari,Ferrari Ferrari, Water pipe
 61,1957,5,Britain,ab,12,Stirling MOSS,Vanwall,Vanwall Vanwall, 
-61,1957,5,Britain,&,12,Tony BROOKS,Alta,Alta Alta, Engine
+61,1957,5,Britain,&,12,Tony BROOKS,, , Engine
 61,1957,5,Britain,ab,13,Juan Manuel FANGIO,Maserati,Maserati Maserati, Engine
 61,1957,5,Britain,ab,14,Jack FAIRMAN,BRM,BRM BRM, Engine
 61,1957,5,Britain,ab,15,Les LESTON,BRM,BRM BRM, Engine
@@ -1928,14 +1928,14 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 64,1957,8,Italy,3,3,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,4,4,Masten GREGORY,Maserati,Maserati Maserati, 
 64,1957,8,Italy,5,5,Giorgio SCARLATTI,Maserati,Maserati Maserati, 
-64,1957,8,Italy,&,5,Harry SCHELL,Talbot Lago,Talbot Lago Talbot, 
+64,1957,8,Italy,&,5,Harry SCHELL,, , 
 64,1957,8,Italy,6,6,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,7,7,Tony BROOKS,Vanwall,Vanwall Vanwall, 
 64,1957,8,Italy,8,8,Luigi MUSSO,Ferrari,Ferrari Ferrari, 
 64,1957,8,Italy,9,9,Francisco GODIA-SALES,Maserati,Maserati Maserati, 
 64,1957,8,Italy,10,10,Horace GOULD,Maserati,Maserati Maserati, 
 64,1957,8,Italy,11,11,André SIMON,Maserati,Maserati Maserati, 
-64,1957,8,Italy,&,11,Ottorino VOLONTERIO,Talbot Lago,Talbot Lago Talbot, 
+64,1957,8,Italy,&,11,Ottorino VOLONTERIO,, , 
 64,1957,8,Italy,ab,12,Peter COLLINS,Ferrari,Ferrari Ferrari, Valve
 64,1957,8,Italy,ab,13,Jean BEHRA,Maserati,Maserati Maserati, Overheating
 64,1957,8,Italy,ab,14,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, Tank
@@ -2105,7 +2105,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 70,1958,6,France,ab,12,Harry SCHELL,BRM,BRM BRM, Overheating
 70,1958,6,France,11,13,Roy SALVADORI,Cooper,Cooper Climax, 
 70,1958,6,France,ab,14,Stuart LEWIS-EVANS,Vanwall,Vanwall Vanwall, 
-70,1958,6,France,&,14,Tony BROOKS,Alta,Alta Alta, Engine
+70,1958,6,France,&,14,Tony BROOKS,, , Engine
 70,1958,6,France,ab,15,Graham HILL,Lotus,Lotus Climax, Engine
 70,1958,6,France,ab,16,Francisco GODIA-SALES,Maserati,Maserati Maserati, Accident
 70,1958,6,France,ab,17,Maurice TRINTIGNANT,BRM,BRM BRM, Oil line
@@ -2185,7 +2185,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 74,1958,10,Italy,2,2,Mike HAWTHORN,Ferrari,Ferrari Ferrari, 2h 04m 12.0s  ( +24.2s )
 74,1958,10,Italy,3,3,Phil HILL,Ferrari,Ferrari Ferrari, 2h 04m 16.1s  ( +28.3s )
 74,1958,10,Italy,4,4,Masten GREGORY,Maserati,Maserati Maserati, 
-74,1958,10,Italy,&,4,Carroll SHELBY,Talbot Lago,Talbot Lago Talbot, 
+74,1958,10,Italy,&,4,Carroll SHELBY,, , 
 74,1958,10,Italy,5,5,Roy SALVADORI,Cooper,Cooper Climax, 
 74,1958,10,Italy,6,6,Graham HILL,Lotus,Lotus Climax, 
 74,1958,10,Italy,7,7,Cliff ALLISON,Lotus,Lotus Climax, 
@@ -2473,7 +2473,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 85,1960,1,Argentina,1,1,Bruce McLAREN,Cooper,Cooper Climax, 2h 17m 49.5s  ( 136.242 km/h )
 85,1960,1,Argentina,2,2,Cliff ALLISON,Ferrari,Ferrari Ferrari, 2h 18m 15.8s  ( +26.3s )
 85,1960,1,Argentina,3,3,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-85,1960,1,Argentina,&,3,Stirling MOSS,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 18m 26.4s  ( +36.9s )
+85,1960,1,Argentina,&,3,Stirling MOSS,, , 2h 18m 26.4s  ( +36.9s )
 85,1960,1,Argentina,4,4,Carlos MENDITEGUY,Cooper,Cooper Maserati, 2h 18m 42.8s  ( +53.3s )
 85,1960,1,Argentina,5,5,Wolfgang von TRIPS,Ferrari,Ferrari Ferrari, 
 85,1960,1,Argentina,6,6,Innes IRELAND,Lotus,Lotus Climax, 
@@ -2825,7 +2825,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 99,1961,5,Britain,ab,17,Jim CLARK,Lotus,Lotus Climax, Oil line
 99,1961,5,Britain,17,18,Wolfgang SEIDEL,Lotus,Lotus Climax, 
 99,1961,5,Britain,dsq,19,Jack FAIRMAN,Ferguson,Ferguson Climax, 
-99,1961,5,Britain,&,19,Stirling MOSS,Maserati,Maserati Maserati, Push start
+99,1961,5,Britain,&,19,Stirling MOSS,, , Push start
 99,1961,5,Britain,ab,20,Lucien BIANCHI,Lotus,Lotus Climax, Gearbox
 99,1961,5,Britain,ab,21,Stirling MOSS,Lotus,Lotus Climax, Water pipe
 99,1961,5,Britain,ab,22,Graham HILL,BRM,BRM Climax, Engine
@@ -2922,7 +2922,7 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 102,1961,8,USA,9,10,Peter RYAN,Lotus,Lotus Climax, 
 102,1961,8,USA,10,11,Hap SHARP,Cooper,Cooper Climax, 
 102,1961,8,USA,11,12,Olivier GENDEBIEN,Lotus,Lotus Climax, 
-102,1961,8,USA,&,12,Masten GREGORY,Talbot Lago,Talbot Lago Talbot, 
+102,1961,8,USA,&,12,Masten GREGORY,, , 
 102,1961,8,USA,ab,13,Lloyd RUBY,Lotus,Lotus Climax, Magneto
 102,1961,8,USA,ab,14,Jim HALL,Lotus,Lotus Climax, Fuel leak
 102,1961,8,USA,ab,15,Stirling MOSS,Lotus,Lotus Climax, Engine
@@ -3609,13 +3609,13 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 130,1964,9,USA,5,5,Walt HANSGEN,Lotus,Lotus Climax, 
 130,1964,9,USA,6,6,Trevor TAYLOR,BRP,BRP BRM, 
 130,1964,9,USA,7,7,Mike SPENCE,Lotus,Lotus Climax, 
-130,1964,9,USA,&,7,Jim CLARK,ERA,ERA ERA, Fuel pump
+130,1964,9,USA,&,7,Jim CLARK,, , Fuel pump
 130,1964,9,USA,8,8,Mike HAILWOOD,Lotus,Lotus BRM, Oil line
 130,1964,9,USA,ab,9,Dan GURNEY,Brabham,Brabham Climax, Oil pressure
 130,1964,9,USA,nc,10,Hap SHARP,Brabham,Brabham BRM, 
 130,1964,9,USA,ab,11,Lorenzo BANDINI,Ferrari,Ferrari Ferrari, Engine
 130,1964,9,USA,ab,12,Jim CLARK,Lotus,Lotus Climax, 
-130,1964,9,USA,&,12,Mike SPENCE,Alfa Romeo,Alfa Romeo Alfa Romeo, Fuel injection
+130,1964,9,USA,&,12,Mike SPENCE,, , Fuel injection
 130,1964,9,USA,ab,13,Ronnie BUCKNUM,Honda,Honda Honda, Cylinder head gasket
 130,1964,9,USA,ab,14,Chris AMON,Lotus,Lotus BRM, Starter ring
 130,1964,9,USA,ab,15,Jo BONNIER,Brabham,Brabham Climax, Rear axle

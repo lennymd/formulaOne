@@ -13,6 +13,7 @@ with open('../data/from_scripts/statsf1/race_list.csv', "r") as f:
 	for row in csv.reader(f):
 		race_list.append(row)
 
+print("Starting")
 for race in race_list[1:]:
 	race_id = race_list.index(race)
 
@@ -37,7 +38,6 @@ for race in race_list[1:]:
 	p_index = 1
 		# process each row
 	for row in table:
-		o += 1
 		cols = row.find_all("td")
 
 		position = cols[0].text.strip()
@@ -65,12 +65,12 @@ for race in race_list[1:]:
 		
 		results_list.append(record_list)
 	
-	if ((race_id % 10) == 0):
+	if ((race_id % 5) == 0):
 		sleep(1.5)
 	else: 
 		pass
 	
-	print("Done with race:", year, round_id)
+	print("Done with race", race_id, "which corresponds to:", year, round_id)
 
 
 # Check that constructor + team info are in each row:
