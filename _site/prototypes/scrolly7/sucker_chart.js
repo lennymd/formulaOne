@@ -121,7 +121,7 @@ class sucker_chart {
 						})
 						.attr("stroke-width", "1.5")
 						.attr("stroke", "black")
-						.attr("class", function (d) { return "line "+ d.constructor_clean.toLowerCase(); });
+						.attr("class", function (d) { return "line "+ d.team.toLowerCase(); });
 		
 		var circles = svg.selectAll("circles")
 							.data(data)
@@ -134,14 +134,14 @@ class sucker_chart {
 								return this.y_scale2(d[y]);
 							})
 							.style("fill", (d) => {
-								return this.color(d.constructor_clean);
+								return this.color(d.team);
 							})
 							.attr("r", "4")
 							.attr("stroke-width", "1")
 							.attr("stroke", (d) => {
-								return this.color(d.constructor_clean);
+								return this.color(d.team);
 							})
-							.attr("class", function (d) { return "circle " + d.constructor_clean.toLowerCase(); });
+							.attr("class", function (d) { return "circle " + d.team.toLowerCase(); });
 	}
 
 	set_data(new_data) {

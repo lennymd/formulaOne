@@ -6,26 +6,31 @@ window.addEventListener('resize', scroller.resize());
 var row_converter = (d) => {
 	return {
 		year: +d.year,
-		constructor: d.constructor,
-		
+		team: d.team,
+		wins: +d.wins,
+		races: +d.races,
+		win_percentage: +d.win_percentage,
+		podiums: +d.podiums,
+		podium_percentage: +d.podium_percentage,
+		run_id: d.run_id
 	}
 }
 
-d3.csv("../../public/data/wins_and_podium_analysis.csv", row_converter, (dataset) => {
+d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset) => {
 
 	// create the plot for the section
 	var plot_wins = new sucker_chart({
 		plot_data: dataset,
 		element: "#m1",
 		x: "wins",
-		y: "run"
+		y: "run_id"
 	})
 
 	var plot_podiums = new sucker_chart({
 		plot_data: dataset,
 		element: "#m2",
 		x: "podiums",
-		y: "run"
+		y: "run_id"
 	})
 
 	// start scrollytelling component
