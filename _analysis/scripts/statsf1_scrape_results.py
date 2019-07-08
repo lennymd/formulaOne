@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 
-results_list = [["race_id", "year", "round", "race_name", "position", "order", "driver", "constructor", "team", "extra"]]
+results_list = [["race_id", "year", "round", "race_name", "position", "order", "driver", "team", "constructor_long", "extra"]]
 base = "https://www.statsf1.com"
 abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq":"not qualified", "npq":"not pre-qualified", "dsq":"disqualified", "exc":"excluded", "f":"widthdrawal", "tf": "parade lap"}
 
@@ -65,8 +65,8 @@ for race in race_list[1:]:
 		
 		results_list.append(record_list)
 	
-	if ((race_id % 5) == 0):
-		sleep(1.5)
+	if ((race_id % 10) == 0):
+		sleep(1)
 	else: 
 		pass
 	

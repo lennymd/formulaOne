@@ -1,4 +1,4 @@
-race_id,year,round,race_name,position,order,driver,constructor,team,extra
+race_id,year,round,race_name,position,order,driver,team,constructor_long,extra
 1,1950,1,Britain,1,1,Giuseppe FARINA,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 13m 23.6s  ( 146.378 km/h )
 1,1950,1,Britain,2,2,Luigi FAGIOLI,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 13m 26.2s  ( +02.6s )
 1,1950,1,Britain,3,3,Reg PARNELL,Alfa Romeo,Alfa Romeo Alfa Romeo, 2h 14m 15.6s  ( +52.0s )
@@ -353,7 +353,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 76,1959,1,Monaco,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 55m 51.3s  ( 107.304 km/h )
 76,1959,1,Monaco,3,3,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
 76,1959,1,Monaco,5,5,Bruce McLAREN,Cooper,Cooper Climax, 
-76,1959,1,Monaco,6,6,Roy SALVADORI,Cooper,Cooper Maserati, Transmission
 76,1959,1,Monaco,ab,7,Stirling MOSS,Cooper,Cooper Climax, Transmission
 76,1959,1,Monaco,ab,13,Masten GREGORY,Cooper,Cooper Climax, Gearbox
 76,1959,1,Monaco,nq,17,Ivor BUEB,Cooper,Cooper Climax, 
@@ -361,7 +360,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 76,1959,1,Monaco,nq,20,Alain de CHANGY,Cooper,Cooper Climax, 
 76,1959,1,Monaco,nq,23,Jean LUCIENBONNET,Cooper,Cooper Climax, 
 76,1959,1,Monaco,f,27,Brian WHITEHOUSE,Cooper,Cooper Climax, Not present
-76,1959,1,Monaco,f,28,Paul EMERY,Cooper,Cooper Alta, Car unavailable
 78,1959,3,Netherlands,2,2,Jack BRABHAM,Cooper,Cooper Climax, 2h 05m 41.0s  ( +14.2s )
 78,1959,3,Netherlands,3,3,Masten GREGORY,Cooper,Cooper Climax, 2h 06m 49.8s  ( +1m 23.0s )
 78,1959,3,Netherlands,8,8,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
@@ -369,28 +367,20 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 79,1959,4,France,3,3,Jack BRABHAM,Cooper,Cooper Climax, 2h 03m 04.2s  ( +1m 37.7s )
 79,1959,4,France,5,5,Bruce McLAREN,Cooper,Cooper Climax, 2h 03m 14.2s  ( +1m 47.7s )
 79,1959,4,France,11,12,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-79,1959,4,France,ab,14,Roy SALVADORI,Cooper,Cooper Maserati, Engine
-79,1959,4,France,ab,17,Ian BURGESS,Cooper,Cooper Maserati, Engine
 79,1959,4,France,ab,18,Masten GREGORY,Cooper,Cooper Climax, Exhausted
-79,1959,4,France,ab,20,Colin DAVIS,Cooper,Cooper Maserati, Oil line
 80,1959,5,Britain,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 30m 11.6s  ( 144.654 km/h )
 80,1959,5,Britain,3,3,Bruce McLAREN,Cooper,Cooper Climax, 2h 30m 34.0s  ( +22.4s )
 80,1959,5,Britain,5,5,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
 80,1959,5,Britain,7,7,Masten GREGORY,Cooper,Cooper Climax, 
-80,1959,5,Britain,10,10,Chris BRISTOW,Cooper,Cooper Borgward, 
 80,1959,5,Britain,11,12,Henry TAYLOR,Cooper,Cooper Climax, 
 80,1959,5,Britain,12,13,Peter ASHDOWN,Cooper,Cooper Climax, 
-80,1959,5,Britain,13,14,Ivor BUEB,Cooper,Cooper Borgward, 
 80,1959,5,Britain,ab,17,Jack FAIRMAN,Cooper,Cooper Climax, Gearbox
-80,1959,5,Britain,ab,19,Ian BURGESS,Cooper,Cooper Maserati, Gearbox
-80,1959,5,Britain,ab,20,Hans HERRMANN,Cooper,Cooper Maserati, Gearbox
 80,1959,5,Britain,ab,23,Mike TAYLOR,Cooper,Cooper Climax, Transmission
 80,1959,5,Britain,nq,25,Bill MOSS,Cooper,Cooper Climax, 
 80,1959,5,Britain,nq,27,Trevor TAYLOR,Cooper,Cooper Climax, 
 80,1959,5,Britain,nq,28,Keith GREENE,Cooper,Cooper Climax, 
 80,1959,5,Britain,nq,29,Tim PARNELL,Cooper,Cooper Climax, 
 81,1959,6,Germany,4,4,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-81,1959,6,Germany,6,6,Ian BURGESS,Cooper,Cooper Maserati, 
 81,1959,6,Germany,ab,8,Bruce McLAREN,Cooper,Cooper Climax, Clutch
 81,1959,6,Germany,ab,10,Masten GREGORY,Cooper,Cooper Climax, Engine
 81,1959,6,Germany,ab,11,Jack BRABHAM,Cooper,Cooper Climax, Clutch
@@ -398,31 +388,23 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 82,1959,7,Portugal,1,1,Stirling MOSS,Cooper,Cooper Climax, 2h 11m 55.41s  ( 153.398 km/h )
 82,1959,7,Portugal,2,2,Masten GREGORY,Cooper,Cooper Climax, 
 82,1959,7,Portugal,4,4,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-82,1959,7,Portugal,10,10,Mario Araujo de CABRAL,Cooper,Cooper Maserati, 
 82,1959,7,Portugal,ab,11,Bruce McLAREN,Cooper,Cooper Climax, Transmission
 82,1959,7,Portugal,ab,12,Jack BRABHAM,Cooper,Cooper Climax, Accident
-82,1959,7,Portugal,f,17,Ian BURGESS,Cooper,Cooper Maserati, Not present
 83,1959,8,Italy,1,1,Stirling MOSS,Cooper,Cooper Climax, 2h 04m 05.4s  ( 200.177 km/h )
 83,1959,8,Italy,3,3,Jack BRABHAM,Cooper,Cooper Climax, 2h 05m 17.9s  ( +1m 12.5s )
 83,1959,8,Italy,9,9,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
-83,1959,8,Italy,11,11,Colin DAVIS,Cooper,Cooper Maserati, 
 83,1959,8,Italy,12,12,Giorgio SCARLATTI,Cooper,Cooper Climax, 
-83,1959,8,Italy,14,14,Ian BURGESS,Cooper,Cooper Maserati, 
 83,1959,8,Italy,ab,17,Bruce McLAREN,Cooper,Cooper Climax, Engine
 83,1959,8,Italy,ab,18,Jack FAIRMAN,Cooper,Cooper Climax, Engine
 84,1959,9,USA,1,1,Bruce McLAREN,Cooper,Cooper Climax, 2h 12m 35.7s  ( 159.055 km/h )
 84,1959,9,USA,2,2,Maurice TRINTIGNANT,Cooper,Cooper Climax, 2h 12m 36.3s  ( +00.6s )
 84,1959,9,USA,4,4,Jack BRABHAM,Cooper,Cooper Climax, 2h 17m 33.0s  ( +4m 57.3s )
-84,1959,9,USA,ab,8,Roy SALVADORI,Cooper,Cooper Maserati, Transmission
-84,1959,9,USA,ab,11,Alessandro De TOMASO,Cooper,Cooper OSCA, Brakes
 84,1959,9,USA,ab,14,Harry SCHELL,Cooper,Cooper Climax, Clutch
 84,1959,9,USA,ab,15,George CONSTANTINE,Cooper,Cooper Climax, Cylinder head gasket
 84,1959,9,USA,ab,16,Stirling MOSS,Cooper,Cooper Climax, Gearbox
 85,1960,1,Argentina,1,1,Bruce McLAREN,Cooper,Cooper Climax, 2h 17m 49.5s  ( 136.242 km/h )
 85,1960,1,Argentina,3,3,Maurice TRINTIGNANT,Cooper,Cooper Climax, 
 85,1960,1,Argentina,&,3,Stirling MOSS,Cooper,Cooper Climax, 2h 18m 26.4s  ( +36.9s )
-85,1960,1,Argentina,4,4,Carlos MENDITEGUY,Cooper,Cooper Maserati, 2h 18m 42.8s  ( +53.3s )
-85,1960,1,Argentina,11,11,Roberto BONOMI,Cooper,Cooper Maserati, 
 85,1960,1,Argentina,ab,15,Harry SCHELL,Cooper,Cooper Climax, Fuel pump
 85,1960,1,Argentina,ab,16,Jack BRABHAM,Cooper,Cooper Climax, Gearbox
 85,1960,1,Argentina,ab,17,Stirling MOSS,Cooper,Cooper Climax, Suspension
@@ -431,20 +413,13 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 86,1960,2,Monaco,dsq,11,Jack BRABHAM,Cooper,Cooper Climax, Push start
 86,1960,2,Monaco,ab,12,Roy SALVADORI,Cooper,Cooper Climax, Overheating
 86,1960,2,Monaco,ab,15,Chris BRISTOW,Cooper,Cooper Climax, Gearbox
-86,1960,2,Monaco,ab,16,Maurice TRINTIGNANT,Cooper,Cooper Maserati, Gearbox
 86,1960,2,Monaco,nq,17,Bruce HALFORD,Cooper,Cooper Climax, 
-86,1960,2,Monaco,nq,19,Giorgio SCARLATTI,Cooper,Cooper Castellotti, 
-86,1960,2,Monaco,nq,21,Masten GREGORY,Cooper,Cooper Maserati, 
-86,1960,2,Monaco,nq,22,Ian BURGESS,Cooper,Cooper Maserati, 
-86,1960,2,Monaco,nq,25,Gino MUNARON,Cooper,Cooper Castellotti, 
 88,1960,4,Netherlands,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 01m 47.2s  ( 154.931 km/h )
 88,1960,4,Netherlands,7,7,Henry TAYLOR,Cooper,Cooper Climax, 
 88,1960,4,Netherlands,8,8,Carel GODIN de BEAUFORT,Cooper,Cooper Climax, 
-88,1960,4,Netherlands,ab,13,Maurice TRINTIGNANT,Cooper,Cooper Maserati, Gearbox
 88,1960,4,Netherlands,ab,15,Chris BRISTOW,Cooper,Cooper Climax, Engine
 88,1960,4,Netherlands,ab,16,Bruce McLAREN,Cooper,Cooper Climax, Joint
 88,1960,4,Netherlands,ab,17,Tony BROOKS,Cooper,Cooper Climax, Gearbox
-88,1960,4,Netherlands,np,21,Masten GREGORY,Cooper,Cooper Maserati, Starting money dispute
 89,1960,5,Belgium,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 21m 37.3s  ( 215.052 km/h )
 89,1960,5,Belgium,2,2,Bruce McLAREN,Cooper,Cooper Climax, 2h 22m 40.6s  ( +1m 03.3s )
 89,1960,5,Belgium,3,4,Olivier GENDEBIEN,Cooper,Cooper Climax, 
@@ -457,51 +432,31 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 90,1960,6,France,3,3,Bruce McLAREN,Cooper,Cooper Climax, 1h 58m 16.8s  ( +51.9s )
 90,1960,6,France,4,4,Henry TAYLOR,Cooper,Cooper Climax, 
 90,1960,6,France,8,8,Bruce HALFORD,Cooper,Cooper Climax, Engine
-90,1960,6,France,9,9,Masten GREGORY,Cooper,Cooper Maserati, 
-90,1960,6,France,10,10,Ian BURGESS,Cooper,Cooper Maserati, 
 90,1960,6,France,ab,14,Lucien BIANCHI,Cooper,Cooper Climax, Transmission
-90,1960,6,France,ab,16,Gino MUNARON,Cooper,Cooper Castellotti, Transmission
-90,1960,6,France,ab,19,Maurice TRINTIGNANT,Cooper,Cooper Maserati, Accident
-90,1960,6,France,f,24,Giorgio SCARLATTI,Cooper,Cooper Castellotti, Car unavailable
 91,1960,7,Britain,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 04m 24.6s  ( 174.944 km/h )
 91,1960,7,Britain,4,4,Bruce McLAREN,Cooper,Cooper Climax, 
 91,1960,7,Britain,5,5,Tony BROOKS,Cooper,Cooper Climax, 
 91,1960,7,Britain,8,8,Henry TAYLOR,Cooper,Cooper Climax, 
 91,1960,7,Britain,9,9,Olivier GENDEBIEN,Cooper,Cooper Climax, 
-91,1960,7,Britain,14,15,Masten GREGORY,Cooper,Cooper Maserati, 
-91,1960,7,Britain,15,16,Gino MUNARON,Cooper,Cooper Castellotti, 
 91,1960,7,Britain,ab,18,Lucien BIANCHI,Cooper,Cooper Climax, Magneto
 91,1960,7,Britain,ab,20,Chuck DAIGH,Cooper,Cooper Climax, Overheating
-91,1960,7,Britain,ab,21,Ian BURGESS,Cooper,Cooper Maserati, Engine
 91,1960,7,Britain,ab,22,Jack FAIRMAN,Cooper,Cooper Climax, Fuel pump
-91,1960,7,Britain,ab,24,Keith GREENE,Cooper,Cooper Maserati, Overheating
-91,1960,7,Britain,f,25,Giorgio SCARLATTI,Cooper,Cooper Castellotti, Car unavailable
 91,1960,7,Britain,np,26,Lance REVENTLOW,Cooper,Cooper Climax, Car race by team mate
 92,1960,8,Portugal,1,1,Jack BRABHAM,Cooper,Cooper Climax, 2h 19m 00.03s  ( 175.849 km/h )
 92,1960,8,Portugal,2,2,Bruce McLAREN,Cooper,Cooper Climax, 2h 19m 58.00s  ( +57.97s )
 92,1960,8,Portugal,5,6,Tony BROOKS,Cooper,Cooper Climax, 
 92,1960,8,Portugal,7,8,Olivier GENDEBIEN,Cooper,Cooper Climax, 
-92,1960,8,Portugal,ab,9,Mario Araujo de CABRAL,Cooper,Cooper Maserati, Gearbox
-92,1960,8,Portugal,ab,13,Masten GREGORY,Cooper,Cooper Maserati, Gearbox
 92,1960,8,Portugal,np,16,Henry TAYLOR,Cooper,Cooper Climax, Accident
-93,1960,9,Italy,4,4,Giulio CABIANCA,Cooper,Cooper Castellotti, 
 93,1960,9,Italy,8,8,Piero DROGO,Cooper,Cooper Climax, 
 93,1960,9,Italy,9,9,Wolfgang SEIDEL,Cooper,Cooper Climax, 
-93,1960,9,Italy,ab,12,Alfonso THIELE,Cooper,Cooper Maserati, Gearbox
-93,1960,9,Italy,ab,13,Gino MUNARON,Cooper,Cooper Castellotti, Oil line
-93,1960,9,Italy,ab,14,Giorgio SCARLATTI,Cooper,Cooper Maserati, Throttle
 93,1960,9,Italy,ab,15,Vic WILSON,Cooper,Cooper Climax, Oil pump
 93,1960,9,Italy,ab,16,Arthur OWEN,Cooper,Cooper Climax, Accident
 94,1960,10,USA,3,3,Bruce McLAREN,Cooper,Cooper Climax, 2h 30m 14.2s  ( +1m 22.0s )
 94,1960,10,USA,4,4,Jack BRABHAM,Cooper,Cooper Climax, 
 94,1960,10,USA,6,6,Phil HILL,Cooper,Cooper Climax, 
 94,1960,10,USA,8,8,Roy SALVADORI,Cooper,Cooper Climax, 
-94,1960,10,USA,9,9,Wolfgang von TRIPS,Cooper,Cooper Maserati, 
-94,1960,10,USA,11,11,Pete LOVELY,Cooper,Cooper Ferrari, 
 94,1960,10,USA,12,12,Olivier GENDEBIEN,Cooper,Cooper Climax, 
 94,1960,10,USA,14,14,Henry TAYLOR,Cooper,Cooper Climax, 
-94,1960,10,USA,15,15,Maurice TRINTIGNANT,Cooper,Cooper Maserati, 
-94,1960,10,USA,ab,18,Ian BURGESS,Cooper,Cooper Maserati, Ignition
 94,1960,10,USA,ab,21,Ron FLOCKHART,Cooper,Cooper Climax, Transmission
 94,1960,10,USA,ab,22,Tony BROOKS,Cooper,Cooper Climax, Spin
 95,1961,1,Monaco,2,2,Richie GINTHER,Ferrari,Ferrari Ferrari, 2h 45m 53.7s  ( +03.6s )
@@ -561,75 +516,40 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 112,1963,1,Monaco,6,6,Trevor TAYLOR,Lotus,Lotus Climax, 
 112,1963,1,Monaco,8,8,Jim CLARK,Lotus,Lotus Climax, Accident
 112,1963,1,Monaco,9,9,Jack BRABHAM,Lotus,Lotus Climax, Gearbox
-112,1963,1,Monaco,ab,10,Innes IRELAND,Lotus,Lotus BRM, Accident
-112,1963,1,Monaco,ab,14,Jim HALL,Lotus,Lotus BRM, Gearbox
-112,1963,1,Monaco,ab,15,Jo SIFFERT,Lotus,Lotus BRM, Engine
 112,1963,1,Monaco,nq,17,Bernard COLLOMB,Lotus,Lotus Climax, 
-112,1963,1,Monaco,f,20,John CAMPBELL-JONES,Lotus,Lotus BRM, Car unavailable
 113,1963,2,Belgium,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 27m 47.6s  ( 183.175 km/h )
-113,1963,2,Belgium,ab,12,Jim HALL,Lotus,Lotus BRM, Accident
-113,1963,2,Belgium,ab,13,Jo SIFFERT,Lotus,Lotus BRM, Spin
 113,1963,2,Belgium,ab,20,Trevor TAYLOR,Lotus,Lotus Climax, Oil pressure
 113,1963,2,Belgium,f,21,Peter ARUNDELL,Lotus,Lotus Climax, Car unavailable
 114,1963,3,Netherlands,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 08m 13.7s  ( 156.958 km/h )
-114,1963,3,Netherlands,7,7,Jo SIFFERT,Lotus,Lotus BRM, 
-114,1963,3,Netherlands,8,8,Jim HALL,Lotus,Lotus BRM, 
 114,1963,3,Netherlands,10,12,Trevor TAYLOR,Lotus,Lotus Climax, 
 115,1963,4,France,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 10m 54.3s  ( 201.676 km/h )
-115,1963,4,France,6,6,Jo SIFFERT,Lotus,Lotus BRM, 
 115,1963,4,France,8,8,Maurice TRINTIGNANT,Lotus,Lotus Climax, 
-115,1963,4,France,11,11,Jim HALL,Lotus,Lotus BRM, 
 115,1963,4,France,13,13,Trevor TAYLOR,Lotus,Lotus Climax, Transmission
-115,1963,4,France,ab,14,Phil HILL,Lotus,Lotus BRM, Fuel pump
-115,1963,4,France,ab,16,Masten GREGORY,Lotus,Lotus BRM, Gearbox
 115,1963,4,France,np,21,Peter ARUNDELL,Lotus,Lotus Climax, Race in another race
 116,1963,5,Britain,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 14m 09.6s  ( 172.765 km/h )
-116,1963,5,Britain,6,6,Jim HALL,Lotus,Lotus BRM, 
 116,1963,5,Britain,8,8,Mike HAILWOOD,Lotus,Lotus Climax, 
-116,1963,5,Britain,11,11,Masten GREGORY,Lotus,Lotus BRM, 
-116,1963,5,Britain,ab,14,Jo SIFFERT,Lotus,Lotus BRM, Gearbox
 116,1963,5,Britain,dsq,21,Trevor TAYLOR,Lotus,Lotus Climax, Push start
 117,1963,6,Germany,2,2,Jim CLARK,Lotus,Lotus Climax, 2h 14m 24.3s  ( +1m 17.5s )
-117,1963,6,Germany,5,5,Jim HALL,Lotus,Lotus BRM, 
 117,1963,6,Germany,8,8,Trevor TAYLOR,Lotus,Lotus Climax, 
-117,1963,6,Germany,9,9,Jo SIFFERT,Lotus,Lotus BRM, Transmission
 117,1963,6,Germany,10,10,Bernard COLLOMB,Lotus,Lotus Climax, 
-117,1963,6,Germany,ab,21,Innes IRELAND,Lotus,Lotus BRM, Accident
 117,1963,6,Germany,nq,23,André PILETTE,Lotus,Lotus Climax, 
 117,1963,6,Germany,nq,25,Tim PARNELL,Lotus,Lotus Climax, 
-117,1963,6,Germany,nq,26,Kurt KUHNKE,Lotus,Lotus Borgward, 
-117,1963,6,Germany,f,29,Masten GREGORY,Lotus,Lotus BRM, Car unavailable
 118,1963,7,Italy,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 24m 19.6s  ( 205.575 km/h )
-118,1963,7,Italy,8,8,Jim HALL,Lotus,Lotus BRM, 
 118,1963,7,Italy,13,13,Mike SPENCE,Lotus,Lotus Climax, Oil pressure
-118,1963,7,Italy,ab,17,Jo SIFFERT,Lotus,Lotus BRM, Oil pressure
-118,1963,7,Italy,ab,19,Masten GREGORY,Lotus,Lotus BRM, Engine
 118,1963,7,Italy,nq,27,André PILETTE,Lotus,Lotus Climax, 
-118,1963,7,Italy,f,31,Gunther SEIFFERT,Lotus,Lotus BRM, Not present
 118,1963,7,Italy,f,33,Gaetano STARRABBA,Lotus,Lotus Climax, Not present
 119,1963,8,USA,3,3,Jim CLARK,Lotus,Lotus Climax, 
-119,1963,8,USA,10,10,Jim HALL,Lotus,Lotus BRM, Gearbox
-119,1963,8,USA,ab,12,Jo SIFFERT,Lotus,Lotus BRM, Gearbox
-119,1963,8,USA,ab,13,Rodger WARD,Lotus,Lotus BRM, Gearbox
 119,1963,8,USA,ab,16,Pedro RODRIGUEZ,Lotus,Lotus Climax, Camshaft
 119,1963,8,USA,ab,17,Trevor TAYLOR,Lotus,Lotus Climax, Ignition
-119,1963,8,USA,ab,19,Hap SHARP,Lotus,Lotus BRM, Valve
 119,1963,8,USA,f,22,Walt HANSGEN,Lotus,Lotus Climax, Car unavailable
 120,1963,9,Mexico,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 09m 52.1s  ( 150.152 km/h )
-120,1963,9,Mexico,7,7,Hap SHARP,Lotus,Lotus BRM, 
-120,1963,9,Mexico,8,8,Jim HALL,Lotus,Lotus BRM, 
-120,1963,9,Mexico,9,9,Jo SIFFERT,Lotus,Lotus BRM, 
 120,1963,9,Mexico,ab,15,Pedro RODRIGUEZ,Lotus,Lotus Climax, Suspension
 120,1963,9,Mexico,ab,17,Trevor TAYLOR,Lotus,Lotus Climax, Engine
-120,1963,9,Mexico,ab,20,Chris AMON,Lotus,Lotus BRM, Gearbox
 120,1963,9,Mexico,f,22,Walt HANSGEN,Lotus,Lotus Climax, Car unavailable
 120,1963,9,Mexico,f,24,Thomas MONARCH,Lotus,Lotus Climax, Not present
 121,1963,10,South Africa,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 10m 36.9s  ( 153.061 km/h )
 121,1963,10,South Africa,8,8,Trevor TAYLOR,Lotus,Lotus Climax, 
-121,1963,10,South Africa,14,14,Brausch NIEMANN,Lotus,Lotus Ford, 
 121,1963,10,South Africa,ab,19,Ernie PIETERSE,Lotus,Lotus Climax, Engine
-121,1963,10,South Africa,np,21,Paddy DRIVER,Lotus,Lotus BRM, Accident
-121,1963,10,South Africa,f,22,Jim HALL,Lotus,Lotus BRM, Not present
 122,1964,1,Monaco,10,10,Lorenzo BANDINI,Ferrari,Ferrari Ferrari, Gearbox
 122,1964,1,Monaco,ab,15,John SURTEES,Ferrari,Ferrari Ferrari, Gearbox
 123,1964,2,Netherlands,2,2,John SURTEES,Ferrari,Ferrari Ferrari, 2h 08m 29.0s  ( +53.6s )
@@ -654,114 +574,65 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 131,1964,10,Mexico,6,6,Pedro RODRIGUEZ,Ferrari,Ferrari Ferrari, 
 132,1965,1,South Africa,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 06m 46.0s  ( 157.707 km/h )
 132,1965,1,South Africa,4,4,Mike SPENCE,Lotus,Lotus Climax, 2h 07m 40.4s  ( +54.4s )
-132,1965,1,South Africa,11,11,Tony MAGGS,Lotus,Lotus BRM, 
 132,1965,1,South Africa,nq,22,Neville LEDERLE,Lotus,Lotus Climax, 
-132,1965,1,South Africa,nq,24,Brausch NIEMANN,Lotus,Lotus Ford, 
 132,1965,1,South Africa,nq,25,Ernie PIETERSE,Lotus,Lotus Climax, 
 132,1965,1,South Africa,npq,26,Clive PUZEY,Lotus,Lotus Climax, 
-132,1965,1,South Africa,npq,28,Dave CHARLTON,Lotus,Lotus Ford, 
-132,1965,1,South Africa,f,30,Brian RAUBENHEIMER,Lotus,Lotus Ford, Not present
 133,1965,2,Monaco,10,10,Paul HAWKINS,Lotus,Lotus Climax, Accident
-133,1965,2,Monaco,ab,12,Dick ATTWOOD,Lotus,Lotus BRM, Accident
-133,1965,2,Monaco,ab,15,Mike HAILWOOD,Lotus,Lotus BRM, Gearbox
 133,1965,2,Monaco,f,18,Mike SPENCE,Lotus,Lotus Climax, Starting money dispute
 133,1965,2,Monaco,f,19,Pedro RODRIGUEZ,Lotus,Lotus Climax, Starting money dispute
 134,1965,3,Belgium,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 23m 34.8s  ( 188.550 km/h )
 134,1965,3,Belgium,7,7,Mike SPENCE,Lotus,Lotus Climax, 
-134,1965,3,Belgium,13,13,Innes IRELAND,Lotus,Lotus BRM, 
-134,1965,3,Belgium,14,14,Dick ATTWOOD,Lotus,Lotus BRM, Fire
 134,1965,3,Belgium,f,22,Paul HAWKINS,Lotus,Lotus Climax, Car unavailable
 135,1965,4,France,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 14m 38.4s  ( 143.583 km/h )
 135,1965,4,France,7,7,Mike SPENCE,Lotus,Lotus Climax, 
-135,1965,4,France,ab,12,Chris AMON,Lotus,Lotus BRM, Fuel injection
-135,1965,4,France,ab,13,Innes IRELAND,Lotus,Lotus BRM, Gearbox
 136,1965,5,Britain,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 05m 25.4s  ( 180.292 km/h )
 136,1965,5,Britain,4,4,Mike SPENCE,Lotus,Lotus Climax, 2h 06m 05.0s  ( +39.6s )
-136,1965,5,Britain,13,13,Dick ATTWOOD,Lotus,Lotus BRM, 
-136,1965,5,Britain,ab,15,Innes IRELAND,Lotus,Lotus BRM, Engine
 136,1965,5,Britain,nq,24,Brian GUBBY,Lotus,Lotus Climax, 
 136,1965,5,Britain,f,25,Paul HAWKINS,Lotus,Lotus Climax, Car unavailable
-136,1965,5,Britain,f,26,Mike HAILWOOD,Lotus,Lotus BRM, Car unavailable
 137,1965,6,Netherlands,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 03m 59.1s  ( 162.329 km/h )
 137,1965,6,Netherlands,8,8,Mike SPENCE,Lotus,Lotus Climax, 
-137,1965,6,Netherlands,10,10,Innes IRELAND,Lotus,Lotus BRM, 
-137,1965,6,Netherlands,12,12,Dick ATTWOOD,Lotus,Lotus BRM, 
 138,1965,7,Germany,1,1,Jim CLARK,Lotus,Lotus Climax, 2h 07m 52.4s  ( 160.542 km/h )
 138,1965,7,Germany,ab,11,Mike SPENCE,Lotus,Lotus Climax, Transmission
 138,1965,7,Germany,ab,12,Gerhard MITTER,Lotus,Lotus Climax, Water leak
-138,1965,7,Germany,ab,13,Dick ATTWOOD,Lotus,Lotus BRM, Water leak
-138,1965,7,Germany,ab,16,Chris AMON,Lotus,Lotus BRM, Ignition
 138,1965,7,Germany,ab,17,Paul HAWKINS,Lotus,Lotus Climax, Oil leak
-139,1965,8,Italy,6,6,Dick ATTWOOD,Lotus,Lotus BRM, 
-139,1965,8,Italy,9,9,Innes IRELAND,Lotus,Lotus BRM, 
 139,1965,8,Italy,10,10,Jim CLARK,Lotus,Lotus Climax, 
 139,1965,8,Italy,11,11,Mike SPENCE,Lotus,Lotus Climax, Ignition
 139,1965,8,Italy,ab,18,GEKI,Lotus,Lotus Climax, Transmission
-140,1965,9,USA,10,10,Dick ATTWOOD,Lotus,Lotus BRM, 
 140,1965,9,USA,12,12,Moises SOLANA,Lotus,Lotus Climax, 
 140,1965,9,USA,ab,16,Jim CLARK,Lotus,Lotus Climax, Engine
-140,1965,9,USA,ab,17,Innes IRELAND,Lotus,Lotus BRM, Driver ill
 140,1965,9,USA,ab,18,Mike SPENCE,Lotus,Lotus Climax, Engine
 141,1965,10,Mexico,3,3,Mike SPENCE,Lotus,Lotus Climax, 2h 09m 32.25s  ( +1m 00.15s )
-141,1965,10,Mexico,6,6,Dick ATTWOOD,Lotus,Lotus BRM, 
 141,1965,10,Mexico,ab,10,Moises SOLANA,Lotus,Lotus Climax, Ignition
-141,1965,10,Mexico,ab,15,Bob BONDURANT,Lotus,Lotus BRM, Suspension
 141,1965,10,Mexico,ab,17,Jim CLARK,Lotus,Lotus Climax, Engine
-141,1965,10,Mexico,np,19,Innes IRELAND,Lotus,Lotus BRM, Dismissed by team
-142,1966,1,Monaco,ab,10,Jo SIFFERT,Brabham,Brabham BRM, Clutch
 142,1966,1,Monaco,ab,12,Jack BRABHAM,Brabham,Brabham Repco, Gearbox
-142,1966,1,Monaco,ab,14,Denny HULME,Brabham,Brabham Climax, Transmission
-142,1966,1,Monaco,ab,16,Bob ANDERSON,Brabham,Brabham Climax, Engine
 143,1966,2,Belgium,4,4,Jack BRABHAM,Brabham,Brabham Repco, 
-143,1966,2,Belgium,ab,12,Denny HULME,Brabham,Brabham Climax, Accident
 144,1966,3,France,1,1,Jack BRABHAM,Brabham,Brabham Repco, 1h 48m 31.3s  ( 220.322 km/h )
 144,1966,3,France,3,3,Denny HULME,Brabham,Brabham Repco, 
-144,1966,3,France,6,6,John TAYLOR,Brabham,Brabham BRM, 
-144,1966,3,France,7,7,Bob ANDERSON,Brabham,Brabham Climax, 
-144,1966,3,France,nc,12,Jo BONNIER,Brabham,Brabham Climax, 
 145,1966,4,Britain,1,1,Jack BRABHAM,Brabham,Brabham Repco, 2h 13m 13.4s  ( 153.667 km/h )
 145,1966,4,Britain,2,2,Denny HULME,Brabham,Brabham Repco, 2h 13m 23.0s  ( +09.6s )
-145,1966,4,Britain,7,7,Chris IRWIN,Brabham,Brabham Climax, 
-145,1966,4,Britain,8,8,John TAYLOR,Brabham,Brabham BRM, 
-145,1966,4,Britain,nc,13,Bob ANDERSON,Brabham,Brabham Climax, 
-145,1966,4,Britain,ab,15,Jo BONNIER,Brabham,Brabham Climax, Clutch
 146,1966,5,Netherlands,1,1,Jack BRABHAM,Brabham,Brabham Repco, 2h 20m 32.5s  ( 161.107 km/h )
-146,1966,5,Netherlands,8,8,John TAYLOR,Brabham,Brabham BRM, 
-146,1966,5,Netherlands,ab,11,Bob ANDERSON,Brabham,Brabham Climax, Suspension
 146,1966,5,Netherlands,ab,13,Denny HULME,Brabham,Brabham Repco, Ignition
 147,1966,6,Germany,1,1,Jack BRABHAM,Brabham,Brabham Repco, 2h 27m 03.0s  ( 139.606 km/h )
 147,1966,6,Germany,ab,18,Denny HULME,Brabham,Brabham Repco, Ignition
-147,1966,6,Germany,ab,25,Bob ANDERSON,Brabham,Brabham Climax, Transmission
-147,1966,6,Germany,ab,27,John TAYLOR,Brabham,Brabham BRM, Fatal accident
 148,1966,7,Italy,3,3,Denny HULME,Brabham,Brabham Repco, 1h 47m 20.9s  ( +06.1s )
-148,1966,7,Italy,6,6,Bob ANDERSON,Brabham,Brabham Climax, 
 148,1966,7,Italy,ab,17,Jack BRABHAM,Brabham,Brabham Repco, Oil leak
-148,1966,7,Italy,nq,22,Chris AMON,Brabham,Brabham BRM, 
 149,1966,8,USA,ab,12,Jack BRABHAM,Brabham,Brabham Repco, Engine
 149,1966,8,USA,ab,16,Denny HULME,Brabham,Brabham Repco, Oil pressure
 150,1966,9,Mexico,2,2,Jack BRABHAM,Brabham,Brabham Repco, 2h 06m 43.22s  ( +07.88s )
 150,1966,9,Mexico,3,3,Denny HULME,Brabham,Brabham Repco, 
 151,1967,1,South Africa,4,4,Denny HULME,Brabham,Brabham Repco, 
-151,1967,1,South Africa,5,5,Bob ANDERSON,Brabham,Brabham Climax, 
 151,1967,1,South Africa,6,6,Jack BRABHAM,Brabham,Brabham Repco, 
-151,1967,1,South Africa,nc,7,Dave CHARLTON,Brabham,Brabham Climax, 
-151,1967,1,South Africa,nc,8,Luki BOTHA,Brabham,Brabham Climax, 
 152,1967,2,Monaco,1,1,Denny HULME,Brabham,Brabham Repco, 2h 34m 34.3s  ( 122.079 km/h )
 152,1967,2,Monaco,ab,16,Jack BRABHAM,Brabham,Brabham Repco, Engine
-152,1967,2,Monaco,nq,17,Bob ANDERSON,Brabham,Brabham Climax, 
 153,1967,3,Netherlands,2,2,Jack BRABHAM,Brabham,Brabham Repco, 2h 15m 08.7s  ( +23.6s )
 153,1967,3,Netherlands,3,3,Denny HULME,Brabham,Brabham Repco, 2h 15m 10.8s  ( +25.7s )
-153,1967,3,Netherlands,9,9,Bob ANDERSON,Brabham,Brabham Climax, 
-154,1967,4,Belgium,8,8,Bob ANDERSON,Brabham,Brabham Climax, 
 154,1967,4,Belgium,ab,12,Jack BRABHAM,Brabham,Brabham Repco, Engine
 154,1967,4,Belgium,ab,13,Denny HULME,Brabham,Brabham Repco, Engine
 155,1967,5,France,1,1,Jack BRABHAM,Brabham,Brabham Repco, 2h 13m 21.3s  ( 159.166 km/h )
 155,1967,5,France,2,2,Denny HULME,Brabham,Brabham Repco, 2h 14m 10.8s  ( +49.5s )
-155,1967,5,France,ab,13,Bob ANDERSON,Brabham,Brabham Climax, Ignition
 156,1967,6,Britain,2,2,Denny HULME,Brabham,Brabham Repco, 1h 59m 38.4s  ( +12.8s )
 156,1967,6,Britain,4,4,Jack BRABHAM,Brabham,Brabham Repco, 1h 59m 47.4s  ( +21.8s )
 156,1967,6,Britain,10,10,Guy LIGIER,Brabham,Brabham Repco, 
-156,1967,6,Britain,ab,11,Bob ANDERSON,Brabham,Brabham Climax, Engine
 157,1967,7,Germany,1,1,Denny HULME,Brabham,Brabham Repco, 2h 05m 55.7s  ( 163.200 km/h )
 157,1967,7,Germany,2,2,Jack BRABHAM,Brabham,Brabham Repco, 2h 06m 34.2s  ( +38.5s )
 157,1967,7,Germany,8,8,Guy LIGIER,Brabham,Brabham Repco, 
@@ -776,257 +647,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 161,1967,11,Mexico,2,2,Jack BRABHAM,Brabham,Brabham Repco, 2h 00m 54.06s  ( +1m 25.36s )
 161,1967,11,Mexico,3,3,Denny HULME,Brabham,Brabham Repco, 
 161,1967,11,Mexico,11,11,Guy LIGIER,Brabham,Brabham Repco, 
-162,1968,1,South Africa,1,1,Jim CLARK,Lotus,Lotus Ford Cosworth, 1h 53m 56.6s  ( 172.886 km/h )
-162,1968,1,South Africa,2,2,Graham HILL,Lotus,Lotus Ford Cosworth, 1h 54m 21.9s  ( +25.3s )
-163,1968,2,Spain,1,1,Graham HILL,Lotus,Lotus Ford Cosworth, 2h 15m 20.1s  ( 135.823 km/h )
-163,1968,2,Spain,ab,8,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Transmission
-163,1968,2,Spain,f,16,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Car unavailable
-164,1968,3,Monaco,1,1,Graham HILL,Lotus,Lotus Ford Cosworth, 2h 00m 32.3s  ( 125.238 km/h )
-164,1968,3,Monaco,ab,10,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Transmission
-164,1968,3,Monaco,ab,15,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Accident
-165,1968,4,Belgium,5,5,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Transmission
-165,1968,4,Belgium,7,7,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Oil pressure
-165,1968,4,Belgium,ab,17,Graham HILL,Lotus,Lotus Ford Cosworth, Joint
-166,1968,5,Netherlands,9,9,Graham HILL,Lotus,Lotus Ford Cosworth, Spin
-166,1968,5,Netherlands,nc,10,Jackie OLIVER,Lotus,Lotus Ford Cosworth, 
-166,1968,5,Netherlands,ab,12,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Gearbox
-167,1968,6,France,11,11,Jo SIFFERT,Lotus,Lotus Ford Cosworth, 
-167,1968,6,France,ab,16,Graham HILL,Lotus,Lotus Ford Cosworth, Transmission
-167,1968,6,France,np,18,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Accident
-168,1968,7,Britain,1,1,Jo SIFFERT,Lotus,Lotus Ford Cosworth, 2h 01m 20.3s  ( 168.718 km/h )
-168,1968,7,Britain,ab,12,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Transmission
-168,1968,7,Britain,ab,15,Graham HILL,Lotus,Lotus Ford Cosworth, Joint
-169,1968,8,Germany,2,2,Graham HILL,Lotus,Lotus Ford Cosworth, 2h 23m 06.4s  ( +4m 03.2s )
-169,1968,8,Germany,11,11,Jackie OLIVER,Lotus,Lotus Ford Cosworth, 
-169,1968,8,Germany,ab,18,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Ignition
-170,1968,9,Italy,ab,7,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Suspension
-170,1968,9,Italy,ab,11,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Transmission
-170,1968,9,Italy,ab,16,Graham HILL,Lotus,Lotus Ford Cosworth, Wheel lost
-170,1968,9,Italy,exc,23,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Race in another race
-171,1968,10,Canada,4,4,Graham HILL,Lotus,Lotus Ford Cosworth, 
-171,1968,10,Canada,ab,13,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Transmission
-171,1968,10,Canada,ab,15,Jo SIFFERT,Lotus,Lotus Ford Cosworth, Oil leak
-171,1968,10,Canada,ab,18,Bill BRACK,Lotus,Lotus Ford Cosworth, Transmission
-172,1968,11,USA,2,2,Graham HILL,Lotus,Lotus Ford Cosworth, 1h 59m 44.97s  ( +24.68s )
-172,1968,11,USA,5,5,Jo SIFFERT,Lotus,Lotus Ford Cosworth, 
-172,1968,11,USA,ab,18,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Clutch
-172,1968,11,USA,np,20,Jackie OLIVER,Lotus,Lotus Ford Cosworth, Accident
-173,1968,12,Mexico,1,1,Graham HILL,Lotus,Lotus Ford Cosworth, 1h 56m 43.95s  ( 167.049 km/h )
-173,1968,12,Mexico,3,3,Jackie OLIVER,Lotus,Lotus Ford Cosworth, 1h 58m 24.60s  ( +1m 40.65s )
-173,1968,12,Mexico,6,6,Jo SIFFERT,Lotus,Lotus Ford Cosworth, 
-173,1968,12,Mexico,ab,17,Moises SOLANA,Lotus,Lotus Ford Cosworth, Wing
-174,1969,1,South Africa,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 50m 39.1s  ( 178.029 km/h )
-174,1969,1,South Africa,6,6,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 
-174,1969,1,South Africa,np,19,Jackie STEWART,Matra,Matra Ford Cosworth, Reserve entry
-175,1969,2,Spain,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 2h 16m 53.99s  ( 149.536 km/h )
-175,1969,2,Spain,3,3,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 
-176,1969,3,Monaco,ab,9,Jackie STEWART,Matra,Matra Ford Cosworth, Cardan
-176,1969,3,Monaco,ab,10,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, Cardan
-177,1969,4,Netherlands,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 2h 06m 42.08s  ( 178.705 km/h )
-177,1969,4,Netherlands,8,8,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 
-178,1969,5,France,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 56m 47.4s  ( 157.251 km/h )
-178,1969,5,France,2,2,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 1h 57m 44.5s  ( +57.1s )
-179,1969,6,Britain,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 55m 55.6s  ( 204.814 km/h )
-179,1969,6,Britain,9,9,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 
-180,1969,7,Germany,2,2,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 50m 53.1s  ( +57.7s )
-180,1969,7,Germany,12,12,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, Suspension
-181,1969,8,Italy,1,1,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 39m 11.26s  ( 236.521 km/h )
-181,1969,8,Italy,3,3,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 1h 39m 11.43s  ( +00.17s )
-181,1969,8,Italy,f,18,Johnny SERVOZ-GAVIN,Matra,Matra Ford Cosworth, Not present
-182,1969,9,Canada,4,4,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 
-182,1969,9,Canada,6,6,Johnny SERVOZ-GAVIN,Matra,Matra Ford Cosworth, 
-182,1969,9,Canada,ab,13,Jackie STEWART,Matra,Matra Ford Cosworth, Collision
-183,1969,10,USA,nc,7,Johnny SERVOZ-GAVIN,Matra,Matra Ford Cosworth, 
-183,1969,10,USA,ab,11,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, Engine
-183,1969,10,USA,ab,13,Jackie STEWART,Matra,Matra Ford Cosworth, Engine
-184,1969,11,Mexico,4,4,Jackie STEWART,Matra,Matra Ford Cosworth, 1h 54m 55.84s  ( +47.04s )
-184,1969,11,Mexico,5,5,Jean-Pierre BELTOISE,Matra,Matra Ford Cosworth, 1h 55m 47.23s  ( +1m 38.43s )
-184,1969,11,Mexico,8,8,Johnny SERVOZ-GAVIN,Matra,Matra Ford Cosworth, 
-185,1970,1,South Africa,5,5,John MILES,Lotus,Lotus Ford Cosworth, 
-185,1970,1,South Africa,6,6,Graham HILL,Lotus,Lotus Ford Cosworth, 
-185,1970,1,South Africa,8,8,John LOVE,Lotus,Lotus Ford Cosworth, 
-185,1970,1,South Africa,12,12,Dave CHARLTON,Lotus,Lotus Ford Cosworth, Puncture
-185,1970,1,South Africa,13,13,Jochen RINDT,Lotus,Lotus Ford Cosworth, Engine
-186,1970,2,Spain,4,4,Graham HILL,Lotus,Lotus Ford Cosworth, 
-186,1970,2,Spain,ab,13,Jochen RINDT,Lotus,Lotus Ford Cosworth, Ignition
-186,1970,2,Spain,nq,19,John MILES,Lotus,Lotus Ford Cosworth, 
-186,1970,2,Spain,nq,21,Alex SOLER-ROIG,Lotus,Lotus Ford Cosworth, 
-186,1970,2,Spain,f,24,Pete LOVELY,Lotus,Lotus Ford Cosworth, Car unavailable
-187,1970,3,Monaco,1,1,Jochen RINDT,Lotus,Lotus Ford Cosworth, 1h 54m 36.6s  ( 131.716 km/h )
-187,1970,3,Monaco,5,5,Graham HILL,Lotus,Lotus Ford Cosworth, 
-187,1970,3,Monaco,nq,21,John MILES,Lotus,Lotus Ford Cosworth, 
-187,1970,3,Monaco,f,22,Alex SOLER-ROIG,Lotus,Lotus Ford Cosworth, Car unavailable
-188,1970,4,Belgium,ab,11,Graham HILL,Lotus,Lotus Ford Cosworth, Engine
-188,1970,4,Belgium,ab,13,John MILES,Lotus,Lotus Ford Cosworth, Gearbox
-188,1970,4,Belgium,ab,14,Jochen RINDT,Lotus,Lotus Ford Cosworth, Engine
-188,1970,4,Belgium,nq,18,Alex SOLER-ROIG,Lotus,Lotus Ford Cosworth, 
-188,1970,4,Belgium,f,26,Pete LOVELY,Lotus,Lotus Ford Cosworth, Not present
-189,1970,5,Netherlands,1,1,Jochen RINDT,Lotus,Lotus Ford Cosworth, 1h 50m 43.41s  ( 181.772 km/h )
-189,1970,5,Netherlands,7,7,John MILES,Lotus,Lotus Ford Cosworth, 
-189,1970,5,Netherlands,nc,12,Graham HILL,Lotus,Lotus Ford Cosworth, 
-189,1970,5,Netherlands,nq,23,Pete LOVELY,Lotus,Lotus Ford Cosworth, 
-189,1970,5,Netherlands,f,25,Alex SOLER-ROIG,Lotus,Lotus Ford Cosworth, Car unavailable
-190,1970,6,France,1,1,Jochen RINDT,Lotus,Lotus Ford Cosworth, 1h 55m 57.00s  ( 158.391 km/h )
-190,1970,6,France,8,8,John MILES,Lotus,Lotus Ford Cosworth, 1h 58m 44.17s  ( +2m 47.17s )
-190,1970,6,France,10,10,Graham HILL,Lotus,Lotus Ford Cosworth, 
-190,1970,6,France,nq,22,Alex SOLER-ROIG,Lotus,Lotus Ford Cosworth, 
-190,1970,6,France,nq,23,Pete LOVELY,Lotus,Lotus Ford Cosworth, 
-191,1970,7,Britain,1,1,Jochen RINDT,Lotus,Lotus Ford Cosworth, 1h 57m 02.0s  ( 174.925 km/h )
-191,1970,7,Britain,6,6,Graham HILL,Lotus,Lotus Ford Cosworth, 
-191,1970,7,Britain,8,8,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 
-191,1970,7,Britain,nc,10,Pete LOVELY,Lotus,Lotus Ford Cosworth, 
-191,1970,7,Britain,ab,20,John MILES,Lotus,Lotus Ford Cosworth, Distributor
-192,1970,8,Germany,1,1,Jochen RINDT,Lotus,Lotus Ford Cosworth, 1h 42m 00.3s  ( 199.667 km/h )
-192,1970,8,Germany,4,4,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 43m 55.4s  ( +1m 55.1s )
-192,1970,8,Germany,ab,10,Graham HILL,Lotus,Lotus Ford Cosworth, Engine
-192,1970,8,Germany,ab,13,John MILES,Lotus,Lotus Ford Cosworth, Engine
-193,1970,9,Austria,15,15,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 
-193,1970,9,Austria,ab,19,Jochen RINDT,Lotus,Lotus Ford Cosworth, Engine
-193,1970,9,Austria,ab,23,John MILES,Lotus,Lotus Ford Cosworth, Brakes
-193,1970,9,Austria,f,25,Graham HILL,Lotus,Lotus Ford Cosworth, Car unavailable
-194,1970,10,Italy,np,21,Jochen RINDT,Lotus,Lotus Ford Cosworth, Dead
-194,1970,10,Italy,np,22,Graham HILL,Lotus,Lotus Ford Cosworth, Withdrew
-194,1970,10,Italy,np,23,John MILES,Lotus,Lotus Ford Cosworth, Withdrew
-194,1970,10,Italy,nq,25,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, Withdrew
-195,1970,11,Canada,nc,12,Graham HILL,Lotus,Lotus Ford Cosworth, 
-196,1970,12,USA,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 57m 32.97s  ( 204.020 km/h )
-196,1970,12,USA,3,3,Reine WISELL,Lotus,Lotus Ford Cosworth, 1h 58m 17.96s  ( +44.99s )
-196,1970,12,USA,ab,16,Graham HILL,Lotus,Lotus Ford Cosworth, Clutch
-196,1970,12,USA,nq,26,Pete LOVELY,Lotus,Lotus Ford Cosworth, 
-197,1970,13,Mexico,nc,10,Reine WISELL,Lotus,Lotus Ford Cosworth, 
-197,1970,13,Mexico,ab,16,Graham HILL,Lotus,Lotus Ford Cosworth, Overheating
-197,1970,13,Mexico,ab,18,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, Engine
-198,1971,1,South Africa,2,2,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 47m 56.4s  ( +20.9s )
-198,1971,1,South Africa,ab,16,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Accident
-199,1971,2,Spain,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 49m 03.4s  ( 156.428 km/h )
-199,1971,2,Spain,7,7,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-200,1971,3,Monaco,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 52m 21.3s  ( 134.360 km/h )
-200,1971,3,Monaco,ab,17,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Accident
-201,1971,4,Netherlands,11,11,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 
-201,1971,4,Netherlands,ab,18,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Accident
-202,1971,5,France,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 46m 41.68s  ( 179.700 km/h )
-202,1971,5,France,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 47m 09.80s  ( +28.12s )
-203,1971,6,Britain,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 31m 31.5s  ( 210.007 km/h )
-203,1971,6,Britain,10,10,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-204,1971,7,Germany,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 29m 15.7s  ( 184.191 km/h )
-204,1971,7,Germany,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 29m 45.8s  ( +30.1s )
-205,1971,8,Austria,ab,14,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Engine
-205,1971,8,Austria,ab,15,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, Wheel lost
-206,1971,9,Italy,3,3,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 18m 12.69s  ( +00.09s )
-206,1971,9,Italy,ab,18,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, Engine
-207,1971,10,Canada,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 55m 12.9s  ( 131.883 km/h )
-207,1971,10,Canada,6,6,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-208,1971,11,USA,1,1,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 43m 51.991s  ( 185.237 km/h )
-208,1971,11,USA,5,5,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 44m 51.994s  ( +1m 00.003s )
-208,1971,11,USA,ab,29,Peter REVSON,Tyrrell,Tyrrell Ford Cosworth, Clutch
-209,1972,1,Argentina,ab,12,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, Suspension
-209,1972,1,Argentina,dsq,19,Dave WALKER,Lotus,Lotus Ford Cosworth, Repaired outside pits
-210,1972,2,South Africa,2,2,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 46m 03.2s  ( +14.1s )
-210,1972,2,South Africa,10,10,Dave WALKER,Lotus,Lotus Ford Cosworth, 
-210,1972,2,South Africa,ab,26,Dave CHARLTON,Lotus,Lotus Ford Cosworth, Fuel pump
-211,1972,3,Spain,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 2h 03m 41.23s  ( 148.614 km/h )
-211,1972,3,Spain,9,9,Dave WALKER,Lotus,Lotus Ford Cosworth, Out of fuel
-212,1972,4,Monaco,3,3,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 
-212,1972,4,Monaco,14,14,Dave WALKER,Lotus,Lotus Ford Cosworth, 
-213,1972,5,Belgium,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 44m 06.7s  ( 182.423 km/h )
-213,1972,5,Belgium,14,14,Dave WALKER,Lotus,Lotus Ford Cosworth, 
-214,1972,6,France,2,2,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 52m 49.2s  ( +27.7s )
-214,1972,6,France,18,18,Dave WALKER,Lotus,Lotus Ford Cosworth, Transmission
-214,1972,6,France,nq,29,Dave CHARLTON,Lotus,Lotus Ford Cosworth, 
-215,1972,7,Britain,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 47m 50.2s  ( 180.351 km/h )
-215,1972,7,Britain,ab,16,Dave WALKER,Lotus,Lotus Ford Cosworth, Suspension
-215,1972,7,Britain,ab,22,Dave CHARLTON,Lotus,Lotus Ford Cosworth, Gearbox
-215,1972,7,Britain,f,29,Tony TRIMMER,Lotus,Lotus Ford Cosworth, Engine
-216,1972,8,Germany,ab,18,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, Fire
-216,1972,8,Germany,ab,23,Dave WALKER,Lotus,Lotus Ford Cosworth, Oil leak
-216,1972,8,Germany,ab,25,Dave CHARLTON,Lotus,Lotus Ford Cosworth, Driver ill
-217,1972,9,Austria,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 29m 16.66s  ( 214.518 km/h )
-217,1972,9,Austria,ab,25,Dave WALKER,Lotus,Lotus Ford Cosworth, Engine
-218,1972,10,Italy,1,1,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 1h 29m 58.4s  ( 211.813 km/h )
-219,1972,11,Canada,11,11,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, 
-219,1972,11,Canada,ab,14,Reine WISELL,Lotus,Lotus Ford Cosworth, Valve
-220,1972,12,USA,10,10,Reine WISELL,Lotus,Lotus Ford Cosworth, 
-220,1972,12,USA,ab,23,Dave WALKER,Lotus,Lotus Ford Cosworth, Oil leak
-220,1972,12,USA,ab,30,Emerson FITTIPALDI,Lotus,Lotus Ford Cosworth, Suspension
-221,1973,1,Argentina,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 56m 22.91s  ( +04.69s )
-221,1973,1,Argentina,3,3,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 56m 51.41s  ( +33.19s )
-222,1973,2,Brazil,2,2,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 44m 09.1s  ( +13.5s )
-222,1973,2,Brazil,10,10,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-223,1973,3,South Africa,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 43m 11.07s  ( 188.526 km/h )
-223,1973,3,South Africa,nc,13,Eddie KEIZAN,Tyrrell,Tyrrell Ford Cosworth, 
-223,1973,3,South Africa,nc,15,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-224,1973,4,Spain,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 49m 01.4s  ( +42.7s )
-224,1973,4,Spain,ab,16,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, Brakes
-225,1973,5,Belgium,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 13.43s  ( 173.384 km/h )
-225,1973,5,Belgium,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 45.27s  ( +31.84s )
-226,1973,6,Monaco,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 57m 44.3s  ( 130.298 km/h )
-226,1973,6,Monaco,4,4,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 
-227,1973,7,Sweden,3,3,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 57m 00.716s  ( +14.667s )
-227,1973,7,Sweden,5,5,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 57m 12.047s  ( +25.998s )
-228,1973,8,France,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 17.44s  ( +40.92s )
-228,1973,8,France,4,4,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 23.45s  ( +46.93s )
-229,1973,9,Britain,5,5,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 29m 55.1s  ( +36.6s )
-229,1973,9,Britain,10,10,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 
-230,1973,10,Netherlands,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 39m 12.45s  ( 184.022 km/h )
-230,1973,10,Netherlands,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 39m 28.28s  ( +15.83s )
-231,1973,11,Germany,1,1,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 03.0s  ( 187.961 km/h )
-231,1973,11,Germany,2,2,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 42m 04.6s  ( +01.6s )
-232,1973,12,Austria,2,2,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 28m 57.79s  ( +09.01s )
-232,1973,12,Austria,ab,20,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Collision
-233,1973,13,Italy,4,4,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 1h 29m 50.2s  ( +33.2s )
-233,1973,13,Italy,5,5,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, 1h 30m 03.2s  ( +46.2s )
-234,1973,14,Canada,5,5,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, 
-234,1973,14,Canada,10,10,Chris AMON,Tyrrell,Tyrrell Ford Cosworth, 
-234,1973,14,Canada,ab,23,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Collision
-235,1973,15,USA,np,26,François CEVERT,Tyrrell,Tyrrell Ford Cosworth, Dead
-235,1973,15,USA,np,27,Jackie STEWART,Tyrrell,Tyrrell Ford Cosworth, Withdrew
-235,1973,15,USA,np,28,Chris AMON,Tyrrell,Tyrrell Ford Cosworth, Withdrew
-236,1974,1,Argentina,1,1,Denny HULME,McLaren,McLaren Ford Cosworth, 1h 41m 02.01s  ( 187.841 km/h )
-236,1974,1,Argentina,4,4,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 1h 41m 33.80s  ( +31.79s )
-236,1974,1,Argentina,10,10,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 
-237,1974,2,Brazil,1,1,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 24m 37.06s  ( 180.615 km/h )
-237,1974,2,Brazil,5,5,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 
-237,1974,2,Brazil,12,12,Denny HULME,McLaren,McLaren Ford Cosworth, 
-238,1974,3,South Africa,3,3,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 1h 43m 23.12s  ( +42.16s )
-238,1974,3,South Africa,7,7,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 43m 49.35s  ( +1m 08.39s )
-238,1974,3,South Africa,9,9,Denny HULME,McLaren,McLaren Ford Cosworth, 
-238,1974,3,South Africa,19,19,Dave CHARLTON,McLaren,McLaren Ford Cosworth, 
-239,1974,4,Spain,3,3,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 
-239,1974,4,Spain,6,6,Denny HULME,McLaren,McLaren Ford Cosworth, 
-239,1974,4,Spain,9,9,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 
-240,1974,5,Belgium,1,1,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 44m 20.57s  ( 182.019 km/h )
-240,1974,5,Belgium,6,6,Denny HULME,McLaren,McLaren Ford Cosworth, 1h 45m 31.11s  ( +1m 10.54s )
-240,1974,5,Belgium,7,7,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 
-241,1974,6,Monaco,5,5,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 
-241,1974,6,Monaco,ab,14,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, Accident
-241,1974,6,Monaco,ab,25,Denny HULME,McLaren,McLaren Ford Cosworth, Pile-up
-242,1974,7,Sweden,4,4,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 59m 24.898s  ( +53.507s )
-242,1974,7,Sweden,ab,15,Denny HULME,McLaren,McLaren Ford Cosworth, Suspension
-242,1974,7,Sweden,ab,23,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, Fuel leak
-243,1974,8,Netherlands,3,3,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 43m 30.62s  ( +30.27s )
-243,1974,8,Netherlands,4,4,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 1h 43m 31.64s  ( +31.29s )
-243,1974,8,Netherlands,ab,14,Denny HULME,McLaren,McLaren Ford Cosworth, Ignition
-244,1974,9,France,6,6,Denny HULME,McLaren,McLaren Ford Cosworth, 1h 22m 33.16s  ( +38.14s )
-244,1974,9,France,7,7,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, 
-244,1974,9,France,ab,17,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, Oil leak
-245,1974,10,Britain,2,2,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 43m 17.5s  ( +15.3s )
-245,1974,10,Britain,7,7,Denny HULME,McLaren,McLaren Ford Cosworth, 
-245,1974,10,Britain,ab,17,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, Spin
-246,1974,11,Germany,15,15,Mike HAILWOOD,McLaren,McLaren Ford Cosworth, Accident
-246,1974,11,Germany,ab,22,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, Suspension
-246,1974,11,Germany,dsq,26,Denny HULME,McLaren,McLaren Ford Cosworth, Changed car
-247,1974,12,Austria,2,2,Denny HULME,McLaren,McLaren Ford Cosworth, 1h 29m 27.64s  ( +42.92s )
-247,1974,12,Austria,7,7,David HOBBS,McLaren,McLaren Ford Cosworth, 
-247,1974,12,Austria,ab,18,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, Engine
-248,1974,13,Italy,2,2,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 22m 57.4s  ( +00.8s )
-248,1974,13,Italy,6,6,Denny HULME,McLaren,McLaren Ford Cosworth, 
-248,1974,13,Italy,9,9,David HOBBS,McLaren,McLaren Ford Cosworth, 
-249,1974,14,Canada,1,1,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 40m 26.136s  ( 189.112 km/h )
-249,1974,14,Canada,6,6,Denny HULME,McLaren,McLaren Ford Cosworth, 
-249,1974,14,Canada,16,16,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-250,1974,15,USA,4,4,Emerson FITTIPALDI,McLaren,McLaren Ford Cosworth, 1h 41m 39.192s  ( +1m 17.753s )
-250,1974,15,USA,7,7,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 41m 51.451s  ( +1m 30.012s )
-250,1974,15,USA,ab,26,Denny HULME,McLaren,McLaren Ford Cosworth, Engine
 251,1975,1,Argentina,4,4,Clay REGAZZONI,Ferrari,Ferrari Ferrari, 1h 40m 02.08s  ( +35.79s )
 251,1975,1,Argentina,6,6,Niki LAUDA,Ferrari,Ferrari Ferrari, 1h 40m 45.94s  ( +1m 19.65s )
 252,1975,2,Brazil,4,4,Clay REGAZZONI,Ferrari,Ferrari Ferrari, 1h 45m 24.45s  ( +43.28s )
@@ -1055,38 +675,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 263,1975,13,Italy,3,3,Niki LAUDA,Ferrari,Ferrari Ferrari, 1h 23m 05.8s  ( +23.2s )
 264,1975,14,USA,1,1,Niki LAUDA,Ferrari,Ferrari Ferrari, 1h 42m 58.175s  ( 186.850 km/h )
 264,1975,14,USA,ab,15,Clay REGAZZONI,Ferrari,Ferrari Ferrari, Withdrew
-265,1976,1,Brazil,6,6,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 47m 15.05s  ( +1m 58.27s )
-265,1976,1,Brazil,ab,16,James HUNT,McLaren,McLaren Ford Cosworth, Accident
-266,1976,2,South Africa,2,2,James HUNT,McLaren,McLaren Ford Cosworth, 1h 42m 19.7s  ( +01.3s )
-266,1976,2,South Africa,3,3,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 43m 04.3s  ( +45.9s )
-267,1976,3,USA West,5,5,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 54m 40.763s  ( +1m 22.292s )
-267,1976,3,USA West,ab,16,James HUNT,McLaren,McLaren Ford Cosworth, Collision
-268,1976,4,Spain,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 42m 20.43s  ( 149.677 km/h )
-268,1976,4,Spain,ab,14,Jochen MASS,McLaren,McLaren Ford Cosworth, Engine
-269,1976,5,Belgium,6,6,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-269,1976,5,Belgium,ab,16,James HUNT,McLaren,McLaren Ford Cosworth, Gearbox
-270,1976,6,Monaco,5,5,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-270,1976,6,Monaco,ab,17,James HUNT,McLaren,McLaren Ford Cosworth, Engine
-271,1976,7,Sweden,5,5,James HUNT,McLaren,McLaren Ford Cosworth, 1h 47m 53.212s  ( +59.483s )
-271,1976,7,Sweden,11,11,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-272,1976,8,France,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 40m 58.60s  ( 186.423 km/h )
-272,1976,8,France,15,15,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-273,1976,9,Britain,dsq,1,James HUNT,McLaren,McLaren Ford Cosworth, Started unofficially 1h 43m 27.61s
-273,1976,9,Britain,ab,24,Jochen MASS,McLaren,McLaren Ford Cosworth, Clutch
-274,1976,10,Germany,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 41m 42.7s  ( 188.586 km/h )
-274,1976,10,Germany,3,3,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 42m 35.1s  ( +52.4s )
-275,1976,11,Austria,4,4,James HUNT,McLaren,McLaren Ford Cosworth, 1h 30m 20.30s  ( +12.44s )
-275,1976,11,Austria,7,7,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 31m 07.31s  ( +59.45s )
-276,1976,12,Netherlands,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 44m 52.09s  ( 181.342 km/h )
-276,1976,12,Netherlands,9,9,Jochen MASS,McLaren,McLaren Ford Cosworth, 
-277,1976,13,Italy,ab,23,James HUNT,McLaren,McLaren Ford Cosworth, Spin
-277,1976,13,Italy,ab,26,Jochen MASS,McLaren,McLaren Ford Cosworth, Ignition
-278,1976,14,Canada,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 40m 09.626s  ( 189.632 km/h )
-278,1976,14,Canada,5,5,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 40m 51.437s  ( +41.811s )
-279,1976,15,USA East,1,1,James HUNT,McLaren,McLaren Ford Cosworth, 1h 42m 40.741s  ( 187.379 km/h )
-279,1976,15,USA East,4,4,Jochen MASS,McLaren,McLaren Ford Cosworth, 1h 43m 43.199s  ( +1m 02.458s )
-280,1976,16,Japan,3,3,James HUNT,McLaren,McLaren Ford Cosworth, 
-280,1976,16,Japan,ab,17,Jochen MASS,McLaren,McLaren Ford Cosworth, Accident
 281,1977,1,Argentina,3,3,Carlos REUTEMANN,Ferrari,Ferrari Ferrari, 1h 40m 57.21s  ( +46.02s )
 281,1977,1,Argentina,ab,18,Niki LAUDA,Ferrari,Ferrari Ferrari, Engine
 282,1977,2,Brazil,1,1,Carlos REUTEMANN,Ferrari,Ferrari Ferrari, 1h 45m 07.72s  ( 181.720 km/h )
@@ -1122,54 +710,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 296,1977,16,Canada,f,28,Niki LAUDA,Ferrari,Ferrari Ferrari, Not present
 297,1977,17,Japan,2,2,Carlos REUTEMANN,Ferrari,Ferrari Ferrari, 1h 32m 54.13s  ( +1m 02.45s )
 297,1977,17,Japan,ab,19,Gilles VILLENEUVE,Ferrari,Ferrari Ferrari, Collision
-298,1978,1,Argentina,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 37m 04.47s  ( 191.813 km/h )
-298,1978,1,Argentina,5,5,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 38m 19.32s  ( +1m 14.85s )
-298,1978,1,Argentina,nq,25,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-299,1978,2,Brazil,4,4,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 51m 32.98s  ( +1m 33.12s )
-299,1978,2,Brazil,ab,12,Hector REBAQUE,Lotus,Lotus Ford Cosworth, Exhausted
-299,1978,2,Brazil,ab,18,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, Collision
-300,1978,3,South Africa,1,1,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 42m 15.767s  ( 187.817 km/h )
-300,1978,3,South Africa,7,7,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 
-300,1978,3,South Africa,10,10,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-301,1978,4,USA West,2,2,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 52m 12.362s  ( +11.061s )
-301,1978,4,USA West,4,4,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 52m 46.904s  ( +45.603s )
-301,1978,4,USA West,npq,28,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-302,1978,5,Monaco,11,11,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 
-302,1978,5,Monaco,ab,13,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, Gearbox
-302,1978,5,Monaco,npq,28,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-303,1978,6,Belgium,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 39m 52.02s  ( 179.242 km/h )
-303,1978,6,Belgium,2,2,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 40m 01.92s  ( +09.90s )
-303,1978,6,Belgium,npq,29,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-304,1978,7,Spain,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 41m 47.06s  ( 150.495 km/h )
-304,1978,7,Spain,2,2,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 42m 06.62s  ( +19.56s )
-304,1978,7,Spain,ab,22,Hector REBAQUE,Lotus,Lotus Ford Cosworth, Exhaust
-305,1978,8,Sweden,3,3,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 41m 34.711s  ( +34.105s )
-305,1978,8,Sweden,12,12,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-305,1978,8,Sweden,ab,17,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Engine
-306,1978,9,France,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 38m 51.92s  ( 190.404 km/h )
-306,1978,9,France,2,2,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 38m 54.85s  ( +02.93s )
-306,1978,9,France,nq,29,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-307,1978,10,Britain,ab,21,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Engine
-307,1978,10,Britain,ab,24,Hector REBAQUE,Lotus,Lotus Ford Cosworth, Gearbox
-307,1978,10,Britain,ab,26,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, Fuel leak
-308,1978,11,Germany,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 28m 00.90s  ( 208.263 km/h )
-308,1978,11,Germany,6,6,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 1h 29m 38.76s  ( +1m 37.86s )
-308,1978,11,Germany,ab,13,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, Gearbox
-309,1978,12,Austria,1,1,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 41m 21.57s  ( 189.939 km/h )
-309,1978,12,Austria,ab,25,Hector REBAQUE,Lotus,Lotus Ford Cosworth, Clutch
-309,1978,12,Austria,ab,26,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Accident
-310,1978,13,Netherlands,1,1,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 1h 41m 04.23s  ( 188.156 km/h )
-310,1978,13,Netherlands,2,2,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, 1h 41m 04.55s  ( +00.32s )
-310,1978,13,Netherlands,11,11,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-311,1978,14,Italy,6,6,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Jump start (1 mn penalty) 1h 07m 50.87s  ( +46.33s )
-311,1978,14,Italy,ab,20,Ronnie PETERSON,Lotus,Lotus Ford Cosworth, Fatal accident
-311,1978,14,Italy,nq,25,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
-312,1978,15,USA East,15,15,Jean-Pierre JARIER,Lotus,Lotus Ford Cosworth, Out of fuel
-312,1978,15,USA East,ab,20,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, Engine
-312,1978,15,USA East,ab,26,Hector REBAQUE,Lotus,Lotus Ford Cosworth, Clutch
-313,1978,16,Canada,10,10,Mario ANDRETTI,Lotus,Lotus Ford Cosworth, 
-313,1978,16,Canada,ab,16,Jean-Pierre JARIER,Lotus,Lotus Ford Cosworth, Oil leak
-313,1978,16,Canada,nq,26,Hector REBAQUE,Lotus,Lotus Ford Cosworth, 
 314,1979,1,Argentina,12,12,Gilles VILLENEUVE,Ferrari,Ferrari Ferrari, Transmission
 314,1979,1,Argentina,ab,20,Jody SCHECKTER,Ferrari,Ferrari Ferrari, Collision
 315,1979,2,Brazil,5,5,Gilles VILLENEUVE,Ferrari,Ferrari Ferrari, 
@@ -1200,104 +740,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 327,1979,14,Canada,4,4,Jody SCHECKTER,Ferrari,Ferrari Ferrari, 
 328,1979,15,USA East,1,1,Gilles VILLENEUVE,Ferrari,Ferrari Ferrari, 1h 52m 17.734s  ( 171.333 km/h )
 328,1979,15,USA East,ab,10,Jody SCHECKTER,Ferrari,Ferrari Ferrari, Puncture
-329,1980,1,Argentina,1,1,Alan JONES,Williams,Williams Ford Cosworth, 1h 43m 24.38s  ( 183.531 km/h )
-329,1980,1,Argentina,ab,18,Carlos REUTEMANN,Williams,Williams Ford Cosworth, Engine
-330,1980,2,Brazil,3,3,Alan JONES,Williams,Williams Ford Cosworth, 1h 41m 07.44s  ( +1m 06.11s )
-330,1980,2,Brazil,ab,23,Carlos REUTEMANN,Williams,Williams Ford Cosworth, Transmission
-331,1980,3,South Africa,5,5,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 
-331,1980,3,South Africa,ab,19,Alan JONES,Williams,Williams Ford Cosworth, Gearbox
-332,1980,4,USA West,ab,14,Alan JONES,Williams,Williams Ford Cosworth, Collision
-332,1980,4,USA West,ab,19,Carlos REUTEMANN,Williams,Williams Ford Cosworth, Transmission
-333,1980,5,Belgium,2,2,Alan JONES,Williams,Williams Ford Cosworth, 1h 39m 33.88s  ( +47.37s )
-333,1980,5,Belgium,3,3,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 40m 10.63s  ( +1m 24.12s )
-334,1980,6,Monaco,1,1,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 55m 34.365s  ( 130.677 km/h )
-334,1980,6,Monaco,ab,16,Alan JONES,Williams,Williams Ford Cosworth, Differential
-335,1980,7,France,1,1,Alan JONES,Williams,Williams Ford Cosworth, 1h 32m 43.42s  ( 203.016 km/h )
-335,1980,7,France,6,6,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 34m 00.16s  ( +1m 16.74s )
-336,1980,8,Britain,1,1,Alan JONES,Williams,Williams Ford Cosworth, 1h 34m 49.228s  ( 202.318 km/h )
-336,1980,8,Britain,3,3,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 35m 02.513s  ( +13.285s )
-336,1980,8,Britain,11,11,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-336,1980,8,Britain,nq,27,Desiré WILSON,Williams,Williams Ford Cosworth, 
-337,1980,9,Germany,2,2,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 23m 02.92s  ( +03.19s )
-337,1980,9,Germany,3,3,Alan JONES,Williams,Williams Ford Cosworth, 1h 23m 43.26s  ( +43.53s )
-337,1980,9,Germany,nq,25,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-338,1980,10,Austria,2,2,Alan JONES,Williams,Williams Ford Cosworth, 1h 26m 16.55s  ( +00.82s )
-338,1980,10,Austria,3,3,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 26m 35.09s  ( +19.36s )
-338,1980,10,Austria,15,15,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-339,1980,11,Netherlands,4,4,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 38m 29.12s  ( +15.29s )
-339,1980,11,Netherlands,11,11,Alan JONES,Williams,Williams Ford Cosworth, 
-339,1980,11,Netherlands,nq,25,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-340,1980,12,Italy,2,2,Alan JONES,Williams,Williams Ford Cosworth, 1h 38m 36.45s  ( +28.93s )
-340,1980,12,Italy,3,3,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 39m 21.19s  ( +1m 13.67s )
-340,1980,12,Italy,11,11,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-341,1980,13,Canada,1,1,Alan JONES,Williams,Williams Ford Cosworth, 1h 46m 45.53s  ( 173.494 km/h )
-341,1980,13,Canada,2,2,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 47m 01.07s  ( +15.54s )
-341,1980,13,Canada,nq,27,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-341,1980,13,Canada,nq,28,Kevin COGAN,Williams,Williams Ford Cosworth, 
-342,1980,14,USA East,1,1,Alan JONES,Williams,Williams Ford Cosworth, 1h 34m 36.05s  ( 203.380 km/h )
-342,1980,14,USA East,2,2,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 34m 40.26s  ( +04.21s )
-342,1980,14,USA East,9,9,Rupert KEEGAN,Williams,Williams Ford Cosworth, 
-342,1980,14,USA East,nq,27,Geoff LEES,Williams,Williams Ford Cosworth, 
-343,1981,1,USA West,3,3,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 51m 16.25s  ( +34.92s )
-343,1981,1,USA West,ab,12,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Spin
-344,1981,2,Brazil,12,12,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 
-344,1981,2,Brazil,ab,17,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Suspension
-345,1981,3,Argentina,1,1,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 34m 32.74s  ( 200.731 km/h )
-345,1981,3,Argentina,ab,17,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Distributor
-346,1981,4,San Marino,1,1,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 51m 23.97s  ( 162.873 km/h )
-346,1981,4,San Marino,4,4,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 1h 51m 46.86s  ( +22.89s )
-347,1981,5,Belgium,ab,14,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Accident
-347,1981,5,Belgium,ab,20,Nelson PIQUET,Brabham,Brabham Ford Cosworth, Collision
-348,1981,6,Monaco,ab,8,Nelson PIQUET,Brabham,Brabham Ford Cosworth, Accident
-348,1981,6,Monaco,nq,23,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 
-349,1981,7,Spain,ab,19,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Clutch
-349,1981,7,Spain,ab,20,Nelson PIQUET,Brabham,Brabham Ford Cosworth, Accident
-350,1981,8,France,3,3,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 36m 12.35s  ( +24.22s )
-350,1981,8,France,9,9,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 
-351,1981,9,Britain,5,5,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 
-351,1981,9,Britain,ab,18,Nelson PIQUET,Brabham,Brabham Ford Cosworth, Accident
-352,1981,10,Germany,1,1,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 25m 55.60s  ( 213.325 km/h )
-352,1981,10,Germany,4,4,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 1h 27m 35.29s  ( +1m 39.69s )
-353,1981,11,Austria,3,3,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 27m 43.81s  ( +07.34s )
-353,1981,11,Austria,ab,18,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Clutch
-354,1981,12,Netherlands,2,2,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 40m 30.67s  ( +08.24s )
-354,1981,12,Netherlands,4,4,Hector REBAQUE,Brabham,Brabham Ford Cosworth, 
-355,1981,13,Italy,6,6,Nelson PIQUET,Brabham,Brabham Ford Cosworth, Engine
-355,1981,13,Italy,ab,24,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Ignition
-356,1981,14,Canada,5,5,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 
-356,1981,14,Canada,ab,17,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Spin
-357,1981,15,Las Vegas,5,5,Nelson PIQUET,Brabham,Brabham Ford Cosworth, 1h 45m 25.515s  ( +1m 16.438s )
-357,1981,15,Las Vegas,ab,18,Hector REBAQUE,Brabham,Brabham Ford Cosworth, Accident
-358,1982,1,South Africa,2,2,Carlos REUTEMANN,Williams,Williams Ford Cosworth, 1h 32m 23.347s  ( +14.946s )
-358,1982,1,South Africa,5,5,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 32m 54.540s  ( +46.139s )
-359,1982,2,Brazil,dsq,2,Keke ROSBERG,Williams,Williams Ford Cosworth, Weight infringement 1h 44m 05.737s
-359,1982,2,Brazil,ab,19,Carlos REUTEMANN,Williams,Williams Ford Cosworth, Collision
-360,1982,3,USA West,2,2,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 58m 39.978s  ( +14.660s )
-360,1982,3,USA West,ab,20,Mario ANDRETTI,Williams,Williams Ford Cosworth, Suspension
-362,1982,5,Belgium,2,2,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 35m 49.263s  ( +07.268s )
-362,1982,5,Belgium,ab,11,Derek DALY,Williams,Williams Ford Cosworth, Accident
-363,1982,6,Monaco,6,6,Derek DALY,Williams,Williams Ford Cosworth, Accident
-363,1982,6,Monaco,ab,11,Keke ROSBERG,Williams,Williams Ford Cosworth, Suspension
-364,1982,7,USA East,4,4,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 59m 53.019s  ( +1m 11.976s )
-364,1982,7,USA East,5,5,Derek DALY,Williams,Williams Ford Cosworth, 2h 00m 04.800s  ( +1m 23.757s )
-365,1982,8,Canada,7,7,Derek DALY,Williams,Williams Ford Cosworth, Out of fuel
-365,1982,8,Canada,ab,13,Keke ROSBERG,Williams,Williams Ford Cosworth, Gearbox
-366,1982,9,Netherlands,3,3,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 38m 25.619s  ( +22.365s )
-366,1982,9,Netherlands,5,5,Derek DALY,Williams,Williams Ford Cosworth, 
-367,1982,10,Britain,5,5,Derek DALY,Williams,Williams Ford Cosworth, 1h 36m 15.242s  ( +41.430s )
-367,1982,10,Britain,ab,14,Keke ROSBERG,Williams,Williams Ford Cosworth, Fuel pressure
-368,1982,11,France,5,5,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 35m 04.211s  ( +1m 30.994s )
-368,1982,11,France,7,7,Derek DALY,Williams,Williams Ford Cosworth, 
-369,1982,12,Germany,3,3,Keke ROSBERG,Williams,Williams Ford Cosworth, 
-369,1982,12,Germany,ab,14,Derek DALY,Williams,Williams Ford Cosworth, Engine
-370,1982,13,Austria,2,2,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 25m 02.262s  ( +00.050s )
-370,1982,13,Austria,ab,25,Derek DALY,Williams,Williams Ford Cosworth, Collision
-371,1982,14,Switzerland,1,1,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 32m 41.087s  ( 196.796 km/h )
-371,1982,14,Switzerland,9,9,Derek DALY,Williams,Williams Ford Cosworth, 
-372,1982,15,Italy,8,8,Keke ROSBERG,Williams,Williams Ford Cosworth, 
-372,1982,15,Italy,ab,24,Derek DALY,Williams,Williams Ford Cosworth, Collision
-373,1982,16,Las Vegas,5,5,Keke ROSBERG,Williams,Williams Ford Cosworth, 1h 43m 08.263s  ( +1m 11.375s )
-373,1982,16,Las Vegas,6,6,Derek DALY,Williams,Williams Ford Cosworth, 
 374,1983,1,Brazil,1,1,Nelson PIQUET,Brabham,Brabham BMW, 1h 48m 27.731s  ( 175.335 km/h )
 374,1983,1,Brazil,ab,23,Riccardo PATRESE,Brabham,Brabham BMW, Exhaust
 375,1983,2,USA West,10,10,Riccardo PATRESE,Brabham,Brabham BMW, Engine
@@ -1328,103 +770,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 387,1983,14,Europe,7,7,Riccardo PATRESE,Brabham,Brabham BMW, 1h 37m 58.549s  ( +1m 12.684s )
 388,1983,15,South Africa,1,1,Riccardo PATRESE,Brabham,Brabham BMW, 1h 33m 25.708s  ( 202.941 km/h )
 388,1983,15,South Africa,3,3,Nelson PIQUET,Brabham,Brabham BMW, 1h 33m 47.677s  ( +21.969s )
-389,1984,1,Brazil,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 42m 34.492s  ( 179.512 km/h )
-389,1984,1,Brazil,ab,13,Niki LAUDA,McLaren,McLaren TAG Porsche, Electrics
-390,1984,2,South Africa,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 29m 23.43s  ( 206.599 km/h )
-390,1984,2,South Africa,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 30m 29.38s  ( +1m 05.95s )
-391,1984,3,Belgium,ab,17,Niki LAUDA,McLaren,McLaren TAG Porsche, Water pump
-391,1984,3,Belgium,ab,24,Alain PROST,McLaren,McLaren TAG Porsche, Distributor
-392,1984,4,San Marino,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 36m 53.679s  ( 187.255 km/h )
-392,1984,4,San Marino,ab,20,Niki LAUDA,McLaren,McLaren TAG Porsche, Engine
-393,1984,5,France,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 31m 11.951s  ( 202.024 km/h )
-393,1984,5,France,7,7,Alain PROST,McLaren,McLaren TAG Porsche, 
-394,1984,6,Monaco,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 01m 07.740s  ( 100.776 km/h )
-394,1984,6,Monaco,ab,11,Niki LAUDA,McLaren,McLaren TAG Porsche, Spin
-395,1984,7,Canada,2,2,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 46m 26.360s  ( +02.612s )
-395,1984,7,Canada,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 47m 51.780s  ( +1m 28.032s )
-396,1984,8,USA East,4,5,Alain PROST,McLaren,McLaren TAG Porsche, 1h 57m 37.100s  ( +1m 55.258s )
-396,1984,8,USA East,ab,13,Niki LAUDA,McLaren,McLaren TAG Porsche, Electronics
-397,1984,9,USA,9,9,Niki LAUDA,McLaren,McLaren TAG Porsche, Accident
-397,1984,9,USA,ab,10,Alain PROST,McLaren,McLaren TAG Porsche, Accident
-398,1984,10,Britain,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 29m 28.532s  ( 200.299 km/h )
-398,1984,10,Britain,ab,16,Alain PROST,McLaren,McLaren TAG Porsche, Gearbox
-399,1984,11,Germany,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 24m 43.210s  ( 211.804 km/h )
-399,1984,11,Germany,2,2,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 24m 46.359s  ( +03.149s )
-400,1984,12,Austria,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 21m 12.851s  ( 223.884 km/h )
-400,1984,12,Austria,ab,16,Alain PROST,McLaren,McLaren TAG Porsche, Spin
-401,1984,13,Netherlands,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 37m 21.468s  ( 186.051 km/h )
-401,1984,13,Netherlands,2,2,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 37m 31.751s  ( +10.283s )
-402,1984,14,Italy,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 20m 29.065s  ( 220.515 km/h )
-402,1984,14,Italy,ab,25,Alain PROST,McLaren,McLaren TAG Porsche, Engine
-403,1984,15,Europe,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 35m 13.284s  ( 191.751 km/h )
-403,1984,15,Europe,4,4,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 35m 56.370s  ( +43.086s )
-404,1984,16,Portugal,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 41m 11.753s  ( 180.541 km/h )
-404,1984,16,Portugal,2,2,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 41m 25.178s  ( +13.425s )
-404,1984,16,Portugal,f,28,Stefan BELLOF,McLaren,McLaren TAG Porsche, Not present
-405,1985,1,Brazil,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 41m 26.115s  ( 181.529 km/h )
-405,1985,1,Brazil,ab,18,Niki LAUDA,McLaren,McLaren TAG Porsche, Electronics
-406,1985,2,Portugal,ab,11,Niki LAUDA,McLaren,McLaren TAG Porsche, Engine
-406,1985,2,Portugal,ab,13,Alain PROST,McLaren,McLaren TAG Porsche, Accident
-407,1985,3,San Marino,dsq,1,Alain PROST,McLaren,McLaren TAG Porsche, Weight infringement 1h 33m 57.118s
-407,1985,3,San Marino,4,5,Niki LAUDA,McLaren,McLaren TAG Porsche, 
-408,1985,4,Monaco,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 51m 58.034s  ( 138.435 km/h )
-408,1985,4,Monaco,ab,12,Niki LAUDA,McLaren,McLaren TAG Porsche, Spin
-409,1985,5,Canada,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 46m 06.154s  ( +04.341s )
-409,1985,5,Canada,ab,19,Niki LAUDA,McLaren,McLaren TAG Porsche, Water leak
-410,1985,6,USA,ab,17,Alain PROST,McLaren,McLaren TAG Porsche, Accident
-410,1985,6,USA,ab,22,Niki LAUDA,McLaren,McLaren TAG Porsche, Brakes
-411,1985,7,France,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 31m 55.551s  ( +09.285s )
-411,1985,7,France,ab,17,Niki LAUDA,McLaren,McLaren TAG Porsche, Gearbox
-412,1985,8,Britain,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 18m 10.436s  ( 235.425 km/h )
-412,1985,8,Britain,ab,12,Niki LAUDA,McLaren,McLaren TAG Porsche, Electronics
-413,1985,9,Germany,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 35m 42.998s  ( +11.661s )
-413,1985,9,Germany,5,5,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 36m 45.309s  ( +1m 13.972s )
-414,1985,10,Austria,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 20m 12.583s  ( 231.132 km/h )
-414,1985,10,Austria,ab,13,Niki LAUDA,McLaren,McLaren TAG Porsche, Turbo
-415,1985,11,Netherlands,1,1,Niki LAUDA,McLaren,McLaren TAG Porsche, 1h 32m 29.263s  ( 193.089 km/h )
-415,1985,11,Netherlands,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 32m 29.495s  ( +00.232s )
-416,1985,12,Italy,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 17m 59.451s  ( 227.565 km/h )
-416,1985,12,Italy,ab,16,Niki LAUDA,McLaren,McLaren TAG Porsche, Vibration
-417,1985,13,Belgium,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 35m 15.002s  ( +55.109s )
-417,1985,13,Belgium,np,25,Niki LAUDA,McLaren,McLaren TAG Porsche, Accident
-418,1985,14,Europe,4,4,Alain PROST,McLaren,McLaren TAG Porsche, 1h 34m 04.230s  ( +1m 06.121s )
-418,1985,14,Europe,7,7,John WATSON,McLaren,McLaren TAG Porsche, 
-419,1985,15,South Africa,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 
-419,1985,15,South Africa,ab,10,Niki LAUDA,McLaren,McLaren TAG Porsche, Turbo
-420,1985,16,Australia,ab,11,Niki LAUDA,McLaren,McLaren TAG Porsche, Accident
-420,1985,16,Australia,ab,19,Alain PROST,McLaren,McLaren TAG Porsche, Turbo
-421,1986,1,Brazil,ab,13,Alain PROST,McLaren,McLaren TAG Porsche, Engine
-421,1986,1,Brazil,ab,23,Keke ROSBERG,McLaren,McLaren TAG Porsche, Engine
-422,1986,2,Spain,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 49m 09.287s  ( +21.552s )
-422,1986,2,Spain,4,4,Keke ROSBERG,McLaren,McLaren TAG Porsche, 
-423,1986,3,San Marino,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 32m 28.408s  ( 196.208 km/h )
-423,1986,3,San Marino,5,5,Keke ROSBERG,McLaren,McLaren TAG Porsche, Out of fuel
-424,1986,4,Monaco,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 55m 41.060s  ( 134.634 km/h )
-424,1986,4,Monaco,2,2,Keke ROSBERG,McLaren,McLaren TAG Porsche, 1h 56m 06.082s  ( +25.022s )
-425,1986,5,Belgium,6,6,Alain PROST,McLaren,McLaren TAG Porsche, 1h 30m 15.697s  ( +2m 17.772s )
-425,1986,5,Belgium,ab,22,Keke ROSBERG,McLaren,McLaren TAG Porsche, Engine
-426,1986,6,Canada,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 42m 47.074s  ( +20.659s )
-426,1986,6,Canada,4,4,Keke ROSBERG,McLaren,McLaren TAG Porsche, 1h 44m 02.088s  ( +1m 35.673s )
-427,1986,7,USA,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 1h 51m 44.671s  ( +31.824s )
-427,1986,7,USA,ab,23,Keke ROSBERG,McLaren,McLaren TAG Porsche, Transmission
-428,1986,8,France,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 37m 36.400s  ( +17.128s )
-428,1986,8,France,4,4,Keke ROSBERG,McLaren,McLaren TAG Porsche, 1h 38m 07.975s  ( +48.703s )
-429,1986,9,Britain,3,3,Alain PROST,McLaren,McLaren TAG Porsche, 
-429,1986,9,Britain,ab,22,Keke ROSBERG,McLaren,McLaren TAG Porsche, Gearbox
-430,1986,10,Germany,5,5,Keke ROSBERG,McLaren,McLaren TAG Porsche, Out of fuel
-430,1986,10,Germany,6,6,Alain PROST,McLaren,McLaren TAG Porsche, Out of fuel
-431,1986,11,Hungary,ab,15,Keke ROSBERG,McLaren,McLaren TAG Porsche, Suspension
-431,1986,11,Hungary,ab,20,Alain PROST,McLaren,McLaren TAG Porsche, Collision
-432,1986,12,Austria,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 21m 22.531s  ( 227.821 km/h )
-432,1986,12,Austria,9,9,Keke ROSBERG,McLaren,McLaren TAG Porsche, Electrics
-433,1986,13,Italy,4,4,Keke ROSBERG,McLaren,McLaren TAG Porsche, 1h 18m 36.698s  ( +53.809s )
-433,1986,13,Italy,dsq,17,Alain PROST,McLaren,McLaren TAG Porsche, Changed car
-434,1986,14,Portugal,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 37m 40.672s  ( +18.772s )
-434,1986,14,Portugal,ab,19,Keke ROSBERG,McLaren,McLaren TAG Porsche, Engine
-435,1986,15,Mexico,2,2,Alain PROST,McLaren,McLaren TAG Porsche, 1h 33m 44.138s  ( +25.438s )
-435,1986,15,Mexico,ab,20,Keke ROSBERG,McLaren,McLaren TAG Porsche, Puncture
-436,1986,16,Australia,1,1,Alain PROST,McLaren,McLaren TAG Porsche, 1h 54m 20.388s  ( 162.609 km/h )
-436,1986,16,Australia,ab,14,Keke ROSBERG,McLaren,McLaren TAG Porsche, Tyre
 437,1987,1,Brazil,2,2,Nelson PIQUET,Williams,Williams Honda, 1h 40m 25.688s  ( +40.547s )
 437,1987,1,Brazil,6,6,Nigel MANSELL,Williams,Williams Honda, 
 438,1987,2,San Marino,1,1,Nigel MANSELL,Williams,Williams Honda, 1h 31m 24.076s  ( 195.201 km/h )
@@ -1649,38 +994,6 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 547,1993,15,Japan,4,4,Damon HILL,Williams,Williams Renault, 1h 41m 51.450s  ( +1m 23.538s )
 548,1993,16,Australia,2,2,Alain PROST,Williams,Williams Renault, 1h 43m 36.735s  ( +09.259s )
 548,1993,16,Australia,3,3,Damon HILL,Williams,Williams Renault, 1h 44m 01.378s  ( +33.902s )
-549,1994,1,Brazil,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 35m 38.759s  ( 192.632 km/h )
-549,1994,1,Brazil,ab,16,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Pile-up
-550,1994,2,Pacific,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 46m 01.693s  ( 173.925 km/h )
-550,1994,2,Pacific,ab,17,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Spin
-551,1994,3,San Marino,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 28m 28.642s  ( 198.234 km/h )
-551,1994,3,San Marino,ab,24,JJ LEHTO,Benetton,Benetton Ford Cosworth, Collision
-552,1994,4,Monaco,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 49m 55.372s  ( 141.691 km/h )
-552,1994,4,Monaco,7,7,JJ LEHTO,Benetton,Benetton Ford Cosworth, 
-553,1994,5,Spain,2,2,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 36m 38.540s  ( +24.166s )
-553,1994,5,Spain,ab,12,JJ LEHTO,Benetton,Benetton Ford Cosworth, Engine
-554,1994,6,Canada,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 44m 31.887s  ( 176.244 km/h )
-554,1994,6,Canada,6,7,JJ LEHTO,Benetton,Benetton Ford Cosworth, 
-555,1994,7,France,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 38m 35.704s  ( 186.216 km/h )
-555,1994,7,France,ab,23,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Spin
-556,1994,8,Britain,dsq,2,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, Late for penalty 1h 30m 22.418s  ( +18.778s )
-556,1994,8,Britain,8,9,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, 
-557,1994,9,Germany,ab,11,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, Engine
-557,1994,9,Germany,ab,14,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Fire
-558,1994,10,Hungary,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 48m 00.185s  ( 169.737 km/h )
-558,1994,10,Hungary,3,3,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, 1h 49m 10.514s  ( +1m 10.329s )
-559,1994,11,Belgium,dsq,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, Illegal skidblock 1h 28m 33.508s
-559,1994,11,Belgium,3,4,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, 1h 29m 57.623s  ( +1m 10.453s )
-560,1994,12,Italy,9,9,JJ LEHTO,Benetton,Benetton Ford Cosworth, 
-560,1994,12,Italy,ab,24,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Puncture
-561,1994,13,Portugal,5,5,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, 1h 41m 39.550s  ( +29.385s )
-561,1994,13,Portugal,ab,19,JJ LEHTO,Benetton,Benetton Ford Cosworth, Spin
-562,1994,14,Europe,1,1,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 40m 26.689s  ( 182.507 km/h )
-562,1994,14,Europe,ab,24,Jos VERSTAPPEN,Benetton,Benetton Ford Cosworth, Spin
-563,1994,15,Japan,2,2,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, 1h 55m 56.897s  ( +03.365s )
-563,1994,15,Japan,ab,22,Johnny HERBERT,Benetton,Benetton Ford Cosworth, Spin
-564,1994,16,Australia,ab,20,Michael SCHUMACHER,Benetton,Benetton Ford Cosworth, Collision
-564,1994,16,Australia,ab,26,Johnny HERBERT,Benetton,Benetton Ford Cosworth, Gearbox
 565,1995,1,Brazil,1,1,Michael SCHUMACHER,Benetton,Benetton Renault, 1h 38m 34.154s  ( 186.919 km/h )
 565,1995,1,Brazil,ab,17,Johnny HERBERT,Benetton,Benetton Renault, Collision
 566,1995,2,Argentina,3,3,Michael SCHUMACHER,Benetton,Benetton Renault, 1h 53m 47.908s  ( +33.376s )
@@ -2015,80 +1328,80 @@ race_id,year,round,race_name,position,order,driver,constructor,team,extra
 730,2004,17,Japan,ab,19,Rubens BARRICHELLO,Ferrari,Ferrari Ferrari, Collision
 731,2004,18,Brazil,3,3,Rubens BARRICHELLO,Ferrari,Ferrari Ferrari, 1h 28m 25.550s  ( +24.099s )
 731,2004,18,Brazil,7,7,Michael SCHUMACHER,Ferrari,Ferrari Ferrari, 1h 28m 52.077s  ( +50.626s )
-732,2005,1,Australia,4,4,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 24m 33.467s  ( +16.131s )
-732,2005,1,Australia,7,7,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 24m 56.333s  ( +38.997s )
-733,2005,2,Malaysia,6,6,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 32m 46.279s  ( +1m 12.543s )
-733,2005,2,Malaysia,8,8,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 32m 54.571s  ( +1m 20.835s )
-734,2005,3,Bahrain,8,8,David COULTHARD,Red Bull,Red Bull Cosworth, 
-734,2005,3,Bahrain,np,20,Christian KLIEN,Red Bull,Red Bull Cosworth, Electrics
-735,2005,4,San Marino,8,10,Vitantonio LIUZZI,Red Bull,Red Bull Cosworth, 1h 29m 05.685s  ( +1m 23.764s )
-735,2005,4,San Marino,11,13,David COULTHARD,Red Bull,Red Bull Cosworth, 
-736,2005,5,Spain,8,8,David COULTHARD,Red Bull,Red Bull Cosworth, 
-736,2005,5,Spain,ab,18,Vitantonio LIUZZI,Red Bull,Red Bull Cosworth, Accident
-737,2005,6,Monaco,ab,15,Vitantonio LIUZZI,Red Bull,Red Bull Cosworth, Tyre
-737,2005,6,Monaco,ab,17,David COULTHARD,Red Bull,Red Bull Cosworth, Collision
-738,2005,7,Europe,4,4,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 32m 18.236s  ( +31.588s )
-738,2005,7,Europe,9,9,Vitantonio LIUZZI,Red Bull,Red Bull Cosworth, 1h 32m 58.177s  ( +1m 11.529s )
-739,2005,8,Canada,7,7,David COULTHARD,Red Bull,Red Bull Cosworth, 
-739,2005,8,Canada,8,8,Christian KLIEN,Red Bull,Red Bull Cosworth, 
-740,2005,9,USA,f,18,Christian KLIEN,Red Bull,Red Bull Cosworth, Withdrew
-740,2005,9,USA,f,20,David COULTHARD,Red Bull,Red Bull Cosworth, Withdrew
-741,2005,10,France,10,10,David COULTHARD,Red Bull,Red Bull Cosworth, 
-741,2005,10,France,ab,20,Christian KLIEN,Red Bull,Red Bull Cosworth, Fuel pressure
-742,2005,11,Britain,13,13,David COULTHARD,Red Bull,Red Bull Cosworth, 
-742,2005,11,Britain,15,15,Christian KLIEN,Red Bull,Red Bull Cosworth, 
-743,2005,12,Germany,7,7,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 27m 21.299s  ( +52.700s )
-743,2005,12,Germany,9,9,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 27m 38.417s  ( +1m 09.818s )
-744,2005,13,Hungary,ab,19,David COULTHARD,Red Bull,Red Bull Cosworth, Accident
-744,2005,13,Hungary,ab,20,Christian KLIEN,Red Bull,Red Bull Cosworth, Collision
-745,2005,14,Turkey,7,7,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 25m 43.752s  ( +1m 09.298s )
-745,2005,14,Turkey,8,8,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 25m 46.076s  ( +1m 11.622s )
-746,2005,15,Italy,13,13,Christian KLIEN,Red Bull,Red Bull Cosworth, 
-746,2005,15,Italy,15,15,David COULTHARD,Red Bull,Red Bull Cosworth, 
-747,2005,16,Belgium,9,9,Christian KLIEN,Red Bull,Red Bull Cosworth, 
-747,2005,16,Belgium,ab,17,David COULTHARD,Red Bull,Red Bull Cosworth, Engine
-748,2005,17,Brazil,9,9,Christian KLIEN,Red Bull,Red Bull Cosworth, 
-748,2005,17,Brazil,ab,20,David COULTHARD,Red Bull,Red Bull Cosworth, Collision
-749,2005,18,Japan,6,6,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 29m 33.813s  ( +31.601s )
-749,2005,18,Japan,9,9,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 29m 54.137s  ( +51.925s )
-750,2005,19,China,5,5,Christian KLIEN,Red Bull,Red Bull Cosworth, 1h 40m 25.457s  ( +31.839s )
-750,2005,19,China,9,9,David COULTHARD,Red Bull,Red Bull Cosworth, 1h 40m 37.865s  ( +44.247s )
-751,2006,1,Bahrain,8,8,Christian KLIEN,Red Bull,Red Bull Ferrari, 1h 30m 52.976s  ( +1m 06.771s )
-751,2006,1,Bahrain,10,10,David COULTHARD,Red Bull,Red Bull Ferrari, 1h 31m 01.746s  ( +1m 15.541s )
-752,2006,2,Malaysia,ab,18,Christian KLIEN,Red Bull,Red Bull Ferrari, Hydraulics
-752,2006,2,Malaysia,ab,20,David COULTHARD,Red Bull,Red Bull Ferrari, Hydraulics
-753,2006,3,Australia,8,8,David COULTHARD,Red Bull,Red Bull Ferrari, 1h 35m 21.853s  ( +53.983s )
-753,2006,3,Australia,ab,19,Christian KLIEN,Red Bull,Red Bull Ferrari, Accident
-754,2006,4,San Marino,ab,17,David COULTHARD,Red Bull,Red Bull Ferrari, Transmission
-754,2006,4,San Marino,ab,19,Christian KLIEN,Red Bull,Red Bull Ferrari, Hydraulics
-755,2006,5,Europe,ab,18,Christian KLIEN,Red Bull,Red Bull Ferrari, Transmission
-755,2006,5,Europe,ab,21,David COULTHARD,Red Bull,Red Bull Ferrari, Collision
-756,2006,6,Spain,13,13,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-756,2006,6,Spain,14,14,David COULTHARD,Red Bull,Red Bull Ferrari, 
-757,2006,7,Monaco,3,3,David COULTHARD,Red Bull,Red Bull Ferrari, 1h 44m 35.414s  ( +52.298s )
-757,2006,7,Monaco,ab,18,Christian KLIEN,Red Bull,Red Bull Ferrari, Transmission
-758,2006,8,Britain,12,12,David COULTHARD,Red Bull,Red Bull Ferrari, 
-758,2006,8,Britain,14,14,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-759,2006,9,Canada,8,8,David COULTHARD,Red Bull,Red Bull Ferrari, 
-759,2006,9,Canada,11,11,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-760,2006,10,USA,7,7,David COULTHARD,Red Bull,Red Bull Ferrari, 
-760,2006,10,USA,ab,21,Christian KLIEN,Red Bull,Red Bull Ferrari, Collision
-761,2006,11,France,9,9,David COULTHARD,Red Bull,Red Bull Ferrari, 
-761,2006,11,France,12,12,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-762,2006,12,Germany,8,8,Christian KLIEN,Red Bull,Red Bull Ferrari, 1h 28m 39.824s  ( +48.131s )
-762,2006,12,Germany,11,11,David COULTHARD,Red Bull,Red Bull Ferrari, 
-763,2006,13,Hungary,5,5,David COULTHARD,Red Bull,Red Bull Ferrari, 
-763,2006,13,Hungary,ab,20,Christian KLIEN,Red Bull,Red Bull Ferrari, Accident
-764,2006,14,Turkey,11,11,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-764,2006,14,Turkey,15,15,David COULTHARD,Red Bull,Red Bull Ferrari, Gearbox
-765,2006,15,Italy,11,11,Christian KLIEN,Red Bull,Red Bull Ferrari, 
-765,2006,15,Italy,12,12,David COULTHARD,Red Bull,Red Bull Ferrari, 
-766,2006,16,China,9,9,David COULTHARD,Red Bull,Red Bull Ferrari, 1h 39m 16.543s  ( +1m 43.796s )
-766,2006,16,China,12,12,Robert DOORNBOS,Red Bull,Red Bull Ferrari, 
-767,2006,17,Japan,13,13,Robert DOORNBOS,Red Bull,Red Bull Ferrari, 
-767,2006,17,Japan,ab,21,David COULTHARD,Red Bull,Red Bull Ferrari, Gearbox
-768,2006,18,Brazil,12,12,Robert DOORNBOS,Red Bull,Red Bull Ferrari, 
-768,2006,18,Brazil,ab,18,David COULTHARD,Red Bull,Red Bull Ferrari, Gearbox
+732,2005,1,Australia,1,1,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 24m 17.336s  ( 215.168 km/h )
+732,2005,1,Australia,3,3,Fernando ALONSO,Renault,Renault Renault, 1h 24m 24.480s  ( +07.144s )
+733,2005,2,Malaysia,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 31m 33.736s  ( 203.408 km/h )
+733,2005,2,Malaysia,ab,15,Giancarlo FISICHELLA,Renault,Renault Renault, Collision
+734,2005,3,Bahrain,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 29m 18.531s  ( 207.274 km/h )
+734,2005,3,Bahrain,ab,18,Giancarlo FISICHELLA,Renault,Renault Renault, Engine
+735,2005,4,San Marino,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 27m 41.921s  ( 209.086 km/h )
+735,2005,4,San Marino,ab,20,Giancarlo FISICHELLA,Renault,Renault Renault, Accident
+736,2005,5,Spain,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 27m 44.482s  ( +27.652s )
+736,2005,5,Spain,5,5,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 28m 14.766s  ( +57.936s )
+737,2005,6,Monaco,4,4,Fernando ALONSO,Renault,Renault Renault, 1h 45m 52.043s  ( +36.487s )
+737,2005,6,Monaco,12,12,Giancarlo FISICHELLA,Renault,Renault Renault, 
+738,2005,7,Europe,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 31m 46.648s  ( 198.555 km/h )
+738,2005,7,Europe,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 32m 38.580s  ( +51.932s )
+739,2005,8,Canada,ab,18,Fernando ALONSO,Renault,Renault Renault, Accident
+739,2005,8,Canada,ab,19,Giancarlo FISICHELLA,Renault,Renault Renault, Hydraulics
+740,2005,9,USA,f,10,Giancarlo FISICHELLA,Renault,Renault Renault, Withdrew
+740,2005,9,USA,f,11,Fernando ALONSO,Renault,Renault Renault, Withdrew
+741,2005,10,France,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 31m 22.233s  ( 202.638 km/h )
+741,2005,10,France,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 
+742,2005,11,Britain,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 24m 32.327s  ( +02.739s )
+742,2005,11,Britain,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 24m 47.502s  ( +17.914s )
+743,2005,12,Germany,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 26m 28.599s  ( 212.629 km/h )
+743,2005,12,Germany,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 27m 19.186s  ( +50.587s )
+744,2005,13,Hungary,9,9,Giancarlo FISICHELLA,Renault,Renault Renault, 
+744,2005,13,Hungary,11,11,Fernando ALONSO,Renault,Renault Renault, 
+745,2005,14,Turkey,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 24m 53.063s  ( +18.609s )
+745,2005,14,Turkey,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 25m 12.427s  ( +37.973s )
+746,2005,15,Italy,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 14m 31.138s  ( +02.479s )
+746,2005,15,Italy,3,3,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 14m 46.634s  ( +17.975s )
+747,2005,16,Belgium,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 30m 29.689s  ( +28.394s )
+747,2005,16,Belgium,ab,20,Giancarlo FISICHELLA,Renault,Renault Renault, Accident
+748,2005,17,Brazil,3,3,Fernando ALONSO,Renault,Renault Renault, 1h 29m 45.414s  ( +24.840s )
+748,2005,17,Brazil,5,5,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 30m 00.792s  ( +40.218s )
+749,2005,18,Japan,2,2,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 29m 03.845s  ( +01.633s )
+749,2005,18,Japan,3,3,Fernando ALONSO,Renault,Renault Renault, 1h 29m 19.668s  ( +17.456s )
+750,2005,19,China,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 39m 53.618s  ( 183.234 km/h )
+750,2005,19,China,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 40m 19.732s  ( +26.114s )
+751,2006,1,Bahrain,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 29m 46.205s  ( 206.018 km/h )
+751,2006,1,Bahrain,ab,21,Giancarlo FISICHELLA,Renault,Renault Renault, Hydraulics
+752,2006,2,Malaysia,1,1,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 30m 40.529s  ( 205.397 km/h )
+752,2006,2,Malaysia,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 30m 45.114s  ( +04.585s )
+753,2006,3,Australia,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 34m 27.870s  ( 191.990 km/h )
+753,2006,3,Australia,5,5,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 35m 06.291s  ( +38.421s )
+754,2006,4,San Marino,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 31m 08.582s  ( +02.096s )
+754,2006,4,San Marino,8,8,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 31m 46.686s  ( +40.200s )
+755,2006,5,Europe,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 36m 02.516s  ( +03.751s )
+755,2006,5,Europe,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 37m 12.881s  ( +1m 14.116s )
+756,2006,6,Spain,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 26m 21.759s  ( 212.075 km/h )
+756,2006,6,Spain,3,3,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 26m 45.710s  ( +23.951s )
+757,2006,7,Monaco,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 43m 43.116s  ( 150.708 km/h )
+757,2006,7,Monaco,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 44m 45.188s  ( +1m 02.072s )
+758,2006,8,Britain,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 25m 51.927s  ( 215.469 km/h )
+758,2006,8,Britain,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 26m 11.903s  ( +19.976s )
+759,2006,9,Canada,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 34m 37.308s  ( 193.573 km/h )
+759,2006,9,Canada,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 34m 52.987s  ( +15.679s )
+760,2006,10,USA,3,3,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 34m 51.794s  ( +16.595s )
+760,2006,10,USA,5,5,Fernando ALONSO,Renault,Renault Renault, 1h 35m 03.609s  ( +28.410s )
+761,2006,11,France,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 32m 17.934s  ( +10.131s )
+761,2006,11,France,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 32m 53.068s  ( +45.265s )
+762,2006,12,Germany,5,5,Fernando ALONSO,Renault,Renault Renault, 1h 28m 15.400s  ( +23.707s )
+762,2006,12,Germany,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 28m 16.507s  ( +24.814s )
+763,2006,13,Hungary,ab,15,Fernando ALONSO,Renault,Renault Renault, Wheel nut
+763,2006,13,Hungary,ab,19,Giancarlo FISICHELLA,Renault,Renault Renault, Accident
+764,2006,14,Turkey,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 28m 56.657s  ( +05.575s )
+764,2006,14,Turkey,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 29m 37.676s  ( +46.594s )
+765,2006,15,Italy,4,4,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 15m 24.020s  ( +32.045s )
+765,2006,15,Italy,ab,19,Fernando ALONSO,Renault,Renault Renault, Engine
+766,2006,16,China,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 37m 35.868s  ( +03.121s )
+766,2006,16,China,3,3,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 38m 16.944s  ( +44.197s )
+767,2006,17,Japan,1,1,Fernando ALONSO,Renault,Renault Renault, 1h 23m 53.413s  ( 219.983 km/h )
+767,2006,17,Japan,3,3,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 24m 17.366s  ( +23.953s )
+768,2006,18,Brazil,2,2,Fernando ALONSO,Renault,Renault Renault, 1h 32m 12.409s  ( +18.658s )
+768,2006,18,Brazil,6,6,Giancarlo FISICHELLA,Renault,Renault Renault, 1h 32m 24.038s  ( +30.287s )
 769,2007,1,Australia,1,1,Kimi RAIKKONEN,Ferrari,Ferrari Ferrari, 1h 25m 28.770s  ( 215.893 km/h )
 769,2007,1,Australia,6,6,Felipe MASSA,Ferrari,Ferrari Ferrari, 1h 26m 35.575s  ( +1m 06.805s )
 770,2007,2,Malaysia,3,3,Kimi RAIKKONEN,Ferrari,Ferrari Ferrari, 1h 32m 33.269s  ( +18.339s )
