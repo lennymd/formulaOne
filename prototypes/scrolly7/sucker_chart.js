@@ -42,9 +42,10 @@ class sucker_chart {
 	create_scales(normalize) {
 		//make the scales
 		const n = normalize;
+		const x_max = d3.max(this.data, (d) => { return d[this.col_x]; });
 		this.x_scale = d3.scaleLinear().range([0, this.width]);
 		if (n === 0) {
-			this.x_scale.domain([0, d3.max(this.data, (d) => { return d[this.col_x]; }) + 5]);
+			this.x_scale.domain([0, Math.floor(x_max * 1.2)]);
 		} else if (n === 1) {
 			this.x_scale.domain([0, 100]);
 		}
@@ -170,4 +171,7 @@ class sucker_chart {
 		this.sort(this.col_x);
 	}
 
+	resize_wins() {
+		this.draw();
+	}
 }

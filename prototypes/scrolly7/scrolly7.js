@@ -1,7 +1,6 @@
 Stickyfill.add(d3.select('.sticky').node())
 var scroller = scrollama();
-window.addEventListener('resize', scroller.resize());
-
+var scroller_resize = scrollama();
 
 var row_converter = (d) => {
 	return {
@@ -17,7 +16,6 @@ var row_converter = (d) => {
 }
 
 d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset) => {
-
 	// create the plot for the section
 	var plot_wins = new sucker_chart({
 		plot_data: dataset,
@@ -37,6 +35,7 @@ d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset)
 	function step_enter(response) {
 		const el = d3.select(response.element);
 		const i = Number(el.attr("data-index"));
+		data_index = i;
 		if (response.direction === "down") {
 			if (i === 1) {
 				plot_wins.norm("win_percentage");
@@ -57,6 +56,10 @@ d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset)
 				plot_podiums.reset("podiums");
 			}
 		}
+		// handle resizing
+		window.addEventListener("resize", () => {
+			scroller.resize
+		})
 	}
 
 	scroller.setup({
@@ -67,6 +70,21 @@ d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset)
 		.onStepEnter(step_enter)
 		.onStepExit(step_exit);
 
-
-
+	window.addEventListener('resize', scroller.resize());
 });
+
+scroller_resize.setup({
+	step: ".method_intro",
+	debug: false,
+	offset: 0.5
+})
+.onStepEnter(enter_resize)
+.onStepExit(enter_resize);
+
+function enter_resize() {
+	console.log("entered a method hed");
+}
+
+function enter_resize() {
+	console.log("left a method hed");
+}

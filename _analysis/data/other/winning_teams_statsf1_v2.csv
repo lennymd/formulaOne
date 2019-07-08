@@ -1,70 +1,70 @@
-year,constructor_long,team
-1950,Alfa Romeo Alfa Romeo,Alfa Romeo
-1951,Alfa Romeo Alfa Romeo,Alfa Romeo
-1994,Benetton Ford,Benetton
-1995,Benetton Renault,Benetton
-1983,Brabham BMW,Brabham
-1981,Brabham Ford,Brabham
-1966,Brabham Repco,Brabham
-1967,Brabham Repco,Brabham
-2009,Brawn Mercedes,Brawn
-1962,BRM BRM,BRM
-1959,Cooper Climax,Cooper
-1960,Cooper Climax,Cooper
-1952,Ferrari Ferrari,Ferrari
-1953,Ferrari Ferrari,Ferrari
-1956,Ferrari Ferrari,Ferrari
-1958,Ferrari Ferrari,Ferrari
-1961,Ferrari Ferrari,Ferrari
-1964,Ferrari Ferrari,Ferrari
-1975,Ferrari Ferrari,Ferrari
-1977,Ferrari Ferrari,Ferrari
-1979,Ferrari Ferrari,Ferrari
-2000,Ferrari Ferrari,Ferrari
-2001,Ferrari Ferrari,Ferrari
-2002,Ferrari Ferrari,Ferrari
-2003,Ferrari Ferrari,Ferrari
-2004,Ferrari Ferrari,Ferrari
-2007,Ferrari Ferrari,Ferrari
-1963,Lotus Climax,Lotus
-1965,Lotus Climax,Lotus
-1968,Lotus Ford,Lotus
-1970,Lotus Ford,Lotus
-1972,Lotus Ford,Lotus
-1978,Lotus Ford,Lotus
-1957,Maserati Maserati,Maserati
-1969,Matra Ford,Matra
-1974,McLaren Ford,McLaren
-1976,McLaren Ford,McLaren
-1988,McLaren Honda,McLaren
-1989,McLaren Honda,McLaren
-1990,McLaren Honda,McLaren
-1991,McLaren Honda,McLaren
-1998,McLaren Mercedes,McLaren
-1999,McLaren Mercedes,McLaren
-2008,McLaren Mercedes,McLaren
-1984,McLaren TAG,McLaren
-1985,McLaren TAG,McLaren
-1986,McLaren TAG,McLaren
-1954,Mercedes Mercedes,Mercedes
-1955,Mercedes Mercedes,Mercedes
-2014,Mercedes Mercedes,Mercedes
-2015,Mercedes Mercedes,Mercedes
-2016,Mercedes Mercedes,Mercedes
-2017,Mercedes Mercedes,Mercedes
-2018,Mercedes Mercedes,Mercedes
-2010,Red Bull Renault,Red Bull
-2011,Red Bull Renault,Red Bull
-2012,Red Bull Renault,Red Bull
-2013,Red Bull Renault,Red Bull
-2005,Renault Renault,Red Bull
-2006,Renault Renault,Red Bull
-1971,Tyrrell Ford,Tyrrell
-1973,Tyrrell Ford,Tyrrell
-1980,Williams Ford,Williams
-1982,Williams Ford,Williams
-1987,Williams Honda,Williams
-1992,Williams Renault,Williams
-1993,Williams Renault,Williams
-1996,Williams Renault,Williams
-1997,Williams Renault,Williams
+year,team
+1950,Alfa Romeo
+1951,Alfa Romeo
+1952,Ferrari
+1953,Ferrari
+1954,Mercedes
+1955,Mercedes
+1956,Ferrari
+1957,Maserati
+1958,Ferrari
+1959,Cooper
+1960,Cooper
+1961,Ferrari
+1962,BRM
+1963,Lotus
+1964,Ferrari
+1965,Lotus
+1966,Brabham
+1967,Brabham
+1968,Lotus
+1969,Matra
+1970,Lotus
+1971,Tyrrell
+1972,Lotus
+1973,Tyrrell
+1974,McLaren
+1975,Ferrari
+1976,McLaren
+1977,Ferrari
+1978,Lotus
+1979,Ferrari
+1980,Williams
+1981,Brabham
+1982,Williams
+1983,Brabham
+1984,McLaren
+1985,McLaren
+1986,McLaren
+1987,Williams
+1988,McLaren
+1989,McLaren
+1990,McLaren
+1991,McLaren
+1992,Williams
+1993,Williams
+1994,Benetton
+1995,Benetton
+1996,Williams
+1997,Williams
+1998,McLaren
+1999,McLaren
+2000,Ferrari
+2001,Ferrari
+2002,Ferrari
+2003,Ferrari
+2004,Ferrari
+2005,Red Bull
+2006,Red Bull
+2007,Ferrari
+2008,McLaren
+2009,Brawn
+2010,Red Bull
+2011,Red Bull
+2012,Red Bull
+2013,Red Bull
+2014,Mercedes
+2015,Mercedes
+2016,Mercedes
+2017,Mercedes
+2018,Mercedes
