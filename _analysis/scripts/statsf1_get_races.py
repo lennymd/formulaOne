@@ -6,8 +6,8 @@ import csv
 race_list = [["year", "round", "name", "url"]]
 base = "https://www.statsf1.com"
 
-for year in range(1950, 2020):
-	print("Starting", year)
+for year in range(1950, 2019):
+	# print("Starting", year)
 	extras = "/en/" + str(year) +".aspx"
 	response = requests.get(base + extras)
 

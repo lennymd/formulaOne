@@ -54,6 +54,8 @@ for race in race_list[1:]:
 		else:
 			if (position == "&"):
 				p = p_index - 1
+			elif (position == "dsq"):
+				p = -1
 			else:
 				p = max(p_index, p_index-1)
 				p_index += 1
