@@ -26,5 +26,5 @@ for year in range(1950, 2020):
 		print("Pause", year,)
 		sleep(1)
 
-with open("../data/from_scripts/statsf1/race_list.csv", "w") as my_csv:
+with open("../data/from_scripts/statsf1_race_list.csv", "w") as my_csv:
 	csv.writer(my_csv, delimiter=',').writerows(race_list)

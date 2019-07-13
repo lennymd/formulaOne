@@ -10,7 +10,7 @@ abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq
 
 # load the list of races
 race_list = []
-with open('../data/from_scripts/statsf1/race_list.csv', "r") as f:
+with open('../data/from_scripts/statsf1_race_list.csv', "r") as f:
 	for row in csv.reader(f):
 		race_list.append(row)
 
@@ -71,5 +71,5 @@ for race in race_list[1:]:
 for row in results_list:
 	race_id = row[0]
 
-with open("../data/from_scripts/statsf1/race_results_v3.csv", "w") as my_csv:
+with open("../data/from_scripts/statsf1_race_results.csv", "w") as my_csv:
 	csv.writer(my_csv, delimiter=',').writerows(results_list)
