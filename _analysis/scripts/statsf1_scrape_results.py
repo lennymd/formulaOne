@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 
-results_list = [["race_id", "year", "round", "race_name", "position", "driver", "team", "constructor_long", "extra"]]
+results_list = [["race_id", "year", "round", "race_name", "position", "prelim_order", "driver", "team", "constructor_long", "extra"]]
 base = "https://www.statsf1.com"
 
 abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq":"not qualified", "npq":"not pre-qualified", "dsq":"disqualified", "exc":"excluded", "f":"widthdrawal", "tf": "parade lap"}
@@ -36,7 +36,7 @@ for race in race_list[1:]:
 	table = soup.find("table", class_="datatable").find("tbody").find_all("tr")
 
 	# set a starting index for order
-	# p_index = 1
+	p_index = 1
 		# process each row
 	for row in table:
 		cols = row.find_all("td")
@@ -52,9 +52,15 @@ for race in race_list[1:]:
 			# row has no driver, so skip to next row
 			continue
 		else:
+			if (position == "&"):
+				p = p_index - 1
+			else:
+				p = max(p_index, p_index-1)
+				p_index += 1
+
 			# add the record we computed
 
-			record_list = [race_id, year, round_id, race_name, position, driver, constructor, team_long, extra]
+			record_list = [race_id, year, round_id, race_name, position, p, driver, constructor, team_long, extra]
 		
 		results_list.append(record_list)
 	
