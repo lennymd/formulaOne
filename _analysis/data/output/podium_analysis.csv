@@ -1,4 +1,4 @@
-year,team,podiums,podium_spots,podium_percentage
+year,team,podium_spots_claimed,podium_spots_available,podium_percentage
 1950,Alfa Romeo,12,18,66.66666666666666
 1951,Alfa Romeo,9,21,42.857142857142854
 1952,Ferrari,17,22,77.27272727272727

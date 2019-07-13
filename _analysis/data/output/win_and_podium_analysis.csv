@@ -1,4 +1,4 @@
-year,team,wins,races,win_percentage,podiums,podium_spots,podium_percentage,run_id
+year,team,wins,races,win_percentage,podium_spots_claimed,podium_spots_available,podium_percentage,run_id
 1950,Alfa Romeo,6,7,85.71428571428571,12,18,66.66666666666666,Alfa Romeo 1950
 1951,Alfa Romeo,4,8,50.0,9,21,42.857142857142854,Alfa Romeo 1951
 1952,Ferrari,7,8,87.5,17,22,77.27272727272727,Ferrari 1952

@@ -1,4 +1,4 @@
-race_id,year,round,race_name,position,p0,driver,team,constructor_long,extra,p_final
+race_id,year,round,race_name,position,p_prelim,driver,team,constructor_long,extra,p_final
 1,1950,1,Britain,1,1.0,Giuseppe FARINA,Alfa Romeo,Alfa Romeo, 2h 13m 23.6s  ( 146.378 km/h ),1.0
 1,1950,1,Britain,2,2.0,Luigi FAGIOLI,Alfa Romeo,Alfa Romeo, 2h 13m 26.2s  ( +02.6s ),2.0
 1,1950,1,Britain,3,3.0,Reg PARNELL,Alfa Romeo,Alfa Romeo, 2h 14m 15.6s  ( +52.0s ),3.0

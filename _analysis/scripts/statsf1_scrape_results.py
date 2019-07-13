@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 
-results_list = [["race_id", "year", "round", "race_name", "position", "p0", "driver", "team", "constructor_long", "extra"]]
+results_list = [["race_id", "year", "round", "race_name", "position", "p_prelim", "driver", "team", "constructor_long", "extra"]]
 base = "https://www.statsf1.com"
 
 abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq":"not qualified", "npq":"not pre-qualified", "dsq":"disqualified", "exc":"excluded", "f":"widthdrawal", "tf": "parade lap"}
