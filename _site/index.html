@@ -47,14 +47,22 @@
 	<h2>Data Sources</h2>
 	<p>In trying to answer this question I needed data about race finishes</p>
 	<h3>Ergast Developer API</h3>
-	<p>@@</p>
+	<p>I first found the <a href="https://ergast.com/mrd/">Ergast Developer API</a> which keeps a good record of Formula 1 data about races, circuits, drivers, lap times, qualifying times, and the like in csv form, SQL form, and has an API. The data is added as the race happened and the entity collecting the data started collection with races in the late 00s, then went and backfilled the data.</p>
+	<p>I was using this data until I noticed some error in recording team/driver info (the error has since been fixed on their end) while trying to verify my work.</p>
 	<h3>formula1.com</h3>
-	<p>This is the archival results for Formula 1 races hosted by the FIA. I built a few scrapers to get the race results for all the races, as well as the winning constructor for each year.</p>
+	<p>This is the <a href="https://www.formula1.com/en/results.html">archival results</a> for Formula 1 races hosted by the FIA. I built a few scrapers to get the race results for all the races, as well as the winning constructor for each year.</p>
 	<p>For any page in their results section, the main table is identified by the table with class ".resultsarchive-table".</p>
+	<p>I used this data until I noticed that they don't fully capture all the data as races go back in time. An example is Senna's 1989 disqualification from the Japanese Grand Prix. The result is not recorded in the formula1.com archive, but Hamilton's 2009 disqualification is.</p>
 	<h3>statsf1.com</h3>
-	<p>@@</p>
-	<h2>Methods</h2>
+	<p>Ultimately I decided to go with <a href="https://www.statsf1.com/">StatsF1.com</a> as my data source because it provided the data in easy to access format (tables) and was more complete than formula1.com.</p>
+	<h2>The Findings</h2>
 	<h3>Most wins</h3>
+	<ol>
+		<li>find who won the Driver's Cup each year</li>
+		<li>figure out for which team they drove</li>
+		<li>for each team count the number of wins they had overall in the season</li>
+		<li>divide number of wins by the number of races in each season to get a win percentage</li>
+	</ol>
 	<h3>Most podium finishes</h3>
 	<h3>Closest to perfect</h3>
 </body>
