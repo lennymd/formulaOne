@@ -62,7 +62,7 @@ for race in race_list[1:]:
 
 			# add the record we computed
 
-			record_list = [race_id, year, round_id, race_name, position, p, driver, constructor, team_long, extra]
+			record_list = [race_id, year, round_id, race_name, position, float(p), driver, constructor, team_long, extra]
 		
 		results_list.append(record_list)
 	
