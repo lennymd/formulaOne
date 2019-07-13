@@ -3,8 +3,9 @@ from bs4 import BeautifulSoup
 from time import sleep
 import csv
 
-results_list = [["race_id", "year", "round", "race_name", "position", "order", "driver", "team", "constructor_long", "extra"]]
+results_list = [["race_id", "year", "round", "race_name", "position", "driver", "team", "constructor_long", "extra"]]
 base = "https://www.statsf1.com"
+
 abbreviations = {"ab": "retired", "nc":"not classified", "np":"not started", "nq":"not qualified", "npq":"not pre-qualified", "dsq":"disqualified", "exc":"excluded", "f":"widthdrawal", "tf": "parade lap"}
 
 # load the list of races
@@ -35,7 +36,7 @@ for race in race_list[1:]:
 	table = soup.find("table", class_="datatable").find("tbody").find_all("tr")
 
 	# set a starting index for order
-	p_index = 1
+	# p_index = 1
 		# process each row
 	for row in table:
 		cols = row.find_all("td")
@@ -53,15 +54,7 @@ for race in race_list[1:]:
 		else:
 			# add the record we computed
 
-			# process shared drives
-			if (position == "&"):
-				p = p_index - 1
-			else:
-				p = max(p_index, p_index-1)
-				p_index += 1
-
-			record_list = [race_id, year, round_id, race_name, position,
-					p, driver, constructor, team_long, extra]
+			record_list = [race_id, year, round_id, race_name, position, driver, constructor, team_long, extra]
 		
 		results_list.append(record_list)
 	
@@ -78,5 +71,5 @@ for race in race_list[1:]:
 for row in results_list:
 	race_id = row[0]
 
-with open("../data/from_scripts/statsf1/race_results.csv", "w") as my_csv:
+with open("../data/from_scripts/statsf1/race_results_v3.csv", "w") as my_csv:
 	csv.writer(my_csv, delimiter=',').writerows(results_list)
