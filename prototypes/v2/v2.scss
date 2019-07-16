@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	max-width: 30rem;
+	max-width: 40rem;
 	margin: 0 auto;
 	font-family: "Roboto", "Helvetica", "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 100;
@@ -29,6 +29,12 @@ body {
 
 	p {
 		margin-bottom: $gap;
+		margin-left: $gap;
+		margin-right: $gap;
+	}
+
+	img {
+		width: 400px;
 	}
 }
 
@@ -38,4 +44,12 @@ body {
 	padding: 2rem;
 	color: #ffffff;
 	font-size: 0.5rem;
+}
+
+.tbd2 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #BADA55;
+	margin-top: $gap;
+	margin-bottom: $gap;
 }

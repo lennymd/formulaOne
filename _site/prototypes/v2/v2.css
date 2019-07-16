@@ -6,7 +6,7 @@ html {
   line-height: 1.75; }
 
 body {
-  max-width: 30rem;
+  max-width: 40rem;
   margin: 0 auto;
   font-family: "Roboto", "Helvetica", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 100; }
@@ -17,7 +17,11 @@ body {
     margin-bottom: 2.55rem;
     font-weight: 900; }
   body p {
-    margin-bottom: 1.7rem; }
+    margin-bottom: 1.7rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem; }
+  body img {
+    width: 400px; }
 
 .tbd {
   margin: 0 auto;
@@ -25,3 +29,10 @@ body {
   padding: 2rem;
   color: #ffffff;
   font-size: 0.5rem; }
+
+.tbd2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #BADA55;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem; }
