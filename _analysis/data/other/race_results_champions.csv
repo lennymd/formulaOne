@@ -2014,80 +2014,80 @@ race_id,year,round,race_name,position,p_prelim,driver,team,constructor_long,extr
 730,2004,17,Japan,ab,19.0,Rubens BARRICHELLO,Ferrari,Ferrari, Collision,19.0
 731,2004,18,Brazil,3,3.0,Rubens BARRICHELLO,Ferrari,Ferrari, 1h 28m 25.550s  ( +24.099s ),3.0
 731,2004,18,Brazil,7,7.0,Michael SCHUMACHER,Ferrari,Ferrari, 1h 28m 52.077s  ( +50.626s ),7.0
-732,2005,1,Australia,4,4.0,David COULTHARD,Red Bull,Red Bull, 1h 24m 33.467s  ( +16.131s ),4.0
-732,2005,1,Australia,7,7.0,Christian KLIEN,Red Bull,Red Bull, 1h 24m 56.333s  ( +38.997s ),7.0
-733,2005,2,Malaysia,6,6.0,David COULTHARD,Red Bull,Red Bull, 1h 32m 46.279s  ( +1m 12.543s ),6.0
-733,2005,2,Malaysia,8,8.0,Christian KLIEN,Red Bull,Red Bull, 1h 32m 54.571s  ( +1m 20.835s ),8.0
-734,2005,3,Bahrain,8,8.0,David COULTHARD,Red Bull,Red Bull, ,8.0
-734,2005,3,Bahrain,np,20.0,Christian KLIEN,Red Bull,Red Bull, Electrics,20.0
-735,2005,4,San Marino,8,8.0,Vitantonio LIUZZI,Red Bull,Red Bull, 1h 29m 05.685s  ( +1m 23.764s ),8.0
-735,2005,4,San Marino,11,11.0,David COULTHARD,Red Bull,Red Bull, ,11.0
-736,2005,5,Spain,8,8.0,David COULTHARD,Red Bull,Red Bull, ,8.0
-736,2005,5,Spain,ab,18.0,Vitantonio LIUZZI,Red Bull,Red Bull, Accident,18.0
-737,2005,6,Monaco,ab,15.0,Vitantonio LIUZZI,Red Bull,Red Bull, Tyre,15.0
-737,2005,6,Monaco,ab,17.0,David COULTHARD,Red Bull,Red Bull, Collision,17.0
-738,2005,7,Europe,4,4.0,David COULTHARD,Red Bull,Red Bull, 1h 32m 18.236s  ( +31.588s ),4.0
-738,2005,7,Europe,9,9.0,Vitantonio LIUZZI,Red Bull,Red Bull, 1h 32m 58.177s  ( +1m 11.529s ),9.0
-739,2005,8,Canada,7,7.0,David COULTHARD,Red Bull,Red Bull, ,7.0
-739,2005,8,Canada,8,8.0,Christian KLIEN,Red Bull,Red Bull, ,8.0
-740,2005,9,USA,f,18.0,Christian KLIEN,Red Bull,Red Bull, Withdrew,21.0
-740,2005,9,USA,f,20.0,David COULTHARD,Red Bull,Red Bull, Withdrew,21.0
-741,2005,10,France,10,10.0,David COULTHARD,Red Bull,Red Bull, ,10.0
-741,2005,10,France,ab,20.0,Christian KLIEN,Red Bull,Red Bull, Fuel pressure,20.0
-742,2005,11,Britain,13,13.0,David COULTHARD,Red Bull,Red Bull, ,13.0
-742,2005,11,Britain,15,15.0,Christian KLIEN,Red Bull,Red Bull, ,15.0
-743,2005,12,Germany,7,7.0,David COULTHARD,Red Bull,Red Bull, 1h 27m 21.299s  ( +52.700s ),7.0
-743,2005,12,Germany,9,9.0,Christian KLIEN,Red Bull,Red Bull, 1h 27m 38.417s  ( +1m 09.818s ),9.0
-744,2005,13,Hungary,ab,19.0,David COULTHARD,Red Bull,Red Bull, Accident,19.0
-744,2005,13,Hungary,ab,20.0,Christian KLIEN,Red Bull,Red Bull, Collision,20.0
-745,2005,14,Turkey,7,7.0,David COULTHARD,Red Bull,Red Bull, 1h 25m 43.752s  ( +1m 09.298s ),7.0
-745,2005,14,Turkey,8,8.0,Christian KLIEN,Red Bull,Red Bull, 1h 25m 46.076s  ( +1m 11.622s ),8.0
-746,2005,15,Italy,13,13.0,Christian KLIEN,Red Bull,Red Bull, ,13.0
-746,2005,15,Italy,15,15.0,David COULTHARD,Red Bull,Red Bull, ,15.0
-747,2005,16,Belgium,9,9.0,Christian KLIEN,Red Bull,Red Bull, ,9.0
-747,2005,16,Belgium,ab,17.0,David COULTHARD,Red Bull,Red Bull, Engine,17.0
-748,2005,17,Brazil,9,9.0,Christian KLIEN,Red Bull,Red Bull, ,9.0
-748,2005,17,Brazil,ab,20.0,David COULTHARD,Red Bull,Red Bull, Collision,20.0
-749,2005,18,Japan,6,6.0,David COULTHARD,Red Bull,Red Bull, 1h 29m 33.813s  ( +31.601s ),6.0
-749,2005,18,Japan,9,9.0,Christian KLIEN,Red Bull,Red Bull, 1h 29m 54.137s  ( +51.925s ),9.0
-750,2005,19,China,5,5.0,Christian KLIEN,Red Bull,Red Bull, 1h 40m 25.457s  ( +31.839s ),5.0
-750,2005,19,China,9,9.0,David COULTHARD,Red Bull,Red Bull, 1h 40m 37.865s  ( +44.247s ),9.0
-751,2006,1,Bahrain,8,8.0,Christian KLIEN,Red Bull,Red Bull, 1h 30m 52.976s  ( +1m 06.771s ),8.0
-751,2006,1,Bahrain,10,10.0,David COULTHARD,Red Bull,Red Bull, 1h 31m 01.746s  ( +1m 15.541s ),10.0
-752,2006,2,Malaysia,ab,18.0,Christian KLIEN,Red Bull,Red Bull, Hydraulics,18.0
-752,2006,2,Malaysia,ab,20.0,David COULTHARD,Red Bull,Red Bull, Hydraulics,20.0
-753,2006,3,Australia,8,8.0,David COULTHARD,Red Bull,Red Bull, 1h 35m 21.853s  ( +53.983s ),8.0
-753,2006,3,Australia,ab,19.0,Christian KLIEN,Red Bull,Red Bull, Accident,19.0
-754,2006,4,San Marino,ab,17.0,David COULTHARD,Red Bull,Red Bull, Transmission,17.0
-754,2006,4,San Marino,ab,19.0,Christian KLIEN,Red Bull,Red Bull, Hydraulics,19.0
-755,2006,5,Europe,ab,18.0,Christian KLIEN,Red Bull,Red Bull, Transmission,18.0
-755,2006,5,Europe,ab,21.0,David COULTHARD,Red Bull,Red Bull, Collision,21.0
-756,2006,6,Spain,13,13.0,Christian KLIEN,Red Bull,Red Bull, ,13.0
-756,2006,6,Spain,14,14.0,David COULTHARD,Red Bull,Red Bull, ,14.0
-757,2006,7,Monaco,3,3.0,David COULTHARD,Red Bull,Red Bull, 1h 44m 35.414s  ( +52.298s ),3.0
-757,2006,7,Monaco,ab,18.0,Christian KLIEN,Red Bull,Red Bull, Transmission,18.0
-758,2006,8,Britain,12,12.0,David COULTHARD,Red Bull,Red Bull, ,12.0
-758,2006,8,Britain,14,14.0,Christian KLIEN,Red Bull,Red Bull, ,14.0
-759,2006,9,Canada,8,8.0,David COULTHARD,Red Bull,Red Bull, ,8.0
-759,2006,9,Canada,11,11.0,Christian KLIEN,Red Bull,Red Bull, ,11.0
-760,2006,10,USA,7,7.0,David COULTHARD,Red Bull,Red Bull, ,7.0
-760,2006,10,USA,ab,21.0,Christian KLIEN,Red Bull,Red Bull, Collision,21.0
-761,2006,11,France,9,9.0,David COULTHARD,Red Bull,Red Bull, ,9.0
-761,2006,11,France,12,12.0,Christian KLIEN,Red Bull,Red Bull, ,12.0
-762,2006,12,Germany,8,8.0,Christian KLIEN,Red Bull,Red Bull, 1h 28m 39.824s  ( +48.131s ),8.0
-762,2006,12,Germany,11,11.0,David COULTHARD,Red Bull,Red Bull, ,11.0
-763,2006,13,Hungary,5,5.0,David COULTHARD,Red Bull,Red Bull, ,5.0
-763,2006,13,Hungary,ab,19.0,Christian KLIEN,Red Bull,Red Bull, Accident,19.0
-764,2006,14,Turkey,11,11.0,Christian KLIEN,Red Bull,Red Bull, ,11.0
-764,2006,14,Turkey,15,15.0,David COULTHARD,Red Bull,Red Bull, Gearbox,15.0
-765,2006,15,Italy,11,11.0,Christian KLIEN,Red Bull,Red Bull, ,11.0
-765,2006,15,Italy,12,12.0,David COULTHARD,Red Bull,Red Bull, ,12.0
-766,2006,16,China,9,9.0,David COULTHARD,Red Bull,Red Bull, 1h 39m 16.543s  ( +1m 43.796s ),9.0
-766,2006,16,China,12,12.0,Robert DOORNBOS,Red Bull,Red Bull, ,12.0
-767,2006,17,Japan,13,13.0,Robert DOORNBOS,Red Bull,Red Bull, ,13.0
-767,2006,17,Japan,ab,21.0,David COULTHARD,Red Bull,Red Bull, Gearbox,21.0
-768,2006,18,Brazil,12,12.0,Robert DOORNBOS,Red Bull,Red Bull, ,12.0
-768,2006,18,Brazil,ab,18.0,David COULTHARD,Red Bull,Red Bull, Gearbox,18.0
+732,2005,1,Australia,1,1.0,Giancarlo FISICHELLA,Renault,Renault, 1h 24m 17.336s  ( 215.168 km/h ),1.0
+732,2005,1,Australia,3,3.0,Fernando ALONSO,Renault,Renault, 1h 24m 24.480s  ( +07.144s ),3.0
+733,2005,2,Malaysia,1,1.0,Fernando ALONSO,Renault,Renault, 1h 31m 33.736s  ( 203.408 km/h ),1.0
+733,2005,2,Malaysia,ab,15.0,Giancarlo FISICHELLA,Renault,Renault, Collision,15.0
+734,2005,3,Bahrain,1,1.0,Fernando ALONSO,Renault,Renault, 1h 29m 18.531s  ( 207.274 km/h ),1.0
+734,2005,3,Bahrain,ab,18.0,Giancarlo FISICHELLA,Renault,Renault, Engine,18.0
+735,2005,4,San Marino,1,1.0,Fernando ALONSO,Renault,Renault, 1h 27m 41.921s  ( 209.086 km/h ),1.0
+735,2005,4,San Marino,ab,18.0,Giancarlo FISICHELLA,Renault,Renault, Accident,18.0
+736,2005,5,Spain,2,2.0,Fernando ALONSO,Renault,Renault, 1h 27m 44.482s  ( +27.652s ),2.0
+736,2005,5,Spain,5,5.0,Giancarlo FISICHELLA,Renault,Renault, 1h 28m 14.766s  ( +57.936s ),5.0
+737,2005,6,Monaco,4,4.0,Fernando ALONSO,Renault,Renault, 1h 45m 52.043s  ( +36.487s ),4.0
+737,2005,6,Monaco,12,12.0,Giancarlo FISICHELLA,Renault,Renault, ,12.0
+738,2005,7,Europe,1,1.0,Fernando ALONSO,Renault,Renault, 1h 31m 46.648s  ( 198.555 km/h ),1.0
+738,2005,7,Europe,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 32m 38.580s  ( +51.932s ),6.0
+739,2005,8,Canada,ab,17.0,Fernando ALONSO,Renault,Renault, Accident,17.0
+739,2005,8,Canada,ab,18.0,Giancarlo FISICHELLA,Renault,Renault, Hydraulics,18.0
+740,2005,9,USA,f,10.0,Giancarlo FISICHELLA,Renault,Renault, Withdrew,21.0
+740,2005,9,USA,f,11.0,Fernando ALONSO,Renault,Renault, Withdrew,21.0
+741,2005,10,France,1,1.0,Fernando ALONSO,Renault,Renault, 1h 31m 22.233s  ( 202.638 km/h ),1.0
+741,2005,10,France,6,6.0,Giancarlo FISICHELLA,Renault,Renault, ,6.0
+742,2005,11,Britain,2,2.0,Fernando ALONSO,Renault,Renault, 1h 24m 32.327s  ( +02.739s ),2.0
+742,2005,11,Britain,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 24m 47.502s  ( +17.914s ),4.0
+743,2005,12,Germany,1,1.0,Fernando ALONSO,Renault,Renault, 1h 26m 28.599s  ( 212.629 km/h ),1.0
+743,2005,12,Germany,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 27m 19.186s  ( +50.587s ),4.0
+744,2005,13,Hungary,9,9.0,Giancarlo FISICHELLA,Renault,Renault, ,9.0
+744,2005,13,Hungary,11,11.0,Fernando ALONSO,Renault,Renault, ,11.0
+745,2005,14,Turkey,2,2.0,Fernando ALONSO,Renault,Renault, 1h 24m 53.063s  ( +18.609s ),2.0
+745,2005,14,Turkey,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 25m 12.427s  ( +37.973s ),4.0
+746,2005,15,Italy,2,2.0,Fernando ALONSO,Renault,Renault, 1h 14m 31.138s  ( +02.479s ),2.0
+746,2005,15,Italy,3,3.0,Giancarlo FISICHELLA,Renault,Renault, 1h 14m 46.634s  ( +17.975s ),3.0
+747,2005,16,Belgium,2,2.0,Fernando ALONSO,Renault,Renault, 1h 30m 29.689s  ( +28.394s ),2.0
+747,2005,16,Belgium,ab,20.0,Giancarlo FISICHELLA,Renault,Renault, Accident,20.0
+748,2005,17,Brazil,3,3.0,Fernando ALONSO,Renault,Renault, 1h 29m 45.414s  ( +24.840s ),3.0
+748,2005,17,Brazil,5,5.0,Giancarlo FISICHELLA,Renault,Renault, 1h 30m 00.792s  ( +40.218s ),5.0
+749,2005,18,Japan,2,2.0,Giancarlo FISICHELLA,Renault,Renault, 1h 29m 03.845s  ( +01.633s ),2.0
+749,2005,18,Japan,3,3.0,Fernando ALONSO,Renault,Renault, 1h 29m 19.668s  ( +17.456s ),3.0
+750,2005,19,China,1,1.0,Fernando ALONSO,Renault,Renault, 1h 39m 53.618s  ( 183.234 km/h ),1.0
+750,2005,19,China,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 40m 19.732s  ( +26.114s ),4.0
+751,2006,1,Bahrain,1,1.0,Fernando ALONSO,Renault,Renault, 1h 29m 46.205s  ( 206.018 km/h ),1.0
+751,2006,1,Bahrain,ab,21.0,Giancarlo FISICHELLA,Renault,Renault, Hydraulics,21.0
+752,2006,2,Malaysia,1,1.0,Giancarlo FISICHELLA,Renault,Renault, 1h 30m 40.529s  ( 205.397 km/h ),1.0
+752,2006,2,Malaysia,2,2.0,Fernando ALONSO,Renault,Renault, 1h 30m 45.114s  ( +04.585s ),2.0
+753,2006,3,Australia,1,1.0,Fernando ALONSO,Renault,Renault, 1h 34m 27.870s  ( 191.990 km/h ),1.0
+753,2006,3,Australia,5,5.0,Giancarlo FISICHELLA,Renault,Renault, 1h 35m 06.291s  ( +38.421s ),5.0
+754,2006,4,San Marino,2,2.0,Fernando ALONSO,Renault,Renault, 1h 31m 08.582s  ( +02.096s ),2.0
+754,2006,4,San Marino,8,8.0,Giancarlo FISICHELLA,Renault,Renault, 1h 31m 46.686s  ( +40.200s ),8.0
+755,2006,5,Europe,2,2.0,Fernando ALONSO,Renault,Renault, 1h 36m 02.516s  ( +03.751s ),2.0
+755,2006,5,Europe,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 37m 12.881s  ( +1m 14.116s ),6.0
+756,2006,6,Spain,1,1.0,Fernando ALONSO,Renault,Renault, 1h 26m 21.759s  ( 212.075 km/h ),1.0
+756,2006,6,Spain,3,3.0,Giancarlo FISICHELLA,Renault,Renault, 1h 26m 45.710s  ( +23.951s ),3.0
+757,2006,7,Monaco,1,1.0,Fernando ALONSO,Renault,Renault, 1h 43m 43.116s  ( 150.708 km/h ),1.0
+757,2006,7,Monaco,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 44m 45.188s  ( +1m 02.072s ),6.0
+758,2006,8,Britain,1,1.0,Fernando ALONSO,Renault,Renault, 1h 25m 51.927s  ( 215.469 km/h ),1.0
+758,2006,8,Britain,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 26m 11.903s  ( +19.976s ),4.0
+759,2006,9,Canada,1,1.0,Fernando ALONSO,Renault,Renault, 1h 34m 37.308s  ( 193.573 km/h ),1.0
+759,2006,9,Canada,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 34m 52.987s  ( +15.679s ),4.0
+760,2006,10,USA,3,3.0,Giancarlo FISICHELLA,Renault,Renault, 1h 34m 51.794s  ( +16.595s ),3.0
+760,2006,10,USA,5,5.0,Fernando ALONSO,Renault,Renault, 1h 35m 03.609s  ( +28.410s ),5.0
+761,2006,11,France,2,2.0,Fernando ALONSO,Renault,Renault, 1h 32m 17.934s  ( +10.131s ),2.0
+761,2006,11,France,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 32m 53.068s  ( +45.265s ),6.0
+762,2006,12,Germany,5,5.0,Fernando ALONSO,Renault,Renault, 1h 28m 15.400s  ( +23.707s ),5.0
+762,2006,12,Germany,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 28m 16.507s  ( +24.814s ),6.0
+763,2006,13,Hungary,ab,14.0,Fernando ALONSO,Renault,Renault, Wheel nut,14.0
+763,2006,13,Hungary,ab,18.0,Giancarlo FISICHELLA,Renault,Renault, Accident,18.0
+764,2006,14,Turkey,2,2.0,Fernando ALONSO,Renault,Renault, 1h 28m 56.657s  ( +05.575s ),2.0
+764,2006,14,Turkey,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 29m 37.676s  ( +46.594s ),6.0
+765,2006,15,Italy,4,4.0,Giancarlo FISICHELLA,Renault,Renault, 1h 15m 24.020s  ( +32.045s ),4.0
+765,2006,15,Italy,ab,19.0,Fernando ALONSO,Renault,Renault, Engine,19.0
+766,2006,16,China,2,2.0,Fernando ALONSO,Renault,Renault, 1h 37m 35.868s  ( +03.121s ),2.0
+766,2006,16,China,3,3.0,Giancarlo FISICHELLA,Renault,Renault, 1h 38m 16.944s  ( +44.197s ),3.0
+767,2006,17,Japan,1,1.0,Fernando ALONSO,Renault,Renault, 1h 23m 53.413s  ( 219.983 km/h ),1.0
+767,2006,17,Japan,3,3.0,Giancarlo FISICHELLA,Renault,Renault, 1h 24m 17.366s  ( +23.953s ),3.0
+768,2006,18,Brazil,2,2.0,Fernando ALONSO,Renault,Renault, 1h 32m 12.409s  ( +18.658s ),2.0
+768,2006,18,Brazil,6,6.0,Giancarlo FISICHELLA,Renault,Renault, 1h 32m 24.038s  ( +30.287s ),6.0
 769,2007,1,Australia,1,1.0,Kimi RAIKKONEN,Ferrari,Ferrari, 1h 25m 28.770s  ( 215.893 km/h ),1.0
 769,2007,1,Australia,6,6.0,Felipe MASSA,Ferrari,Ferrari, 1h 26m 35.575s  ( +1m 06.805s ),6.0
 770,2007,2,Malaysia,3,3.0,Kimi RAIKKONEN,Ferrari,Ferrari, 1h 32m 33.269s  ( +18.339s ),3.0
@@ -2158,6 +2158,40 @@ race_id,year,round,race_name,position,p_prelim,driver,team,constructor_long,extr
 802,2008,17,China,ab,18.0,Heikki KOVALAINEN,McLaren,McLaren, Hydraulics,18.0
 803,2008,18,Brazil,5,5.0,Lewis HAMILTON,McLaren,McLaren, 1h 34m 50.342s  ( +38.907s ),5.0
 803,2008,18,Brazil,7,7.0,Heikki KOVALAINEN,McLaren,McLaren, 1h 35m 06.509s  ( +55.074s ),7.0
+804,2009,1,Australia,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 34m 15.784s  ( 195.776 km/h ),1.0
+804,2009,1,Australia,2,2.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 34m 16.591s  ( +00.807s ),2.0
+805,2009,2,Malaysia,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 55'30''622  ( 185.731 km/h ),1.0
+805,2009,2,Malaysia,5,5.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 56'17''982  ( +47.360s ),5.0
+806,2009,3,China,3,3.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 58m 28.460s  ( +44.975s ),3.0
+806,2009,3,China,4,4.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 58m 47.189s  ( +1m 03.704s ),4.0
+807,2009,4,Bahrain,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 31m 48.182s  ( 201.456 km/h ),1.0
+807,2009,4,Bahrain,5,5.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 32m 25.961s  ( +37.779s ),5.0
+808,2009,5,Spain,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 37m 19.202s  ( 189.337 km/h ),1.0
+808,2009,5,Spain,2,2.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 37m 32.258s  ( +13.056s ),2.0
+809,2009,6,Monaco,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 40m 44.282s  ( 155.167 km/h ),1.0
+809,2009,6,Monaco,2,2.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 40m 51.948s  ( +07.666s ),2.0
+810,2009,7,Turkey,1,1.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 26m 24.848s  ( 214.823 km/h ),1.0
+810,2009,7,Turkey,ab,19.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, Gearbox,19.0
+811,2009,8,Britain,3,3.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 23m 30.503s  ( +41.175s ),3.0
+811,2009,8,Britain,6,6.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 23m 35.613s  ( +46.285s ),6.0
+812,2009,9,Germany,5,5.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 37m 06.919s  ( +23.609s ),5.0
+812,2009,9,Germany,6,6.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 37m 07.778s  ( +24.468s ),6.0
+813,2009,10,Hungary,7,7.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 39m 18.964s  ( +55.088s ),7.0
+813,2009,10,Hungary,10,10.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 39m 33.132s  ( +1m 09.256s ),10.0
+814,2009,11,Europe,1,1.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 35m 51.289s  ( 193.344 km/h ),1.0
+814,2009,11,Europe,7,7.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 36m 26.202s  ( +34.913s ),7.0
+815,2009,12,Belgium,7,7.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 24m 26.456s  ( +35.461s ),7.0
+815,2009,12,Belgium,ab,17.0,Jenson BUTTON,Brawn GP,Brawn GP, Pile-up,17.0
+816,2009,13,Italy,1,1.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 16m 21.706s  ( 241.000 km/h ),1.0
+816,2009,13,Italy,2,2.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 16m 24.572s  ( +02.866s ),2.0
+817,2009,14,Singapore,5,5.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 56m 36.352s  ( +30.015s ),5.0
+817,2009,14,Singapore,6,6.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 56m 38.195s  ( +31.858s ),6.0
+818,2009,15,Japan,7,7.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 28m 31.084s  ( +10.641s ),7.0
+818,2009,15,Japan,8,8.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 28m 31.917s  ( +11.474s ),8.0
+819,2009,16,Brazil,5,5.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 32m 52.086s  ( +29.005s ),5.0
+819,2009,16,Brazil,8,8.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 33m 08.535s  ( +45.454s ),8.0
+820,2009,17,Abu Dhabi,3,3.0,Jenson BUTTON,Brawn GP,Brawn GP, 1h 34m 21.881s  ( +18.467s ),3.0
+820,2009,17,Abu Dhabi,4,4.0,Rubens BARRICHELLO,Brawn GP,Brawn GP, 1h 34m 26.149s  ( +22.735s ),4.0
 821,2010,1,Bahrain,4,4.0,Sebastian VETTEL,Red Bull,Red Bull, 1h 39m 59.195s  ( +38.799s ),4.0
 821,2010,1,Bahrain,8,8.0,Mark WEBBER,Red Bull,Red Bull, 1h 40m 06.756s  ( +46.360s ),8.0
 822,2010,2,Australia,9,9.0,Mark WEBBER,Red Bull,Red Bull, 1h 34m 43.850s  ( +1m 07.319s ),9.0
