@@ -1,3 +1,19 @@
 ---
 ---
+$warm_red: #f9423a;
+* {
+	margin: 0;
+}
+html {
+	font-size: 21px;
+}
 
+body {
+	max-width: 30rem;
+}
+.tbd {
+	margin: 0 auto;
+	background-color: $warm_red;
+	padding: 2rem;
+	color: #ffffff;
+}
