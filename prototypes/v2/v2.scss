@@ -1,6 +1,8 @@
 ---
 ---
 $warm_red: #f9423a;
+$gap: 1.7rem;
+
 * {
 	margin: 0;
 }
@@ -12,10 +14,21 @@ html {
 body {
 	max-width: 30rem;
 	margin: 0 auto;
+	font-family: "Roboto", "Helvetica", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 100;
+
+	strong{
+		font-weight: 900;
+	}
 
 	h1, h2, h3, h4, h5, h6 {
-		margin-top: 1.3rem;
-		margin-bottom: 1.5rem;
+		margin-top: $gap;
+		margin-bottom: 1.5 * $gap;
+		font-weight: 900;
+	}
+
+	p {
+		margin-bottom: $gap;
 	}
 }
 

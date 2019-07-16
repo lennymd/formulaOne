@@ -7,10 +7,17 @@ html {
 
 body {
   max-width: 30rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: "Roboto", "Helvetica", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 100; }
+  body strong {
+    font-weight: 900; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
-    margin-top: 1.3rem;
-    margin-bottom: 1.5rem; }
+    margin-top: 1.7rem;
+    margin-bottom: 2.55rem;
+    font-weight: 900; }
+  body p {
+    margin-bottom: 1.7rem; }
 
 .tbd {
   margin: 0 auto;
