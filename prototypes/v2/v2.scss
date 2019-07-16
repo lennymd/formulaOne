@@ -6,14 +6,23 @@ $warm_red: #f9423a;
 }
 html {
 	font-size: 21px;
+	line-height: 1.75;
 }
 
 body {
 	max-width: 30rem;
+	margin: 0 auto;
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: 1.3rem;
+		margin-bottom: 1.5rem;
+	}
 }
+
 .tbd {
 	margin: 0 auto;
 	background-color: $warm_red;
 	padding: 2rem;
 	color: #ffffff;
+	font-size: 0.5rem;
 }
