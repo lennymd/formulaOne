@@ -1,13 +1,4 @@
-.row_fix {
-  margin-left: 0px !important;
-  margin-right: !important;
-  width: 100%; }
-
-.placeholder {
-  background-color: #BADA55; }
-
 header {
-  width: 100vw;
   background-color: #f9423a;
   height: 45vh; }
   header p {

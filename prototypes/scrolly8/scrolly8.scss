@@ -3,20 +3,14 @@
 
 $warm_red: #f9423a;
 
-.row_fix {
-	margin-left: 0px !important;
-	margin-right: !important;
-	width: 100%;
-}
-.placeholder {
-	background-color: #BADA55;
-}
-
+// .row_fix {
+// 	margin-left: 0px !important;
+// 	margin-right: 0px !important;
+// 	width: 100% !important;
+// }
 header {
-	width: 100vw;
 	background-color: $warm_red;
 	height: 45vh;
-
 	p {
 		margin: 0 auto;
 		padding: 5%;
