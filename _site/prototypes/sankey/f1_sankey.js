@@ -3,7 +3,7 @@ var units = "Widgets";
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
     width = 900 - margin.left - margin.right,
-    height = 1800 - margin.top - margin.bottom;
+    height = 1000 - margin.top - margin.bottom;
 
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
@@ -20,8 +20,8 @@ var svg = d3.select("body").append("svg")
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
-    .nodeWidth(36)
-    .nodePadding(40)
+    .nodeWidth(20)
+    .nodePadding(10)
     .size([width, height]);
 
 var path = sankey.link();

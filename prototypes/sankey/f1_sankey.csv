@@ -1,9 +1,9 @@
-target,source,value
- Alberto Ascari,Ferrari,2
- Jody Scheckter,Ferrari,1
+source,target,value
+Alberto Ascari,Ferrari,2
+Jody Scheckter,Ferrari,1
 John Surtees,Ferrari,1
 Juan Manuel Fangio,Ferrari,1
-Kimi R�ikk�nen,Ferrari,1
+Kimi Raikkonen,Ferrari,1
 Michael Schumacher,Ferrari,5
 Mike Hawthorn,Ferrari,1
 Niki Lauda,Ferrari,2
@@ -13,7 +13,7 @@ Ayrton Senna,McLaren,3
 Emerson Fittipaldi,McLaren,1
 James Hunt,McLaren,1
 Lewis Hamilton,McLaren,1
-Mika H�kkinen,McLaren,2
+Mika Hakkinen,McLaren,2
 Niki Lauda,McLaren,1
 Alain Prost,Williams,1
 Alan Jones,Williams,1
