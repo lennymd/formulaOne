@@ -11,7 +11,7 @@ var formatNumber = d3.format(",.0f"),    // zero decimal places
     color = d3.scaleOrdinal(d3.schemeCategory20);
 
 // append the svg object to the body of the page
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#sankey_chart").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -27,7 +27,7 @@ var sankey = d3.sankey()
 var path = sankey.link();
 
 // load the data
-d3.csv("f1_sankey.csv", function(error, data) {
+d3.csv("f1_sankey2.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};
@@ -60,7 +60,7 @@ d3.csv("f1_sankey.csv", function(error, data) {
   sankey
       .nodes(graph.nodes)
       .links(graph.links)
-      .layout(33);
+      .layout(0);
 
   // add in the links
   var link = svg.append("g").selectAll(".link")

@@ -6,16 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Draft 2</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="v2.css">
+	<link rel="stylesheet" href="../public/css/draft2.css">
 	
 </head>
 <body>
 	<section id="intro">
 		<h1>The Best Formula One Team</h1>
-		<p>In the 69-year history of the sport, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.</p>
-		<p class="tbd">Packed bubble chart of drivers. maybe make in illustrator</p>
-		<p>These 33 drivers have all won while racing for 16 different teams:</p>
-		<p class="tbd">stacked dot plot of championship wins by team or team bar chart; maybe make in illustrator</p>
+		<p>In the 69-year history of the sport, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it. These 33 drivers have all won while racing for 16 different teams:</p>
+		<div id="sankey_chart"></div>
 		<p>Which of these teams had the <em>best championship season</em>?</p>
 	</section>
 	<section id="wins">
@@ -83,6 +81,8 @@
 		<p class="tbd">talk about data source, and caveats of data (like shared drives)</p>
 	</section>
 	<script src="../../public/js/d3.v4.js"></script>
+	<script src="../sankey/sankey.js"></script>
+	<script src="../sankey/f1_sankey.js"></script>
 	<script src="draft.js"></script>
 	<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 	<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
