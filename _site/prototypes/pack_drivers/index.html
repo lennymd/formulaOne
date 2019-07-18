@@ -32,6 +32,12 @@
                 {"Name":"Roquefort","Count":1},
                 {"Name":"Stewed Prunes","Count":3}]
         };
+		var row_converter = (d) => {
+			return {
+				
+			}
+		}
+		d3.csv("winning_drivers.csv")
 
 		var diameter = 600;
         var color = d3.scaleOrdinal(d3.schemeCategory20);
