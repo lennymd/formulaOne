@@ -6,26 +6,42 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Draft 3</title>
 
+	<!-- make this local later -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
+
+	<!-- local styling -->
 	<link rel="stylesheet" href="scrolly8.css">
 
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid" id="page_container">
 
 		<section class="row" id="page_header">
-			<header class="col-12">
+			<div class="col-12" id="placehold0">
 				<p>Graphical Element goes here</p>
-			</header>
-		</section>
+			</div>
+		</section> <!-- end of #page_header row -->
 		<section class="row" id="intro">
-
-			
-		</section>
-	</div>
+			<header class="col-12" id="title_card">
+				<h1 class="text-center title">The Best Formula One season</h1>
+				<p class="text-center"> by Lenny Martinez Dominguez</p>
+			</header>
+			<div class="col-12 col-md-8 offset-md-2">
+					<p>In the 69-year history of the Formula One World Drivers' Championship, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.</p>
+				<div class="graph" id="graph0">
+					<!-- <img src="https://via.placeholder.com/960x600" class="img-fluid" alt="" srcset=""> -->
+				</div>
+				<p>These 33 drivers have all won while racing for 16 different teams:</p>
+			</div>
+		</section> <!-- end of intro row -->
+	</div> <!-- end of container-fluid -->
 	
+	<!-- make this local, later -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- local scripts -->
 	<script src="../../public/js/d3.v5.js"></script>
 	<script src="scrolly8.js"></script>
 </body>

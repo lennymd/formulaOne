@@ -1,19 +1,35 @@
 ---
 ---
-
+$lenny: #556b2f;
 $warm_red: #f9423a;
+$british_green: #004225;
 
-// .row_fix {
-// 	margin-left: 0px !important;
-// 	margin-right: 0px !important;
-// 	width: 100% !important;
-// }
-header {
-	background-color: $warm_red;
+html {
+	font-size: 21px;
+	line-height: 1.5;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+#placehold0 {
+	background-color: $british_green;
 	height: 50vh;
 
 	p {
 		margin: 0 auto;
 		padding: 5%;
+	}
+}
+
+section {
+	margin-bottom: 4rem;
+}
+
+#title_card {
+	// margin-bottom: -2rem;
+	// height: 50vh;
+	
+	.title {
+		font-size: 3.5rem;
 	}
 }

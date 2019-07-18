@@ -1,6 +1,17 @@
-header {
-  background-color: #f9423a;
+html {
+  font-size: 21px;
+  line-height: 1.5;
+  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+
+#placehold0 {
+  background-color: #004225;
   height: 50vh; }
-  header p {
+  #placehold0 p {
     margin: 0 auto;
     padding: 5%; }
+
+section {
+  margin-bottom: 4rem; }
+
+#title_card .title {
+  font-size: 3.5rem; }
