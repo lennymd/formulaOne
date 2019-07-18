@@ -27,7 +27,7 @@ var sankey = d3.sankey()
 var path = sankey.link();
 
 // load the data
-d3.csv("f1_sankey2.csv", function(error, data) {
+d3.csv("../data/f1_sankey2.csv", function(error, data) {
  
   //set up graph in same style as original example but empty
   graph = {"nodes" : [], "links" : []};

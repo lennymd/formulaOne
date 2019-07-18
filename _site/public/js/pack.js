@@ -1,43 +1,7 @@
-dataset = {
-	"children": [
-		{"Name":"Michael Schumacher","Count":7},
-		{"Name":"Juan Manuel Fangio","Count":5},
-		{"Name":"Lewis Hamilton","Count":5},
-		{"Name":"Alain Prost","Count":4},
-		{"Name":"Sebastian Vettel","Count":4},
-		{"Name":"Jac Brabham","Count":3},
-		{"Name":"Jackie Stewart","Count":3},
-		{"Name":"Niki Lauda","Count":3},
-		{"Name":"Nelson Piquet","Count":3},
-		{"Name":"Ayrton Senna","Count":3},
-		{"Name":"Alberto Ascari","Count":2},
-		{"Name":"Graham Hill","Count":2},
-		{"Name":"Jim Clark","Count":2},
-		{"Name":"Emerson Fittipaldi","Count":2},
-		{"Name":"Mika Häkkinen","Count":2},
-		{"Name":"Fernando Alonso","Count":2},
-		{"Name":"Giuseppe Farina","Count":1},
-		{"Name":"Mike Hawthorn","Count":1},
-		{"Name":"Phil Hill","Count":1},
-		{"Name":"John Surtees","Count":1},
-		{"Name":"Denny Hulme","Count":1},
-		{"Name":"Jochen Rindt","Count":1},
-		{"Name":"James Hunt","Count":1},
-		{"Name":"Mario Andretti","Count":1},
-		{"Name":"Jody Scheckter","Count":1},
-		{"Name":"Alan Jones","Count":1},
-		{"Name":"Keke Rosberg","Count":1},
-		{"Name":"Nigel Mansell","Count":1},
-		{"Name":"Damon Hill","Count":1},
-		{"Name":"Jacques Villeneuve","Count":1},
-		{"Name":"Kimi Räikkönen","Count":1},
-		{"Name":"Jenson Button","Count":1},
-		{"Name":"Nico Rosberg","Count":1}
-	]
-};
-
-var diameter = 600;
-var color = d3.scaleOrdinal(d3.schemeCategory20);
+d3.json("../data/winning_drivers.json", (data) => {
+	var dataset = {"children": data}
+	var diameter = 600;
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 	var bubble = d3.pack(dataset)
 					.size([diameter, diameter])
@@ -85,3 +49,4 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 	d3.select(self.frameElement)
 		.style("height", diameter + "px");
+})
