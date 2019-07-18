@@ -2,7 +2,7 @@ var units = "Widgets";
 
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 900 - margin.left - margin.right,
+    width = 960 - margin.left - margin.right,
     height = 1000 - margin.top - margin.bottom;
 
 // format variables
@@ -20,8 +20,8 @@ var svg = d3.select("body").append("svg")
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
-    .nodeWidth(20)
-    .nodePadding(10)
+    .nodeWidth(5)
+    .nodePadding(5)
     .size([width, height]);
 
 var path = sankey.link();
@@ -60,7 +60,7 @@ d3.csv("f1_sankey.csv", function(error, data) {
   sankey
       .nodes(graph.nodes)
       .links(graph.links)
-      .layout(32);
+      .layout(33);
 
   // add in the links
   var link = svg.append("g").selectAll(".link")
@@ -94,16 +94,16 @@ d3.csv("f1_sankey.csv", function(error, data) {
         .on("drag", dragmove));
 
   // add the rectangles for the nodes
-  node.append("rect")
-      .attr("height", function(d) { return d.dy; })
-      .attr("width", sankey.nodeWidth())
-      .style("fill", function(d) { 
-		  return d.color = color(d.name.replace(/ .*/, "")); })
-      .style("stroke", function(d) { 
-		  return d3.rgb(d.color).darker(2); })
-    .append("title")
-      .text(function(d) { 
-		  return d.name + "\n" + format(d.value); });
+//   node.append("rect")
+//       .attr("height", function(d) { return d.dy; })
+//       .attr("width", sankey.nodeWidth())
+//       .style("fill", function(d) { 
+// 		  return d.color = color(d.name.replace(/ .*/, "")); })
+//       .style("stroke", function(d) { 
+// 		  return d3.rgb(d.color).darker(2); })
+//     .append("title")
+//       .text(function(d) { 
+// 		  return d.name + "\n" + format(d.value); });
 
   // add in the title for the nodes
   node.append("text")
