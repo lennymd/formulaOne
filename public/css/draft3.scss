@@ -4,6 +4,8 @@ $lenny: #556b2f;
 $warm_red: #f9423a;
 $british_green: #004225;
 
+$gap: 4rem;
+
 html {
 	font-size: 21px;
 	line-height: 1.5;
@@ -22,7 +24,7 @@ html {
 }
 
 section {
-	margin-bottom: 4rem;
+	margin-bottom: $gap;
 }
 
 #title_card {
@@ -36,4 +38,8 @@ section {
 
 #sankey_chart {
 	height: 55rem;
+}
+
+.graph {
+	margin-bottom: $gap*0.8;
 }
