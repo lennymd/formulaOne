@@ -4,105 +4,55 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Lenny's Project</title>
-	<link rel="stylesheet" href="public/css/contact_sheet.css">
+	<title>Main Draft</title>
+	<link rel="stylesheet" href="public/css/main.css">
 </head>
 <body>
 	<header>
-		<h1>Data "Contact Sheet" for Lenny's F1 project</h1>
-		<p id="header_p">Gathering all the relevant findings from my F1 project</p>
+		<div class="placeholder">
+			a graphical intro piece would go here, maybe
+		</div>
 	</header>
-	<h2>Setup</h2>
-	<p>In the first 69 years of Formula One, over 800 drivers (5 women, the rest men) have raced to win the World Driver's Cup. Of these 800+ drivers, only 33 have won.</p>
-	<p>These 33 men have all raced for 16 different teams/constructors:</p>
-	<ul>
-		<li>Ferrari</li>
-		<li>McLaren</li>
-		<li>Williams</li>
-		<li>Mercedes</li>
-		<li>Lotus</li>
-		<li>Red Bull</li>
-		<li>Brabham</li>
-		<li>Renault</li>
-		<li>Cooper</li>
-		<li>Benetton</li>
-		<li>Tyrrell</li>
-		<li>Alfa Romeo</li>
-		<li>Maserati</li>
-		<li>BRM</li>
-		<li>Matra</li>
-		<li>Brawn GP</li>
-	</ul>
-	<p>Each season, the constructors design and build cars for their drivers to use in a series of races. Constructors are the people who design and build the car chassis. They don't all necessarily manufacture their own engines for their cars.</p>
-	<p>In the early years of Formula One, constructors also supplied chassis to different entrants and smaller teams, while usually also having a team of their own. This makes a slight difficulty in counting individual teams, but I'm handling it by focusing on the constructors, regardless of engine or whether they were an independent entrant or the official team.</p>
-	<p></p>
-	<h2>Question/Goal</h2>
-	<p>I want to answer the question: <strong>Which constructor had the <em>best</em> championship season?</strong></p>
-	<p>To answer this question, I'm looking at three different ways of defining "best":</p>
-	<ol>
-		<li>Most wins</li>
-		<li>Most podium finishes</li>
-		<li>Closest to perfect</li>
-	</ol>
-	<h2>Data Sources</h2>
-	<p>In trying to answer this question I needed data about race finishes</p>
-	<h3>Ergast Developer API</h3>
-	<p>I first found the <a href="https://ergast.com/mrd/">Ergast Developer API</a> which keeps a good record of Formula 1 data about races, circuits, drivers, lap times, qualifying times, and the like in csv form, SQL form, and has an API. The data is added as the race happened and the entity collecting the data started collection with races in the late 00s, then went and backfilled the data.</p>
-	<p>I was using this data until I noticed some error in recording team/driver info (the error has since been fixed on their end) while trying to verify my work.</p>
-	<h3>formula1.com</h3>
-	<p>This is the <a href="https://www.formula1.com/en/results.html">archival results</a> for Formula 1 races hosted by the FIA. I built a few scrapers to get the race results for all the races, as well as the winning constructor for each year.</p>
-	<p>For any page in their results section, the main table is identified by the table with class ".resultsarchive-table".</p>
-	<p>I used this data until I noticed that they don't fully capture all the data as races go back in time. An example is Senna's 1989 disqualification from the Japanese Grand Prix. The result is not recorded in the formula1.com archive, but Hamilton's 2009 disqualification is.</p>
-	<h3>statsf1.com</h3>
-	<p>Ultimately I decided to go with <a href="https://www.statsf1.com/">StatsF1.com</a> as my data source because it provided the data in easy to access format (tables) and was more complete than formula1.com.</p>
-	<h2>The Findings</h2>
-	<h3>Most wins</h3>
-	<ol>
-		<li>find who won the Driver's Cup each year</li>
-		<li>figure out for which team they drove</li>
-		<li>for each team count the number of wins they had overall in the season</li>
-		<li>divide number of wins by the number of races in each season to get a win percentage</li>
-	</ol>
-	<p>The results of this analysis are here,<a href="public/data/win_analysis.csv" target="_blank">csv</a>.</p>
-	<p>Looking at the raw wins:</p>
-	<img src="public/img/contact/wins.png" alt="top 10 wins">
-	<br>
-	<ul>
-		<li>Talk about Mercedes dominating the start of the hybrid engine era</li>
-	</ul>
-	<p>Once we're looking at win percentages,</p>
-	<img src="public/img/contact/win_percentage.png" alt="top 10 win percentage">
-	<br>
-	<ul>
-		<li>@@</li>
-	</ul>
-	<h3>Most podium finishes</h3>
-	<ol>
-			<li>look at the teams of the drivers who won the Driver's cup each year</li>
-			<li>for each team count the number of times they finished first, second, or third</li>
-			<li>find the number of available podium spots:
-				<ol>
-					<li>for each race in the season look at how many drivers the team had racing</li>
-					<li>pick the minimum between 3 and the number of drivers who entered the race; that's the number of spots available for the race </li>
-					<li>sum the spots available for each race </li>
-				</ol>
-				<li>Divide the number of times the team finished on the podium by the number of available spots. this is the percentage of podium spots they claimed</li>
-			</li>
-		</ol>
-	<p>The results of this analysis are here,<a href="public/data/podium_analysis.csv" target="_blank">csv</a>.</p>
-	<h4>Looking at podiums</h4>
-	<img src="public/img/contact/podium.png" alt="top 10 win percentage">
-	<br>
-	<ul>
-		<li>@@</li>
-	</ul>
+	<section id="intro">
+		<h1 id="title">The Best Formula One Team?</h1>
+		<p id="byline">Byline</p>
+		<p>@@Stuff@@.</p>
+	</section>
+	<section id="wins">
+		<section id="wins_intro">
 
-	<p>Looking at podium percentages,</p>
-	<img src="public/img/contact/podium_percentage.png" alt="top 10 win percentage">
-	<br>
-	<ul>
-		<li>@@</li>
-	</ul>
-	<h3>Closest to perfect</h3>
+		</section>
+		<section id="wins_scrolly">
+
+		</section>
+		<section id="wins_interactive">
+
+		</section>
+	</section>
+	<section id="podiums">
+		<section id="podiums_intro">
+
+		</section>
+		<section id="podiums_scrolly">
+
+		</section>
+		<section id="podiums_interactive">
+
+		</section>
+	</section>
+	<section id="average">
+			<section id="average_intro">
+	
+			</section>
+			<section id="average_scrolly">
+	
+			</section>
+			<section id="average_interactive">
+	
+			</section>
+	</section>
+	<section id="conclusion">
+		
+	</section>
 </body>
 </html>
