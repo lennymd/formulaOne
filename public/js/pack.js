@@ -1,4 +1,4 @@
-d3.json("../data/winning_drivers.json", (data) => {
+d3.json("../public/data/winning_drivers.json", (data) => {
 	var dataset = {"children": data}
 	var diameter = 600;
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
