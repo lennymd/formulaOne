@@ -104,7 +104,7 @@ class sucker_chart {
 					"#004225", "#2086C0",
 					"#800080", "#9B0502",
 					"#8b4513", "#f08080",
-					"#80f080", "#ff682a"])
+					"#80f080", "#ff682a"]);
 
 		var lines = svg.selectAll("lines")
 						.data(data)

@@ -11,7 +11,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
 
 	<!-- local styling -->
-	<link rel="stylesheet" href="../public/css/scrolly8.css">
+	<link rel="stylesheet" href="../public/css/draft3.css">
+	<link rel="stylesheet" href="../public/css/f1_sankey.css">
 
 </head>
 <body>
@@ -29,10 +30,16 @@
 			</header>
 			<div class="col-12 col-md-8 offset-md-2">
 					<p>In the 69-year history of the Formula One World Drivers' Championship, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.</p>
-				<div class="graph" id="graph0">
-					<!-- <img src="https://via.placeholder.com/960x600" class="img-fluid" alt="" srcset=""> -->
+					<p>They've all raced for the same 16 teams</p>
 				</div>
-				<p>These 33 drivers have all won while racing for 16 different teams:</p>
+			<div class="w-100"></div>
+			<div class="col-12">
+				<div class="row" style="margin-left: 10px;margin-right:10px;">
+					<div class="col-6 text-left"><h4>Drivers</h4></div>
+					<div class="col-6 text-right"><h4>Constructors</h4></div>
+				</div>
+				<div class="graph" id="sankey_chart">
+				</div>
 			</div>
 		</section> <!-- end of intro row -->
 	</div> <!-- end of container-fluid -->
@@ -43,6 +50,8 @@
 
 	<!-- local scripts -->
 	<script src="../public/js/d3.v4.js"></script>
-	<script src="../public/js/scrolly8.js"></script>
+	<script src="../public/js/sankey.js"></script>
+	<script src="../public/js/f1_sankey_v2.js"></script>
+	<script src="../public/js/draft3.js"></script>
 </body>
 </html>
