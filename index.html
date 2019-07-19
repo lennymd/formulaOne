@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,49 +12,16 @@
 <body>
 	<header>
 		<div class="placeholder">
-			a graphical intro piece would go here, maybe
+			<span>logos, a car, something to grab the attention</span>
 		</div>
 	</header>
 	<section id="intro">
-		<h1 id="title">The Best Formula One Team?</h1>
-		<p id="byline">Byline</p>
-		<p>@@Stuff@@.</p>
+		{% include intro.html %}
 	</section>
-	<section id="wins">
-		<section id="wins_intro">
-
-		</section>
-		<section id="wins_scrolly">
-
-		</section>
-		<section id="wins_interactive">
-
-		</section>
-	</section>
-	<section id="podiums">
-		<section id="podiums_intro">
-
-		</section>
-		<section id="podiums_scrolly">
-
-		</section>
-		<section id="podiums_interactive">
-
-		</section>
-	</section>
-	<section id="average">
-			<section id="average_intro">
-	
-			</section>
-			<section id="average_scrolly">
-	
-			</section>
-			<section id="average_interactive">
-	
-			</section>
-	</section>
-	<section id="conclusion">
-		
-	</section>
+	{% include wins.html%}
+	{% include podiums.html %}
+	{% include averages.html %}
+	{% include conclusion.html %}
+	<script src="public/js/d3.v4.js"></script>
 </body>
 </html>
