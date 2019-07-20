@@ -87,15 +87,9 @@ article.prose {
 	max-width: 33rem;
 }
 
-svg.bubble {
-	display: block;
-	margin: 0 auto;
-}
 
 figure {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
+	z-index: 1000;
 }
 
 .section__hed {
