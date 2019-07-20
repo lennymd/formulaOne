@@ -16,6 +16,7 @@
 		}
 
 		article {
+			z-index:20;
 			position: relative;
 			padding: 0;
 			max-width: 20rem;
@@ -110,13 +111,13 @@
 		<section id='outro'></section>
 	</main>
 	
-	<script src="public/js/d3.v4.js"></script>
+	<script src="../../public/js/d3.v4.js"></script>
 	<script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
 	<script src="https://unpkg.com/scrollama"></script>
 	<script>
 		// using d3 for convenience
-		var main = d3.select('main')
+		var main = d3.select('main');
 		var scrolly = main.select('#scrolly');
 		var figure = scrolly.select('figure');
 		var article = scrolly.select('article');
