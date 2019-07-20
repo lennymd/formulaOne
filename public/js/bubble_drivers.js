@@ -7,8 +7,8 @@ var height = window.innerHeight - margin.top - margin.bottom,
 
 var svg = d3.select("#bubble")
 			.append("svg")
-			.attr("width", width + margin.left + margin.right)
-			.attr("height", height + margin.top + margin.bottom)
+			.attr("width", window.innerWidth *0.95 )
+			.attr("height", window.innerHeight* 0.95)
 			.attr("class", "bubble")
 			.attr('transform', `translate(${margin.left},${margin.top})`);
 
@@ -16,7 +16,7 @@ d3.json("public/data/winning_drivers.json", (data) => {
 	var dataset = {"children": data}
 	var bubble = d3.pack(dataset)
 					.size([width, height])
-					.padding(1.5);
+					.padding(1);
 
 	var nodes = d3.hierarchy(dataset)
 					.sum(d=> d.Count);

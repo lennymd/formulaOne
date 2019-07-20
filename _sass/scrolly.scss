@@ -4,7 +4,7 @@
 	padding: 0rem;
 
 	p {
-		margin: 0;
+		padding: $gap 0;
 	}
 }
 
@@ -61,7 +61,6 @@ figure {
 	text-align: center;
 	background-color: $dark;
 	color: $bg;
-	margin: $gap auto;
 }
 
 #outro {
