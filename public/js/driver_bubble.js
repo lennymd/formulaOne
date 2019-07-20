@@ -2,10 +2,11 @@ var graph_target = d3.select("#driver_bubble");
 var parent = graph_target.node();
 
 var diameter = parent.getBoundingClientRect().height;
+// var diameter = 600;
 var svg = graph_target.append("svg")
 						.attr("width", diameter)
 						.attr("height", diameter)
-						.attr("class", "bubble");
+						.attr("class", "bubble img-fluid text-center");
 
 // var color = d3.scaleOrdinal(d3.schemeCategory20);
 
