@@ -16,21 +16,19 @@ var row_converter = function(d) {
 	}
 };
 
-d3.csv("public/data/overall_analysis_v2.csv", row_converter, (data) => {
+d3.csv("public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
 	var win_analysis = new sucker_chart({
-		plot_data: data,
+		plot_data: dataset,
 		element: "#win_plot",
 		x: "wins",
 		y: "run_id"
 	})
-
-	win_analysis.draw();
 })
 
 var main = d3.select('main');
-var scrolly = main.select('#scrolly_wins');
-var figure = scrolly.select('figure');
-var article = scrolly.select('article');
+var scrolly2 = main.select('#scrolly_wins');
+var figure = scrolly2.select('figure');
+var article = scrolly2.select('article');
 var step = article.selectAll('.step');
 
 // initialize the scrollama
@@ -75,12 +73,12 @@ function handleStepExit(response) {
 	}
 }
 
-function setupStickyfill() {
-	d3.selectAll('.sticky').each(() => Stickyfill.add(this));
-}
+// function setupStickyfill() {
+// 	d3.selectAll('.sticky').each(() => Stickyfill.add(this));
+// }
 
 function init() {
-setupStickyfill();
+// setupStickyfill();
 
 // 1. force a resize on load to ensure proper dimensions are sent to scrollama
 handleResize();

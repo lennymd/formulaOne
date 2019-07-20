@@ -6,9 +6,9 @@ class sucker_chart {
 		this.element = opts.element;
 		this.col_x = opts.x;
 		this.col_y = opts.y;
+		this.rank = "rank_" + this.col_x;
 
 		this.normalize = 0;
-
 		this.sort(this.col_x);
 	}
 
@@ -33,7 +33,8 @@ class sucker_chart {
 					.attr("height", this.height + this.margin.top + this.margin.bottom)
 					.append('g')
 					.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
-
+		
+		this.data = this.data.filter(d => d[this.rank] < 11);
 		this.create_scales(this.normalize);
 		this.create_axes();
 		this.create_shapes(this.col_x, this.col_y);
@@ -120,7 +121,7 @@ class sucker_chart {
 						.attr("y2", (d) => {
 							return this.y_scale2(d[y]);
 						})
-						.attr("stroke-width", "1.5")
+						.attr("stroke-width", "3")
 						.attr("stroke", "black")
 						.attr("class", function (d) { return "line "+ d.team.toLowerCase(); });
 		
@@ -137,7 +138,7 @@ class sucker_chart {
 							.style("fill", (d) => {
 								return this.color(d.team);
 							})
-							.attr("r", "4")
+							.attr("r", "10")
 							.attr("stroke-width", "1")
 							.attr("stroke", (d) => {
 								return this.color(d.team);

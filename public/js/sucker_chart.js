@@ -7,6 +7,8 @@ class sucker_chart {
 		this.col_y = opts.y;
 		this.rank = opts.rank;
 		this.normalize = 0;
+
+		this.init();
 	}
 
 	draw() {
