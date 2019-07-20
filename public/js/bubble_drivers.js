@@ -1,6 +1,6 @@
 var target= d3.select("#scrolly");
 var parent = target.node();
-var margin = {top: 10, left: 10, bottom: 10, right:10};
+var margin = {top: 15, left: 15, bottom: 15, right:15};
 
 var height = window.innerHeight - margin.top - margin.bottom,
 	width = window.innerWidth - margin.left - margin.right;

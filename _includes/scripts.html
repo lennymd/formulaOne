@@ -34,16 +34,23 @@
 
 		// scrollama event handlers
 		function handleStepEnter(response) {
-			console.log(response)
-			// response = { element, direction, index }
+			const el = d3.select(response.element);
+			const index = Number(el.attr("data-step"));
+			// console.log(response.element, index, response.direction);
 
-			// add color to current step only
-			step.classed('is-active', function (d, i) {
-				return i === response.index;
-			})
+			if (response.direction === "down") {
+				el.classed("is-active", true);
+			}
+		}
 
-			// update graphic based on step
-			// figure.select('p').text(response.index + 1);
+		function handleStepExit(response) {
+			const el = d3.select(response.element);
+			const index = Number(el.attr("data-step"));
+			// console.log(response.element, index, response.direction);
+
+			if (response.direction === "up") {
+				el.classed("is-active", false);
+			}
 		}
 
 		function setupStickyfill() {
@@ -67,6 +74,7 @@
 				debug: true,
 			})
 				.onStepEnter(handleStepEnter)
+				.onStepExit(handleStepExit);
 
 
 			// setup resize event
