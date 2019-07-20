@@ -102,10 +102,15 @@ p {
 	}
 }
 
-div.sticky {
-	position: sticky;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	top: 0;
+// div.sticky {
+// 	position: sticky;
+// 	width: 100%;
+// 	height: 100%;
+// 	margin: 0;
+// 	top: 0;
+// }
+
+.stuck {
+	position:fixed;
+	top:0;
 }
