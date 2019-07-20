@@ -1,8 +1,7 @@
 #scrolly {
 	position: relative;
-	background-color: #f3f3f3;
-	padding: 1rem;
-	margin-bottom: 2*$gap;
+	// background-color: #f3f3f3;
+	padding: 0rem;
 
 	p {
 		margin: 0;
@@ -26,7 +25,6 @@ figure {
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	background-color: #8a8a8a;
 }
 
 figure p {
@@ -47,7 +45,6 @@ figure p {
 .step {
 	margin: 0 auto 2rem auto;
 	color: #fff;
-	background-color: rgba(0,0,0,0.1)
 }
 
 .step:last-child {

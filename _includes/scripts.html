@@ -2,7 +2,7 @@
 <script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
 <script src="https://unpkg.com/scrollama"></script>
-
+<script src="public/js/bubble_drivers.js"></script>
 <script>
 		// using d3 for convenience
 		var main = d3.select('main');
@@ -20,8 +20,8 @@
 			var stepH = Math.floor(window.innerHeight * 0.75);
 			step.style('height', stepH + 'px');
 
-			var figureHeight = window.innerHeight / 2
-			var figureMarginTop = (window.innerHeight - figureHeight) / 2  
+			var figureHeight = window.innerHeight;
+			var figureMarginTop = 0;
 
 			figure
 				.style('height', figureHeight + 'px')
@@ -43,7 +43,7 @@
 			})
 
 			// update graphic based on step
-			figure.select('p').text(response.index + 1);
+			// figure.select('p').text(response.index + 1);
 		}
 
 		function setupStickyfill() {
