@@ -3,7 +3,8 @@ class sucker_chart {
 	constructor(opts) {
 		this.data = opts.input;
 		this.element = opts.element;
-		this.col = opts.col;
+		this.col_x = opts.x;
+		this.col_y = opts.y;
 		this.rank = opts.rank;
 		this.normalize = 0;
 	}
@@ -22,12 +23,12 @@ class sucker_chart {
 						.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 		this.create_scales(this.normalize);
 		this.create_axes();
-		this.create_shapes(this.col, this.rank);
+		this.create_shapes(this.col_x, this.rank);
 	}
 	
 	create_scales(normalize) {
 		const n = normalize;
-		let x_max = d3.max(this.data, (d) => d[this.col]);
+		let x_max = d3.max(this.data, (d) => d[this.col_x]);
 		
 		this.x_scale = d3.scaleLinear().range([0,this.width]);
 		if (n === 0) {
@@ -62,7 +63,7 @@ class sucker_chart {
 		let svg = this.svg;
 		let data = this.data;
 
-		this.color = d3.scaleOrdinal()
+		this.col_xor = d3.scaleOrdinal()
 						.domain(["Ferrari", "McLaren",
 								"Williams", "Mercedes",
 								"Lotus", "Red Bull",
@@ -100,10 +101,10 @@ class sucker_chart {
 						.filter(d => d[rank] <11)
 						.attr("cx", d => this.x_scale(d[x]))
 						.attr("cy", d => this.run_scale(d.run_id))
-						.style("fill", d => this.color(d.team))
+						.style("fill", d => this.col_xor(d.team))
 						.attr("r", "4")
 						.attr("stroke-width", "1")
-						.attr("stroke", d => this.color(d.team))
+						.attr("stroke", d => this.col_xor(d.team))
 						.attr("class", d => "circle " + d.team.toLowerCase());
 	}
 
@@ -121,15 +122,15 @@ class sucker_chart {
 
 	norm(column, rank) {
 		this.normalize = 1;
-		this.col = column;
+		this.col_x = column;
 		this.rank = rank;
-		this.sort(this.col);
+		this.sort(this.col_x);
 	}
 
 	reset(column, rank) {
 		this.normalize = 0;
-		this.col = column;
+		this.col_x = column;
 		this.rank = rank;
-		this.sort(this.col);
+		this.sort(this.col_x);
 	}
 }

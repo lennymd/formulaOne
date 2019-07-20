@@ -20,8 +20,8 @@ d3.csv("public/data/overall_analysis_v2.csv", row_converter, (data) => {
 	var win_analysis = new sucker_chart({
 		plot_data: data,
 		element: "#win_plot",
-		col: "wins",
-		rank: "rank_wins"
+		x: "wins",
+		y: "run_id"
 	})
 
 	win_analysis.draw();
