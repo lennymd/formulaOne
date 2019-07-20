@@ -84,8 +84,7 @@ article.prose {
 	font-size: 1rem;
 	padding: 0 $gap;
 	margin-top: 2*$gap;
-	max-width: 40rem;
-	border-left: 1px solid black;
+	max-width: 33rem;
 }
 
 svg.bubble {
@@ -97,4 +96,8 @@ figure {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
+}
+
+.section__hed {
+	text-align: center;
 }

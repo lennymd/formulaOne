@@ -1,8 +1,5 @@
-var target= d3.select("#scrolly");
-var parent = target.node();
-var margin = {top: 15, left: 15, bottom: 15, right:15};
-
-var height = window.innerHeight - margin.top - margin.bottom,
+var margin = {top: 40, left: 10, bottom: 40, right:10},
+	height = window.innerHeight - margin.top - margin.bottom,
 	width = window.innerWidth - margin.left - margin.right;
 
 var svg = d3.select("#bubble")
