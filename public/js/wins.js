@@ -19,7 +19,7 @@ var row_converter = function(d) {
 d3.csv("public/data/overall_analysis_v2.csv", row_converter, (data) => {
 	var win_analysis = new sucker_chart({
 		plot_data: data,
-		element: "#wins",
+		element: "#win_plot",
 		col: "wins",
 		rank: "rank_wins"
 	})
@@ -56,29 +56,27 @@ scroller.resize();
 
 // scrollama event handlers
 function handleStepEnter(response) {
-const el = d3.select(response.element);
-const index = Number(el.attr("data-step"));
-// console.log(response.element, index, response.direction);
+	const el = d3.select(response.element);
+	const index = Number(el.attr("data-step"));
+	// console.log(response.element, index, response.direction);
 
-if (response.direction === "down") {
-el.classed("is-active", true);
-}
+	if (response.direction === "down") {
+		el.classed("is-active", true);
+	}
 }
 
 function handleStepExit(response) {
-const el = d3.select(response.element);
-const index = Number(el.attr("data-step"));
-// console.log(response.element, index, response.direction);
+	const el = d3.select(response.element);
+	const index = Number(el.attr("data-step"));
+	// console.log(response.element, index, response.direction);
 
-if (response.direction === "up") {
-el.classed("is-active", false);
-}
+	if (response.direction === "up") {
+		el.classed("is-active", false);
+	}
 }
 
 function setupStickyfill() {
-d3.selectAll('.sticky').each(function () {
-Stickyfill.add(this);
-});
+	d3.selectAll('.sticky').each(() => Stickyfill.add(this));
 }
 
 function init() {
