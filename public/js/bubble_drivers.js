@@ -7,9 +7,7 @@ var svg = d3.select("#bubble")
 			.attr("viewBox", `0 0 ${width} ${height}`)
 			.style("width", "100%")
 			.style("height", "auto")
-			.style("margin", "0 auto")
-			.style("overflow", "hidden")
-			.attr("class", "bubble")
+			.attr("class", "sucker")
 			.attr('transform', `translate(${margin.left},${margin.top})`);
 
 d3.json("public/data/winning_drivers.json", (data) => {
