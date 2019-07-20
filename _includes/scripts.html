@@ -24,7 +24,7 @@
 			var figureMarginTop = 0;
 
 			figure
-				.style('height', figureHeight + 'px')
+				// .style('height', figureHeight + 'px')
 				.style('top', figureMarginTop + 'px');
 
 
@@ -71,7 +71,7 @@
 			scroller.setup({
 				step: '#scrolly article .step',
 				offset: 0.5,
-				debug: true,
+				debug: false,
 			})
 				.onStepEnter(handleStepEnter)
 				.onStepExit(handleStepExit);

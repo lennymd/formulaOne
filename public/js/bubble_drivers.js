@@ -7,8 +7,14 @@ var height = window.innerHeight - margin.top - margin.bottom,
 
 var svg = d3.select("#bubble")
 			.append("svg")
-			.attr("width", window.innerWidth *0.95 )
-			.attr("height", window.innerHeight* 0.95)
+			.attr("viewBox", "0 0 1200 1050")
+			.attr("preserveAspectRatio", "xMinYMin slice")
+			.style("display", "block")
+			.style("margin", "0 auto")
+			.style("width", "100%")
+			.style("overflow", "hidden")
+			.attr("width", width/2)
+			.attr("height", height)
 			.attr("class", "bubble")
 			.attr('transform', `translate(${margin.left},${margin.top})`);
 
