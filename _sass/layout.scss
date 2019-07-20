@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 21px;
+	line-height: 1.75;
+}
+
+body {
+	background-color: $off-white;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: minmax(300px, 1fr);
+	grid-template-areas:	"head"
+							"intro"
+							"wins"
+							"podiums"
+							"averages"
+							"concluion";
+	grid-gap: $gap;
+
+	.row {
+		margin: 0 2*$gap;
+	}
+}
+
+#page_header {
+	grid-area: head;
+	margin: 0;
+}
+
+#intro {
+	grid-area: intro;
+}
+#wins {
+	grid-area: wins;
+}
+#podiums {
+	grid-area: podiums;
+}
+#averages {
+ grid-area: averages;
+}
+#conclusion {
+	grid-area: conclusion;
+}
