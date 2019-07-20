@@ -1,60 +1,9 @@
-<!DOCTYPE html>
-<html>
+<script src="public/js/d3.v4.js"></script>
+<script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
+<script src="https://unpkg.com/scrollama"></script>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Scrollama: Sticky Overlay Example</title>
-	<meta name="description" content="Scrollama: Sticky Overlay Example">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' href='style.css'>
-	<style>
-
-	</style>
-
-</head>
-
-<body>
-	<main>
-		<section id='intro'>
-			<h1 class='intro__hed'>Sticky Overlay Example</h1>
-			<p class='intro__dek'>
-				Start scrolling to see how it works.
-			</p>
-		</section>
-
-		<section id='scrolly'>
-
-			<figure>
-				<p>0</p>
-			</figure>
-
-			<article>
-				<div class='step' data-step='1'>
-					<p>STEP 1</p>
-				</div>
-				<div class='step' data-step='2'>
-					<p>STEP 2</p>
-				</div>
-				<div class='step' data-step='3'>
-					<p>STEP 3</p>
-				</div>
-				<div class='step' data-step='4'>
-					<p>STEP 4</p>
-				</div>
-			</article>
-
-			
-		</section>
-
-		<section id='outro'></section>
-	</main>
-	
-	<script src="../../public/js/d3.v4.js"></script>
-	<script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
-	<script src="https://unpkg.com/scrollama"></script>
-	<script>
+<script>
 		// using d3 for convenience
 		var main = d3.select('main');
 		var scrolly = main.select('#scrolly');
@@ -127,6 +76,3 @@
 		// kick things off
 		init();
 	</script>
-</body>
-
-</html>
