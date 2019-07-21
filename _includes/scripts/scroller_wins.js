@@ -16,6 +16,7 @@ function step_exit_wins(response) {
 	}
 }
 
+console.log("test");
 scroller_wins.setup({
 	step: '#scrolly_wins article .step',
 	offset: 0.5,

@@ -1,5 +1,5 @@
 function init() {
-	setupStickyfill();
+	// setupStickyfill();
 	handleResize();
 
 	{% include scripts/scroller_bubble.js %}
