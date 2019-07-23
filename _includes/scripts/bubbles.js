@@ -1,4 +1,41 @@
 
+		// generic window resize listener event
+		function handleResize_bubble() {
+			// 1. update height of step elements
+			var stepH = Math.floor(window.innerHeight * 0.75);
+			step.style('height', stepH + 'px');
+
+			var figureMarginTop = 0;
+			figure.style('top', figureMarginTop + 'px');
+			// 3. tell scrollama to update new element dimensions
+			scroller_bubbles.resize();
+		}
+
+		// scrollama event handlers
+		function handleStepEnter_bubble(response) {
+			const el = d3.select(response.element);
+			const index = Number(el.attr("data-step"));
+
+			if (response.direction === "down") {
+				el.classed("is-active", true);
+			}
+		}
+
+		function handleStepExit_bubble(response) {
+			const el = d3.select(response.element);
+			const index = Number(el.attr("data-step"));
+
+			if (response.direction === "up") {
+				el.classed("is-active", false);
+			}
+		}
+
+		function setupStickyfill() {
+			scrolly.selectAll('.sticky').each(function () {
+				Stickyfill.add(this);
+			});
+		}
+
 		function init() {
 			setupStickyfill();
 
