@@ -1,33 +1,19 @@
----
----
 // initialize the big variables
 var main = d3.select("main");
 
-var scrolly0 = main.select("#scrolly_bubbles");
-var figure_bubbles = scrolly0.select('figure');
-var steps_bubbles = scrolly0.select("article").selectAll(".step");
+var scrolly0 = main.select("#scrolly_bubbles"),
+	figure_bubbles = scrolly0.select("figure"),
+	steps_bubbles = scrolly0.select("article")
+							.selectAll(".step");
 
-var scroller_drivers = scrollama();
+// var scrolly1 = main.select("#scrolly_wins"),
+// 	figure_wins = scrolly1.select("figure"),
+// 	steps_wins = scrolly1.select("article")
+// 						.selectAll(".step");
 
+var scroller_drivers = scrollama(),
+	scroller_wins = scrollama();
 
-// a row converting function for the big three charts
-var row_converter = function(d) {
-	return {
-		run_id: d.run_id,
-		year: +d.year,
-		team: d.team,
-		wins: +d.wins,
-		rank_wins: +d.rank_win,
-		win_percentage: +d.win_percentage,
-		rank_win_percentage: +d.rank_win_percentage,
-		podiums: +d.podium_spots_claimed,
-		rank_podiums: +d.rank_podiums,
-		podium_percentage: +d.podium_percentage,
-		rank_podium_percentage: +d.rank_podium_percentage,
-		p_average: +d.p_average,
-		rank_p_average: +d.rank_p_average
-	}
-};
 
 function handleResize() {
 	// this should handle window size changing
@@ -75,6 +61,11 @@ function init() {
 			x: "wins",
 			y: "run_id"
 		})
+
+		// scroller_wins.setup({
+		// 	step:"#scrolly_win"
+		// })
+
 	})
 
 

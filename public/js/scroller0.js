@@ -16,5 +16,4 @@ function stepExit_bubble(response) {
 	if (response.direction === "up") {
 		element.classed("is-active", false);
 	}
-	
 }
