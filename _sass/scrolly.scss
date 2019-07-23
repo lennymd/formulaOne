@@ -1,6 +1,5 @@
-.scrolly, #scrolly_bubbles, #scrolly_wins {
+#scrolly_bubbles, #scrolly_wins {
 	position: relative;
-	// background-color: #f3f3f3;
 	padding: 0rem;
 
 	p {
@@ -15,6 +14,12 @@ article {
 	margin: 0 auto;
 }
 
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
 figure {
 	position: -webkit-sticky;
 	position: sticky;
@@ -27,7 +32,7 @@ figure {
 }
 
 .step {
-	margin: 0 auto 2rem auto;
+	margin: 0 auto 6rem auto;
 	color: $dark;
 	width: $max_width;
 	&:last-child {
