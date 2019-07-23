@@ -6,7 +6,7 @@
     <title>Method 1</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="scrolly3.css">
+    <link rel="stylesheet" href="../public/css/scrolly3-v4_2.css">
   </head>
   <body>
     <section class='filler'>
@@ -22,23 +22,31 @@
       <div class='scrolly'>
     
         <!--  sticky graphic   -->
-        <figure class='sticky' id=m1>
+        <figure class='sticky' id=m0>
         </figure>
     
         <!--  step text   -->
         <article>
+          <!-- <div class='step' data-index='-1'>
+            <p>This little paragraph does nothing</p>
+          </div> -->
           <div class='step' data-index='0'>
-            <p>Mercedes's strong performance in 2014, 2015, and 2016 dominates the top of the rankings by wins. In these 3 years, Lewis Hamilton and Nico Rosberg raced together to win 51 races.</p>
-            <p>In 2016, their strongest performance, Rosberg and Hamilton won 19 of the season's 21 races.</p>
+            <p>Hey look! Mercedes did really well in 2014&ndash;2016. Hamilton and Rosberg won 51 of the matches in those three years.</p>
           </div>
           <div class='step' data-index='1'>
-            <p>Bar is 90%</p>
+            <p>But wait, there were 21 races in 2016, and 19 races each in 2014 and 2015. Mercedes had more chances to win races in 2016 than in either of those years.</p>
+          </div>
+          <div class='step' data-index='-1'>
+            <p>And if we look all the way back, the first Formula One season only had 7 races. Let's normalize the number of wins by dividing by the number of races in the season.</p>
+            <p>For example, Mercedes's 2016 run would be:<br>
+            <strong>19 wins / 21 races = 0.9047</strong></p>
           </div>
           <div class='step' data-index='2'>
-            <p>Bar is 50%</p>
+            <p>If we do the same for the rest of the races, we get:</p>
           </div>
-          <div class='step' data-index='2'>
-            <p>Bar is 50%</p>
+          <div class="filler">&nbsp;</div>
+          <div class='step' data-index='3'>
+            <p>This little paragraph goes back to first state</p>
           </div>
         </article>
     
@@ -56,11 +64,11 @@
         End
       </p>
     </section>
-    <script src="../../public/js/d3.v4.js"></script>
+    <script src="../public/js/d3.v4.js"></script>
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
-    <script src="scrolly3.js"></script>
-    <script src="graph3.js"></script>
+    <script src="../public/js/sucker_chart-v2-v4_2.js"></script>
+    <script src="../public/js/scrolly4-v2-v4_2.js"></script>
   </body>
 </html>
