@@ -47,7 +47,7 @@ function init() {
 	scroller_drivers.setup({
 		step: '#scrolly_bubbles article .step',
 		offset: 0.5,
-		debug: false,
+		debug: false
 	})
 		.onStepEnter(stepEnter_bubble)
 		.onStepExit(stepExit_bubble);
@@ -63,9 +63,13 @@ function init() {
 			y: "run_id"
 		})
 
-		// scroller_wins.setup({
-		// 	step:"#scrolly_win"
-		// })
+		scroller_wins.setup({
+			step:"#scrolly_win article .step",
+			offset: 0.5,
+			debug: false
+		})
+			.onStepEnter(stepEnter_bubble)
+			.onStepExit(stepExit_bubble);
 
 	})
 
