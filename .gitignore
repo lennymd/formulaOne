@@ -1,6 +1,4 @@
 _site/
 .DS_Store
-.vscode
-.vscode/*
-.sass_cache
-.sass_cache/*
+.vscode/
+.sass_cache/
