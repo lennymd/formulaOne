@@ -31,6 +31,7 @@ d3.json("public/data/winning_drivers.json", (data) => {
 						
 	node.append("circle")
 		.attr("r", d => d.r)
+		.attr("class", "drivers")
 		.style("fill", "#555");
 		// .style("fill", (d,i) => color(i));
 						
@@ -43,11 +44,11 @@ d3.json("public/data/winning_drivers.json", (data) => {
 		.attr("fill", "white");
 			
 	node.append("text")
-		.attr("dy", "1.3em")
+		.attr("dy", "1.1em")
 		.style("text-anchor", "middle")
 		.text(d => d.data.Count)
 		.attr("font-family", "sans-serif")
-		.attr("font-size", d => d.r/5)
+		.attr("font-size", d => d.r/2)
 		.attr("fill", "white");
 
 	d3.select(self.frameElement)

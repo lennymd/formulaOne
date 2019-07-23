@@ -31,6 +31,7 @@
 		function handleStepEnter(response) {
 			const el = d3.select(response.element);
 			const index = Number(el.attr("data-step"));
+			const sect = Number(el.attr("section-index"));
 			// console.log(response.element, index, response.direction);
 
 			if (response.direction === "down") {
@@ -41,8 +42,9 @@
 		function handleStepExit(response) {
 			const el = d3.select(response.element);
 			const index = Number(el.attr("data-step"));
+			const section = Number(el.attr("section-index"));
+			var circs = d3.selectAll(".circle");
 			// console.log(response.element, index, response.direction);
-
 			if (response.direction === "up") {
 				el.classed("is-active", false);
 			}
@@ -71,9 +73,8 @@
 				.onStepEnter(handleStepEnter)
 				.onStepExit(handleStepExit);
 
-
 			// setup resize event
-			window.addEventListener('resize', handleResize);
+			
 		}
 
 		// kick things off
