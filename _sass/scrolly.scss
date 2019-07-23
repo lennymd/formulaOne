@@ -30,24 +30,24 @@ figure {
 	margin: 0 auto 2rem auto;
 	color: $dark;
 	width: 30rem;
-	padding: $gap;
+	padding: 0 $gap;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+	
+	.is-active p {
+		background-color: goldenrod;
+		color: $dark;
+	}
+
+	p {
+		tex-align: left;
+		background-color: $dark;
+		color: $bg;
+	}
 }
 
-.step:last-child {
-	margin-bottom: 0;
-}
-
-.step.is-active p {
-	background-color: goldenrod;
-	color: #3b3b3b;
-}
-
-.step p {
-	text-align: center;
-	background-color: $dark;
-	color: $bg;
-}
-
-#outro {
+.outro {
 	height: 640px;
 }
