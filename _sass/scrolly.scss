@@ -1,30 +1,4 @@
-<<<<<<< HEAD
-.scrolly-overlay .scrolly {
-	position: relative;
-	padding: 0rem; 
-	
-	article {
-		padding: 0;
-		margin: 0 auto;
-		position: relative;
-		z-index: 8675309;
-	}
-}
-
-// .scrolly_overlay #scrolly_bubble {
-// 	position: relative;
-// 	padding: 0rem;
-// }
-
-// article {
-// 	z-index: 1000;
-// 	position: relative;
-// 	padding: 0;
-// 	margin: 0 auto;
-// }
-	
-=======
-#scrolly, #scrolly_wins, #scrolly_podiums, #scrolly_averages {
+#scrolly, #scrolly_wins {
 	position: relative;
 	// background-color: #f3f3f3;
 	padding: 0rem;
@@ -41,7 +15,6 @@ article {
 	margin: 0 auto;
 }
 
->>>>>>> parent of af294d5... bubble chart works, all other charts show up, paragraphs light up, but no scrolly on other sections
 figure {
 	position: -webkit-sticky;
 	position: sticky;
@@ -52,47 +25,12 @@ figure {
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> parent of af294d5... bubble chart works, all other charts show up, paragraphs light up, but no scrolly on other sections
 .step {
 	margin: 0 auto 2rem auto;
 	color: $dark;
 	width: 30rem;
 	padding: $gap;
-<<<<<<< HEAD
-
-	&:last-child {
-		margin-bottom: 0;
-	}
-
-	.is-active p {
-		background-color: goldenrod;
-		color: #171717;
-	}
-}
-	
-	.step:last-child {
-		margin-bottom: 0;
-	}
-	
-	.step.is-active p {
-		background-color: goldenrod;
-		color: #3b3b3b;
-	}
-	
-	.step p {
-		text-align: center;
-		background-color: $dark;
-		color: $bg;
-	}
-	
-	#outro {
-		height: 640px;
-	}
-=======
 }
 
 .step:last-child {
@@ -113,4 +51,3 @@ figure {
 #outro {
 	height: 640px;
 }
->>>>>>> parent of af294d5... bubble chart works, all other charts show up, paragraphs light up, but no scrolly on other sections
