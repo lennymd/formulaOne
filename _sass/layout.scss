@@ -1,13 +1,14 @@
-// .p__header{
-// 	width: 100%;
-// 	height: $gap * 10;
-// 	background-color: $warm_red;
-// }
-// .filler {
-// 	width: 100%;
-// 	height: 800px;
-// 	background-color: $green;
-// }
+.p__header{
+	width: 100%;
+	height: $gap * 10;
+	background-color: $warm_red;
+}
+
+.filler {
+	width: 100%;
+	height: 100vh;
+	background-color: $blue;
+}
 
 * {
 	box-sizing: border-box;
@@ -24,11 +25,11 @@ body {
 	font-family: sans-serif;
 	min-height: 1280px;
 	background-color: $bg;
-
 	p {
 		max-width: 60rem;
 	}
 }
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -40,6 +41,7 @@ main {
 							"conclusion";
 	grid-gap: $gap;
 }
+
 
 #page_header {
 	grid-area: head;
@@ -73,19 +75,15 @@ header {
 	}
 	#byline {
 		font-size: 0.75rem;
+		margin: 0;
 	}
 }
-.row {
-	min-width: 300px;
-	max-width: 60rem;
-	margin: 0 auto;
-}
 
-article.prose {
-	font-size: 1rem;
+.prose {
 	padding: 0 $gap;
-	margin-top: 2*$gap;
+	min-width: 300px;
 	max-width: 33rem;
+	margin: 2* $gap auto 0 auto;
 }
 
 .section__hed {

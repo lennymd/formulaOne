@@ -1,46 +1,84 @@
-<section class="row">
-	<h2 class="section__hed">Most wins in season</h2>
-	<article class="prose">
-			<p>One way to look for the best championship season is to compare how many races each constructor's drivers won in their championship runs. In Formula One, as in other racing sports, finishing first is the holy grail. The best championship run for a constructor would be one where their team wins every race.</p>
-	</article>
-	<section class="scrolly_overlay">
-		<section class="scrolly" id="scrolly_wins">
-			<figure id="win_plot">
-			</figure>
-			<article>
-			<div class="step" section-index="1" data-step='1'>
-			<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='2'>
-				<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='3'>
-				<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='4'>
-				<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			</article>
-			<section id="outro"></section>
-		</section>
-	</section>
-	<section class="scrolly" id="scrolly_wins">
-		<figure id="win_plot">
-		</figure>
-		<article>
-			<div class="step" section-index="1" data-step='1'>
-				<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='2'>
-					<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='3'>
-					<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-			<div class="step" section-index="1" data-step='4'>
-					<p>These 33 drivers drove for the same 16 teams.</p>
-			</div>
-		</article>
-		<section id="outro"></section>
-	</section>
+<section class="method_intro" id="m1_intro">
+	<h2 class="subhed method_step">Method 01: Races won in season</h2>
+	<p>One way to look for the best championship season is to compare how many races the constructors's drivers won in their championship runs.</p>
 </section>
+
+	<section class="scrolly-overlay">
+
+		<div class="scrolly">
+			
+			<!--  sticky graphic   -->
+
+			<figure class="sticky" id="m1">
+			</figure>
+
+			<!--  step text   -->
+			<article>
+				<!-- <div class="step" data-index="0">&nbsp;</div> -->
+				<div class="step" data-index="0">
+					<p>Looking at just this, we can see that Mercedes's 2014–2016 performance was quite strong, securing the first 3 spots.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>In these three years, Mercedes drivers Lewis Hamilton and Nico Rosberg won 51 of the 59 races, finishing first and second in the drivers's cup each year.</p>
+					<figure id="drivers-mercedes" class="picture_section">
+						<img src="https://via.placeholder.com/250x375/000000" alt="Nico Rosberg, 2016">
+						<img src="https://via.placeholder.com/250x375/000000" alt="Lewis Hamilton, 2016">
+					</figure>
+					<span class="nb">add driver pictures + figure captions</span>
+				</div>
+				<div class="step" data-index="0">
+					<p>While looking at the number of wins in a season is a good place to start, we still can't make a great comparison. In 2016, when Mercedes won 19 of the season's races, there were 21 races. In 2014 and 2015 there were 19 races in each season. If we look at the runs right behind these, McLaren's 1988 run and Ferrari's 2002 and 2004 runs, there were 16, 17, and 18 races in each season respectively.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>If we look all the way to the inagural season, 1950, there were only 7 races.</p>
+				</div>
+
+				<div class="step" data-index="0">
+					<p>If we want to properly compare the number of wins a constructor had in a season, we have to account for the different number of races in each season.</p>
+					<p>We can do this by dividing the number of wins in each run by the number of races in that season. For Mercedes's 2016 run it would be:<br>
+						$$ \frac{wins}{races} = \frac{19}{21} = 0.904761905 $$
+					</p>
+				</div>
+				<div class="step" data-index="1">
+					<p>Doing this for all the runs,</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>Looking at things now, Mercedes's 2016 run is narrowly pushed to second by McLaren's 1988 run.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>In 1988, McLaren got the closest to having a perfect season. Drivers Alain Prost and Ayrton Senna won every race in the season except the 1988 Italian Grand Prix.</p>
+					<figure id="drivers-mclaren" class="picture_section">
+						<img src="https://via.placeholder.com/250x375/171717" alt="Alain Prost, 1988">
+						<img src="https://via.placeholder.com/250x375/171717" alt="Ayrton Senna, 1988">
+					</figure>
+					<span class="nb">add driver pictures + figure captions</span>
+				</div>
+				<div class="step" data-index="0">
+					<p>In the Italian Grand Prix that year, Senna had pole position and Prost was second on the grid, but they did not manage to win. Prost was forced to retire due to engine problems, and Senna, after leading for 49 laps and with only two laps to go, had a collision with a Williams' driver and finished tenth.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>In spite of the loss at the Italian Grand Prix, Senna and Prost had a remarkable season, winning 8 and 7 races respectively.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>Similarly, Rosberg and Hamilton won 9 and 10 races in their 2016 championship run.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>Behind McLaren's 1988 and Mercedes's 2016 runs is Ferrari's 2002 run. In 2002, Michael Schumacher and Rubens Barrichello won 15 of the season's 17 races.</p>
+				</div>
+				<div class="step" data-index="0">
+					<p>Fourteen of their wins that year were in the robust  Ferrari F2002.<br><a href="https://www.youtube.com/watch?v=oHD4_esvPiQ">video of f2002 engine sounds</a></p>
+					<figure id="20002" class="picture_section">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Mschumacher_2002.jpg" alt="Ferrari F2002" style="width:85%;margin: 0 auto;">
+					</figure>
+					<span class="nb">add f2002 picture</span>
+				</div>
+				<div class="step" data-index="0">
+					<p>Looking on the other end of the spectrum, the Formula One run with the least number of wins is Williams's 1982 run. In that year, Keke Rosberg (Nico Rosberg's father) only managed to win the Swiss Grand Prix, but still ended up winning the driver's championship.</p>
+				</div>
+				<div class="step" data-index="0">
+					&nbsp;
+				</div>
+			</article>
+		</div>
+
+	</section>

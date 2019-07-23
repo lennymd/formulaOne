@@ -1,0 +1,39 @@
+.scrolly-overlay .scrolly {
+	max-width: 100rem;
+	article {
+		padding: 0;
+		max-width: 33rem;
+		margin: 2*$gap auto 0 auto;
+		position: relative;
+		.filler {
+			min-height: 90vh;
+			margin-bottom: 3rem;
+		}
+		.step {
+			min-height: 67vh;
+			margin-bottom: 15rem;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		p {
+			margin: 0;
+			padding: $gap;
+			text-align: left;
+			font-weight: 400;
+			background-color: $off-white;
+			color: $dark;
+		}
+	}
+	.outro {
+		height: 640px;
+	}
+}
+
+figure.sticky {
+	position: sticky;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	top: 0;
+}
