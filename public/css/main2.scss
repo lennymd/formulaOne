@@ -8,5 +8,13 @@ $blue: #423af9;
 $dark: #171717;
 $gap: 1.4rem;
 
-@import "working";
+@import "scrolly6";
 
+.filler {
+	height: 20rem;
+	background-color: $blue;
+}
+
+.axis_text {
+	font-size: 0.6rem;
+}

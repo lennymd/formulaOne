@@ -1,35 +1,53 @@
-#scrolly_bubble, #scrolly_wins, #scrolly_podiums, #scrolly_averages {
+.scrolly-overlay .scrolly {
 	position: relative;
-	padding: 0rem;
-
-	p {
-		padding: $gap 0;
-	}
-}
+	padding: 0rem; 
+	
 	article {
-		z-index: 1000;
-		position: relative;
 		padding: 0;
 		margin: 0 auto;
+		position: relative;
+		z-index: 8675309;
 	}
+}
+
+// .scrolly_overlay #scrolly_bubble {
+// 	position: relative;
+// 	padding: 0rem;
+// }
+
+// article {
+// 	z-index: 1000;
+// 	position: relative;
+// 	padding: 0;
+// 	margin: 0 auto;
+// }
 	
-	figure {
-		position: -webkit-sticky;
-		position: sticky;
-		left: 0;
-		width: 100%;
-		margin: 0;
-		-webkit-transform: translate3d(0, 0, 0);
-		-moz-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-	}
+figure {
+	position: -webkit-sticky;
+	position: sticky;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
 	
-	.step {
-		margin: 0 auto 2rem auto;
-		color: $dark;
-		width: 30rem;
-		padding: $gap;
+.step {
+	margin: 0 auto 2rem auto;
+	color: $dark;
+	width: 30rem;
+	padding: $gap;
+
+	&:last-child {
+		margin-bottom: 0;
 	}
+
+	.is-active p {
+		background-color: goldenrod;
+		color: #171717;
+	}
+}
 	
 	.step:last-child {
 		margin-bottom: 0;

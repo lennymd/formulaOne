@@ -5,6 +5,7 @@ function init() {
 	{% include scripts/scroller_bubble.js %}
 
 	{% include scripts/analysis.js %}
+	
 	window.addEventListener('resize', () => {
 		handleResize();
 	});

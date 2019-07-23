@@ -8,15 +8,15 @@ function resize_wins(h){
 	figure_wins.style('top', '0px');
 }
 
-function resize_podiums(h){
-	steps_podiums.style('height', h + 'px');
-	figure_podiums.style('top', '0px');
-}
+// function resize_podiums(h){
+// 	steps_podiums.style('height', h + 'px');
+// 	figure_podiums.style('top', '0px');
+// }
 
-function resize_averages(h){
-	steps_averages.style('height', h + 'px');
-	figure_averages.style('top', '0px');
-}
+// function resize_averages(h){
+// 	steps_averages.style('height', h + 'px');
+// 	figure_averages.style('top', '0px');
+// }
 
 function handleResize() {
 	var step_height = Math.floor(window.innerHeight * 0.75);
