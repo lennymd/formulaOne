@@ -32,44 +32,45 @@ body {
 	}
 }
 main {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	grid-template-columns: 1fr;
-	grid-template-areas:	"head"
-							"intro"
-							"wins"
-							"podiums"
-							"averages"
-							"conclusion";
-	grid-gap: $gap;
+	// grid-template-areas:	"head"
+	// 						"intro"
+	// 						"wins"
+	// 						"podiums"
+	// 						"averages"
+	// 						"conclusion";
+	// grid-gap: $gap;
 }
 
-#page_header {
-	grid-area: head;
-}
+// #page_header {
+// 	grid-area: head;
+// }
 
-#intro {
-	grid-area: intro;
-}
+// #intro {
+// 	grid-area: intro;
+// }
 
-#wins {
-	grid-area: wins;
-}
+// #wins {
+// 	grid-area: wins;
+// }
 
-#podiums {
-	grid-area: podiums;
-}
+// #podiums {
+// 	grid-area: podiums;
+// }
 
-#averages {
-	grid-area: averages;
-}
+// #averages {
+// 	grid-area: averages;
+// }
 
-#conclusion {
-	grid-area: conclusion;
-}
+// #conclusion {
+// 	grid-area: conclusion;
+// }
 
 header {
 	text-align: center;
-
+	margin: 0 0.9*$gap;
 	#title {
 		margin-bottom: 0;
 		font-size: 2.2rem;
@@ -80,9 +81,9 @@ header {
 }
 article.prose {
 	font-size: 1rem;
-	padding: 0 $gap;
+	// padding: 0 $gap;
 	margin: 2*$gap auto 0 auto;
-	max-width: $max_width;
+	width: $max_width;
 }
 
 .section__hed {

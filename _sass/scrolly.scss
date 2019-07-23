@@ -29,8 +29,7 @@ figure {
 .step {
 	margin: 0 auto 2rem auto;
 	color: $dark;
-	width: 30rem;
-	padding: 0 $gap;
+	width: $max_width;
 
 	&:last-child {
 		margin-bottom: 0;
@@ -42,7 +41,8 @@ figure {
 	}
 
 	p {
-		tex-align: left;
+		padding: $gap;
+		text-align: center;
 		background-color: $dark;
 		color: $bg;
 	}
