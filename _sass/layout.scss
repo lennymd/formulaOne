@@ -81,9 +81,9 @@ header {
 }
 article.prose {
 	font-size: 1rem;
-	// padding: 0 $gap;
+	padding: 0 $gap;
 	margin: 2*$gap auto 0 auto;
-	width: $max_width;
+	width: $text_width;
 }
 
 .section__hed {

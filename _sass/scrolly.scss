@@ -4,7 +4,7 @@
 	padding: 0rem;
 
 	p {
-		padding: $gap 0;
+		padding: $gap 0;	
 	}
 }
 
@@ -30,21 +30,21 @@ figure {
 	margin: 0 auto 2rem auto;
 	color: $dark;
 	width: $max_width;
-
 	&:last-child {
 		margin-bottom: 0;
 	}
 	
-	.is-active p {
+	&.is-active p {
 		background-color: goldenrod;
 		color: $dark;
 	}
 
 	p {
-		padding: $gap;
+		// padding: $gap;
 		text-align: center;
 		background-color: $dark;
 		color: $bg;
+		width: $max_width;
 	}
 }
 

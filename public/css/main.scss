@@ -8,5 +8,6 @@ $blue: #423af9;
 $dark: #171717;
 $gap: 1.4rem;
 $max_width: 33rem;
+$text_width: $max_width - 3rem;
 
 @import "layout", "scrolly";
