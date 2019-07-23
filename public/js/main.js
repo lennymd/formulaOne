@@ -31,7 +31,7 @@ function handleResize() {
 
 function setupStickyfill() {
 	// add stickyfill to all the figures
-	d3.selectAll('figure').each(() => Stickyfill.add(this));
+	// d3.selectAll('figure').each(() => Stickyfill.add(this));
 }
 
 function init() {
@@ -53,6 +53,7 @@ function init() {
 		.onStepExit(stepExit_bubble);
 	
 	
+		
 	// load wins stuff
 	d3.csv("public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
 		var win_analysis = new sucker_chart({

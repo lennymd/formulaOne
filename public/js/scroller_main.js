@@ -16,3 +16,28 @@ var row_converter = function(d) {
 		rank_p_average: +d.rank_p_average
 	}
 };
+
+
+function stepEnter_wins(response) {
+
+}
+
+function stepExit_wins(response) {
+	
+}
+
+function stepEnter_podiums(response) {
+
+}
+
+function stepExit_podiums(response) {
+	
+}
+
+function stepEnter_averages(response) {
+
+}
+
+function stepExit_averages(response) {
+	
+}

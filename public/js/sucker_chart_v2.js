@@ -25,7 +25,7 @@ class sucker_chart {
 		// Set up the place we're drawing the plot and also create the SVG.
 		var anchor = d3.select(this.element);
 		// clear whatever was in the anchor before 
-		anchor.html("");
+		// anchor.html("");
 
 
 		this.svg = anchor.append("svg")
