@@ -2,8 +2,9 @@
 		var main = d3.select('main');
 		var scrolly = main.select('#scrolly_bubbles');
 		var figure = scrolly.select('figure');
-		var article = scrolly.select('article');
-		var step = article.selectAll('.step');
+		var step = scrolly.selectAll("article .step");
+		// var article = scrolly.select('article');
+		// var step = article.selectAll('.step');
 
 		// initialize the scrollama
 		var scroller = scrollama();
@@ -14,11 +15,11 @@
 			var stepH = Math.floor(window.innerHeight * 0.75);
 			step.style('height', stepH + 'px');
 
-			var figureHeight = window.innerHeight;
+			var figureWidth= window.innerWidth;
 			var figureMarginTop = 0;
 
 			figure
-				// .style('height', figureHeight + 'px')
+				.style('width', figureWidth + 'px')
 				.style('top', figureMarginTop + 'px');
 
 
@@ -48,7 +49,7 @@
 		}
 
 		function setupStickyfill() {
-			d3.selectAll('.sticky').each(function () {
+			d3.selectAll('figure').each(function () {
 				Stickyfill.add(this);
 			});
 		}
