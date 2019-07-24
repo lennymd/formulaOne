@@ -6,10 +6,10 @@ var scrolly0 = main.select("#scrolly_bubbles"),
 	steps_bubbles = scrolly0.select("article")
 							.selectAll(".step");
 
-// var scrolly1 = main.select("#scrolly_wins"),
-// 	figure_wins = scrolly1.select("figure"),
-// 	steps_wins = scrolly1.select("article")
-// 						.selectAll(".step");
+var scrolly1 = main.select("#scrolly_wins"),
+	figure_wins = scrolly1.select("figure"),
+	steps_wins = scrolly1.select("article")
+						.selectAll(".step");
 
 var scroller_drivers = scrollama(),
 	scroller_wins = scrollama();
@@ -19,6 +19,7 @@ function handleResize() {
 	// this should handle window size changing
 	var h = Math.floor(window.innerHeight * 0.75);
 	steps_bubbles.style('height', h + 'px');
+	steps_wins.style("height", h + "px");
 	var figureWidth= window.innerWidth;
 	var figureMarginTop = 0;
 
@@ -64,9 +65,9 @@ function init() {
 		})
 
 		scroller_wins.setup({
-			step:"#scrolly_win article .step",
-			offset: 0.5,
-			debug: false
+			step:"#scrolly_wins article .step",
+			offset: 0.3,
+			debug: true
 		})
 			.onStepEnter(stepEnter_bubble)
 			.onStepExit(stepExit_bubble);
