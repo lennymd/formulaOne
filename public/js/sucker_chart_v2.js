@@ -28,12 +28,13 @@ class sucker_chart {
 		var anchor = d3.select(this.element);
 		// clear whatever was in the anchor before 
 		// anchor.html("");
-
+		var w = this.width + this.margin.left + this.margin.right;
+		var h = this.height + this.margin.top + this.margin.bottom
 
 		this.svg = anchor.append("svg")
-					.attr("width", this.width + this.margin.left + this.margin.right)
-					.attr("height", this.height + this.margin.top + this.margin.bottom)
-					// .attr("viewBox", `0 0 ${this.width} ${this.height}`)
+					// .attr("width", this.width + this.margin.left + this.margin.right)
+					// .attr("height", this.height + this.margin.top + this.margin.bottom)
+					.attr("viewBox", `0 0 ${w} ${h}`)
 					.attr("class", "sucker_chart")
 					.append('g')
 					.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
