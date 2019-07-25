@@ -5,33 +5,13 @@ class sucker_chart {
 		this.data = opts.plot_data;
 		this.element = opts.element;
 		this.x = opts.x;
-		// this.col_y = opts.y;
+		this.y = opts.y;
 		this.rank = "rank_" + this.x;
 		this.filter = opts.filter + 1;
 		this.ascending = opts.ascending;
 		this.normalize = false;
+		
 		this.sort(this.x);
-
-		this.color = d3.scaleOrdinal()
-			.domain(
-				["Ferrari", "McLaren",
-					"Williams", "Mercedes",
-					"Lotus", "Red Bull",
-					"Brabham", "Renault",
-					"Cooper", "Benetton",
-					"Tyrrell", "Alfa Romeo",
-					"BRM", "Matra",
-					"Brawn GP", "Maserati"]
-			)
-			.range(
-				["#DC0300", "#FB8703",
-					"#FFFFFF", "#2ED2BE",
-					"#555555", "#2041FF",
-					"#F4D258", "#FDF503",
-					"#004225", "#2086C0",
-					"#800080", "#9B0502",
-					"#8b4513", "#f08080",
-					"#80f080", "#ff682a"]);
 	}
 
 	draw() {
@@ -51,14 +31,14 @@ class sucker_chart {
 
 
 		this.svg = anchor.append("svg")
-					.attr("viewBox", `0 0 ${this.width} ${this.height}`)
-					.style("width", "100%")
-					.style("height", "auto")
+					.attr("width", this.width + this.margin.left + this.margin.right)
+					.attr("height", this.height + this.margin.top + this.margin.bottom)
+					// .attr("viewBox", `0 0 ${this.width} ${this.height}`)
 					.attr("class", "sucker_chart")
 					.append('g')
 					.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 		
-		this.data = this.data.filter(d => d[this.rank] < this.filter);
+		this.data = this.data.filter((d) => d[this.rank] < this.filter);
 
 		this.create_scales();
 		this.create_axes();
@@ -81,7 +61,7 @@ class sucker_chart {
 							.range([0, this.width]);
 		
 		this.y_scale = d3.scaleBand()
-							.domain(this.data.map( (d) => d.run_id))
+							.domain(this.data.map( (d) => d[this.y]))
 							.range([0, this.height])
 							.padding(5);
 	}
@@ -104,30 +84,50 @@ class sucker_chart {
 	}
 
 	create_shapes() {
-		
+		this.color = d3.scaleOrdinal()
+			.domain(
+				["Ferrari", "McLaren",
+					"Williams", "Mercedes",
+					"Lotus", "Red Bull",
+					"Brabham", "Renault",
+					"Cooper", "Benetton",
+					"Tyrrell", "Alfa Romeo",
+					"BRM", "Matra",
+					"Brawn GP", "Maserati"]
+			)
+			.range(
+				["#DC0300", "#FB8703",
+					"#FFFFFF", "#2ED2BE",
+					"#555555", "#2041FF",
+					"#F4D258", "#FDF503",
+					"#004225", "#2086C0",
+					"#800080", "#9B0502",
+					"#8b4513", "#f08080",
+					"#80f080", "#ff682a"]);
+
 		var lines = this.svg.selectAll("lines")
 						.data(this.data)
 						.enter()
 						.append("line")
 						.attr("x1", (d) => this.x_scale(d[this.x]))
 						.attr("x2", this.x_scale(0))
-						.attr("y1", (d) => this.y_scale(d.run_id))
-						.attr("y2", (d) => this.y_scale(d.run_id))
+						.attr("y1", (d) => this.y_scale(d[this.y]))
+						.attr("y2", (d) => this.y_scale(d[this.y]))
 						.attr("stroke-width", "3")
 						.attr("stroke", "black")
-						.attr("class", d => "line "+ d.team.toLowerCase());
+						.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
 		var circles = this.svg.selectAll("circles")
 							.data(this.data)
 							.enter()
 							.append("circle")
-							.attr("cx", d => this.x_scale(d[this.x]))
-							.attr("cy", d => this.y_scale(d.run_id))
+							.attr("cx", (d) => this.x_scale(d[this.x]))
+							.attr("cy", (d) => this.y_scale(d[this.y]))
 							.attr("r", "10")
-							.style("fill", d => this.color(d.team))
+							.style("fill", (d) => this.color(d.team))
 							.attr("stroke-width", "1")
-							.attr("stroke", "#171717"})
-							.attr("class", d => "circle " + d.team.toLowerCase());
+							.attr("stroke", "#171717")
+							.attr("class", (d) => "circle " + d.team.toLowerCase());
 	}
 
 	set_data(new_data) {
@@ -136,7 +136,7 @@ class sucker_chart {
 	}
 
 	sort(column) {
-		let sorted;
+		var sorted;
 		if (this.ascending) {
 			sorted = this.data.sort((b, a) => {
 				b[column] - a[column]

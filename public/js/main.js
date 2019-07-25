@@ -16,9 +16,15 @@ var scrolly2 = main.select("#scrolly_podiums"),
 	steps_podiums = scrolly2.select("article")
 							.selectAll(".step");
 
+var scrolly3 = main.select("#scrolly_averages"),
+	figure_averages = scrolly3.select("figure"),
+	steps_averages = scrolly3.select("article")
+							.selectAll(".step");
+
 var scroller_drivers = scrollama(),
 	scroller_wins = scrollama(),
-	scroller_podiums = scrollama();
+	scroller_podiums = scrollama(),
+	scroller_averages = scrollama();
 
 
 function handleResize() {
@@ -27,6 +33,7 @@ function handleResize() {
 	steps_bubbles.style('height', h + 'px');
 	steps_wins.style("height", h + "px");
 	steps_podiums.style("height", h + "px");
+	steps_averages.style("height", h + "px");
 
 	var figureWidth= window.innerWidth;
 	var figureMarginTop = 0;
@@ -42,10 +49,15 @@ function handleResize() {
 	figure_podiums
 		.style('width', figureWidth + 'px')
 		.style('top', figureMarginTop + 'px');
+	
+	figure_averages
+		.style('width', figureWidth + 'px')
+		.style('top', figureMarginTop + 'px');
 
 	scroller_drivers.resize();
 	scroller_wins.resize();
 	scroller_podiums.resize();
+	scroller_averages.resize();
 }
 
 function setupStickyfill() {
@@ -78,15 +90,32 @@ function init() {
 			plot_data: dataset,
 			element: "#win_plot",
 			x: "wins",
-			y: "run_id"
+			y: "run_id",
+			filter: 10,
+			ascending: true
 		})
 
 		var podium_analysis = new sucker_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
 			x: "podiums",
-			y: "run_id"
+			y: "run_id",
+			filter: 10,
+			ascending: false
 		})
+
+		var averages_analysis = new sucker_chart({
+			plot_data: dataset,
+			element: "#averages_plot",
+			x: "p_average",
+			y: "run_id",
+			filter: 10,
+			ascending: true
+		})
+
+		// win_analysis.sort("wins");
+		// podium_analysis.sort("podiums");
+		// averages_analysis.sort("p_average");
 
 		scroller_wins.setup({
 			step:"#scrolly_wins article .step",
@@ -103,6 +132,14 @@ function init() {
 		})
 			.onStepEnter(stepEnter_bubble)
 			.onStepExit(stepExit_bubble);
+		
+		scroller_averages.setup({
+				step:"#scrolly_averages article .step",
+				offset: 0.5,
+				debug: false
+			})
+				.onStepEnter(stepEnter_bubble)
+				.onStepExit(stepExit_bubble);
 
 	})
 
