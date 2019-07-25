@@ -5,7 +5,7 @@ class sucker_chart {
 		this.data = opts.plot_data;
 		this.element = opts.element;
 		this.x = opts.x;
-		this.y = opts.y;
+		this.y = "run_id";
 		this.rank = "rank_" + this.x;
 		this.filter = opts.filter + 1;
 		this.ascending = opts.ascending;
@@ -138,13 +138,9 @@ class sucker_chart {
 	sort(column) {
 		var sorted;
 		if (this.ascending) {
-			sorted = this.data.sort((b, a) => {
-				b[column] - a[column]
-			})
+			sorted = this.data.sort((b, a) => b[column] - a[column]);
 		} else {
-			sorted = this.data.sort((b, a) => {
-				a[column] - b[column]
-			})
+			sorted = this.data.sort((b, a) => a[column] - b[column]);
 		}
 
 		this.set_data(sorted);

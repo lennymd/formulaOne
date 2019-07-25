@@ -90,16 +90,14 @@ function init() {
 			plot_data: dataset,
 			element: "#win_plot",
 			x: "wins",
-			y: "run_id",
 			filter: 10,
-			ascending: true
+			ascending: false
 		})
 
 		var podium_analysis = new sucker_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
 			x: "podiums",
-			y: "run_id",
 			filter: 10,
 			ascending: false
 		})
@@ -108,7 +106,6 @@ function init() {
 			plot_data: dataset,
 			element: "#averages_plot",
 			x: "p_average",
-			y: "run_id",
 			filter: 10,
 			ascending: true
 		})
