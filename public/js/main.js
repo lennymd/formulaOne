@@ -66,8 +66,8 @@ function init() {
 
 		scroller_wins.setup({
 			step:"#scrolly_wins article .step",
-			offset: 0.3,
-			debug: true
+			offset: 0.5,
+			debug: false
 		})
 			.onStepEnter(stepEnter_bubble)
 			.onStepExit(stepExit_bubble);

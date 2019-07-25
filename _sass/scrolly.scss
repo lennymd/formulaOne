@@ -40,7 +40,7 @@ figure {
 		margin-bottom: 0;
 	}
 	
-	.is-active p {
+	&.is-active p {
 		background-color: goldenrod;
 		color: $dark;
 	}
