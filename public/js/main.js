@@ -30,10 +30,10 @@ var scroller_drivers = scrollama(),
 function handleResize() {
 	// this should handle window size changing
 	var h = Math.floor(window.innerHeight * 0.75);
-	steps_bubbles.style('height', h + 'px');
-	steps_wins.style("height", h + "px");
-	steps_podiums.style("height", h + "px");
-	steps_averages.style("height", h + "px");
+	steps_bubbles.style('min-height', h + 'px');
+	steps_wins.style("min-height", h + "px");
+	steps_podiums.style("min-height", h + "px");
+	steps_averages.style("min-height", h + "px");
 
 	var figureWidth= window.innerWidth;
 	var figureMarginTop = 0;
@@ -119,7 +119,7 @@ function init() {
 				console.log(section, index, "enter");
 				if (index === 1) {
 					//update to be about win percentages
-					win_analysis.update("win_percentage", true);
+					win_analysis.update("win_percentage", true, 10);
 				}
 			} else {
 				console.log("wrong section");

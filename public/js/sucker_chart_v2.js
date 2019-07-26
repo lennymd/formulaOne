@@ -8,7 +8,7 @@ class sucker_chart {
 		this.x = opts.x;
 		this.y = "run_id";
 		this.rank = "rank_" + this.x;
-		this.filter = opts.filter + 1;
+		this.filter = opts.filter;
 		this.normalize = false;
 		this.duration = 1000;
 
@@ -16,8 +16,8 @@ class sucker_chart {
 		this.init();
 	}
 	organize_data() {
-		let sorted_data = this.data.sort((b, a) => b[this.rank] - a[this.rank]);
-		this.data = sorted_data.filter((d) => d[this.rank] < this.filter);
+		let sorted_data = this.base_data.sort((b, a) => b[this.rank] - a[this.rank]);
+		this.data = sorted_data.filter((d) => d[this.rank] < this.filter + 1);
 	}
 	init() {
 		this.margin = {
@@ -33,21 +33,20 @@ class sucker_chart {
 		var anchor = d3.select(this.element);
 		// clear whatever was in the anchor before 
 		// anchor.html("");
-		var w = this.width + this.margin.left + this.margin.right;
-		var h = this.height + this.margin.top + this.margin.bottom
+		this.w = this.width + this.margin.left + this.margin.right;
+		this.h = this.height + this.margin.top + this.margin.bottom
 
 		this.svg = anchor.append("svg")
 					// .attr("width", this.width + this.margin.left + this.margin.right)
 					// .attr("height", this.height + this.margin.top + this.margin.bottom)
-					.attr("viewBox", `0 0 ${w} ${h}`)
-					.attr("class", "sucker_chart")
+					.attr("viewBox", `0 0 ${this.w} ${this.h}`)
 					.append('g')
 					.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 		
 		// sort by ascending rank, and then filter to the top n 
 
 
-		this.organize_data();
+		this.organize_data(this.filter);
 		this.create_scales();
 		this.create_axes();
 		this.create_shapes();
@@ -65,8 +64,10 @@ class sucker_chart {
 		}
 
 		this.x_scale = d3.scaleLinear()
-							.domain([0, k])
-							.range([0, this.width]);
+							.domain([k*0.5, k])
+							.range([0, this.width])
+							.clamp(true)
+							.nice();
 		
 		this.y_scale = d3.scaleBand()
 							.domain(this.data.map( (d) => d[this.y]))
@@ -113,7 +114,7 @@ class sucker_chart {
 					"#8b4513", "#f08080",
 					"#80f080", "#ff682a"]);
 
-		this.lines = this.svg.selectAll("lines")
+		var lines = this.svg.selectAll("lines")
 						.data(this.data)
 						.enter()
 						.append("line")
@@ -125,7 +126,7 @@ class sucker_chart {
 						.attr("stroke", "black")
 						.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
-		this.circles = this.svg.selectAll("circles")
+		var circles = this.svg.selectAll("circles")
 							.data(this.data)
 							.enter()
 							.append("circle")
@@ -166,25 +167,18 @@ class sucker_chart {
 		this.sort(this.x);
 	}
 
-	update(column, normalize) {
+	update(column, normalize, filter) {
 		// set new data
 		this.x = column;
 		this.rank = "rank_" + this.x;
 		this.normalize = normalize;
+		this.filter = filter;
+
+		// filter out data for the graphic
 		this.organize_data();
 
-		// compute new max for the chart
-		let k;
-		if (this.normalize) {
-			k = 100;
-		} else {
-			k = Math.floor(
-					d3.max(this.data, (d) => d[this.x]) * 1.2
-				);
-		}
-
-		//update x-scale domain
-		this.x_scale.domain([0, k]);
+		// update the x-scale and y-scale
+		this.create_scales();
 
 		// update the x-axis
 		this.svg.select(".x.axis")
@@ -192,14 +186,61 @@ class sucker_chart {
 				.duration(this.duration)
 				.call(d3.axisTop(this.x_scale))
 
+		this.svg.select(".y.axis")
+				.transition()
+				.duration(this.duration)
+				.call(d3.axisLeft(this.y_scale))
+
 		// update circles
+		var circles = this.svg.selectAll("circle")
+								.data(this.data);
+		
+		var lines = this.svg.selectAll("lines")
+							.data(this.data);
+		
+		lines.enter()
+				.append("line")
+				.append("line")
+				.attr("x1", this.x_scale(this.w))
+				.attr("x2", this.x_scale(0))
+				.attr("y1", (d) => this.y_scale(d[this.y]))
+				.attr("y2", (d) => this.y_scale(d[this.y]))
+				.merge(lines)
+				.transition(0)
+				.duration(this.duration/2)
+				.attr("x1", (d) => this.x_scale(d[this.x]))
+				.attr("x2", this.x_scale(0))
+				.attr("y1", (d) => this.y_scale(d[this.y]))
+				.attr("y2", (d) => this.y_scale(d[this.y]))
+				.attr("stroke-width", "3")
+				.attr("stroke", "black")
+				.attr("class", (d) => "line "+ d.team.toLowerCase());
+		
+		lines.exit()
+				.transition(0)
+				.duration(this.duration/2)
+				.attr("x1", this.x_scale(0))
+				.attr("x2", this.x_scale(0))
+				.remove();
 
-		this.svg.selectAll("circle")
-			.data(this.data)
-			.transition()
-			.duration(this.duration)
-			.
+		circles.enter()
+				.append("circle")
+				.attr("cx", this.x_scale(0))
+				.merge(circles)
+				.transition(0)
+				.duration(this.duration/2)
+				.attr("cx", (d) => this.x_scale(d[this.x]))
+				.attr("cy", (d) => this.y_scale(d[this.y]))
+				.style("fill", (d) => this.color(d.team))
+				.attr("class", (d) => "circle " + d.team.toLowerCase())
+				.style("fill", (d) => this.color(d.team));
 
+		
+		circles.exit()
+				.transition(0)
+				.duration(this.duration/2)
+				.attr("cx", this.x_scale(this.w))
+				.remove();
 
 		// update x-scale
 		// redo x-axis
