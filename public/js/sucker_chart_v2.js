@@ -191,17 +191,15 @@ class sucker_chart {
 				.duration(this.duration)
 				.call(d3.axisLeft(this.y_scale))
 
-		// update circles
 		var circles = this.svg.selectAll("circle")
 								.data(this.data);
 		
-		var lines = this.svg.selectAll("lines")
+		var lines = this.svg.selectAll("line")
 							.data(this.data);
 		
 		lines.enter()
 				.append("line")
-				.append("line")
-				.attr("x1", this.x_scale(this.w))
+				.attr("x1", (d) => this.x_scale(d[this.x]))
 				.attr("x2", this.x_scale(0))
 				.attr("y1", (d) => this.y_scale(d[this.y]))
 				.attr("y2", (d) => this.y_scale(d[this.y]))
@@ -209,7 +207,6 @@ class sucker_chart {
 				.transition(0)
 				.duration(this.duration/2)
 				.attr("x1", (d) => this.x_scale(d[this.x]))
-				.attr("x2", this.x_scale(0))
 				.attr("y1", (d) => this.y_scale(d[this.y]))
 				.attr("y2", (d) => this.y_scale(d[this.y]))
 				.attr("stroke-width", "3")
@@ -219,8 +216,6 @@ class sucker_chart {
 		lines.exit()
 				.transition(0)
 				.duration(this.duration/2)
-				.attr("x1", this.x_scale(0))
-				.attr("x2", this.x_scale(0))
 				.remove();
 
 		circles.enter()
