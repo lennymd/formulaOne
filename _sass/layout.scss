@@ -82,10 +82,12 @@ header {
 article.prose {
 	font-size: 1rem;
 	padding: 0 $gap;
-	margin: 2*$gap auto 0 auto;
+	margin: $gap auto 0 auto;
 	width: $text_width;
+
 }
 
 .section__hed {
 	text-align: center;
+	margin: $gap 0 $gap 0;
 }
