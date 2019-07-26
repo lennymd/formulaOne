@@ -11,10 +11,10 @@ class sucker_chart {
 		this.ascending = opts.ascending;
 		this.normalize = false;
 		
-		this.sort(this.x);
+		this.init();
 	}
 
-	draw() {
+	init() {
 		this.margin = {
 			top: 50,
 			right: 60,
