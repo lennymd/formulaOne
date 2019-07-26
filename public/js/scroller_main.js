@@ -17,27 +17,84 @@ var row_converter = function(d) {
 	}
 };
 
+function stepEnter(response) {
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
 
-function stepEnter_wins(response) {
-
+	if (section === 1 ){
+		//do stuff
+		console.log(section, index, "enter");
+		if (index === 1) {
+			//update to be about win percentages
+			win_analysis.update("win_percentage");
+		}
+	} else {
+		console.log("wrong section");
+	}
 }
 
 function stepExit_wins(response) {
-	
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
+
+	if (section === 1 ){
+		//do stuff
+		console.log(section, index, "exit");
+	} else {
+		console.log("wrong section");
+	}
 }
 
 function stepEnter_podiums(response) {
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
 
+	if (section === 2 ){
+		//do stuff
+		console.log(section, index, "enter");
+	} else {
+		console.log("wrong section");
+	}
 }
 
 function stepExit_podiums(response) {
-	
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
+
+	if (section === 2 ){
+		//do stuff
+		console.log(section, index, "exit");
+	} else {
+		console.log("wrong section");
+	}
 }
 
 function stepEnter_averages(response) {
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
 
+	if (section === 3 ){
+		//do stuff
+		console.log(section, index, "enter");
+	} else {
+		console.log("wrong section");
+	}
 }
 
 function stepExit_averages(response) {
-	
+	const element = d3.select(response.element);
+	const index = Number(element.attr("data-step"));
+	const section = Number(element.attr("section-index"));
+
+	if (section === 3 ){
+		//do stuff
+		console.log(section, index, "exit");
+	} else {
+		console.log("wrong section");
+	}	
 }

@@ -3,23 +3,28 @@ class sucker_chart {
 	constructor(opts) {
 		// these are the inputs: the data we're working with, and the element we're loading the chart into.
 		this.data = opts.plot_data;
+		this.base_data = opts.plot_data;
 		this.element = opts.element;
 		this.x = opts.x;
 		this.y = "run_id";
 		this.rank = "rank_" + this.x;
 		this.filter = opts.filter + 1;
-		this.ascending = opts.ascending;
 		this.normalize = false;
-		
+		this.duration = 1000;
+
+
 		this.init();
 	}
-
+	organize_data() {
+		let sorted_data = this.data.sort((b, a) => b[this.rank] - a[this.rank]);
+		this.data = sorted_data.filter((d) => d[this.rank] < this.filter);
+	}
 	init() {
 		this.margin = {
 			top: 50,
 			right: 60,
 			bottom: 50,
-			left: 100};
+			left: 120};
 
 		this.width = window.innerWidth - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
@@ -39,8 +44,10 @@ class sucker_chart {
 					.append('g')
 					.attr('transform', `translate(${this.margin.left},${this.margin.top})`);
 		
-		this.data = this.data.filter((d) => d[this.rank] < this.filter);
+		// sort by ascending rank, and then filter to the top n 
 
+
+		this.organize_data();
 		this.create_scales();
 		this.create_axes();
 		this.create_shapes();
@@ -106,7 +113,7 @@ class sucker_chart {
 					"#8b4513", "#f08080",
 					"#80f080", "#ff682a"]);
 
-		var lines = this.svg.selectAll("lines")
+		this.lines = this.svg.selectAll("lines")
 						.data(this.data)
 						.enter()
 						.append("line")
@@ -118,7 +125,7 @@ class sucker_chart {
 						.attr("stroke", "black")
 						.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
-		var circles = this.svg.selectAll("circles")
+		this.circles = this.svg.selectAll("circles")
 							.data(this.data)
 							.enter()
 							.append("circle")
@@ -133,7 +140,7 @@ class sucker_chart {
 
 	set_data(new_data) {
 		this.data = new_data;
-		this.draw();
+		this.init();
 	}
 
 	sort(column) {
@@ -144,7 +151,7 @@ class sucker_chart {
 			sorted = this.data.sort((b, a) => a[column] - b[column]);
 		}
 
-		this.set_data(sorted);
+		this.data = sorted;
 	}
 
 	norm(column) {
@@ -157,5 +164,47 @@ class sucker_chart {
 		this.normalize = false;
 		this.x = column;
 		this.sort(this.x);
+	}
+
+	update(column, normalize) {
+		// set new data
+		this.x = column;
+		this.rank = "rank_" + this.x;
+		this.normalize = normalize;
+		this.organize_data();
+
+		// compute new max for the chart
+		let k;
+		if (this.normalize) {
+			k = 100;
+		} else {
+			k = Math.floor(
+					d3.max(this.data, (d) => d[this.x]) * 1.2
+				);
+		}
+
+		//update x-scale domain
+		this.x_scale.domain([0, k]);
+
+		// update the x-axis
+		this.svg.select(".x.axis")
+				.transition()
+				.duration(this.duration)
+				.call(d3.axisTop(this.x_scale))
+
+		// update circles
+
+		this.svg.selectAll("circle")
+			.data(this.data)
+			.transition()
+			.duration(this.duration)
+			.
+
+
+		// update x-scale
+		// redo x-axis
+		// make new lines
+		// make new circles
+
 	}
 }

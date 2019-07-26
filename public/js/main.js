@@ -90,8 +90,7 @@ function init() {
 			plot_data: dataset,
 			element: "#win_plot",
 			x: "wins",
-			filter: 10,
-			ascending: false
+			filter: 10
 		})
 
 		var podium_analysis = new sucker_chart({
@@ -110,33 +109,55 @@ function init() {
 			ascending: true
 		})
 
-		// win_analysis.sort("wins");
-		// podium_analysis.sort("podiums");
-		// averages_analysis.sort("p_average");
+		function stepEnter(response) {
+			const element = d3.select(response.element);
+			const index = Number(element.attr("data-step"));
+			const section = Number(element.attr("section-index"));
+		
+			if (section === 1 ){
+				//do stuff
+				console.log(section, index, "enter");
+				if (index === 1) {
+					//update to be about win percentages
+					win_analysis.update("win_percentage", true);
+				}
+			} else {
+				console.log("wrong section");
+			}
+		}
+
+		function stepExit(response) {
+			const element = d3.select(response.element);
+			const index = Number(element.attr("data-step"));
+			const section = Number(element.attr("section-index"));
+		}
+
+
+
 
 		scroller_wins.setup({
 			step:"#scrolly_wins article .step",
 			offset: 0.5,
 			debug: false
 		})
-			.onStepEnter(stepEnter_bubble)
+			.onStepEnter(stepEnter)
 			.onStepExit(stepExit_bubble);
 
-		scroller_podiums.setup({
-			step:"#scrolly_podiums article .step",
-			offset: 0.5,
-			debug: false
-		})
-			.onStepEnter(stepEnter_bubble)
-			.onStepExit(stepExit_bubble);
+		// scroller_podiums.setup({
+		// 	step:"#scrolly_podiums article .step",
+		// 	offset: 0.5,
+		// 	debug: false
+		// })
+		// .onStepEnter(stepEnter_bubble)
+		// .onStepExit(stepExit_bubble);
 		
-		scroller_averages.setup({
-				step:"#scrolly_averages article .step",
-				offset: 0.5,
-				debug: false
-			})
-				.onStepEnter(stepEnter_bubble)
-				.onStepExit(stepExit_bubble);
+		// scroller_averages.setup({
+		// 		step:"#scrolly_averages article .step",
+		// 		offset: 0.5,
+		// 		debug: false
+		// 	})
+		// 	.onStepEnter(stepEnter_bubble)
+		// 	.onStepExit(stepExit_bubble);
 
 	})
 
