@@ -113,23 +113,76 @@ function init() {
 			const element = d3.select(response.element);
 			const index = Number(element.attr("data-step"));
 			const section = Number(element.attr("section-index"));
-		
-			if (section === 1 ){
-				//do stuff
-				console.log(section, index, "enter");
-				if (index === 1) {
-					//update to be about win percentages
-					win_analysis.update("win_percentage", true, 10);
+			if (response.direction === "down") {
+				if (section === 1 ){
+					//do stuff
+					// console.log(section, index, "enter");
+					if (index === 1) {
+						//update to be about win percentages
+						win_analysis.update("win_percentage", true, 10);
+					}
+				} else if (section === 2 ){
+					//do stuff
+					console.log(section, index, "enter");
+					if (index === 1) {
+						//update to be about win percentages
+						podium_analysis.update("podium_percentage", true, 10);
+					}
+				} else {
+					// section ==== 3
+					console.log("wrong section");
 				}
 			} else {
-				console.log("wrong section");
+				// direction is up
+				console.log(response.direction)
+				if (section === 1 ){
+					//do stuff
+					// console.log(section, index, "enter");
+					if (index === 0) {
+						//update to be about win percentages
+						win_analysis.update("wins", false, 10);
+
+					}
+				} else if (section === 2 ){
+					//do stuff
+					console.log(section, index, "enter");
+					if (index === 0) {
+						//update to be about win percentages
+						podium_analysis.update("podiums", false, 11);
+					}
+				} else {
+					// section ==== 3
+					console.log("wrong section");
+				}
 			}
+			
 		}
 
 		function stepExit(response) {
 			const element = d3.select(response.element);
 			const index = Number(element.attr("data-step"));
 			const section = Number(element.attr("section-index"));
+			if (response.direction === "up") {
+				if (section === 1 ){
+					//do stuff
+					// console.log(section, index, "enter");
+					if (index === 1) {
+						//update to be about win percentages
+						win_analysis.update("wins", false, 10);
+					}
+				} else if (section === 2 ){
+					//do stuff wit podiums
+					console.log(section, index, "exit");
+					if (index === 1) {
+						//update to be about win percentages
+						// podium_analysis.update("podiums", false, 10);
+					}
+				} else {
+					console.log("wrong section");
+				}
+			} else {
+				console.log(response.direction)
+			}
 		}
 
 
@@ -143,13 +196,13 @@ function init() {
 			.onStepEnter(stepEnter)
 			.onStepExit(stepExit_bubble);
 
-		// scroller_podiums.setup({
-		// 	step:"#scrolly_podiums article .step",
-		// 	offset: 0.5,
-		// 	debug: false
-		// })
-		// .onStepEnter(stepEnter_bubble)
-		// .onStepExit(stepExit_bubble);
+		scroller_podiums.setup({
+			step:"#scrolly_podiums article .step",
+			offset: 0.5,
+			debug: false
+		})
+		.onStepEnter(stepEnter)
+		.onStepExit(stepExit);
 		
 		// scroller_averages.setup({
 		// 		step:"#scrolly_averages article .step",

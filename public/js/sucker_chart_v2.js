@@ -9,8 +9,10 @@ class sucker_chart {
 		this.y = "run_id";
 		this.rank = "rank_" + this.x;
 		this.filter = opts.filter;
+		// this.filter = 99;
 		this.normalize = false;
 		this.duration = 1000;
+		this.duration_scale = 0.2;
 
 
 		this.init();
@@ -176,7 +178,7 @@ class sucker_chart {
 
 		// filter out data for the graphic
 		this.organize_data();
-
+		console.log(this.data);
 		// update the x-scale and y-scale
 		this.create_scales();
 
@@ -191,52 +193,57 @@ class sucker_chart {
 				.duration(this.duration)
 				.call(d3.axisLeft(this.y_scale))
 		
-		this.svg.select(".line")
-				.transition()
-				.duration(this.duration)
-				.remove();
+		// d3 selectors for the circles and lines
 		var circles = this.svg.selectAll("circle")
 								.data(this.data);
 		
-		var lines = this.svg.selectAll("line")
+		var lines = this.svg.selectAll(".line")
 							.data(this.data);
 		
 		lines.enter()
 				.append("line")
-				.merge(lines)
-				.transition(0)
-				.duration(this.duration/2)
-				.attr("x2", (d) => this.x_scale(d[this.x]))
 				.attr("x1", this.x_scale(0))
+				.attr("x2", this.x_scale(0))
+				.attr("y1", (d) => this.y_scale(d[this.y]))
+				.attr("y2", (d) => this.y_scale(d[this.y]))
+				.merge(lines)
+				.transition()
+				.duration(this.duration/2)
+				.attr("x1", (d) => this.x_scale(d[this.x]))
+				.attr("x2", this.x_scale(0))
 				.attr("y1", (d) => this.y_scale(d[this.y]))
 				.attr("y2", (d) => this.y_scale(d[this.y]))
 				.attr("stroke-width", "3")
 				.attr("stroke", "black")
-				.attr("class", (d) => "line2 "+ d.team.toLowerCase());
+				.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
 		lines.exit()
-				.transition(0)
-				.duration(this.duration/2)
-				.attr("x1", 0)
-				.attr("x2", this.x_scale(this.w))
-				.remove();
+			.transition()
+			.duration(this.duration/4)
+			.remove();
 
+		// update circles
 		circles.enter()
 				.append("circle")
 				.attr("cx", this.x_scale(0))
+				.attr("cy", (d) => this.y_scale(d[this.y]))
+				.attr("r", "0")
 				.merge(circles)
-				.transition(0)
+				.transition()
 				.duration(this.duration/2)
 				.attr("cx", (d) => this.x_scale(d[this.x]))
 				.attr("cy", (d) => this.y_scale(d[this.y]))
+				.attr("stroke-width", "1")
+				.attr("stroke", "#171717")
+				.attr("r", "10")
 				.style("fill", (d) => this.color(d.team))
 				.attr("class", (d) => "circle " + d.team.toLowerCase())
 				.style("fill", (d) => this.color(d.team));
 
 		
 		circles.exit()
-				.transition(0)
-				.duration(this.duration/2)
+				.transition()
+				.duration(this.duration/4)
 				// .attr("cx", this.x_scale(this.w))
 				.remove();
 
