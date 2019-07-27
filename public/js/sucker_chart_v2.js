@@ -190,7 +190,11 @@ class sucker_chart {
 				.transition()
 				.duration(this.duration)
 				.call(d3.axisLeft(this.y_scale))
-
+		
+		this.svg.select(".line")
+				.transition()
+				.duration(this.duration)
+				.remove();
 		var circles = this.svg.selectAll("circle")
 								.data(this.data);
 		
@@ -199,23 +203,22 @@ class sucker_chart {
 		
 		lines.enter()
 				.append("line")
-				.attr("x1", (d) => this.x_scale(d[this.x]))
-				.attr("x2", this.x_scale(0))
-				.attr("y1", (d) => this.y_scale(d[this.y]))
-				.attr("y2", (d) => this.y_scale(d[this.y]))
 				.merge(lines)
 				.transition(0)
 				.duration(this.duration/2)
-				.attr("x1", (d) => this.x_scale(d[this.x]))
+				.attr("x2", (d) => this.x_scale(d[this.x]))
+				.attr("x1", this.x_scale(0))
 				.attr("y1", (d) => this.y_scale(d[this.y]))
 				.attr("y2", (d) => this.y_scale(d[this.y]))
 				.attr("stroke-width", "3")
 				.attr("stroke", "black")
-				.attr("class", (d) => "line "+ d.team.toLowerCase());
+				.attr("class", (d) => "line2 "+ d.team.toLowerCase());
 		
 		lines.exit()
 				.transition(0)
 				.duration(this.duration/2)
+				.attr("x1", 0)
+				.attr("x2", this.x_scale(this.w))
 				.remove();
 
 		circles.enter()
@@ -234,7 +237,7 @@ class sucker_chart {
 		circles.exit()
 				.transition(0)
 				.duration(this.duration/2)
-				.attr("cx", this.x_scale(this.w))
+				// .attr("cx", this.x_scale(this.w))
 				.remove();
 
 		// update x-scale
