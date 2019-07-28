@@ -13,7 +13,8 @@ var row_converter = function(d) {
 		podium_percentage: +d.podium_percentage,
 		rank_podium_percentage: +d.rank_podium_percentage,
 		p_average: +d.p_average,
-		rank_p_average: +d.rank_p_average
+		rank_p_average: +d.rank_p_average,
+		distance: +d.distance
 	}
 };
 
