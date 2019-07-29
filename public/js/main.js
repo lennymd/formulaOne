@@ -29,7 +29,7 @@ var scroller_drivers = scrollama(),
 
 function handleResize() {
 	// this should handle window size changing
-	var h = Math.floor(window.innerHeight * 0.75);
+	var h = Math.floor(window.innerHeight * 0.5);
 	steps_bubbles.style('min-height', h + 'px');
 	steps_wins.style("min-height", h + "px");
 	steps_podiums.style("min-height", h + "px");

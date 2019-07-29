@@ -32,9 +32,11 @@ figure {
 }
 
 .step {
-	margin: 0 auto 6rem auto;
+	margin: 0 auto $gap*5 auto;
+	background-color: $off-white;
 	color: $dark;
 	width: $max_width;
+	padding: 0 $gap;
 	// background-color: rgba($color: #000000, $alpha: 0.2);
 	&:last-child {
 		margin-bottom: 0;
@@ -46,11 +48,8 @@ figure {
 	}
 
 	p {
-		margin-bottom: $gap * 5;
-		text-align: center;
-		background-color: $dark;
-		color: $bg;
-		width: $max_width;
+		text-align: left;
+		width: $text_width;
 	}
 }
 
