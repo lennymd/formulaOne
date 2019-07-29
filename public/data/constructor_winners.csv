@@ -1,0 +1,60 @@
+[{
+	"team": "Ferrari",
+	"counts": { "Michael Schumacher": 5, "Niki Lauda": 2, "Alberto Ascari": 2, "Juan Manuel Fangio": 1, "Jody Scheckter": 1, "John Surtees": 1, "Kimi Räikkönen": 1, "Mike Hawthorn": 1, "Phill Hill": 1 }
+},
+{
+	"team": "McLaren",
+	"counts": { "Ayrton Senna": 3, "Alain Prost": 3, "Emerson Fittipaldi": 1, "Mika Häkkinen": 1, "Niki Lauda": 1, "James Hunt": 1, "Lewis Hamilton": 1 }
+},
+{
+	"team": "Williams",
+	"counts": { "Alan Jones": 1, "Keke Rosberg": 1, "Nelson Piquet": 1, "Nigel Mansell": 1, "Alain Prost": 1, "Damon Hill": 1, "Jacques Villeneuve": 1 }
+},
+{
+	"team": "Mercedes",
+	"counts": {}
+},
+{
+	"team": "Lotus",
+	"counts": {}
+},
+{
+	"team": "Red Bull",
+	"counts": {}
+},
+{
+	team: "Brabham",
+	counts: {}
+},
+{
+	team: "Renault",
+	counts: {}
+},
+{
+	team: "Cooper",
+	counts: {}
+},
+{
+	team: "Benetton",
+	counts: { "Michael Schumacher": 2 }
+},
+{
+	team: "Tyrrell",
+	counts: {}
+},
+{
+	team: "Alfa Romeo",
+	counts: {}
+},
+{
+	team: "BRM",
+	counts: {}
+},
+{
+	team: "Matra",
+	counts: {}
+},
+{
+	team: "Brawn GP",
+	counts: {}
+}]

@@ -1,31 +1,32 @@
 .stack{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	align-items: flex-end;
 	margin: 0 auto;
-	width: 200px;
-  }
-  
-  .group{
+	width: 100%;
+}
+
+.group{
 	display: flex;
 	flex-direction: column-reverse;
-	margin: 0.5rem 0;
-	width: 45px;
+	margin: 0.5rem 1rem;
+	width: 100%/16;
 	align-items: center;
-  }
-  
-  .block{
+}
+
+.block{
 	width: 15px;
 	order: 1;
 	margin-bottom: 0rem;
-  }
-  
-  .label{
+}
+
+.label{
 	order: 0;
 	width: 50px;
 	text-align: center;
-  }
-  
-  .count{
+}
+
+.count{
 	order: 2;
-  }
+}
