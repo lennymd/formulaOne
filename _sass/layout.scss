@@ -27,14 +27,14 @@ body {
 	background-color: $bg;
 
 	p {
-		max-width: 33rem;
+		// max-width: 33rem;
 		margin: 0 auto;
 	}
 }
 main {
 	display: flex;
 	flex-direction: column;
-	grid-template-columns: 1fr;
+	// grid-template-columns: 1fr;
 	// grid-template-areas:	"head"
 	// 						"intro"
 	// 						"wins"
@@ -83,11 +83,21 @@ article.prose {
 	font-size: 1rem;
 	padding: 0 $gap;
 	margin: $gap auto 0 auto;
-	width: $text_width;
-
+	width: $max_width *1.25;
+	
+	p {
+		margin-bottom: $gap;
+	}
 }
 
 .section__hed {
 	text-align: center;
 	margin: $gap 0 $gap 0;
+}
+
+.static_chart {
+	display: block;
+	margin: $gap auto;
+	width: 75vw;
+
 }

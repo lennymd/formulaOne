@@ -79,9 +79,17 @@ class sucker_chart {
 	
 	create_axes() {
 		// add axes
+		var tick_format;
+		if (this.normalize) {
+			tick_format = ".0%"
+		} else {
+			tick_format = "0"
+		}
 		this.x_axis = this.svg.append("g")
 						.attr("class", "x axis")
-						.call(d3.axisTop(this.x_scale))
+						.call(
+							d3.axisTop(this.x_scale)
+								.tickFormat(d3.format(tick_format)))
 						.selectAll("text")
 						.attr("class", "axis_text")
 						.style("text-anchor", "center");
@@ -178,7 +186,7 @@ class sucker_chart {
 
 		// filter out data for the graphic
 		this.organize_data();
-		console.log(this.data);
+		// console.log(this.data);
 		// update the x-scale and y-scale
 		this.create_scales();
 
