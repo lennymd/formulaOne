@@ -38,39 +38,7 @@ body {
 main {
 	display: flex;
 	flex-direction: column;
-	// grid-template-columns: 1fr;
-	// grid-template-areas:	"head"
-	// 						"intro"
-	// 						"wins"
-	// 						"podiums"
-	// 						"averages"
-	// 						"conclusion";
-	// grid-gap: $gap;
 }
-
-// #page_header {
-// 	grid-area: head;
-// }
-
-// #intro {
-// 	grid-area: intro;
-// }
-
-// #wins {
-// 	grid-area: wins;
-// }
-
-// #podiums {
-// 	grid-area: podiums;
-// }
-
-// #averages {
-// 	grid-area: averages;
-// }
-
-// #conclusion {
-// 	grid-area: conclusion;
-// }
 
 header {
 	text-align: center;
@@ -111,4 +79,10 @@ article.prose {
 	margin: $gap auto;
 	width: 75vw;
 
+}
+
+figure#stacked_bar {
+	max-width: $max_width;
+	height: 100vh;
+	margin: 0 auto;
 }
