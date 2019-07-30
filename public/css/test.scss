@@ -1,0 +1,21 @@
+body {
+	font-family: 'Helvetica Neue', Helvetica; 
+	font-weight: 300; 
+	padding: 20px;
+}
+
+th {
+	text-align: left;
+}
+
+th, td {
+	padding: 0 1em 0.5ex 0;
+}
+
+th.center, td.center {
+	text-align: center;
+}
+
+th.num, td.num {
+	text-align: right;
+}
