@@ -66,7 +66,7 @@ class sucker_chart {
 		}
 
 		this.x_scale = d3.scaleLinear()
-							.domain([k*0.5, k])
+							.domain([0, k])
 							.range([0, this.width])
 							.clamp(true)
 							.nice();
