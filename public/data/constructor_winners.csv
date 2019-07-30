@@ -1,60 +1,18 @@
-[{
-	"team": "Ferrari",
-	"counts": { "Michael Schumacher": 5, "Niki Lauda": 2, "Alberto Ascari": 2, "Juan Manuel Fangio": 1, "Jody Scheckter": 1, "John Surtees": 1, "Kimi Räikkönen": 1, "Mike Hawthorn": 1, "Phill Hill": 1 }
-},
-{
-	"team": "McLaren",
-	"counts": { "Ayrton Senna": 3, "Alain Prost": 3, "Emerson Fittipaldi": 1, "Mika Häkkinen": 1, "Niki Lauda": 1, "James Hunt": 1, "Lewis Hamilton": 1 }
-},
-{
-	"team": "Williams",
-	"counts": { "Alan Jones": 1, "Keke Rosberg": 1, "Nelson Piquet": 1, "Nigel Mansell": 1, "Alain Prost": 1, "Damon Hill": 1, "Jacques Villeneuve": 1 }
-},
-{
-	"team": "Mercedes",
-	"counts": {}
-},
-{
-	"team": "Lotus",
-	"counts": {}
-},
-{
-	"team": "Red Bull",
-	"counts": {}
-},
-{
-	team: "Brabham",
-	counts: {}
-},
-{
-	team: "Renault",
-	counts: {}
-},
-{
-	team: "Cooper",
-	counts: {}
-},
-{
-	team: "Benetton",
-	counts: { "Michael Schumacher": 2 }
-},
-{
-	team: "Tyrrell",
-	counts: {}
-},
-{
-	team: "Alfa Romeo",
-	counts: {}
-},
-{
-	team: "BRM",
-	counts: {}
-},
-{
-	team: "Matra",
-	counts: {}
-},
-{
-	team: "Brawn GP",
-	counts: {}
-}]
+groups,Alain Prost,Alan Jones,Alberto Ascari,Ayrton Senna,Damon Hill,Denny Hulme,Emerson Fittipaldi,Fernando Alonso,Giuseppe Farina,Graham Hill,Jack Brabham,Jackie Stewart,Jacques Villeneuve,James Hunt,Jenson Button,Jim Clark,Jochen Rindt,Jody Scheckter,John Surtees,Juan Manuel Fangio,Keke Rosberg,Kimi Raikkonen,Lewis Hamilton,Mario Andretti,Michael Schumacher,Mika Hakkinen,Mike Hawthorn,Nelson Piquet,Nico Rosberg,Nigel Mansell,Niki Lauda,Phil Hill,Sebastian Vettel
+Ferrari,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,,1,,,5,,1,,,0,2,1,0
+McLaren,3,0,0,3,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,,,2,,,,0,1,0,0
+Mercedes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,,,4,,,,,,1,0,,,0
+Williams,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,1,,,,,,,1,,1,,,0
+Lotus,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,2,1,0,0,,,,,1,,,,,,0,,,0
+Brabham,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,,,0,0,,,,,,,,,2,,0,,,0
+Red Bull,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+Alfa Romeo,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,,,,,1,,,,,,,,,,0,,,0
+Bennetton,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0,0,,,,,,2,,,,,0,,,0
+Cooper,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,,,0,0,,,,,,,,,,,0,,,0
+Renault,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,,,0,0,,,,,,,,,,,0,,,0
+Tyrrell,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,,,,,,,,,,,,,,,0,,,0
+Brawn GP,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,,,0,0,,,,,,,,,,,0,,,0
+BRM,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,,,0,0,,,,,,,,,,,0,,,0
+Maserati,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,0,0,1,,,,,,,,,,0,,,0
+Matra,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,,,0,0,,,,,,,,,,,0,,,0
+,4,1,2,3,1,1,2,2,1,2,3,3,1,1,1,2,1,1,1,5,1,1,5,1,7,2,1,3,1,1,3,1,4

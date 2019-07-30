@@ -67,7 +67,7 @@ const constructors =[
 	
 
 	// Add a total value for each team
-	const smTotal = constructors.map(d => {
+	const countTotal = constructors.map(d => {
 		const counts = d3.entries(d.counts);
 		const total = d3.sum(counts, c => c.value);
 		return { team: d.team, counts, total };
@@ -77,7 +77,11 @@ const constructors =[
 	const scaleY = d3
 		.scaleLinear()
 		.range([0, 200])
-		.domain([0, d3.max(smTotal, d => d.total)]);
+		.domain([0, d3.max(countTotal, d => d.total)]);
+	
+	const scaleX = d3.scaleLinear()
+						.range([0,200])
+						.domain([0, d3.max(countTotal, d => d.total)])
 
 	// create a color scale for the data where Facebook is red
 	const scaleColor = d3.scaleOrdinal()
@@ -107,7 +111,7 @@ const constructors =[
 	// Add a div for each team
 	const group = stack
 		.selectAll('.group')
-		.data(smTotal)
+		.data(countTotal)
 		.enter()
 		.append('div')
 		.attr('class', 'group');
