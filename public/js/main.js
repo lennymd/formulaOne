@@ -1,145 +1,86 @@
-// initialize the big variables
-var main = d3.select("main");
 
-var scrolly1 = main.select("#scrolly_wins"),
-	figure_wins = scrolly1.select("figure"),
-	steps_wins = scrolly1.select("article").selectAll(".step");
+// using d3 for convenience
+var main = d3.select('main')
+var scrolly = main.select('#scrolly_wins');
+var figure = scrolly.select('figure');
+var article = scrolly.select('article');
+var step = article.selectAll('.step');
 
+// initialize the scrollama
+var scroller = scrollama();
 
-var scroller_wins = scrollama();
-
-
+// generic window resize listener event
 function handleResize() {
-	// this should handle window size changing
+	// 1. update height of step elements
 	var h = Math.floor(window.innerHeight * 0.75);
-	steps_wins.style("height", h + "px");
+	step.style('height', h + 'px');
 
-	var figureHeight= window.innerHeight / 2;
-	var figureMarginTop = (window.innerHeight - figureHeight) / 2;
-	
-	figure_wins
-		.style('width', figureHeight + 'px')
+	var figureHeight = window.innerHeight;
+	var figureMarginTop = (window.innerHeight - figureHeight) / 2
+
+	figure
+		.style('height', figureHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
-	scroller_wins.resize();
+
+	// 3. tell scrollama to update new element dimensions
+	scroller.resize();
 }
 
 function setupStickyfill() {
-	// add stickyfill to all the figures
-	d3.selectAll('.sticky').each(() => Stickyfill.add(this));
+	d3.selectAll('.sticky').each(function () {
+		Stickyfill.add(this);
+	});
 }
 
 function init() {
-	// do all the loading and stuff here
-
-	// run this before anything
 	setupStickyfill();
 
-	// force a resize to make sure things are most up to date
+	// 1. force a resize on load to ensure proper dimensions are sent to scrollama
 	handleResize();
 
-	// load wins stuff
-	d3.csv("public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
-		var win_analysis = new sucker_chart({
+	// 2. setup the scroller passing options
+	// 		this will also initialize trigger observations
+	// 3. bind scrollama event handlers (this can be chained like below)
+	d3.csv("../public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
+		var wins = new sucker_chart({
 			plot_data: dataset,
-			element: "#win_plot",
+			element: "#plot",
 			x: "wins",
 			filter: 10
 		})
 
+		// scrollama event handlers
 		function stepEnter(response) {
 			const element = d3.select(response.element);
 			const index = Number(element.attr("data-step"));
-			const section = Number(element.attr("section-index"));
-			if (response.direction === "down") {
-				if (section === 1 ){
-					//do stuff
-					// console.log(section, index, "enter");
-					if (index === 1) {
-						//update to be about win percentages
-						win_analysis.update("win_percentage", true, 10);
-					}
-				} else if (section === 2 ){
-					//do stuff
-					console.log(section, index, "enter");
-					if (index === 1) {
-						//update to be about win percentages
-						// podium_analysis.update("podium_percentage", true, 10);
-					}
-				} else {
-					// section ==== 3
-					console.log("wrong section");
-				}
-			} else {
-				// direction is up
-				console.log(response.direction)
-				if (section === 1 ){
-					//do stuff
-					// console.log(section, index, "enter");
-					if (index === 0) {
-						//update to be about win percentages
-						win_analysis.update("wins", false, 10);
-
-					}
-				} else if (section === 2 ){
-					//do stuff
-					console.log(section, index, "enter");
-					if (index === 0) {
-						//update to be about win percentages
-						// podium_analysis.update("podiums", false, 11);
-					}
-				} else {
-					// section ==== 3
-					console.log("wrong section");
-				}
+			const section = Number(element.attr("section-index"));	
+			// add color to current step only
+			step.classed('is-active', function (d, i) {
+				return i === response.index;
+			})
+			if (index === 3) {
+				wins.update("win_percentage", true, 10);
 			}
-			
+			// update graphic based on step
+			// figure.select('p').text(response.index + 1);
 		}
 
-		function stepExit(response) {
-			const element = d3.select(response.element);
-			const index = Number(element.attr("data-step"));
-			const section = Number(element.attr("section-index"));
-			if (response.direction === "up") {
-				if (section === 1 ){
-					//do stuff
-					// console.log(section, index, "enter");
-					if (index === 1) {
-						//update to be about win percentages
-						win_analysis.update("wins", false, 10);
-					}
-				} else if (section === 2 ){
-					//do stuff wit podiums
-					console.log(section, index, "exit");
-					if (index === 1) {
-						//update to be about win percentages
-						// podium_analysis.update("podiums", false, 10);
-					}
-				} else {
-					console.log("wrong section");
-				}
-			} else {
-				console.log(response.direction)
-			}
-		}
-
-
-
-
-		scroller_wins.setup({
-			step:"#scrolly_wins article .step",
-			offset: 0.5,
-			debug: false
-		})
-			.onStepEnter(stepEnter)
-			.onStepExit(stepExit);
+		scroller.setup({
+		step: '#scrolly_wins article .step',
+		offset: 0.5,
+		debug: false,
 	})
+		.onStepEnter(stepEnter)
 
 
+	})
+	
 
-	// resize things
+
+	// setup resize event
 	window.addEventListener('resize', handleResize);
 }
 
-// set things in motion
+// kick things off
 init();

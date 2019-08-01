@@ -1,3 +1,14 @@
+.p__header{
+	width: 100%;
+	height: $gap * 10;
+	background-color: $warm_red;
+}
+.filler {
+	width: 100%;
+	height: 800px;
+	background-color: $green;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -12,32 +23,22 @@ body {
 	min-height: 1280px;
 	color: #3b3b3b;
 	font-size: 24px;
+	background-color: $bg;
 }
 
-p, h1, h2, h3, h4, a {
+.row {
+	margin: 0% 2%;
+}
+
+
+p {
 	margin: 0;
-	font-weight: 400;
+	padding: 0 1rem;
+	font-size: 1.5rem;
+	width: $text_width;
 }
 
-#intro {
-	max-width: 40rem;
-	margin: 1rem auto;
-	text-align: center;
-}
-
-.intro__hed {
-	font-size: 2em;
-	margin: 2rem auto 0.5rem auto;
-}
-
-.intro__dek {
-	color: #8a8a8a;
-}
-
-#intro {
-	margin-bottom: 320px;
-}
-
-#outro {
+.outro {
 	height: 640px;
+	display: none;
 }

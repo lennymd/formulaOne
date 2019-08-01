@@ -1,22 +1,3 @@
----
----
-$off-white: #f4f4f4;
-$bg2: #E8E3CD;
-$bg: #f3f3f3;
-$warm_red: #f9423a;
-$green: #3af942;
-$blue: #423af9;
-$dark: #171717;
-$gap: 1.4rem;
-$max_width: 36rem;
-$text_width: $max_width - 3rem;
-
-// general
-
-@import "new_layout";
-
-
-
 // scrolly
 .scrolly {
 	position: relative;
@@ -35,7 +16,6 @@ $text_width: $max_width - 3rem;
 
 article {
 	position: relative;
-	// padding: 0 1rem;
 	max-width: 40rem;
 }
 

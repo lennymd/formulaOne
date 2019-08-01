@@ -2,7 +2,7 @@
 ---
 $off-white: #f4f4f4;
 $bg2: #E8E3CD;
-$bg: #f6f3ea;
+$bg: #f3f3f3;
 $warm_red: #f9423a;
 $green: #3af942;
 $blue: #423af9;
@@ -12,4 +12,4 @@ $max_width: 35rem;
 $text_width: $max_width - 5rem;
 
 // @import "layout", "scrolly2";
-@import "general", "scrolly2";
+@import "new_layout", "scrolly_side";
