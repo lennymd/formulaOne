@@ -1,5 +1,6 @@
 // scrolly
 .scrolly {
+	margin-top: $gap*1.75;
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -32,7 +33,7 @@ figure {
 .step {
 	margin: 0 auto;
 	color: $dark;
-	padding: 0 2*$gap;
+	padding: 0 1*$gap;
 	&:last-child {
 		margin-bottom: 0;
 	}

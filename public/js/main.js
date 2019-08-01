@@ -37,7 +37,7 @@ var scroller_podiums = scrollama();
 // generic window resize listener event
 function handleResize() {
 	// 1. update height of step elements
-	var h = Math.floor(window.innerHeight * 0.75);
+	var h = Math.floor(window.innerHeight * 0.5);
 	step1.style('min-height', h + 'px');
 	step2.style("min-height", h + "px");
 
