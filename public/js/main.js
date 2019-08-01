@@ -93,21 +93,21 @@ function init() {
 			filter: 10
 		})
 
-		var podium_analysis = new sucker_chart({
-			plot_data: dataset,
-			element: "#podium_plot",
-			x: "podiums",
-			filter: 10,
-			ascending: false
-		})
+		// var podium_analysis = new sucker_chart({
+		// 	plot_data: dataset,
+		// 	element: "#podium_plot",
+		// 	x: "podiums",
+		// 	filter: 10,
+		// 	ascending: false
+		// })
 
-		var averages_analysis = new sucker_chart({
-			plot_data: dataset,
-			element: "#averages_plot",
-			x: "p_average",
-			filter: 10,
-			ascending: true
-		})
+		// var averages_analysis = new sucker_chart({
+		// 	plot_data: dataset,
+		// 	element: "#averages_plot",
+		// 	x: "p_average",
+		// 	filter: 10,
+		// 	ascending: true
+		// })
 
 		function stepEnter(response) {
 			const element = d3.select(response.element);
@@ -196,13 +196,13 @@ function init() {
 			.onStepEnter(stepEnter)
 			.onStepExit(stepExit);
 
-		scroller_podiums.setup({
-			step:"#scrolly_podiums article .step",
-			offset: 0.5,
-			debug: false
-		})
-		.onStepEnter(stepEnter)
-		.onStepExit(stepExit);
+		// scroller_podiums.setup({
+		// 	step:"#scrolly_podiums article .step",
+		// 	offset: 0.5,
+		// 	debug: false
+		// })
+		// .onStepEnter(stepEnter)
+		// .onStepExit(stepExit);
 		
 		// scroller_averages.setup({
 		// 		step:"#scrolly_averages article .step",
