@@ -24,11 +24,11 @@ class sucker_chart {
 	init() {
 		this.margin = {
 			top: 50,
-			right: 60,
-			bottom: 50,
-			left: 120};
+			right: 50,
+			bottom: 0,
+			left: 100};
 
-		this.width = window.innerWidth - this.margin.left - this.margin.right;
+		this.width = window.innerWidth/2 - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
 		
 		// Set up the place we're drawing the plot and also create the SVG.
