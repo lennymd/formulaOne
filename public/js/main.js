@@ -1,3 +1,22 @@
+// row converter for main data 
+var row_converter = function(d) {
+	return {
+		run_id: d.run_id,
+		year: +d.year,
+		team: d.team,
+		wins: +d.wins,
+		rank_wins: +d.rank_win,
+		win_percentage: +d.win_percentage,
+		rank_win_percentage: +d.rank_win_percentage,
+		podiums: +d.podium_spots_claimed,
+		rank_podiums: +d.rank_podiums,
+		podium_percentage: +d.podium_percentage,
+		rank_podium_percentage: +d.rank_podium_percentage,
+		p_average: +d.p_average,
+		rank_p_average: +d.rank_p_average,
+		distance: +d.distance
+	}
+};
 
 // using d3 for convenience
 var main = d3.select('main')
@@ -13,7 +32,7 @@ var scroller = scrollama();
 function handleResize() {
 	// 1. update height of step elements
 	var h = Math.floor(window.innerHeight * 0.75);
-	step.style('height', h + 'px');
+	step.style('min-height', h + 'px');
 
 	var figureHeight = window.innerHeight;
 	var figureMarginTop = (window.innerHeight - figureHeight) / 2
@@ -54,22 +73,31 @@ function init() {
 		function stepEnter(response) {
 			const element = d3.select(response.element);
 			const index = Number(element.attr("data-step"));
-			const section = Number(element.attr("section-index"));	
-			// add color to current step only
-			step.classed('is-active', function (d, i) {
-				return i === response.index;
-			})
-			if (index === 3) {
-				wins.update("win_percentage", true, 10);
+			const section = Number(element.attr("section-index"));
+
+			if (response.direction === "down") {
+				//check section and step
+				if (section === 1) {
+					// working with wins
+					if (index === 1) {
+						wins.update("win_percentage", true, 10);
+					}
+				} else if (section === 2) {
+					// working with podiums
+				} else {
+					// working with averages
+					// do nothing
+				}
+			} else {
+				//direction === "up"
+				// do nothing
 			}
-			// update graphic based on step
-			// figure.select('p').text(response.index + 1);
 		}
 
 		scroller.setup({
 		step: '#scrolly_wins article .step',
-		offset: 0.5,
-		debug: false,
+		offset: 0.33,
+		debug: true,
 	})
 		.onStepEnter(stepEnter)
 

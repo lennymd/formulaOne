@@ -16,7 +16,7 @@
 
 article {
 	position: relative;
-	max-width: 40rem;
+	max-width: $max_width;
 }
 
 figure {
@@ -30,13 +30,22 @@ figure {
 }
 
 .step {
-	margin: 0 auto $gap*5 auto;
+	margin: 0 auto;
 	color: $dark;
-
+	padding: 0 2*$gap;
 	&:last-child {
 		margin-bottom: 0;
 	}
 	&.is-active {
-		background-color: teal;
+		// background-color: teal;
+	}
+	p {
+		margin-top: $gap;
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: $gap;
+		}
 	}
 }
