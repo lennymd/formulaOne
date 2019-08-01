@@ -1,10 +1,10 @@
 // initialize the big variables
 var main = d3.select("main");
 
-var scrolly0 = main.select("#scrolly_bubbles"),
-	figure_bubbles = scrolly0.select("figure"),
-	steps_bubbles = scrolly0.select("article")
-							.selectAll(".step");
+// var scrolly0 = main.select("#scrolly_bubbles"),
+// 	figure_bubbles = scrolly0.select("figure"),
+// 	steps_bubbles = scrolly0.select("article")
+// 							.selectAll(".step");
 
 var scrolly1 = main.select("#scrolly_wins"),
 	figure_wins = scrolly1.select("figure"),
@@ -29,32 +29,32 @@ var scroller_drivers = scrollama(),
 
 function handleResize() {
 	// this should handle window size changing
-	var h = Math.floor(window.innerHeight * 0.5);
-	steps_bubbles.style('min-height', h + 'px');
+	var h = Math.floor(window.innerHeight / 0.5);
+	// steps_bubbles.style('min-height', h + 'px');
 	steps_wins.style("min-height", h + "px");
 	steps_podiums.style("min-height", h + "px");
 	steps_averages.style("min-height", h + "px");
 
-	var figureWidth= window.innerWidth;
-	var figureMarginTop = 0;
+	var figureHeight= window.innerHeight / 2;
+	var figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
-	figure_bubbles
-		.style('width', figureWidth + 'px')
-		.style('top', figureMarginTop + 'px');
+	// figure_bubbles
+	// 	.style('width', figureWidth + 'px')
+	// 	.style('top', figureMarginTop + 'px');
 	
 	figure_wins
-		.style('width', figureWidth + 'px')
+		.style('width', figureHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
 	figure_podiums
-		.style('width', figureWidth + 'px')
+		.style('width', figureHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 	
 	figure_averages
-		.style('width', figureWidth + 'px')
+		.style('width', figureHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
-	scroller_drivers.resize();
+	// scroller_drivers.resize();
 	scroller_wins.resize();
 	scroller_podiums.resize();
 	scroller_averages.resize();
@@ -75,13 +75,13 @@ function init() {
 	handleResize();
 
 	// work with bubble chart
-	scroller_drivers.setup({
-		step: '#scrolly_bubbles article .step',
-		offset: 0.5,
-		debug: false
-	})
-		.onStepEnter(stepEnter_bubble)
-		.onStepExit(stepExit_bubble);
+	// scroller_drivers.setup({
+	// 	step: '#scrolly_bubbles article .step',
+	// 	offset: 0.5,
+	// 	debug: false
+	// })
+	// 	.onStepEnter(stepEnter_bubble)
+	// 	.onStepExit(stepExit_bubble);
 	
 	
 	// load wins stuff
@@ -194,7 +194,7 @@ function init() {
 			debug: false
 		})
 			.onStepEnter(stepEnter)
-			.onStepExit(stepExit_bubble);
+			.onStepExit(stepExit);
 
 		scroller_podiums.setup({
 			step:"#scrolly_podiums article .step",

@@ -77,12 +77,12 @@ article.prose {
 .static_chart {
 	display: block;
 	margin: $gap auto;
-	width: 75vw;
+	width: $max_width;
 
 }
 
 figure#stacked_bar {
-	max-width: $text_width;
+	max-width: $max_width;
 	height: 100vh;
 	margin: 0 auto;
 }
