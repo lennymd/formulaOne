@@ -116,7 +116,7 @@ class sucker_chart {
 			)
 			.range(
 				["#DC0300", "#FB8703",
-					"goldenrod", "#2ED2BE",
+					"#FFFFFF", "#2ED2BE",
 					"#555555", "#2041FF",
 					"#F4D258", "#FDF503",
 					"#004225", "#2086C0",

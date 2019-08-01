@@ -20,19 +20,23 @@ var row_converter = function(d) {
 
 // using d3 for convenience
 var main = d3.select('main')
-var scrolly = main.select('#scrolly_wins');
-var figure = scrolly.select('figure');
-var article = scrolly.select('article');
-var step = article.selectAll('.step');
+var scrolly1 = main.select('#scrolly_wins'),
+	scrolly2 = main.select("#scrolly_podiums");
+var figure = scrolly1.select('figure'),
+	figure2 = scrolly2.select("figure");
+var step1 = scrolly1.select("article").selectAll(".step"),
+	step2 = scrolly2.select("article").selectAll(".step");
 
 // initialize the scrollama
-var scroller = scrollama();
+var scroller_wins = scrollama();
+var scroller_podiums = scrollama();
 
 // generic window resize listener event
 function handleResize() {
 	// 1. update height of step elements
 	var h = Math.floor(window.innerHeight * 0.75);
-	step.style('min-height', h + 'px');
+	step1.style('min-height', h + 'px');
+	step2.style("min-height", h + "px");
 
 	var figureHeight = window.innerHeight;
 	var figureMarginTop = (window.innerHeight - figureHeight) / 2
@@ -41,9 +45,13 @@ function handleResize() {
 		.style('height', figureHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
+	figure2
+		.style('height', figureHeight + 'px')
+		.style('top', figureMarginTop + 'px');
 
 	// 3. tell scrollama to update new element dimensions
-	scroller.resize();
+	scroller_wins.resize();
+	scroller_podiums.resize();
 }
 
 function setupStickyfill() {
@@ -64,8 +72,14 @@ function init() {
 	d3.csv("../public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
 		var wins = new sucker_chart({
 			plot_data: dataset,
-			element: "#plot",
+			element: "#win_plot",
 			x: "wins",
+			filter: 10
+		})
+		var podiums = new sucker_chart({
+			plot_data: dataset,
+			element: "#podium_plot",
+			x: "podiums",
 			filter: 10
 		})
 
@@ -84,6 +98,9 @@ function init() {
 					}
 				} else if (section === 2) {
 					// working with podiums
+					if (index === 1) {
+						podiums.update("podium_percentage", true, 10);
+					}
 				} else {
 					// working with averages
 					// do nothing
@@ -94,11 +111,17 @@ function init() {
 			}
 		}
 
-		scroller.setup({
-		step: '#scrolly_wins article .step',
-		offset: 0.33,
-		debug: true,
-	})
+		scroller_wins.setup({
+			step: '#scrolly_wins article .step',
+			offset: 0.33,
+			debug: true,
+		})
+		.onStepEnter(stepEnter)
+		scroller_podiums.setup({
+			step: '#scrolly_podiums article .step',
+			offset: 0.33,
+			debug: true,
+		})
 		.onStepEnter(stepEnter)
 
 
