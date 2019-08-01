@@ -18,12 +18,15 @@ var row_converter = function(d) {
 	}
 };
 
-// using d3 for convenience
-var main = d3.select('main')
+// setup most of the variables we'll be using
+var main = d3.select('main');
+
 var scrolly1 = main.select('#scrolly_wins'),
 	scrolly2 = main.select("#scrolly_podiums");
+
 var figure = scrolly1.select('figure'),
 	figure2 = scrolly2.select("figure");
+
 var step1 = scrolly1.select("article").selectAll(".step"),
 	step2 = scrolly2.select("article").selectAll(".step");
 
@@ -89,6 +92,33 @@ function init() {
 			const index = Number(element.attr("data-step"));
 			const section = Number(element.attr("section-index"));
 
+			if (response.direction === "up") {
+				//check section and step
+				if (section === 1) {
+					// working with wins
+					if (index === 1) {
+						wins.update("wins", false, 10);
+					}
+				} else if (section === 2) {
+					// working with podiums
+					if (index === 2) {
+						// podiums.update("podium_percentage", true, 10);
+					}
+				} else {
+					// working with averages
+					// do nothing
+				}
+			} else {
+				//direction === "up"
+				// do nothing
+			}
+		}
+
+		function stepExit(response) {
+			const element = d3.select(response.element);
+			const index = Number(element.attr("data-step"));
+			const section = Number(element.attr("section-index"));
+			console.log(response.direction);
 			if (response.direction === "down") {
 				//check section and step
 				if (section === 1) {
@@ -106,7 +136,7 @@ function init() {
 					// do nothing
 				}
 			} else {
-				//direction === "up"
+				//direction === "down"
 				// do nothing
 			}
 		}
@@ -117,12 +147,15 @@ function init() {
 			debug: true,
 		})
 		.onStepEnter(stepEnter)
+		.onStepExit(stepExit);
+
 		scroller_podiums.setup({
 			step: '#scrolly_podiums article .step',
 			offset: 0.33,
-			debug: true,
+			debug: false,
 		})
 		.onStepEnter(stepEnter)
+		
 
 
 	})
