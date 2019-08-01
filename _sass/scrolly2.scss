@@ -29,26 +29,28 @@ figure {
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	// background-color: #8a8a8a;
+	background-color: #8a8a8a;
 
-	// p {
-	// 	text-align: center;
-	// 	padding: 1rem;
-	// 	position: absolute;
+	p {
+		text-align: center;
+		padding: 1rem;
+		position: absolute;
 		
-	// 	-moz-transform: translate(-50%, -50%);
-	// 	-webkit-transform: translate(-50%, -50%);
-	// 	transform: translate(-50%, -50%);
-	// 	font-size: 8rem;
-	// 	font-weight: 900;
-	// 	color: #fff;
-	// }
+		-moz-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		font-size: 8rem;
+		font-weight: 900;
+		color: #fff;
+	}
 }
 
 .step {
-	margin: 0 auto 2rem auto;
-	background-color: #3b3b3b;
-	color: #fff;
+	margin: 0 auto $gap*5 auto;
+	background-color: $off-white;
+	color: $dark;
+	width: $max_width;
+	padding: 0 $gap;
 
 	&:last-child {
 		margin-bottom: 0;
@@ -59,8 +61,7 @@ figure {
 	}
 
 	p {
-		text-align: center;
-		padding: 1rem;
-		font-size: 1.5rem;
+		text-align: left;
+		width: $text_width;
 	}
 }
