@@ -82,7 +82,7 @@ function init() {
 		var podiums = new sucker_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
-			x: "podiums",
+			x: "p_average",
 			filter: 10
 		})
 
@@ -101,8 +101,8 @@ function init() {
 					}
 				} else if (section === 2) {
 					// working with podiums
-					if (index === 2) {
-						// podiums.update("podium_percentage", true, 10);
+					if (index === 1) {
+						podiums.update("podium_percentage", true, 10);
 					}
 				} else {
 					// working with averages
@@ -155,6 +155,7 @@ function init() {
 			debug: false,
 		})
 		.onStepEnter(stepEnter)
+		.onStepExit(stepExit);
 		
 
 
