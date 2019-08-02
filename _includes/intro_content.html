@@ -1,17 +1,20 @@
 <p>A big part of doing data journalism is figuring out what to count and how to count it. You’ll have to answer these questions when you’re gathering data and later when you’re analyzing data. In both cases, what you count and how you count it depends entirely on what you’re trying to achieve; there isn’t a single way to do things that works in every situation.</p>
 <p>To illustrate this point, let’s look at Formula One and try to answer the question: Which Formula One had the best championship season?</p>
-<p>Formula One is a type of motorsport, like NASCAR and IndyCar, where teams compete in a series of races each year. In its current iteration, 10 teams with 2 drivers each compete in 21 races across the globe between March and December. Races have taken place in every continent except Antarctica on both street circuits (Monaco being the most famous street circuit) and on permanently built tracks (the Nürburgring in Germany is one of the more well-known tracks, partly because it doubles as a track where car manufacturers try to set lap records on). After each race, drivers are awarded points based on their finishing positions and over the course of the season the drivers and the teams compete for the Driver’s Cup (awarded to the driver with the most points) and the Constructor’s Cup (awarded to the team whose drivers totaled the most points).</p>
+<p>Formula One is a type of motorsport, like NASCAR and IndyCar, where teams compete in a series of races each year. In its current iteration, 10 teams with 2 drivers each compete in 21 races across the globe between March and December. Races have taken place in every continent except Antarctica on both street circuits (Monaco being the most famous street circuit) and on permanently built tracks (the Nürburgring in Germany is one of the more well-known tracks, partly because it doubles as a track where car manufacturers try to set lap records on).</p>
+<p>After each race, drivers are awarded points based on their finishing positions and over the course of the season the drivers and the teams compete for the Driver’s Cup (awarded to the driver with the most points) and the Constructor’s Cup (awarded to the team whose drivers totaled the most points).</p>
 <p>Since the first Formula One race in 1950, over 840 drivers have competed to win the Driver’s Cup. Only 33 have held it. You’ve likely heard of some of these champions: Michael Schumacher, Niki Lauda, Ayrton Senna, Lewis Hamilton, Sebastian Vettel.</p>
 <p class="filler">Pictures of the most famous drivers</p>
 <p>These 33 drivers have all won while racing for the same 16 teams.</p>
 <p class="filler" id="stacked_bar"> Stacked bar chart here, potentially</p>
-Of the 16 teams, Ferrari has been the most successful with 15 Driver’s Cups, followed by McLaren, Mercedes, and Williams. Most of these teams have been in Formula One for a long time; others only raced for a single season, but managed to win the championship.
-Given the variety of teams that have won, who had the single best season? How do we define best?
-Before we try to define what the best season for a team is, let’s check how we would define it for the drivers. When you’re not sure what you’re going to measure, it’s always a good idea to look for the next nearest comparison and use that to get ideas for how to measure the thing you’re wondering about. 
-Some of the ways we generally compare drivers are: 
-How many times they’ve won the Driver’s Championship. Michael Schumacher leads this category, having won the Driver’s Cup 7 times.
-How many races they’ve won. Michael Schumacher is at the top with 90 wins.
-Highest percentage of races won. Five-time champion Juan Manuel Fangio has an impressive 46.55% win percentage, having won 24 of the 52 races he entered over his career.
-How many times they’ve finished on the podium (first, second, or third place finishes). Michael Schumacher is at the top again with 155 podium finishes (and 90 of those are wins!).
-Maybe defining the best season as the season where a driver won the most races is a good way to go.Using this definition both Michael Schumacher and Sebastian Vettel won 13 races in a single season, 2004 and 2013 respectively. But it might be a good way to start comparing teams. 
-The underlying data for this analysis came from Stats F1, the Ergast Developer API and Formula1.com. (Here it is as a csv file. In case you want to try some of the things I did)
+<p>Of the 16 teams, Ferrari has been the most successful with 15 Driver’s Cups, followed by McLaren, Mercedes, and Williams. Most of these teams have been in Formula One for a long time; others only raced for a single season, but managed to win the championship.</p>
+<p>Given the variety of teams that have won, who had the single best season? How do we define best?</p>
+<p>Before we try to define what the best season for a team is, let’s check how we would define it for the drivers. When you’re not sure what you’re going to measure, it’s always a good idea to look for the next nearest comparison and use that to get ideas for how to measure the thing you’re wondering about.</p>
+<p>Some of the ways we generally compare drivers are:</p>
+<ul>
+	<li>How many times they’ve won the Driver’s Championship. Michael Schumacher leads this category, having won the Driver’s Cup 7 times.</li>
+	<li>How many races they’ve won. Michael Schumacher is at the top with 90 wins.</li>
+	<li>Highest percentage of races won. Five-time champion Juan Manuel Fangio has an impressive 46.55% win percentage, having won 24 of the 52 races he entered over his career.</li>
+	<li>How many times they’ve finished on the podium (first, second, or third place finishes). Michael Schumacher is at the top again with 155 podium finishes (and 90 of those are wins!).</li>
+
+<p>Maybe defining the best season as the season where a driver won the most races is a good way to go.Using this definition both Michael Schumacher and Sebastian Vettel won 13 races in a single season, 2004 and 2013 respectively. But it might be a good way to start comparing teams.</p>
+<p>The underlying data for this analysis came from Stats F1, the Ergast Developer API and Formula1.com. (Here it is as a csv file. In case you want to try some of the things I did)</p>
