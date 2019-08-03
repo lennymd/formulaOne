@@ -1,48 +1,46 @@
 <section class="row">
-		<h2 class="section__hed">Most podium finishes</h2>
-		<article class="prose">
-			<p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other 7 races. And in 2016, Nico Rosberg claimed 9 of Mercedes’s wins; Hamilton claimed the other 10. For Ferrari’s 2002 run, Michael Schumacher’s skill, paired with the strong car resulted in an 11-5 split of wins between him and Rubens Barrichello. And aside from Barrichello, all the drivers of the top 3 teams have won the Driver’s cup at least once.</p>
-			<p>This suggests that a good team is one where both drivers are having a good season. We could extend our definition of “best” to account for this. After all, the next best weekend outcome after winning the race is to win the race and have the second driver on the podium as well. Let’s extend our definition of best championship team as the one that has won the most podiums in the season. </p>
-			<p>For each year we'll do the following:</p>
-			<ol>
-				<li>Look at the driver that won the driver’s cup that year</li>
-				<li>look at what team that driver was driving for</li>
-				<li>Count how many times at least one of the team’s drivers finished in first, second, or third.* (in the early years of formula one, it was common for drivers to share and switch cars; places and points resulting from these drives were shared (talk about 1955 and how 5 drivers finished second and third, with 2 repeats))</li>
-			</ol>
+	<h2 class="section__hed">Most podium finishes</h2>
+	<article class="prose">
+		<p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other 7 races. And in 2016, Nico Rosberg claimed 9 of Mercedes’s wins; Hamilton claimed the other 10. For Ferrari’s 2002 run, Michael Schumacher’s skill, paired with the strong car resulted in an 11-5 split of wins between him and Rubens Barrichello. And aside from Barrichello, all the drivers of the top 3 teams have won the Driver’s cup at least once.</p>
+		<p>This suggests that a good team is one where both drivers are having a good season. We could extend our definition of “best” to account for this. After all, the next best weekend outcome after winning the race is to win the race and have the second driver on the podium as well. Let’s extend our definition of best championship team as the one that has won the most podiums in the season. </p>
+		<p>For each year we'll do the following:</p>
+		<ol>
+			<li>Look at the driver that won the driver’s cup that year</li>
+			<li>look at what team that driver was driving for</li>
+			<li>Count how many times at least one of the team’s drivers finished in first, second, or third.* (in the early years of formula one, it was common for drivers to share and switch cars; places and points resulting from these drives were shared (talk about 1955 and how 5 drivers finished second and third, with 2 repeats))</li>
+		</ol>
+	</article>
+	<section class="scrolly" id='scrolly_podiums'>
+		<article>
+			<div class="step" section-index="2" data-step='0'>
+				<p>Mercedes’s 2016 team is ranked first, and is followed behind by its 2015 and 2014 teams, something we saw when we looked at the total wins. In these three years, Hamilton and Rosberg both had podium finishes in 40 of the 59 races. Their more recent runs, 2017 and 2018, ranked 7th and 8th, respectively. This high ranking of all their recent runs is a testament to how well Nico Rosberg, Lewis Hamilton, and more recently Valteri Bottas, have raced and the strength of the Mercedes cars.</p>
+				<p>In the rest of the top 10, we have teams we’ve seen hbefore when we looked at wins: Ferrari’s 2002 (ranked 5th) and 2004 (ranked 4th) iterations. McLaren’s 1988 run, the best team in terms of win percentage is ranked 8th. Two of Red Bull’s four back-to-back championships are on the list, 2011 and 2013.</p>
+				<p>A new face to the top 10 is Ferrari’s 2001 run. In 2001, the Schumacher-Barrichello duo had 24 podium finishes in the 17 races. Nine of those finishes were wins, and the duo both finished on the podium in 7 of the races.</p>
+			</div>
+			<div class="step" section-index="2" data-step='1'>
+				<p>As we saw when we were comparing number of races won, normalizing the number of podium spots can help us make a fairer comparison. With wins, we normalized by the number of races in the season, and with podium spots, we can do something similar.</p>
+				<p>There are 3 podium spots per race, so we could divide the number of podium finishes by 3 times the number of races. But, for most of the sport’s  history, Formula One teams have only had two drivers. These two drivers would never be able to claim all three podium spots, so no team would be close to 100% of podium finishes.</p>
+				<p>It might make more sense if we go with there being two podium spots available per race. This way, a team with two drivers does have a chance of getting to 100% if their two drivers have podium finishes for every race in the season. Normalizing things this way works for most of the seasons, but it breaks down when we look at the early years in Formula One. In the early years of Formula One (1950s and 1960s), teams had a lot more drivers on the grid at any one race, and there were fewer races.</p>
+				<p>How do we account for both cases: the early years when teams were more loose, and the later years when teams only have 2 drivers? Instead of dividing things by a fixed number of available podium spots, let’s find a flexible number of podium spots per season based on how many drivers a team had and how many races were in the season.</p>
+				<p>For each race in the season</p>
+				<ol>
+					<li>See how many drivers of a team participated in the race.</li>
+					<li>If the number of participating drivers is 3 or more, then there are three available podium spots for that race. The maximum number of podium spots is 3, so even if a team had 4 drivers in a race, only 3 could be on the podium in the best of cases.</li>
+					<li>If the number of participating drivers is less than three, then the number of available podium spots is the number of participating drivers. (If you have the two drivers, you can at best have both finish on the podium).</li>
+					<li>Sum the available spots for each race in the season to get the total number of available podium spots.</li>
+				</ol>
+				<p>Once we have this number of available spots, we can normalize the number of podium finishes each team had by dividing by the number of available spots and do another comparison!</p>
+			</div>
+			<div class="step" section-index="2" data-step='2'>
+				<p>McLaren’s 1988 run which was ranked first in terms of win percentage is now ranked 6th. In first place we have Mercedes’s 2015 run. In 2015, Lewis Hamilton and Nico Rosberg had podium finishes together in 15 of the season’s 19 races. Behind their 2015 performance is their 2014 performance, where at least one Mercedes driver was on the podium in every race of the season, and both were on the podium in 12 of the 19 races.</p>
+				<p>In the top ten, we also have a new face, the Williams 1993 team. In the 1993 Formula One season, the Williams team raced in the Williams FW15C, which featured electronic driver aids like traction control (prevents wheels from spinning) and active suspension (allows the car to change its height to maximize its aerodynamic properties). Although Williams won only 10 of the 16 races that season, they had at least one driver on the podium at every race. Although it was one of the most sophisticated cars in Formula One, the use of electronic driver aids were banned after the season.</p>
+			</div>
+			<section class='outro'></section>
 		</article>
-		<section class="scrolly" id='scrolly_podiums'>
-						
-				<article>
-					<div class="step" section-index="2" data-step='0'>
-						<p>Mercedes’s 2016 team is ranked first, and is followed behind by its 2015 and 2014 teams, something we saw when we looked at the total wins. In these three years, Hamilton and Rosberg both had podium finishes in 40 of the 59 races. Their more recent runs, 2017 and 2018, ranked 7th and 8th, respectively. This high ranking of all their recent runs is a testament to how well Nico Rosberg, Lewis Hamilton, and more recently Valteri Bottas, have raced and the strength of the Mercedes cars.</p>
-						<p>In the rest of the top 10, we have teams we’ve seen hbefore when we looked at wins: Ferrari’s 2002 (ranked 5th) and 2004 (ranked 4th) iterations. McLaren’s 1988 run, the best team in terms of win percentage is ranked 8th. Two of Red Bull’s four back-to-back championships are on the list, 2011 and 2013.</p>
-						<p>A new face to the top 10 is Ferrari’s 2001 run. In 2001, the Schumacher-Barrichello duo had 24 podium finishes in the 17 races. Nine of those finishes were wins, and the duo both finished on the podium in 7 of the races.</p>
-					</div>
-					<div class="step" section-index="2" data-step='1'>
-						<p>As we saw when we were comparing number of races won, normalizing the number of podium spots can help us make a fairer comparison. With wins, we normalized by the number of races in the season, and with podium spots, we can do something similar.</p>
-						<p>There are 3 podium spots per race, so we could divide the number of podium finishes by 3 times the number of races. But, for most of the sport’s  history, Formula One teams have only had two drivers. These two drivers would never be able to claim all three podium spots, so no team would be close to 100% of podium finishes.</p>
-						<p>It might make more sense if we go with there being two podium spots available per race. This way, a team with two drivers does have a chance of getting to 100% if their two drivers have podium finishes for every race in the season. Normalizing things this way works for most of the seasons, but it breaks down when we look at the early years in Formula One. In the early years of Formula One (1950s and 1960s), teams had a lot more drivers on the grid at any one race, and there were fewer races.</p>
-						<p>How do we account for both cases: the early years when teams were more loose, and the later years when teams only have 2 drivers? Instead of dividing things by a fixed number of available podium spots, let’s find a flexible number of podium spots per season based on how many drivers a team had and how many races were in the season.</p>
-						<p>For each race in the season</p>
-						<ol>
-							<li>See how many drivers of a team participated in the race.</li>
-							<li>If the number of participating drivers is 3 or more, then there are three available podium spots for that race. The maximum number of podium spots is 3, so even if a team had 4 drivers in a race, only 3 could be on the podium in the best of cases.
-							</li>
-							<li>If the number of participating drivers is less than three, then the number of available podium spots is the number of participating drivers. (If you have the two drivers, you can at best have both finish on the podium).</li>
-							<li>Sum the available spots for each race in the season to get the total number of available podium spots.</li>
-						</ol>
-						<p>Once we have this number of available spots, we can normalize the number of podium finishes each team had by dividing by the number of available spots and do another comparison!</p>
-					</div>
-					<div class="step" section-index="2" data-step='2'>
-						<p>McLaren’s 1988 run which was ranked first in terms of win percentage is now ranked 6th. In first place we have Mercedes’s 2015 run. In 2015,  Lewis Hamilton and Nico Rosberg had podium finishes together in 15 of the season’s 19 races. Behind their 2015 performance is their 2014 performance, where at least one Mercedes driver was on the podium in every race of the season, and both were on the podium in 12 of the 19 races.</p>
-						<p>In the top ten, we also have a new face, the Williams 1993 team. In the 1993 Formula One season, the Williams team raced in the Williams FW15C, which featured electronic driver aids like traction control (prevents wheels from spinning) and active suspension (allows the car to change its height to maximize its aerodynamic properties). Although Williams won only 10 of the 16 races that season, they had at least one driver on the podium at every race. Although it was one of the most sophisticated cars in Formula One, the use of electronic driver aids were banned after the season.</p>
-					</div>
-					<section class='outro'></section>
-				</article>
 	
-				<figure class="sticky" id="podium_plot">
-				</figure>
-				
-			</section>
-	
+		<figure class="sticky" id="podium_plot">
+		</figure>
+		
 	</section>
+	
+</section>
