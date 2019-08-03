@@ -82,7 +82,7 @@ function init() {
 		var podiums = new sucker_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
-			x: "p_average",
+			x: "podiums",
 			filter: 10
 		})
 
@@ -144,7 +144,7 @@ function init() {
 		scroller_wins.setup({
 			step: '#scrolly_wins article .step',
 			offset: 0.33,
-			debug: true,
+			debug: false,
 		})
 		.onStepEnter(stepEnter)
 		.onStepExit(stepExit);

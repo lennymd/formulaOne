@@ -1,32 +1,41 @@
 <section class="row">
 		<h2 class="section__hed">Most podium finishes</h2>
 		<article class="prose">
-			<p>If we were to compare drivers, we could define best as the driver who had the most championship titles (Michael Schumacher, 7 titles) or the most wins (Michael Schumacher, 90 wins). Maybe we could look for the driver who had the highest percentage of races won (Juan Manuel Fangio, 46.15% of races entered won). We could even compare things the way FiveThirtyEight did, <a href="https://fivethirtyeight.com/features/formula-one-racing/">computing Elo ratings for each driver</a> (Ayrton Senna had the highest average Elo).</p>
-			<p>When looking to compare the teams, we could do similar calculations. The most direct way to find the best championship team would be to compare the number of races each team won in their championship season. The process for doing that would be to, for each year:</p>
+			<p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other 7 races. And in 2016, Nico Rosberg claimed 9 of Mercedes’s wins; Hamilton claimed the other 10. For Ferrari’s 2002 run, Michael Schumacher’s skill, paired with the strong car resulted in an 11-5 split of wins between him and Rubens Barrichello. And aside from Barrichello, all the drivers of the top 3 teams have won the Driver’s cup at least once.</p>
+			<p>This suggests that a good team is one where both drivers are having a good season. We could extend our definition of “best” to account for this. After all, the next best weekend outcome after winning the race is to win the race and have the second driver on the podium as well. Let’s extend our definition of best championship team as the one that has won the most podiums in the season. </p>
+			<p>For each year we'll do the following:</p>
 			<ol>
-				<li>look at the driver that won the Driver's cup that year</li>
+				<li>Look at the driver that won the driver’s cup that year</li>
 				<li>look at what team that driver was driving for</li>
-				<li>count how many races the team won that season</li>
+				<li>Count how many times at least one of the team’s drivers finished in first, second, or third.* (in the early years of formula one, it was common for drivers to share and switch cars; places and points resulting from these drives were shared (talk about 1955 and how 5 drivers finished second and third, with 2 repeats))</li>
 			</ol>
-			<p>And to make things easier, we'll only look at the top 10 teams.</p>
 		</article>
 		<section class="scrolly" id='scrolly_podiums'>
 						
 				<article>
 					<div class="step" section-index="2" data-step='0'>
-						<p>Going by wins, 2016 Mercedes had the best championship season. In that year, Nico Rosberg won the Driver's Cup for the first and only time (34 years after his dad Keke Rosberg in 1982). Nico and his teammate Lewis Hamilton also got incredibly close to having a perfect season, winning 19 of the seasons 21 races.</p>
-						<p>Following closely behind their 2016 run are Mercedes's 2015 and 2014 runs. In this three-year period, Rosberg and Hamilton won an incredible 51 out of the 59 races, marking Mercedes' dominance in the hybrid-engine era of Formula One. While their performance in 2017 and 2018 has been extraordinary (Lewis Hamilton won the Driver's Cup both years), their dominance has decreased: their 2017 run is ranked 8th and their 2018 run is ranked 12th, with 12 and 11 race wins in the season respectively.</p>
-						<p>Filling out the rest of the top 10, we have Ferrari's 2002 and 2004 runs (both marked by very robust Ferrari cars, the F2002 and the F2004) and McLaren's 1988 run (the year Ayrton Senna won his first Driver's Cup). Behind them we also have Red Bull's 2011 and 2013 runs,two of the four back-to-back championship wins for Sebastian Vettel, McLaren's 1984 run, and Williams' 1996 run, where Williams driver Damon Hill also won his one and only championship cup 34 years after his father, Graham Hill, won.</p>
+						<p>Mercedes’s 2016 team is ranked first, and is followed behind by its 2015 and 2014 teams, something we saw when we looked at the total wins. In these three years, Hamilton and Rosberg both had podium finishes in 40 of the 59 races. Their more recent runs, 2017 and 2018, ranked 7th and 8th, respectively. This high ranking of all their recent runs is a testament to how well Nico Rosberg, Lewis Hamilton, and more recently Valteri Bottas, have raced and the strength of the Mercedes cars.</p>
+						<p>In the rest of the top 10, we have teams we’ve seen hbefore when we looked at wins: Ferrari’s 2002 (ranked 5th) and 2004 (ranked 4th) iterations. McLaren’s 1988 run, the best team in terms of win percentage is ranked 8th. Two of Red Bull’s four back-to-back championships are on the list, 2011 and 2013.</p>
+						<p>A new face to the top 10 is Ferrari’s 2001 run. In 2001, the Schumacher-Barrichello duo had 24 podium finishes in the 17 races. Nine of those finishes were wins, and the duo both finished on the podium in 7 of the races.</p>
 					</div>
 					<div class="step" section-index="2" data-step='1'>
-						<p>While looking at the absolute number of wins each team in their season is a good place to start, it's not the best comparison. In 2016 there were 21 races in the Formula One season, while in 2015 and 2014 there were 19 races, and if we look at the first Formula One season in 1950, there were only 7 races.</p>
-						<p>To make our comparison more accurate, we should take into account the number of races in each season. To do this, we can divide the number of wins in the season, by the number of races in that season. And then we can compare the top 10 teams with the highest percentage of races won in a season.</p>
+						<p>As we saw when we were comparing number of races won, normalizing the number of podium spots can help us make a fairer comparison. With wins, we normalized by the number of races in the season, and with podium spots, we can do something similar.</p>
+						<p>There are 3 podium spots per race, so we could divide the number of podium finishes by 3 times the number of races. But, for most of the sport’s  history, Formula One teams have only had two drivers. These two drivers would never be able to claim all three podium spots, so no team would be close to 100% of podium finishes.</p>
+						<p>It might make more sense if we go with there being two podium spots available per race. This way, a team with two drivers does have a chance of getting to 100% if their two drivers have podium finishes for every race in the season. Normalizing things this way works for most of the seasons, but it breaks down when we look at the early years in Formula One. In the early years of Formula One (1950s and 1960s), teams had a lot more drivers on the grid at any one race, and there were fewer races.</p>
+						<p>How do we account for both cases: the early years when teams were more loose, and the later years when teams only have 2 drivers? Instead of dividing things by a fixed number of available podium spots, let’s find a flexible number of podium spots per season based on how many drivers a team had and how many races were in the season.</p>
+						<p>For each race in the season</p>
+						<ol>
+							<li>See how many drivers of a team participated in the race.</li>
+							<li>If the number of participating drivers is 3 or more, then there are three available podium spots for that race. The maximum number of podium spots is 3, so even if a team had 4 drivers in a race, only 3 could be on the podium in the best of cases.
+							</li>
+							<li>If the number of participating drivers is less than three, then the number of available podium spots is the number of participating drivers. (If you have the two drivers, you can at best have both finish on the podium).</li>
+							<li>Sum the available spots for each race in the season to get the total number of available podium spots.</li>
+						</ol>
+						<p>Once we have this number of available spots, we can normalize the number of podium finishes each team had by dividing by the number of available spots and do another comparison!</p>
 					</div>
 					<div class="step" section-index="2" data-step='2'>
-						<p>Mercedes's 2016 run is narrowly pushed to second by McLaren's 1988 run, who are the closest team to achieving a perfect season in the modern era of Formula One. In 1988, McLaren drivers Alain Prost and Ayrton Senna won every race of the season except for the Italian Grand Prix.</p>
-						<p>In that race, Senna and Prost started first and second on the grid, but Prost was forced to retire after 34 laps due to engine problems. While leading the race and with only two laps remaining, Senna was also forced to retire due to a collision with Williams driver Jean-Louis Schlesser.</p>
-						<p>Behind McLaren and Mercedes we have Ferrari's 2002 run in third place. Michael Schumacher won his fifth Driver's Cup while driving with Rubens Barrichello for Ferrari in 2002. Together they won 15 of the season's 17 races, and 14 of those wins were in the F2002, which did not suffer from major breakdowns during the season.</p>
-						<p>Some new additions to the top 10 are Ferrari's 1952 and 1953 runs and Alfa Romeo's 1950 run. Both Ferrari's 1952 and Alfa Romeo's 1950 runs are tied with McLaren's 1988 run of being a win short of a perfect season. In 1950, Alfa Romeo did not participate in the Indianapolis 500 which counted towards the Formula One Driver's Cup in the early years. In 1952 and 1953, Formula One was run to Formula Two regulations.</p>
+						<p>McLaren’s 1988 run which was ranked first in terms of win percentage is now ranked 6th. In first place we have Mercedes’s 2015 run. In 2015,  Lewis Hamilton and Nico Rosberg had podium finishes together in 15 of the season’s 19 races. Behind their 2015 performance is their 2014 performance, where at least one Mercedes driver was on the podium in every race of the season, and both were on the podium in 12 of the 19 races.</p>
+						<p>In the top ten, we also have a new face, the Williams 1993 team. In the 1993 Formula One season, the Williams team raced in the Williams FW15C, which featured electronic driver aids like traction control (prevents wheels from spinning) and active suspension (allows the car to change its height to maximize its aerodynamic properties). Although Williams won only 10 of the 16 races that season, they had at least one driver on the podium at every race. Although it was one of the most sophisticated cars in Formula One, the use of electronic driver aids were banned after the season.</p>
 					</div>
 					<section class='outro'></section>
 				</article>
