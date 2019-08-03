@@ -41,8 +41,9 @@ function handleResize() {
 	step1.style('min-height', h + 'px');
 	step2.style("min-height", h + "px");
 
-	var figureHeight = window.innerHeight;
-	var figureMarginTop = (window.innerHeight - figureHeight) / 2
+	var figureHeight = window.innerHeight*0.9;
+	var figureMarginTop = 15;
+	//(window.innerHeight - figureHeight) / 2
 
 	figure
 		.style('height', figureHeight + 'px')

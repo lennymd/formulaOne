@@ -59,10 +59,9 @@ article.prose {
 	padding: 0 $gap;
 	margin: $gap auto 0 auto;
 	width: $max_width;
-	
-	p {
-		margin-top: $gap*1.5;
-		width: $text_width;
+
+	> * {
+		margin-top: $gap*1.1;
 		&:first-child {
 			margin-top: 0;
 		}
@@ -70,6 +69,20 @@ article.prose {
 			margin-bottom: $gap;
 		}
 	}
+
+	> ul, > ol {
+		margin-top: $gap * 0.9;
+	}
+	p {
+		width: $text_width;
+	}
+	.footnote {
+		display: inline;
+	}
+}
+
+.mobile {
+	display: none;
 }
 
 .section__hed {
