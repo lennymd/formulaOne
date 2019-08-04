@@ -24,6 +24,15 @@
 				end: +d.end
 			}
 		}
+
+		var converter2 = (d) => {
+			return {
+				team: d.team,
+				year: +d.year,
+				driver: d.driver,
+			}
+		}
+
 		var w = window.innerWidth,
 			h = window.innerHeight;
 
@@ -57,8 +66,8 @@
 						.attr("viewBox", `0 0 ${w} ${h}`)
 						.append('g')
 						.attr('transform', `translate(${margin.left},${margin.top})`);
-		var sample;
-		d3.csv("circles.csv", (data) => sample = data);
+		var winners;
+		d3.csv("../public/data/winners_annual.csv", converter2, (data) => winners = data);
 		
 		d3.csv("../public/data/teams_active_years.csv", converter, (dataset) => {
 			// scales
@@ -88,7 +97,7 @@
 							.style("text-anchor", "center");
 			
 			// draw lines
-			var lines = svg.selectAll("lines")
+			var lines = svg.selectAll("active")
 							.data(dataset)
 							.enter()
 							.append("line")
@@ -97,8 +106,24 @@
 							.attr("y1", (d) => y(d.team))
 							.attr("y2", (d) => y(d.team))
 							.attr("opacity", "0.6")
-							.attr("stroke-width", "20")
-							.attr("stroke", (d) => color(d.team));
+							.attr("stroke-width", "10")
+							.attr("stroke", (d) => color(d.team))
+							.attr("class", "active");
+			
+			var champions = svg.selectAll("winners")
+								.data(winners)
+								.enter()
+								.append("line")
+								.attr("x1", d => x(d.year +1))
+								.attr("x2", d => x(d.year))
+								.attr("y1", (d) => y(d.team))
+								.attr("y2", (d) => y(d.team))
+								.attr("opacity", "1")
+								.attr("stroke-width", "25")
+								.attr("stroke", d => color(d.team))
+								.attr("class", d=> "winner" + d.team);
+			
+				
 		})
 	</script>
 </body>
