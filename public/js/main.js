@@ -38,8 +38,8 @@ var scroller_podiums = scrollama();
 function handleResize() {
 	// 1. update height of step elements
 	var h = Math.floor(window.innerHeight * 0.5);
-	step1.style('min-height', h + 'px');
-	step2.style("min-height", h + "px");
+	// step1.style('min-height', h + 'px');
+	// step2.style("min-height", h + "px");
 
 	var figureHeight = window.innerHeight*0.9;
 	var figureMarginTop = 15;
