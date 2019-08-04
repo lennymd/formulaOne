@@ -15,21 +15,23 @@ var ferrari = "dc0300",
     brawn = "80f080",
     maserati = "ff682a";
 
-Highcharts.chart('stacked_bar', {
+Highcharts.chart("stacked_bar", {
     chart: {
-        type: 'bar'
+		type: "bar",
+		height: 600
     },
     title: {
-        text: 'Formula One Championship teams'
+        text: "Formula One Driver Championships"
     },
     xAxis: {
-        categories: ['Ferrari', 'McLaren', 'Mercedes', 'Williams', 'Lotus', "Brabham", "Red Bull", "Alfa Romeo", "Benetton", "Cooper", "Renault", "Tyrrell", "Brawn GP", "BRM", "Maserati", "Matra"]
+		categories: ["Ferrari", "McLaren", "Mercedes", "Williams", "Lotus", "Brabham", "Red Bull", "Alfa Romeo", "Benetton", "Cooper", "Renault", "Tyrrell", "Brawn GP", "BRM", "Maserati", "Matra"],
     },
     yAxis: {
         min: 0,
-        max: 15,
+		max: 15,
+		tickAmount: 6,
         title: {
-            text: 'Wins'
+            text: "Wins"
         }
     },
     legend: {
@@ -37,7 +39,7 @@ Highcharts.chart('stacked_bar', {
     },
     plotOptions: {
         series: {
-            stacking: 'normal'
+            stacking: "normal"
         }
     },
     series: [{
@@ -201,7 +203,7 @@ Highcharts.chart('stacked_bar', {
       color: "#fa4a40"
     },
     {
-      name: 'Michael Schumacher',
+      name: "Michael Schumacher",
       data: [5,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0],
       color: "#f9423a"
     }]

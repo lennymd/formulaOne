@@ -1,0 +1,29 @@
+#stacked_bar {
+	.highcharts-root {
+		font-family: $font !important;
+	}
+	.highcharts-container {
+		height: 600px !important;
+		margin: 0 auto;
+	}
+	.highcharts-background {
+		fill: transparent;
+	}
+	.highcharts-axis-labels {
+		text {
+			fill: $dark !important;
+			color: $dark !important;
+			font-size: 1rem !important;
+		}
+	}
+	.highcharts-title {
+		fill: $dark !important;
+		color: $dark !important;
+		font-weight: bold;
+		font-size: 1.05rem !important;
+	}
+	.highcharts-credit {
+		display: none !important;
+	}
+
+}
