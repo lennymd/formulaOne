@@ -57,7 +57,9 @@
 						.attr("viewBox", `0 0 ${w} ${h}`)
 						.append('g')
 						.attr('transform', `translate(${margin.left},${margin.top})`);
-						
+		var sample;
+		d3.csv("circles.csv", (data) => sample = data);
+		
 		d3.csv("../public/data/teams_active_years.csv", converter, (dataset) => {
 			// scales
 			var x = d3.scaleLinear()
@@ -94,7 +96,7 @@
 							.attr("x2", (d) => x(d.end))
 							.attr("y1", (d) => y(d.team))
 							.attr("y2", (d) => y(d.team))
-							.attr("opacity", "0.7")
+							.attr("opacity", "0.6")
 							.attr("stroke-width", "20")
 							.attr("stroke", (d) => color(d.team));
 		})
