@@ -26,7 +26,7 @@ class bar_chart {
 			top: 20,
 			right: 50,
 			bottom: 0,
-			left: 100};
+			left: 150};
 
 		this.width = window.innerWidth - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
@@ -95,7 +95,7 @@ class bar_chart {
 		// 				.attr("class", "axis_text")
 		// 				.style("text-anchor", "center");
 		
-		this.y_key_axis = this.svg.append("g")
+		this.y_axis = this.svg.append("g")
 						.attr("class", "y axis")
 						.call(d3.axisLeft(this.y_key_scale))
 						.selectAll("text")
