@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>bar chart</title>
+</head>
+<body>
+	<figure id="test"></figure>
+	<script src="../public/js/d3.v4.js"></script>
+	<script src="../public/js/bar_chart.js"></script>
+	<script>
+		d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
+		var wins = new bar_chart({
+			plot_data: dataset,
+			element: "#test",
+			x: "wins",
+			filter: 10
+		})
+		});
+	</script>
+</body>
+</html>
