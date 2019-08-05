@@ -23,12 +23,12 @@ class bar_chart {
 	}
 	init() {
 		this.margin = {
-			top: 40,
+			top: 20,
 			right: 50,
 			bottom: 0,
 			left: 100};
 
-		this.width = window.innerWidth/2 - this.margin.left - this.margin.right;
+		this.width = window.innerWidth - this.margin.left - this.margin.right;
 		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
 		
 		// Set up the place we're drawing the plot and also create the SVG.
@@ -50,8 +50,8 @@ class bar_chart {
 
 		this.organize_data(this.filter);
 		this.create_scales();
-		this.create_axes();
 		this.create_shapes();
+		this.create_axes();
 	}
 
 	create_scales() {
@@ -61,7 +61,7 @@ class bar_chart {
 			k = 100;
 		} else {
 			k = Math.floor(
-					d3.max(this.data, (d) => d[this.x]) * 1.2
+					d3.max(this.data, (d) => d[this.x])
 				);
 		}
 
@@ -74,7 +74,8 @@ class bar_chart {
 		this.y_scale = d3.scaleBand()
 							.domain(this.data.map( (d) => d[this.y]))
 							.range([0, this.height])
-							.padding(5);
+							.padding(0.3);
+		console.log(this.y_scale.bandwidth());
 	}
 	
 	create_axes() {
@@ -85,14 +86,14 @@ class bar_chart {
 		} else {
 			tick_format = "0"
 		}
-		this.x_axis = this.svg.append("g")
-						.attr("class", "x axis")
-						.call(
-							d3.axisTop(this.x_scale)
-								.tickFormat(d3.format(tick_format)))
-						.selectAll("text")
-						.attr("class", "axis_text")
-						.style("text-anchor", "center");
+		// this.x_axis = this.svg.append("g")
+		// 				.attr("class", "x axis")
+		// 				.call(
+		// 					d3.axisTop(this.x_scale)
+		// 						.tickFormat(d3.format(tick_format)))
+		// 				.selectAll("text")
+		// 				.attr("class", "axis_text")
+		// 				.style("text-anchor", "center");
 		
 		this.y_axis = this.svg.append("g")
 						.attr("class", "y axis")
@@ -124,14 +125,34 @@ class bar_chart {
 					"#8b4513", "#f08080",
 					"#80f080", "#ff682a"]);
 
-		var bars = this.svg.selectAll("bars")
+		var bars = this.svg.selectAll(".bar")
 							.data(this.data)
 							.enter()
 							.append("rect")
+							.attr("class", "bar")
 							.attr("y", d => this.y_scale(d[this.y]))
 							.attr("width", d => this.x_scale(d[this.x]))
-							.attr("height", this.y_scale.bandwidth());
-
+							.attr("height", this.y_scale.bandwidth())
+							.attr("fill", (d) => this.color(d.team))
+		bars.append("text")
+				.attr("fill","black")
+				.attr("text-anchor", "end")
+				.style("font", "12px sans-serif")
+				.attr("x", d=> this.x_scale(d[this.x]) - 5)
+				.attr("y", d => this.y_scale(d[this.y]) + this.y_scale.bandwidth() / 2)
+				.attr("dy", "0.35em")
+				.text(d => d[this.x] + " wins");
+		// this.svg.append("g")
+		// 		.attr("fill", "white")
+		// 		.attr("text-anchor", "end")
+		// 		.style("font", "12px sans-serif")
+		// 		.selectAll("text")
+		// 		.data(this.data)
+		// 		.join("text")
+		// 		.attr("x", d => this.x_scale(d[this.x]) - 4)
+		// 		.attr("y", d => this.y_scale(d[this.y]) + this.y_scale.bandwidth() / 2)
+		// 		.attr("dy", "0.35em")
+		// 		.text(d => d.team);
 		// var lines = this.svg.selectAll("lines")
 		// 				.data(this.data)
 		// 				.enter()
@@ -144,17 +165,17 @@ class bar_chart {
 		// 				.attr("stroke", "black")
 		// 				.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
-		var circles = this.svg.selectAll("circles")
-							.data(this.data)
-							.enter()
-							.append("circle")
-							.attr("cx", (d) => this.x_scale(d[this.x]))
-							.attr("cy", (d) => this.y_scale(d[this.y]))
-							.attr("r", "10")
-							.style("fill", (d) => this.color(d.team))
-							.attr("stroke-width", "1")
-							.attr("stroke", "#171717")
-							.attr("class", (d) => "circle " + d.team.toLowerCase());
+		// var circles = this.svg.selectAll("circles")
+		// 					.data(this.data)
+		// 					.enter()
+		// 					.append("circle")
+		// 					.attr("cx", (d) => this.x_scale(d[this.x]))
+		// 					.attr("cy", (d) => this.y_scale(d[this.y]))
+		// 					.attr("r", "10")
+		// 					.style("fill", (d) => this.color(d.team))
+		// 					.attr("stroke-width", "1")
+		// 					.attr("stroke", "#171717")
+		// 					.attr("class", (d) => "circle " + d.team.toLowerCase());
 	}
 
 	set_data(new_data) {
