@@ -125,23 +125,66 @@ class bar_chart {
 					"#8b4513", "#f08080",
 					"#80f080", "#ff682a"]);
 
-		var bars = this.svg.selectAll(".bar")
-							.data(this.data)
-							.enter()
-							.append("rect")
-							.attr("class", "bar")
-							.attr("y", d => this.y_scale(d[this.y]))
-							.attr("width", d => this.x_scale(d[this.x]))
-							.attr("height", this.y_scale.bandwidth())
-							.attr("fill", (d) => this.color(d.team))
-		bars.append("text")
-				.attr("fill","black")
+		this.colorText = d3.scaleOrdinal()
+							.domain(["Ferrari", "McLaren",
+							"Williams", "Mercedes",
+							"Lotus", "Red Bull",
+							"Brabham", "Renault",
+							"Cooper", "Benetton",
+							"Tyrrell", "Alfa Romeo",
+							"BRM", "Matra",
+							"Brawn GP", "Maserati"])
+							.range(
+								["#000000", "#000000",
+									"#000000", "#000000",
+									"#000000", "#ffffff",
+									"#000000", "#000000",
+									"#000000", "#000000",
+									"#000000", "#000000",
+									"#000000", "#000000",
+									"#000000", "#000000"]);
+		
+		var groups = this.svg.selectAll(".group")
+							.append("g")
+							.attr("class", "group")
+							.data(this.data);
+		
+		groups.enter()
+				.append("rect")
+				.attr("class", "bar")
+				.attr("y", d => this.y_scale(d[this.y]))
+				.attr("width", d => this.x_scale(d[this.x]))
+				.attr("height", this.y_scale.bandwidth())
+				.attr("fill", (d) => this.color(d.team));
+
+		groups.enter()
+				.append("text")
+				.attr("class", "inner_text")
 				.attr("text-anchor", "end")
-				.style("font", "12px sans-serif")
 				.attr("x", d=> this.x_scale(d[this.x]) - 5)
 				.attr("y", d => this.y_scale(d[this.y]) + this.y_scale.bandwidth() / 2)
 				.attr("dy", "0.35em")
+				.attr("fill", d => this.colorText(d.team))
 				.text(d => d[this.x] + " wins");
+
+
+		// var bars = this.svg.selectAll(".bar")
+		// 					.data(this.data)
+		// 					.enter()
+		// 					.append("rect")
+		// 					.attr("class", "bar")
+		// 					.attr("y", d => this.y_scale(d[this.y]))
+		// 					.attr("width", d => this.x_scale(d[this.x]))
+		// 					.attr("height", this.y_scale.bandwidth())
+		// 					.attr("fill", (d) => this.color(d.team))
+		// bars.append("text")
+		// 		.attr("fill","black")
+		// 		.attr("text-anchor", "end")
+		// 		.style("font", "12px sans-serif")
+		// 		.attr("x", d=> this.x_scale(d[this.x]) - 5)
+		// 		.attr("y", d => this.y_scale(d[this.y]) + this.y_scale.bandwidth() / 2)
+		// 		.attr("dy", "0.35em")
+		// 		.text(d => d[this.x] + " wins");
 		// this.svg.append("g")
 		// 		.attr("fill", "white")
 		// 		.attr("text-anchor", "end")
