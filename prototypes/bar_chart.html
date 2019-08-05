@@ -14,6 +14,7 @@
 	</style>
 </head>
 <body>
+	<p id="bloop">click to update once</p>
 	<figure id="test"></figure>
 	<script src="../public/js/d3.v4.js"></script>
 	<script src="../public/js/bar_chart.js"></script>
@@ -43,6 +44,12 @@
 			x: "wins",
 			filter: 10
 		})
+
+		d3.select("#bloop").on("click", () => {
+			console.log("test");
+			wins.update("win_percentage", true, 10)
+		});
+
 		});
 	</script>
 </body>
