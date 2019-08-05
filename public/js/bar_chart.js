@@ -1,4 +1,4 @@
-class sucker_chart {
+class bar_chart {
 
 	constructor(opts) {
 		// these are the inputs: the data we're working with, and the element we're loading the chart into.
@@ -23,7 +23,7 @@ class sucker_chart {
 	}
 	init() {
 		this.margin = {
-			top: 50,
+			top: 40,
 			right: 50,
 			bottom: 0,
 			left: 100};
@@ -116,7 +116,7 @@ class sucker_chart {
 			)
 			.range(
 				["#DC0300", "#FB8703",
-					"#FFFFFF", "#2ED2BE",
+					"goldenrod", "#2ED2BE",
 					"#555555", "#2041FF",
 					"#F4D258", "#FDF503",
 					"#004225", "#2086C0",
@@ -126,8 +126,11 @@ class sucker_chart {
 
 		var bars = this.svg.selectAll("bars")
 							.data(this.data)
-							,enter()
+							.enter()
 							.append("rect")
+							.attr("y", d => this.y_scale(d[this.y]))
+							.attr("width", d => this.x_scale(d[this.x]))
+							.attr("height", this.y_scale.bandwidth());
 
 		// var lines = this.svg.selectAll("lines")
 		// 				.data(this.data)

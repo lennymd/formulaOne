@@ -74,13 +74,13 @@ function init() {
 	// 		this will also initialize trigger observations
 	// 3. bind scrollama event handlers (this can be chained like below)
 	d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
-		var wins = new sucker_chart({
+		var wins = new bar_chart({
 			plot_data: dataset,
 			element: "#win_plot",
 			x: "wins",
 			filter: 10
 		})
-		var podiums = new sucker_chart({
+		var podiums = new bar_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
 			x: "podiums",
