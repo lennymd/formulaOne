@@ -124,17 +124,22 @@ class sucker_chart {
 					"#8b4513", "#f08080",
 					"#80f080", "#ff682a"]);
 
-		var lines = this.svg.selectAll("lines")
-						.data(this.data)
-						.enter()
-						.append("line")
-						.attr("x1", (d) => this.x_scale(d[this.x]))
-						.attr("x2", this.x_scale(0))
-						.attr("y1", (d) => this.y_scale(d[this.y]))
-						.attr("y2", (d) => this.y_scale(d[this.y]))
-						.attr("stroke-width", "3")
-						.attr("stroke", "black")
-						.attr("class", (d) => "line "+ d.team.toLowerCase());
+		var bars = this.svg.selectAll("bars")
+							.data(this.data)
+							,enter()
+							.append("rect")
+
+		// var lines = this.svg.selectAll("lines")
+		// 				.data(this.data)
+		// 				.enter()
+		// 				.append("line")
+		// 				.attr("x1", (d) => this.x_scale(d[this.x]))
+		// 				.attr("x2", this.x_scale(0))
+		// 				.attr("y1", (d) => this.y_scale(d[this.y]))
+		// 				.attr("y2", (d) => this.y_scale(d[this.y]))
+		// 				.attr("stroke-width", "3")
+		// 				.attr("stroke", "black")
+		// 				.attr("class", (d) => "line "+ d.team.toLowerCase());
 		
 		var circles = this.svg.selectAll("circles")
 							.data(this.data)
