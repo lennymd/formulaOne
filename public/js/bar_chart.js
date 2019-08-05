@@ -9,7 +9,6 @@ class bar_chart {
 		this.y_key = "run_id";
 		this.rank = "rank_" + this.x_key;
 		this.filter = opts.filter;
-		// this.filter = 99;
 		this.normalize = false;
 		this.duration = 1000;
 		this.duration_scale = 0.2;
@@ -21,6 +20,7 @@ class bar_chart {
 		let sorted_data = this.base_data.sort((b, a) => b[this.rank] - a[this.rank]);
 		this.data = sorted_data.filter((d) => d[this.rank] < this.filter + 1);
 	}
+	
 	init() {
 		this.margin = {
 			top: 20,
@@ -164,8 +164,25 @@ class bar_chart {
 							.attr("y", d => this.y_key_scale(d[this.y_key]) + this.y_key_scale.bandwidth() / 2)
 							.attr("dy", "0.35em")
 							.attr("fill", d => this.colorText(d.team))
-							.text(d => d[this.x_key] + " wins");
+							.text(d => this.set_text(d));
 
+	}
+	set_text(d) {
+		var data = d;
+		const key = this.x_key;
+		var val = data[this.x_key];
+		var new_text;
+		if (key === "wins") {
+			new_text = val + " wins";
+		} else if (key === "podiums") {
+			new_text = val + " podium finishes";
+		} else if (key === "average") {
+			new_text = val + " average finishing position";
+		} else {
+			new_text = val.toFixed(2) + "%";
+		}
+
+		return new_text;
 	}
 
 	set_data(new_data) {
@@ -195,6 +212,7 @@ class bar_chart {
 		this.x_key = column;
 		this.sort(this.x_key);
 	}
+	
 
 	update(column, normalize, filter) {
 		// set new data
@@ -209,23 +227,38 @@ class bar_chart {
 		// update the x-scale and y-scale
 		this.create_scales();
 
-		// d3 selector for groups.
-		// var groups = this.svg.selectAll(".group")
-		// 					.data(this.data);
-		
-		// var bars = groups.selectAll("rect");
-		// // d3 selectors for the circles and lines
-		// var circles = this.svg.selectAll("circle")
-		// 						.data(this.data);
-		
-		// var lines = this.svg.selectAll(".line")
-		// 					.data(this.data);
-
 		var groups = this.svg.selectAll(".group")
 								.data(this.data)
 								.attr("class", "group");
 		
-		groups.enter().append("g");
+		groups.enter().append("g")
+						.append("rect")
+						.append("text");
+		
+		groups.select("rect")
+				.transition()
+				.duration(this.duration/2)
+				.attr("class", "bar")
+				.attr("y", d => this.y_key_scale(d[this.y_key]))
+				.attr("width", d => this.x_scale(d[this.x_key]))
+				.attr("height", this.y_key_scale.bandwidth())
+				.attr("fill", (d) => this.color(d.team));
+
+		groups.select("text")
+				.transition()
+				.duration(this.duration/2)
+				.attr("class", "inner_text")
+				.attr("text-anchor", "end")
+				.attr("x", d=> this.x_scale(d[this.x_key]) - 5)
+				.attr("y", d => this.y_key_scale(d[this.y_key]) + this.y_key_scale.bandwidth() / 2)
+				.attr("dy", "0.35em")
+				.attr("fill", d => this.colorText(d.team))
+				.text(d => this.set_text(d));
+		
+		groups.exit()
+				.transition()
+				.duration(this.duration/2)
+				.remove();
 
 		this.svg.select(".y.axis")
 				.transition()
