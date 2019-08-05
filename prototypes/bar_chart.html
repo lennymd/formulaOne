@@ -28,7 +28,7 @@
 	<p id="bloop">click to update once</p>
 	<figure id="test"></figure>
 	<script src="../public/js/d3.v4.js"></script>
-	<script src="../public/js/bar_chart.js"></script>
+	<script src="../public/js/bar_chart_v2.js"></script>
 	<script>
 		var row_converter = function(d) {
 			return {
@@ -52,13 +52,13 @@
 		var wins = new bar_chart({
 			plot_data: dataset,
 			element: "#test",
-			x: "wins",
+			x: "podium_percentage",
 			filter: 10
 		})
 
 		d3.select("#bloop").on("click", () => {
 			console.log("test");
-			wins.update("win_percentage", true, 10)
+			wins.update("podiums", true, 10)
 		});
 
 		});

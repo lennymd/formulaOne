@@ -103,7 +103,7 @@ function init() {
 				} else if (section === 2) {
 					// working with podiums
 					if (index === 1) {
-						podiums.update("podium_percentage", true, 10);
+						podiums.update("podiums", false, 10);
 					}
 				} else {
 					// working with averages
