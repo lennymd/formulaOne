@@ -3,12 +3,15 @@
 	<article class="prose">
 		<p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other seven races. And in 2016, Nico Rosberg claimed 9 of Mercedes's wins; Hamilton 10. For Ferrari's 2002 run Michael Schumacher's skill, paired with the reliable F2002 resulted in an 11-5 split of wins between him and Rubens Barrichello. The performance of both drivers influences how good a team is; the best team would have two reliable drivers.</p>
 		<p>We could extend our definition of "best season" to better account for this. While winning the race is the dream of every driver, the best weekend a team works for is to have both drivers on the podium, with one driver winning. Let's redefine our definition of "best season" to be the one where a team has the most podium finishes in the season.</p>
-		<p>For each year we'll do the following:</p>
-		<ol>
-			<li>Look at the driver that won the Driver's Championship that year</li>
-			<li>Look at what team the driver was driving for</li>
-			<li>Count how many times at least one of the team's drivers finished in first, second, or third <span class="footnote">(In the early years of Formula One drivers would share and switch the cars they were driving during a race. Points earned from the different finishes would be shared. In the 1955 Argentine Grand Prix, Jose Froilan Gonzalez, Giuseppe Farina, Maurice Trintignant shared second place. Additionally, Farina, Trintignant, and Umberto Maglioli shared third place.)</span>.</li>
-		</ol>
+		<p>For each year we'll do the following:
+			$$
+			\begin{eqnarray}
+			\textrm{total podium finishes} &=& \sum \textrm{(times at least one team's driver finished 1st)} \nonumber \\
+			&+& \sum \textrm{(times at least one team's driver finished 2nd)} \nonumber \\
+			&+& \sum \textrm{(times at least one team's driver finished 3rd)} \nonumber \\
+			\end{eqnarray}
+			$$
+		</p>
 	</article>
 	<section class="scrolly" id='scrolly_podiums'>
 		<article class="scrolly_text">
@@ -21,17 +24,24 @@
 			</div>
 			<div class="step" section-index="2" data-step='1'>
 				<p>As we saw when we compared the total races won, normalizing the number of podium finishes can help us make a more holistic comparison.</p>
-				<p>For most of the sport's history, Formula One teams have only had two drivers so in any race up to two podium spots can be filled. We could normalize the number of podium finishes by dividing by two times the total number of races in the season. However, in the 1950s and early 1960s, teams had a lot more drivers on the grid, so it was possible to fill all three podium spots. In fact, in the first race, the 1950 British Grand Prix, Alfa Romeo drivers monopolized the podium. Doing this might result in teams having over 100% of podium spots claimed, which doesn't make sense.</p>
-				<p>We could also try to normalize the number of podium finishes by dividing by three times the total number of races in the season. In this case, the earlier teams would be within a more comparable range, but the teams that had only two drivers would never be close to 100% in the case that they had both their drivers on the podium for every race.</p>
-				<p>HWe need something more flexible that can account for both the years where teams had many drivers on the grid, and for the years team only had two drivers. Let's compute a flexible number of expected podium finishes based on how many drivers a team had.</p>
-				<p>For each race in the season</p>
-				<ol>
-					<li>Count how many drivers of a team participated in the race.</li>
-					<li>If there are three or more participating drivers, then there are three available podium spots. The maximum number of podium spots is 3, so even if a team had four drivers in a race, only three could be on the podium in the best of cases.</li>
-					<li>If there are fewer than three participating drivers, the number of available podium spots is equal to the number of participating drivers. If you have two drivers, they can at best have two podium finishes.</li>
-					<li>Sum the available podium spots for each race in the season to get the total number of available podium spots.</li>
-				</ol>
-				<p>Once we have this total number of available spots, we can divide the number of podium finishes by it.</p>
+				<p>For most of the sport's history, Formula One teams have only had two drivers so in any race up to two podium spots can be filled. We could normalize the number of podium finishes by dividing by two times the total number of races in the season.
+					$$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{2 \cdot \sum \textrm{(races in season)}}$$
+				</p><p>However, in the 1950s and early 1960s, teams had a lot more drivers on the grid, so it was possible to fill all three podium spots. In fact, in the first race, the 1950 British Grand Prix, Alfa Romeo drivers monopolized the podium. Doing this might result in teams having over 100% of podium spots claimed, which doesn't make sense.</p>
+				<p>We could also try to normalize the number of podium finishes by dividing by three times the total number of races in the season.
+						$$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{3 \cdot \sum \textrm{(races in season)}}$$
+					</p>
+				<p>In this case, the earlier teams would be within a more comparable range, but the teams that had only two drivers would never be close to 100% in the case that they had both their drivers on the podium for every race.</p>
+				<p>We need something more flexible that can account for both the years where teams had many drivers on the grid, and for the years team only had two drivers. Let's compute a flexible number of expected podium finishes based on how many drivers a team had.</p>
+				<p>For each race in the season:</p>
+				<p>$$\textrm{participating drivers} = \sum \textrm{(drivers who entered the race)}$$</p>
+				<p>If $\textrm{participating drivers} \geq 3$,</p> 
+				<p class="subcase">$\textrm{available podium spots} = 3$. In any one race, there are only three podium spots: first, second, and third place. The best a team with three or more drivers could is fill the entire podium and nothing else.</p>
+				<p>If $\textrm{participating drivers} < 3$,</p> 
+				<p class="subcase">$\textrm{available podium spots} = \textrm{participating drivers}$. If a team has two or one drivers in a race, the best they can do is fill two or one spots, respectively.</p>
+				<p>Now we can sum the $\textrm{average podium spots}$ in a season and find the percentage of podium finishes:
+					$$ \textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{\sum \textrm{(available podium spots in each race)}}$$
+				</p>
+				
 			</div>
 			<div class="step" section-index="2" data-step='2'>
 				<section class="mobile">

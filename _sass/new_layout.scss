@@ -171,3 +171,13 @@ article.prose {
 	}
 
 }
+
+p.subcase {
+	margin-left: $gap;
+	margin-top: 0.5rem !important;
+}
+
+.MathJax {
+	font-size: 1.15em;
+	max-width: $text_width;
+}

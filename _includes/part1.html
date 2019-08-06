@@ -1,12 +1,14 @@
 <section class="row">
 	<h2 class="section__hed">Most wins in season</h2>
 	<article class="prose">
-		<p>The most direct way to find the best championship team is to compare the number of races each team won in their championship season. For each year we'll do the following:</p>
-		<ol>
+		<p>The most direct way to find the best championship team is to compare the number of races each team won in their championship season. For each year we'll do the following:
+			$$\textrm{total wins} = \sum \textrm{(times a team's driver finished first)}$$
+		</p>
+		<!-- <ol>
 			<li>Look at the driver that won the Driver's Championship that year.</li>
 			<li>Look at what team the driver was driving for.</li>
 			<li>Count how many times at least one of the team's drivers finished in first. <span class="footnote">(Two drivers shared the race win in the 1951 French Grand Prix, the 1956 Argentine Grand Prix, and the 1957 British Grand Prix.)</span></li>
-		</ol>
+		</ol> -->
 		<p>And to make things easier, let's only look at the top 10 teams.</p>
 	</article>
 	<section class="scrolly" id='scrolly_wins'>
@@ -26,7 +28,9 @@
 			</div>
 			<div class="step" section-index="1" data-step='1'>
 				<p>While looking at the total number of wins each team accumulated in their season is a decent place to start, it's not the best comparison. In 2016 there were 21 races in the Formula One season, while in 2015 and 2014 there were 19 races, and if we looked at the first Formula One season in 1950, there were only seven races. While Mercedes won 19 races in 2016, they had two more chances to win than in 2015 and 12 more than in 1950.</p>
-				<p>To make our comparison more accurate, we should take into account the number of races in each season. We can divide the number of wins in the season by the number of races in that season, normalizing the number of wins into a percentage. And then we can compare the top 10 teams with the highest win percentage in a season.</p>
+				<p>To make our comparison more accurate, we should take into account the number of races in each season. We can divide the number of wins in the season by the number of races in that season, normalizing the number of wins into a percentage.
+						$$\textrm{win percentage} = \frac{\textrm{total wins}}{\sum \textrm{(races in season)}}$$
+				</p><p>And then we can compare the top 10 teams with the highest win percentage in a season.</p>
 			</div>
 			<div class="step" section-index="1" data-step='2'>
 				<section class="mobile_container">
