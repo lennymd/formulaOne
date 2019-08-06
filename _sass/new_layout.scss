@@ -104,3 +104,18 @@ article.prose {
 	max-width: 75vw;
 	margin: 0 auto;
 }
+
+
+.circuits {
+	display: flex;
+	width: $max_width;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	figure {
+		max-width: 45%;
+		img {
+			width: 100%;
+		}
+	}
+}
