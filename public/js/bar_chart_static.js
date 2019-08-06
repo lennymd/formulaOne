@@ -30,7 +30,7 @@ class bar_chart {
 			top: 20,
 			right: 20,
 			bottom: 0,
-			left: 120};
+			left: 150};
 
 		const base_h = 900;
 		const base_w = 700;
@@ -103,25 +103,25 @@ class bar_chart {
 
 	create_shapes() {
 		this.color = d3.scaleOrdinal()
-			.domain(
-				["Ferrari", "McLaren",
-					"Williams", "Mercedes",
-					"Lotus", "Red Bull",
-					"Brabham", "Renault",
-					"Cooper", "Benetton",
-					"Tyrrell", "Alfa Romeo",
-					"BRM", "Matra",
-					"Brawn GP", "Maserati"]
-			)
-			.range(
-				["#DC0300", "#FB8703",
-					"goldenrod", "#2ED2BE",
-					"#555555", "#2041FF",
-					"#F4D258", "#FDF503",
-					"#004225", "#2086C0",
-					"#800080", "#9B0502",
-					"#8b4513", "#f08080",
-					"#80f080", "#ff682a"]);
+				.domain(
+					["Ferrari", "McLaren",
+						"Williams", "Mercedes",
+						"Lotus", "Red Bull",
+						"Brabham", "Renault",
+						"Cooper", "Benetton",
+						"Tyrrell", "Alfa Romeo",
+						"BRM", "Matra",
+						"Brawn GP", "Maserati"]
+				)
+				.range(
+					["#DC0300", "#FB8703",
+						"#2086C0", "#2ED2BE",
+						"#555555", "#2041FF",
+						"#F4D258", "#FDF503",
+						"#004225","#00A204",
+						"#800080", "#9B0502",
+						"#8b4513", "#f08080",
+						"#80f080", "#ff682a"]);
 
 		this.colorText = d3.scaleOrdinal()
 							.domain(["Ferrari", "McLaren",

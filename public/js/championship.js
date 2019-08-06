@@ -29,24 +29,23 @@ var div = d3.select("body").append("div")
 		var color = d3.scaleOrdinal()
 						.domain(
 							["Ferrari", "McLaren",
-							"Williams", "Mercedes",
-							"Lotus", "Red Bull",
-							"Brabham", "Renault",
-							"Cooper", "Benetton",
-							"Tyrrell", "Alfa Romeo",
-							"BRM", "Matra",
-							"Brawn GP", "Maserati"]
+								"Williams", "Mercedes",
+								"Lotus", "Red Bull",
+								"Brabham", "Renault",
+								"Cooper", "Benetton",
+								"Tyrrell", "Alfa Romeo",
+								"BRM", "Matra",
+								"Brawn GP", "Maserati"]
 						)
 						.range(
 							["#DC0300", "#FB8703",
-							"goldenrod", "#2ED2BE",
-							"#555555", "#2041FF",
-							"#F4D258", "#FDF503",
-							"#004225", "#2086C0",
-							"#800080", "#9B0502",
-							"#8b4513", "#f08080",
-							"#80f080", "#ff682a"]
-						);
+								"#2086C0", "#2ED2BE",
+								"#555555", "#2041FF",
+								"#F4D258", "#FDF503",
+								"#004225","#00A204",
+								"#800080", "#9B0502",
+								"#8b4513", "#f08080",
+								"#80f080", "#ff682a"]);
 		
 		var svg = chart.append("svg")
 						.attr("viewBox", `0 0 ${w} ${h}`)
