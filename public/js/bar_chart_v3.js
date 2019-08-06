@@ -91,7 +91,7 @@ class bar_chart {
 	
 	create_axes() {
 		// const key = this.x_key;
-		this.labels = {"wins": "Wins", "win_percentage": "Win percentage", "podiums": "Podium finishes", "podium_percentage": "Percentage of podium spots", "p_average":"Average finishing position"}
+		this.labels = {"wins": "Wins", "win_percentage": "Win percentage", "podiums": "Podium finishes", "podium_percentage": "Percentage of podium finishes", "p_average":"Average finishing position"}
 		this.y_axis = this.svg.append("g")
 						.attr("class", "y axis")
 						.call(d3.axisLeft(this.y_key_scale))

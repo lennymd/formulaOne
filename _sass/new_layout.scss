@@ -112,7 +112,7 @@ article.prose {
 	margin: 0 auto;
 
 	.part {
-		margin: 0;
+		margin: 0 auto;
 		width: 100%;
 		max-width: 400px;
 		padding: 0 0.25rem;
@@ -136,7 +136,7 @@ article.prose {
 }
 
 .car {
-	margin-top: 2rem;
+	margin: 2rem auto 0 auto !important;
 }
 
 

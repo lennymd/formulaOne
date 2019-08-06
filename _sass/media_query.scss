@@ -14,12 +14,22 @@
 	.container_center {
 		display: none;
 	}
+
+	.outro {
+		display: none;
+	}
+	p.img_caption {
+		margin-bottom: 0.5rem !important;
+	}
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.mobile {
 		display: block !important;
+	}
+	.outro {
+		display: none;
 	}
 
 	#win_plot, #podium_plot, #average_desktop {
@@ -31,6 +41,9 @@
 	}
 	.container_center .driver{
 		max-width: 400px;
+	}
+	p.img_caption {
+		margin-bottom: 0.5rem;
 	}
 }
 
@@ -44,6 +57,12 @@
 	}
 	.scrolly {
 		margin-top: $gap*1.75;
+	}
+	.outro {
+		display: none;
+	}
+	p.img_caption {
+		margin-bottom: 0.5rem;
 	}
 }
 
