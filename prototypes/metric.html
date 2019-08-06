@@ -6,15 +6,57 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<style>
+		html {
+			font-size: 18px;
+		}
 		.metric_best {
-			width: 40rem;
-			margin: 0 auto;
-			border: 4px solid #000;
+			width: 30rem;
 			border-radius: 8px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+		}
+		svg {
+			display: block;
+			width: 95%;
+		}
+		.mercedes {
+			border: 5px solid #2ED2BE;
+		}
+
+		.mclaren {
+			border: 5px solid #FB8703;
+		}
+
+		.team {
+			max-width: 40%;
+			height: auto;
+			margin: auto;
+		}
+		.info{
+			max-width: 40%;
+			margin: auto;
+		}
+		.category {
+			margin-bottom: 0.5rem;
+		}
+		p {
+			margin: 0 0 1rem 0;
 		}
 	</style>
 </head>
 <body>
-	<section class="metric_best"></section>
+	<section class="metric_best mclaren">
+		<section class="team">
+			<img src="../public/img/team_logos/mclaren.svg" alt="" srcset="">
+		</section>
+		<section class="info">
+			<h3 class="category">Most wins in a single season</h3>
+			<p>Mercedes 2016</p>
+		</section>
+	</section>
 </body>
 </html>
