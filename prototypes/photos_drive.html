@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pictures</title>
+	<style>
+		.container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(100px,150px));
+			grid-gap: 10px;
+			margin: 0 auto;
+			width: 50rem;
+		}
+		.driver {
+				display: flex;
+				flex-flow: column;
+		}
+
+		img {
+			width: 100%;
+			margin: 0 auto;
+		}
+		.caption {
+			text-align: justify;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<section class="container">
+		<section class="driver">
+			<img src="../public/img/drivers/hamilton_c.jpg" alt="" srcset="">
+			<p class="caption">Lewis Hamilton</p>
+		</section>
+		<section class="driver">
+			<img src="../public/img/drivers/lauda_b.jpg" alt="" srcset="">
+			<p class="caption">Niki Lauda</p>
+		</section>
+		<section class="driver">
+			<img src="../public/img/drivers/schumacher.jpg" alt="" srcset="">
+			<p class="caption">Michael Schumacher</p>
+		</section>
+		<section class="driver">
+			<img src="../public/img/drivers/senna_b.jpg" alt="" srcset="">
+			<p class="caption">Ayrton Senna</p>
+		</section>
+		<section class="driver" style="display:none;">
+			<img src="../public/img/drivers/vettel_c.jpg" alt="" srcset="">
+			<p class="caption">Sebastian Vettel</p>
+		</section>
+	</section>
+	
+</body>
+</html>
