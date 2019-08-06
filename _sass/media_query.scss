@@ -1,7 +1,7 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 	.mobile {
-		display: block;
+		display: block !important;
 	}
 	#win_plot, #podium_plot, #average_desktop {
 		display: none;
@@ -11,8 +11,9 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.mobile {
-		display: block;
+		display: block !important;
 	}
+
 	#win_plot, #podium_plot, #average_desktop {
 		display: none;
 	}
@@ -36,6 +37,7 @@
 	.mobile {
 		display: none;
 	}
+
 	#win_plot, #podium_plot, #average_desktop {
 		display: block;
 	}
@@ -49,6 +51,7 @@
 	.mobile {
 		display: none;
 	}
+
 	#win_plot, #podium_plot, #average_desktop {
 		display: block;
 	}

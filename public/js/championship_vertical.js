@@ -2,7 +2,7 @@ var div = d3.select("body").append("div")
 			.attr("class", "tooltip")
 			.style("opacity", 0);
 
-		var chart = d3.select("#championship_chart");
+		var chart = d3.select("#championship_m");
 		var converter = (d) => {
 			return {
 				team: d.team,
@@ -19,10 +19,10 @@ var div = d3.select("body").append("div")
 			}
 		}
 
-		var w = window.innerWidth,
-			h = window.innerHeight;
+		var w = 800,
+			h = 1000;
 
-		var margin = {top: 15, right: 60, bottom: 60, left: 110},
+		var margin = {top: 125, right: 60, bottom: 30, left: 50},
 			width = w - margin.left - margin.right,
 			height = h - margin.top - margin.bottom;
 
@@ -57,41 +57,42 @@ var div = d3.select("body").append("div")
 		
 		d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/teams_active_years.csv", converter, (dataset) => {
 			// scales
-			var x = d3.scaleLinear()
+			var y = d3.scaleLinear()
 						.domain([1950, 2020])
-						.range([0, width])
+						.range([0, height])
 						.clamp(true)
 						.nice();
 
-			var y = d3.scaleBand()
+			var x = d3.scaleBand()
 						.domain(dataset.map( (d) => d.team))
-						.range([0, this.height])
+						.range([0, width])
 						.padding(1);
 			// create axes
-			var x_axis = svg.append("g")
+			var y_axis = svg.append("g")
 							.attr("class", "x axis")
-							.call(d3.axisBottom(x).tickFormat(d3.format("d")).tickSize(height))
+							.call(d3.axisLeft(y).tickFormat(d3.format("d")).tickSize(-width))
 							.selectAll("text")
+							.attr("transform", `translate(-10, 0)`)
 							.attr("class", "axis_text")
 							.style("text-align", "middle");
 
-			var y_axis = svg.append("g")
+			var x_axis = svg.append("g")
 							.attr("class", "y axis")
-							.call(d3.axisLeft(y))
-							.attr("transform", `translate(-10, 0)`)
+							.call(d3.axisTop(x))
 							.selectAll("text")
+							.attr("transform", `rotate(-45) translate(${1* margin.left/2}, ${-10})`)
 							.attr("class", "axis_text")
-							.style("text-anchor", "end");
+							.style("text-anchor", "middle");
 			
 			// draw lines
 			var lines = svg.selectAll("active_years")
 							.data(dataset)
 							.enter()
 							.append("line")
-							.attr("x1", (d) => x(d.start))
-							.attr("x2", (d) => x(d.end))
-							.attr("y1", (d) => y(d.team))
-							.attr("y2", (d) => y(d.team))
+							.attr("y1", (d) => y(d.start))
+							.attr("y2", (d) => y(d.end))
+							.attr("x1", (d) => x(d.team))
+							.attr("x2", (d) => x(d.team))
 							.attr("opacity", "0.6")
 							.attr("stroke-width", "10")
 							.attr("stroke", (d) => color(d.team))
@@ -102,8 +103,8 @@ var div = d3.select("body").append("div")
 								.enter()
 								.append("text")
 								.attr("class", "trophy")
-								.attr("x", d => x(d.year))
-								.attr("y", d => y(d.team))
+								.attr("y", d => y(d.year))
+								.attr("x", d => x(d.team))
 								.attr("text-anchor", "middle")
 								.attr("dominant-baseline", "middle")
 								.attr('font-family', 'FontAwesome')
