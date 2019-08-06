@@ -6,6 +6,10 @@
 	#win_plot, #podium_plot, #average_desktop {
 		display: none;
 	}
+
+	.circuits .part {
+		max-width: 800px;
+	}
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -16,6 +20,10 @@
 
 	#win_plot, #podium_plot, #average_desktop {
 		display: none;
+	}
+
+	.circuits .part {
+		max-width: 800px;
 	}
 }
 
@@ -44,6 +52,7 @@
 	.scrolly {
 		margin-top: $gap*1.75;
 	}
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -58,4 +67,5 @@
 	.scrolly {
 		margin-top: $gap*1.75;
 	}
+
 }

@@ -126,10 +126,13 @@ article.prose {
 	}
 
 	.img_caption {
-		margin: 0.5rem 0;
+		margin-top: 0.5rem;
 		padding-bottom: 0.25rem;
 		font-size: 0.9rem;
 		line-height: 1.4;
+	}
+	#circuit1 {
+		margin-bottom: $gap;
 	}
 
 }
