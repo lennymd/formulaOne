@@ -177,7 +177,6 @@ p.subcase {
 	margin-top: 0.5rem !important;
 }
 
-.MathJax {
-	font-size: 1.15em;
-	max-width: $text_width;
+.mjx-chtml {
+	font-size: 105% !important;
 }
