@@ -24,6 +24,8 @@ var main = d3.select('main');
 var scrolly1 = main.select('#scrolly_wins'),
 	scrolly2 = main.select("#scrolly_podiums");
 
+var m_win_1 = main.select("#win_1");
+
 var figure = scrolly1.select('figure'),
 	figure2 = scrolly2.select("figure");
 
@@ -41,16 +43,19 @@ function handleResize() {
 	// step1.style('min-height', h + 'px');
 	// step2.style("min-height", h + "px");
 
-	var figureHeight = window.innerHeight*0.9;
+	var figHeight = window.innerHeight*0.9;
 	var figureMarginTop = 15;
+	var figWidth = window.innerWidth;
 	//(window.innerHeight - figureHeight) / 2
 
+	m_win_1.style("max-height", "90%")
+			.style("max-width", "90%");
 	figure
-		.style('height', figureHeight + 'px')
+		.style('height', figHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
 	figure2
-		.style('height', figureHeight + 'px')
+		.style('height', figHeight + 'px')
 		.style('top', figureMarginTop + 'px');
 
 	// 3. tell scrollama to update new element dimensions
@@ -80,10 +85,18 @@ function init() {
 			x: "wins",
 			filter: 10
 		})
+
 		var podiums = new bar_chart({
 			plot_data: dataset,
 			element: "#podium_plot",
 			x: "podiums",
+			filter: 10
+		})
+
+		var win_1 = new bar_chart({
+			plot_data: dataset,
+			element: "#win_1",
+			x: "wins",
 			filter: 10
 		})
 

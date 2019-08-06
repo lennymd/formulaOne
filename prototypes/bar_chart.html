@@ -25,7 +25,8 @@
 	</style>
 </head>
 <body>
-	<p id="bloop">click to update once</p>
+	<p id="bloop">click here to update once</p>
+	<p id="bloop2"> click here to go back to origin</p>
 	<figure id="test"></figure>
 	<script src="../public/js/d3.v4.js"></script>
 	<script src="../public/js/bar_chart_v2.js"></script>
@@ -57,8 +58,11 @@
 		})
 
 		d3.select("#bloop").on("click", () => {
-			console.log("test");
-			wins.update("podiums", true, 10)
+			wins.update("podiums", false, 10)
+		});
+
+		d3.select("#bloop2").on("click", () => {
+			wins.update("podium_percentage", true, 10)
 		});
 
 		});

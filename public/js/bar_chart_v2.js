@@ -176,36 +176,6 @@ class bar_chart {
 
 		return new_text;
 	}
-
-	set_data(new_data) {
-		this.data = new_data;
-		this.init();
-	}
-
-	sort(column) {
-		var sorted;
-		if (this.ascending) {
-			sorted = this.data.sort((b, a) => b[column] - a[column]);
-		} else {
-			sorted = this.data.sort((b, a) => a[column] - b[column]);
-		}
-
-		this.data = sorted;
-	}
-
-	norm(column) {
-		this.normalize = true;
-		this.x_key = column;
-		this.sort(this.x_key);
-	}
-
-	reset(column) {
-		this.normalize = false;
-		this.x_key = column;
-		this.sort(this.x_key);
-	}
-	
-
 	update(column, normalize, filter) {
 		// set new data
 		this.x_key = column;
@@ -224,11 +194,23 @@ class bar_chart {
 
 		var new_groups = groups.enter()
 								.append("g")
-								.append("rect")
-								.append("text")
-								.merge(groups);
-		// new_groups.append("rect");
-				
+								.attr("class","group");
+
+		new_groups.append("rect")
+					.attr("class", "bar")
+					.attr("y", d => this.y_key_scale(d[this.y_key]))
+					.attr("width", d => this.x_scale(d[this.x_key]))
+					.attr("height", this.y_key_scale.bandwidth())
+					.attr("fill", (d) => this.color(d.team));
+					
+		new_groups.append("text")
+					.attr("class", "inner_text")
+					.attr("text-anchor", "end")
+					.attr("x", d=> this.x_scale(d[this.x_key]) - 5)
+					.attr("y", d => this.y_key_scale(d[this.y_key]) + this.y_key_scale.bandwidth() / 2)
+					.attr("dy", "0.35em")
+					.attr("fill", d => this.colorText(d.team))
+					.text(d => this.set_text(d));
 
 		
 		groups.select("rect")
@@ -253,7 +235,7 @@ class bar_chart {
 		
 		groups.exit()
 				.transition()
-				.duration(this.duration/2)
+				.duration(this.duration/10000)
 				.remove();
 
 		this.svg.select(".y.axis")
@@ -264,7 +246,7 @@ class bar_chart {
 				.attr("class", "axis_text")
 				.style("text-anchor", "center")
 		this.x_label.transition()
-					.duration(this.duration)
+					.duration(this.duration/2)
 					.text(this.labels[this.x_key]);
 
 	}

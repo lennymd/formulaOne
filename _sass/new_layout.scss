@@ -80,11 +80,10 @@ article.prose {
 		display: inline;
 	}
 }
-
 .mobile {
-	display: none !important;
+	width: 100%;
+	margin: 0 auto;
 }
-
 .section__hed {
 	text-align: center;
 	margin: $gap 0 $gap 0;
