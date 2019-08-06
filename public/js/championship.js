@@ -52,10 +52,10 @@ var div = d3.select("body").append("div")
 						.append('g')
 						.attr('transform', `translate(${margin.left},${margin.top})`);
 		var winners;
-		d3.csv("../public/data/winners_annual.csv", converter2, (data) => winners = data);
+		d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/winners_annual.csv", converter2, (data) => winners = data);
 
 		
-		d3.csv("../public/data/teams_active_years.csv", converter, (dataset) => {
+		d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/teams_active_years.csv", converter, (dataset) => {
 			// scales
 			var x = d3.scaleLinear()
 						.domain([1950, 2020])
