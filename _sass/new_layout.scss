@@ -107,9 +107,29 @@ article.prose {
 
 
 .circuits {
-	display: grid;
-	grid-gap: $gap;
-	width: $text_width;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+
+	.part {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 400px;
+		padding: 0 0.25rem;
+		min-width: 200px;
+	}
+	img {
+		width: 100%;
+	}
+
+	.img_caption {
+		margin: 0.5rem 0;
+		padding-bottom: 0.25rem;
+		font-size: 0.9rem;
+		line-height: 1.4;
+	}
 
 }
