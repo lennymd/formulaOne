@@ -81,9 +81,20 @@ article.prose {
 	}
 }
 .mobile {
-	width: 100%;
+	max-width: 700px;
 	margin: 0 auto;
+	// display: block;
 }
+
+.averages {
+	max-width: 700px;
+	margin: 0 auto;
+	height: 100vh !important;
+}
+// #win_plot, #podium_plot {
+// 	display: none;
+// }
+
 .section__hed {
 	text-align: center;
 	margin: $gap 0 $gap 0;

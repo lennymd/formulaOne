@@ -9,7 +9,6 @@ class bar_chart {
 		this.y_key = "run_id";
 		this.rank = "rank_" + this.x_key;
 		this.filter = opts.filter;
-		this.full_width = opts.full_width;
 		if (this.x_key === "win_percentage" || this.x_key === "podium percentage") {
 			this.normalize = true;
 		} else {
@@ -32,15 +31,10 @@ class bar_chart {
 			right: 50,
 			bottom: 0,
 			left: 150};
-		let base_w;
-		if (this.full_width) {
-			base_w = window.innerWidth;
-		} else {
-			base_w = window.innerWidth / 2;
-		}
-
+		const base_h = 800;
+		const base_w = 700;
 		this.width = base_w - this.margin.left - this.margin.right;
-		this.height = window.innerHeight - this.margin.bottom - this.margin.top;
+		this.height = base_h - this.margin.bottom - this.margin.top;
 		
 		// Set up the place we're drawing the plot and also create the SVG.
 		var anchor = d3.select(this.element);
@@ -100,7 +94,7 @@ class bar_chart {
 						.style("text-anchor", "center");
 
 		this.x_label = this.svg.append("text")
-								.attr("transform", `translate( ${this.width / 2}, ${this.margin.top/2})`)
+								.attr("transform", `translate( ${this.width / 2}, ${this.margin.top/3})`)
 								.style("text-anchor", "middle")
 								.attr("class", "x_label")
 								.text(this.labels[this.x_key]);

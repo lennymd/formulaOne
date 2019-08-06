@@ -34,6 +34,13 @@ var step1 = scrolly1.select("article").selectAll(".step"),
 var scroller_wins = scrollama();
 var scroller_podiums = scrollama();
 
+// all the mobile charts
+var m_win1 = d3.select("#win1"),
+	m_win2 = d3.select("#win2"),
+	m_podium1 = d3.select("#podium1"),
+	m_podium2 = d3.select("#podium2"),
+	averages = d3.select("#average_plot");
+
 // generic window resize listener event
 function handleResize() {
 	// 1. update height of step elements
@@ -42,6 +49,11 @@ function handleResize() {
 	var figHeight = window.innerHeight*0.9;
 	var figMarginTop = 15;
 	// var figWidth = window.innerWidth;
+	
+	m_win1.style('min-height', figHeight + 'px');
+	m_win2.style('min-height', figHeight + 'px');
+	m_podium1.style('min-height', figHeight + 'px');
+	m_podium2.style('min-height', figHeight + 'px');
 
 	figure
 		.style('height', figHeight + 'px')
@@ -83,7 +95,8 @@ function init() {
 			plot_data: dataset,
 			element: "#podium_plot",
 			x: "podiums",
-			filter: 10
+			filter: 10,
+			fill_width: false
 		})
 
 		// scrollama event handlers
@@ -141,6 +154,7 @@ function init() {
 			}
 		}
 
+		// setup two scrollers
 		scroller_wins.setup({
 			step: '#scrolly_wins article .step',
 			offset: 0.33,

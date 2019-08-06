@@ -1,27 +1,20 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-	.sticky {
-		display: none;
-		z-index: -10000;
-	}
-	.scrolly_text {
-		max-width: 100%;
-	}
 	.mobile {
 		display: block;
+	}
+	#win_plot, #podium_plot, #average_desktop {
+		display: none;
 	}
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-	.sticky {
-		display: none;
-	}
-	// .scrolly_text {
-	// 	max-width: 100%;
-	// }
 	.mobile {
 		display: block;
+	}
+	#win_plot, #podium_plot, #average_desktop {
+		display: none;
 	}
 }
 
@@ -30,6 +23,9 @@
 	.mobile {
 		display: none;
 	}
+	#win_plot, #podium_plot, #average_desktop {
+		display: block;
+	}
 }
 
 // Large devices (desktops, 992px and up)
@@ -37,6 +33,10 @@
 	.mobile {
 		display: none;
 	}
+	#win_plot, #podium_plot, #average_desktop {
+		display: block;
+	}
+	
 	
 }
 
@@ -45,5 +45,7 @@
 	.mobile {
 		display: none;
 	}
-
+	#win_plot, #podium_plot, #average_desktop {
+		display: block;
+	}
 }
