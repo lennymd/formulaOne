@@ -50,8 +50,8 @@ header {
 }
 
 .outro {
-	height: 160px;
-	display: none;
+	height: 80px;
+	display: block;
 }
 
 article.prose {
@@ -91,9 +91,6 @@ article.prose {
 	max-width: 700px;
 	margin: 0 auto;
 }
-// #win_plot, #podium_plot {
-// 	display: none;
-// }
 
 .section__hed {
 	text-align: center;

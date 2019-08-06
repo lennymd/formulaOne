@@ -1,0 +1,42 @@
+.metric_best {
+	max-width: $text_width * 0.9;
+	margin: 2rem auto;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+	svg {
+		display: block;
+		width: 95%;
+		margin: auto;
+	}
+	
+	
+	.team {
+		max-width: 50%;
+		height: auto;
+		margin: auto;
+	}
+	.info{
+		max-width: 45%;
+		margin: auto;
+	}
+	.category {
+		margin-bottom: 0.5rem;
+	}
+	p {
+		margin: 0 0 1rem 0;
+	}
+}
+
+.metric_best.mercedes {
+	border: 5px solid #2ED2BE;
+}
+
+.metric_best.mclaren {
+	border: 5px solid #FB8703;
+}

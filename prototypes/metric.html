@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,18 +12,20 @@
 			font-size: 18px;
 		}
 		.metric_best {
-			width: 30rem;
+			max-width: 35rem;
+			margin: auto;
 			border-radius: 8px;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-around;
 			align-items: center;
 			align-content: center;
 		}
 		svg {
 			display: block;
 			width: 95%;
+			margin: auto;
 		}
 		.mercedes {
 			border: 5px solid #2ED2BE;
@@ -32,12 +36,12 @@
 		}
 
 		.team {
-			max-width: 40%;
+			max-width: 50%;
 			height: auto;
 			margin: auto;
 		}
 		.info{
-			max-width: 40%;
+			max-width: 45%;
 			margin: auto;
 		}
 		.category {
@@ -51,7 +55,7 @@
 <body>
 	<section class="metric_best mclaren">
 		<section class="team">
-			<img src="../public/img/team_logos/mclaren.svg" alt="" srcset="">
+			{% include svg/mclaren.svg %}
 		</section>
 		<section class="info">
 			<h3 class="category">Most wins in a single season</h3>
