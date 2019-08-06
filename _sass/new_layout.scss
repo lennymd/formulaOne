@@ -180,3 +180,12 @@ p.subcase {
 .mjx-chtml {
 	font-size: 105% !important;
 }
+
+
+.metric_container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	width: $text_width;
+	margin: 0 auto;
+}

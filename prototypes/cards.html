@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Float four columns side by side */
+		.column {
+			float: left;
+			width: 25%;
+			padding: 0 10px;
+		}
+
+		/* Remove extra left and right margins, due to padding in columns */
+		.row {margin: 0 -5px;}
+
+		/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		/* Style the counter cards */
+		.card {
+			padding: 16px;
+			border-radius: 8px;
+			text-align: center;
+			background-color: #f1f1f1;
+		}
+		.card.mercedes {
+			border: 5px solid #2ED2BE;
+		}
+		.card.mclaren {
+			border: 5px solid #FB8703;
+		}
+
+		/* Responsive columns - one column layout (vertical) on small screens */
+		@media screen and (max-width: 600px) {
+		.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		}
+		}
+	</style>
+</head>
+<body>
+		<div class="row">
+				<div class="column">
+					<div class="card mercedes">..</div>
+				</div>
+				<div class="column">
+					<div class="card mclaren">..</div>
+				</div>
+				<div class="column">
+					<div class="card mercedes">..</div>
+				</div>
+				<div class="column">
+					<div class="card mercedes">..</div>
+				</div>
+				<div class="column">
+					<div class="card mercedes">..</div>
+				</div>
+			  </div>
+</body>
+</html>
