@@ -28,10 +28,11 @@ class bar_chart {
 	init() {
 		this.margin = {
 			top: 20,
-			right: 50,
+			right: 20,
 			bottom: 0,
-			left: 150};
-		const base_h = 800;
+			left: 120};
+
+		const base_h = 900;
 		const base_w = 700;
 		this.width = base_w - this.margin.left - this.margin.right;
 		this.height = base_h - this.margin.bottom - this.margin.top;
@@ -157,7 +158,7 @@ class bar_chart {
 		var info = groups.append("text")
 							.attr("class", "inner_text")
 							.attr("text-anchor", "end")
-							.attr("x", d=> this.x_scale(d[this.x_key]) - 5)
+							.attr("x", d=> this.x_scale(d[this.x_key]) - 10)
 							.attr("y", d => this.y_key_scale(d[this.y_key]) + this.y_key_scale.bandwidth() / 2)
 							.attr("dy", "0.35em")
 							.attr("fill", d => this.colorText(d.team))

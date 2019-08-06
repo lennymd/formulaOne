@@ -26,6 +26,9 @@
 	#win_plot, #podium_plot, #average_desktop {
 		display: block;
 	}
+	.scrolly {
+		margin-top: $gap*1.75;
+	}
 }
 
 // Large devices (desktops, 992px and up)
@@ -36,8 +39,9 @@
 	#win_plot, #podium_plot, #average_desktop {
 		display: block;
 	}
-	
-	
+	.scrolly {
+		margin-top: $gap*1.75;
+	}
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -47,5 +51,8 @@
 	}
 	#win_plot, #podium_plot, #average_desktop {
 		display: block;
+	}
+	.scrolly {
+		margin-top: $gap*1.75;
 	}
 }
