@@ -1,23 +1,24 @@
 #merc2015 {
-	max-width: 800px;
+	max-width: 450px;
 	margin: 3rem auto 0 auto;
-	height: 700px;
 
 	table {
-		width: 90%;
-
+		margin: 0 auto;
 		td {
-			width: 20% !important;
+			max-width: 150px;
 		}
 
 	
 		.table_header {
 			text-align: center;
 			font-weight: bold;
-			text-decoration: underline;
 
-			.head:first-of-type {
-				text-align: right;
+			.head {
+				width: 20%;
+				text-decoration: underline;
+				&:first-of-type {
+					text-align: right;
+				}
 			}
 		}
 

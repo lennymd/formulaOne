@@ -15,8 +15,8 @@ var converter = (d) => {
 };
 
 header.selectAll("td")
-		// .data(["\xa0", "Nico Rosberg", "Lewis Hamilton"])
-		.data(["Grand Prix", "Nico Rosberg", "Lewis Hamilton"])
+		.data(["", "Nico Rosberg", "Lewis Hamilton"])
+		// .data(["Grand Prix", "Nico Rosberg", "Lewis Hamilton"])
 		.enter()
 		.append("td")
 		.attr("class", "head")
