@@ -28,9 +28,9 @@ class bar_chart {
 	
 	init() {
 		this.margin = {
-			top: 20,
+			top: 10,
 			right: 50,
-			bottom: 0,
+			bottom: 15,
 			left: 150};
 		let base_w;
 		if (this.full_width) {
