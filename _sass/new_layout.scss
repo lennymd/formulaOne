@@ -46,7 +46,7 @@ header {
 }
 
 .row {
-	margin: 0% 2%;
+	margin: 0 1%;
 }
 
 .outro {
@@ -56,7 +56,7 @@ header {
 
 article.prose {
 	font-size: 1rem;
-	padding: 0 $gap;
+	padding: 0 $gap/2;
 	margin: $gap auto 0 auto;
 	max-width: $max_width;
 
