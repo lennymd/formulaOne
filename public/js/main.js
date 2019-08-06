@@ -41,7 +41,7 @@ function handleResize() {
 
 	var figHeight = window.innerHeight*0.9;
 	var figMarginTop = 15;
-	var figWidth = window.innerWidth;
+	// var figWidth = window.innerWidth;
 
 	figure
 		.style('height', figHeight + 'px')
@@ -85,13 +85,6 @@ function init() {
 			x: "podiums",
 			filter: 10
 		})
-
-		// var wins1 = new bar_chart({
-		// 	plot_data: dataset,
-		// 	element: "#win_1",
-		// 	x: "wins",
-		// 	filter: 10
-		// })
 
 		// scrollama event handlers
 		function stepEnter(response) {
