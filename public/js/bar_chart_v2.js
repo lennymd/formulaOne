@@ -221,12 +221,10 @@ class bar_chart {
 
 		var groups = this.svg.selectAll(".group")
 								.data(this.data);
-		
-		groups.enter().append("g").attr("class", "group");
 
-		// groups.enter().append("g")
-		// 				.append("rect")
-		// 				.append("text");
+		groups.enter().append("g")
+						.append("rect")
+						.append("text");
 		
 		groups.select("rect")
 				.transition()
