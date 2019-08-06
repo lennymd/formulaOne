@@ -24,8 +24,6 @@ var main = d3.select('main');
 var scrolly1 = main.select('#scrolly_wins'),
 	scrolly2 = main.select("#scrolly_podiums");
 
-var m_win_1 = main.select("#win_1");
-
 var figure = scrolly1.select('figure'),
 	figure2 = scrolly2.select("figure");
 
@@ -40,23 +38,18 @@ var scroller_podiums = scrollama();
 function handleResize() {
 	// 1. update height of step elements
 	var h = Math.floor(window.innerHeight * 0.5);
-	// step1.style('min-height', h + 'px');
-	// step2.style("min-height", h + "px");
 
 	var figHeight = window.innerHeight*0.9;
-	var figureMarginTop = 15;
+	var figMarginTop = 15;
 	var figWidth = window.innerWidth;
-	//(window.innerHeight - figureHeight) / 2
 
-	m_win_1.style("max-height", "90%")
-			.style("max-width", "90%");
 	figure
 		.style('height', figHeight + 'px')
-		.style('top', figureMarginTop + 'px');
+		.style('top', figMarginTop + 'px');
 
 	figure2
 		.style('height', figHeight + 'px')
-		.style('top', figureMarginTop + 'px');
+		.style('top', figMarginTop + 'px');
 
 	// 3. tell scrollama to update new element dimensions
 	scroller_wins.resize();
@@ -93,12 +86,12 @@ function init() {
 			filter: 10
 		})
 
-		var win_1 = new bar_chart({
-			plot_data: dataset,
-			element: "#win_1",
-			x: "wins",
-			filter: 10
-		})
+		// var wins1 = new bar_chart({
+		// 	plot_data: dataset,
+		// 	element: "#win_1",
+		// 	x: "wins",
+		// 	filter: 10
+		// })
 
 		// scrollama event handlers
 		function stepEnter(response) {
