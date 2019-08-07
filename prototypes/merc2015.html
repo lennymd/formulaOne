@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<style></style>
+	<link rel="stylesheet" href="../public/css/static_table.css">
 </head>
 <body>
 	<section id="merc2015"></section>
@@ -25,13 +25,13 @@
 		};
 
 		header.selectAll("td")
-				.data(["\xa0", "Nico Rosberg", "Lewis Hamilton"])
+				.data(["Grand Prix", "Nico Rosberg", "Lewis Hamilton", "Avg. finishing position"])
 				.enter()
 				.append("td")
 				.attr("class", "head")
 				.text(d=> d);
 
-		d3.csv("../public/data/mercedes2015.csv", converter, (dataset) => {
+		d3.csv("../public/data/mercedes2015_v2.csv", converter, (dataset) => {
 			console.log(dataset);
 
 			var nest = d3.nest()
@@ -58,6 +58,10 @@
 			var lewis = cells.append("td")
 							.text(d => d.lewis)
 							.attr("class", "lewis result");
+			
+			var avg = cells.append("td")
+							.text(d => (d.nico + d.lewis)/2)
+							.attr("class", "result avg");
 		})
 	</script>
 </body>
