@@ -22,7 +22,7 @@ header.selectAll("td")
 		.attr("class", "head")
 		.text(d=> d);
 
-d3.csv("/public/v0/data/mercedes2015_v2.csv", converter, (dataset) => {
+d3.csv("{{ site.baseurl }}/public/v0/data/mercedes2015_v2.csv", converter, (dataset) => {
 	console.log(dataset);
 
 	var nest = d3.nest()
