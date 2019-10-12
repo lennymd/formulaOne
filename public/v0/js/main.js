@@ -68,7 +68,7 @@ function init() {
 	// 2. setup the scroller passing options
 	// 		this will also initialize trigger observations
 	// 3. bind scrollama event handlers (this can be chained like below)
-	d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
+	d3.csv("/public/v0/data/overall_analysis_v2.csv", row_converter, (dataset) => {
 		var wins = new bar_chart({
 			plot_data: dataset,
 			element: "#win_plot",
