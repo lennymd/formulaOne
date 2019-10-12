@@ -43,10 +43,10 @@ var color = d3.scaleOrdinal()
 						"#8b4513", "#f08080",
 						"#80f080", "#ff682a"]);
 var winners;
-d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/winners_annual.csv", converter2, (data) => winners = data);
+d3.csv("https://lennymartinez.com/newhousevis-capstone/v0/public/data/winners_annual.csv", converter2, (data) => winners = data);
 
 function draw() {
-	d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/teams_active_years.csv", converter, (dataset) => {
+	d3.csv("https://lennymartinez.com/newhousevis-capstone/v0/public/data/teams_active_years.csv", converter, (dataset) => {
 
 	if (window.innerWidth > 800) {
 		var w = window.innerWidth,

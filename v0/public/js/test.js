@@ -20,7 +20,7 @@ var converter = (d) => {
 		run_id: d.run_id
 	}
 }
-d3.csv("../../public/data/analysis_test.csv", converter, (dataset) => {
+d3.csv("https://lennymartinez.com/newhousevis-capstone/v0/public/data/analysis_test.csv", converter, (dataset) => {
 	const data = dataset.sort((b, a) => b.rank_wins - a.rank_wins).filter((d) => d.rank_wins < 11);
 
 	const data_update = dataset.sort((b, a) => b.rank_win_percentage - a.rank_win_percentage).filter((d) => d.rank_win_percentage < 11);

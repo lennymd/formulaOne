@@ -27,7 +27,7 @@ var row_converter = (d, i, columns) => {
 	d.total = t;
 	return d;
 }
-d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/constructor_winners.csv", row_converter, (error, data) => {
+d3.csv("https://raw.githubusercontent.com/lennymartinez/newhousevis-capstone/master/v0/public/data/constructor_winners.csv", row_converter, (error, data) => {
 	if (error) throw error;
 	
 	var keys = data.columns.slice(1);

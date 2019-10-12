@@ -16,7 +16,7 @@ var row_converter = function(d) {
 	}
 };
 
-d3.csv("public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
+d3.csv("https://lennymartinez.com/newhousevis-capstone/v0/public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
 	var win_analysis = new sucker_chart({
 		plot_data: dataset,
 		element: "#win_plot",

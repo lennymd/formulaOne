@@ -15,7 +15,7 @@ var row_converter = (d) => {
 	}
 }
 
-d3.csv("../../public/data/win_and_podium_analysis.csv", row_converter, (dataset) => {
+d3.csv("https://lennymartinez.com/newhousevis-capstone/v0/public/data/win_and_podium_analysis.csv", row_converter, (dataset) => {
 	// create the plot for the section
 	var plot_wins = new sucker_chart({
 		plot_data: dataset,
