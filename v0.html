@@ -3,41 +3,375 @@ permalink: /v0/
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>F1's Best Season</title>
-	<link rel="stylesheet" href="public/css/style.css">
-	<script src="https://kit.fontawesome.com/a4d3685fca.js"></script>
-</head>
-<body>
-	<main>
-		<section id="page_header">
-			<section id="page_header">
-                <img src="public/img/merc2.jpg" alt="" srcset="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>F1's Best Season</title>
+        <link rel="stylesheet" href="/public/v0/css/style.css">
+        <script src="https://kit.fontawesome.com/a4d3685fca.js"></script>
+    </head>
+    <body>
+        <main>
+            <section id="page_header">
+                <img src="/public/v0/img/merc2.jpg" alt="">
                 <div id="smoke"></div>
                 <header>
-                    <h1 id="title">Who had the best season in Formula One?</h1>
+                <h1 id="title">Who had the best season in Formula One?</h1>
                 </header>
             </section>
-		</section>
-		<section id="intro">
-			{% include intro.html %}
-		</section>
-		<section id="wins">
-			{% include part1.html %}
-		</section>
-		<section id="podiums">
-			{% include part2.html %}
-		</section>
-		<section id="averages">
-			{% include part3.html %}
-		</section>
-		<section id="conclusion">
-			{% include conclusion.html%}
-		</section>
-	</main>
-	{% include scripts.html%}
-</body>
+        <section id="intro">
+            <section class="row">
+            <article class="prose">
+            <p>A big part of doing data journalism is figuring out what metric to evaluate and how to quantify it. You'll run into these questions when you're gathering data and later when you're analyzing data. In both cases, what metric you pick and how you quantify it depends entirely on what you're trying to achieve. There isn't a single metric or way of quantifying a metric that works in every situation.</p>
+            <p>To illustrate this point, let's look at Formula One and try to answer the question: which Formula One team had the best championship season? We'll use the results data from every race since 1950 (Check the methodology section at the end for more information).
+            </p>
+            <p>Formula One is a form of motorsport, like NASCAR and IndyCar, where teams compete in a series of races each year. In its current iteration, ten teams with two drivers each compete in 21 races across the globe between March and November. Races have taken place in every continent except Antarctica on both street and dedicated race tracks. After each race, drivers are awarded points based on their finishing positions. Each year, the Driver's Championship goes to the driver with the most points, and the Constructor's Cup goes to the team with the most points.</p>
+            <section class="circuits">
+            <section class="part">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/monaco1.jpg" alt="" srcset="">
+            <p class="img_caption" id="circuit1">One of the most famous street circuits is in Monaco, when parts of Monte Carlo and La Condamine are closed off for the Monaco Grand Prix every May. The circuit features a combination of elevation changes, tight corners, and a narrow course, requiring intense concentration and control from the drivers.</p>
+            </section>
+            <section class="part">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/spa1.jpg" alt="" srcset="">
+            <p class="img_caption">The Circuit de Spa-Francorchamps was originally built in 1920 in Stavelot, Belgium and has frequently hosted the Belgian Grand Prix since 1950. Over the years the circuit drivers race on has been modified to make it safer while still leaving room for exciting races.</p>
+            </section>
+            </section>
+            <p>Since the first Formula One race in 1950, over 840 drivers have competed for the Driver's Championship. Only 33 have clinched it. You've likely heard of some of these champions: Michael Schumacher, Ayrton Senna, Lewis Hamilton, Niki Lauda.</p>
+            <section class="container_center">
+            <section class="image_container">
+            <section class="driver">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/drivers/schumacher.jpg" alt="" srcset="">
+            <p class="caption">Michael Schumacher</p>
+            </section>
+            <section class="driver">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/drivers/senna_b.jpg" alt="" srcset="">
+            <p class="caption">Ayrton Senna</p>
+            </section>
+            <section class="driver">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/drivers/hamilton_c.jpg" alt="" srcset="">
+            <p class="caption">Lewis Hamilton</p>
+            </section>
+            <section class="driver">
+            <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/drivers/lauda_b.jpg" alt="" srcset="">
+            <p class="caption">Niki Lauda</p>
+            </section>
+            </section>
+            </section>
+
+            <section class="activity_graph">
+            <h3>Championship producing teams</h3>
+            <p id="description">Of the 16 teams that have produced champions, Ferrari is number one in both total number of championships, 15, and number of seasons participated, 70.</p>
+            <section class="desktop_only">
+            <figure id="championship_chart"></figure>
+            </section>
+            <section class="mobile">
+            <figure id="championship_m"></figure>
+            </section>
+            </section>
+
+            <p>Looking at how we compare drivers might help us pick a definition for the best season. Some of the ways we compare drivers are:</p>
+            <ul>
+            <li><strong>How many times they've won the Driver's Championship.</strong> Michael Schumacher leads this category, having won the Driver's Championship 7 times.</li>
+            <li><strong>How many races they've won.</strong> Michael Schumacher also leads this category with 91 career wins.</li>
+            <li><strong>How many podium finishes they've had <span class="footnote"><span id="f1">(first, second, or third-place finishes)</span></span>.</strong> Michael Schumacher is at the top again with 155 podium finishes.</li>
+            <li><strong>What percentage of races they won.</strong> Five-time champion Juan Manuel Fangio has an impressive 46.55% win percentage, having won 24 of the 52 races he entered over his career.</li>
+            </ul>
+            <p>These metrics are used to compare drivers over their careers. We could still take any of them and use them to define the best season. If we were comparing drivers, we might say that the best season is when a driver won the most races. Using this definition, both Michael Schumacher and Sebastian Vettel won 13 races in a single season. So they would be tied for the driver with the best season. We could do something similar for teams: the best championship season is the one where the team wins the most races.</p>
+            </article>
+            </section>
+        </section>
+        <section id="wins">
+            <section class="row">
+        <h2 class="section__hed">Most wins in season</h2>
+        <article class="prose">
+        <p>The most direct way to find the best championship team is to compare the number of races each team won in their championship season. For each year we'll do the following:
+        $$\textrm{total wins} = \sum \textrm{(times a team's driver finished first)}$$
+        </p>
+        <!-- <ol>
+        <li>Look at the driver that won the Driver's Championship that year.</li>
+        <li>Look at what team the driver was driving for.</li>
+        <li>Count how many times at least one of the team's drivers finished in first. <span class="footnote">(Two drivers shared the race win in the 1951 French Grand Prix, the 1956 Argentine Grand Prix, and the 1957 British Grand Prix.)</span></li>
+        </ol> -->
+        <p>And to make things easier, let's only look at the top 10 teams.</p>
+        </article>
+        <section class="scrolly" id='scrolly_wins'>
+        <article>
+        <div class="step" section-index="1" data-step='0'>
+        <section class="mobile">
+        <img src="/public/v0/svg/win1.svg" alt="">
+        </section>
+        <p>Going by most wins in a single season, 2016 Mercedes had the best championship season. Nico Rosberg and Lewis Hamilton won 19 of the season's 21 races, getting incredibly close to a perfect season. In that year's Spanish Grand Prix, Rosberg and Hamilton collided with each other in the first lap and were forced to retire. Later, in the Malaysian Grand Prix, Hamilton retired due to engine failure while in the lead, and Rosberg finished third.</p>
+        <p>Rosberg won the Driver's Championship in 2016, becoming the 33rd driver to do so. His win came 34 years after his father Keke Rosberg's championship win in 1982, making them the second father-son pair to win the Driver's Championship.</p>
+        <p>Following closely behind their 2016 season are Mercedes' 2015 and 2014 seasons. In these three years, Rosberg and Hamilton won 51 of the 59 races, cementing Mercedes' dominance in the hybrid-engine era of Formula One. Their two more recent winning seasons, 2017 and 2018, were not as dominant, with 12 and 11 total wins in each season, respectively.</p>
+        <p>Filling out the rest of the top 10, there are three teams tied for fourth: Ferrari's 2002 and 2004 runs, and McLaren's 1988 run. Both of Ferrari’s seasons are remembered for their powerful cars, the F2002 and F2004 respectively, and Michael Schumacher’s blistering performance. In 1988, McLaren’s Ayrton Senna won his first of three Driver’s Championships.</p>
+        <section class="circuits car">
+        <section class="part">
+        <img src="public/v0/img/f2004_web.jpg">
+        <p class="img_caption">Michael Schumacher won his 7th (5th with Ferrari) and final Driver's Championship in 2004 behind the wheel of the F2004. With this car he also set a record for the highest number of race wins in a single season at 13.</p>
+        </section>                            </section>
+        <p>Behind them we have Red Bull’s 2013 run (ranked seventh), and their 2011 run (ranked 8th), part of their back-to-back championship seasons with Sebastian Vettel. In eighth we also have Mercedes’ 2017 run, McLaren’s 1984 run and Williams’ 1996 run.</p>
+        </div>
+        <div class="step" section-index="1" data-step='1'>
+        <p>While looking at the total number of wins each team accumulated in their season is a decent place to start, it's not the best comparison. In 2016 there were 21 races in the Formula One season, while in 2015 and 2014 there were 19 races, and if we looked at the first Formula One season in 1950, there were only seven races. While Mercedes won 19 races in 2016, they had two more chances to win than in 2015 and 12 more than in 1950.</p>
+        <p>To make our comparison more accurate, we should take into account the number of races in each season. We can divide the number of wins in the season by the number of races in that season, normalizing the number of wins into a percentage.
+        $$\textrm{win percentage} = \frac{\textrm{total wins}}{\sum \textrm{(races in season)}}$$
+        </p><p>And then we can compare the top 10 teams with the highest win percentage in a season.</p>
+        </div>
+        <div class="step" section-index="1" data-step='2'>
+        <section class="mobile_container">
+        <section class="mobile">
+        <img src="/public/v0/svg/win2.svg" alt="">
+        </section>
+        </section>
+        <p>At the top we have McLaren's 1988 season, the closest any team has gotten to achieving a golden season in the modern era of Formula One. Drivers Alain Prost and Ayrton Senna won every race of the season except for the Italian Grand Prix.</p>
+        <p>In 88 Italian Grand Prix at Monza, Senna and Prost started first and second on the grid, but Prost was forced to retire after 34 laps due to engine problems. While leading the race and with only two laps remaining, Senna was also forced to retire due to a collision with Williams driver Jean-Louis Schlesser.</p>
+        <p>Behind McLaren and Mercedes, we have Ferrari's 2002 run in third place. Michael Schumacher won his fifth Driver's Championship while driving with Rubens Barrichello for Ferrari in 2002. Together they won 15 of the season's 17 races, and 14 of those wins were in the F2002, which did not suffer mechanical issues during the season.</p>
+        <p>Some new additions to the top 10 are Ferrari's 1952 and 1953 seasons, and Alfa Romeo's 1950 season. Both Ferrari's 1952 and Alfa Romeo's 1950 runs tie with McLaren's 1988 run of being a win short of a golden season. In 1950, Alfa Romeo did not participate in the Indianapolis 500 which counted towards the Formula One Driver's Championship in the early years. In 1952 and 1953, Formula One was raced using Formula Two regulations.</p>
+        </div>
+
+        </article>
+
+        <figure class="sticky" id="win_plot">
+        </figure>
+
+        </section>
+        <section class='outro'></section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Most race wins in a season</h4>
+        <p>Mercedes 2016</p>
+        </section>
+        </section>
+        <section class="metric_best mclaren">
+        <section class="team">
+        <img src="/public/v0/svg/mclaren.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Highest win percentage in a season</h4>
+        <p>McLaren 1988</p>
+        </section>
+        </section>
+            </section>
+        </section>
+        <section id="podiums">
+        <section class="row">
+        <h2 class="section__hed">Most podium finishes</h2>
+        <article class="prose">
+        <p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other seven races. And in 2016, Nico Rosberg claimed 9 of Mercedes's wins; Hamilton 10. For Ferrari's 2002 run Michael Schumacher's skill, paired with the reliable F2002 resulted in an 11-5 split of wins between him and Rubens Barrichello. The performance of both drivers influences how good a team is; the best team would have two reliable drivers.</p>
+        <p>We could extend our definition of "best season" to better account for this. While winning the race is the dream of every driver, the best weekend a team works for is to have both drivers on the podium, with one driver winning. Let's redefine our definition of "best season" to be the one where a team has the most podium finishes in the season.</p>
+        <p>For each year we'll do the following:
+        $$
+        \begin{eqnarray}
+        \textrm{total podium finishes} &=& \sum \textrm{(times at least one team's driver finished 1st)} \nonumber \\
+        &+& \sum \textrm{(times at least one team's driver finished 2nd)} \nonumber \\
+        &+& \sum \textrm{(times at least one team's driver finished 3rd)} \nonumber \\
+        \end{eqnarray}
+        $$
+        </p>
+        </article>
+        <section class="scrolly" id='scrolly_podiums'>
+        <article class="scrolly_text">
+        <div class="step" section-index="2" data-step='0'>
+        <section class="mobile">
+        <img src="/public/v0/svg/podium1.svg" alt="">
+        </section>
+        <p>Mercedes's 2016 team is ranked first and is followed behind by its 2015 and 2014 groups, something we saw when we looked at the total wins. In the rest of the top 10, we have teams we've seen before when we looked at races won: Ferrari's 2002 (ranked 5th) and 2004 (ranked 4th) runs. McLaren's 1988 season, the best team in terms of win percentage, is ranked 8th. Two of Red Bull's four back-to-back championships are on the list, 2011 and 2013.</p>
+        <p>We now have Ferrari's 2001 season in the top 10. In 2001, the Schumacher-Barrichello duo produced 24 podium finishes in the 17 races. They finished on the podium together in 7 races.</p>
+        </div>
+        <div class="step" section-index="2" data-step='1'>
+        <p>As we saw when we compared the total races won, normalizing the number of podium finishes can help us make a more holistic comparison.</p>
+        <p>For most of the sport's history, Formula One teams have only had two drivers so in any race up to two podium spots can be filled. We could normalize the number of podium finishes by dividing by two times the total number of races in the season.
+        $$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{2 \cdot \sum \textrm{(races in season)}}$$
+        </p><p>However, in the 1950s and early 1960s, teams had a lot more drivers on the grid, so it was possible to fill all three podium spots. In fact, in the first race, the 1950 British Grand Prix, Alfa Romeo drivers monopolized the podium. Doing this might result in teams having over 100% of podium spots claimed, which doesn't make sense.</p>
+        <p>We could also try to normalize the number of podium finishes by dividing by three times the total number of races in the season.
+        $$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{3 \cdot \sum \textrm{(races in season)}}$$
+        </p>
+        <p>In this case, the earlier teams would be within a more comparable range, but the teams that had only two drivers would never be close to 100% in the case that they had both their drivers on the podium for every race.</p>
+        <p>We need something more flexible that can account for both the years where teams had many drivers on the grid, and for the years team only had two drivers. Let's compute a flexible number of expected podium finishes based on how many drivers a team had.</p>
+        <p>For each race in the season:</p>
+        <p>$$\textrm{participating drivers} = \sum \textrm{(drivers who entered the race)}$$</p>
+        <p>If $\textrm{participating drivers} \geq 3$,</p> 
+        <p class="subcase">$\textrm{available podium spots} = 3$. In any one race, there are only three podium spots: first, second, and third place. The best a team with three or more drivers could is fill the entire podium and nothing else.</p>
+        <p>If $\textrm{participating drivers} < 3$,</p> 
+        <p class="subcase">$\textrm{available podium spots} = \textrm{participating drivers}$. If a team has two or one drivers in a race, the best they can do is fill two or one spots, respectively.</p>
+        <p>Now we can sum the $\textrm{average podium spots}$ in a season and find the percentage of podium finishes:
+        $$\frac{\textrm{total podium finishes}}{\sum \textrm{(available podium spots in each race)}}$$
+        </p>
+
+        </div>
+        <div class="step" section-index="2" data-step='2'>
+        <section class="mobile">
+        <img src="/public/v0/svg/podium2.svg" alt="">
+        </section>
+        <p>McLaren's 1988 season which ranked first in terms of win percentage is now ranked 6th. In first we have Mercedes' 2015 season. Hamilton and Rosberg both finished on the podium in 15 of the season's 19 races. Behind that is their 2014 run, where at least one Mercedes driver was on the podium for every race.</p>
+        <section class="circuits car">
+        <section class="part">
+        <img src="https://lennymartinez.com/newhousevis-capstone/v0/public/img/fw15c_2.jpg">
+        <p class="img_caption" style="margin-bottom:0 !important">The Williams FW15C is a strong contender for the most sophisticated Formula One car. It featured traction control and active suspension as well as other electronic driver aids. Alain Prost won his fourth Driver's Championship in 1993 while racing in the FW15C. </p>
+        </section>
+        </section>
+        <p>A new team we see in the top 10 is William's 1993 team. Williams' car that year, the FW15C, featured electronic driver aids like traction control (prevent wheels from spinning) and active suspension (allows the vehicle to optimize its height to maximize its aerodynamic downforce). Alain Prost and Damon Hill won 10 of the 16 races that year, and at least one of them was on the podium in every race.</p>
+        </div>
+        </article>
+
+        <figure class="sticky" id="podium_plot">
+        </figure>
+
+        </section>
+        <section class='outro'></section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Most podium finishes in a season</h4>
+        <p>Mercedes 2016</p>
+        </section>
+        </section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Highest percentage of podium finishes</h4>
+        <p>Mercedes 2015</p>
+        </section>
+        </section>
+        </section>
+        </section>
+        <section id="averages">
+        <section class="row">
+        <h2 class="section__hed">Best race average</h2>
+        <article class="prose">
+        <p>While looking at podium finishes, you may have noticed we treat all the podium finishes as the same: it doesn't matter if you finish first, second, or third. The reality is very different. If both drivers can finish on the podium, it is less desirable to finish second and third than finishing first and second or first and third.</p>
+        <p>The best possible result a team can have is when one driver finishes first, and the other driver finishes second—a 1–2 finish. The drivers were at their best, the cars didn't have any issues, and the pit crew worked efficiently and effectively to support the drivers. A genuinely perfect season would be one where a team manages a 1–2 finish for every race.</p>
+        <p>Knowing this, we could modify our definition of "best season" as one where a team got the most 1–2 finishes in a season. The winner by this definition would be Mercedes who accomplished twelve 1–2 finishes in 2015.</p>
+        <p>What if instead, we modify our definition of "best season" as one where a team got the closest to a perfect season? How would we measure how close we got to a 1–2 finish? To measure how close a team got a perfect season, let's compute the average finishing position for a team in a race.</p>
+        <section id="merc2015" class="merc_table"></section>
+        <p>In the first race of 2015, Hamilton finished first, and Rosberg finished second. If we average their positions, we get 1.5, which is the average finishing position for Mercedes in the 2015 Malaysian Grand Prix. In the second race, their average is 2.5. If we do this for all the races we get that the average finishing positions for all the races are:$$[1.5, 2.5, 1.5, 2, 1.5, 2, 1.5, 1.5, 1.5, 7, 1.5, 9, 11, 1.5, 9.5, 1.5, 1.5, 1.5, 1.5]$$
+        <br>
+        If we now average this set of numbers, we get a measure of the average finishing position of a team in a season.
+        $$
+        \textrm{average finishing position} = \frac{\sum \textrm{(average finishing position for all the races)}}{\sum \textrm{(total races in season)}}
+        $$
+        In the case of Mercedes, the average finishing position is 3.21, about two times bigger than the average for a perfect season, 1.5. But how does it compare to the other teams?</p>
+        <section class="chart">
+        <section class="averages">
+        <img src="/public/v0/svg/average.svg" alt="">
+        </section>
+        </section>
+        <p>Using the current definition for "best season," Mercedes' 2017 run is the best or most dominating championship season. While they did not have the highest percentage of races won or podium finishes, Lewis Hamilton and Valterri Bottas consistently raced at a high level. The lowest either of them placed was ninth (Hamilton at the Mexican Grand Prix), and they only had one retirement in the season (Bottas at the Spanish Grand Prix).</p>
+        <section class='outro'></section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Best average finishing position</h4>
+        <p>Mercedes 2017</p>
+        </section>
+        </section>
+        </article>
+        </section>
+        </section>
+        <section id="conclusion">
+        <section class="row">
+        <h2 class="section__hed">Conclusion</h2>
+        <article class="prose">
+        <p>Looking back, who had the best championship season?</p>
+        <section class="metric_container">
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Most race wins in a season</h4>
+        <p>Mercedes 2016</p>
+        </section>
+        </section>
+        <section class="metric_best mclaren">
+        <section class="team">
+        <img src="/public/v0/svg/mclaren.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Highest win percentage in a season</h4>
+        <p>McLaren 1988</p>
+        </section>
+        </section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Most podium finishes in a season</h4>
+        <p>Mercedes 2016</p>
+        </section>
+        </section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Highest percentage of podium finishes</h4>
+        <p>Mercedes 2015</p>
+        </section>
+        </section>
+        <section class="metric_best mercedes">
+        <section class="team">
+        <img src="/public/v0/svg/mercedes.svg" alt="">
+        </section>
+        <section class="info">
+        <h4 class="category">Best average finishing position</h4>
+        <p>Mercedes 2017</p>
+        </section>
+        </section>
+        </section>
+        <p>Mercedes' 2016 season ranked first for both total wins and total podium spots, but they also had more races to compete in than the previous seasons. McLaren's 1988 season is the closest any team has gotten to a winning every race, but they were far from completing a perfect season and didn't have a lot of podium finishes. Mercedes' 2015 season had the highest percentage of possible podium spots and was one of the closest to a perfect season. Mercedes' 2017 is the closest a team has gotten to a perfect season, but it didn't very well according to the other ways we defined the "best season."</p>
+        <p>All five metrics are decent ways of comparing the teams. The ones that to account for the differing number of races and drivers are slightly better because they bring the comparison to a more uniform scale. But they are not perfect; here are still many things we could try to account for: the different cars driven each season and each race, the point systems used each season, lap times, how often the teammates were in direct competition, etc.</p>
+        <p>What metric you use depends on what you want to accomplish. Different metrics can help expose different parts of the answer to the question you're trying to answer. One example of this is a pair of Formula One pieces by FiveThirtyEight, <a href="https://fivethirtyeight.com/features/formula-one-racing/" target="_blank">"Who’s The Best Formula One Driver Of All Time?"</a>, and <a href="https://fivethirtyeight.com/features/the-best-formula-one-driver-might-be-a-guy-who-hasnt-won-since-2013/">"The Best Formula One Driver Might Be A Guy Who Hasn’t Won Since 2013"</a>. Both pieces use the same race results data used in this piece, but it's quantified differently each time. In one, the results are used to compute Elo ratings for each driver. In the other, the results are analyzed based on head-to-head confrontations. In both cases they're trying to answer the question of who the best Formula One driver is, but their answer isn't the same both times. The piece that uses Elo ratings is focusing on looking at who is the best competitor competitor overall, while the piece that looks at head-to-head confrontations is trying to figure out who is the best competitor with respect to their teammates.</p>
+        </article>
+        <h3 class="section__hed">Acknowledgements & Credits</h3>
+        <article class="prose">
+        <p>All images in this project came from a variety of sources: <a href="https://unsplash.com">Unsplash</a>, <a href="https://shuttershock.com/">Shutterstock</a>, <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>, <a href="https://www.formula1.com">Formula1.com</a>. A trophy icon was used from <a href="https://fontawesome.com">Font Awesome</a>.</p>
+        </article>
+        <h3 class="section__hed">Methodology</h3>
+        <article class="prose">
+        <p>The data used for the piece came from <a href="https://www.statsf1.com">Stats F1</a>. You can find out how I cleaned and analyzed the data in this notebook: <a href="https://github.com/lennymartinez/newhousevis-capstone/blob/master/_analysis/notebook/f1-best-championship-season.ipynb" target="_blank">Looking for the best Formula 1 season</a></p>
+        <p>You can further explore the computed metrics for each team:</p>
+        <section class="">
+        <iframe title="Different ways of defining best" aria-label="Table" id="datawrapper-chart-jy1NZ" src="//datawrapper.dwcdn.net/jy1NZ/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="707"></iframe><script type="text/javascript">(function() {    'use strict';    window.addEventListener('message', function(event) {        if (typeof event.data['datawrapper-height'] !== 'undefined') {            for (var chartId in event.data['datawrapper-height']) {                var iframe = document.getElementById('datawrapper-chart-' + chartId) || document.querySelector("iframe[src*='" + chartId + "']");                if (!iframe) {                    continue;                }                iframe.style.height = event.data['datawrapper-height'][chartId] + 'px';            }        }    });})();</script>
+        </section>
+        </article>
+        </section>
+        </section>
+        </main>
+
+        <script src="/public/v0/js/d3.v4.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            "HTML-CSS": {
+            preferredFont: "TeX",
+            scale: 50
+            },
+            tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: false,
+            }
+            });
+        </script>
+        <!-- <script src="/public/v0/js/highcharts.js"></script> -->
+        <script src="/public/v0/js/intersection-observer.js"></script>
+        <script src="/public/v0/js/stickyfill.js"></script>
+        <script src="/public/v0/js/scrollama.js"></script>
+        <script src="/public/v0/js/bar_chart_v3.js"></script>
+        <script src="/public/v0/js/championship.js"></script>
+        <script src="/public/v0/js/merc2015.js"></script>
+        <script src="/public/v0/js/main.js"></script>
+    </body>
 </html>
