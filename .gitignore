@@ -3,3 +3,4 @@ _site/
 .vscode/
 .sass-cache/
 env/
+.ipynb_checkpoints
