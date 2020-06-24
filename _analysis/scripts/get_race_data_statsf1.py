@@ -102,7 +102,7 @@ for race in race_list[1:]:
         race_data_list.append(record)
 
     # pause for a while
-    if (race_id-1 % 5) == 0:
+    if ((race_id - 1) % 5) == 0:
         print("Pausing")
         sleep(1)
     else:
