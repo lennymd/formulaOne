@@ -7,5 +7,5 @@ I defended v0 in 2019, and in 2020 I'm creating an updated version, framing the 
 The command I used for my conda env is:
 
 ```bash
-conda create --prefix ./env/ python=3.7 jupyterlab pandas numpy
+conda create --prefix ./env/ python=3.7 jupyterlab pandas numpy bs4 lxml
 ```
