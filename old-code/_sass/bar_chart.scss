@@ -1,0 +1,19 @@
+.inner_text {
+	font-family: sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.y.axis {
+	line, .domain {
+		opacity: 0 !important;
+	}
+}
+
+.axis_text {
+	font-size: .9rem;
+}
+
+.x_label {
+	font-weight: bold;
+}

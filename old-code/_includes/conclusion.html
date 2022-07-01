@@ -1,0 +1,23 @@
+<section class="row">
+		<h2 class="section__hed">Conclusion</h2>
+		<article class="prose">
+			<p>Looking back, who had the best championship season?</p>
+			{% include metric_group.html %}
+			<p>Mercedes' 2016 season ranked first for both total wins and total podium spots, but they also had more races to compete in than the previous seasons. McLaren's 1988 season is the closest any team has gotten to a winning every race, but they were far from completing a perfect season and didn't have a lot of podium finishes. Mercedes' 2015 season had the highest percentage of possible podium spots and was one of the closest to a perfect season. Mercedes' 2017 is the closest a team has gotten to a perfect season, but it didn't very well according to the other ways we defined the "best season."</p>
+			<p>All five metrics are decent ways of comparing the teams. The ones that to account for the differing number of races and drivers are slightly better because they bring the comparison to a more uniform scale. But they are not perfect; here are still many things we could try to account for: the different cars driven each season and each race, the point systems used each season, lap times, how often the teammates were in direct competition, etc.</p>
+			<p>What metric you use depends on what you want to accomplish. Different metrics can help expose different parts of the answer to the question you're trying to answer. One example of this is a pair of Formula One pieces by FiveThirtyEight, <a href="https://fivethirtyeight.com/features/formula-one-racing/" target="_blank">"Who’s The Best Formula One Driver Of All Time?"</a>, and <a href="https://fivethirtyeight.com/features/the-best-formula-one-driver-might-be-a-guy-who-hasnt-won-since-2013/">"The Best Formula One Driver Might Be A Guy Who Hasn’t Won Since 2013"</a>. Both pieces use the same race results data used in this piece, but it's quantified differently each time. In one, the results are used to compute Elo ratings for each driver. In the other, the results are analyzed based on head-to-head confrontations. In both cases they're trying to answer the question of who the best Formula One driver is, but their answer isn't the same both times. The piece that uses Elo ratings is focusing on looking at who is the best competitor competitor overall, while the piece that looks at head-to-head confrontations is trying to figure out who is the best competitor with respect to their teammates.</p>
+		</article>
+		<h3 class="section__hed">Acknowledgements & Credits</h3>
+		<article class="prose">
+			<p>All images in this project came from a variety of sources: <a href="https://unsplash.com">Unsplash</a>, <a href="https://shuttershock.com/">Shutterstock</a>, <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>, <a href="https://www.formula1.com">Formula1.com</a>. A trophy icon was used from <a href="https://fontawesome.com">Font Awesome</a>.</p>
+		</article>
+		<h3 class="section__hed">Methodology</h3>
+		<article class="prose">
+			<p>The data used for the piece came from <a href="https://www.statsf1.com">Stats F1</a>. You can find out how I cleaned and analyzed the data in this notebook: <a href="https://github.com/lennymartinez/vis-thesis/blob/master/_analysis/notebook/f1-best-championship-season.ipynb" target="_blank">Looking for the best Formula 1 season</a></p>
+			<p>You can further explore the computed metrics for each team:</p>
+			<section class="">
+				<iframe title="Different ways of defining best" aria-label="Table" id="datawrapper-chart-jy1NZ" src="//datawrapper.dwcdn.net/jy1NZ/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="707"></iframe><script type="text/javascript">(function() {    'use strict';    window.addEventListener('message', function(event) {        if (typeof event.data['datawrapper-height'] !== 'undefined') {            for (var chartId in event.data['datawrapper-height']) {                var iframe = document.getElementById('datawrapper-chart-' + chartId) || document.querySelector("iframe[src*='" + chartId + "']");                if (!iframe) {                    continue;                }                iframe.style.height = event.data['datawrapper-height'][chartId] + 'px';            }        }    });})();</script>
+			</section>
+		</article>
+
+	</section>

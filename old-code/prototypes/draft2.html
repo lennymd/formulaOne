@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Draft 2</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../public/css/draft2.css">
+	
+</head>
+<body>
+	<section id="intro">
+		<h1>The Best Formula One Team</h1>
+		<p>In the 69-year history of the sport, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it. These 33 drivers have all won while racing for 16 different teams:</p>
+		<div id="sankey_chart"></div>
+		<p>Which of these teams had the <em>best championship season</em>?</p>
+	</section>
+	<section id="wins">
+		<h2>Method 01: Most wins in season</h2>
+		<p>One way to look for the best championship season is to compare how many races each constructor's drivers won in their championship runs. In Formula One, as in other racing sports, finishing first is the holy grail. The best championship run for a constructor would be one where their team wins every race.</p>
+		<h3>Methodology</h3>
+		<p>For each season:</p>
+		<ol>
+			<li>Find the driver that won the year's Driver's Cup.</li>
+			<li>Look at what constructor he was driving for</li>
+			<li>See how many races the constructor's drivers finished first in.</li>
+			<li>Divide by the number of races in the season to get the percentage of races won.</li>
+		</ol>
+		<section class="tbd">
+			<p>Turn this into a lollipop chart or a bar chart; consider switching between wins and win percentage</p>
+			<!-- <img src="../../public/img/contact/wins.png" alt=""> -->
+			<img src="../../public/img/contact/win_percentage2.png" alt="">
+		</section>
+		<p>Overall Mercedes and Ferrari championship runs dominate the list of teams who won the most races.</p>
+		<p>In 1988, McLaren became the closest team in modern Formula One to have a golden season. McLaren drivers Alain Prost and Ayrton Senna won every race of the season except for the Italian Grand Prix.</p>
+		<p class="tbd">either headshots for senna and prost or a photo of the mclaren 1988 car</p>
+		<p>In that race, Senna and Prost started first and second on the grid, but Prost was forced to retire after 34 laps due to engine problems. With two laps to go and while leading the race, Senna was also forced to retire due to a collision with Williams driver Jean-Louis Schlesser.</p>
+		<p>In spite of the loss at the Italian Grand Prix, Prost and Senna won 7 and 8 races respectively, and Senna won his first of three Driver's Cup Championships.</p>
+		<p>The other two teams that have come close to having a golden season are Ferrari in 1952 (ranked fourth) and Alfa Romeo in 1950 (ranked fifth). Ferrari competed in every race that season, but was not able to win the year's Indianapolis 500. On the other hand, Alfa Romeo won every race they participated in, but they did not try to enter the 1950 Indianapolis 500.</p>
+		<p>Close behind McLaren's 1988 run are Mercedes's 2016 and Ferrari's 2002 runs.</p>
+		<p>In 2016, Mercedes extended their dominating lead of the hybrid-engine era by winning 19 of the 21 races in the season.</p>
+		<p>Ahead of the 2014 season Formula One's governing body, the FIA, changed several regulations to stimulate competition and the design of the cars. One of the main changes was the move away from 2.4-litre V8 engines to 1.6-litre V6 turbo engines.</p>
+		<p>Mercedes was able to capitulate on the new design regulations and create a car, the Mercedes F1 W05 Hybrid, that enabled Lewis Hamilton and Nico Rosberg to dominate in the 2014 season, winning 16 of the season's 19 races (rank 6, tie).</p>
+		<p class="tbd">photo of the mercedes w05</p>
+		<p>In 2015, Mercedes was again able to leverage their strong car and Hamilton and Rosberg again won 16 of the season's race (rank 6, tie).</p>
+		<p>Behind them is Ferrari's 2002 run. In 2002, Michael Schumacher won his fifth Driver's Cup while driving with Rubens Barrichello for Ferrari. The 2002 season is marked by the success of the F2002, a very robust Formula 1 car.</p>
+		<p class="tbd">photo of the ferrari f2002</p>
+		<p>While it was still in development for the first two races of the season, Schumacher and Barrichello won 14 of their 15 season wins in the F2002. And with the exception of two races, both drivers finished in the top three for every race they had in the car.</p>
+		<p>Ferrari's 2004 run (ranked 8), was another season where Schumacher and Barrichello had a stellar performance, this time in the Ferrari F2004. While driving the car, Schumacher also set a record for most season wins at 13 wins and also won his seventh and final Driver's Cup.</p>
+		<p>Ferrari's other two runs in the top 10 were in 1952 (ranked 4) and 1953 (ranked 9) when the Formula One races were held to Formula Two standards and the Ferrari 500 was the best car to race in.</p>
+		<section class="tbd2">
+			<p>win_percentage interactive letting teams switch between wins and win percentages and filtering by the 16 teams</p>
+		</section>
+	</section>
+	<section id="podiums">
+		<h2>Method 02: Most podiums in season</h2>
+		<p class="tbd">explanation of podiums</p>
+		<p class="tbd">methodology of podium counting</p>
+		<p class="tbd">top 10 podium percentage </p>
+		<p class="tbd">talk about the top 10</p>
+		<section class="tbd2">
+				<p>podium_percentage interactive showing what podiums each team got each season they raced</p>
+				</section>
+	</section>
+	<section id="race_averages">
+		<h2>Method 03: Best finishing average</h2>
+		<p class="tbd">explanation of podiums</p>
+		<p class="tbd">methodology of race_average</p>
+		<p class="tbd">top 10 race percentage </p>
+		<p class="tbd">talk about the top 10</p>
+		<section class="tbd2">
+				<p>race_average interactive showing the race average line of a team over each season and the competing teams</p>
+		</section>
+	</section>
+	<section id="conclusion">
+		<h2>In conclusion</h2>
+		<p class="tbd">talk about limitations of the three methods, and overall pattern (mercedes being dominant in all three methods)</p>
+		<p class="tbd"> maybe do a ternary plot of the three methods and see where the teams lie</p>
+		<h2>Methodology and Caveats</h2>
+		<p class="tbd">talk about data source, and caveats of data (like shared drives)</p>
+	</section>
+	<script src="../../public/js/d3.v4.js"></script>
+	<script src="../sankey/sankey.js"></script>
+	<script src="../sankey/f1_sankey.js"></script>
+	<script src="draft.js"></script>
+	<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.1.0/stickyfill.js"></script>
+	<script src="https://unpkg.com/scrollama"></script> -->
+</body>
+</html>

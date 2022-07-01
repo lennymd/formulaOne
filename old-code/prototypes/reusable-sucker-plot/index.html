@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Reusable Lollipop</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="">
+		<style>
+			*, html, body {
+				margin: 0;
+			}
+			body {
+				background-color: #E8E3CD;
+			}
+		</style>
+	</head>
+	<body>
+		<figure id="plot0"></figure>
+		<script src="../../public/js/d3.v4.js"></script>
+		<script src="sucker_chart.js"></script>
+		<script>
+		var correct_data_types = (d) => {
+			return {
+				year: +d.year,
+				constructor_clean: d.constructor_clean,
+				wins: +d.wins,
+				run: d.run,
+				races: +d.races,
+				win_percentage: +d.win_percentage
+			}
+		}
+
+		d3.csv("../../public/data/win_count_normalized.csv", correct_data_types, (dataset) => {
+			var plot = new sucker_chart({
+				plot_data: dataset,
+				element: "#plot0",
+				normalize: 0,
+				x: "wins",
+				y: "run"
+			})
+
+			plot.norm("wins");
+		});
+
+
+
+
+</script>
+	</body>
+</html>

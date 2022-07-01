@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>bar chart</title>
+	<link rel="stylesheet" href="../public/css/bar_static.css">
+	<style>
+		/* .inner_text {
+			font-family: sans-serif;
+			font-size: 1rem;
+			font-weight: 900;
+		}
+		.y.axis line {
+			opacity: 0 !important;
+		}
+
+		.y.axis .domain {
+			opacity: 0 !important;
+		}
+
+		.axis_text {
+			font-size: 1rem;
+		} */
+	</style>
+</head>
+<body>
+	<p id="bloop">click here to update once</p>
+	<p id="bloop2"> click here to go back to origin</p>
+	<figure id="test"></figure>
+	<script src="../public/js/d3.v4.js"></script>
+	<script src="../public/js/bar_chart_static.js"></script>
+	<script>
+		var row_converter = function(d) {
+			return {
+				run_id: d.run_id,
+				year: +d.year,
+				team: d.team,
+				wins: +d.wins,
+				rank_wins: +d.rank_win,
+				win_percentage: +d.win_percentage,
+				rank_win_percentage: +d.rank_win_percentage,
+				podiums: +d.podium_spots_claimed,
+				rank_podiums: +d.rank_podiums,
+				podium_percentage: +d.podium_percentage,
+				rank_podium_percentage: +d.rank_podium_percentage,
+				p_average: +d.p_average,
+				rank_p_average: +d.rank_p_average,
+				distance: +d.distance
+			}
+		};
+		d3.csv("https://raw.githubusercontent.com/lennymartinez/vis-thesis/master/public/data/overall_analysis_v2.csv", row_converter, (dataset) => {
+		var wins = new bar_chart({
+			plot_data: dataset,
+			element: "#test",
+			x: "podium_percentage",
+			filter: 10
+		})
+
+		d3.select("#bloop").on("click", () => {
+			wins.update("podiums", false, 10)
+		});
+
+		d3.select("#bloop2").on("click", () => {
+			wins.update("podium_percentage", true, 10)
+		});
+
+		});
+	</script>
+</body>
+</html>

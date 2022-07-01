@@ -1,0 +1,56 @@
+---
+---
+$warm_red: #f9423a;
+$gap: 1.7rem;
+
+* {
+	margin: 0;
+}
+html {
+	font-size: 21px;
+	line-height: 1.75;
+}
+
+body {
+	max-width: 40rem;
+	margin: 0 auto;
+	font-family: "Roboto", "Helvetica", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 100;
+
+	strong{
+		font-weight: 900;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-top: $gap;
+		margin-bottom: 1.5 * $gap;
+		font-weight: 900;
+	}
+
+	p {
+		margin-bottom: $gap;
+		margin-left: $gap;
+		margin-right: $gap;
+	}
+
+	img {
+		width: 400px;
+	}
+}
+
+.tbd {
+	margin: 0 auto;
+	background-color: $warm_red;
+	padding: 1rem;
+	color: #ffffff;
+	font-size: 0.5rem;
+	margin-bottom: 1.4rem;
+}
+
+.tbd2 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #BADA55;
+	margin-top: $gap;
+	margin-bottom: $gap;
+}

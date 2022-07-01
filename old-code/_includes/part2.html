@@ -1,0 +1,65 @@
+<section class="row">
+	<h2 class="section__hed">Most podium finishes</h2>
+	<article class="prose">
+		<p>If we look more closely at the top three teams, McLaren in 1988, Mercedes in 2016, and Ferrari in 2002, two of them had equally strong drivers who split the wins. In 1988, Ayrton Senna won 8 races for McLaren that season, and Alain Prost won the other seven races. And in 2016, Nico Rosberg claimed 9 of Mercedes's wins; Hamilton 10. For Ferrari's 2002 run Michael Schumacher's skill, paired with the reliable F2002 resulted in an 11-5 split of wins between him and Rubens Barrichello. The performance of both drivers influences how good a team is; the best team would have two reliable drivers.</p>
+		<p>We could extend our definition of "best season" to better account for this. While winning the race is the dream of every driver, the best weekend a team works for is to have both drivers on the podium, with one driver winning. Let's redefine our definition of "best season" to be the one where a team has the most podium finishes in the season.</p>
+		<p>For each year we'll do the following:
+			$$
+			\begin{eqnarray}
+			\textrm{total podium finishes} &=& \sum \textrm{(times at least one team's driver finished 1st)} \nonumber \\
+			&+& \sum \textrm{(times at least one team's driver finished 2nd)} \nonumber \\
+			&+& \sum \textrm{(times at least one team's driver finished 3rd)} \nonumber \\
+			\end{eqnarray}
+			$$
+		</p>
+	</article>
+	<section class="scrolly" id='scrolly_podiums'>
+		<article class="scrolly_text">
+			<div class="step" section-index="2" data-step='0'>
+				<section class="mobile">
+					{% include svg/podium1.html %}
+				</section>
+				<p>Mercedes's 2016 team is ranked first and is followed behind by its 2015 and 2014 groups, something we saw when we looked at the total wins. In the rest of the top 10, we have teams we've seen before when we looked at races won: Ferrari's 2002 (ranked 5th) and 2004 (ranked 4th) runs. McLaren's 1988 season, the best team in terms of win percentage, is ranked 8th. Two of Red Bull's four back-to-back championships are on the list, 2011 and 2013.</p>
+				<p>We now have Ferrari's 2001 season in the top 10. In 2001, the Schumacher-Barrichello duo produced 24 podium finishes in the 17 races. They finished on the podium together in 7 races.</p>
+			</div>
+			<div class="step" section-index="2" data-step='1'>
+				<p>As we saw when we compared the total races won, normalizing the number of podium finishes can help us make a more holistic comparison.</p>
+				<p>For most of the sport's history, Formula One teams have only had two drivers so in any race up to two podium spots can be filled. We could normalize the number of podium finishes by dividing by two times the total number of races in the season.
+					$$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{2 \cdot \sum \textrm{(races in season)}}$$
+				</p><p>However, in the 1950s and early 1960s, teams had a lot more drivers on the grid, so it was possible to fill all three podium spots. In fact, in the first race, the 1950 British Grand Prix, Alfa Romeo drivers monopolized the podium. Doing this might result in teams having over 100% of podium spots claimed, which doesn't make sense.</p>
+				<p>We could also try to normalize the number of podium finishes by dividing by three times the total number of races in the season.
+						$$\textrm{percentage of podium finishes} = \frac{\textrm{total podium finishes}}{3 \cdot \sum \textrm{(races in season)}}$$
+					</p>
+				<p>In this case, the earlier teams would be within a more comparable range, but the teams that had only two drivers would never be close to 100% in the case that they had both their drivers on the podium for every race.</p>
+				<p>We need something more flexible that can account for both the years where teams had many drivers on the grid, and for the years team only had two drivers. Let's compute a flexible number of expected podium finishes based on how many drivers a team had.</p>
+				<p>For each race in the season:</p>
+				<p>$$\textrm{participating drivers} = \sum \textrm{(drivers who entered the race)}$$</p>
+				<p>If $\textrm{participating drivers} \geq 3$,</p> 
+				<p class="subcase">$\textrm{available podium spots} = 3$. In any one race, there are only three podium spots: first, second, and third place. The best a team with three or more drivers could is fill the entire podium and nothing else.</p>
+				<p>If $\textrm{participating drivers} < 3$,</p> 
+				<p class="subcase">$\textrm{available podium spots} = \textrm{participating drivers}$. If a team has two or one drivers in a race, the best they can do is fill two or one spots, respectively.</p>
+				<p>Now we can sum the $\textrm{average podium spots}$ in a season and find the percentage of podium finishes:
+					$$\frac{\textrm{total podium finishes}}{\sum \textrm{(available podium spots in each race)}}$$
+				</p>
+				
+			</div>
+			<div class="step" section-index="2" data-step='2'>
+				<section class="mobile">
+					{% include svg/podium2.html %}
+				</section>
+				<p>McLaren's 1988 season which ranked first in terms of win percentage is now ranked 6th. In first we have Mercedes' 2015 season. Hamilton and Rosberg both finished on the podium in 15 of the season's 19 races. Behind that is their 2014 run, where at least one Mercedes driver was on the podium for every race.</p>
+				<section class="circuits car">
+						{% include fw15c.html %}
+				</section>
+				<p>A new team we see in the top 10 is William's 1993 team. Williams' car that year, the FW15C, featured electronic driver aids like traction control (prevent wheels from spinning) and active suspension (allows the vehicle to optimize its height to maximize its aerodynamic downforce). Alain Prost and Damon Hill won 10 of the 16 races that year, and at least one of them was on the podium in every race.</p>
+			</div>
+		</article>
+	
+		<figure class="sticky" id="podium_plot">
+		</figure>
+		
+	</section>
+	<section class='outro'></section>
+	{% include metric_podium1.html %}
+	{% include metric_podium2.html %}
+</section>

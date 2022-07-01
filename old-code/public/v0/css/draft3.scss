@@ -1,0 +1,45 @@
+---
+---
+$lenny: #556b2f;
+$warm_red: #f9423a;
+$british_green: #004225;
+
+$gap: 4rem;
+
+html {
+	font-size: 21px;
+	line-height: 1.5;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+#placehold0 {
+	background-color: $british_green;
+	height: 50vh;
+
+	p {
+		margin: 0 auto;
+		padding: 5%;
+	}
+}
+
+section {
+	margin-bottom: $gap;
+}
+
+#title_card {
+	// margin-bottom: -2rem;
+	// height: 50vh;
+	
+	.title {
+		font-size: 3.5rem;
+	}
+}
+
+#sankey_chart {
+	height: 55rem;
+}
+
+.graph {
+	margin-bottom: $gap*0.8;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Draft 3</title>
+
+	<!-- make this local later -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
+
+	<!-- local styling -->
+	<link rel="stylesheet" href="../public/css/draft3.css">
+	<link rel="stylesheet" href="../public/css/f1_sankey.css">
+
+</head>
+<body>
+	<div class="container-fluid" id="page_container">
+
+		<section class="row" id="page_header">
+			<div class="col-12" id="placehold0">
+				<p>Graphical Element goes here</p>
+			</div>
+		</section> <!-- end of #page_header row -->
+		<section class="row" id="intro">
+			<header class="col-12" id="title_card">
+				<h1 class="text-center title">The Best Formula One season</h1>
+				<p class="text-center"> by Lenny Martinez Dominguez</p>
+			</header>
+			<div class="col-12 col-md-10 offset-md-1">
+					<p>In the 69-year history of the Formula One World Drivers' Championship, over 800 men and 5 women have raced to win the Driver's Cup, but only <strong>33</strong> drivers have held it.</p>
+					<p>They've all raced for the same 16 teams</p>
+			</div>
+			<div class="w-100"></div>
+			<div class="col-12">
+				<div class="row" style="margin-left: 10px;margin-right:10px;">
+					<div class="col-6 text-left"><h4>Drivers</h4></div>
+					<div class="col-6 text-right"><h4>Constructors</h4></div>
+				</div>
+				<div class="graph" id="sankey_chart">
+				</div>
+			</div>
+			<div class="col-12 col-md-10 offset-md-1">
+				<p>Things to talk about here:</p>
+				<ul>
+					<li>We could talk about father-son champions: Graham and Damon Hill, and Keke and Nico Rosberg, both 34 years apart.</li>
+					<li>1993 Williams and their active suspension</li>
+					<li>AGGHAGHAGAHAGAHAGAHAGAHAG</li>
+					<li>Brawn GP's double diffuser and their rise and fall</li>
+					<li>Mercedes' hybrid engine design</li>
+				</ul>
+				<p>But which of these 16 constructors has had the <strong>best</strong> championship season?</p>
+			</div>
+		</section> <!-- end of intro row -->
+		<section class="row" id="wins">
+			<div class="col-12 col-md-10 offset-md-1">
+				<h2 class="text-center">Method 1: Wins</h2>
+				<p>One way to look for the best championship season is to compare how many races each constructor's drivers won in their championship runs. In Formula One, as in other racing sports, finishing first is the holy grail. The best championship run for a constructor would be one where their team wins every race.</p>
+				<h3>Methodology</h3>
+				<p>For each season:</p>
+				<ol>
+					<li>Find the driver that won the year's Driver's Cup.</li>
+					<li>Look at what constructor he was driving for </li>
+					<li>See how many races the constructor's drivers finished first in.</li>
+					<li>Divide by the number of races in the season to get the percentage of races won.</li>
+				</ol>
+				<div class="row" id="win_scrolly">
+					<div class="col-12 col-md-6">
+							<p>Overall Mercedes and Ferrari championship runs dominate the list of teams who won the most races.</p>
+							<p>In 1988, McLaren became the closest team in modern Formula One to have a golden season. McLaren drivers Alain Prost and Ayrton Senna won every race of the season except for the Italian Grand Prix.</p>
+							<p>In that race, Senna and Prost started first and second on the grid, but Prost was forced to retire after 34 laps due to engine problems. With two laps to go and while leading the race, Senna was also forced to retire due to a collision with Williams driver Jean-Louis Schlesser.</p>
+							<p>In spite of the loss at the Italian Grand Prix, Prost and Senna won 7 and 8 races respectively, and Senna won his first of three Driver's Cup Championships.</p>
+							<p>The other two teams that have come close to having a golden season are Ferrari in 1952 (ranked fourth) and Alfa Romeo in 1950 (ranked fifth). Ferrari competed in every race that season, but was not able to win the year's Indianapolis 500. On the other hand, Alfa Romeo won every race they participated in, but they did not try to enter the 1950 Indianapolis 500.</p>
+							<p>Close behind McLaren's 1988 run are Mercedes's 2016 and Ferrari's 2002 runs.</p>
+							<p>In 2016, Mercedes extended their dominating lead of the hybrid-engine era by winning 19 of the 21 races in the season.</p>
+							<p>Ahead of the 2014 season Formula One's governing body, the FIA, changed several regulations to stimulate competition and the design of the cars. One of the main changes was the move away from 2.4-litre V8 engines to 1.6-litre V6 turbo engines.</p>
+							<p>Mercedes was able to capitulate on the new design regulations and create a car, the Mercedes F1 W05 Hybrid, that enabled Lewis Hamilton and Nico Rosberg to dominate in the 2014 season, winning 16 of the season's 19 races (rank 6, tie).</p>
+
+
+					</div>
+					<div class="col-12 col-md-5 offset-md-1">
+							Graph here
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</section>
+	</div> <!-- end of container-fluid -->
+	
+	<!-- make this local, later -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- local scripts -->
+	<script src="../public/js/d3.v4.js"></script>
+	<script src="../public/js/sankey.js"></script>
+	<script src="../public/js/f1_sankey_v2.js"></script>
+	<script src="../public/js/draft3.js"></script>
+</body>
+</html>

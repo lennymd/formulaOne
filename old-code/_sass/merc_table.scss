@@ -1,0 +1,35 @@
+#merc2015 {
+	max-width: 450px;
+	margin: 3rem auto 0 auto;
+
+	table {
+		margin: 0 auto;
+		td {
+			max-width: 150px;
+		}
+
+	
+		.table_header {
+			text-align: center;
+			font-weight: bold;
+
+			.head {
+				width: 20%;
+				text-decoration: underline;
+				&:first-of-type {
+					text-align: right;
+				}
+			}
+		}
+
+		.race {
+			text-align: right;
+			font-weight: bold;
+		}
+
+		.result {
+			text-align: center;
+		}
+
+	}
+}

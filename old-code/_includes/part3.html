@@ -1,0 +1,24 @@
+<section class="row">
+	<h2 class="section__hed">Best race average</h2>
+	<article class="prose">
+		<p>While looking at podium finishes, you may have noticed we treat all the podium finishes as the same: it doesn't matter if you finish first, second, or third. The reality is very different. If both drivers can finish on the podium, it is less desirable to finish second and third than finishing first and second or first and third.</p>
+		<p>The best possible result a team can have is when one driver finishes first, and the other driver finishes second—a 1–2 finish. The drivers were at their best, the cars didn't have any issues, and the pit crew worked efficiently and effectively to support the drivers. A genuinely perfect season would be one where a team manages a 1–2 finish for every race.</p>
+		<p>Knowing this, we could modify our definition of "best season" as one where a team got the most 1–2 finishes in a season. The winner by this definition would be Mercedes who accomplished twelve 1–2 finishes in 2015.</p>
+		<p>What if instead, we modify our definition of "best season" as one where a team got the closest to a perfect season? How would we measure how close we got to a 1–2 finish? To measure how close a team got a perfect season, let's compute the average finishing position for a team in a race.</p>
+		<section id="merc2015" class="merc_table"></section>
+		<p>In the first race of 2015, Hamilton finished first, and Rosberg finished second. If we average their positions, we get 1.5, which is the average finishing position for Mercedes in the 2015 Malaysian Grand Prix. In the second race, their average is 2.5. If we do this for all the races we get that the average finishing positions for all the races are:$$[1.5, 2.5, 1.5, 2, 1.5, 2, 1.5, 1.5, 1.5, 7, 1.5, 9, 11, 1.5, 9.5, 1.5, 1.5, 1.5, 1.5]$$
+		<br>
+		If we now average this set of numbers, we get a measure of the average finishing position of a team in a season.
+		$$
+		\textrm{average finishing position} = \frac{\sum \textrm{(average finishing position for all the races)}}{\sum \textrm{(total races in season)}}
+		$$
+	In the case of Mercedes, the average finishing position is 3.21, about two times bigger than the average for a perfect season, 1.5. But how does it compare to the other teams?</p>
+		<section class="chart">
+			<section class="averages">{% include svg/average.html %}</section>
+			<!-- <section id="average_desktop"></section> -->
+		</section>
+		<p>Using the current definition for "best season," Mercedes' 2017 run is the best or most dominating championship season. While they did not have the highest percentage of races won or podium finishes, Lewis Hamilton and Valterri Bottas consistently raced at a high level. The lowest either of them placed was ninth (Hamilton at the Mexican Grand Prix), and they only had one retirement in the season (Bottas at the Spanish Grand Prix).</p>
+		<section class='outro'></section>
+		{% include metric_averages.html %}
+	</article>
+</section>

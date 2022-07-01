@@ -1,0 +1,72 @@
+---
+---
+$bg: #E8E3CD;
+$green: #3af942;
+$red: #f9423a;
+$blue: #423af9;
+
+html {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+body {
+  background-color: $bg;
+  font-size: 100%;
+}
+
+.filler {
+  height: 25rem;
+  text-align: center;
+}
+
+#method01-intro {
+  margin-bottom: 1.4rem;
+}
+
+
+#scrolly-overlay .scrolly {
+  max-width: 100rem;
+  margin: 1.4rem auto;
+  padding: 1rem;
+
+  article {
+    padding: 0;
+    max-width: 30rem;
+    margin: 0 auto;
+    position: relative;
+
+    .step {
+      min-height: 67vh;
+      margin-bottom: 1rem;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+      &.is-active {
+        p {
+          background-color: $green;
+        }
+      }
+    }
+    p {
+      margin: 0;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 400;
+      background-color: $bg;
+      transition: background-color 250ms ease-in-out;
+    }
+  }
+}
+
+
+figure.sticky {
+  position: sticky;
+  width: 100%;
+  height: 75vh;
+  margin: 0;
+  background: $red;
+  z-index: -100;
+  top: 25vh;
+
+}

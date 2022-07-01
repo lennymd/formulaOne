@@ -1,0 +1,17 @@
+---
+---
+$off-white: #f4f4f4;
+$bg2: #E8E3CD;
+$bg: #f3f3f3;
+$warm_red: #f9423a;
+$green2: #3af942;
+$green: #2bff00;
+$blue: #423af9;
+$dark: #171717;
+$font_size: 21px;
+$gap: 2em;
+$max_width: 60rem;
+$text_width: $max_width - 5rem;
+$font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+@import "new_layout", "bar_chart";

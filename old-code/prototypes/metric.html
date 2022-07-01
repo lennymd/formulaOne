@@ -1,0 +1,66 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		html {
+			font-size: 18px;
+		}
+		.metric_best {
+			max-width: 35rem;
+			margin: auto;
+			border-radius: 8px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: center;
+			align-content: center;
+		}
+		svg {
+			display: block;
+			width: 95%;
+			margin: auto;
+		}
+		.mercedes {
+			border: 5px solid #2ED2BE;
+		}
+
+		.mclaren {
+			border: 5px solid #FB8703;
+		}
+
+		.team {
+			max-width: 50%;
+			height: auto;
+			margin: auto;
+		}
+		.info{
+			max-width: 45%;
+			margin: auto;
+		}
+		.category {
+			margin-bottom: 0.5rem;
+		}
+		p {
+			margin: 0 0 1rem 0;
+		}
+	</style>
+</head>
+<body>
+	<section class="metric_best mclaren">
+		<section class="team">
+			{% include svg/mclaren.svg %}
+		</section>
+		<section class="info">
+			<h3 class="category">Most wins in a single season</h3>
+			<p>Mercedes 2016</p>
+		</section>
+	</section>
+</body>
+</html>
