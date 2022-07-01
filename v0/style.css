@@ -1,0 +1,433 @@
+.p__header {
+  width: 100%;
+  height: 4em;
+  background-color: #e10600;
+}
+.filler {
+  width: 100%;
+  height: 15rem;
+  background-color: #2bff00;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.65;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 1280px;
+  background-color: #f3f3f3;
+  color: #171717;
+}
+body p {
+  margin: 0 auto;
+}
+#page_header {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#page_header #smoke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#page_header img {
+  object-fit: fill;
+  background-size: cover;
+  width: 100%;
+}
+#page_header header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+#page_header header #title {
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+#page_header header #subhed {
+  margin: 0;
+  font-size: 1.1rem;
+}
+header #byline {
+  font-size: 0.75rem;
+}
+.row {
+  margin: 0;
+}
+.outro {
+  height: 100px;
+  display: block;
+}
+article.prose {
+  font-size: 1rem;
+  padding: 0 1em;
+  margin: 2em auto 0 auto;
+  max-width: 50rem;
+}
+article.prose > * {
+  margin-top: 2.2em;
+}
+article.prose > *:first-child {
+  margin-top: 0;
+}
+article.prose > *:last-child {
+  margin-bottom: 2em;
+}
+article.prose > ul,
+article.prose > ol {
+  margin-top: 1.8em;
+}
+article.prose p {
+  max-width: 45rem;
+}
+article.prose .footnote {
+  display: inline;
+}
+.mobile {
+  width: 100%;
+  margin: 0 auto;
+}
+.averages {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.section__hed {
+  text-align: center;
+  margin: 2em 0 0;
+}
+.static_graph {
+  max-width: 75vw;
+  margin: 0 auto;
+}
+.circuits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+.circuits .part {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 0.25rem;
+  min-width: 200px;
+}
+.circuits img {
+  width: 100%;
+}
+.circuits .img_caption {
+  margin-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+.circuits #circuit1 {
+  margin-bottom: 2em;
+}
+.car {
+  margin: 2rem auto 0 auto !important;
+}
+.container_center {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+.image_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image_container .driver {
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.image_container img {
+  width: 100%;
+  margin: 0 auto;
+}
+.image_container .caption {
+  text-align: justify;
+  font-size: 0.75rem;
+}
+p.subcase {
+  margin-left: 2em;
+  margin-top: 0.5rem !important;
+}
+.mjx-chtml {
+  font-size: 105% !important;
+}
+.metric_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 45rem;
+  margin: 0 auto;
+}
+.scrolly {
+  margin-top: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f3f3f3;
+}
+.scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+article {
+  position: relative;
+  max-width: 50rem;
+}
+figure {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.step {
+  margin: 0 auto;
+  color: #171717;
+  padding: 0 2em;
+}
+.step:last-child {
+  margin-bottom: 0;
+}
+.step p {
+  margin-top: 2em;
+}
+.step p:first-child {
+  margin-top: 0;
+}
+.step p:last-child {
+  margin-bottom: 2em;
+}
+.inner_text {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.y.axis line,
+.y.axis .domain {
+  opacity: 0 !important;
+}
+.axis_text {
+  font-size: 0.9rem;
+}
+.x_label {
+  font-weight: bold;
+}
+#merc2015 {
+  max-width: 450px;
+  margin: 3rem auto 0 auto;
+}
+#merc2015 table {
+  margin: 0 auto;
+}
+#merc2015 table td {
+  max-width: 150px;
+}
+#merc2015 table .table_header {
+  text-align: center;
+  font-weight: bold;
+}
+#merc2015 table .table_header .head {
+  width: 20%;
+  text-decoration: underline;
+}
+#merc2015 table .table_header .head:first-of-type {
+  text-align: right;
+}
+#merc2015 table .race {
+  text-align: right;
+  font-weight: bold;
+}
+#merc2015 table .result {
+  text-align: center;
+}
+.x.axis > .tick > line {
+  opacity: 0.7 !important;
+  stroke: lightgrey !important;
+}
+.x.axis path.domain {
+  opacity: 0 !important;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 180px;
+  height: 60px;
+  padding: 10px 0px;
+  font: 16px sans-serif;
+  background: #f3f3f3;
+  border: 1px solid #171717;
+  border-radius: 8px;
+  pointer-events: none;
+}
+br {
+  margin: 10px 0;
+}
+.activity_graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.activity_graph h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.activity_graph #description {
+  font-size: 0.9rem;
+  text-align: left;
+  margin: 0;
+  text-align: justify;
+}
+.metric_best {
+  max-width: 20rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.metric_best svg {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+.metric_best .team {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
+.metric_best .info {
+  max-width: 45%;
+  margin: auto;
+}
+.metric_best .category {
+  margin-bottom: 0.5rem;
+}
+.metric_best p {
+  margin: 0 0 1rem 0;
+}
+.metric_best.mercedes {
+  border: 5px solid #2ed2be;
+}
+.metric_best.mclaren {
+  border: 5px solid #fb8703;
+}
+@media (max-width: 575.98px) {
+  .mobile {
+    display: block !important;
+  }
+  #win_plot,
+  #podium_plot,
+  #average_desktop {
+    display: none;
+  }
+  .circuits .part {
+    max-width: 800px;
+  }
+  .container_center {
+    display: none;
+  }
+  .outro {
+    display: none;
+  }
+  p.img_caption {
+    margin-bottom: 0.5rem !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mobile {
+    display: block !important;
+  }
+  .outro {
+    display: none;
+  }
+  #win_plot,
+  #podium_plot,
+  #average_desktop {
+    display: none;
+  }
+  .circuits .part {
+    max-width: 800px;
+  }
+  .container_center .driver {
+    max-width: 400px;
+  }
+  p.img_caption {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mobile {
+    display: none;
+  }
+  #win_plot,
+  #podium_plot,
+  #average_desktop {
+    display: block;
+  }
+  .scrolly {
+    margin-top: 3.5em;
+  }
+  .outro {
+    display: none;
+  }
+  p.img_caption {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mobile {
+    display: none;
+  }
+  #win_plot,
+  #podium_plot,
+  #average_desktop {
+    display: block;
+  }
+  .scrolly {
+    margin-top: 3.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+  #win_plot,
+  #podium_plot,
+  #average_desktop {
+    display: block;
+  }
+  .scrolly {
+    margin-top: 3.5em;
+  }
+}

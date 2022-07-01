@@ -1,0 +1,163 @@
+raceId2,driverName,constructorRef,grid,positionOrder,points,year,round,prixDate,prixName
+389,Ayrton Senna,toleman,16,26,0,1984,1,1984-03-25,Brazilian Grand Prix
+390,Ayrton Senna,toleman,13,6,1,1984,2,1984-04-07,South African Grand Prix
+391,Ayrton Senna,toleman,19,6,1,1984,3,1984-04-29,Belgian Grand Prix
+392,Ayrton Senna,toleman,0,28,0,1984,4,1984-05-06,San Marino Grand Prix
+393,Ayrton Senna,toleman,13,19,0,1984,5,1984-05-20,French Grand Prix
+394,Ayrton Senna,toleman,13,2,3,1984,6,1984-06-03,Monaco Grand Prix
+395,Ayrton Senna,toleman,9,7,0,1984,7,1984-06-17,Canadian Grand Prix
+396,Ayrton Senna,toleman,7,19,0,1984,8,1984-06-24,Detroit Grand Prix
+397,Ayrton Senna,toleman,6,14,0,1984,9,1984-07-08,Dallas Grand Prix
+398,Ayrton Senna,toleman,7,3,4,1984,10,1984-07-22,British Grand Prix
+399,Ayrton Senna,toleman,9,25,0,1984,11,1984-08-05,German Grand Prix
+400,Ayrton Senna,toleman,10,14,0,1984,12,1984-08-19,Austrian Grand Prix
+401,Ayrton Senna,toleman,13,23,0,1984,13,1984-08-26,Dutch Grand Prix
+403,Ayrton Senna,toleman,12,23,0,1984,15,1984-10-07,European Grand Prix
+404,Ayrton Senna,toleman,3,3,4,1984,16,1984-10-21,Portuguese Grand Prix
+405,Ayrton Senna,team_lotus,4,15,0,1985,1,1985-04-07,Brazilian Grand Prix
+406,Ayrton Senna,team_lotus,1,1,9,1985,2,1985-04-21,Portuguese Grand Prix
+407,Ayrton Senna,team_lotus,1,7,0,1985,3,1985-05-05,San Marino Grand Prix
+408,Ayrton Senna,team_lotus,1,16,0,1985,4,1985-05-19,Monaco Grand Prix
+409,Ayrton Senna,team_lotus,2,16,0,1985,5,1985-06-16,Canadian Grand Prix
+410,Ayrton Senna,team_lotus,1,13,0,1985,6,1985-06-23,Detroit Grand Prix
+411,Ayrton Senna,team_lotus,2,18,0,1985,7,1985-07-07,French Grand Prix
+412,Ayrton Senna,team_lotus,4,10,0,1985,8,1985-07-21,British Grand Prix
+413,Ayrton Senna,team_lotus,5,17,0,1985,9,1985-08-04,German Grand Prix
+414,Ayrton Senna,team_lotus,14,2,6,1985,10,1985-08-18,Austrian Grand Prix
+415,Ayrton Senna,team_lotus,4,3,4,1985,11,1985-08-25,Dutch Grand Prix
+416,Ayrton Senna,team_lotus,1,3,4,1985,12,1985-09-08,Italian Grand Prix
+417,Ayrton Senna,team_lotus,2,1,9,1985,13,1985-09-15,Belgian Grand Prix
+418,Ayrton Senna,team_lotus,1,2,6,1985,14,1985-10-06,European Grand Prix
+419,Ayrton Senna,team_lotus,4,12,0,1985,15,1985-10-19,South African Grand Prix
+420,Ayrton Senna,team_lotus,1,9,0,1985,16,1985-11-03,Australian Grand Prix
+421,Ayrton Senna,team_lotus,1,2,6,1986,1,1986-03-23,Brazilian Grand Prix
+422,Ayrton Senna,team_lotus,1,1,9,1986,2,1986-04-13,Spanish Grand Prix
+423,Ayrton Senna,team_lotus,1,21,0,1986,3,1986-04-27,San Marino Grand Prix
+424,Ayrton Senna,team_lotus,3,3,4,1986,4,1986-05-11,Monaco Grand Prix
+425,Ayrton Senna,team_lotus,4,2,6,1986,5,1986-05-25,Belgian Grand Prix
+426,Ayrton Senna,team_lotus,2,5,2,1986,6,1986-06-15,Canadian Grand Prix
+427,Ayrton Senna,team_lotus,1,1,9,1986,7,1986-06-22,Detroit Grand Prix
+428,Ayrton Senna,team_lotus,1,22,0,1986,8,1986-07-06,French Grand Prix
+429,Ayrton Senna,team_lotus,3,16,0,1986,9,1986-07-13,British Grand Prix
+430,Ayrton Senna,team_lotus,3,2,6,1986,10,1986-07-27,German Grand Prix
+431,Ayrton Senna,team_lotus,1,2,6,1986,11,1986-08-10,Hungarian Grand Prix
+432,Ayrton Senna,team_lotus,8,19,0,1986,12,1986-08-17,Austrian Grand Prix
+433,Ayrton Senna,team_lotus,5,27,0,1986,13,1986-09-07,Italian Grand Prix
+434,Ayrton Senna,team_lotus,1,4,3,1986,14,1986-09-21,Portuguese Grand Prix
+435,Ayrton Senna,team_lotus,1,3,4,1986,15,1986-10-12,Mexican Grand Prix
+436,Ayrton Senna,team_lotus,3,19,0,1986,16,1986-10-26,Australian Grand Prix
+437,Ayrton Senna,team_lotus,3,14,0,1987,1,1987-04-12,Brazilian Grand Prix
+438,Ayrton Senna,team_lotus,1,2,6,1987,2,1987-05-03,San Marino Grand Prix
+439,Ayrton Senna,team_lotus,3,15,0,1987,3,1987-05-17,Belgian Grand Prix
+440,Ayrton Senna,team_lotus,2,1,9,1987,4,1987-05-31,Monaco Grand Prix
+441,Ayrton Senna,team_lotus,2,1,9,1987,5,1987-06-21,Detroit Grand Prix
+442,Ayrton Senna,team_lotus,3,4,3,1987,6,1987-07-05,French Grand Prix
+443,Ayrton Senna,team_lotus,3,3,4,1987,7,1987-07-12,British Grand Prix
+444,Ayrton Senna,team_lotus,2,3,4,1987,8,1987-07-26,German Grand Prix
+445,Ayrton Senna,team_lotus,6,2,6,1987,9,1987-08-09,Hungarian Grand Prix
+446,Ayrton Senna,team_lotus,7,5,2,1987,10,1987-08-16,Austrian Grand Prix
+447,Ayrton Senna,team_lotus,4,2,6,1987,11,1987-09-06,Italian Grand Prix
+448,Ayrton Senna,team_lotus,5,7,0,1987,12,1987-09-20,Portuguese Grand Prix
+449,Ayrton Senna,team_lotus,5,5,2,1987,13,1987-09-27,Spanish Grand Prix
+450,Ayrton Senna,team_lotus,7,10,0,1987,14,1987-10-18,Mexican Grand Prix
+451,Ayrton Senna,team_lotus,7,2,6,1987,15,1987-11-01,Japanese Grand Prix
+452,Ayrton Senna,team_lotus,4,10,0,1987,16,1987-11-15,Australian Grand Prix
+453,Ayrton Senna,mclaren,1,17,0,1988,1,1988-04-03,Brazilian Grand Prix
+454,Ayrton Senna,mclaren,1,1,9,1988,2,1988-05-01,San Marino Grand Prix
+455,Ayrton Senna,mclaren,1,11,0,1988,3,1988-05-15,Monaco Grand Prix
+456,Ayrton Senna,mclaren,1,2,6,1988,4,1988-05-29,Mexican Grand Prix
+457,Ayrton Senna,mclaren,1,1,9,1988,5,1988-06-12,Canadian Grand Prix
+458,Ayrton Senna,mclaren,1,1,9,1988,6,1988-06-19,Detroit Grand Prix
+459,Ayrton Senna,mclaren,2,2,6,1988,7,1988-07-03,French Grand Prix
+460,Ayrton Senna,mclaren,3,1,9,1988,8,1988-07-10,British Grand Prix
+461,Ayrton Senna,mclaren,1,1,9,1988,9,1988-07-24,German Grand Prix
+462,Ayrton Senna,mclaren,1,1,9,1988,10,1988-08-07,Hungarian Grand Prix
+463,Ayrton Senna,mclaren,1,1,9,1988,11,1988-08-28,Belgian Grand Prix
+464,Ayrton Senna,mclaren,1,10,0,1988,12,1988-09-11,Italian Grand Prix
+465,Ayrton Senna,mclaren,2,6,1,1988,13,1988-09-25,Portuguese Grand Prix
+466,Ayrton Senna,mclaren,1,4,3,1988,14,1988-10-02,Spanish Grand Prix
+467,Ayrton Senna,mclaren,1,1,9,1988,15,1988-10-30,Japanese Grand Prix
+468,Ayrton Senna,mclaren,1,2,6,1988,16,1988-11-13,Australian Grand Prix
+469,Ayrton Senna,mclaren,1,11,0,1989,1,1989-03-26,Brazilian Grand Prix
+470,Ayrton Senna,mclaren,1,1,9,1989,2,1989-04-23,San Marino Grand Prix
+471,Ayrton Senna,mclaren,1,1,9,1989,3,1989-05-07,Monaco Grand Prix
+472,Ayrton Senna,mclaren,1,1,9,1989,4,1989-05-28,Mexican Grand Prix
+473,Ayrton Senna,mclaren,1,15,0,1989,5,1989-06-04,United States Grand Prix
+474,Ayrton Senna,mclaren,2,7,0,1989,6,1989-06-18,Canadian Grand Prix
+475,Ayrton Senna,mclaren,2,26,0,1989,7,1989-07-09,French Grand Prix
+476,Ayrton Senna,mclaren,1,25,0,1989,8,1989-07-16,British Grand Prix
+477,Ayrton Senna,mclaren,1,1,9,1989,9,1989-07-30,German Grand Prix
+478,Ayrton Senna,mclaren,2,2,6,1989,10,1989-08-13,Hungarian Grand Prix
+479,Ayrton Senna,mclaren,1,1,9,1989,11,1989-08-27,Belgian Grand Prix
+480,Ayrton Senna,mclaren,1,13,0,1989,12,1989-09-10,Italian Grand Prix
+481,Ayrton Senna,mclaren,1,17,0,1989,13,1989-09-24,Portuguese Grand Prix
+482,Ayrton Senna,mclaren,1,1,9,1989,14,1989-10-01,Spanish Grand Prix
+483,Ayrton Senna,mclaren,1,11,0,1989,15,1989-10-22,Japanese Grand Prix
+484,Ayrton Senna,mclaren,1,15,0,1989,16,1989-11-05,Australian Grand Prix
+485,Ayrton Senna,mclaren,5,1,9,1990,1,1990-03-11,United States Grand Prix
+486,Ayrton Senna,mclaren,1,3,4,1990,2,1990-03-25,Brazilian Grand Prix
+487,Ayrton Senna,mclaren,1,22,0,1990,3,1990-05-13,San Marino Grand Prix
+488,Ayrton Senna,mclaren,1,1,9,1990,4,1990-05-27,Monaco Grand Prix
+489,Ayrton Senna,mclaren,1,1,9,1990,5,1990-06-10,Canadian Grand Prix
+490,Ayrton Senna,mclaren,3,20,0,1990,6,1990-06-24,Mexican Grand Prix
+491,Ayrton Senna,mclaren,3,3,4,1990,7,1990-07-08,French Grand Prix
+492,Ayrton Senna,mclaren,2,3,4,1990,8,1990-07-15,British Grand Prix
+493,Ayrton Senna,mclaren,1,1,9,1990,9,1990-07-29,German Grand Prix
+494,Ayrton Senna,mclaren,4,2,6,1990,10,1990-08-12,Hungarian Grand Prix
+495,Ayrton Senna,mclaren,1,1,9,1990,11,1990-08-26,Belgian Grand Prix
+496,Ayrton Senna,mclaren,1,1,9,1990,12,1990-09-09,Italian Grand Prix
+497,Ayrton Senna,mclaren,3,2,6,1990,13,1990-09-23,Portuguese Grand Prix
+498,Ayrton Senna,mclaren,1,14,0,1990,14,1990-09-30,Spanish Grand Prix
+499,Ayrton Senna,mclaren,1,23,0,1990,15,1990-10-21,Japanese Grand Prix
+500,Ayrton Senna,mclaren,1,15,0,1990,16,1990-11-04,Australian Grand Prix
+501,Ayrton Senna,mclaren,1,1,10,1991,1,1991-03-10,United States Grand Prix
+502,Ayrton Senna,mclaren,1,1,10,1991,2,1991-03-24,Brazilian Grand Prix
+503,Ayrton Senna,mclaren,1,1,10,1991,3,1991-04-28,San Marino Grand Prix
+504,Ayrton Senna,mclaren,1,1,10,1991,4,1991-05-12,Monaco Grand Prix
+505,Ayrton Senna,mclaren,3,19,0,1991,5,1991-06-02,Canadian Grand Prix
+506,Ayrton Senna,mclaren,3,3,4,1991,6,1991-06-16,Mexican Grand Prix
+507,Ayrton Senna,mclaren,3,3,4,1991,7,1991-07-07,French Grand Prix
+508,Ayrton Senna,mclaren,2,4,3,1991,8,1991-07-14,British Grand Prix
+509,Ayrton Senna,mclaren,2,7,0,1991,9,1991-07-28,German Grand Prix
+510,Ayrton Senna,mclaren,1,1,10,1991,10,1991-08-11,Hungarian Grand Prix
+511,Ayrton Senna,mclaren,1,1,10,1991,11,1991-08-25,Belgian Grand Prix
+512,Ayrton Senna,mclaren,1,2,6,1991,12,1991-09-08,Italian Grand Prix
+513,Ayrton Senna,mclaren,3,2,6,1991,13,1991-09-22,Portuguese Grand Prix
+514,Ayrton Senna,mclaren,3,5,2,1991,14,1991-09-29,Spanish Grand Prix
+515,Ayrton Senna,mclaren,2,2,6,1991,15,1991-10-20,Japanese Grand Prix
+516,Ayrton Senna,mclaren,1,1,5,1991,16,1991-11-03,Australian Grand Prix
+517,Ayrton Senna,mclaren,2,3,4,1992,1,1992-03-01,South African Grand Prix
+518,Ayrton Senna,mclaren,6,22,0,1992,2,1992-03-22,Mexican Grand Prix
+519,Ayrton Senna,mclaren,3,23,0,1992,3,1992-04-05,Brazilian Grand Prix
+520,Ayrton Senna,mclaren,3,9,0,1992,4,1992-05-03,Spanish Grand Prix
+521,Ayrton Senna,mclaren,3,3,4,1992,5,1992-05-17,San Marino Grand Prix
+522,Ayrton Senna,mclaren,3,1,10,1992,6,1992-05-31,Monaco Grand Prix
+523,Ayrton Senna,mclaren,1,18,0,1992,7,1992-06-14,Canadian Grand Prix
+524,Ayrton Senna,mclaren,3,23,0,1992,8,1992-07-05,French Grand Prix
+525,Ayrton Senna,mclaren,3,18,0,1992,9,1992-07-12,British Grand Prix
+526,Ayrton Senna,mclaren,3,2,6,1992,10,1992-07-26,German Grand Prix
+527,Ayrton Senna,mclaren,3,1,10,1992,11,1992-08-16,Hungarian Grand Prix
+528,Ayrton Senna,mclaren,2,5,2,1992,12,1992-08-30,Belgian Grand Prix
+529,Ayrton Senna,mclaren,2,1,10,1992,13,1992-09-13,Italian Grand Prix
+530,Ayrton Senna,mclaren,3,3,4,1992,14,1992-09-27,Portuguese Grand Prix
+531,Ayrton Senna,mclaren,3,26,0,1992,15,1992-10-25,Japanese Grand Prix
+532,Ayrton Senna,mclaren,2,21,0,1992,16,1992-11-08,Australian Grand Prix
+533,Ayrton Senna,mclaren,2,2,6,1993,1,1993-03-14,South African Grand Prix
+534,Ayrton Senna,mclaren,3,1,10,1993,2,1993-03-28,Brazilian Grand Prix
+535,Ayrton Senna,mclaren,4,1,10,1993,3,1993-04-11,European Grand Prix
+536,Ayrton Senna,mclaren,4,12,0,1993,4,1993-04-25,San Marino Grand Prix
+537,Ayrton Senna,mclaren,3,2,6,1993,5,1993-05-09,Spanish Grand Prix
+538,Ayrton Senna,mclaren,3,1,10,1993,6,1993-05-23,Monaco Grand Prix
+539,Ayrton Senna,mclaren,8,18,0,1993,7,1993-06-13,Canadian Grand Prix
+540,Ayrton Senna,mclaren,5,4,3,1993,8,1993-07-04,French Grand Prix
+541,Ayrton Senna,mclaren,4,5,2,1993,9,1993-07-11,British Grand Prix
+542,Ayrton Senna,mclaren,4,4,3,1993,10,1993-07-25,German Grand Prix
+543,Ayrton Senna,mclaren,4,24,0,1993,11,1993-08-15,Hungarian Grand Prix
+544,Ayrton Senna,mclaren,5,4,3,1993,12,1993-08-29,Belgian Grand Prix
+545,Ayrton Senna,mclaren,4,21,0,1993,13,1993-09-12,Italian Grand Prix
+546,Ayrton Senna,mclaren,4,24,0,1993,14,1993-09-26,Portuguese Grand Prix
+547,Ayrton Senna,mclaren,2,1,10,1993,15,1993-10-24,Japanese Grand Prix
+548,Ayrton Senna,mclaren,1,1,10,1993,16,1993-11-07,Australian Grand Prix
+549,Ayrton Senna,williams,1,13,0,1994,1,1994-03-27,Brazilian Grand Prix
+550,Ayrton Senna,williams,1,24,0,1994,2,1994-04-17,Pacific Grand Prix
+551,Ayrton Senna,williams,1,22,0,1994,3,1994-05-01,San Marino Grand Prix
